@@ -256,31 +256,50 @@ function SampleWork() {
 function About() {
   return (
     <section id="about" className="py-24 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-start">
-        <div>
-          <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
-            <span className="w-6 h-px bg-orange-500" />
-            Who we are
+      <div className="max-w-6xl mx-auto">
+        {/* Top: bio + photos */}
+        <div className="grid md:grid-cols-2 gap-16 items-start mb-12">
+          <div>
+            <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
+              <span className="w-6 h-px bg-orange-500" />
+              Who we are
+            </div>
+            <h2 className="text-4xl font-bold leading-tight mb-6">
+              Global thinkers.<br />Bilingual by nature.<br />Colorado-based.
+            </h2>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
+              Doble AI was founded by John and Gisella Rounds in the Eagle River Valley.
+              John brings decades of global business development experience — having
+              worked and traveled across more than 50 countries. He is bilingual in
+              English and Spanish, and has spent his career helping businesses grow
+              in complex, multicultural environments around the world.
+            </p>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed">
+              Gisella is originally from Peru. Her bilingual fluency and deep
+              cultural knowledge aren&apos;t a feature we bolted on — they&apos;re
+              the foundation of how we think about every client&apos;s market.
+              Together, we combine genuine cross-cultural expertise with the latest
+              AI tools to help Colorado businesses reach more customers and grow faster.
+            </p>
           </div>
-          <h2 className="text-4xl font-bold leading-tight mb-6">
-            Global thinkers.<br />Bilingual by nature.<br />Colorado-based.
-          </h2>
-          <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
-            Doble AI was founded by John and Gisella Rounds in the Eagle River Valley.
-            John brings decades of global business development experience — having
-            worked and traveled across more than 50 countries. He is bilingual in
-            English and Spanish, and has spent his career helping businesses grow
-            in complex, multicultural environments around the world.
-          </p>
-          <p className="text-[#a3a3a3] text-lg leading-relaxed">
-            Gisella is originally from Peru. Her bilingual fluency and deep
-            cultural knowledge aren&apos;t a feature we bolted on — they&apos;re
-            the foundation of how we think about every client&apos;s market.
-            Together, we combine genuine cross-cultural expertise with the latest
-            AI tools to help Colorado businesses reach more customers and grow faster.
-          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="/john-rounds.jpeg"
+              alt="John Rounds, founder of Doble AI"
+              className="w-full rounded-2xl object-cover object-top"
+              style={{ aspectRatio: "3/4" }}
+            />
+            <img
+              src="/john-and-gisella.jpeg"
+              alt="John and Gisella Rounds, founders of Doble AI"
+              className="w-full rounded-2xl object-cover object-top"
+              style={{ aspectRatio: "3/4" }}
+            />
+          </div>
         </div>
-        <div className="flex flex-col gap-4">
+
+        {/* Bottom: feature cards */}
+        <div className="grid md:grid-cols-3 gap-4">
           {[
             {
               title: "Natively Bilingual",
