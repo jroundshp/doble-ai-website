@@ -257,8 +257,8 @@ function About() {
   return (
     <section id="about" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
-        {/* Top: bio + photos */}
-        <div className="grid md:grid-cols-2 gap-16 items-start mb-12">
+        {/* Top: bio + John headshot */}
+        <div className="grid md:grid-cols-2 gap-16 items-start mb-10">
           <div>
             <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
               <span className="w-6 h-px bg-orange-500" />
@@ -282,20 +282,24 @@ function About() {
               AI tools to help Colorado businesses reach more customers and grow faster.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div>
             <img
               src="/john-rounds.jpeg"
               alt="John Rounds, founder of Doble AI"
               className="w-full rounded-2xl object-cover object-top"
               style={{ aspectRatio: "3/4" }}
             />
-            <img
-              src="/john-and-gisella.jpeg"
-              alt="John and Gisella Rounds, founders of Doble AI"
-              className="w-full rounded-2xl object-cover object-top"
-              style={{ aspectRatio: "3/4" }}
-            />
           </div>
+        </div>
+
+        {/* Colorado photo — full width */}
+        <div className="mb-12 rounded-2xl overflow-hidden">
+          <img
+            src="/john-and-gisella.jpeg"
+            alt="John and Gisella Rounds in Colorado"
+            className="w-full object-cover object-top"
+            style={{ maxHeight: "380px" }}
+          />
         </div>
 
         {/* Bottom: feature cards */}
