@@ -316,7 +316,7 @@ function Contact() {
           We&apos;ll take a look at your current online presence and tell you exactly
           where the gaps are — no obligation, no pitch deck.
         </p>
-        <form className="flex flex-col gap-4 text-left" action="#" method="POST">
+        <form className="flex flex-col gap-4 text-left" action="https://formspree.io/f/mnjopzbw" method="POST">
           <div className="grid md:grid-cols-2 gap-4">
             <input
               type="text"
