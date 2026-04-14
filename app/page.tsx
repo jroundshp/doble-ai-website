@@ -301,7 +301,7 @@ function About() {
             src={johnGisellaPhoto}
             alt="John and Gisella Rounds in Colorado"
             className="rounded-2xl object-cover"
-            style={{ maxWidth: "500px", width: "100%", height: "auto", transform: "rotate(180deg)" }}
+            style={{ maxWidth: "500px", width: "100%", height: "auto" }}
           />
         </div>
 
