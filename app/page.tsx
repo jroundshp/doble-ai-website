@@ -206,9 +206,9 @@ function SampleWork() {
             <div className="text-xs font-bold text-orange-500 tracking-widest uppercase mb-3">
               Business Audit · April 2026
             </div>
-            <h3 className="text-2xl font-semibold mb-2">Rocky Mountain Finishes</h3>
+            <h3 className="text-2xl font-semibold mb-2">Colorado Trade Business</h3>
             <p className="text-[#a3a3a3] mb-6">
-              Craig, Colorado — Pre-finishing operation serving the Vail, Aspen, and
+              Northwest Colorado — Specialty contractor serving the Vail, Aspen, and
               Steamboat luxury corridor. Full competitive analysis, digital presence
               audit, and growth recommendations.
             </p>
