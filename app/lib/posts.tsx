@@ -131,14 +131,17 @@ export const posts: Post[] = [
           of effort pointed in the wrong direction.
         </p>
         <p>
-          For businesses that decide the Spanish-speaking market is worth
-          pursuing, we can extend the competitive analysis to cover that
-          landscape as well — Spanish-language search behavior, who&apos;s
-          competing there, and where the real gaps are. Combined with an
-          authentic Spanish content strategy, it becomes a complete playbook for
-          entering that market. But that&apos;s a decision you should make based
-          on data, not assumption — and the competitive analysis is how you get
-          that data.
+          Whether your focus is purely on growing your English-language presence
+          or you also want to explore what&apos;s possible in the
+          Spanish-speaking market, the process is the same: audit where you
+          stand, identify the gaps, build a strategy, and execute. We work with
+          businesses at every point on that spectrum. For some, the opportunity
+          is entirely on the English side — better search visibility, stronger
+          reviews, sharper messaging. For others, expanding into the
+          Spanish-speaking market becomes a logical next step once the foundation
+          is solid. Either way, the competitive analysis gives you the clarity to
+          make that call — and we&apos;re equipped to build the game plan and
+          execute it, whichever direction makes sense for your business.
         </p>
 
         <CTA />
