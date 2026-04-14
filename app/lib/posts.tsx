@@ -257,106 +257,120 @@ export const posts: Post[] = [
     ),
   },
   {
-    slug: "ai-tools-for-business-growth",
-    title: "5 AI Tools Every Small Business Should Be Using Right Now",
+    slug: "ai-roadmap-business-owners",
+    title: "From Curious to Capable: A Business Owner's Roadmap to AI",
     excerpt:
-      "AI isn't just for big companies. These five tools are practical, affordable, and giving small businesses a measurable edge — here's how to actually use them.",
-    date: "April 7, 2026",
-    category: "AI Tools",
+      "You don't have to go all-in on AI to get real value from it. Here's an honest roadmap — from first conversation to full implementation — so you can decide exactly how far you want to take it.",
+    date: "April 14, 2026",
+    category: "AI Strategy",
     readTime: "5 min read",
     coverImage:
-      "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80",
-    coverAlt: "Abstract AI technology visualization",
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Business owner working at laptop, planning their AI strategy",
     content: (
       <>
         <p>
-          The AI conversation often sounds like it&apos;s aimed at Fortune 500
-          companies with dedicated data science teams. It isn&apos;t. The tools
-          that are actually moving the needle for small businesses are practical,
-          affordable, and available right now. Here are five worth your
-          attention.
+          Most conversations about AI skip straight to the advanced stuff —
+          agents, automation, code generation — and leave the average business
+          owner feeling like it&apos;s all out of reach. It isn&apos;t. There
+          is a clear progression, and you can get real value at every stage. You
+          don&apos;t have to go all the way to the end to benefit. But if you
+          want to, the path is there.
+        </p>
+        <p>
+          Here&apos;s how we think about it — three stages, each one building
+          on the last.
         </p>
 
-        <h2>1. Claude or ChatGPT — for Content at Scale</h2>
+        <h2>Stage 1 — The Conversation (Beginner)</h2>
         <p>
-          The clearest ROI in AI for most small businesses is content creation.
-          Blog posts, email sequences, social captions, service descriptions,
-          FAQ pages — these take hours to write well and minutes to produce with
-          a good AI model. The key is feeding it context: your voice, your
-          customers, your specific market. A well-prompted AI doesn&apos;t
-          produce generic content — it produces a first draft that sounds like
-          you and just needs editing.
+          The first step is simply starting to use AI as a thinking partner.
+          Tools like ChatGPT, Grok, Claude, and Perplexity are free or
+          low-cost, require no technical knowledge, and are available right now
+          in your browser. You type a question. You get a thoughtful, detailed
+          answer.
         </p>
         <p>
-          And if you reach a point where pursuing the Spanish-speaking market
-          makes sense for your business, these same tools become the foundation
-          for a bilingual content strategy. We can build out authentic
-          Spanish-language content — not translations, but content written for
-          that audience — alongside a market strategy for reaching them. It&apos;s
-          a separate conversation, but one we&apos;re well-equipped to have when
-          you&apos;re ready for it.
+          At this stage you&apos;re using AI the same way you&apos;d use a
+          knowledgeable advisor: ask it to help you write an email, brainstorm a
+          promotion, summarize a document, or think through a business decision.
+          The output still requires your judgment — you review it, edit it, and
+          apply it manually. But you&apos;re already saving hours and getting
+          better results than you would on your own.
         </p>
-
-        <h2>2. Perplexity AI — for Market and Competitor Research</h2>
         <p>
-          Perplexity is a research tool that synthesizes the web and cites its
-          sources. Ask it what your competitors are known for, what customers are
-          saying about your category, or what trends are emerging in your market.
-          It surfaces intelligence in minutes that used to take hours of tab
-          switching. Use it regularly and you&apos;ll never be surprised by what
-          a competitor is doing.
+          This stage alone is valuable. Most business owners who start here
+          immediately find three or four tasks they were doing the hard way.
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80"
-          alt="Small business team working together on growth strategy"
+          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=80"
+          alt="Business owner reviewing AI-generated strategy and plans"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>3. Semrush or Ahrefs — for Search Visibility</h2>
+        <h2>Stage 2 — The Strategy (Intermediate)</h2>
         <p>
-          Both tools now have robust AI features layered on top of their core
-          SEO data. You can see exactly what search terms your competitors rank
-          for, which ones they&apos;re winning, and where the gaps are. More
-          importantly, the AI content tools in both platforms can help you build
-          a content plan specifically designed to capture the traffic you
-          currently aren&apos;t getting. This is the foundation of sustainable
-          organic growth.
+          Once you&apos;re comfortable asking AI questions, the next step is
+          learning to ask better ones. This is the difference between getting a
+          useful answer and getting exactly what you need.
+        </p>
+        <p>
+          At this stage you&apos;re using AI for more structured work: market
+          research, competitive analysis, content planning, customer messaging.
+          You&apos;re giving it context — your industry, your customers, your
+          goals — and directing it toward specific outcomes. The quality of what
+          you get out is directly tied to the quality of what you put in, and
+          learning to prompt well is a skill that compounds over time.
+        </p>
+        <p>
+          A business owner at Stage 2 might use AI to map out a 90-day
+          marketing plan, analyze competitor reviews for positioning insights,
+          draft a complete email sequence, or build a content calendar. The work
+          is still reviewed and executed by a human — but the thinking,
+          research, and drafting are dramatically faster.
+        </p>
+        <p>
+          Most business owners will operate comfortably at Stage 1 and Stage 2,
+          and that&apos;s a completely legitimate place to be. The ROI is real
+          and the learning curve is manageable.
         </p>
 
-        <h2>4. Canva AI — for Visual Content Without a Designer</h2>
+        <h2>Stage 3 — The Builder (Advanced)</h2>
         <p>
-          Canva&apos;s AI features have matured into something genuinely useful:
-          background removal, image generation, auto-resizing for every platform,
-          and AI-assisted design suggestions. For a small business posting
-          consistently to Instagram, Google Business, and email, Canva AI
-          removes the bottleneck of needing design resources. Consistent,
-          on-brand visuals are now a realistic standard for any business with a
-          phone and an afternoon.
+          This is where AI stops being an advisor and starts being an executor.
+          Tools like Claude inside VS Code — a professional code and workflow
+          editor — allow you to direct AI to actually build things for you:
+          custom tools, automated workflows, website features, data systems, and
+          more. You describe what you want. AI builds it.
+        </p>
+        <p>
+          You don&apos;t need to know how to code to use this — but you do need
+          to be comfortable directing a process precisely and reviewing what gets
+          built. It takes time to learn, and it rewards the people who invest in
+          it with capabilities that used to require a full development team.
+        </p>
+        <p>
+          This stage isn&apos;t for everyone, and it doesn&apos;t need to be.
+          Most business owners who reach Stage 3 do so selectively — using it
+          for the high-leverage tasks where building a custom solution makes a
+          real difference, and delegating the rest.
         </p>
 
-        <h2>5. Zapier or Make — for Automation</h2>
+        <h2>Where Do You Want to Be?</h2>
         <p>
-          The highest-value AI application for most businesses isn&apos;t a
-          specific tool — it&apos;s connecting the tools you already have. Zapier
-          and Make allow you to build automated workflows: a new form submission
-          triggers a personalized email, a new Google review triggers a Slack
-          notification, a new booking triggers a follow-up sequence. With AI
-          actions now built into both platforms, these workflows are smarter than
-          simple if-then rules. The result is a business that responds faster
-          and drops fewer leads.
+          The honest answer for most business owners is somewhere between Stage
+          1 and Stage 2 — using AI regularly to think faster, work smarter, and
+          produce better output without hiring more staff. That&apos;s a
+          powerful place to operate from, and it&apos;s achievable in weeks, not
+          months.
         </p>
-
-        <h2>The Implementation Gap</h2>
         <p>
-          The challenge with AI tools isn&apos;t access — it&apos;s
-          implementation. Most business owners try a tool once, don&apos;t get
-          immediate value, and move on. Getting real results requires setting up
-          the tools correctly, integrating them with your existing workflow, and
-          training your team. That&apos;s where consulting pays off: not in
-          finding the tools, but in making them actually work for your specific
-          business.
+          Stage 3 exists for those who want to go all in and build real systems
+          themselves. The roadmap is there if you want it. For everyone else,
+          the advanced work is exactly what firms like ours are here to handle
+          — so you can stay focused on running your business.
         </p>
 
         <CTA />
