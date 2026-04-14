@@ -285,12 +285,12 @@ function About() {
               AI tools to help Colorado businesses reach more customers and grow faster.
             </p>
           </div>
-          <div>
+          <div className="relative w-full rounded-2xl overflow-hidden" style={{ aspectRatio: "3/4" }}>
             <Image
               src={johnRoundsPhoto}
               alt="John Rounds, founder of Doble AI"
-              className="w-full rounded-2xl object-cover object-top"
-              style={{ aspectRatio: "3/4" }}
+              fill
+              className="object-cover object-top"
             />
           </div>
         </div>
