@@ -386,8 +386,8 @@ export const posts: Post[] = [
     category: "Bilingual Marketing",
     readTime: "4 min read",
     coverImage:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
-    coverAlt: "Colorado mountain landscape representing the regional market",
+      "https://images.unsplash.com/photo-1548407260-da850faa41e3?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Vail Valley Colorado mountain landscape in winter",
     content: (
       <>
         <p>
