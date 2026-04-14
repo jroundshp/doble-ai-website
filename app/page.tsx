@@ -196,27 +196,50 @@ function SampleWork() {
           Before you commit to anything, see the quality of work we deliver. Here&apos;s
           a real audit we completed for a Colorado business.
         </p>
-        <a
-          href="https://jroundshp.github.io/doble-ai-deliverables/rocky-mountain-finishes/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group inline-flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors max-w-xl"
-        >
-          <div className="p-8">
-            <div className="text-xs font-bold text-orange-500 tracking-widest uppercase mb-3">
-              Business Audit · April 2026
+        <div className="grid md:grid-cols-2 gap-4 max-w-4xl">
+          <a
+            href="https://jroundshp.github.io/doble-ai-deliverables/rocky-mountain-finishes/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors"
+          >
+            <div className="p-8 flex flex-col flex-1">
+              <div className="text-xs font-bold text-orange-500 tracking-widest uppercase mb-3">
+                Business Audit · April 2026
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Colorado Trade Business</h3>
+              <p className="text-[#a3a3a3] text-sm mb-6 flex-1">
+                Northwest Colorado — Specialty contractor serving the luxury mountain
+                corridor. Full competitive analysis, digital presence audit, and
+                growth recommendations.
+              </p>
+              <span className="inline-flex items-center gap-2 text-orange-500 font-medium text-sm group-hover:gap-3 transition-all">
+                View the full audit →
+              </span>
             </div>
-            <h3 className="text-2xl font-semibold mb-2">Colorado Trade Business</h3>
-            <p className="text-[#a3a3a3] mb-6">
-              Northwest Colorado — Specialty contractor serving the Vail, Aspen, and
-              Steamboat luxury corridor. Full competitive analysis, digital presence
-              audit, and growth recommendations.
-            </p>
-            <span className="inline-flex items-center gap-2 text-orange-500 font-medium text-sm group-hover:gap-3 transition-all">
-              View the full audit →
-            </span>
-          </div>
-        </a>
+          </a>
+          <a
+            href="https://jroundshp.github.io/doble-ai-deliverables/vail-valley-real-estate/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors"
+          >
+            <div className="p-8 flex flex-col flex-1">
+              <div className="text-xs font-bold text-orange-500 tracking-widest uppercase mb-3">
+                Business Audit · April 2026
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Vail Valley Real Estate Group</h3>
+              <p className="text-[#a3a3a3] text-sm mb-6 flex-1">
+                Vail Valley, Colorado — Luxury real estate team with $850M+ career
+                volume. Digital presence audit, competitive landscape, and 90-day
+                growth roadmap.
+              </p>
+              <span className="inline-flex items-center gap-2 text-orange-500 font-medium text-sm group-hover:gap-3 transition-all">
+                View the full audit →
+              </span>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
   );
@@ -237,13 +260,17 @@ function About() {
           </h2>
           <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
             Doble AI was founded by John and Gisella Rounds in the Eagle River Valley.
-            Gisella is originally from Peru — her bilingual fluency isn&apos;t a feature
-            we bolted on, it&apos;s who we are.
+            John brings decades of global business development experience — having
+            worked across more than 50 countries and built commercial relationships
+            on six continents. He is bilingual in English and Spanish, and has spent
+            his career helping businesses grow in complex, multicultural environments.
           </p>
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
-            We combine genuine cross-cultural expertise with the latest AI tools to
-            help Colorado businesses grow in ways that feel authentic — to both your
-            English and Spanish-speaking customers.
+            Gisella is originally from Peru. Her bilingual fluency and deep
+            cultural knowledge aren&apos;t a feature we bolted on — they&apos;re
+            the foundation of how we think about every client&apos;s market.
+            Together, we combine genuine cross-cultural expertise with the latest
+            AI tools to help Colorado businesses reach more customers and grow faster.
           </p>
         </div>
         <div className="flex flex-col gap-4">
