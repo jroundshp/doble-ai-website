@@ -292,13 +292,13 @@ function About() {
           </div>
         </div>
 
-        {/* Colorado photo — full width */}
-        <div className="mb-12 rounded-2xl overflow-hidden">
+        {/* Couple photo — centered portrait */}
+        <div className="mb-12 flex justify-center">
           <img
             src="/john-and-gisella.jpeg"
             alt="John and Gisella Rounds in Colorado"
-            className="w-full object-cover object-top"
-            style={{ maxHeight: "380px" }}
+            className="rounded-2xl object-cover w-full"
+            style={{ maxWidth: "400px" }}
           />
         </div>
 
