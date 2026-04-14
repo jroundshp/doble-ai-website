@@ -205,7 +205,7 @@ function SampleWork() {
         <h2 className="text-4xl font-bold mb-4">See what an audit looks like.</h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
           Before you commit to anything, see the quality of work we deliver. Here are
-          real audits we completed for Colorado businesses — shared anonymously with permission.
+          real audits we completed for Colorado businesses — shared anonymously.
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a
