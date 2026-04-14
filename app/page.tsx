@@ -1,3 +1,6 @@
+import Image from "next/image";
+import johnRoundsPhoto from "../public/john-rounds.jpeg";
+import johnGisellaPhoto from "../public/john-gisella.jpeg";
 import AuditForm from "./components/AuditForm";
 
 export default function Home() {
@@ -283,8 +286,8 @@ function About() {
             </p>
           </div>
           <div>
-            <img
-              src="/john-rounds.jpeg"
+            <Image
+              src={johnRoundsPhoto}
               alt="John Rounds, founder of Doble AI"
               className="w-full rounded-2xl object-cover object-top"
               style={{ aspectRatio: "3/4" }}
@@ -294,11 +297,11 @@ function About() {
 
         {/* Couple photo — centered portrait */}
         <div className="mb-12 flex justify-center">
-          <img
-            src="/john-gisella.jpeg"
+          <Image
+            src={johnGisellaPhoto}
             alt="John and Gisella Rounds in Colorado"
-            className="rounded-2xl object-cover w-full"
-            style={{ maxWidth: "400px" }}
+            className="rounded-2xl object-cover"
+            style={{ maxWidth: "500px", width: "100%", height: "auto" }}
           />
         </div>
 
