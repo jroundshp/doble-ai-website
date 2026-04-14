@@ -33,6 +33,119 @@ const CTA = () => (
 
 export const posts: Post[] = [
   {
+    slug: "competitive-analysis",
+    title: "What a Competitive Analysis Reveals (And Why Most Businesses Skip It)",
+    excerpt:
+      "Most business owners know who their competitors are. Very few know what those competitors are actually doing well — or where the gaps are. A competitive analysis changes that.",
+    date: "April 3, 2026",
+    category: "Strategy",
+    readTime: "4 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Strategic chess pieces representing competitive business analysis",
+    content: (
+      <>
+        <p>
+          There&apos;s a difference between knowing your competitors exist and
+          knowing what they&apos;re doing. Most businesses operate with the
+          former — a general awareness that other people do what they do — and
+          miss the specific intelligence that would actually change their
+          decisions.
+        </p>
+
+        <h2>What a Competitive Analysis Actually Shows</h2>
+        <p>
+          A thorough competitive analysis maps four things your competitors are
+          doing that you probably aren&apos;t tracking:
+        </p>
+        <ul>
+          <li>
+            <strong>Search visibility</strong> — Which keywords are they ranking
+            for? Which ones are driving their traffic? Are there terms where no
+            one dominates and you could win quickly?
+          </li>
+          <li>
+            <strong>Review strategy</strong> — How many reviews do they have,
+            how recent, and what do customers praise or criticize? This is
+            unfiltered market research about your category, freely available.
+          </li>
+          <li>
+            <strong>Content and messaging</strong> — What are they talking about?
+            What problems are they positioning against? What language resonates
+            with your shared audience?
+          </li>
+          <li>
+            <strong>Digital gaps</strong> — Where are they weak? Slow websites,
+            thin content, poor mobile experience, unanswered reviews — these are
+            opportunities, not just failures of theirs.
+          </li>
+        </ul>
+
+        <img
+          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80"
+          alt="Business data analytics dashboard showing competitive metrics"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>Why AI Changed What&apos;s Possible</h2>
+        <p>
+          Manual competitive research is slow and incomplete. You can
+          visit websites, read reviews, and search for your competitors — but
+          you&apos;re seeing a surface-level snapshot. AI-powered tools go
+          deeper: crawling thousands of keywords, analyzing sentiment across
+          hundreds of reviews, flagging content strategies, and identifying
+          technical weaknesses — all automatically, and updated continuously.
+        </p>
+        <p>
+          What used to take a consultant two weeks to assemble now takes two
+          days to produce at higher depth. More importantly, the analysis is
+          repeatable. You can run a fresh competitive snapshot quarterly and see
+          exactly what&apos;s changed.
+        </p>
+
+        <h2>The Strategic Question It Answers</h2>
+        <p>
+          The real value of competitive analysis isn&apos;t in the data —
+          it&apos;s in answering one question: <em>where should we focus?</em>{" "}
+          Marketing budgets are limited. Attention is limited. The businesses
+          that grow fastest aren&apos;t doing everything — they&apos;re doing
+          the right things, which means the things their competitors
+          aren&apos;t doing well.
+        </p>
+        <p>
+          In our Colorado market audits, we consistently find white space:
+          categories where local businesses have strong word-of-mouth but weak
+          digital presence, leaving organic traffic for anyone willing to claim
+          it. A competitive analysis finds that white space and turns it into a
+          prioritized action plan.
+        </p>
+
+        <h2>The Cost of Not Knowing</h2>
+        <p>
+          Businesses that skip competitive analysis tend to make the same
+          mistake: competing on what they think matters rather than what the
+          market actually rewards. They invest in a website redesign when the
+          issue is review volume. They create more social content when the
+          opportunity is local SEO. The audit is cheap compared to six months
+          of effort pointed in the wrong direction.
+        </p>
+        <p>
+          For businesses that decide the Spanish-speaking market is worth
+          pursuing, we can extend the competitive analysis to cover that
+          landscape as well — Spanish-language search behavior, who&apos;s
+          competing there, and where the real gaps are. Combined with an
+          authentic Spanish content strategy, it becomes a complete playbook for
+          entering that market. But that&apos;s a decision you should make based
+          on data, not assumption — and the competitive analysis is how you get
+          that data.
+        </p>
+
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "digital-presence-audit",
     title: "Your Digital Presence Is Your #1 Salesperson — Is It Doing Its Job?",
     excerpt:
@@ -241,119 +354,6 @@ export const posts: Post[] = [
           training your team. That&apos;s where consulting pays off: not in
           finding the tools, but in making them actually work for your specific
           business.
-        </p>
-
-        <CTA />
-      </>
-    ),
-  },
-  {
-    slug: "competitive-analysis",
-    title: "What a Competitive Analysis Reveals (And Why Most Businesses Skip It)",
-    excerpt:
-      "Most business owners know who their competitors are. Very few know what those competitors are actually doing well — or where the gaps are. A competitive analysis changes that.",
-    date: "April 3, 2026",
-    category: "Strategy",
-    readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?auto=format&fit=crop&w=1200&q=80",
-    coverAlt: "Strategic chess pieces representing competitive business analysis",
-    content: (
-      <>
-        <p>
-          There&apos;s a difference between knowing your competitors exist and
-          knowing what they&apos;re doing. Most businesses operate with the
-          former — a general awareness that other people do what they do — and
-          miss the specific intelligence that would actually change their
-          decisions.
-        </p>
-
-        <h2>What a Competitive Analysis Actually Shows</h2>
-        <p>
-          A thorough competitive analysis maps four things your competitors are
-          doing that you probably aren&apos;t tracking:
-        </p>
-        <ul>
-          <li>
-            <strong>Search visibility</strong> — Which keywords are they ranking
-            for? Which ones are driving their traffic? Are there terms where no
-            one dominates and you could win quickly?
-          </li>
-          <li>
-            <strong>Review strategy</strong> — How many reviews do they have,
-            how recent, and what do customers praise or criticize? This is
-            unfiltered market research about your category, freely available.
-          </li>
-          <li>
-            <strong>Content and messaging</strong> — What are they talking about?
-            What problems are they positioning against? What language resonates
-            with your shared audience?
-          </li>
-          <li>
-            <strong>Digital gaps</strong> — Where are they weak? Slow websites,
-            thin content, poor mobile experience, unanswered reviews — these are
-            opportunities, not just failures of theirs.
-          </li>
-        </ul>
-
-        <img
-          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80"
-          alt="Business data analytics dashboard showing competitive metrics"
-          className="w-full rounded-xl my-8 object-cover"
-          style={{ maxHeight: "420px" }}
-        />
-
-        <h2>Why AI Changed What&apos;s Possible</h2>
-        <p>
-          Manual competitive research is slow and incomplete. You can
-          visit websites, read reviews, and search for your competitors — but
-          you&apos;re seeing a surface-level snapshot. AI-powered tools go
-          deeper: crawling thousands of keywords, analyzing sentiment across
-          hundreds of reviews, flagging content strategies, and identifying
-          technical weaknesses — all automatically, and updated continuously.
-        </p>
-        <p>
-          What used to take a consultant two weeks to assemble now takes two
-          days to produce at higher depth. More importantly, the analysis is
-          repeatable. You can run a fresh competitive snapshot quarterly and see
-          exactly what&apos;s changed.
-        </p>
-
-        <h2>The Strategic Question It Answers</h2>
-        <p>
-          The real value of competitive analysis isn&apos;t in the data —
-          it&apos;s in answering one question: <em>where should we focus?</em>{" "}
-          Marketing budgets are limited. Attention is limited. The businesses
-          that grow fastest aren&apos;t doing everything — they&apos;re doing
-          the right things, which means the things their competitors
-          aren&apos;t doing well.
-        </p>
-        <p>
-          In our Colorado market audits, we consistently find white space:
-          categories where local businesses have strong word-of-mouth but weak
-          digital presence, leaving organic traffic for anyone willing to claim
-          it. A competitive analysis finds that white space and turns it into a
-          prioritized action plan.
-        </p>
-
-        <h2>The Cost of Not Knowing</h2>
-        <p>
-          Businesses that skip competitive analysis tend to make the same
-          mistake: competing on what they think matters rather than what the
-          market actually rewards. They invest in a website redesign when the
-          issue is review volume. They create more social content when the
-          opportunity is local SEO. The audit is cheap compared to six months
-          of effort pointed in the wrong direction.
-        </p>
-        <p>
-          For businesses that decide the Spanish-speaking market is worth
-          pursuing, we can extend the competitive analysis to cover that
-          landscape as well — Spanish-language search behavior, who&apos;s
-          competing there, and where the real gaps are. Combined with an
-          authentic Spanish content strategy, it becomes a complete playbook for
-          entering that market. But that&apos;s a decision you should make based
-          on data, not assumption — and the competitive analysis is how you get
-          that data.
         </p>
 
         <CTA />
