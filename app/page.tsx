@@ -1,3 +1,5 @@
+import AuditForm from "./components/AuditForm";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
@@ -316,40 +318,7 @@ function Contact() {
           We&apos;ll take a look at your current online presence and tell you exactly
           where the gaps are — no obligation, no pitch deck.
         </p>
-        <form className="flex flex-col gap-4 text-left" action="https://formspree.io/f/mnjopzbw" method="POST">
-          <div className="grid md:grid-cols-2 gap-4">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your name"
-              className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email address"
-              className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
-            />
-          </div>
-          <input
-            type="text"
-            name="business"
-            placeholder="Your business name"
-            className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
-          />
-          <textarea
-            rows={4}
-            name="message"
-            placeholder="Tell us about your business and what you're trying to grow..."
-            className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors resize-none"
-          />
-          <button
-            type="submit"
-            className="bg-orange-500 hover:bg-orange-400 text-white font-semibold px-8 py-4 rounded-full transition-colors mt-2"
-          >
-            Request my free audit
-          </button>
-        </form>
+        <AuditForm />
         <p className="text-[#666] text-sm mt-6">
           Prefer to talk?{" "}
           <a href="https://wa.me/19703762725" className="text-orange-500 hover:underline">
