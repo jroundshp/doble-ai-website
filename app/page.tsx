@@ -204,10 +204,10 @@ function SampleWork() {
         </div>
         <h2 className="text-4xl font-bold mb-4">See what an audit looks like.</h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
-          Before you commit to anything, see the quality of work we deliver. Here&apos;s
-          a real audit we completed for a Colorado business.
+          Before you commit to anything, see the quality of work we deliver. Here are
+          real audits we completed for Colorado businesses — shared anonymously with permission.
         </p>
-        <div className="grid md:grid-cols-2 gap-4 max-w-4xl">
+        <div className="grid md:grid-cols-3 gap-4">
           <a
             href="https://jroundshp.github.io/doble-ai-deliverables/rocky-mountain-finishes/"
             target="_blank"
@@ -244,6 +244,27 @@ function SampleWork() {
                 Vail Valley, Colorado — Luxury real estate team with $850M+ career
                 volume. Digital presence audit, competitive landscape, and 90-day
                 growth roadmap.
+              </p>
+              <span className="inline-flex items-center gap-2 text-orange-500 font-medium text-sm group-hover:gap-3 transition-all">
+                View the full audit →
+              </span>
+            </div>
+          </a>
+          <a
+            href="https://jroundshp.github.io/doble-ai-deliverables/eagle-river-excavator/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors"
+          >
+            <div className="p-8 flex flex-col flex-1">
+              <div className="text-xs font-bold text-orange-500 tracking-widest uppercase mb-3">
+                Business Audit · April 2026
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Eagle River Valley Excavator</h3>
+              <p className="text-[#a3a3a3] text-sm mb-6 flex-1">
+                Eagle River Valley, Colorado — Family-owned excavation and trucking
+                operation, 50+ years in business. Digital presence audit and
+                priority growth roadmap.
               </p>
               <span className="inline-flex items-center gap-2 text-orange-500 font-medium text-sm group-hover:gap-3 transition-all">
                 View the full audit →
