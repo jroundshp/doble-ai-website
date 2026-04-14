@@ -295,7 +295,7 @@ function About() {
         {/* Couple photo — centered portrait */}
         <div className="mb-12 flex justify-center">
           <img
-            src="/john-and-gisella.jpeg"
+            src="/john-gisella.jpeg"
             alt="John and Gisella Rounds in Colorado"
             className="rounded-2xl object-cover w-full"
             style={{ maxWidth: "400px" }}
