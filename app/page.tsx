@@ -90,22 +90,26 @@ function Problem() {
             The opportunity
           </div>
           <h2 className="text-4xl font-bold leading-tight mb-6">
-            Half your market speaks Spanish.<br />
-            Most of your competitors don&apos;t.
+            AI-powered growth —<br />
+            with a competitive edge<br />
+            most firms can&apos;t offer.
           </h2>
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
-            In the Vail and Roaring Fork Valleys, nearly 50% of residents are
-            Spanish-speaking — established community members, loyal customers, and
-            business owners. Mainstream marketing reaches only half your potential
-            audience. We reach all of it.
+            We help Colorado businesses grow with AI: sharper online visibility,
+            better competitive intelligence, and a clear strategy for turning
+            that into revenue. And unlike most consulting firms, we can extend
+            that work into the Spanish-speaking market with native fluency and
+            authentic content — not translations. For businesses that want it,
+            that&apos;s a significant edge. For those focused on the English
+            market, the AI consulting stands on its own.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           {[
-            { val: "50%", label: "Spanish-speaking residents in your market" },
-            { val: "2x", label: "Reach with bilingual marketing" },
-            { val: "AI", label: "Tools to automate and amplify your growth" },
+            { val: "AI", label: "Tools to automate, amplify, and grow your business" },
             { val: "90", label: "Days to measurable results" },
+            { val: "5–7", label: "Days to deliver your full business audit" },
+            { val: "2x", label: "Potential reach for businesses that serve both English and Spanish-speaking markets" },
           ].map((s) => (
             <div
               key={s.label}
@@ -145,8 +149,8 @@ function Services() {
     {
       num: "04",
       name: "Brand & Sales Growth",
-      desc: "Bilingual content strategy, digital presence buildout, and a clear plan to turn your brand into a revenue-generating asset.",
-      detail: "English + Spanish",
+      desc: "Digital presence buildout, content strategy, and a clear plan to turn your brand into a revenue-generating asset. Available in English — and in Spanish for businesses ready to grow that market.",
+      detail: "English · Spanish optional",
     },
   ];
 
