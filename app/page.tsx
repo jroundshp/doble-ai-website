@@ -320,22 +320,26 @@ function Contact() {
           <div className="grid md:grid-cols-2 gap-4">
             <input
               type="text"
+              name="name"
               placeholder="Your name"
               className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
             />
             <input
               type="email"
+              name="email"
               placeholder="Email address"
               className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
             />
           </div>
           <input
             type="text"
+            name="business"
             placeholder="Your business name"
             className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
           />
           <textarea
             rows={4}
+            name="message"
             placeholder="Tell us about your business and what you're trying to grow..."
             className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors resize-none"
           />
