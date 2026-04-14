@@ -214,9 +214,9 @@ function CommunityTrust() {
           Trusted by organizations that shape our valley.
         </h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
-          The Eagle River Valley has a large and growing Spanish-speaking community.
-          These are the organizations doing the most to serve them — and the ones
-          that stand to benefit most from authentic bilingual communication.
+          From large-scale events to essential nonprofits — Gisella is available
+          to provide live interpretation and translation services for the organizations
+          and gatherings that define life in the Eagle River Valley.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {orgs.map((org) => (
