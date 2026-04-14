@@ -214,9 +214,9 @@ function CommunityTrust() {
           Trusted by organizations that shape our valley.
         </h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
-          From the valley&apos;s largest events to its most essential nonprofits —
-          organizations across Eagle County have relied on Gisella&apos;s expertise
-          to reach their Spanish-speaking communities.
+          The Eagle River Valley has a large and growing Spanish-speaking community.
+          These are the organizations doing the most to serve them — and the ones
+          that stand to benefit most from authentic bilingual communication.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {orgs.map((org) => (
