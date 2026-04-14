@@ -44,6 +44,7 @@ export default async function BlogPost({
           <div className="hidden md:flex items-center gap-8 text-sm text-[#a3a3a3]">
             <a href="/#services" className="hover:text-white transition-colors">Services</a>
             <a href="/#work" className="hover:text-white transition-colors">Our Work</a>
+            <a href="/translation" className="hover:text-white transition-colors">Translation</a>
             <a href="/blog" className="hover:text-white transition-colors">Blog</a>
             <a href="/#about" className="hover:text-white transition-colors">About</a>
             <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
