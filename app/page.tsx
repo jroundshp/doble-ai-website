@@ -256,7 +256,7 @@ function About() {
             Who we are
           </div>
           <h2 className="text-4xl font-bold leading-tight mb-6">
-            Not an agency.<br />A consulting partner.
+            Global thinkers.<br />Bilingual by nature.<br />Colorado-based.
           </h2>
           <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
             Doble AI was founded by John and Gisella Rounds in the Eagle River Valley.
