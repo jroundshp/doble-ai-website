@@ -386,8 +386,8 @@ export const posts: Post[] = [
     category: "Bilingual Marketing",
     readTime: "4 min read",
     coverImage:
-      "https://images.unsplash.com/photo-1548407260-da850faa41e3?auto=format&fit=crop&w=1200&q=80",
-    coverAlt: "Vail Valley Colorado mountain landscape in winter",
+      "https://images.unsplash.com/photo-1551413514-a5c4b1e904fc?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Maroon Bells near Aspen, Colorado with golden fall aspens and Maroon Lake",
     content: (
       <>
         <p>
