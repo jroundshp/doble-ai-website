@@ -261,9 +261,9 @@ function About() {
           <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
             Doble AI was founded by John and Gisella Rounds in the Eagle River Valley.
             John brings decades of global business development experience — having
-            worked across more than 50 countries and built commercial relationships
-            on six continents. He is bilingual in English and Spanish, and has spent
-            his career helping businesses grow in complex, multicultural environments.
+            worked and traveled across more than 50 countries. He is bilingual in
+            English and Spanish, and has spent his career helping businesses grow
+            in complex, multicultural environments around the world.
           </p>
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
             Gisella is originally from Peru. Her bilingual fluency and deep
