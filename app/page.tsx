@@ -348,7 +348,7 @@ function Contact() {
         </form>
         <p className="text-[#666] text-sm mt-6">
           Prefer to talk?{" "}
-          <a href="https://wa.me/1XXXXXXXXXX" className="text-orange-500 hover:underline">
+          <a href="https://wa.me/19703762725" className="text-orange-500 hover:underline">
             Reach us on WhatsApp
           </a>
         </p>
