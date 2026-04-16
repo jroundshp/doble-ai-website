@@ -312,6 +312,7 @@ export const posts: Post[] = [
     excerpt:
       "El SEO tradicional fue creado para Google. Pero cada vez más, tus clientes le preguntan a ChatGPT, Perplexity y Grok por recomendaciones — y la mayoría de los negocios no aparecen en esas respuestas. Aquí te explicamos qué es el GEO, por qué importa y cómo se ve una estrategia combinada.",
     date: "16 de abril de 2026",
+    dateISO: "2026-04-16",
     category: "Estrategia Digital",
     readTime: "6 min de lectura",
     coverImage:
