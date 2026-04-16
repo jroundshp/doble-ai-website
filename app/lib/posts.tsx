@@ -284,6 +284,35 @@ export const posts: Post[] = [
           you started.
         </p>
 
+        <FAQ
+          items={[
+            {
+              q: "What is Claude Code?",
+              a: "Claude Code is an agentic AI tool made by Anthropic that runs inside VS Code and the terminal. Unlike Claude's web chat interface, Claude Code has direct access to your file system, can execute commands, read and write files, and operate autonomously across multi-step tasks. It is designed for builders and operators who want AI that works inside their environment rather than in a separate browser window.",
+            },
+            {
+              q: "What is the difference between Claude Cowork and Claude Code?",
+              a: "Claude Cowork is a web-based chat interface where you interact with Claude in a conversation window. It is powerful for one-off tasks but has no persistent memory between sessions. Claude Code runs inside VS Code and your terminal, has access to your actual files and project environment, and supports a persistent memory system and skills library that compounds over time. Cowork scales your intelligence for individual tasks; Claude Code scales your operation as a whole.",
+            },
+            {
+              q: "Can Claude Code learn my business over time?",
+              a: "Yes. Claude Code supports a persistent memory system that builds across sessions. It stores user preferences, project context, active client information, and feedback corrections in structured files that reload at the start of every session. Over weeks and months of use, the agent develops a working understanding of your business, clients, priorities, and standards without you having to re-establish context each time.",
+            },
+            {
+              q: "What are Claude Code skills?",
+              a: "Claude Code skills are slash commands that execute predefined workflows. Examples include /prime (loads your full business context at the start of a session), /commit (stages and commits code changes in your established style), and /debrief (captures session learnings into memory files). Skills are essentially your standard operating procedures made executable — the agent runs the full procedure when you invoke the command, without re-explaining the steps.",
+            },
+            {
+              q: "Do I need to be a programmer to use Claude Code?",
+              a: "You don't need to write code to benefit from Claude Code. The core value for business operators is the persistent workspace, memory system, and skills library — which a consultant or implementation partner can configure for you. Once set up, you interact with the agent in plain language. The technical setup is a one-time investment; the day-to-day use is conversational.",
+            },
+            {
+              q: "How is Claude Code different from ChatGPT?",
+              a: "ChatGPT is a conversational chat tool that resets with every session and has no memory of your business. Claude Code is an agentic system that lives in your development environment, maintains persistent memory across sessions, learns your preferences and corrects over time, and can execute multi-step tasks autonomously. They are different categories of tool: one is a smart assistant you talk to, the other is a trainable system you build.",
+            },
+          ]}
+        />
+
         <CTA />
       </>
     ),
@@ -501,6 +530,35 @@ export const posts: Post[] = [
           the architecture and having someone help you build it. Everyone starts at level one. The
           question is where you want to be six months from now.
         </p>
+
+        <FAQ
+          items={[
+            {
+              q: "What is the best AI tool for small business owners?",
+              a: "It depends on where you are in your AI journey. ChatGPT and Grok are good starting points for simple, one-off tasks. Claude (via claude.ai or Cowork) is a strong upgrade for complex reasoning, writing, and analysis. For business operators who want an AI system that learns their business, remembers client context, and compounds over time, Claude Code in a configured VS Code workspace is the most capable option currently available.",
+            },
+            {
+              q: "What is the difference between ChatGPT and Claude?",
+              a: "Both are large language model AI assistants, but they differ meaningfully in reasoning depth and approach. Claude, made by Anthropic, tends to provide more nuanced analysis, pushes back on flawed premises, and produces more natural long-form writing. ChatGPT is made by OpenAI and is more widely recognized as the entry point for AI tools. For business strategy, complex decisions, and professional writing, most users report Claude as noticeably more capable.",
+            },
+            {
+              q: "Is Grok good for business use?",
+              a: "Grok, made by xAI, is a capable general-purpose AI assistant that works well for quick research, summarization, and writing tasks. It integrates with X (Twitter) and has access to real-time information. For most business use cases, it functions similarly to ChatGPT — useful for one-off tasks, but without persistent memory, business context, or the ability to compound over time.",
+            },
+            {
+              q: "What is Claude Code and how does it work?",
+              a: "Claude Code is an agentic AI tool by Anthropic that runs inside VS Code and the terminal. Unlike web chat interfaces, it has direct access to your files, can run commands, write and edit code, and execute multi-step tasks autonomously. It also supports a persistent memory system and a skills library that allows the agent to learn your business and improve over time. It is designed for builders and operators who want AI embedded in their actual work environment.",
+            },
+            {
+              q: "How long does it take for Claude Code to learn my business?",
+              a: "The compounding begins immediately and accelerates over time. In the first 30 days, the agent builds a working picture of your clients, projects, and preferences. By 90 days, it has been corrected and refined enough that most users report significantly lower cognitive overhead — the AI needs far less briefing and executes with more accuracy. The rate of improvement depends on how actively you work in the workspace and how well it is initially configured.",
+            },
+            {
+              q: "Can I use Claude Code without knowing how to code?",
+              a: "Yes. Many business operators use Claude Code primarily for its memory, skills, and context capabilities rather than for writing code. A consultant can configure the workspace, build your skill library, and set up the memory system. After that, day-to-day use is conversational — you describe what you need and the agent executes. The technical setup is a one-time investment.",
+            },
+          ]}
+        />
 
         <CTA />
       </>
