@@ -68,6 +68,445 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "claude-code-vs-cowork",
+    title: "You\u2019re Using Claude. But You\u2019re Not Training It.",
+    excerpt:
+      "The real difference between Claude Cowork and Claude Code in VS Code isn\u2019t features \u2014 it\u2019s whether you\u2019re building something that compounds. Here are the five specific mechanisms that turn a chat tool into an intelligent operating system for your business.",
+    date: "April 16, 2026",
+    dateISO: "2026-04-16",
+    category: "AI Tools",
+    readTime: "7 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Developer workspace with VS Code editor on a dark screen",
+    keywords:
+      "Claude Code vs Claude Cowork, Claude VS Code, AI training workspace, Claude Code skills, AI business tools, Anthropic Claude Code, AI operating system",
+    content: (
+      <>
+        <p>
+          I want to start with an honest admission: Claude Cowork is genuinely excellent. The writing
+          quality, the reasoning, the research capability &mdash; it&apos;s an incredible tool. Founders I
+          talk to use it every day. They draft proposals with it, synthesize research, build decks,
+          stress-test ideas. It saves real time and the output is often stunning.
+        </p>
+        <p>
+          And here&apos;s what I&apos;ve realized: they&apos;re using a Porsche to go to the grocery store.
+          Impressive vehicle. Wrong context. And they have no idea what the track looks like.
+        </p>
+        <p>
+          There&apos;s a version of working with Claude that most people haven&apos;t seen. It&apos;s not
+          about the model &mdash; same model. It&apos;s not about intelligence &mdash; same intelligence.
+          It&apos;s about whether you are <strong>training</strong> something that learns your business,
+          or just prompting something that forgets it.
+        </p>
+        <p>
+          That&apos;s the line. And once you cross it, there&apos;s no going back.
+        </p>
+
+        <h2>The Fundamental Problem With Chat-Based AI</h2>
+        <p>
+          Every time you open Cowork, Claude starts from zero. It doesn&apos;t know your clients. It
+          doesn&apos;t know your current priorities. It doesn&apos;t know that three weeks ago you made a
+          decision to take your outreach in a specific direction, or that last month you built a tool
+          that already solves half the problem you&apos;re about to describe. It doesn&apos;t know your
+          writing voice, your preferences, your standards, or your constraints.
+        </p>
+        <p>
+          You carry all of that. You are the memory. Every session, you brief the AI, and then you
+          execute alongside it. When the session ends, everything it learned about you disappears.
+        </p>
+        <p>
+          This is fine for occasional tasks. It&apos;s an enormous structural bottleneck if you&apos;re
+          running a business. The mental overhead of constantly re-establishing context isn&apos;t just
+          annoying &mdash; it&apos;s expensive. It consumes the cognitive bandwidth you need for actual
+          strategic thinking. And it means the AI never gets better at working{" "}
+          <em>with you specifically</em>.
+        </p>
+        <p>Claude Code in VS Code breaks this model entirely. Here&apos;s how.</p>
+
+        <img
+          src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80"
+          alt="Dark code editor screen representing a trained development workspace"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>The Five Training Mechanisms That Change Everything</h2>
+        <p>
+          There isn&apos;t one thing that makes Claude Code different. There are five interlocking
+          systems that, when built together, create something that behaves less like a tool and more
+          like a business partner who&apos;s been with you for months.
+        </p>
+
+        <h2>1. Standing Orders</h2>
+        <p>
+          Every Claude Code workspace has a file called <strong>CLAUDE.md</strong>. It lives in your
+          project. It&apos;s the first thing Claude reads, every single session, before you type a
+          single word.
+        </p>
+        <p>
+          This is your standing orders document. You put your business priorities in it. Your project
+          structure. Your filing conventions. Your rules. The things Claude should always know and
+          always do. In Cowork, you either paste this context in manually every session, or you go
+          without it. In Claude Code, it loads automatically. Claude walks in already briefed.
+        </p>
+        <p>
+          This seems small. It&apos;s not. The cumulative effect of an agent that starts every session
+          knowing your current goals, your active clients, and your decision-making preferences versus
+          one that starts from zero &mdash; that gap compounds over weeks into something that feels
+          like a completely different category of tool.
+        </p>
+
+        <h2>2. Business Memory That Builds Automatically</h2>
+        <p>
+          Claude Code has a memory system with four distinct types, and it builds them as it works
+          with you.
+        </p>
+        <ul>
+          <li>
+            <strong>User memory</strong> is who you are &mdash; your role, your background, how you
+            think. Claude files this away so it can tailor how it explains things and what to assume
+            you already know.
+          </li>
+          <li>
+            <strong>Project memory</strong> is what&apos;s currently happening &mdash; active clients,
+            current priorities, ongoing builds, key decisions. Claude maintains a live picture of your
+            business state across sessions.
+          </li>
+          <li>
+            <strong>Reference memory</strong> is where things live &mdash; which tool is in which
+            folder, which dashboard is on which port, where the client data is stored.
+          </li>
+          <li>
+            <strong>Feedback memory</strong> is how you&apos;ve corrected the agent. This is the
+            training signal that has no equivalent in Cowork.
+          </li>
+        </ul>
+        <p>
+          Every time you tell Claude &ldquo;don&apos;t do that&rdquo; or &ldquo;when you do X, always
+          do Y&rdquo; &mdash; in Cowork, that correction evaporates at the end of the session.
+          You&apos;ll give the same correction tomorrow. In Claude Code, the agent files that
+          correction and doesn&apos;t repeat the mistake. Not next session. Not ever, unless you change
+          the instruction.
+        </p>
+        <p>
+          Over 90 days of working sessions, this is transformative. The agent has been corrected
+          hundreds of times and remembers every correction. The version of Claude you&apos;re working
+          with in month three has been shaped by your actual preferences, your actual standards, and
+          your actual way of working. You built that. Slowly. One session at a time. And it compounds.
+        </p>
+
+        <h2>3. Standard Operating Procedures as Skills</h2>
+        <p>
+          A skill in Claude Code is a slash command that executes a defined workflow &mdash;{" "}
+          <strong>/prime</strong>, <strong>/commit</strong>, <strong>/debrief</strong>,{" "}
+          <strong>/create-plan</strong>, <strong>/review</strong>. When you call a skill, Claude
+          doesn&apos;t guess. It runs a procedure.
+        </p>
+        <p>
+          Every business has SOPs &mdash; standard operating procedures. With Claude Code, your SOPs
+          become executable. <strong>/commit</strong> reads your changes, writes a message in your
+          established style, stages the files, and confirms. <strong>/prime</strong> loads your full
+          business context so every session starts with full situational awareness.{" "}
+          <strong>/debrief</strong> captures what was built and what was learned, and files it into
+          your memory system so the next session picks up exactly where this one ended.
+        </p>
+        <p>
+          In Cowork, you describe what you want every single time. In Claude Code, you invoke a skill
+          and the procedure runs. The skill library grows with your business.
+        </p>
+
+        <h2>4. Deep Project Context</h2>
+        <p>
+          In a properly built Claude Code workspace, there&apos;s a <strong>context/</strong>{" "}
+          directory containing your business information, strategy, client profiles, ICP, and
+          competitive landscape. When Claude works on something that requires knowing your business,
+          it reads your actual documentation &mdash; not generic industry knowledge.
+        </p>
+        <p>
+          When you ask &ldquo;how should we position this for our most valuable clients,&rdquo; Claude
+          isn&apos;t working from clich&eacute;s. It&apos;s reading your ICP definition, your client
+          list, your positioning notes, your past strategy decisions. In Cowork, you&apos;d approximate
+          this by pasting in documents each session. But that&apos;s the point &mdash; you&apos;re
+          approximating, manually, every time.
+        </p>
+
+        <h2>5. The Session Capture Loop</h2>
+        <p>
+          This is the flywheel that ties all four mechanisms together. Every productive session ends
+          with a debrief: what was built, what decisions were made, what the agent learned. That
+          debrief writes to session logs, memory files, and context files. The next session opens with
+          that updated context already loaded.
+        </p>
+        <p>
+          Over time, this creates something powerful: a complete, living record of how your business
+          has evolved, what decisions were made and why, what worked and what didn&apos;t &mdash; in a
+          structured, machine-readable format the AI can reason from. This is institutional knowledge
+          that doesn&apos;t evaporate. It&apos;s encoded in the workspace.
+        </p>
+
+        <h2>What &ldquo;Trained&rdquo; Actually Looks Like</h2>
+        <ul>
+          <li>
+            <strong>Day 1:</strong> You describe your business. The agent executes competently but
+            asks clarifying questions. It&apos;s learning your world.
+          </li>
+          <li>
+            <strong>Day 30:</strong> Claude knows your top clients by name. It knows your current
+            priorities without being told. Clarifying questions drop significantly. Execution gets
+            faster.
+          </li>
+          <li>
+            <strong>Day 90:</strong> Your skill library covers your most common workflows. You spend
+            zero time catching Claude up &mdash; you go straight to work.
+          </li>
+          <li>
+            <strong>Year 1:</strong> The workspace holds your company&apos;s institutional knowledge.
+            New hires could read it to get up to speed. The agent executes your procedures more
+            reliably than a junior employee because it&apos;s been trained on your specific standards.
+          </li>
+        </ul>
+
+        <h2>The Honest Summary</h2>
+        <p>
+          Cowork scales your intelligence. You get smarter access to information, faster drafts,
+          better analysis. But the cost of running it is constant &mdash; you&apos;re always the one
+          holding the context.
+        </p>
+        <p>
+          Claude Code scales your <em>operation</em>. The agent absorbs your business. It learns your
+          standards, your clients, your procedures, your preferences. The cost of running it decreases
+          over time as the training compounds.
+        </p>
+        <p>
+          The difference is not features. It&apos;s architecture. And it&apos;s the difference between an
+          AI that works for you today and an AI that&apos;s been building toward working with you since
+          you started.
+        </p>
+
+        <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "ai-learning-curve",
+    title: "The AI Learning Curve Nobody Explains to You",
+    excerpt:
+      "Most people using AI tools are at level one or two. Here\u2019s what the full progression actually looks like \u2014 from ChatGPT and Grok to Claude chat to something that genuinely compounds \u2014 and why the difference matters for your business.",
+    date: "April 16, 2026",
+    dateISO: "2026-04-16",
+    category: "AI Adoption",
+    readTime: "8 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Abstract AI visualization representing the progression of artificial intelligence tools",
+    keywords:
+      "ChatGPT vs Claude, AI tools for business, Claude Code beginners, AI progression, Grok vs ChatGPT vs Claude, AI adoption small business, learning AI tools 2026",
+    content: (
+      <>
+        <p>
+          If you&apos;re using ChatGPT or Grok to look things up, draft emails, or summarize articles,
+          you&apos;re doing what most people do. And it works. The output is often impressive. You get
+          answers faster than Google. You save real time.
+        </p>
+        <p>
+          But here&apos;s something nobody really tells you when you start: what you&apos;re experiencing
+          right now is the least capable version of what AI can do.
+        </p>
+        <p>
+          Not because the model is weak. Not because you&apos;re using it wrong. But because the type of
+          interaction &mdash; a quick back-and-forth chat &mdash; puts a ceiling on what&apos;s possible.
+          You can have the most talented person in the world available to help you, but if every
+          conversation starts from zero and ends with no memory, there&apos;s a hard limit on how much
+          leverage you can actually get.
+        </p>
+        <p>
+          This post is about what&apos;s beyond that ceiling. The natural progression from casual AI user
+          to someone building something that genuinely compounds. No technical background required.
+        </p>
+
+        <h2>Level One: ChatGPT and Grok</h2>
+        <p>
+          This is where almost everyone starts, and for good reason &mdash; it&apos;s accessible,
+          it&apos;s free (or cheap), and it works immediately. You type a question, you get an answer.
+          You paste in a document, it summarizes. You describe what you want to write, it writes it.
+        </p>
+        <p>
+          ChatGPT and Grok are conversational AI tools built around a simple chat window: you ask, it
+          responds, you ask again. If you&apos;ve never used AI before, these tools are a revelation.
+        </p>
+        <p>What they do well:</p>
+        <ul>
+          <li>Answering factual questions and explaining concepts</li>
+          <li>First drafts of emails, posts, or documents</li>
+          <li>Quick research summaries and brainstorming</li>
+          <li>Translating, rewriting, and editing text</li>
+        </ul>
+        <p>
+          But the chat model has a structural ceiling. Every session is completely isolated. There is
+          no memory of who you are, what your business does, what you decided yesterday, or what
+          you&apos;re in the middle of building. You are always catching the AI up before you can get
+          anything useful done.
+        </p>
+        <p>
+          Think of it this way: ChatGPT and Grok are like having access to a very smart stranger
+          who&apos;s happy to help. They give you their best answer based on what you&apos;ve told
+          them in the last five minutes. Tomorrow, they won&apos;t remember you exist.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1000&q=80"
+          alt="AI interface representing the progression from basic chat tools to advanced agent systems"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>Level Two: Claude Chat and Claude Cowork</h2>
+        <p>
+          Claude &mdash; made by a company called Anthropic &mdash; represents a meaningful upgrade in
+          reasoning quality, writing ability, and nuance. Many people who move from ChatGPT to Claude
+          describe the difference as going from a knowledgeable assistant to a genuinely thoughtful
+          collaborator.
+        </p>
+        <p>
+          Claude&apos;s web interface and Cowork give you that same chat experience, but with better
+          thinking. The analysis is more sophisticated. The writing is more natural. It handles
+          complex, multi-part problems with more depth. It tends to push back more thoughtfully
+          &mdash; where ChatGPT might just give you what you asked for, Claude will often flag a risk
+          or consideration you haven&apos;t thought through. For business decisions, that matters.
+        </p>
+        <p>
+          But Claude Cowork is still built on the same session model. When the conversation ends,
+          it&apos;s over. Claude doesn&apos;t remember you. It doesn&apos;t remember your clients, your
+          strategy, or what you worked on together last Tuesday. The next time you open a session,
+          you&apos;re starting fresh.
+        </p>
+        <p>
+          Think of Cowork as hiring a brilliant freelancer for a few hours. They&apos;re talented and
+          worth every minute. But when the session ends, they go home. Next week, you
+          re-introduce yourself. You can build a lot with a brilliant freelancer. But you can&apos;t
+          build an <em>operation</em> with one.
+        </p>
+
+        <h2>Level Three: Claude Code in VS Code</h2>
+        <p>
+          This is where the conversation needs to shift, because what we&apos;re describing isn&apos;t
+          a &ldquo;better chat tool.&rdquo; It&apos;s an entirely different kind of relationship with AI.
+        </p>
+        <p>
+          VS Code is a professional workspace where developers write and manage software. Claude Code
+          is Anthropic&apos;s tool that plugs directly into VS Code, giving the AI access to your
+          actual working environment: your files, your project history, your processes, your build
+          system. When Claude lives inside your workspace, it stops being something you talk to and
+          starts being something that works alongside you.
+        </p>
+        <p>And most importantly: <strong>it can be trained.</strong></p>
+        <p>
+          <strong>Your standing orders.</strong> Every Claude Code workspace has a document Claude
+          reads before every single session &mdash; your current priorities, your active clients, your
+          rules. Claude reads this before you type a word. It walks in already briefed, every time.
+        </p>
+        <p>
+          <strong>Your business memory.</strong> As Claude works with you, it builds memory files
+          that load in future sessions. It remembers who your clients are, what projects are active,
+          and every correction you&apos;ve made. In Cowork, corrections disappear when the session
+          ends. You&apos;ll give the same correction again tomorrow. In Claude Code, corrections are
+          saved and permanent. The agent you&apos;re working with in month three has been shaped by
+          months of real feedback from you.
+        </p>
+        <p>
+          <strong>Your standard procedures.</strong> In Claude Code, you can build
+          &ldquo;skills&rdquo; &mdash; your business procedures turned into commands. Your onboarding
+          process. Your client review. Your weekly business summary. Each becomes a single command the
+          AI executes exactly right, every time, without re-explaining.
+        </p>
+        <p>
+          Over time, you&apos;re not just using an AI. You&apos;re building an intelligent operating
+          system for your business.
+        </p>
+
+        <h2>What This Looks Like in Practice</h2>
+        <p>
+          <strong>In ChatGPT:</strong> You ask &ldquo;help me write a follow-up email to a
+          prospective client.&rdquo; It writes a professional, generic follow-up. You edit it heavily
+          to match the actual context.
+        </p>
+        <p>
+          <strong>In Claude Cowork:</strong> You paste in the conversation history, describe the
+          client, explain the context. Claude writes something much better. You still edit it, but
+          less.
+        </p>
+        <p>
+          <strong>In Claude Code (trained):</strong> You type &ldquo;write a follow-up for John,
+          referencing our last conversation about the website relaunch.&rdquo; Claude already knows
+          who John is. It knows the conversation history because it&apos;s in your project files. It
+          knows your voice because it&apos;s studied your past writing. It writes something you can
+          send in two minutes, not twenty.
+        </p>
+        <p>
+          Across every task, every client, every workflow &mdash; that difference compounds into a
+          completely different kind of leverage.
+        </p>
+
+        <h2>The Progression at a Glance</h2>
+        <div className="overflow-x-auto my-8">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-white/20">
+                <th className="text-left py-3 pr-4 text-[#a3a3a3] font-semibold w-40"></th>
+                <th className="text-left py-3 pr-4 text-[#a3a3a3] font-semibold">ChatGPT / Grok</th>
+                <th className="text-left py-3 pr-4 text-[#a3a3a3] font-semibold">Claude Cowork</th>
+                <th className="text-left py-3 text-orange-500 font-semibold">Claude Code</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ["Memory", "None", "Session only", "Permanent, builds over time"],
+                ["Knows your business", "Never", "Only what you tell it today", "Yes, learns each session"],
+                ["Learns preferences", "No", "No", "Yes, remembers corrections"],
+                ["Executes procedures", "No", "No", "Yes, as defined commands"],
+                ["Gets better over time", "No", "No", "Yes, meaningfully"],
+                ["Cognitive cost to you", "High", "Medium", "Decreasing over time"],
+              ].map(([label, a, b, c], i) => (
+                <tr key={i} className="border-b border-white/[0.06]">
+                  <td className="py-3 pr-4 font-medium text-white">{label}</td>
+                  <td className="py-3 pr-4 text-[#a3a3a3]">{a}</td>
+                  <td className="py-3 pr-4 text-[#a3a3a3]">{b}</td>
+                  <td className="py-3 text-orange-400">{c}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2>The Question Worth Sitting With</h2>
+        <p>
+          Most people reading this are somewhere in level one or two. That&apos;s not a criticism
+          &mdash; that&apos;s just where the majority of AI users are right now, and those tools
+          genuinely help.
+        </p>
+        <p>But here&apos;s the question worth sitting with:</p>
+        <p>
+          <em>Are you getting leverage from AI, or are you just getting faster answers?</em>
+        </p>
+        <p>
+          Faster answers is valuable. Leverage is different. Leverage means the system keeps working
+          even when you&apos;re not prompting it. It means the AI gets more capable at working with
+          you the longer you work together. It means you stop spending energy catching the AI up and
+          start spending that energy on the things only you can do.
+        </p>
+        <p>
+          That&apos;s what level three is. Not a smarter chat tool. A system that compounds. The path
+          from here to there doesn&apos;t require you to become a programmer. It requires understanding
+          the architecture and having someone help you build it. Everyone starts at level one. The
+          question is where you want to be six months from now.
+        </p>
+
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "geo-vs-seo",
     title: "GEO vs. SEO: Why Your Business Is Invisible to the Tools Your Customers Are Actually Using",
     excerpt:
