@@ -16,10 +16,18 @@ export async function generateMetadata({
   return {
     title: `${post.title} — Doble AI`,
     description: post.excerpt,
+    keywords: post.keywords,
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      images: [post.coverImage],
+      images: [{ url: post.coverImage, alt: post.coverAlt }],
+      type: "article",
+      publishedTime: post.date,
+      authors: ["John Rounds"],
+      siteName: "Doble AI",
+    },
+    alternates: {
+      canonical: `https://dobleai.com/blog/${slug}`,
     },
   };
 }
@@ -33,8 +41,35 @@ export default async function BlogPost({
   const post = getPost(slug);
   if (!post) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    image: post.coverImage,
+    datePublished: post.date,
+    author: {
+      "@type": "Person",
+      name: "John Rounds",
+      url: "https://dobleai.com/#about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Doble AI",
+      url: "https://dobleai.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://dobleai.com/blog/${slug}`,
+    },
+  };
+
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
