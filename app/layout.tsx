@@ -77,6 +77,9 @@ const organizationSchema = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://dobleai.com"),
+  verification: {
+    google: "FbzgIu5hqLKGg8G6o3M30NgrnefJomo9-lZZ6rNyis0",
+  },
   title: {
     default: "Doble AI — Bilingual AI Consulting for Colorado Businesses",
     template: "%s — Doble AI",
