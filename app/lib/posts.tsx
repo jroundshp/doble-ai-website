@@ -33,6 +33,25 @@ const CTA = () => (
   </div>
 );
 
+const CTAes = () => (
+  <div className="mt-12 p-8 bg-orange-500/10 border border-orange-500/30 rounded-2xl text-center">
+    <p className="text-sm text-orange-500 font-semibold tracking-widest uppercase mb-3">
+      ¿Listo para saber dónde estás parado?
+    </p>
+    <h3 className="text-2xl font-bold mb-3">Obtén una auditoría gratuita.</h3>
+    <p className="text-[#a3a3a3] mb-6 max-w-md mx-auto">
+      Revisaremos tu presencia digital, posición competitiva y dónde la IA
+      puede marcar la mayor diferencia — sin costo alguno.
+    </p>
+    <a
+      href="/#contact"
+      className="inline-block bg-orange-500 hover:bg-orange-400 text-white font-semibold px-8 py-3 rounded-full transition-colors"
+    >
+      Solicita tu auditoría gratuita
+    </a>
+  </div>
+);
+
 const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
   <div className="mt-10">
     <h2>Frequently Asked Questions</h2>
@@ -284,6 +303,260 @@ export const posts: Post[] = [
         />
 
         <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "geo-vs-seo-espanol",
+    title: "GEO vs. SEO: Por Qué Tu Negocio Es Invisible para las Herramientas que Tus Clientes Realmente Usan",
+    excerpt:
+      "El SEO tradicional fue creado para Google. Pero cada vez más, tus clientes le preguntan a ChatGPT, Perplexity y Grok por recomendaciones — y la mayoría de los negocios no aparecen en esas respuestas. Aquí te explicamos qué es el GEO, por qué importa y cómo se ve una estrategia combinada.",
+    date: "16 de abril de 2026",
+    category: "Estrategia Digital",
+    readTime: "6 min de lectura",
+    coverImage:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Interfaz de IA que representa la búsqueda generativa y la optimización GEO",
+    keywords:
+      "GEO vs SEO, optimización para motores generativos, SEO para IA, ChatGPT SEO, optimización para Perplexity, SEO pequeños negocios, visibilidad digital Colorado, marketing en español",
+    content: (
+      <>
+        <p>
+          Si alguien le preguntara a ChatGPT, Perplexity o Grok que recomiende
+          un negocio como el tuyo en tu ciudad ahora mismo — ¿aparecerías? Para
+          la mayoría de las pequeñas empresas, la respuesta honesta es no. Y el
+          motivo no es un sitio web deficiente ni la falta de un perfil en
+          Google. Es que las reglas de visibilidad en línea acaban de cambiar,
+          y la mayoría de los negocios siguen jugando con las antiguas.
+        </p>
+
+        <h2>¿Qué es el SEO — y por qué ya no es suficiente?</h2>
+        <p>
+          <strong>El SEO, u optimización para motores de búsqueda</strong>, es
+          la práctica de hacer que tu sitio web sea más fácil de encontrar,
+          comprender y posicionar por parte de motores de búsqueda como Google
+          y Bing. Durante dos décadas, aparecer en la primera página de Google
+          fue el objetivo — y los negocios que lo lograban se llevaban la mayor
+          parte del tráfico orgánico. La optimización de palabras clave, la
+          construcción de backlinks y las mejoras técnicas del sitio eran la
+          forma de llegar.
+        </p>
+        <p>
+          El SEO sigue importando. Google procesa miles de millones de
+          búsquedas cada día y sigue siendo un canal de descubrimiento
+          dominante para los negocios locales. Pero algo significativo ha
+          cambiado: una parte creciente de las búsquedas que antes iban a
+          Google ahora van a plataformas de IA — y el SEO tradicional no hace
+          nada para captarlas.
+        </p>
+
+        <h2>¿Cómo busca la gente realmente en 2025?</h2>
+        <p>
+          El cambio es real y se está acelerando. Plataformas como ChatGPT,
+          Perplexity, Grok, Claude y los AI Overviews de Google han cambiado
+          la forma en que millones de personas obtienen respuestas. En lugar de
+          escribir palabras clave y revisar una lista de enlaces azules, los
+          usuarios describen lo que necesitan en lenguaje natural y reciben una
+          respuesta sintetizada — muchas veces sin hacer clic en ningún sitio
+          web.
+        </p>
+        <p>
+          Para los dueños de negocios, esto crea un problema nuevo y en gran
+          medida sin resolver: tu sitio web puede estar perfectamente optimizado
+          para Google y aun así ser completamente invisible en las plataformas
+          a las que tus clientes recurren cada vez más.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1000&q=80"
+          alt="Tecnología de IA que representa el cambio de la búsqueda tradicional a las plataformas de IA generativa"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>¿Qué es el GEO — Optimización para Motores Generativos?</h2>
+        <p>
+          <strong>El GEO, u optimización para motores generativos</strong>, es
+          la práctica de hacer que tu negocio sea visible y citable para las
+          plataformas impulsadas por inteligencia artificial. Mientras que el
+          SEO optimiza tu sitio web para los rastreadores de un motor de
+          búsqueda, el GEO optimiza tu presencia en línea en general para los
+          grandes modelos de lenguaje que impulsan herramientas como ChatGPT y
+          Perplexity.
+        </p>
+        <p>
+          La distinción importa porque las plataformas de IA no clasifican los
+          sitios web como lo hace Google. Sintetizan información de toda la web
+          — datos de entrenamiento, resultados de búsqueda en tiempo real,
+          datos estructurados, citas de terceros, plataformas de reseñas y más
+          — y generan una respuesta basada en lo que juzgan autorizado y
+          relevante. Si tu negocio no está claramente descrito y bien
+          representado en esas fuentes, no aparecerás en las recomendaciones
+          generadas por IA, independientemente de tu posición en Google.
+        </p>
+
+        <h2>¿Por qué el SEO tradicional no funciona para las plataformas de IA?</h2>
+        <p>
+          Las tácticas de SEO tradicionales funcionan enviando señales de
+          relevancia a los rastreadores de motores de búsqueda: la ubicación
+          de palabras clave, la estructura de la página, la autoridad del
+          dominio y los enlaces entrantes le indican a Google de qué trata tu
+          página. Las plataformas de IA interpretan la información de manera
+          diferente:
+        </p>
+        <ul>
+          <li>
+            <strong>No rastrean en tiempo real.</strong> Los grandes modelos de
+            lenguaje se entrenan con datos recopilados durante un período de
+            tiempo, lo que significa que tu actualización más reciente del sitio
+            web puede no estar reflejada aún en lo que una plataforma de IA
+            sabe sobre ti.
+          </li>
+          <li>
+            <strong>Priorizan el contexto autorizado, no la densidad de palabras clave.</strong>{" "}
+            Una recomendación de IA se basa en cómo tu negocio está descrito y
+            citado en muchas fuentes — no solo en tu propio sitio web.
+          </li>
+          <li>
+            <strong>Responden a preguntas en lenguaje natural.</strong> Un
+            cliente le pregunta a Perplexity: &ldquo;¿Quién hace marketing
+            bilingüe en Vail?&rdquo; — tu sitio web necesita contenido que
+            responda directamente esa pregunta en lenguaje simple para aparecer.
+          </li>
+          <li>
+            <strong>Dependen de señales estructuradas.</strong> El schema
+            markup, la información comercial consistente en los directorios y
+            la categorización explícita facilitan que los sistemas de IA
+            comprendan y recomienden tu negocio con precisión.
+          </li>
+        </ul>
+
+        <h2>¿Qué implica realmente la optimización GEO?</h2>
+        <p>
+          El GEO no es una solución única — es un conjunto de prácticas que
+          colectivamente mejoran la forma en que las plataformas de IA perciben
+          y referencian tu negocio:
+        </p>
+        <ul>
+          <li>
+            <strong>Contenido que responde preguntas reales.</strong> Escribe en
+            un lenguaje claro y directo que refleje cómo un cliente le
+            preguntaría a un asistente de IA sobre tus servicios.
+            &ldquo;¿Qué hace un consultor de IA para una pequeña
+            empresa?&rdquo; debe tener una respuesta clara en tu sitio.
+          </li>
+          <li>
+            <strong>Información comercial consistente en todas partes.</strong>{" "}
+            Tu nombre, dirección, teléfono, descripción del servicio y categoría
+            deben coincidir exactamente en tu sitio web, Google Business
+            Profile, Yelp, directorios del sector y perfiles sociales. La
+            inconsistencia crea ambigüedad — y las plataformas de IA no
+            recomiendan negocios ambiguos.
+          </li>
+          <li>
+            <strong>Schema markup.</strong> Los datos estructurados integrados
+            en tu sitio web le indican explícitamente a las máquinas qué es tu
+            negocio, dónde opera, qué ofrece y cómo contactarte. Esta es una
+            de las señales más claras que puedes enviar tanto a los motores de
+            búsqueda como a los sistemas de IA.
+          </li>
+          <li>
+            <strong>Citas de terceros.</strong> Las menciones de tu negocio en
+            noticias locales, publicaciones del sector, plataformas de reseñas
+            y sitios de socios añaden credibilidad. Los modelos de IA se basan
+            en referencias externas para validar la autoridad.
+          </li>
+          <li>
+            <strong>Reseñas y señales de reputación.</strong> El volumen, la
+            recencia y la calidad de las reseñas influyen en cómo las
+            plataformas de IA evalúan la autoridad de tu negocio en una
+            categoría determinada.
+          </li>
+        </ul>
+
+        <h2>¿Aún necesitas SEO?</h2>
+        <p>
+          Sí. Google no va a desaparecer, y la búsqueda tradicional sigue
+          generando tráfico significativo para los negocios locales. Una base
+          sólida de SEO — buena estructura del sitio, rendimiento técnico,
+          visibilidad de palabras clave locales y enlaces entrantes — sigue
+          siendo valiosa y refuerza el rendimiento del GEO. Muchas de las
+          señales que usan las plataformas de IA se superponen con lo que
+          produce un buen SEO.
+        </p>
+        <p>
+          El error está en tratar el SEO como el panorama completo. Los
+          negocios que invierten únicamente en SEO tradicional están optimizando
+          para una porción cada vez menor de cómo sus clientes descubren los
+          servicios. La ventana para construir autoridad GEO antes de que los
+          competidores se den cuenta está abierta ahora mismo — y no va a
+          permanecer abierta indefinidamente.
+        </p>
+
+        <h2>¿Cómo es una estrategia combinada de SEO + GEO?</h2>
+        <p>
+          Un enfoque combinado no requiere empezar de cero. Para la mayoría de
+          las pequeñas empresas, significa agregar prácticas de GEO sobre una
+          base de SEO existente:
+        </p>
+        <ol>
+          <li>
+            Audita tu visibilidad actual tanto en Google como en plataformas de
+            IA — ¿qué aparece cuando buscas tu propia categoría de negocio en
+            ChatGPT y Perplexity?
+          </li>
+          <li>
+            Corrige las inconsistencias en la información de tu negocio en
+            todas las plataformas.
+          </li>
+          <li>Agrega o actualiza el schema markup en tu sitio web.</li>
+          <li>
+            Reescribe las páginas clave para responder directamente las
+            preguntas que tus clientes le hacen a las herramientas de IA.
+          </li>
+          <li>
+            Construye presencia de citas a través de reseñas, listados en
+            directorios y menciones en medios ganados.
+          </li>
+          <li>
+            Continúa los esfuerzos tradicionales de SEO en paralelo —
+            estrategia de palabras clave, optimización de búsqueda local y
+            publicación de contenido.
+          </li>
+        </ol>
+        <p>
+          Este es exactamente el tipo de auditoría y trabajo estratégico que
+          hacemos para negocios en Colorado. El panorama ha cambiado. La mayoría
+          de tus competidores aún no se han adaptado. Ahora es el momento de
+          adelantarte.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "¿Cuál es la diferencia entre GEO y SEO?",
+              a: "El SEO (optimización para motores de búsqueda) optimiza tu sitio web para aparecer en los resultados de búsqueda de Google y Bing. El GEO (optimización para motores generativos) optimiza tu presencia en línea en general para aparecer en las respuestas generadas por IA de plataformas como ChatGPT, Perplexity y Grok. Ambos son ahora necesarios para una visibilidad completa en línea.",
+            },
+            {
+              q: "¿El GEO reemplaza al SEO?",
+              a: "No. El GEO y el SEO son estrategias complementarias. Google sigue generando tráfico local significativo, y una base sólida de SEO también apoya el rendimiento del GEO. El enfoque correcto es hacer ambos.",
+            },
+            {
+              q: "¿Cómo deciden las plataformas de IA qué negocios recomendar?",
+              a: "Las plataformas de IA sintetizan información de datos de entrenamiento, resultados de búsqueda en tiempo real, datos estructurados, citas de terceros, plataformas de reseñas y listados en directorios. Los negocios con presencias consistentes, autorizadas y bien citadas en estas fuentes tienen más probabilidades de aparecer en las recomendaciones generadas por IA.",
+            },
+            {
+              q: "¿Qué es el schema markup y por qué importa para el GEO?",
+              a: "El schema markup es un código estructurado integrado en tu sitio web que describe explícitamente tu negocio a las máquinas — tu nombre, ubicación, servicios, horario y categoría. Ayuda tanto a los motores de búsqueda como a las plataformas de IA a comprender y representar con precisión tu negocio en los resultados.",
+            },
+            {
+              q: "¿Cómo sé si mi negocio aparece en las plataformas de IA?",
+              a: "Pruébalo tú mismo: pídele a ChatGPT, Perplexity o Grok que recomiende un negocio como el tuyo en tu ciudad o región. Si no apareces — o apareces de forma incorrecta — ese es tu punto de partida. Una auditoría GEO identificará las brechas específicas a abordar.",
+            },
+          ]}
+        />
+
+        <CTAes />
       </>
     ),
   },
