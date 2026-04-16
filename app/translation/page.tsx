@@ -1,10 +1,98 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import gisellaPhoto from "../../public/gisella-mountains-web.jpg";
 import riverPhoto from "../../public/gisella-river.jpg";
 
+export const metadata: Metadata = {
+  title: "Translation & Interpretation — Eagle River Valley",
+  description:
+    "Professional English–Spanish translation and live interpretation led by Gisella Rounds, a native Peruvian Spanish speaker with 20+ years of cross-cultural experience. Serving the Eagle River Valley and Colorado mountain corridor.",
+  alternates: {
+    canonical: "/translation",
+  },
+  openGraph: {
+    title: "Translation & Interpretation — Eagle River Valley | Doble AI",
+    description:
+      "Professional English–Spanish translation and live interpretation. Native-quality. Culturally grounded. Serving the Vail Valley, Roaring Fork Valley, and Colorado mountain corridor.",
+    url: "https://dobleai.com/translation",
+    images: [
+      {
+        url: "/gisella-mountains-web.jpg",
+        width: 1200,
+        height: 800,
+        alt: "Gisella Rounds — Bilingual Translation & Interpretation, Eagle River Valley",
+      },
+    ],
+  },
+};
+
+const translationSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://dobleai.com/#gisella-rounds",
+      name: "Gisella Rounds",
+      jobTitle: "Lead Translator & Interpretation Specialist",
+      description:
+        "Native Spanish speaker from Peru with 20+ years of cross-cultural experience across 30+ countries. Lead translator and live interpretation specialist at Doble AI, serving the Eagle River Valley and Colorado mountain corridor.",
+      knowsLanguage: ["es", "en"],
+      nationality: "Peruvian",
+      worksFor: { "@id": "https://dobleai.com/#organization" },
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dobleai.com/translation#translation-service",
+      name: "English to Spanish Translation",
+      description:
+        "Professional English-to-Spanish translation for marketing copy, blog posts, event materials, outreach documents, and social content — delivered in authentic, native-quality Spanish.",
+      provider: { "@id": "https://dobleai.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Eagle County, Colorado" },
+        { "@type": "AdministrativeArea", name: "Pitkin County, Colorado" },
+        { "@type": "AdministrativeArea", name: "Routt County, Colorado" },
+        { "@type": "AdministrativeArea", name: "Summit County, Colorado" },
+      ],
+      availableLanguage: [
+        { "@type": "Language", name: "English" },
+        { "@type": "Language", name: "Spanish" },
+      ],
+      url: "https://dobleai.com/translation",
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dobleai.com/translation#interpretation-service",
+      name: "Live Bilingual Interpretation",
+      description:
+        "On-site bilingual English–Spanish interpretation for events, corporate meetings, community gatherings, and nonprofit programs in the Eagle River Valley and Colorado mountain corridor.",
+      provider: { "@id": "https://dobleai.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Eagle County, Colorado" },
+        { "@type": "AdministrativeArea", name: "Pitkin County, Colorado" },
+      ],
+      availableLanguage: [
+        { "@type": "Language", name: "English" },
+        { "@type": "Language", name: "Spanish" },
+      ],
+      url: "https://dobleai.com/translation",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://dobleai.com" },
+        { "@type": "ListItem", position: 2, name: "Translation & Interpretation", item: "https://dobleai.com/translation" },
+      ],
+    },
+  ],
+};
+
 export default function TranslationPage() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(translationSchema) }}
+      />
       <Nav />
       <Hero />
       <Services />

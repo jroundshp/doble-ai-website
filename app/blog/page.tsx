@@ -1,15 +1,48 @@
 import Link from "next/link";
 import { posts } from "../lib/posts";
 
-export const metadata = {
-  title: "Blog — Doble AI",
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "@id": "https://dobleai.com/blog",
+  name: "The Doble AI Blog",
   description:
-    "Insights on AI adoption, digital presence, competitive strategy, and bilingual marketing for Colorado businesses.",
+    "Practical guides on AI adoption, digital presence, competitive strategy, and bilingual marketing for Colorado businesses.",
+  url: "https://dobleai.com/blog",
+  publisher: { "@id": "https://dobleai.com/#organization" },
+  blogPost: posts.map((p) => ({
+    "@type": "BlogPosting",
+    headline: p.title,
+    url: `https://dobleai.com/blog/${p.slug}`,
+    datePublished: p.dateISO,
+    description: p.excerpt,
+  })),
+};
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description:
+    "Practical guides on AI adoption, digital presence, competitive strategy, and bilingual marketing for Colorado businesses.",
+  alternates: {
+    canonical: "/blog",
+  },
+  openGraph: {
+    title: "The Doble AI Blog",
+    description:
+      "Practical guides on AI adoption, digital presence, competitive strategy, and bilingual marketing for Colorado businesses.",
+    url: "https://dobleai.com/blog",
+  },
 };
 
 export default function BlogIndex() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">

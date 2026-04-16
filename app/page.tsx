@@ -1,16 +1,65 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import johnRoundsPhoto from "../public/john-rounds.jpeg";
 import johnGisellaPhoto from "../public/john-gisella.jpeg";
 import AuditForm from "./components/AuditForm";
 
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
+
+const faqs = [
+  {
+    q: "What does Doble AI do?",
+    a: "Doble AI is a bilingual AI consulting firm based in the Eagle River Valley, Colorado. We help Colorado businesses grow by auditing their digital presence, mapping the competitive landscape, implementing AI tools, and building brand and sales strategy — all available in both English and Spanish.",
+  },
+  {
+    q: "What is included in a free business audit?",
+    a: "Our free business audit covers your current online presence, Google Business Profile status, website performance, review volume and sentiment, and a high-level competitive comparison. We deliver a written summary within 5–7 days with specific, prioritized recommendations — no pitch deck, no obligation.",
+  },
+  {
+    q: "How much does AI consulting cost?",
+    a: "Doble AI pricing is scoped to your specific project and needs. Every engagement starts with a free audit. Typical 90-day consulting engagements are quoted after the audit based on scope. Contact us for a clear, itemized quote.",
+  },
+  {
+    q: "What makes Doble AI different from other consultants?",
+    a: "We are Colorado's only bilingual AI consulting firm. Unlike most consultants, we deliver strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents who speak Spanish as a first language. Our founders have business experience across 50+ countries and are natively bilingual.",
+  },
+  {
+    q: "Do I need to be located in the Vail Valley to work with Doble AI?",
+    a: "No. While we are based in the Eagle River Valley and know the Vail, Roaring Fork, and Steamboat Springs markets well, we work with businesses across Colorado and nationally. If you want to reach bilingual markets or implement AI strategy, we can help regardless of location.",
+  },
+  {
+    q: "What industries does Doble AI work with?",
+    a: "We work with small to mid-size businesses across construction and trades, real estate, hospitality, professional services, and nonprofits — especially businesses serving or looking to reach Spanish-speaking customers in Colorado mountain communities.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(({ q, a }) => ({
+    "@type": "Question",
+    name: q,
+    acceptedAnswer: { "@type": "Answer", text: a },
+  })),
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Nav />
       <Hero />
       <Problem />
       <Services />
       <SampleWork />
+      <FAQ />
       <About />
       <Contact />
       <Footer />
@@ -350,6 +399,39 @@ function About() {
               <h3 className="font-semibold mb-2">{p.title}</h3>
               <p className="text-[#a3a3a3] text-sm leading-relaxed">{p.desc}</p>
             </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── FAQ ── */
+function FAQ() {
+  return (
+    <section className="py-24 px-6 border-t border-white/[0.06]">
+      <div className="max-w-3xl mx-auto">
+        <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
+          <span className="w-6 h-px bg-orange-500" />
+          Common questions
+        </div>
+        <h2 className="text-4xl font-bold mb-12">What people ask before they reach out.</h2>
+        <div className="space-y-0 divide-y divide-white/[0.06]">
+          {faqs.map(({ q, a }) => (
+            <details
+              key={q}
+              className="group py-6"
+            >
+              <summary className="flex items-center justify-between gap-4 cursor-pointer list-none">
+                <span className="text-lg font-semibold group-open:text-orange-400 transition-colors">
+                  {q}
+                </span>
+                <span className="text-orange-500 text-xl flex-shrink-0 group-open:rotate-45 transition-transform duration-200">
+                  +
+                </span>
+              </summary>
+              <p className="mt-4 text-[#a3a3a3] leading-relaxed">{a}</p>
+            </details>
           ))}
         </div>
       </div>

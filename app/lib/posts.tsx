@@ -5,6 +5,7 @@ export type Post = {
   title: string;
   excerpt: string;
   date: string;
+  dateISO: string;
   category: string;
   readTime: string;
   coverImage: string;
@@ -53,6 +54,7 @@ export const posts: Post[] = [
     excerpt:
       "Traditional SEO was built for Google. But your customers are increasingly asking ChatGPT, Perplexity, and Grok for recommendations — and most businesses aren't showing up in those answers. Here's what GEO is, why it matters, and what a combined strategy looks like.",
     date: "April 16, 2026",
+    dateISO: "2026-04-16",
     category: "Digital Strategy",
     readTime: "6 min read",
     coverImage:
@@ -291,6 +293,7 @@ export const posts: Post[] = [
     excerpt:
       "Most business owners know who their competitors are. Very few know what those competitors are actually doing well — or where the gaps are. A competitive analysis changes that.",
     date: "April 3, 2026",
+    dateISO: "2026-04-03",
     category: "Strategy",
     readTime: "4 min read",
     coverImage:
@@ -430,6 +433,7 @@ export const posts: Post[] = [
     excerpt:
       "Your website, Google listing, and reviews are working 24/7 — but most businesses have no idea what signals they're sending. Here's what a digital presence audit reveals.",
     date: "April 10, 2026",
+    dateISO: "2026-04-10",
     category: "Digital Strategy",
     readTime: "4 min read",
     coverImage:
@@ -561,6 +565,7 @@ export const posts: Post[] = [
     excerpt:
       "You don't have to go all-in on AI to get real value from it. Here's an honest roadmap — from first conversation to full implementation — so you can decide exactly how far you want to take it.",
     date: "April 14, 2026",
+    dateISO: "2026-04-14",
     category: "AI Strategy",
     readTime: "5 min read",
     coverImage:
@@ -705,6 +710,7 @@ export const posts: Post[] = [
     excerpt:
       "In the Vail and Roaring Fork Valleys, nearly half the population speaks Spanish as a first language. Most local businesses market to only half their potential customers. Here's what that costs — and how to fix it.",
     date: "March 28, 2026",
+    dateISO: "2026-03-28",
     category: "Bilingual Marketing",
     readTime: "4 min read",
     coverImage:

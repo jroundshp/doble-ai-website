@@ -14,20 +14,20 @@ export async function generateMetadata({
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} — Doble AI`,
+    title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
+    alternates: {
+      canonical: `/blog/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      images: [{ url: post.coverImage, alt: post.coverAlt }],
+      url: `https://dobleai.com/blog/${slug}`,
       type: "article",
-      publishedTime: post.date,
+      publishedTime: post.dateISO,
       authors: ["John Rounds"],
-      siteName: "Doble AI",
-    },
-    alternates: {
-      canonical: `https://dobleai.com/blog/${slug}`,
+      images: [{ url: post.coverImage, alt: post.coverAlt }],
     },
   };
 }
@@ -41,34 +41,52 @@ export default async function BlogPost({
   const post = getPost(slug);
   if (!post) notFound();
 
-  const jsonLd = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `https://dobleai.com/blog/${post.slug}`,
     headline: post.title,
     description: post.excerpt,
     image: post.coverImage,
-    datePublished: post.date,
+    datePublished: post.dateISO,
+    dateModified: post.dateISO,
     author: {
       "@type": "Person",
+      "@id": "https://dobleai.com/#john-rounds",
       name: "John Rounds",
-      url: "https://dobleai.com/#about",
+      jobTitle: "AI Consultant & Founder",
+      url: "https://dobleai.com/#john-rounds",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Doble AI",
-      url: "https://dobleai.com",
-    },
+    publisher: { "@id": "https://dobleai.com/#organization" },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://dobleai.com/blog/${slug}`,
+      "@id": `https://dobleai.com/blog/${post.slug}`,
     },
+    isPartOf: {
+      "@type": "Blog",
+      "@id": "https://dobleai.com/blog",
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://dobleai.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://dobleai.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://dobleai.com/blog/${post.slug}` },
+    ],
   };
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
@@ -132,6 +150,23 @@ export default async function BlogPost({
 
           {/* Body */}
           <div className="prose-doble">{post.content}</div>
+
+          {/* Author */}
+          <div className="border-t border-white/[0.06] pt-8 mt-12 flex items-start gap-5">
+            <img
+              src="/john-rounds.jpeg"
+              alt="John Rounds, founder of Doble AI"
+              className="w-14 h-14 rounded-full object-cover object-top flex-shrink-0"
+            />
+            <div>
+              <p className="text-sm font-semibold text-white mb-1">John Rounds</p>
+              <p className="text-xs text-[#a3a3a3] leading-relaxed">
+                Founder of Doble AI. Bilingual AI consultant and business strategist with 20+ years of
+                international experience across 50+ countries. Works with Colorado businesses to implement
+                AI strategy and grow in both English and Spanish markets.
+              </p>
+            </div>
+          </div>
         </div>
       </article>
 
