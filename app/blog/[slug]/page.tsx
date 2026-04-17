@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { posts, getPost } from "../../lib/posts";
+import Footer from "../../components/Footer";
 
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -170,22 +171,7 @@ export default async function BlogPost({
         </div>
       </article>
 
-      {/* Footer */}
-      <footer className="py-10 px-6 border-t border-white/[0.06]">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#555]">
-          <div>
-            doble<span className="text-orange-500">AI</span> — Eagle River Valley, Colorado
-          </div>
-          <div className="flex gap-6">
-            <a href="/#services" className="hover:text-white transition-colors">Services</a>
-            <a href="/#work" className="hover:text-white transition-colors">Work</a>
-            <a href="/blog" className="hover:text-white transition-colors">Blog</a>
-            <a href="/#about" className="hover:text-white transition-colors">About</a>
-            <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
-          </div>
-          <div>© {new Date().getFullYear()} Doble AI LLC</div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
