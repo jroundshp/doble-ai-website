@@ -264,7 +264,7 @@ export const posts: Post[] = [
           al mensaje.
         </p>
 
-        <h2>Lo que les digo a los clientes</h2>
+        <h2>Lo que les diré o digo a los clientes</h2>
         <p>
           Cuando una empresa nos pregunta cómo hablarle a sus clientes
           hispanohablantes, una de las primeras preguntas que hago es:{" "}
