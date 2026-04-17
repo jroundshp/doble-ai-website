@@ -68,6 +68,249 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "espanol-peruano-la-ventaja-del-acento-neutro",
+    title: "Por qué el español peruano se considera el más neutro — y qué significa eso para la IA",
+    excerpt:
+      "Como peruana y hablante nativa de español, he pasado mi carrera navegando la rica diversidad del mundo hispanohablante. Aquí explico por qué la neutralidad lingüística de Perú es una ventaja real — y cómo moldea lo que construimos en Doble AI.",
+    date: "17 de abril de 2026",
+    dateISO: "2026-04-17",
+    category: "Marketing Bilingüe",
+    readTime: "6 min de lectura",
+    coverImage:
+      "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Mapa de América Latina que representa la diversidad de dialectos del español en la región",
+    keywords:
+      "español peruano, acento neutro español, dialectos del español América Latina, IA de voz en español, IA bilingüe, transcripción en español, español neutro para negocios, Doble AI",
+    content: (
+      <>
+        <p>
+          Crecí en Lima, Perú, en un hogar donde el español era simplemente el
+          aire que respirábamos &mdash; no una materia de estudio, sino el medio
+          a través del cual discutíamos, nos reíamos y negociábamos todo. No fue
+          hasta que empecé a viajar y trabajar en otras partes de América Latina,
+          y más tarde a construir sistemas de IA en Doble AI, que comencé a
+          apreciar verdaderamente algo que siempre di por sentado: el español
+          peruano es, en un sentido muy real, el dialecto neutro de nuestra
+          lengua.
+        </p>
+        <p>
+          Eso no es una fanfarronada. Es una observación lingüística que llevan
+          décadas haciendo lingüistas, directores de voz, estudios de doblaje y,
+          cada vez más, desarrolladores de IA. Pero viajar por la región me dio
+          algo más que una base neutra &mdash; me dio una exposición directa a
+          todos los acentos principales y sus ritmos. Esa experiencia es lo que
+          me permite interpretar para un hablante dominicano en plena velocidad,
+          seguir una conversación chilena sin perder el hilo, o trabajar con
+          documentación escrita sabiendo exactamente qué registro funcionará para
+          todos.
+        </p>
+
+        <h2>Qué significa realmente el &ldquo;español neutro&rdquo;</h2>
+        <p>
+          El español no es un solo idioma. Es una familia de dialectos que se
+          extiende desde la Ciudad de México hasta Buenos Aires, y dentro de esa
+          familia hay acentos, decisiones de vocabulario y estructuras
+          gramaticales que varían tan drásticamente que los hablantes nativos a
+          veces se esfuerzan por entenderse entre sí a velocidad natural.
+        </p>
+        <p>
+          El &ldquo;español neutro&rdquo; &mdash; también llamado{" "}
+          <em>español estándar</em> &mdash; hace referencia a un registro del
+          idioma deliberadamente despojado de marcadores regionales. Surgió como
+          estándar práctico para las industrias del doblaje y la radiodifusión en
+          los años setenta y ochenta, cuando los productores necesitaban una sola
+          voz en español que pudiera transmitirse desde la Ciudad de México hasta
+          Buenos Aires sin alienar a ninguna audiencia. El resultado fue una forma
+          del español que tomó su fonética principalmente de los dialectos andinos
+          &mdash; y en el centro de esa región está Perú.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1519955266818-0231b4d903d6?auto=format&fit=crop&w=1200&q=80"
+          alt="Panorama de Lima, Perú, representando la cultura y el idioma peruanos"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>El argumento fonético a favor de Perú</h2>
+        <p>
+          ¿Qué hace que el español peruano &mdash; y en particular el dialecto
+          culto limeño &mdash; sea el punto de referencia? Se reduce a varias
+          características fonéticas que otras variedades importantes del español
+          no comparten:
+        </p>
+        <ul>
+          <li>
+            <strong>Todas las consonantes se pronuncian con plenitud.</strong>{" "}
+            En el español caribeño (República Dominicana, Puerto Rico, Cuba,
+            Venezuela y Colombia costeras), la letra <em>s</em> al final de
+            sílaba suele aspirarse o desaparecer por completo.
+            &ldquo;Estos&rdquo; se convierte en &ldquo;ehtoh&rdquo; o incluso
+            &ldquo;etoh.&rdquo; En el español peruano, la <em>s</em> es nítida
+            y está presente. Cada consonante gana su lugar.
+          </li>
+          <li>
+            <strong>Vocales limpias y consistentes.</strong> El español andino
+            &mdash; incluido el peruano &mdash; es conocido por sus sonidos
+            vocálicos puros y estables. A diferencia de las variedades caribeñas
+            costeras, donde las vocales pueden desplazarse o fusionarse en el
+            habla rápida, las vocales peruanas aterrizan exactamente donde la
+            palabra escrita indica. Esta previsibilidad es un activo significativo
+            para el reconocimiento de voz y los sistemas de IA.
+          </li>
+          <li>
+            <strong>
+              Sin <em>voseo</em>.
+            </strong>{" "}
+            Argentina, Uruguay y partes de América Central usan <em>vos</em> en
+            lugar de <em>tú</em> para la segunda persona del singular, con
+            conjugaciones verbales completamente distintas. &ldquo;Vos tenés
+            razón&rdquo; en lugar de &ldquo;Tú tienes razón.&rdquo; El español
+            peruano usa las conjugaciones estándar de <em>tú</em>, reconocibles
+            de inmediato en todo el mundo hispanohablante.
+          </li>
+          <li>
+            <strong>
+              <em>Ll</em> e <em>y</em> distintas.
+            </strong>{" "}
+            En el español rioplatense (Argentina, Uruguay), tanto <em>ll</em>{" "}
+            como <em>y</em> se pronuncian como el sonido &ldquo;sh&rdquo; del
+            inglés &mdash; una característica llamada{" "}
+            <em>yeísmo rehilado</em>. &ldquo;Yo me llamo&rdquo; se convierte en
+            algo más parecido a &ldquo;Sho me shamo.&rdquo; En Perú, estos
+            sonidos permanecen distintos y cercanos a la forma escrita estándar.
+          </li>
+        </ul>
+
+        <h2>El espectro de acentos: un mapa honesto</h2>
+        <p>
+          Quiero ser clara: ningún dialecto es &ldquo;mejor&rdquo; que otro. El
+          acento argentino es musical e inconfundiblemente seguro. El español
+          costero colombiano tiene una calidez y un ritmo profundamente
+          atractivos. El español dominicano es expresivo y veloz de una manera
+          que transmite auténtica cercanía. Estos no son defectos &mdash; son la
+          identidad viva de cada cultura.
+        </p>
+        <p>
+          Pero cuando hablamos de inteligibilidad en todo el mundo
+          hispanohablante, o de construir IA de voz que pueda servir a audiencias
+          desde San Salvador hasta Santiago sin activar una asociación regional,
+          el espectro se ve aproximadamente así:
+        </p>
+        <ul>
+          <li>
+            <strong>Mayor distintividad regional:</strong> argentino
+            (rioplatense), dominicano, puertorriqueño, cubano, venezolano costero
+          </li>
+          <li>
+            <strong>Moderadamente regional:</strong> mexicano (varía
+            significativamente por región), colombiano costero, chileno
+          </li>
+          <li>
+            <strong>Más cercano al neutro:</strong> peruano (especialmente Lima
+            y Arequipa), colombiano bogotano (tierras altas) y mexicano estándar
+            culto
+          </li>
+        </ul>
+        <p>
+          Vale la pena señalar que Bogotá se cita a veces junto a Lima como
+          punto de referencia neutro &mdash; y es justo. Pero la diversidad
+          lingüística interna de Colombia es significativa: los acentos costeros
+          difieren drásticamente del estándar de las tierras altas. Perú tiene
+          una base más consistente en sus principales centros urbanos.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?auto=format&fit=crop&w=1200&q=80"
+          alt="Micrófono en un estudio de grabación profesional, representando la IA de voz y el doblaje"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>Por qué esto importa más que nunca para la IA</h2>
+        <p>
+          Cuando Doble AI construye IA de voz, entrena modelos de transcripción
+          o produce contenido bilingüe, el dialecto no es un detalle menor. Es la
+          diferencia entre un producto que se siente propio para tu audiencia y
+          uno que señala &ldquo;esto fue construido para otra persona.&rdquo;
+        </p>
+        <p>
+          Los modelos de reconocimiento de voz entrenados con corpus amplios en
+          español a menudo tienen dificultades con la elisión caribeña intensa o
+          los sonidos <em>sh</em> rioplatenses, porque estas características se
+          apartan significativamente de los patrones fonéticos que dominan los
+          datos de entrenamiento. La IA de voz construida sobre una base peruana
+          neutra o colombiana de tierras altas generaliza mejor en todo el mundo
+          hispanohablante &mdash; exactamente la misma lógica que la industria
+          del doblaje adoptó hace cuarenta años y que los desarrolladores de IA
+          están redescubriendo hoy.
+        </p>
+        <p>
+          Para las empresas que buscan llegar a los 42 millones de
+          hispanohablantes en Estados Unidos &mdash; que provienen de México,
+          América Central, el Caribe y América del Sur &mdash; una voz o un tono
+          escrito claramente regional proyectará inconscientemente una pertenencia
+          de grupo. Una base en español neutro no significa borrar la cultura.
+          Significa no excluir accidentalmente a nadie antes siquiera de llegar
+          al mensaje.
+        </p>
+
+        <h2>Lo que les digo a los clientes</h2>
+        <p>
+          Cuando una empresa nos pregunta cómo hablarle a sus clientes
+          hispanohablantes, una de las primeras preguntas que hago es:{" "}
+          <em>¿cuáles</em> clientes hispanohablantes? Si la respuesta es
+          &ldquo;principalmente mexicoamericanos en Texas,&rdquo; nos inclinamos
+          por el estándar mexicano &mdash; el vocabulario, las expresiones, la
+          cadencia que les suena a hogar. Si el trabajo es para Argentina,
+          conocemos las convenciones del <em>voseo</em> y el registro cultural
+          que allí suena natural. Para Chile, conocemos los modismos que no
+          viajan bien más allá de sus fronteras. Esa fluidez cultural &mdash;
+          ganada estando realmente en esos lugares &mdash; es lo que hace que el
+          ajuste fino valga algo. Si la respuesta es &ldquo;cualquiera que pueda
+          comprarnos en América Latina,&rdquo; anclamos al español neutro:
+          consonantes claras, conjugaciones estándar, vocabulario sin marca
+          regional.
+        </p>
+        <p>
+          Crecer en Lima me dio una intuición para esta neutralidad que de niña
+          no comprendía. Ahora es una de las herramientas más valiosas que aporto
+          al trabajo que hacemos en Doble AI. El acento con el que nací resulta
+          estar inusualmente bien adaptado para construir cosas que funcionen para
+          todos.
+        </p>
+        <p>
+          Es algo de lo que me siento genuinamente orgullosa &mdash; no como una
+          coincidencia geográfica, sino como un recordatorio de que el lugar de
+          donde vienes da forma a lo que eres capaz de construir.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "¿Qué es el español neutro y por qué se usa en la IA?",
+              a: "El español neutro (español estándar) es un registro estandarizado con marcadores regionales mínimos — pronunciación consonántica clara, conjugaciones estándar de tú y vocabulario ampliamente inteligible. Los sistemas de voz e IA de transcripción lo usan como base de entrenamiento porque generaliza bien en todos los mercados hispanohablantes sin activar asociaciones regionales.",
+            },
+            {
+              q: "¿Es realmente el español peruano el más neutro?",
+              a: "El español peruano — en particular el dialecto culto limeño — es ampliamente considerado uno de los más cercanos al estándar neutro, junto al colombiano de tierras altas (bogotano). Ambos se usan frecuentemente como dialectos de referencia en doblaje, radiodifusión y desarrollo de IA de voz, principalmente por la retención completa de consonantes y las conjugaciones verbales estándar.",
+            },
+            {
+              q: "¿Cómo afecta la elección del dialecto al marketing bilingüe?",
+              a: "El español regional señala pertenencia de grupo. Usar un acento marcadamente argentino o dominicano en contenido de marketing dirigido a una audiencia latinoamericana amplia puede generar distancia con otros grupos. Para marcas que apuntan a audiencias hispanohablantes diversas, el español neutro maximiza la inteligibilidad entre regiones y evita fricciones culturales no deseadas.",
+            },
+            {
+              q: "¿En qué se diferencia el español argentino del español peruano?",
+              a: "El español rioplatense (Argentina y Uruguay) usa voseo (vos en lugar de tú, con distintas terminaciones verbales) y yeísmo rehilado (ll e y pronunciadas como 'sh' del inglés). Estas características están ausentes en el español peruano, lo que hace que el argentino sea inmediatamente distintivo para cualquier hispanohablante y a veces difícil de seguir para quienes no son de Argentina a velocidad natural.",
+            },
+          ]}
+        />
+
+        <CTAes />
+      </>
+    ),
+  },
+  {
     slug: "peruvian-spanish-the-neutral-accent-advantage",
     title: "Why Peruvian Spanish Is Considered the Most Neutral — And Why It Matters for AI",
     excerpt:
