@@ -19,7 +19,9 @@ const organizationSchema = {
       url: "https://dobleai.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://dobleai.com/gisella-mountains-web.jpg",
+        url: "https://dobleai.com/logo.svg",
+        width: 230,
+        height: 50,
       },
       description:
         "Colorado's only bilingual AI consulting firm. We help Colorado businesses grow with AI strategy, competitive analysis, and bilingual marketing — in English and in Spanish.",
@@ -80,6 +82,13 @@ export const metadata: Metadata = {
   verification: {
     google: "FbzgIu5hqLKGg8G6o3M30NgrnefJomo9-lZZ6rNyis0",
   },
+  icons: {
+    icon: [
+      { url: "/logo-icon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   title: {
     default: "Doble AI — Bilingual AI Consulting for Colorado Businesses",
     template: "%s — Doble AI",
@@ -96,9 +105,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/gisella-mountains-web.jpg",
+        url: "/og-image.png",
         width: 1200,
-        height: 800,
+        height: 630,
         alt: "Doble AI — Bilingual AI Consulting for Colorado Businesses",
       },
     ],
@@ -108,7 +117,7 @@ export const metadata: Metadata = {
     title: "Doble AI — Bilingual AI Consulting for Colorado Businesses",
     description:
       "Colorado's only bilingual AI consulting firm. AI strategy and bilingual marketing for Eagle River Valley businesses.",
-    images: ["/gisella-mountains-web.jpg"],
+    images: ["/og-image.png"],
   },
 };
 

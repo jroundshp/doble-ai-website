@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 50" fill="none">
+  <!-- Icon: two overlapping rounded rectangles -->
+  <rect x="2" y="3" width="22" height="44" rx="8" stroke="white" stroke-width="3.5"/>
+  <rect x="16" y="3" width="22" height="44" rx="8" stroke="#E8600A" stroke-width="3.5"/>
+  <!-- Wordmark -->
+  <text x="48" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" fill="white">doble</text>
+  <text x="138" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" fill="#E8600A">AI</text>
+</svg>

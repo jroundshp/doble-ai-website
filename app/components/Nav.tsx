@@ -8,8 +8,8 @@ export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="/" className="text-lg font-semibold tracking-tight">
-          doble<span className="text-orange-500">AI</span>
+        <a href="/" className="flex items-center">
+          <img src="/logo.svg" alt="Doble AI" className="h-8 w-auto" />
         </a>
 
         {/* Desktop links */}
