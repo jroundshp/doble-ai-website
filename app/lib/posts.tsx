@@ -95,9 +95,13 @@ export const posts: Post[] = [
         <p>
           That&apos;s not a boast. It&apos;s a linguistic observation that
           linguists, voice directors, dubbing studios, and increasingly, AI
-          developers have been making for decades. Understanding why it&apos;s
-          true &mdash; and what it means for businesses trying to speak to
-          Spanish-speaking audiences &mdash; is something I want to unpack here.
+          developers have been making for decades. But travelling across the
+          region gave me something beyond a neutral baseline &mdash; it gave me
+          firsthand exposure to every major accent and its rhythms. That
+          experience is what allows me to interpret for a Dominican speaker in
+          full flow, follow a rapid-fire Chilean conversation, or work with
+          written documentation knowing exactly which register will land cleanly
+          across all of them.
         </p>
 
         <h2>What &ldquo;Neutral Spanish&rdquo; Actually Means</h2>
@@ -251,11 +255,16 @@ export const posts: Post[] = [
           When a business comes to us asking how to speak to Spanish-speaking
           customers, one of the first questions I ask is: <em>which</em>{" "}
           Spanish-speaking customers? If the answer is &ldquo;primarily Mexican
-          Americans in Texas,&rdquo; we lean into a Mexican standard. If the
-          answer is &ldquo;anyone who might buy from us in the US or Latin
-          America,&rdquo; we anchor to neutral Spanish &mdash; clear consonants,
-          standard <em>tú</em> conjugations, vocabulary that doesn&apos;t carry
-          a regional stamp.
+          Americans in Texas,&rdquo; we lean into a Mexican standard &mdash; the
+          vocabulary, the expressions, the cadence that feels like home to that
+          audience. If the work is for Argentina, we know the{" "}
+          <em>voseo</em> conventions and the cultural register that reads as
+          natural there. For Chile, we know the idioms that don&apos;t travel
+          well across borders. That cultural fluency &mdash; earned through
+          actually being in those places &mdash; is what makes the fine-tuning
+          worth something. If the answer is &ldquo;anyone who might buy from us
+          across Latin America,&rdquo; we anchor to neutral Spanish: clear
+          consonants, standard conjugations, vocabulary without a regional stamp.
         </p>
         <p>
           Growing up in Lima gave me an intuition for this neutrality that I
