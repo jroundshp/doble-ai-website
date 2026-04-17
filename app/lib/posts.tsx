@@ -386,8 +386,8 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1519955266818-0231b4d903d6?auto=format&fit=crop&w=1200&q=80"
-          alt="Lima, Peru city skyline representing Peruvian culture and language"
+          src="https://images.pexels.com/photos/16640810/pexels-photo-16640810.jpeg?auto=compress&cs=tinysrgb&w=1200&h=750&dpr=1"
+          alt="The coastline of Lima, Peru at sunset — Miraflores cliffs meeting the Pacific Ocean"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
         />
