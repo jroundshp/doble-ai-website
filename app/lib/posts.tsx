@@ -87,7 +87,7 @@ export const posts: Post[] = [
           I grew up in Lima, Peru, in a household where Spanish was simply the
           air we breathed &mdash; not a subject of study, but the medium through
           which we argued, laughed, and negotiated everything. It wasn&apos;t
-          until I started working across Latin America, and later building AI
+          until I started travelling and working in other parts of Latin America, and later building AI
           systems at Doble AI, that I began to truly appreciate something I had
           always taken for granted: Peruvian Spanish is, in a very real sense,
           the neutral dialect of our language.
