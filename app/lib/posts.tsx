@@ -143,12 +143,12 @@ export const posts: Post[] = [
             the <em>s</em> is crisp and present. Every consonant earns its place.
           </li>
           <li>
-            <strong>No seseo-ceceo confusion.</strong> In Spain, the letters{" "}
-            <em>c</em> (before <em>e</em> or <em>i</em>) and <em>z</em> are
-            pronounced like the English <em>th</em> in &ldquo;think.&rdquo; Latin
-            America universally uses <em>seseo</em> (pronouncing both as{" "}
-            <em>s</em>), but Peru does it cleanly, without the extra sibilant
-            thickness you hear in some Southern Cone accents.
+            <strong>Clean, consistent vowels.</strong> Andean Spanish &mdash;
+            including Peruvian &mdash; is known for its pure, stable vowel sounds.
+            Unlike coastal Caribbean varieties where vowels can shift or merge
+            under rapid speech, Peruvian vowels land exactly where the written
+            word suggests. This predictability is a significant asset for speech
+            recognition and voice AI systems.
           </li>
           <li>
             <strong>
@@ -239,7 +239,7 @@ export const posts: Post[] = [
         <p>
           For businesses trying to reach the 42 million Spanish speakers in the
           United States &mdash; who come from Mexico, Central America, the
-          Caribbean, South America, and Spain &mdash; a voice or written tone
+          Caribbean, and South America &mdash; a voice or written tone
           that is clearly regional will unconsciously signal in-group and
           out-group membership. A neutral Spanish baseline is not about erasing
           culture. It is about not accidentally excluding anyone before you even
