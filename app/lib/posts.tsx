@@ -103,7 +103,7 @@ export const posts: Post[] = [
         <h2>What &ldquo;Neutral Spanish&rdquo; Actually Means</h2>
         <p>
           Spanish is not one language. It is a family of dialects that stretches
-          from Madrid to Tierra del Fuego, and within that family there are
+          from Mexico City to Buenos Aires, and within that family there are
           accents, vocabulary choices, and grammatical structures that vary so
           dramatically that native speakers sometimes struggle to understand each
           other at natural speaking speed.
@@ -186,7 +186,7 @@ export const posts: Post[] = [
         <p>
           But when we talk about intelligibility across the entire
           Spanish-speaking world, or about building voice AI that can serve
-          audiences from Miami to Madrid without triggering a regional
+          audiences from San Salvador to Santiago without triggering a regional
           association, the spectrum looks roughly like this:
         </p>
         <ul>
