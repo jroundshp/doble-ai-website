@@ -27,7 +27,7 @@ export async function generateMetadata({
       url: `https://dobleai.com/blog/${slug}`,
       type: "article",
       publishedTime: post.dateISO,
-      authors: ["John Rounds"],
+      authors: [post.author?.name ?? "John Rounds"],
       images: [{ url: post.coverImage, alt: post.coverAlt }],
     },
   };
@@ -51,13 +51,15 @@ export default async function BlogPost({
     image: post.coverImage,
     datePublished: post.dateISO,
     dateModified: post.dateISO,
-    author: {
-      "@type": "Person",
-      "@id": "https://dobleai.com/#john-rounds",
-      name: "John Rounds",
-      jobTitle: "AI Consultant & Founder",
-      url: "https://dobleai.com/#john-rounds",
-    },
+    author: post.author
+      ? { "@type": "Person", name: post.author.name }
+      : {
+          "@type": "Person",
+          "@id": "https://dobleai.com/#john-rounds",
+          name: "John Rounds",
+          jobTitle: "AI Consultant & Founder",
+          url: "https://dobleai.com/#john-rounds",
+        },
     publisher: { "@id": "https://dobleai.com/#organization" },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -153,21 +155,35 @@ export default async function BlogPost({
           <div className="prose-doble">{post.content}</div>
 
           {/* Author */}
-          <div className="border-t border-white/[0.06] pt-8 mt-12 flex items-start gap-5">
-            <img
-              src="/john-rounds.jpeg"
-              alt="John Rounds, founder of Doble AI"
-              className="w-14 h-14 rounded-full object-cover object-top flex-shrink-0"
-            />
-            <div>
-              <p className="text-sm font-semibold text-white mb-1">John Rounds</p>
-              <p className="text-xs text-[#a3a3a3] leading-relaxed">
-                Founder of Doble AI. Bilingual AI consultant and business strategist with 20+ years of
-                international experience across 50+ countries. Works with Colorado businesses to implement
-                AI strategy and grow in both English and Spanish markets.
-              </p>
+          {post.author ? (
+            <div className="border-t border-white/[0.06] pt-8 mt-12 flex items-start gap-5">
+              <div className="w-14 h-14 rounded-full bg-orange-500/20 border border-orange-500/30 flex items-center justify-center flex-shrink-0">
+                <span className="text-orange-400 font-bold text-lg">
+                  {post.author.name.split(" ").map((n) => n[0]).join("")}
+                </span>
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-white mb-1">{post.author.name}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{post.author.bio}</p>
+              </div>
             </div>
-          </div>
+          ) : (
+            <div className="border-t border-white/[0.06] pt-8 mt-12 flex items-start gap-5">
+              <img
+                src="/john-rounds.jpeg"
+                alt="John Rounds, founder of Doble AI"
+                className="w-14 h-14 rounded-full object-cover object-top flex-shrink-0"
+              />
+              <div>
+                <p className="text-sm font-semibold text-white mb-1">John Rounds</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">
+                  Founder of Doble AI. Bilingual AI consultant and business strategist with 20+ years of
+                  international experience across 50+ countries. Works with Colorado businesses to implement
+                  AI strategy and grow in both English and Spanish markets.
+                </p>
+              </div>
+            </div>
+          )}
         </div>
       </article>
 

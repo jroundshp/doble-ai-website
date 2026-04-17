@@ -11,6 +11,7 @@ export type Post = {
   coverImage: string;
   coverAlt: string;
   keywords?: string;
+  author?: { name: string; bio: string; image?: string };
   content: React.ReactNode;
 };
 
@@ -70,6 +71,10 @@ export const posts: Post[] = [
   {
     slug: "espanol-peruano-la-ventaja-del-acento-neutro",
     title: "Por qué el español peruano se considera el más neutro — y qué significa eso para la IA",
+    author: {
+      name: "Gisela Grados",
+      bio: "Socia en Doble AI. Peruana de nacimiento y profesional bilingüe con dos décadas de experiencia en la industria hotelera y de restaurantes en el JW Marriott Lima. Aporta una fluidez cultural profunda en toda América Latina aplicada a la traducción, interpretación y estrategia bilingüe con IA.",
+    },
     excerpt:
       "Como peruana y hablante nativa de español, he pasado mi carrera navegando la rica diversidad del mundo hispanohablante. Aquí explico por qué la neutralidad lingüística de Perú es una ventaja real — y cómo moldea lo que construimos en Doble AI.",
     date: "17 de abril de 2026",
@@ -86,23 +91,27 @@ export const posts: Post[] = [
         <p>
           Crecí en Lima, Perú, en un hogar donde el español era simplemente el
           aire que respirábamos &mdash; no una materia de estudio, sino el medio
-          a través del cual discutíamos, nos reíamos y negociábamos todo. No fue
-          hasta que empecé a viajar y trabajar en otras partes de América Latina,
-          y más tarde a construir sistemas de IA en Doble AI, que comencé a
-          apreciar verdaderamente algo que siempre di por sentado: el español
-          peruano es, en un sentido muy real, el dialecto neutro de nuestra
-          lengua.
+          a través del cual discutíamos, nos reíamos y negociábamos todo. Dos
+          décadas trabajando en la industria hotelera y de restaurantes en el JW
+          Marriott Lima profundizaron esa relación con el idioma &mdash;
+          colocándome a diario en una encrucijada donde huéspedes y colegas
+          llegaban de todos los rincones de América Latina, cada uno con su
+          propio acento, cadencia y vocabulario. No fue hasta que empecé a viajar
+          y trabajar en otras partes de la región, y más tarde a construir
+          sistemas de IA en Doble AI, que comencé a apreciar verdaderamente algo
+          que siempre di por sentado: el español peruano es, en un sentido muy
+          real, el dialecto neutro de nuestra lengua.
         </p>
         <p>
           Eso no es una fanfarronada. Es una observación lingüística que llevan
           décadas haciendo lingüistas, directores de voz, estudios de doblaje y,
-          cada vez más, desarrolladores de IA. Pero viajar por la región me dio
-          algo más que una base neutra &mdash; me dio una exposición directa a
-          todos los acentos principales y sus ritmos. Esa experiencia es lo que
-          me permite interpretar para un hablante dominicano en plena velocidad,
-          seguir una conversación chilena sin perder el hilo, o trabajar con
-          documentación escrita sabiendo exactamente qué registro funcionará para
-          todos.
+          cada vez más, desarrolladores de IA. Pero esos años en el Marriott
+          &mdash; y los viajes que siguieron &mdash; me dieron algo más que una
+          base neutra: una exposición directa a todos los acentos principales y
+          sus ritmos. Esa experiencia es lo que me permite interpretar para un
+          hablante dominicano en plena velocidad, seguir una conversación chilena
+          sin perder el hilo, o trabajar con documentación escrita sabiendo
+          exactamente qué registro funcionará para todos.
         </p>
 
         <h2>Qué significa realmente el &ldquo;español neutro&rdquo;</h2>
@@ -313,6 +322,10 @@ export const posts: Post[] = [
   {
     slug: "peruvian-spanish-the-neutral-accent-advantage",
     title: "Why Peruvian Spanish Is Considered the Most Neutral — And Why It Matters for AI",
+    author: {
+      name: "Gisela Grados",
+      bio: "Partner at Doble AI. Native Peruvian and bilingual professional with two decades in the hotel and restaurant industry at the JW Marriott Lima. Brings deep cultural fluency across Latin America to translation, interpretation, and AI-driven bilingual strategy.",
+    },
     excerpt:
       "As a Peruvian and a native Spanish speaker, I&apos;ve spent my career navigating the rich diversity of the Spanish-speaking world. Here&apos;s why Peru&apos;s linguistic neutrality is a real advantage — and how it shapes the way we build AI at Doble AI.",
     date: "April 17, 2026",
@@ -329,22 +342,27 @@ export const posts: Post[] = [
         <p>
           I grew up in Lima, Peru, in a household where Spanish was simply the
           air we breathed &mdash; not a subject of study, but the medium through
-          which we argued, laughed, and negotiated everything. It wasn&apos;t
-          until I started travelling and working in other parts of Latin America, and later building AI
-          systems at Doble AI, that I began to truly appreciate something I had
-          always taken for granted: Peruvian Spanish is, in a very real sense,
-          the neutral dialect of our language.
+          which we argued, laughed, and negotiated everything. Two decades
+          working in the hotel and restaurant industry at the JW Marriott Lima
+          deepened that relationship with the language &mdash; placing me daily
+          at a crossroads where guests and colleagues arrived from every corner
+          of Latin America, each carrying their own accent, cadence, and
+          vocabulary. It wasn&apos;t until I started travelling and working in
+          other parts of the region, and later building AI systems at Doble AI,
+          that I began to truly appreciate something I had always taken for
+          granted: Peruvian Spanish is, in a very real sense, the neutral dialect
+          of our language.
         </p>
         <p>
           That&apos;s not a boast. It&apos;s a linguistic observation that
           linguists, voice directors, dubbing studios, and increasingly, AI
-          developers have been making for decades. But travelling across the
-          region gave me something beyond a neutral baseline &mdash; it gave me
-          firsthand exposure to every major accent and its rhythms. That
-          experience is what allows me to interpret for a Dominican speaker in
-          full flow, follow a rapid-fire Chilean conversation, or work with
-          written documentation knowing exactly which register will land cleanly
-          across all of them.
+          developers have been making for decades. But those years at the
+          Marriott &mdash; and the travel that followed &mdash; gave me something
+          beyond a neutral baseline: firsthand exposure to every major accent and
+          its rhythms. That experience is what allows me to interpret for a
+          Dominican speaker in full flow, follow a rapid-fire Chilean
+          conversation, or work with written documentation knowing exactly which
+          register will land cleanly across all of them.
         </p>
 
         <h2>What &ldquo;Neutral Spanish&rdquo; Actually Means</h2>
