@@ -68,6 +68,245 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "geo-vs-seo",
+    title: "GEO vs. SEO: Why Your Business Is Invisible to the Tools Your Customers Are Actually Using",
+    excerpt:
+      "Traditional SEO was built for Google. But your customers are increasingly asking ChatGPT, Perplexity, and Grok for recommendations — and most businesses aren't showing up in those answers. Here's what GEO is, why it matters, and what a combined strategy looks like.",
+    date: "April 16, 2026",
+    dateISO: "2026-04-16",
+    category: "Digital Strategy",
+    readTime: "6 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "AI interface representing generative search and GEO optimization",
+    keywords:
+      "GEO vs SEO, generative engine optimization, AI search optimization, ChatGPT SEO, Perplexity optimization, small business SEO, digital visibility Colorado",
+    content: (
+      <>
+        <p>
+          If someone asked ChatGPT, Perplexity, or Grok to recommend a business
+          like yours in your city right now — would you come up? For most small
+          businesses, the honest answer is no. And the reason isn&apos;t a bad
+          website or a missing Google listing. It&apos;s that the rules for
+          online visibility just changed, and most businesses are still playing
+          by the old ones.
+        </p>
+
+        <h2>What Is SEO — and Why Isn&apos;t It Enough Anymore?</h2>
+        <p>
+          <strong>SEO, or search engine optimization</strong>, is the practice
+          of making your website easier for search engines like Google and Bing
+          to find, understand, and rank. For two decades, ranking on Google&apos;s
+          first page was the goal — and businesses that achieved it won most of
+          the organic traffic. Keyword optimization, backlink building, and
+          technical site improvements were how you got there.
+        </p>
+        <p>
+          SEO still matters. Google processes billions of searches every day and
+          remains a dominant discovery channel for local businesses. But
+          something significant has shifted: a growing share of the searches that
+          would have gone to Google are now going to AI platforms instead — and
+          traditional SEO does nothing to capture them.
+        </p>
+
+        <h2>How Are People Actually Searching in 2025?</h2>
+        <p>
+          The shift is real and accelerating. Platforms like ChatGPT, Perplexity,
+          Grok, Claude, and Google&apos;s AI Overviews have changed how millions
+          of people get answers. Instead of typing keywords and scanning a list
+          of blue links, users describe what they need in plain language and
+          receive a synthesized answer — often without clicking through to any
+          website at all.
+        </p>
+        <p>
+          For business owners, this creates a new and largely unaddressed
+          problem: your website can be perfectly optimized for Google and still
+          be completely invisible on the platforms your customers are
+          increasingly turning to.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1000&q=80"
+          alt="AI technology representing the shift from traditional search to generative AI platforms"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>What Is GEO — Generative Engine Optimization?</h2>
+        <p>
+          <strong>GEO, or generative engine optimization</strong>, is the
+          practice of making your business visible and citable to AI-powered
+          platforms. Where SEO optimizes your website for a search engine&apos;s
+          crawlers, GEO optimizes your overall online presence for the large
+          language models that power tools like ChatGPT and Perplexity.
+        </p>
+        <p>
+          The distinction matters because AI platforms don&apos;t rank websites
+          the way Google does. They synthesize information from across the web —
+          training data, real-time search results, structured data, third-party
+          citations, review platforms, and more — and generate a response based
+          on what they judge to be authoritative and relevant. If your business
+          isn&apos;t clearly described and well-represented across those sources,
+          you won&apos;t appear in AI-generated recommendations, regardless of
+          your Google ranking.
+        </p>
+
+        <h2>Why Doesn&apos;t Traditional SEO Work for AI Platforms?</h2>
+        <p>
+          Traditional SEO tactics work by signaling relevance to search engine
+          crawlers: keyword placement, page structure, domain authority, and
+          inbound links tell Google what your page is about. AI platforms
+          interpret information differently:
+        </p>
+        <ul>
+          <li>
+            <strong>They don&apos;t crawl in real time.</strong> Large language
+            models are trained on data collected over a period of time, meaning
+            your most recent website update may not yet be reflected in what an
+            AI platform knows about you.
+          </li>
+          <li>
+            <strong>They prioritize authoritative context, not keyword density.</strong>{" "}
+            An AI recommendation is based on how your business is described and
+            cited across many sources — not just your own website.
+          </li>
+          <li>
+            <strong>They respond to natural language questions.</strong> A
+            customer asks Perplexity, &ldquo;Who does bilingual marketing in
+            Vail?&rdquo; — your website needs content that directly answers that
+            question in plain language to be surfaced.
+          </li>
+          <li>
+            <strong>They rely on structured signals.</strong> Schema markup,
+            consistent business information across directories, and explicit
+            categorization make it easier for AI systems to understand and
+            recommend your business accurately.
+          </li>
+        </ul>
+
+        <h2>What Does GEO Optimization Actually Involve?</h2>
+        <p>
+          GEO is not a single fix — it&apos;s a set of practices that
+          collectively improve how AI platforms perceive and reference your
+          business:
+        </p>
+        <ul>
+          <li>
+            <strong>Content that answers real questions.</strong> Write in clear,
+            direct language that mirrors how a customer would ask an AI assistant
+            about your services. &ldquo;What does an AI consultant do for a
+            small business?&rdquo; should have a clear answer on your site.
+          </li>
+          <li>
+            <strong>Consistent business information everywhere.</strong> Your
+            name, address, phone number, service description, and category must
+            match exactly across your website, Google Business Profile, Yelp,
+            industry directories, and social profiles. Inconsistency creates
+            ambiguity — and AI platforms don&apos;t recommend ambiguous
+            businesses.
+          </li>
+          <li>
+            <strong>Schema markup.</strong> Structured data embedded in your
+            website explicitly tells machines what your business is, where it
+            operates, what it offers, and how to contact you. This is one of the
+            clearest signals you can send to both search engines and AI systems.
+          </li>
+          <li>
+            <strong>Third-party citations.</strong> Mentions of your business in
+            local news, industry publications, review platforms, and partner
+            sites add credibility. AI models draw on external references to
+            validate authority.
+          </li>
+          <li>
+            <strong>Reviews and reputation signals.</strong> Volume, recency, and
+            quality of reviews factor into how AI platforms assess your
+            business&apos;s authority in a given category.
+          </li>
+        </ul>
+
+        <h2>Do You Still Need SEO?</h2>
+        <p>
+          Yes. Google is not going away, and traditional search still drives
+          significant traffic for local businesses. A strong SEO foundation —
+          good site structure, technical performance, local keyword visibility,
+          and inbound links — remains valuable and reinforces GEO performance.
+          Many of the signals AI platforms use overlap with what good SEO
+          produces.
+        </p>
+        <p>
+          The error is treating SEO as the complete picture. Businesses that
+          invest only in traditional SEO are optimizing for a shrinking share of
+          how their customers discover services. The window to build GEO
+          authority before competitors figure this out is open right now — and
+          it won&apos;t stay open indefinitely.
+        </p>
+
+        <h2>What Does a Combined SEO + GEO Strategy Look Like?</h2>
+        <p>
+          A combined approach doesn&apos;t require starting over. For most small
+          businesses, it means layering GEO practices on top of an existing SEO
+          foundation:
+        </p>
+        <ol>
+          <li>
+            Audit your current visibility on both Google and AI platforms — what
+            shows up when you search for your own business category on ChatGPT
+            and Perplexity?
+          </li>
+          <li>
+            Fix inconsistencies in your business information across all
+            platforms.
+          </li>
+          <li>Add or update schema markup on your website.</li>
+          <li>
+            Rewrite key pages to directly answer the questions your customers ask
+            AI tools.
+          </li>
+          <li>
+            Build citation presence through reviews, directory listings, and
+            earned media mentions.
+          </li>
+          <li>
+            Continue traditional SEO efforts in parallel — keyword strategy,
+            local search optimization, and content publication.
+          </li>
+        </ol>
+        <p>
+          This is exactly the kind of audit and strategy work we do for Colorado
+          businesses. The landscape has changed. Most of your competitors
+          haven&apos;t adapted yet. Now is the right time to get ahead of it.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "What is the difference between GEO and SEO?",
+              a: "SEO (search engine optimization) optimizes your website to rank in Google and Bing search results. GEO (generative engine optimization) optimizes your overall online presence to appear in AI-generated answers from platforms like ChatGPT, Perplexity, and Grok. Both are now necessary for complete online visibility.",
+            },
+            {
+              q: "Does GEO replace SEO?",
+              a: "No. GEO and SEO are complementary strategies. Google still drives significant local search traffic, and a strong SEO foundation also supports GEO performance. The right approach is to do both.",
+            },
+            {
+              q: "How do AI platforms decide which businesses to recommend?",
+              a: "AI platforms synthesize information from training data, real-time search results, structured data, third-party citations, review platforms, and directory listings. Businesses with consistent, authoritative, well-cited presences across these sources are more likely to be surfaced in AI-generated recommendations.",
+            },
+            {
+              q: "What is schema markup and why does it matter for GEO?",
+              a: "Schema markup is structured code embedded in your website that explicitly describes your business to machines — your name, location, services, hours, and category. It helps both search engines and AI platforms understand and accurately represent your business in results.",
+            },
+            {
+              q: "How do I know if my business shows up on AI platforms?",
+              a: "Test it yourself: ask ChatGPT, Perplexity, or Grok to recommend a business like yours in your city or region. If you don't appear — or appear inaccurately — that's your baseline. A GEO audit will identify the specific gaps to address.",
+            },
+          ]}
+        />
+
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "claude-code-vs-cowork",
     title: "You\u2019re Using Claude. But You\u2019re Not Training It.",
     excerpt:
@@ -556,245 +795,6 @@ export const posts: Post[] = [
             {
               q: "Can I use Claude Code without knowing how to code?",
               a: "Yes. Many business operators use Claude Code primarily for its memory, skills, and context capabilities rather than for writing code. A consultant can configure the workspace, build your skill library, and set up the memory system. After that, day-to-day use is conversational — you describe what you need and the agent executes. The technical setup is a one-time investment.",
-            },
-          ]}
-        />
-
-        <CTA />
-      </>
-    ),
-  },
-  {
-    slug: "geo-vs-seo",
-    title: "GEO vs. SEO: Why Your Business Is Invisible to the Tools Your Customers Are Actually Using",
-    excerpt:
-      "Traditional SEO was built for Google. But your customers are increasingly asking ChatGPT, Perplexity, and Grok for recommendations — and most businesses aren't showing up in those answers. Here's what GEO is, why it matters, and what a combined strategy looks like.",
-    date: "April 16, 2026",
-    dateISO: "2026-04-16",
-    category: "Digital Strategy",
-    readTime: "6 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
-    coverAlt: "AI interface representing generative search and GEO optimization",
-    keywords:
-      "GEO vs SEO, generative engine optimization, AI search optimization, ChatGPT SEO, Perplexity optimization, small business SEO, digital visibility Colorado",
-    content: (
-      <>
-        <p>
-          If someone asked ChatGPT, Perplexity, or Grok to recommend a business
-          like yours in your city right now — would you come up? For most small
-          businesses, the honest answer is no. And the reason isn&apos;t a bad
-          website or a missing Google listing. It&apos;s that the rules for
-          online visibility just changed, and most businesses are still playing
-          by the old ones.
-        </p>
-
-        <h2>What Is SEO — and Why Isn&apos;t It Enough Anymore?</h2>
-        <p>
-          <strong>SEO, or search engine optimization</strong>, is the practice
-          of making your website easier for search engines like Google and Bing
-          to find, understand, and rank. For two decades, ranking on Google&apos;s
-          first page was the goal — and businesses that achieved it won most of
-          the organic traffic. Keyword optimization, backlink building, and
-          technical site improvements were how you got there.
-        </p>
-        <p>
-          SEO still matters. Google processes billions of searches every day and
-          remains a dominant discovery channel for local businesses. But
-          something significant has shifted: a growing share of the searches that
-          would have gone to Google are now going to AI platforms instead — and
-          traditional SEO does nothing to capture them.
-        </p>
-
-        <h2>How Are People Actually Searching in 2025?</h2>
-        <p>
-          The shift is real and accelerating. Platforms like ChatGPT, Perplexity,
-          Grok, Claude, and Google&apos;s AI Overviews have changed how millions
-          of people get answers. Instead of typing keywords and scanning a list
-          of blue links, users describe what they need in plain language and
-          receive a synthesized answer — often without clicking through to any
-          website at all.
-        </p>
-        <p>
-          For business owners, this creates a new and largely unaddressed
-          problem: your website can be perfectly optimized for Google and still
-          be completely invisible on the platforms your customers are
-          increasingly turning to.
-        </p>
-
-        <img
-          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1000&q=80"
-          alt="AI technology representing the shift from traditional search to generative AI platforms"
-          className="w-full rounded-xl my-8 object-cover"
-          style={{ maxHeight: "420px" }}
-        />
-
-        <h2>What Is GEO — Generative Engine Optimization?</h2>
-        <p>
-          <strong>GEO, or generative engine optimization</strong>, is the
-          practice of making your business visible and citable to AI-powered
-          platforms. Where SEO optimizes your website for a search engine&apos;s
-          crawlers, GEO optimizes your overall online presence for the large
-          language models that power tools like ChatGPT and Perplexity.
-        </p>
-        <p>
-          The distinction matters because AI platforms don&apos;t rank websites
-          the way Google does. They synthesize information from across the web —
-          training data, real-time search results, structured data, third-party
-          citations, review platforms, and more — and generate a response based
-          on what they judge to be authoritative and relevant. If your business
-          isn&apos;t clearly described and well-represented across those sources,
-          you won&apos;t appear in AI-generated recommendations, regardless of
-          your Google ranking.
-        </p>
-
-        <h2>Why Doesn&apos;t Traditional SEO Work for AI Platforms?</h2>
-        <p>
-          Traditional SEO tactics work by signaling relevance to search engine
-          crawlers: keyword placement, page structure, domain authority, and
-          inbound links tell Google what your page is about. AI platforms
-          interpret information differently:
-        </p>
-        <ul>
-          <li>
-            <strong>They don&apos;t crawl in real time.</strong> Large language
-            models are trained on data collected over a period of time, meaning
-            your most recent website update may not yet be reflected in what an
-            AI platform knows about you.
-          </li>
-          <li>
-            <strong>They prioritize authoritative context, not keyword density.</strong>{" "}
-            An AI recommendation is based on how your business is described and
-            cited across many sources — not just your own website.
-          </li>
-          <li>
-            <strong>They respond to natural language questions.</strong> A
-            customer asks Perplexity, &ldquo;Who does bilingual marketing in
-            Vail?&rdquo; — your website needs content that directly answers that
-            question in plain language to be surfaced.
-          </li>
-          <li>
-            <strong>They rely on structured signals.</strong> Schema markup,
-            consistent business information across directories, and explicit
-            categorization make it easier for AI systems to understand and
-            recommend your business accurately.
-          </li>
-        </ul>
-
-        <h2>What Does GEO Optimization Actually Involve?</h2>
-        <p>
-          GEO is not a single fix — it&apos;s a set of practices that
-          collectively improve how AI platforms perceive and reference your
-          business:
-        </p>
-        <ul>
-          <li>
-            <strong>Content that answers real questions.</strong> Write in clear,
-            direct language that mirrors how a customer would ask an AI assistant
-            about your services. &ldquo;What does an AI consultant do for a
-            small business?&rdquo; should have a clear answer on your site.
-          </li>
-          <li>
-            <strong>Consistent business information everywhere.</strong> Your
-            name, address, phone number, service description, and category must
-            match exactly across your website, Google Business Profile, Yelp,
-            industry directories, and social profiles. Inconsistency creates
-            ambiguity — and AI platforms don&apos;t recommend ambiguous
-            businesses.
-          </li>
-          <li>
-            <strong>Schema markup.</strong> Structured data embedded in your
-            website explicitly tells machines what your business is, where it
-            operates, what it offers, and how to contact you. This is one of the
-            clearest signals you can send to both search engines and AI systems.
-          </li>
-          <li>
-            <strong>Third-party citations.</strong> Mentions of your business in
-            local news, industry publications, review platforms, and partner
-            sites add credibility. AI models draw on external references to
-            validate authority.
-          </li>
-          <li>
-            <strong>Reviews and reputation signals.</strong> Volume, recency, and
-            quality of reviews factor into how AI platforms assess your
-            business&apos;s authority in a given category.
-          </li>
-        </ul>
-
-        <h2>Do You Still Need SEO?</h2>
-        <p>
-          Yes. Google is not going away, and traditional search still drives
-          significant traffic for local businesses. A strong SEO foundation —
-          good site structure, technical performance, local keyword visibility,
-          and inbound links — remains valuable and reinforces GEO performance.
-          Many of the signals AI platforms use overlap with what good SEO
-          produces.
-        </p>
-        <p>
-          The error is treating SEO as the complete picture. Businesses that
-          invest only in traditional SEO are optimizing for a shrinking share of
-          how their customers discover services. The window to build GEO
-          authority before competitors figure this out is open right now — and
-          it won&apos;t stay open indefinitely.
-        </p>
-
-        <h2>What Does a Combined SEO + GEO Strategy Look Like?</h2>
-        <p>
-          A combined approach doesn&apos;t require starting over. For most small
-          businesses, it means layering GEO practices on top of an existing SEO
-          foundation:
-        </p>
-        <ol>
-          <li>
-            Audit your current visibility on both Google and AI platforms — what
-            shows up when you search for your own business category on ChatGPT
-            and Perplexity?
-          </li>
-          <li>
-            Fix inconsistencies in your business information across all
-            platforms.
-          </li>
-          <li>Add or update schema markup on your website.</li>
-          <li>
-            Rewrite key pages to directly answer the questions your customers ask
-            AI tools.
-          </li>
-          <li>
-            Build citation presence through reviews, directory listings, and
-            earned media mentions.
-          </li>
-          <li>
-            Continue traditional SEO efforts in parallel — keyword strategy,
-            local search optimization, and content publication.
-          </li>
-        </ol>
-        <p>
-          This is exactly the kind of audit and strategy work we do for Colorado
-          businesses. The landscape has changed. Most of your competitors
-          haven&apos;t adapted yet. Now is the right time to get ahead of it.
-        </p>
-
-        <FAQ
-          items={[
-            {
-              q: "What is the difference between GEO and SEO?",
-              a: "SEO (search engine optimization) optimizes your website to rank in Google and Bing search results. GEO (generative engine optimization) optimizes your overall online presence to appear in AI-generated answers from platforms like ChatGPT, Perplexity, and Grok. Both are now necessary for complete online visibility.",
-            },
-            {
-              q: "Does GEO replace SEO?",
-              a: "No. GEO and SEO are complementary strategies. Google still drives significant local search traffic, and a strong SEO foundation also supports GEO performance. The right approach is to do both.",
-            },
-            {
-              q: "How do AI platforms decide which businesses to recommend?",
-              a: "AI platforms synthesize information from training data, real-time search results, structured data, third-party citations, review platforms, and directory listings. Businesses with consistent, authoritative, well-cited presences across these sources are more likely to be surfaced in AI-generated recommendations.",
-            },
-            {
-              q: "What is schema markup and why does it matter for GEO?",
-              a: "Schema markup is structured code embedded in your website that explicitly describes your business to machines — your name, location, services, hours, and category. It helps both search engines and AI platforms understand and accurately represent your business in results.",
-            },
-            {
-              q: "How do I know if my business shows up on AI platforms?",
-              a: "Test it yourself: ask ChatGPT, Perplexity, or Grok to recommend a business like yours in your city or region. If you don't appear — or appear inaccurately — that's your baseline. A GEO audit will identify the specific gaps to address.",
             },
           ]}
         />
