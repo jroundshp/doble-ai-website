@@ -87,21 +87,21 @@ export const posts: Post[] = [
         <h2>First: What Is AI Search, and How Is It Different from Google?</h2>
         <p>
           Most people are familiar with Google search. You type a few keywords —
-          &ldquo;plumber Eagle County&rdquo; or &ldquo;best florist Vail&rdquo; —
-          and Google returns a list of links. You click through, scan a few
-          websites, and make a decision. The search engine is a directory.
-          You do the legwork.
+          &ldquo;real estate agent Eagle County&rdquo; or &ldquo;fly fishing
+          guide Vail&rdquo; — and Google returns a list of links. You click
+          through, scan a few websites, and make a decision. The search engine
+          is a directory. You do the legwork.
         </p>
         <p>
           AI search works differently. You describe what you need in plain
-          language — &ldquo;I&apos;m looking for a reliable excavation company
-          near Gypsum that handles residential grading&rdquo; — and the AI gives
-          you a direct answer. Not ten blue links. A specific recommendation,
-          with context and reasons. The platforms doing this today are ChatGPT,
-          Grok (built into X/Twitter), Perplexity, Google&apos;s Gemini, and
-          Claude — each with tens to hundreds of millions of active users,
-          each synthesizing information from across the web to generate a
-          confident answer.
+          language — &ldquo;I need a tree trimmer near Edwards who does fire
+          mitigation work&rdquo; or &ldquo;who does excavation in the Roaring
+          Fork Valley&rdquo; — and the AI gives you a direct answer. Not ten
+          blue links. A specific recommendation, with context and reasons. The
+          platforms doing this today are ChatGPT, Grok (built into X/Twitter),
+          Perplexity, Google&apos;s Gemini, and Claude — each with tens to
+          hundreds of millions of active users, each synthesizing information
+          from across the web to generate a confident answer.
         </p>
         <p>
           The critical difference for any business owner:{" "}
