@@ -81,7 +81,7 @@ export const posts: Post[] = [
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Digital analytics dashboard showing AI traffic outperforming traditional marketing channels in 2026",
     keywords:
-      "AI traffic conversion rate 2026, AI search marketing ROI, ChatGPT traffic business, AI vs paid search, GEO optimization Colorado, AI referral traffic small business, generative engine optimization",
+      "AI traffic conversion rate 2026, AI search marketing ROI, ChatGPT traffic business, Grok AI search traffic, AI vs paid search, GEO optimization Colorado, AI referral traffic small business, generative engine optimization",
     content: (
       <>
         <p>
@@ -94,7 +94,7 @@ export const posts: Post[] = [
         <p>
           According to Adobe Digital Insights, which tracks over <strong>one
           trillion visits</strong> to US retail sites annually, traffic that arrives
-          from AI platforms like ChatGPT, Perplexity, and Gemini now converts{" "}
+          from AI platforms like ChatGPT, Grok, Perplexity, and Gemini now converts{" "}
           <strong>42% better</strong> than traffic from paid search, email, and
           affiliates combined. Revenue per visit from AI sources is{" "}
           <strong>37% higher</strong> than from traditional channels. Twelve months
@@ -119,7 +119,9 @@ export const posts: Post[] = [
             organic search converts at 1.76%. That is a <strong>9x difference</strong>{" "}
             in conversion rate — not between a great channel and a weak one, but
             between AI referral traffic and the channel most businesses consider
-            their primary organic strategy.
+            their primary organic strategy. Grok, which has now overtaken Perplexity
+            as the third-largest AI referral source with 234 million monthly visits,
+            is driving a growing share of that traffic.
           </li>
           <li>
             <strong>AI-driven traffic to US retail sites surged 393% year over
@@ -218,9 +220,9 @@ export const posts: Post[] = [
         <p>
           Local businesses have a structural advantage in AI search that national
           brands cannot easily replicate: geographic specificity. When a buyer asks
-          ChatGPT to recommend an excavation company in Gypsum, a florist in Vail,
-          or a real estate agent in the Roaring Fork Valley, the AI needs a
-          specific, well-cited local business to recommend. Right now, for most
+          ChatGPT, Grok, or Perplexity to recommend an excavation company in Gypsum,
+          a florist in Vail, or a real estate agent in the Roaring Fork Valley, the
+          AI needs a specific, well-cited local business to recommend. Right now, for most
           categories across Colorado&apos;s mountain communities, that recommendation
           set is nearly empty.
         </p>
@@ -277,7 +279,7 @@ export const posts: Post[] = [
             },
             {
               q: "What is GEO and how is it different from SEO?",
-              a: "GEO (generative engine optimization) is the practice of building your business's visibility across the AI platforms — ChatGPT, Perplexity, Gemini, Grok — that now drive the highest-converting traffic on the web. SEO optimizes your website to rank in Google's blue-link results. GEO optimizes your entire online presence — content, citations, schema, reviews, business data consistency — to be recommended by AI systems. Both are necessary. Only one of them is new.",
+              a: "GEO (generative engine optimization) is the practice of building your business's visibility across the AI platforms — ChatGPT, Grok, Gemini, Perplexity, and Claude — that now drive the highest-converting traffic on the web. SEO optimizes your website to rank in Google's blue-link results. GEO optimizes your entire online presence — content, citations, schema, reviews, business data consistency — to be recommended by AI systems. Both are necessary. Only one of them is new.",
             },
             {
               q: "How quickly can a small business start seeing results from GEO?",
@@ -289,7 +291,7 @@ export const posts: Post[] = [
             },
             {
               q: "How do I know if my business is being recommended by AI platforms?",
-              a: "Test it yourself: ask ChatGPT, Perplexity, or Grok to recommend a business like yours in your city or county. If you don't appear — or appear inaccurately — that's your baseline. A GEO audit identifies the specific gaps between your current presence and the presence AI platforms use to make recommendations, and prioritizes fixes by revenue impact.",
+              a: "Test it yourself: ask ChatGPT, Grok, Perplexity, and Gemini to recommend a business like yours in your city or county. Each platform pulls from different data sources, so you may appear on one and not another. If you don't appear — or appear inaccurately on any of them — that's your baseline. A GEO audit identifies the specific gaps and prioritizes fixes by revenue impact.",
             },
           ]}
         />
