@@ -1187,9 +1187,9 @@ export const posts: Post[] = [
   },
   {
     slug: "vail-real-estate-mexican-buyers-ai-search",
-    title: "Your Most Valuable Buyers Are Using AI to Research Vail Real Estate — And Most Agents Don't Show Up",
+    title: "Inside a Real Client Engagement: Capturing the Latino and Mexican Luxury Buyer in Vail",
     excerpt:
-      "Mexican and Latino buyers represent some of the highest-value, highest-intent purchasers in the Vail Valley luxury market — and they're using AI to research properties at rates above the US average. Here's what the data shows, and why most Vail real estate agents are invisible to them.",
+      "At Doble AI, we're deep in the work with a top Vail Valley real estate professional — rebuilding their entire digital foundation and building Spanish-language AI citation presence to capture a buyer segment their competitors aren't even aware of yet. Here's what the data shows and what we're doing about it.",
     date: "April 21, 2026",
     dateISO: "2026-04-21",
     category: "Real Estate",
@@ -1202,39 +1202,46 @@ export const posts: Post[] = [
     content: (
       <>
         <p>
-          If you work in Vail Valley real estate, you already know that Mexican
-          and Latin American buyers are a meaningful part of the luxury market.
-          Cash transactions. Multi-million dollar purchases. Buyers who have been
-          coming to the valley for years — through ski season, through summer, and
-          increasingly as permanent or semi-permanent residents.
+          At Doble AI, one of our core commitments to every client is making
+          sure that their SEO and GEO presence — across Google, ChatGPT, Grok,
+          Perplexity, Gemini, and every platform their buyers actually use — is
+          built on a solid foundation and performing at the level their business
+          demands. That means auditing what exists, identifying what is missing,
+          and doing the work to close the gap before a competitor does.
         </p>
         <p>
-          What most agents do not know is how those buyers are researching
-          properties before they ever pick up the phone. The answer is changing
-          fast — and it has a direct impact on whether your listings and your
-          name come up in the conversation at all.
+          We are currently engaged with a top real estate professional in the
+          Vail Valley. We are not naming them — this is their competitive
+          advantage, and we intend to keep it that way. What we can share is
+          the work we are doing and the data behind why we are doing it, because
+          the opportunity we identified is significant enough that other real
+          estate professionals in this market should understand it exists.
         </p>
 
-        <h2>Who Is Actually Buying in the Vail Valley</h2>
+        <h2>What the Audit Revealed</h2>
         <p>
           The Vail and Beaver Creek luxury market is one of the most
           internationally diverse resort real estate markets in the United
           States. Mexico, Canada, and Europe are consistently the top three
-          sources of international buyers. These buyers are not browsing
-          casually — they are purchasing at the top of the market. Properties
-          priced at $5 million or above account for nearly{" "}
+          sources of international buyers. These are not casual browsers —
+          they are purchasing at the top of the market. Properties priced at
+          $5 million or above account for nearly{" "}
           <strong>$1 billion of Vail&apos;s annual transaction volume.</strong>{" "}
-          The median home price in Vail is approximately $1.6 million. Mexican
-          buyers in this market typically transact in cash or through specialized
-          international financing — which means when they are ready to buy,
-          they are ready to buy. There is no financing contingency slowing
-          the process.
+          Mexican buyers in this market typically transact in cash or through
+          specialized international financing. When they are ready to move,
+          there is no contingency slowing the process.
         </p>
         <p>
-          These are not buyers who stumble onto a property. They research.
-          They compare. They ask questions. And increasingly, the first place
-          they ask those questions is not Google — it is an AI platform,
-          and they are asking in Spanish.
+          When we ran our audit, we asked a straightforward question: what does
+          a buyer from Mexico City or Monterrey find when they open ChatGPT or
+          Grok and ask, in Spanish,{" "}
+          <em>
+            &ldquo;¿Qué agente inmobiliario me recomiendan en Vail, Colorado?&rdquo;
+          </em>{" "}
+          The answer was effectively nothing. No specific agent. No firm with
+          a clear Spanish-language presence. The AI recommendation set for
+          luxury real estate in the Vail Valley — in Spanish — is nearly empty.
+          That is an enormous gap. And it is the gap we are now building into.
         </p>
 
         <img
@@ -1244,128 +1251,99 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>How Latino and Mexican Buyers Are Actually Researching</h2>
+        <h2>The Data on How These Buyers Actually Research</h2>
         <p>
-          Here is the data point most Vail real estate agents have not seen:
-          Hispanic and Latino consumers in the United States are adopting AI
-          platforms at a rate <strong>29% higher than the US average.</strong>{" "}
-          They are not behind the general population on this — they are ahead
-          of it. Latino entrepreneurs are adopting AI at roughly{" "}
+          The reason this matters more than most agents realize comes down to
+          two data points that are not widely known in the real estate industry.
+        </p>
+        <p>
+          First: Hispanic and Latino consumers in the United States are adopting
+          AI platforms at a rate <strong>29% higher than the US average.</strong>{" "}
+          They are not behind the general population — they are ahead of it.
+          Latino entrepreneurs are adopting AI at roughly{" "}
           <strong>twice the rate of white-owned businesses.</strong> Among
           Hispanic and Latino teenagers, <strong>70% use AI chatbots</strong>{" "}
-          — compared to 58% of white teens. The generational and behavioral
-          shift toward AI-first research is happening faster in this demographic
-          than in almost any other.
+          compared to 58% of white teens. The shift toward AI-first research is
+          happening faster in this demographic than in almost any other.
         </p>
         <p>
-          Mexico specifically sits at{" "}
-          <strong>number seven globally for ChatGPT usage</strong> — ahead of
-          most of Europe, and accounting for 3.6% of all ChatGPT visits
-          worldwide. Growth rates in Mexico and similar markets are running at
-          four times the rate of high-income countries. A Mexican buyer
-          researching Vail real estate from Mexico City or Monterrey is very
-          likely doing that research on ChatGPT, Gemini, or Perplexity — and
-          very likely doing it in Spanish.
-        </p>
-        <p>
-          The question is not whether this is happening. The question is what
-          those buyers find when they do it.
+          Second: Mexico ranks{" "}
+          <strong>seventh globally for ChatGPT usage</strong> — ahead of most
+          of Europe — accounting for 3.6% of all ChatGPT visits worldwide.
+          Growth rates in Mexico are running at four times the rate of
+          high-income countries. A buyer doing pre-purchase research on Vail
+          real estate from Mexico City or Guadalajara is very likely doing it
+          on an AI platform, and very likely doing it in Spanish. They are not
+          typing &ldquo;Vail real estate agent&rdquo; into Google. They are
+          having a conversation with ChatGPT — and right now, that conversation
+          does not end with your client&apos;s name.
         </p>
 
-        <h2>What They Find Right Now</h2>
+        <h2>What We Are Building — and Why It Works</h2>
         <p>
-          Try it yourself. Open ChatGPT or Grok and ask, in Spanish:{" "}
-          <em>
-            &ldquo;¿Qué agente inmobiliario me recomiendan en Vail,
-            Colorado?&rdquo;
-          </em>{" "}
-          Or:{" "}
-          <em>
-            &ldquo;Quiero comprar una propiedad de lujo en Vail — ¿con quién
-            hablo?&rdquo;
-          </em>
+          Our engagement covers the full foundation: SEO and GEO optimization
+          across all relevant platforms, schema markup, Google Business Profile,
+          citation consistency, and review strategy. The layer specific to this
+          opportunity is a Spanish-language AI citation presence — built to
+          signal authority to AI platforms responding to Spanish-language
+          queries about Vail luxury real estate.
         </p>
         <p>
-          For most Vail real estate agents, the answer will be either a
-          generic response with no specific local recommendation, or a
-          recommendation for one of the very few agents who have — intentionally
-          or accidentally — built enough Spanish-language citation presence to
-          appear. The AI recommendation set for Spanish-language Vail real
-          estate queries is nearly empty. There is no dominant agent. No
-          firm that owns this conversation. The spot is unclaimed.
+          This is not machine translation of English content. AI platforms
+          read translated content for what it is — low-authority filler. What
+          we build is genuine, culturally grounded Spanish-language presence:
+          content that answers the actual questions a Mexican buyer asks when
+          researching a US property purchase, structured to be citable, authored
+          with native fluency, and layered with the signals that cause AI
+          platforms to treat it as authoritative.
         </p>
         <p>
-          This matters because of what we know about how AI-referred buyers
-          behave. When ChatGPT or Grok recommends a specific agent by name,
-          the evaluation is largely already done. The buyer arrives with
-          intent. According to Adobe&apos;s Q1 2026 data, AI-referred traffic
-          converts at a rate <strong>nine times higher</strong> than Google
-          organic search. For a luxury real estate transaction measured in
-          the millions, that conversion difference is not a marketing
-          metric — it is a commission.
-        </p>
-
-        <h2>What It Takes to Show Up</h2>
-        <p>
-          AI platforms build their recommendations from a combination of
-          signals: how consistently your business information appears across
-          the web, whether you have authoritative content that answers the
-          questions buyers are asking, the quality and volume of your reviews,
-          and whether third-party sources cite you as a credible local expert.
-          For Spanish-language queries, all of those signals need to exist in
-          Spanish — not as a translation of your English content, but as
-          genuine, culturally grounded Spanish-language presence.
-        </p>
-        <p>
-          The specific signals that move the needle for a Vail real estate
-          agent targeting international buyers:
+          The specific work includes:
         </p>
         <ul>
           <li>
-            <strong>Spanish-language content on your website</strong> that
-            directly answers the questions a Mexican buyer asks when
-            researching Vail — the market, the neighborhoods, the buying
-            process for non-US residents, financing options.
+            <strong>Spanish-language website content</strong> addressing the
+            Vail market, neighborhoods, the purchase process for non-US
+            residents, and financing options for international buyers.
           </li>
           <li>
-            <strong>A bilingual Google Business Profile</strong> with
-            Spanish-language reviews and responses — review signals are one
-            of the clearest authority markers AI platforms use.
+            <strong>Bilingual Google Business Profile</strong> optimization
+            with Spanish-language review strategy — reviews are one of the
+            clearest authority signals AI platforms weight.
           </li>
           <li>
-            <strong>Schema markup</strong> that explicitly identifies you
-            as a real estate professional serving international and
+            <strong>Schema markup</strong> explicitly identifying our client
+            as a luxury real estate professional serving international and
             Spanish-speaking buyers in the Vail Valley.
           </li>
           <li>
-            <strong>Third-party citations</strong> in Spanish-language
-            publications or directories that reference your expertise in
-            the Vail luxury market.
+            <strong>Third-party citation building</strong> in Spanish-language
+            directories and publications that establish credibility in the
+            channels AI platforms draw from when answering Spanish-language
+            real estate queries.
           </li>
         </ul>
         <p>
-          None of this requires a full website rebuild. It requires a
-          strategic layer of Spanish-language presence built on top of
-          what you already have — designed specifically to be readable
-          and citable by the AI platforms your buyers are using.
+          According to Adobe&apos;s Q1 2026 data, AI-referred traffic converts
+          at <strong>nine times the rate</strong> of Google organic search. For
+          a luxury real estate transaction in the Vail Valley, a single
+          AI-referred buyer is not a marketing metric — it is a commission.
+          That is the return on this investment.
         </p>
 
-        <h2>The Window Is Narrow</h2>
+        <h2>The Window</h2>
         <p>
-          Right now, no Vail real estate agent owns this space. The agent
-          who moves first will be the default AI recommendation for
-          Spanish-language luxury real estate queries in the Vail Valley —
-          for buyers in Mexico, for Latino buyers in the US, and for the
-          growing international market that is already transacting in this
-          valley at the highest price points. That is not a marketing
-          advantage. That is a pipeline.
+          No Vail real estate agent currently owns this space. There is no
+          dominant Spanish-language AI presence for Vail luxury real estate.
+          Our client will be the first. That first-mover position compounds —
+          AI citation authority, once built, becomes the baseline that later
+          entrants have to overcome.
         </p>
         <p>
-          If you want to know exactly where you stand in the AI platforms
-          your international buyers are using — and what it would take to
-          own that conversation — we audit exactly this. Free. No obligation.
-          Just a clear picture of what buyers currently find when they ask
-          about Vail real estate in Spanish.
+          If you are a real estate professional in the Vail Valley and you want
+          to know what buyers currently find when they research your market in
+          Spanish on AI platforms — we will show you. Free audit, no
+          obligation. The data speaks for itself.
         </p>
 
         <FAQ
@@ -1376,19 +1354,19 @@ export const posts: Post[] = [
             },
             {
               q: "Are Latino and Mexican buyers actually using AI to research real estate?",
-              a: "Yes — at higher rates than the general population. Hispanic and Latino consumers in the US adopt AI platforms 29% faster than the US average and are 29% more likely to use ChatGPT specifically. Mexico ranks seventh globally for ChatGPT usage, with growth rates running at four times those of high-income countries. A buyer researching Vail from Mexico City or Monterrey is very likely using an AI platform — and likely asking in Spanish.",
+              a: "Yes — at higher rates than the general US population. Hispanic and Latino consumers adopt AI platforms 29% faster than the US average. Mexico ranks seventh globally for ChatGPT usage, with growth rates running at four times those of high-income countries. A buyer researching Vail from Mexico City or Monterrey is very likely using an AI platform and asking in Spanish.",
             },
             {
-              q: "What does a Vail real estate agent need to show up in Spanish-language AI searches?",
-              a: "The key signals are: Spanish-language website content that answers buyer questions directly, a bilingual Google Business Profile with Spanish-language reviews, schema markup identifying your market specialty, and third-party citations in Spanish-language sources. These signals need to exist in genuine Spanish — not machine-translated English content — to be read as authoritative by AI platforms.",
+              q: "What does Spanish-language AI citation presence actually involve?",
+              a: "It means building the signals AI platforms use to generate Spanish-language recommendations: native-quality Spanish content on your site that answers buyer questions, a bilingual Google Business Profile with Spanish-language reviews, schema markup identifying your specialty and market, and third-party citations from credible Spanish-language sources. Machine-translated content does not perform — authenticity and cultural accuracy are part of what AI platforms assess for authority.",
             },
             {
               q: "How is AI search different from Google for international real estate buyers?",
-              a: "Google returns a list of links that buyers must evaluate themselves. AI search returns a direct recommendation — a specific agent or firm named by the platform, with context about why. Buyers who arrive from an AI recommendation are pre-qualified and high-intent. Adobe's 2026 data shows AI-referred traffic converting at nine times the rate of Google organic search. For a multi-million dollar real estate transaction, that conversion difference represents a commission, not just a click.",
+              a: "Google returns links. AI search returns a recommendation — a specific agent named by the platform, with context. Buyers who arrive from an AI recommendation are pre-qualified and high-intent. Adobe's 2026 data shows AI-referred traffic converting at nine times the rate of Google organic search. For a multi-million dollar transaction, that difference is a commission.",
             },
             {
-              q: "How long does it take to build Spanish-language AI citation presence?",
-              a: "Initial GEO results — where your name begins appearing in AI-generated responses to relevant queries — typically emerge within four to eight weeks of foundational work. Owning the recommendation consistently for high-value Spanish-language real estate queries takes three to six months of sustained effort. No Vail agent currently holds this position, which means the first mover captures it without competing against an established presence.",
+              q: "How long does this take to produce results?",
+              a: "Initial GEO results — your name beginning to appear in AI responses to relevant Spanish-language queries — typically emerge within four to eight weeks of foundational work. Owning the recommendation consistently takes three to six months. No Vail agent currently holds this position, which means the first mover captures it without an established competitor to displace.",
             },
           ]}
         />
