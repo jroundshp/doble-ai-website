@@ -324,15 +324,15 @@ export const posts: Post[] = [
         </p>
         <ul>
           <li>
-            <strong>All consonants are fully pronounced.</strong> In Caribbean
+            <strong>All consonants are fully pronounced.</strong>{" "}In Caribbean
             Spanish (Dominican Republic, Puerto Rico, Cuba, coastal Venezuela and
-            Colombia), the letter <em>s</em> at the end of a syllable is often
+            Colombia), the letter <em>s</em>{" "}at the end of a syllable is often
             aspirated or dropped entirely. &ldquo;Estos&rdquo; becomes
             &ldquo;ehtoh&rdquo; or even &ldquo;etoh.&rdquo; In Peruvian Spanish,
-            the <em>s</em> is crisp and present. Every consonant earns its place.
+            the <em>s</em>{" "}is crisp and present. Every consonant earns its place.
           </li>
           <li>
-            <strong>Clean, consistent vowels.</strong> Andean Spanish &mdash;
+            <strong>Clean, consistent vowels.</strong>{" "}Andean Spanish &mdash;
             including Peruvian &mdash; is known for its pure, stable vowel sounds.
             Unlike coastal Caribbean varieties where vowels can shift or merge
             under rapid speech, Peruvian vowels land exactly where the written
@@ -344,10 +344,10 @@ export const posts: Post[] = [
               No <em>voseo</em>.
             </strong>{" "}
             Argentina, Uruguay, and parts of Central America use <em>vos</em>{" "}
-            instead of <em>tú</em> for the second person singular, with entirely
+            instead of <em>tú</em>{" "}for the second person singular, with entirely
             different verb conjugations. &ldquo;Vos tenés razón&rdquo; instead of
             &ldquo;Tú tienes razón.&rdquo; Peruvian Spanish uses standard{" "}
-            <em>tú</em> conjugations that are immediately recognizable across the
+            <em>tú</em>{" "}conjugations that are immediately recognizable across the
             entire Spanish-speaking world.
           </li>
           <li>
@@ -833,14 +833,15 @@ export const posts: Post[] = [
           <li>
             <strong>Todas las consonantes se pronuncian con plenitud.</strong>{" "}
             En el español caribeño (República Dominicana, Puerto Rico, Cuba,
-            Venezuela y Colombia costeras), la letra <em>s</em> al final de
-            sílaba suele aspirarse o desaparecer por completo.
+            Venezuela y Colombia costeras), la letra <em>s</em>{" "}
+            al final de sílaba suele aspirarse o desaparecer por completo.
             &ldquo;Estos&rdquo; se convierte en &ldquo;ehtoh&rdquo; o incluso
-            &ldquo;etoh.&rdquo; En el español peruano, la <em>s</em> es nítida
+            &ldquo;etoh.&rdquo; En el español peruano, la <em>s</em>{" "}
+            es nítida
             y está presente. Cada consonante gana su lugar.
           </li>
           <li>
-            <strong>Vocales limpias y consistentes.</strong> El español andino
+            <strong>Vocales limpias y consistentes.</strong>{" "}El español andino
             &mdash; incluido el peruano &mdash; es conocido por sus sonidos
             vocálicos puros y estables. A diferencia de las variedades caribeñas
             costeras, donde las vocales pueden desplazarse o fusionarse en el
@@ -852,8 +853,8 @@ export const posts: Post[] = [
             <strong>
               Sin <em>voseo</em>.
             </strong>{" "}
-            Argentina, Uruguay y partes de América Central usan <em>vos</em> en
-            lugar de <em>tú</em> para la segunda persona del singular, con
+            Argentina, Uruguay y partes de América Central usan <em>vos</em>{" "}
+            en lugar de <em>tú</em>{" "}para la segunda persona del singular, con
             conjugaciones verbales completamente distintas. &ldquo;Vos tenés
             razón&rdquo; en lugar de &ldquo;Tú tienes razón.&rdquo; El español
             peruano usa las conjugaciones estándar de <em>tú</em>, reconocibles
@@ -864,7 +865,7 @@ export const posts: Post[] = [
               <em>Ll</em> e <em>y</em> distintas.
             </strong>{" "}
             En el español rioplatense (Argentina, Uruguay), tanto <em>ll</em>{" "}
-            como <em>y</em> se pronuncian como el sonido &ldquo;sh&rdquo; del
+            como <em>y</em>{" "}se pronuncian como el sonido &ldquo;sh&rdquo; del
             inglés &mdash; una característica llamada{" "}
             <em>yeísmo rehilado</em>. &ldquo;Yo me llamo&rdquo; se convierte en
             algo más parecido a &ldquo;Sho me shamo.&rdquo; En Perú, estos
