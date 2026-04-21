@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { posts } from "../lib/posts";
+import Footer from "../components/Footer";
 
 const blogSchema = {
   "@context": "https://schema.org",
@@ -46,8 +47,8 @@ export default function BlogIndex() {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="/" className="text-lg font-semibold tracking-tight">
-            doble<span className="text-orange-500">AI</span>
+          <a href="/" className="flex items-center">
+            <img src="/logo.svg" alt="Doble AI" className="h-8 w-auto" />
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm text-[#a3a3a3]">
             <a href="/#services" className="hover:text-white transition-colors">Services</a>
@@ -123,22 +124,7 @@ export default function BlogIndex() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-10 px-6 border-t border-white/[0.06]">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#555]">
-          <div>
-            doble<span className="text-orange-500">AI</span> — Eagle River Valley, Colorado
-          </div>
-          <div className="flex gap-6">
-            <a href="/#services" className="hover:text-white transition-colors">Services</a>
-            <a href="/#work" className="hover:text-white transition-colors">Work</a>
-            <a href="/blog" className="hover:text-white transition-colors">Blog</a>
-            <a href="/#about" className="hover:text-white transition-colors">About</a>
-            <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
-          </div>
-          <div>© {new Date().getFullYear()} Doble AI LLC</div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

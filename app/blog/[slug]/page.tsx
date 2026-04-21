@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { posts, getPost } from "../../lib/posts";
+import Footer from "../../components/Footer";
 
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -26,7 +27,7 @@ export async function generateMetadata({
       url: `https://dobleai.com/blog/${slug}`,
       type: "article",
       publishedTime: post.dateISO,
-      authors: ["John Rounds"],
+      authors: [post.author?.name ?? "John Rounds"],
       images: [{ url: post.coverImage, alt: post.coverAlt }],
     },
   };
@@ -50,13 +51,15 @@ export default async function BlogPost({
     image: post.coverImage,
     datePublished: post.dateISO,
     dateModified: post.dateISO,
-    author: {
-      "@type": "Person",
-      "@id": "https://dobleai.com/#john-rounds",
-      name: "John Rounds",
-      jobTitle: "AI Consultant & Founder",
-      url: "https://dobleai.com/#john-rounds",
-    },
+    author: post.author
+      ? { "@type": "Person", name: post.author.name }
+      : {
+          "@type": "Person",
+          "@id": "https://dobleai.com/#john-rounds",
+          name: "John Rounds",
+          jobTitle: "AI Consultant & Founder",
+          url: "https://dobleai.com/#john-rounds",
+        },
     publisher: { "@id": "https://dobleai.com/#organization" },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -91,8 +94,8 @@ export default async function BlogPost({
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="/" className="text-lg font-semibold tracking-tight">
-            doble<span className="text-orange-500">AI</span>
+          <a href="/" className="flex items-center">
+            <img src="/logo.svg" alt="Doble AI" className="h-8 w-auto" />
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm text-[#a3a3a3]">
             <a href="/#services" className="hover:text-white transition-colors">Services</a>
@@ -152,40 +155,39 @@ export default async function BlogPost({
           <div className="prose-doble">{post.content}</div>
 
           {/* Author */}
-          <div className="border-t border-white/[0.06] pt-8 mt-12 flex items-start gap-5">
-            <img
-              src="/john-rounds.jpeg"
-              alt="John Rounds, founder of Doble AI"
-              className="w-14 h-14 rounded-full object-cover object-top flex-shrink-0"
-            />
-            <div>
-              <p className="text-sm font-semibold text-white mb-1">John Rounds</p>
-              <p className="text-xs text-[#a3a3a3] leading-relaxed">
-                Founder of Doble AI. Bilingual AI consultant and business strategist with 20+ years of
-                international experience across 50+ countries. Works with Colorado businesses to implement
-                AI strategy and grow in both English and Spanish markets.
-              </p>
+          {post.author ? (
+            <div className="border-t border-white/[0.06] pt-8 mt-12 flex items-start gap-5">
+              <div className="w-14 h-14 rounded-full bg-orange-500/20 border border-orange-500/30 flex items-center justify-center flex-shrink-0">
+                <span className="text-orange-400 font-bold text-lg">
+                  {post.author.name.split(" ").map((n) => n[0]).join("")}
+                </span>
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-white mb-1">{post.author.name}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{post.author.bio}</p>
+              </div>
             </div>
-          </div>
+          ) : (
+            <div className="border-t border-white/[0.06] pt-8 mt-12 flex items-start gap-5">
+              <img
+                src="/john-rounds.jpeg"
+                alt="John Rounds, founder of Doble AI"
+                className="w-14 h-14 rounded-full object-cover object-top flex-shrink-0"
+              />
+              <div>
+                <p className="text-sm font-semibold text-white mb-1">John Rounds</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">
+                  Founder of Doble AI. Bilingual AI consultant and business strategist with 20+ years of
+                  international experience across 50+ countries. Works with Colorado businesses to implement
+                  AI strategy and grow in both English and Spanish markets.
+                </p>
+              </div>
+            </div>
+          )}
         </div>
       </article>
 
-      {/* Footer */}
-      <footer className="py-10 px-6 border-t border-white/[0.06]">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#555]">
-          <div>
-            doble<span className="text-orange-500">AI</span> — Eagle River Valley, Colorado
-          </div>
-          <div className="flex gap-6">
-            <a href="/#services" className="hover:text-white transition-colors">Services</a>
-            <a href="/#work" className="hover:text-white transition-colors">Work</a>
-            <a href="/blog" className="hover:text-white transition-colors">Blog</a>
-            <a href="/#about" className="hover:text-white transition-colors">About</a>
-            <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
-          </div>
-          <div>© {new Date().getFullYear()} Doble AI LLC</div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
