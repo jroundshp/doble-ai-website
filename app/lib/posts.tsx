@@ -88,236 +88,153 @@ export const posts: Post[] = [
         <p>
           Most people are familiar with Google search. You type a few keywords —
           &ldquo;plumber Eagle County&rdquo; or &ldquo;best florist Vail&rdquo; —
-          and Google returns a list of links ranked by relevance. You click through,
-          scan a few websites, and make a decision. The search engine is a
-          directory. You do the legwork.
+          and Google returns a list of links. You click through, scan a few
+          websites, and make a decision. The search engine is a directory.
+          You do the legwork.
         </p>
         <p>
-          AI search works differently. Instead of typing keywords and getting a
-          list of links, you have a conversation. You describe what you need in
-          plain language — &ldquo;I&apos;m looking for a reliable excavation
-          company near Gypsum that handles residential grading&rdquo; — and the
-          AI gives you a direct answer. Not ten blue links. A specific
-          recommendation, often with context, reasons, and next steps.
+          AI search works differently. You describe what you need in plain
+          language — &ldquo;I&apos;m looking for a reliable excavation company
+          near Gypsum that handles residential grading&rdquo; — and the AI gives
+          you a direct answer. Not ten blue links. A specific recommendation,
+          with context and reasons. The platforms doing this today are ChatGPT,
+          Grok (built into X/Twitter), Perplexity, Google&apos;s Gemini, and
+          Claude — each with tens to hundreds of millions of active users,
+          each synthesizing information from across the web to generate a
+          confident answer.
         </p>
         <p>
-          The platforms doing this today are ChatGPT (from OpenAI), Grok (from
-          xAI, built into X/Twitter), Perplexity, Google&apos;s Gemini, and
-          Anthropic&apos;s Claude. Each one has tens to hundreds of millions of
-          active users. Each one is synthesizing information from across the web —
-          reviews, websites, directories, news, citations — and generating a
-          confident recommendation in response to what you asked.
-        </p>
-        <p>
-          The critical difference for any business owner is this: <strong>Google
-          shows people options. AI search makes a choice.</strong> When Google
-          returns ten results, the buyer still has to evaluate. When ChatGPT or
-          Grok recommends your business by name, the evaluation is largely
-          already done. The buyer is coming to you pre-sold.
-        </p>
-        <p>
-          That shift — from a list of options to a direct recommendation — is
-          why the data below is so significant. And it is why businesses that
-          have no presence in AI search are not just missing traffic. They are
-          missing the highest-converting buyers in their market.
+          The critical difference for any business owner:{" "}
+          <strong>Google shows people options. AI search makes a choice.</strong>{" "}
+          When ChatGPT or Grok recommends your business by name, the evaluation
+          is largely already done. The buyer is coming to you pre-sold. That
+          shift is why the data below matters — and why businesses with no AI
+          search presence are losing their highest-converting buyers to whoever
+          the AI recommends instead.
         </p>
 
         <h2>The Numbers Are Not Close</h2>
         <p>
-          Now consider where your marketing budget actually goes. Paid search.
-          Email campaigns. Maybe affiliates or social ads. These are the channels
-          you have been optimizing for years — and they are now being outperformed
-          by AI search traffic at every meaningful metric. According to Adobe
-          Digital Insights, which tracks over <strong>one trillion visits</strong>{" "}
-          to US retail sites annually, traffic that arrives from AI platforms like
-          ChatGPT, Grok, Perplexity, and Gemini now converts{" "}
-          <strong>42% better</strong> than traffic from paid search, email, and
-          affiliates combined. Revenue per visit from AI sources is{" "}
-          <strong>37% higher</strong> than from traditional channels.
-        </p>
-        <p>
-          When you layer in platform-specific conversion research, the gap becomes
-          even harder to ignore:
+          According to Adobe Digital Insights — which tracks over{" "}
+          <strong>one trillion visits</strong> to US retail sites annually —
+          AI platform traffic now converts <strong>42% better</strong> than
+          traffic from paid search, email, and affiliates combined, and
+          generates <strong>37% more revenue per visit</strong>. A year ago,
+          traditional traffic was worth 128% more per visit than AI traffic.
+          That gap has fully inverted.
         </p>
         <ul>
           <li>
-            <strong>ChatGPT referral traffic converts at 15.9%.</strong> Google
-            organic search converts at 1.76%. That is a <strong>9x difference</strong>{" "}
-            in conversion rate — not between a great channel and a weak one, but
-            between AI referral traffic and the channel most businesses consider
-            their primary organic strategy. Grok, which has now overtaken Perplexity
-            as the third-largest AI referral source with 234 million monthly visits,
-            is driving a growing share of that traffic.
+            <strong>ChatGPT referral traffic converts at 15.9%</strong> vs.
+            Google organic at 1.76% — a <strong>9x difference.</strong> Grok
+            has overtaken Perplexity as the third-largest AI referral source
+            with 234 million monthly visits and is driving a fast-growing share
+            of that traffic.
           </li>
           <li>
-            <strong>AI-driven traffic to US retail sites surged 393% year over
-            year</strong> in Q1 2026. In March alone, the increase was 269%.
+            <strong>AI-driven traffic to US retail sites surged 393% year
+            over year</strong> in Q1 2026.
           </li>
           <li>
-            On Shopify, AI-referred traffic grew <strong>7x</strong> between
-            January 2025 and early 2026. AI-attributed orders grew{" "}
-            <strong>11x</strong> over the same period.
+            On Shopify, AI-referred traffic grew <strong>7x</strong> and
+            AI-attributed orders grew <strong>11x</strong> in the past year.
           </li>
           <li>
-            AI-referred visitors spend <strong>48% longer on site</strong>, browse{" "}
+            AI visitors spend <strong>48% longer on site</strong>, browse{" "}
             <strong>13% more pages</strong>, and have a{" "}
             <strong>12% higher engagement rate</strong> than non-AI visitors.
           </li>
         </ul>
-        <p>
-          Every engagement signal is pointing in the same direction. AI visitors
-          are not casual browsers. They arrive having already received a
-          recommendation. The decision-making is largely done before they land
-          on your site.
-        </p>
 
         <img
           src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=1000&q=80"
-          alt="Analytics dashboard showing AI referral traffic outperforming traditional digital marketing channels across conversion rate and revenue per visit metrics"
+          alt="Analytics dashboard showing AI referral traffic outperforming traditional digital marketing channels"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>The 80-Point Swing That Tells the Real Story</h2>
+        <h2>An 80-Point Swing — and a CEO on the Record</h2>
         <p>
-          In March 2025, AI traffic converted <em>38% worse</em> than traditional
-          channels. In March 2026, it converts <em>42% better</em>. That is an{" "}
-          <strong>80-percentage-point swing in 12 months</strong> — and it explains
-          exactly why brands that monitored this trend instead of acting on it are
-          now behind.
+          In March 2025, AI traffic converted 38% <em>worse</em> than
+          traditional channels. In March 2026, it converts 42%{" "}
+          <em>better</em>. That is an{" "}
+          <strong>80-percentage-point swing in 12 months.</strong> The
+          reversal happened because consumer trust caught up to adoption —
+          39% of consumers have now used AI for shopping and 66% believe AI
+          tools provide accurate results. People are no longer using AI to
+          browse and Google to buy. They are completing the full journey inside
+          the AI recommendation.
         </p>
         <p>
-          The reversal happened because consumer trust caught up to adoption. In
-          2025, people used AI to browse but went back to Google to buy. According
-          to Adobe&apos;s companion survey, 39% of consumers have now used AI for
-          online shopping and 66% believe AI tools provide accurate results. The
-          verification step is collapsing. When someone asks ChatGPT for a
-          contractor in Eagle County and gets a confident, specific recommendation,
-          they are increasingly likely to call that business directly — not open
-          three other browser tabs first. The AI recommendation <em>is</em> the
-          conversion event.
-        </p>
-
-        <h2>A CEO Put It on the Public Record</h2>
-        <p>
-          The Adobe retail data does not exist in isolation. On Airbnb&apos;s Q4
-          2025 earnings call — a regulated disclosure context where executives are
-          accountable for every claim — CEO Brian Chesky told investors:{" "}
+          The pattern is confirmed beyond retail. On Airbnb&apos;s Q4 2025
+          earnings call, CEO Brian Chesky told investors:{" "}
           <em>
-            &ldquo;Traffic that comes from chatbots converts at a higher rate than
-            traffic that comes from Google.&rdquo;
-          </em>
-        </p>
-        <p>
-          Chesky named ChatGPT, Gemini, Claude, and other AI platforms as the
-          sources. He described them as &ldquo;very similar to search&rdquo; and
-          &ldquo;really good top-of-funnel discoveries.&rdquo; This is the pattern
-          Adobe is measuring in retail, confirmed in high-consideration travel
-          bookings where the average transaction runs into the hundreds or thousands
-          of dollars. The behavioral dynamic is not category-specific. It is
-          happening everywhere buyers use AI to decide what to buy and who to buy
-          from.
+            &ldquo;Traffic that comes from chatbots converts at a higher rate
+            than traffic that comes from Google.&rdquo;
+          </em>{" "}
+          A CEO does not put first-party conversion data on a regulated
+          earnings call unless the numbers are consistent enough to defend.
+          This is the same dynamic Adobe is measuring across retail — now
+          confirmed in high-consideration travel bookings where the average
+          transaction runs into the hundreds or thousands of dollars.
         </p>
 
-        <h2>What This Actually Means for Your Marketing Budget</h2>
+        <h2>What This Means for Your Business Right Now</h2>
         <p>
-          If AI traffic converts at 9x the rate of Google organic and 42% better
-          than paid search, then every dollar and every hour you spend optimizing
-          for channels that underperform AI referral traffic is costing you. Not
-          in a theoretical, future-risk way. In a direct, this-quarter, revenue-per-visit way.
+          Every dollar you spend on paid search is generating traffic that
+          converts at a fraction of what AI referral traffic produces. Every
+          AI recommendation that goes to a competitor instead of you is a
+          missed sale — at a 42% higher conversion rate and 37% more revenue
+          per visit than your current campaigns. This is not a future
+          problem. It is a this-quarter revenue gap.
         </p>
         <p>
-          The businesses winning AI referral traffic today are not spending more on
-          marketing. They are spending differently. They have built the foundational
-          presence — consistent business information, expert-attributed content that
-          answers buyer questions, schema markup, reviews, third-party citations —
-          that causes AI platforms to recommend them when a buyer asks the question
-          their business answers. And because they established that presence early,
-          they are compounding authority while their competitors are still running
-          the same paid search campaigns.
-        </p>
-        <p>
-          The businesses that have not built this presence are not just missing a
-          channel. They are losing their highest-converting potential customers to
-          whoever AI decides to recommend instead.
+          Winning AI referral traffic does not require more ad spend. It
+          requires building the presence that causes AI platforms to recommend
+          you: consistent business information everywhere online,
+          expert-attributed content that answers buyer questions directly,
+          schema markup, strong reviews, and third-party citations from
+          credible sources. The businesses doing this now are compounding
+          authority while their competitors run the same campaigns they ran
+          last year.
         </p>
 
-        <h2>The Colorado Opportunity Is Wide Open Right Now</h2>
+        <h2>The Colorado Opportunity Is Still Unclaimed</h2>
         <p>
-          Local businesses have a structural advantage in AI search that national
-          brands cannot easily replicate: geographic specificity. When a buyer asks
-          ChatGPT, Grok, or Perplexity to recommend an excavation company in Gypsum,
-          a florist in Vail, or a real estate agent in the Roaring Fork Valley, the
-          AI needs a specific, well-cited local business to recommend. Right now, for most
-          categories across Colorado&apos;s mountain communities, that recommendation
-          set is nearly empty.
+          Local businesses have a structural advantage in AI search: geographic
+          specificity. When a buyer asks ChatGPT, Grok, or Perplexity to
+          recommend an excavation company in Gypsum, a florist in Vail, or a
+          contractor in Avon, the AI needs a specific, well-cited local business
+          to recommend. For most categories across Colorado&apos;s mountain
+          communities, that recommendation set is nearly empty. Those spots are
+          unclaimed — and businesses that establish AI citation presence in the
+          next six months will own them before competitors figure out what
+          happened. Initial GEO results typically appear within four to eight
+          weeks. The window is open now.
         </p>
         <p>
-          There is no dominant, well-cited contractor in Avon that AI platforms
-          consistently surface. No local service business with the citation
-          footprint to own &ldquo;who does [service] in Eagle County.&rdquo; Those
-          spots are unclaimed — and local businesses that establish AI citation
-          presence in the next six months will be the default answer when the trust
-          curve continues to mature and more buyers complete their entire journey
-          inside AI-recommended paths.
-        </p>
-        <p>
-          Research confirms that small businesses can begin seeing initial GEO
-          results in as little as four to eight weeks. The foundation — consistent
-          business data, schema markup, question-answering content — is not
-          expensive to build. What makes it valuable is building it before the
-          competition figures this out.
-        </p>
-
-        <h2>This Requires a Different Approach to Your Entire Online Presence</h2>
-        <p>
-          AI citation is not a tactic you layer on top of a traditional SEO
-          strategy. It requires rethinking how your business is represented
-          across the web. Not just your website — but every platform where your
-          business information appears, every piece of content you publish, every
-          review you earn or ignore, every citation you build or fail to build.
-        </p>
-        <p>
-          The businesses that win AI recommendations are not the ones with the
-          most ad spend. They are the ones that look most authoritative and
-          consistent to a machine that is synthesizing hundreds of signals to
-          decide who to trust. Building that profile is strategic, methodical
-          work — and it is exactly the work that is still wide open in most
-          Colorado markets.
-        </p>
-        <p>
-          If you want to know where your business currently stands across the AI
-          platforms driving this traffic — and what it would take to be the answer
-          the next time a buyer asks the question your business answers — that is
-          exactly what we audit. Free. No obligation. Just a clear picture of
-          where you are and what it would take to be where you need to be.
+          If you want to know where your business stands across the AI platforms
+          driving this traffic — and what it would take to be the recommended
+          answer — that is exactly what we audit. Free. No obligation.
         </p>
 
         <FAQ
           items={[
             {
               q: "How much better does AI referral traffic convert compared to Google search?",
-              a: "Platform-specific data shows ChatGPT referral traffic converting at 15.9% versus Google organic search at 1.76% — a 9x difference. Adobe's aggregate data across over one trillion US retail visits shows AI traffic converting 42% better than all non-AI channels including paid search, email, and affiliates. Revenue per visit from AI sources is 37% higher than from traditional channels.",
+              a: "ChatGPT referral traffic converts at 15.9% versus Google organic at 1.76% — a 9x difference. Adobe's data across one trillion US retail visits shows AI traffic converting 42% better than paid search, email, and affiliates, with 37% more revenue per visit.",
             },
             {
               q: "Why does AI referral traffic convert so much better?",
-              a: "AI-referred visitors arrive pre-qualified. When a buyer asks ChatGPT or Perplexity to recommend a specific business and gets a confident answer, most of the decision-making is done before they ever land on your site. They are not browsing — they are acting on a recommendation they already trust. This pre-qualification is something paid search cannot replicate at any budget level.",
+              a: "AI-referred visitors arrive pre-qualified. When a buyer asks ChatGPT or Grok to recommend a business and gets a confident answer, most of the decision is made before they land on your site. They are acting on a recommendation they already trust — not browsing. Paid search cannot replicate this at any budget level.",
             },
             {
               q: "What is GEO and how is it different from SEO?",
-              a: "GEO (generative engine optimization) is the practice of building your business's visibility across the AI platforms — ChatGPT, Grok, Gemini, Perplexity, and Claude — that now drive the highest-converting traffic on the web. SEO optimizes your website to rank in Google's blue-link results. GEO optimizes your entire online presence — content, citations, schema, reviews, business data consistency — to be recommended by AI systems. Both are necessary. Only one of them is new.",
-            },
-            {
-              q: "How quickly can a small business start seeing results from GEO?",
-              a: "Initial results from foundational GEO work — consistent business information, schema markup, and question-answering content — typically appear within four to eight weeks. Building the citation authority that causes AI platforms to consistently recommend you takes three to six months. Starting now puts you ahead of the majority of local competitors who have not yet begun.",
-            },
-            {
-              q: "Do I need to abandon my current SEO and paid search investment?",
-              a: "No — but you need to expand your definition of where your revenue actually comes from. Google SEO still matters and a strong traditional SEO foundation supports GEO performance. What changes is the recognition that AI referral traffic is now your highest-converting channel, and allocating zero budget or attention to it while continuing to spend on lower-converting channels is a strategic misallocation.",
+              a: "GEO (generative engine optimization) builds your visibility across AI platforms — ChatGPT, Grok, Gemini, Perplexity, Claude — that now drive the highest-converting traffic on the web. SEO optimizes your site for Google's ranked results. GEO optimizes your entire online presence — content, citations, schema, reviews, business data consistency — to be recommended by AI systems. Both are necessary. Only one of them is new.",
             },
             {
               q: "How do I know if my business is being recommended by AI platforms?",
-              a: "Test it yourself: ask ChatGPT, Grok, Perplexity, and Gemini to recommend a business like yours in your city or county. Each platform pulls from different data sources, so you may appear on one and not another. If you don't appear — or appear inaccurately on any of them — that's your baseline. A GEO audit identifies the specific gaps and prioritizes fixes by revenue impact.",
+              a: "Test it: ask ChatGPT, Grok, Perplexity, and Gemini to recommend a business like yours in your area. Each pulls from different data sources, so you may appear on one and not others. If you don't appear — or appear inaccurately — that's your baseline. A GEO audit identifies the specific gaps and prioritizes fixes by revenue impact.",
             },
           ]}
         />
