@@ -404,8 +404,8 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1712404613042-2f14f02172d7?auto=format&fit=crop&w=1200&q=80"
-          alt="Close-up globe showing Colombia, Venezuela and Peru — the Andean Spanish-speaking region"
+          src="https://images.unsplash.com/photo-1650526087824-163941841b52?auto=format&fit=crop&w=1200&q=80"
+          alt="World map with colorful push pins marking locations across South America and beyond"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
         />
@@ -917,8 +917,8 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1712404613042-2f14f02172d7?auto=format&fit=crop&w=1200&q=80"
-          alt="Globo terráqueo de cerca mostrando Colombia, Venezuela y Perú — la región andina de habla hispana"
+          src="https://images.unsplash.com/photo-1650526087824-163941841b52?auto=format&fit=crop&w=1200&q=80"
+          alt="Mapa del mundo con alfileres de colores marcando ubicaciones en América del Sur y más allá"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
         />
