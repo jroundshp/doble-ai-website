@@ -404,7 +404,7 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?auto=format&fit=crop&w=1200&q=80"
+          src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80"
           alt="Microphone in a professional recording studio, representing voice AI and dubbing"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
@@ -917,7 +917,7 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?auto=format&fit=crop&w=1200&q=80"
+          src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80"
           alt="Micrófono en un estudio de grabación profesional, representando la IA de voz y el doblaje"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
