@@ -404,8 +404,8 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80"
-          alt="Microphone in a professional recording studio, representing voice AI and dubbing"
+          src="https://images.unsplash.com/photo-1655157639280-a8e4594d98ac?auto=format&fit=crop&w=1200&q=80"
+          alt="Physical map of South America with hand pointing to Brazil and surrounding countries"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
         />
@@ -917,8 +917,8 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80"
-          alt="Micrófono en un estudio de grabación profesional, representando la IA de voz y el doblaje"
+          src="https://images.unsplash.com/photo-1655157639280-a8e4594d98ac?auto=format&fit=crop&w=1200&q=80"
+          alt="Mapa físico de América del Sur con una mano señalando Brasil y los países circundantes"
           className="w-full rounded-xl my-8 object-cover"
           style={{ maxHeight: "420px" }}
         />
