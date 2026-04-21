@@ -1195,8 +1195,8 @@ export const posts: Post[] = [
     category: "Real Estate",
     readTime: "6 min read",
     coverImage:
-      "https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1200&q=80",
-    coverAlt: "Luxury mountain real estate in Vail Colorado with snow-capped peaks in the background",
+      "https://images.unsplash.com/photo-1610803523148-a0052fa341bb?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Luxury mountain chalet in a snow-covered alpine setting representing Vail Valley real estate",
     keywords:
       "Vail real estate Mexican buyers, luxury real estate Vail Valley international buyers, AI search real estate Colorado, Spanish language real estate marketing Vail, GEO real estate agent Colorado, Latino buyers luxury property Colorado",
     content: (
