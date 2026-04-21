@@ -84,34 +84,60 @@ export const posts: Post[] = [
       "AI traffic conversion rate 2026, AI search marketing ROI, ChatGPT traffic business, Grok AI search traffic, AI vs paid search, GEO optimization Colorado, AI referral traffic small business, generative engine optimization",
     content: (
       <>
+        <h2>First: What Is AI Search, and How Is It Different from Google?</h2>
         <p>
-          Stop for a moment and think about where your marketing budget goes. Paid
-          search. Email campaigns. Maybe affiliates or social ads. These are the
-          channels you have been optimizing for years — and they are now being
-          outperformed by a channel most businesses are not even tracking, let alone
-          investing in.
+          Most people are familiar with Google search. You type a few keywords —
+          &ldquo;plumber Eagle County&rdquo; or &ldquo;best florist Vail&rdquo; —
+          and Google returns a list of links ranked by relevance. You click through,
+          scan a few websites, and make a decision. The search engine is a
+          directory. You do the legwork.
         </p>
         <p>
-          According to Adobe Digital Insights, which tracks over <strong>one
-          trillion visits</strong> to US retail sites annually, traffic that arrives
-          from AI platforms like ChatGPT, Grok, Perplexity, and Gemini now converts{" "}
-          <strong>42% better</strong> than traffic from paid search, email, and
-          affiliates combined. Revenue per visit from AI sources is{" "}
-          <strong>37% higher</strong> than from traditional channels. Twelve months
-          ago, the opposite was true — regular traffic was worth 128% more per
-          visit than AI traffic. That gap has inverted completely.
+          AI search works differently. Instead of typing keywords and getting a
+          list of links, you have a conversation. You describe what you need in
+          plain language — &ldquo;I&apos;m looking for a reliable excavation
+          company near Gypsum that handles residential grading&rdquo; — and the
+          AI gives you a direct answer. Not ten blue links. A specific
+          recommendation, often with context, reasons, and next steps.
         </p>
         <p>
-          This is not a trend to monitor. It is a channel that has already
-          changed the economics of digital marketing — and most businesses have
-          zero presence in it.
+          The platforms doing this today are ChatGPT (from OpenAI), Grok (from
+          xAI, built into X/Twitter), Perplexity, Google&apos;s Gemini, and
+          Anthropic&apos;s Claude. Each one has tens to hundreds of millions of
+          active users. Each one is synthesizing information from across the web —
+          reviews, websites, directories, news, citations — and generating a
+          confident recommendation in response to what you asked.
+        </p>
+        <p>
+          The critical difference for any business owner is this: <strong>Google
+          shows people options. AI search makes a choice.</strong> When Google
+          returns ten results, the buyer still has to evaluate. When ChatGPT or
+          Grok recommends your business by name, the evaluation is largely
+          already done. The buyer is coming to you pre-sold.
+        </p>
+        <p>
+          That shift — from a list of options to a direct recommendation — is
+          why the data below is so significant. And it is why businesses that
+          have no presence in AI search are not just missing traffic. They are
+          missing the highest-converting buyers in their market.
         </p>
 
         <h2>The Numbers Are Not Close</h2>
         <p>
-          The Adobe data is the most comprehensive picture of AI-driven commerce
-          behavior available. But when you layer in platform-specific conversion
-          research, the gap becomes even harder to ignore:
+          Now consider where your marketing budget actually goes. Paid search.
+          Email campaigns. Maybe affiliates or social ads. These are the channels
+          you have been optimizing for years — and they are now being outperformed
+          by AI search traffic at every meaningful metric. According to Adobe
+          Digital Insights, which tracks over <strong>one trillion visits</strong>{" "}
+          to US retail sites annually, traffic that arrives from AI platforms like
+          ChatGPT, Grok, Perplexity, and Gemini now converts{" "}
+          <strong>42% better</strong> than traffic from paid search, email, and
+          affiliates combined. Revenue per visit from AI sources is{" "}
+          <strong>37% higher</strong> than from traditional channels.
+        </p>
+        <p>
+          When you layer in platform-specific conversion research, the gap becomes
+          even harder to ignore:
         </p>
         <ul>
           <li>
