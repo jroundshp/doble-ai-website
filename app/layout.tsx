@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const inter = Inter({
@@ -64,7 +65,13 @@ const organizationSchema = {
           worksFor: { "@id": "https://dobleai.com/#organization" },
         },
       ],
-      sameAs: ["https://ervtranslation.com", "https://johnrounds.com"],
+      sameAs: [
+        "https://ervtranslation.com",
+        "https://johnrounds.com",
+        "https://x.com/dobleai_co",
+        "https://instagram.com/dobleai_co",
+        "https://www.facebook.com/profile.php?id=61572054159697",
+      ],
     },
     {
       "@type": "WebSite",
@@ -135,6 +142,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );
