@@ -84,10 +84,9 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/logo-icon.svg", type: "image/svg+xml" },
-      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon.png", sizes: "400x400", type: "image/png" },
     ],
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-icon.png",
   },
   title: {
     default: "Doble AI — Bilingual AI Consulting for Colorado Businesses",
