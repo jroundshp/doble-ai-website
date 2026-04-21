@@ -352,14 +352,16 @@ export const posts: Post[] = [
           </li>
           <li>
             <strong>
-              Distinct <em>ll</em> and <em>y</em>.
+              The double-L (<em>ll</em>) and Y (<em>y</em>) keep their standard sounds.
             </strong>{" "}
-            In Rioplatense Spanish (Argentina, Uruguay), both <em>ll</em> and{" "}
-            <em>y</em> are pronounced like the English &ldquo;sh&rdquo; or French
-            &ldquo;j&rdquo; &mdash; a feature called <em>yeísmo rehilado</em>.
-            &ldquo;Yo me llamo&rdquo; becomes something closer to{" "}
-            &ldquo;Sho me shamo.&rdquo; In Peru, these sounds remain distinct and
-            close to the standard written form.
+            In Rioplatense Spanish (Argentina and Uruguay), both letters &mdash;
+            the <em>ll</em>{" "}and the <em>y</em>{" "}&mdash; merge into a sound
+            like the English &ldquo;sh,&rdquo; a feature called{" "}
+            <em>yeísmo rehilado</em>. &ldquo;Yo me llamo&rdquo; becomes{" "}
+            &ldquo;Sho me shamo.&rdquo; In Peruvian Spanish, neither letter takes
+            on that &ldquo;sh&rdquo; sound; both retain a pronunciation closer to
+            the standard written form, making speech more predictable for
+            listeners across Latin America.
           </li>
         </ul>
 
@@ -862,14 +864,17 @@ export const posts: Post[] = [
           </li>
           <li>
             <strong>
-              <em>Ll</em> e <em>y</em> distintas.
+              La doble ele (<em>ll</em>) y la ye (<em>y</em>) conservan su pronunciación estándar.
             </strong>{" "}
-            En el español rioplatense (Argentina, Uruguay), tanto <em>ll</em>{" "}
-            como <em>y</em>{" "}se pronuncian como el sonido &ldquo;sh&rdquo; del
-            inglés &mdash; una característica llamada{" "}
-            <em>yeísmo rehilado</em>. &ldquo;Yo me llamo&rdquo; se convierte en
-            algo más parecido a &ldquo;Sho me shamo.&rdquo; En Perú, estos
-            sonidos permanecen distintos y cercanos a la forma escrita estándar.
+            En el español rioplatense (Argentina y Uruguay), ambas letras
+            &mdash; la <em>ll</em>{" "}(doble ele) y la <em>y</em>{" "}(ye) &mdash;
+            se fusionan y adoptan un sonido parecido al &ldquo;sh&rdquo; del
+            inglés, un fenómeno llamado <em>yeísmo rehilado</em>.{" "}
+            &ldquo;Yo me llamo&rdquo; suena como &ldquo;Sho me shamo.&rdquo;{" "}
+            En el español peruano, ninguna de las dos adopta ese sonido
+            &ldquo;sh&rdquo;; ambas conservan una pronunciación más cercana a
+            la forma escrita estándar, lo que hace el habla más predecible para
+            hablantes de toda América Latina.
           </li>
         </ul>
 
