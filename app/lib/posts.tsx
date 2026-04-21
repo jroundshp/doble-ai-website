@@ -1340,10 +1340,11 @@ export const posts: Post[] = [
           entrants have to overcome.
         </p>
         <p>
-          If you are a real estate professional in the Vail Valley and you want
-          to know what buyers currently find when they research your market in
-          Spanish on AI platforms — we will show you. Free audit, no
-          obligation. The data speaks for itself.
+          If you are a real estate professional in Vail, Aspen, the Roaring
+          Fork Valley, Steamboat Springs, or anywhere across Colorado&apos;s
+          mountain corridor and you want to know what buyers currently find
+          when they research your market in Spanish on AI platforms — we will
+          show you. Free audit, no obligation. The data speaks for itself.
         </p>
 
         <FAQ
