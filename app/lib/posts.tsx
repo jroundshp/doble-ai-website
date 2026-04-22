@@ -69,6 +69,141 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "google-business-profile-ai-asset",
+    title: "Your Google Business Profile is Your Most Underused AI Asset",
+    excerpt:
+      "Most small businesses set their Google Business Profile once and forget it. In 2026, that's costing you customers — because AI platforms like ChatGPT, Grok, and Google's own AI Overviews are reading your GBP to decide who to recommend. Here's what optimized actually looks like.",
+    date: "April 22, 2026",
+    dateISO: "2026-04-22",
+    category: "AI Strategy",
+    readTime: "5 min read",
+    coverImage: "/fb-tip-google-business-profile.png",
+    coverAlt:
+      "Your Google Business Profile is your most underused AI asset — Doble AI tip graphic",
+    keywords:
+      "Google Business Profile optimization 2026, Google Business Profile AI search, GBP optimization small business, GEO optimization local business, Google AI Overviews local business, ChatGPT local search, Grok local business search, Google Business Profile Colorado, small business AI visibility",
+    content: (
+      <>
+        <p>
+          The way people find local businesses has shifted — quietly, quickly,
+          and most small business owners haven&apos;t noticed yet.
+        </p>
+        <p>
+          A few years ago, someone looking for a plumber in Edwards or a florist
+          in Vail would type their search into Google, scroll through a list of
+          links, and click around. Today, a growing number of those same people
+          are asking ChatGPT, Perplexity, Grok, or Google&apos;s own AI Overview
+          to just <em>tell them</em>{" "}who to call. They get one answer — maybe
+          three — and they stop there.
+        </p>
+        <p>
+          That answer is not random. It comes from data. And one of the most
+          important data sources those AI systems read is your Google Business
+          Profile.
+        </p>
+
+        <h2>Why GBP Matters More Now Than Ever</h2>
+        <p>
+          Google&apos;s AI Overviews — the AI-generated summaries that now
+          appear at the top of many search results — pull heavily from Google
+          Business Profile data. When someone searches &ldquo;best excavating
+          contractor near Gypsum&rdquo; or &ldquo;guided fly fishing Edwards
+          CO,&rdquo;{" "}Google&apos;s AI is not just ranking websites.
+          It&apos;s reading structured business data and deciding which
+          businesses are trustworthy, current, and worth recommending.
+        </p>
+        <p>
+          The same logic applies to third-party AI platforms. ChatGPT,
+          Perplexity, and Grok all increasingly use web-based business data to
+          answer local queries. A complete, active, well-reviewed Google
+          Business Profile is one of the clearest signals those systems can
+          find. An incomplete or outdated one gets passed over — often
+          invisibly, with no indication to you that it happened.
+        </p>
+        <p>
+          This is what people in the marketing world are calling{" "}
+          <strong>GEO: Generative Engine Optimization.</strong>{" "}
+          It&apos;s the emerging discipline of making sure AI systems can find
+          you, understand you, and confidently recommend you. Your Google
+          Business Profile is ground zero for that.
+        </p>
+
+        <h2>What &ldquo;Optimized&rdquo; Actually Means</h2>
+        <p>
+          Most business owners claimed their profile years ago, filled in the
+          basics, and moved on. That&apos;s not enough anymore. An optimized
+          GBP looks like this:
+        </p>
+        <ul>
+          <li>
+            <strong>Complete business information</strong> — name, address,
+            phone, website, hours (including holiday hours)
+          </li>
+          <li>
+            <strong>Accurate, specific categories</strong> — Google uses these
+            to match you to searches; wrong or vague categories cost you
+            visibility
+          </li>
+          <li>
+            <strong>Service descriptions</strong> — spell out what you do, who
+            you serve, and where
+          </li>
+          <li>
+            <strong>Photos</strong> — real, recent photos of your work, your
+            team, your location; AI and customers both respond to this
+          </li>
+          <li>
+            <strong>Regular posts</strong> — treat your GBP like a slow-moving
+            social feed; updates signal that you&apos;re active
+          </li>
+          <li>
+            <strong>Reviews — and responses</strong> — volume, recency, and
+            your responses to them are all signals that AI systems weight
+            heavily
+          </li>
+          <li>
+            <strong>Q&amp;A section</strong> — seed it with common questions
+            and answer them yourself if customers haven&apos;t yet
+          </li>
+        </ul>
+        <p>
+          None of this is technically complex. All of it takes consistent
+          attention.
+        </p>
+
+        <h2>What Neglect Costs You</h2>
+        <p>
+          A stale Google Business Profile doesn&apos;t just underperform — it
+          actively works against you. Wrong hours mean lost customers who showed
+          up when you were closed. Missing service categories mean you
+          don&apos;t appear in searches you should win. No recent photos or
+          reviews mean AI systems have less reason to surface you over a
+          competitor who is active.
+        </p>
+        <p>
+          In a market like the Eagle River Valley, where many businesses are
+          small and local, this is often the difference between being found and
+          being invisible.
+        </p>
+
+        <h2>The Fix Is Not Complicated — But It Has to Happen</h2>
+        <p>
+          The businesses that will win the next wave of AI-driven local search
+          are not necessarily the ones with the biggest budgets or the fanciest
+          websites. They&apos;re the ones whose data is clean, complete, and
+          current — starting with their Google Business Profile.
+        </p>
+        <p>
+          If you&apos;re not sure where your profile stands, that&apos;s
+          exactly the kind of audit Doble AI does. We look at your full digital
+          presence — GBP, website, reviews, social — and tell you clearly
+          what&apos;s working, what&apos;s missing, and what to fix first.
+        </p>
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "ai-traffic-converts-better-than-paid-search",
     title: "AI Traffic Now Converts 42% Better Than Paid Search — What This Means for Your Business in 2026",
     excerpt:
