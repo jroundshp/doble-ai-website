@@ -204,6 +204,149 @@ export const posts: Post[] = [
     ),
   },
   {
+    slug: "perfil-google-business-activo-ia",
+    title: "Tu Perfil de Google Business es tu Activo de IA más Subutilizado",
+    excerpt:
+      "La mayoría de las pequeñas empresas configuran su Perfil de Google Business una sola vez y lo olvidan. En 2026, eso te está costando clientes — porque plataformas de IA como ChatGPT, Grok y los propios AI Overviews de Google leen tu perfil para decidir a quién recomendar. Así es como se ve un perfil optimizado.",
+    date: "22 de abril de 2026",
+    dateISO: "2026-04-22",
+    category: "Estrategia de IA",
+    readTime: "5 min de lectura",
+    coverImage: "/fb-tip-google-business-profile.png",
+    coverAlt:
+      "Tu Perfil de Google Business es tu activo de IA más subutilizado — gráfico Doble AI",
+    keywords:
+      "optimización Perfil de Google Business 2026, Google Business Profile búsqueda IA, GBP pequeñas empresas, GEO optimización negocios locales, Google AI Overviews negocios locales, ChatGPT búsqueda local, Grok búsqueda local, Google Business Profile Colorado, visibilidad IA pequeñas empresas",
+    content: (
+      <>
+        <p>
+          La forma en que las personas encuentran negocios locales ha cambiado —
+          de manera silenciosa, rápida, y la mayoría de los dueños de pequeñas
+          empresas todavía no se han dado cuenta.
+        </p>
+        <p>
+          Hace unos años, alguien que buscaba un plomero en Edwards o una
+          floristería en Vail escribía su búsqueda en Google, scrolleaba una
+          lista de enlaces y navegaba entre páginas. Hoy, un número creciente de
+          esas mismas personas le pregunta a ChatGPT, Perplexity, Grok o al
+          propio AI Overview de Google que simplemente les{" "}
+          <em>diga</em>{" "}a quién llamar. Obtienen una respuesta — quizás
+          tres — y ahí se detienen.
+        </p>
+        <p>
+          Esa respuesta no es aleatoria. Proviene de datos. Y una de las fuentes
+          de datos más importantes que leen esos sistemas de IA es tu Perfil de
+          Google Business.
+        </p>
+
+        <h2>Por Qué el GBP Importa Más Ahora que Nunca</h2>
+        <p>
+          Los AI Overviews de Google — los resúmenes generados por IA que ahora
+          aparecen en la parte superior de muchos resultados de búsqueda — se
+          nutren en gran medida de los datos del Perfil de Google Business.
+          Cuando alguien busca &ldquo;mejor contratista de excavación cerca de
+          Gypsum&rdquo; o &ldquo;pesca con mosca con guía en Edwards CO,&rdquo;{" "}
+          la IA de Google no solo está clasificando sitios web. Está leyendo
+          datos estructurados de negocios y decidiendo qué empresas son
+          confiables, están activas y merecen ser recomendadas.
+        </p>
+        <p>
+          La misma lógica aplica a las plataformas de IA de terceros. ChatGPT,
+          Perplexity y Grok utilizan cada vez más datos de negocios en la web
+          para responder consultas locales. Un Perfil de Google Business
+          completo, activo y con buenas reseñas es una de las señales más claras
+          que esos sistemas pueden encontrar. Uno incompleto o desactualizado es
+          ignorado — a menudo de forma invisible, sin que tú te enteres.
+        </p>
+        <p>
+          A esto lo llaman en el mundo del marketing{" "}
+          <strong>GEO: Optimización para Motores Generativos.</strong>{" "}
+          Es la disciplina emergente de asegurarse de que los sistemas de IA
+          puedan encontrarte, entenderte y recomendarte con confianza. Tu Perfil
+          de Google Business es el punto de partida para eso.
+        </p>
+
+        <h2>Lo Que &ldquo;Optimizado&rdquo; Realmente Significa</h2>
+        <p>
+          La mayoría de los dueños de negocios reclamaron su perfil hace años,
+          llenaron lo básico y siguieron adelante. Eso ya no es suficiente. Un
+          GBP optimizado se ve así:
+        </p>
+        <ul>
+          <li>
+            <strong>Información comercial completa</strong> — nombre, dirección,
+            teléfono, sitio web, horarios (incluyendo horarios festivos)
+          </li>
+          <li>
+            <strong>Categorías precisas y específicas</strong> — Google las usa
+            para relacionarte con búsquedas; categorías incorrectas o vagas te
+            cuestan visibilidad
+          </li>
+          <li>
+            <strong>Descripción de servicios</strong> — explica qué haces, a
+            quién sirves y en qué área
+          </li>
+          <li>
+            <strong>Fotos</strong> — imágenes reales y recientes de tu trabajo,
+            tu equipo, tu ubicación; tanto la IA como los clientes responden a
+            esto
+          </li>
+          <li>
+            <strong>Publicaciones regulares</strong> — trata tu GBP como una
+            red social de ritmo lento; las actualizaciones indican que
+            estás activo
+          </li>
+          <li>
+            <strong>Reseñas — y respuestas</strong> — el volumen, la frecuencia
+            y tus respuestas son señales que los sistemas de IA ponderan con
+            mucho peso
+          </li>
+          <li>
+            <strong>Sección de preguntas y respuestas</strong> — siémbrala con
+            preguntas frecuentes y respóndelas tú mismo si los clientes no lo
+            han hecho
+          </li>
+        </ul>
+        <p>
+          Nada de esto es técnicamente complejo. Todo requiere atención
+          constante.
+        </p>
+
+        <h2>Lo Que el Descuido te Cuesta</h2>
+        <p>
+          Un Perfil de Google Business desactualizado no solo tiene bajo
+          rendimiento — trabaja activamente en tu contra. Horarios incorrectos
+          significan clientes perdidos que llegaron cuando estabas cerrado.
+          Categorías de servicios faltantes significan que no apareces en
+          búsquedas que deberías ganar. Sin fotos ni reseñas recientes, los
+          sistemas de IA tienen menos razones para mostrarte sobre un competidor
+          que sí está activo.
+        </p>
+        <p>
+          En un mercado como el Valle del Río Eagle, donde muchos negocios son
+          pequeños y locales, esta suele ser la diferencia entre ser encontrado
+          y ser invisible.
+        </p>
+
+        <h2>La Solución No Es Complicada — Pero Debe Suceder</h2>
+        <p>
+          Los negocios que ganarán la próxima ola de búsqueda local impulsada
+          por IA no son necesariamente los que tienen los presupuestos más
+          grandes o los sitios web más sofisticados. Son los que tienen datos
+          limpios, completos y actualizados — comenzando con su Perfil de
+          Google Business.
+        </p>
+        <p>
+          Si no estás seguro de cómo está tu perfil, ese es exactamente el tipo
+          de auditoría que hace Doble AI. Revisamos tu presencia digital
+          completa — GBP, sitio web, reseñas, redes sociales — y te decimos
+          claramente qué está funcionando, qué falta y qué corregir primero.
+        </p>
+        <CTAes />
+      </>
+    ),
+  },
+  {
     slug: "ai-traffic-converts-better-than-paid-search",
     title: "AI Traffic Now Converts 42% Better Than Paid Search — What This Means for Your Business in 2026",
     excerpt:
