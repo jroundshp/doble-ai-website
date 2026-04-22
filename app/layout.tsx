@@ -71,6 +71,7 @@ const organizationSchema = {
         "https://x.com/dobleai_co",
         "https://instagram.com/dobleai_co",
         "https://www.facebook.com/profile.php?id=61572054159697",
+        "https://www.google.com/maps/place/Doble+AI/@39.9905819,-107.4135804,8z/data=!3m1!4b1!4m6!3m5!1s0xa19bb2c29209c305:0x41ae076704a347ff!8m2!3d39.990582!4d-107.4135804!16s%2Fg%2F11nhhprgby",
       ],
     },
     {
