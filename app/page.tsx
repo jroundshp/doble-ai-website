@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "What makes Doble AI different from other consultants?",
-    a: "We are Colorado's only bilingual AI consulting firm. Unlike most consultants, we deliver strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents who speak Spanish as a first language. Our founders have business experience across 50+ countries and are natively bilingual.",
+    a: "We are one of Colorado's few bilingual AI consulting firms. Unlike most consultants, we deliver strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents who speak Spanish as a first language. Our founders have business experience across 50+ countries and are natively bilingual.",
   },
   {
     q: "Do I need to be located in the Vail Valley to work with Doble AI?",
@@ -84,7 +84,7 @@ function Hero() {
           En inglés y en español.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
-          Colorado&apos;s only bilingual AI consulting firm. We help Colorado businesses
+          One of Colorado&apos;s few bilingual AI consulting firms. We help Colorado businesses
           understand, adopt, and implement artificial intelligence — and reach the
           customers your competitors are ignoring.
         </p>

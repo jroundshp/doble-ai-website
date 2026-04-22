@@ -25,7 +25,7 @@ const organizationSchema = {
         height: 50,
       },
       description:
-        "Colorado's only bilingual AI consulting firm. We help Colorado businesses grow with AI strategy, competitive analysis, and bilingual marketing — in English and in Spanish.",
+        "One of Colorado's few bilingual AI consulting firms. We help Colorado businesses grow with AI strategy, competitive analysis, and bilingual marketing — in English and in Spanish.",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Eagle",
@@ -106,7 +106,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Doble AI — Bilingual AI Consulting for Colorado Businesses",
     description:
-      "Colorado's only bilingual AI consulting firm. AI strategy, competitive analysis, and brand growth — in English and Spanish.",
+      "One of Colorado's few bilingual AI consulting firms. AI strategy, competitive analysis, and brand growth — in English and Spanish.",
     url: "https://dobleai.com",
     siteName: "Doble AI",
     locale: "en_US",
@@ -124,7 +124,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Doble AI — Bilingual AI Consulting for Colorado Businesses",
     description:
-      "Colorado's only bilingual AI consulting firm. AI strategy and bilingual marketing for Eagle River Valley businesses.",
+      "One of Colorado's few bilingual AI consulting firms. AI strategy and bilingual marketing for Eagle River Valley businesses.",
     images: ["/og-image.png"],
   },
 };
