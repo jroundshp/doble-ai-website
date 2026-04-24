@@ -221,20 +221,18 @@ export const posts: Post[] = [
     content: (
       <>
         <p>
-          Imagínate esto: son las dos de la tarde y estás trabajando en una
+          Imagínate esto : son las dos de la tarde y estás trabajando en una
           obra en Gypsum. Tu teléfono suena. No puedes contestar. El que llamó
-          no deja mensaje &mdash; casi nadie lo hace ya &mdash; y cuando
-          devuelves la llamada dos horas después,{" "}
-          ya contrató a alguien más.
+          no deja mensaje &mdash;casi nadie lo hace ya&mdash; y cuando
+          devuelves la llamada dos horas después, ya contrató a alguien más.
         </p>
         <p>
           No es un ejemplo inventado. Es un martes cualquiera.
         </p>
         <p>
           Para la mayoría de los pequeños negocios, el teléfono sigue siendo
-          el camino más directo de &ldquo;interesado&rdquo; a
-          &ldquo;cliente.&rdquo; Y para la mayoría de los pequeños negocios,
-          ese camino se rompe con más frecuencia de lo que debería.
+          el camino más directo de interesado a cliente. Y , ese camino se
+          rompe con más frecuencia de lo que debería.
         </p>
 
         <h2>El problema del idioma que pocos mencionan</h2>
@@ -292,11 +290,10 @@ export const posts: Post[] = [
           más y es más difícil de encontrar.
         </p>
         <p>
-          El servicio comercial más comparable,{" "}
-          <strong>Smith.ai,</strong>{" "}cobra entre $300 y $500 al mes por un
-          servicio híbrido con humanos. Su soporte en español es limitado. Y no
-          es verdaderamente IA &mdash; los humanos llenan los huecos, por eso
-          cuesta lo que cuesta.
+          El servicio comercial más comparable, Smith.ai, cobra entre $300 y
+          $500 al mes por un servicio híbrido con humanos. Su soporte en
+          español es limitado. Y no es verdaderamente IA &mdash; los humanos
+          llenan los huecos&mdash;, por eso cuesta lo que cuesta.
         </p>
         <p>
           Lucy cuesta{" "}
