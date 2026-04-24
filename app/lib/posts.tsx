@@ -194,6 +194,136 @@ export const posts: Post[] = [
     ),
   },
   {
+    slug: "recepcionista-ia-bilingue-pequenos-negocios",
+    title: "Tu teléfono está sonando. Nadie contesta. Eso te cuesta dinero.",
+    excerpt:
+      "Las llamadas perdidas no solo significan conversaciones perdidas — significan ingresos que se van. Para los pequeños negocios en el Valle de Vail, donde cada vez más clientes hablan español, el problema se multiplica. Así es como una recepcionista IA bilingüe cambia las cuentas.",
+    date: "23 de abril de 2026",
+    dateISO: "2026-04-23",
+    category: "Herramientas de IA",
+    readTime: "5 min de lectura",
+    coverImage:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "Dueño de negocio sonriendo con su teléfono — nunca pierdas un cliente con una recepcionista IA bilingüe",
+    keywords:
+      "recepcionista IA bilingüe pequeños negocios, contestador automático IA español inglés, nunca perder llamadas negocio pequeño, recepcionista IA Vail Colorado, Lucy recepcionista IA Doble AI, servicio contestador bilingüe Colorado, costo recepcionista IA negocio pequeño, atención telefónica IA español",
+    content: (
+      <>
+        <p>
+          Imagínate esto: son las dos de la tarde y estás trabajando en una
+          obra en Gypsum. Tu teléfono suena. No puedes contestar. El que llamó
+          no deja mensaje &mdash; casi nadie lo hace ya &mdash; y cuando
+          devuelves la llamada dos horas después,{" "}
+          ya contrató a alguien más.
+        </p>
+        <p>
+          No es un ejemplo inventado. Es un martes cualquiera.
+        </p>
+        <p>
+          Para la mayoría de los pequeños negocios, el teléfono sigue siendo
+          el camino más directo de &ldquo;interesado&rdquo; a
+          &ldquo;cliente.&rdquo; Y para la mayoría de los pequeños negocios,
+          ese camino se rompe con más frecuencia de lo que debería.
+        </p>
+
+        <h2>El problema del idioma que pocos mencionan</h2>
+        <p>
+          En el Condado de Eagle, aproximadamente uno de cada cuatro residentes
+          habla español como primer idioma. En los oficios de construcción,
+          la hostelería y el paisajismo, ese número es considerablemente mayor.
+        </p>
+        <p>
+          Cuando un cliente hispanohablante llama a un contratista, florista u
+          operador turístico local y llega a un buzón de voz solo en inglés
+          &mdash; o atiende alguien que no puede comunicarse bien &mdash; el
+          resultado casi siempre es el mismo: cuelga y llama a otro. Ese otro
+          acaba de ganar un cliente que tú te habías ganado al aparecer en la
+          búsqueda.
+        </p>
+        <p>
+          El problema no es la voluntad. La mayoría de los dueños de negocios
+          quisieran atender a cada persona que llama. El problema es la
+          capacidad.
+        </p>
+
+        <h2>Lo que hace en realidad una recepcionista IA bilingüe</h2>
+        <p>
+          Lucy es una recepcionista IA bilingüe creada por Doble AI. Atiende
+          tu línea de negocio las 24 horas del día, los 7 días de la semana,
+          en inglés y en español. Cubre las llamadas que entran mientras estás
+          trabajando, fuera de horario y los fines de semana &mdash; y lo hace
+          en el idioma de quien llama.
+        </p>
+        <p>
+          Cuando termina cada llamada, recibes un correo electrónico. No un
+          mensaje de voz que tienes que escuchar. No una notificación para
+          revisar una app. Un correo directo a tu bandeja de entrada con:
+        </p>
+        <ul>
+          <li>Un resumen escrito de quién llamó y por qué</li>
+          <li>Su número de teléfono</li>
+          <li>Su correo electrónico, si lo compartió</li>
+          <li>La transcripción completa de la conversación</li>
+        </ul>
+        <p>
+          Si la persona le dio su correo a Lucy, ella le envía automáticamente
+          un mensaje de seguimiento confirmando que te pondrás en contacto. El
+          prospecto ya está caliente antes de que tú siquiera devuelvas
+          la llamada.
+        </p>
+
+        <h2>Lo que reemplaza (y lo que cuesta)</h2>
+        <p>
+          Una recepcionista humana de medio tiempo en el Valle de Vail cuesta
+          entre $15 y $20 la hora. Solo 20 horas a la semana son entre $1,200
+          y $1,600 al mes &mdash; y esa persona no está disponible de noche,
+          los fines de semana ni cuando se enferma. El personal bilingüe cuesta
+          más y es más difícil de encontrar.
+        </p>
+        <p>
+          El servicio comercial más comparable,{" "}
+          <strong>Smith.ai,</strong>{" "}cobra entre $300 y $500 al mes por un
+          servicio híbrido con humanos. Su soporte en español es limitado. Y no
+          es verdaderamente IA &mdash; los humanos llenan los huecos, por eso
+          cuesta lo que cuesta.
+        </p>
+        <p>
+          Lucy cuesta{" "}
+          <strong>$500 de configuración y $179 al mes.</strong>{" "}
+          Eso incluye un número de teléfono dedicado para tu negocio, capacidad
+          bilingüe completa, resúmenes de prospectos en tu correo y mensajes
+          automáticos de seguimiento para quienes compartan su dirección de
+          correo.
+        </p>
+        <p>
+          Está en funcionamiento en cinco días hábiles.
+        </p>
+
+        <h2>Diseñada para el Valle</h2>
+        <p>
+          No construimos a Lucy para un mercado genérico. La construimos para
+          negocios en lugares como el Valle de Vail, donde la base de clientes
+          abarca dos idiomas y una llamada perdida puede significar un trabajo
+          perdido, una reservación que se fue o toda una temporada.
+        </p>
+        <p>
+          Lucy atiende nuestra propia línea en Doble AI. Cada llamada a nuestra
+          oficina pasa primero por ella. Sabemos que funciona porque la usamos
+          todos los días.
+        </p>
+        <p>
+          Si eres contratista, guía de pesca, florista, profesional de bienes
+          raíces o dueño de un negocio de servicios en el corredor montañoso de
+          Colorado &mdash; y estás cansado de perder llamadas que te costó
+          trabajo conseguir &mdash; vale la pena conversar sobre Lucy.
+        </p>
+
+        <CTAes />
+      </>
+    ),
+  },
+  {
     slug: "google-business-profile-ai-asset",
     title: "Your Google Business Profile is Your Most Underused AI Asset",
     excerpt:
