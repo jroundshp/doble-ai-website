@@ -69,6 +69,131 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "bilingual-ai-receptionist-small-business",
+    title: "Your Phone Is Ringing. Nobody's There. That's Costing You.",
+    excerpt:
+      "Missed calls don't just mean missed conversations — they mean missed revenue. For small businesses in the Vail Valley, where a growing share of customers speak Spanish, the problem compounds. Here's how a bilingual AI receptionist changes the math.",
+    date: "April 23, 2026",
+    dateISO: "2026-04-23",
+    category: "AI Tools",
+    readTime: "5 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "Small business owner smiling at phone — never miss a lead with a bilingual AI receptionist",
+    keywords:
+      "bilingual AI receptionist small business, AI phone answering service English Spanish, never miss a call small business, AI receptionist Vail Colorado, Lucy bilingual AI Doble AI, bilingual answering service Colorado, AI receptionist cost small business",
+    content: (
+      <>
+        <p>
+          Picture this: you&apos;re on a job site in Gypsum at 2 in the
+          afternoon. Your phone rings. You can&apos;t answer. The caller
+          doesn&apos;t leave a voicemail &mdash; almost nobody does anymore
+          &mdash; and by the time you call back two hours later,{" "}
+          they&apos;ve already called someone else.
+        </p>
+        <p>
+          That&apos;s not a hypothetical. That&apos;s Tuesday.
+        </p>
+        <p>
+          For most small businesses, the phone is still the primary path from
+          &ldquo;interested&rdquo; to &ldquo;customer.&rdquo; And for most
+          small businesses, that path is broken more often than it should be.
+        </p>
+
+        <h2>The Language Problem Nobody Talks About</h2>
+        <p>
+          In Eagle County, roughly one in four residents speaks Spanish as a
+          first or primary language. In the construction trades, hospitality,
+          and landscaping sectors, that number is significantly higher.
+        </p>
+        <p>
+          When a Spanish-speaking customer calls a local contractor, florist,
+          or outfitter and reaches a voicemail in English-only &mdash; or
+          reaches a staff member who struggles to communicate &mdash; the
+          result is almost always the same: they hang up and try someone else.
+          That someone else just got a customer you earned by showing up in
+          search.
+        </p>
+        <p>
+          The problem isn&apos;t intent. Most business owners would love to
+          serve every caller. The problem is capacity.
+        </p>
+
+        <h2>What a Bilingual AI Receptionist Actually Does</h2>
+        <p>
+          Lucy is a bilingual AI receptionist built by Doble AI. She answers
+          your business line 24 hours a day, 7 days a week, in English and
+          Spanish. She handles the calls that happen while you&apos;re working,
+          after hours, and on weekends &mdash; and she does it in the
+          caller&apos;s language.
+        </p>
+        <p>
+          When a call ends, you get an email. Not a voicemail you have to
+          listen to. Not a notification to check an app. A plain email, in your
+          inbox, with:
+        </p>
+        <ul>
+          <li>A written summary of who called and why</li>
+          <li>Their phone number</li>
+          <li>Their email address, if they shared it</li>
+          <li>The full transcript of the conversation</li>
+        </ul>
+        <p>
+          If the caller gave Lucy their email address, she sends them an
+          automatic follow-up confirming that you&apos;ll be in touch. The lead
+          is warm before you even call back.
+        </p>
+
+        <h2>What It Replaces (and What It Costs)</h2>
+        <p>
+          A part-time human receptionist in the Vail Valley runs $15&ndash;20
+          an hour. Even 20 hours a week is $1,200&ndash;1,600 a month &mdash;
+          and that person isn&apos;t available nights, weekends, or when
+          they&apos;re sick. Bilingual staff cost more and are harder to find.
+        </p>
+        <p>
+          The most comparable commercial service,{" "}
+          <strong>Smith.ai,</strong>{" "}charges $300&ndash;500 a month for a
+          human-hybrid answering service. Their Spanish support is limited. And
+          it&apos;s not truly AI &mdash; humans fill the gaps, which is why it
+          costs what it costs.
+        </p>
+        <p>
+          Lucy is{" "}
+          <strong>$500 to set up and $179 a month.</strong>{" "}
+          That includes a dedicated business phone number, full bilingual
+          capability, lead summaries to your inbox, and automatic
+          follow-up emails to callers who share their address.
+        </p>
+        <p>
+          She goes live in five business days.
+        </p>
+
+        <h2>Built for the Valley</h2>
+        <p>
+          We didn&apos;t build Lucy for a generic market. We built her for
+          businesses in places like the Vail Valley, where the customer base
+          spans two languages and one missed call can mean a lost job, a lost
+          reservation, or a lost season.
+        </p>
+        <p>
+          Lucy runs our own front line at Doble AI. Every call to our office
+          goes through her first. We know she works because we use her every
+          day.
+        </p>
+        <p>
+          If you&apos;re a contractor, outfitter, florist, real estate
+          professional, or service business owner in Colorado&apos;s mountain
+          corridor &mdash; and you&apos;re tired of missing calls you worked
+          hard to earn &mdash; Lucy is worth a conversation.
+        </p>
+
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "google-business-profile-ai-asset",
     title: "Your Google Business Profile is Your Most Underused AI Asset",
     excerpt:

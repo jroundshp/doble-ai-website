@@ -3,10 +3,10 @@ import { posts } from "../lib/posts";
 import Footer from "../components/Footer";
 
 const pinnedSlugs = [
+  "bilingual-ai-receptionist-small-business",
   "ai-traffic-converts-better-than-paid-search",
   "trafico-ia-convierte-mejor-que-busqueda-pagada",
   "peruvian-spanish-the-neutral-accent-advantage",
-  "espanol-peruano-la-ventaja-del-acento-neutro",
 ];
 const pinned = pinnedSlugs.map((s) => posts.find((p) => p.slug === s)).filter(Boolean) as typeof posts;
 const rest = posts.filter((p) => !pinnedSlugs.includes(p.slug));
