@@ -78,9 +78,9 @@ export const posts: Post[] = [
     category: "AI Tools",
     readTime: "5 min read",
     coverImage:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1608820980073-0a946a135983?auto=format&fit=crop&w=1200&q=80",
     coverAlt:
-      "Small business owner smiling at phone — never miss a lead with a bilingual AI receptionist",
+      "Colorado Rocky Mountain meadow and lake near Aspen — Colorado mountain living and small business",
     keywords:
       "bilingual AI receptionist small business, AI phone answering service English Spanish, never miss a call small business, AI receptionist Vail Colorado, Lucy bilingual AI Doble AI, bilingual answering service Colorado, AI receptionist cost small business",
     content: (
@@ -170,12 +170,22 @@ export const posts: Post[] = [
           She goes live in five business days.
         </p>
 
-        <h2>Built for the Valley</h2>
+        <h2>Built for Colorado Mountain Living</h2>
+        <p>
+          One of the best things about running a business in the Colorado
+          mountains is that the trailhead is never far away. You moved here for
+          a reason &mdash; the powder mornings, the first tracks, the afternoon
+          hatch on the Eagle River, the mountain bike ride that clears your
+          head, the hike that reminds you why you&apos;re here. That
+          lifestyle shouldn&apos;t mean missing the call that pays for it.
+        </p>
         <p>
           We didn&apos;t build Lucy for a generic market. We built her for
-          businesses in places like the Vail Valley, where the customer base
+          business owners in the Vail Valley, the Roaring Fork, and the
+          Colorado mountain corridor &mdash; places where the customer base
           spans two languages and one missed call can mean a lost job, a lost
-          reservation, or a lost season.
+          reservation, or a lost season. Lucy covers your phone so you can
+          step away from it without stepping away from your business.
         </p>
         <p>
           Lucy runs our own front line at Doble AI. Every call to our office
@@ -203,9 +213,9 @@ export const posts: Post[] = [
     category: "Herramientas de IA",
     readTime: "5 min de lectura",
     coverImage:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1608820980073-0a946a135983?auto=format&fit=crop&w=1200&q=80",
     coverAlt:
-      "Dueño de negocio sonriendo con su teléfono — nunca pierdas un cliente con una recepcionista IA bilingüe",
+      "Pradera y lago en las Montañas Rocosas de Colorado cerca de Aspen — vida en la montaña y pequeños negocios",
     keywords:
       "recepcionista IA bilingüe pequeños negocios, contestador automático IA español inglés, nunca perder llamadas negocio pequeño, recepcionista IA Vail Colorado, Lucy recepcionista IA Doble AI, servicio contestador bilingüe Colorado, costo recepcionista IA negocio pequeño, atención telefónica IA español",
     content: (
@@ -300,12 +310,23 @@ export const posts: Post[] = [
           Está en funcionamiento en cinco días hábiles.
         </p>
 
-        <h2>Diseñada para el Valle</h2>
+        <h2>Diseñada para la vida en las montañas de Colorado</h2>
+        <p>
+          Una de las mejores cosas de tener un negocio en las montañas de
+          Colorado es que el sendero nunca queda lejos. Te mudaste aquí por
+          algo &mdash; las mañanas de nieve fresca, las primeras huellas en la
+          pista, la picada del atardecer en el Río Eagle, la vuelta en
+          bicicleta de montaña que despeja la mente, la caminata que te
+          recuerda por qué estás aquí. Ese estilo de vida no debería significar
+          perder la llamada que lo paga.
+        </p>
         <p>
           No construimos a Lucy para un mercado genérico. La construimos para
-          negocios en lugares como el Valle de Vail, donde la base de clientes
-          abarca dos idiomas y una llamada perdida puede significar un trabajo
-          perdido, una reservación que se fue o toda una temporada.
+          dueños de negocios en el Valle de Vail, el Roaring Fork y el corredor
+          montañoso de Colorado &mdash; lugares donde la base de clientes abarca
+          dos idiomas y una llamada perdida puede significar un trabajo perdido,
+          una reservación que se fue o toda una temporada. Lucy cubre tu
+          teléfono para que puedas alejarte de él sin alejarte de tu negocio.
         </p>
         <p>
           Lucy atiende nuestra propia línea en Doble AI. Cada llamada a nuestra
