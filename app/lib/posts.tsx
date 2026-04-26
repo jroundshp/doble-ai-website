@@ -77,9 +77,8 @@ export const posts: Post[] = [
     dateISO: "2026-04-25",
     category: "AI Strategy",
     readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-    coverAlt: "Team collaborating around a table — human judgment and AI working together",
+    coverImage: "/john-gisella.jpeg",
+    coverAlt: "John and Gisella Rounds, founders of Doble AI",
     keywords:
       "what does Doble AI do, bilingual AI implementation Colorado, AI implementation firm, human and AI collaboration, AI for small business Colorado, AI implementation vs AI consulting",
     content: (
