@@ -178,6 +178,29 @@ export const posts: Post[] = [
           In practice.
         </p>
 
+        <FAQ items={[
+          {
+            q: "What does Doble AI do?",
+            a: "We implement AI systems for Colorado businesses — building, configuring, and running the tools so they produce real results for your specific operation. We specialize in bilingual implementation, delivering everything in English and native-quality Spanish.",
+          },
+          {
+            q: "What is the difference between AI implementation and AI consulting?",
+            a: "Consulting ends with a report. Implementation ends with a running system. We don't hand you a strategy deck — we build the AI tools, connect them to your workflows, and manage them over time.",
+          },
+          {
+            q: "Why doesn't AI work when I try it on my own?",
+            a: "Off-the-shelf AI tools are generic. They don't know your business, your customers, or your market. The gap between a tool being available and a tool working for your business is the implementation layer — configuration, context, and ongoing refinement. That's what we provide.",
+          },
+          {
+            q: "What kinds of AI systems does Doble AI build?",
+            a: "Voice receptionists that handle calls 24/7 in English and Spanish, content engines that turn your listings or services into bilingual social and marketing content, competitive intelligence systems, and digital presence audits. The right combination depends on your business.",
+          },
+          {
+            q: "Does Doble AI work with businesses outside the Vail Valley?",
+            a: "Yes. While we're based in the Eagle River Valley and know the Colorado mountain corridor well, we work with businesses across Colorado and nationally — particularly those serving or wanting to reach bilingual markets.",
+          },
+        ]} />
+
         <CTA />
       </>
     ),
@@ -296,6 +319,29 @@ export const posts: Post[] = [
           inglés y en español— para que la tecnología realmente funcione para
           ti. No en teoría. En la práctica.
         </p>
+
+        <FAQ items={[
+          {
+            q: "¿Qué hace Doble AI?",
+            a: "Implementamos sistemas de IA para negocios de Colorado — construimos, configuramos y operamos las herramientas para que produzcan resultados reales en tu operación específica. Nos especializamos en implementación bilingüe, entregando todo en inglés y en español de calidad nativa.",
+          },
+          {
+            q: "¿Cuál es la diferencia entre implementación de IA y consultoría de IA?",
+            a: "La consultoría termina con un informe. La implementación termina con un sistema funcionando. No te entregamos un mazo de estrategia — construimos las herramientas de IA, las conectamos a tus flujos de trabajo y las gestionamos con el tiempo.",
+          },
+          {
+            q: "¿Por qué la IA no funciona cuando la intento usar por mi cuenta?",
+            a: "Las herramientas de IA genéricas no conocen tu negocio, tus clientes ni tu mercado. La brecha entre que una herramienta esté disponible y que funcione para tu negocio es la capa de implementación : configuración, contexto y refinamiento continuo. Eso es lo que nosotros aportamos.",
+          },
+          {
+            q: "¿Qué tipos de sistemas de IA construye Doble AI?",
+            a: "Recepcionistas de voz que atienden llamadas 24/7 en inglés y español, motores de contenido que convierten tus propiedades o servicios en contenido bilingüe, sistemas de inteligencia competitiva y auditorías de presencia digital. La combinación correcta depende de tu negocio.",
+          },
+          {
+            q: "¿Trabaja Doble AI con negocios fuera del Vail Valley?",
+            a: "Sí. Aunque estamos basados en el Eagle River Valley y conocemos bien el corredor de montaña de Colorado, trabajamos con negocios en todo Colorado y a nivel nacional — especialmente aquellos que atienden o quieren llegar a mercados bilingües.",
+          },
+        ]} />
 
         <CTAes />
       </>
@@ -431,6 +477,29 @@ export const posts: Post[] = [
           corridor &mdash; and you&apos;re tired of missing calls you worked
           hard to earn &mdash; Lucy is worth a conversation.
         </p>
+
+        <FAQ items={[
+          {
+            q: "What is Lucy, Doble AI's AI receptionist?",
+            a: "Lucy is Doble AI's bilingual AI voice receptionist. She answers your business phone 24/7 in English and Spanish, summarizes each call in an email to your inbox, and sends automatic follow-ups to callers who share their email address.",
+          },
+          {
+            q: "How much does the AI receptionist cost?",
+            a: "Lucy is $500 to set up and $179 a month. That includes a dedicated business phone number, full bilingual capability, call summaries sent to your inbox after every call, and automatic follow-up emails to callers. She goes live in five business days.",
+          },
+          {
+            q: "What does Lucy do when she can't answer a caller's question?",
+            a: "She takes the caller's name, number, and reason for calling and gets it to you immediately by email — the same way she handles every call. You always have a complete record of who called and what they needed.",
+          },
+          {
+            q: "Can Lucy handle industry-specific questions about my business?",
+            a: "Yes. Lucy is trained on your specific business — your services, pricing, hours, service area, and common questions. She's configured for your operation, not a generic script.",
+          },
+          {
+            q: "Does the AI receptionist work for businesses outside the Vail Valley?",
+            a: "Yes. Lucy can be deployed for any Colorado business and most businesses nationally. She's particularly valuable in markets where a significant share of customers speak Spanish as a first language.",
+          },
+        ]} />
 
         <CTA />
       </>
@@ -570,6 +639,29 @@ export const posts: Post[] = [
           trabajo conseguir &mdash; vale la pena conversar sobre Lucy.
         </p>
 
+        <FAQ items={[
+          {
+            q: "¿Qué es Lucy, la recepcionista IA de Doble AI?",
+            a: "Lucy es la recepcionista IA bilingüe de Doble AI. Atiende tu teléfono de negocio 24/7 en inglés y español, resume cada llamada en un correo a tu bandeja de entrada y envía seguimientos automáticos a quienes comparten su correo electrónico.",
+          },
+          {
+            q: "¿Cuánto cuesta la recepcionista IA?",
+            a: "Lucy tiene un costo de instalación de $500 y $179 al mes. Eso incluye un número de teléfono de negocio dedicado, capacidad bilingüe completa, resúmenes de llamadas enviados a tu correo y correos de seguimiento automáticos. Entra en operación en cinco días hábiles.",
+          },
+          {
+            q: "¿Qué hace Lucy cuando no puede responder la pregunta de quien llama?",
+            a: "Toma el nombre, número y motivo de la llamada y te lo envía de inmediato por correo electrónico — igual que con cada llamada. Siempre tendrás un registro completo de quién llamó y qué necesitaba.",
+          },
+          {
+            q: "¿Puede Lucy manejar preguntas específicas sobre mi negocio?",
+            a: "Sí. Lucy se entrena con la información de tu negocio específico : tus servicios, precios, horarios, área de servicio y preguntas frecuentes. Se configura para tu operación, no con un guion genérico.",
+          },
+          {
+            q: "¿Funciona la recepcionista IA para negocios fuera del Vail Valley?",
+            a: "Sí. Lucy puede implementarse para cualquier negocio en Colorado y la mayoría a nivel nacional. Es especialmente valiosa en mercados donde una parte significativa de los clientes habla español como primer idioma.",
+          },
+        ]} />
+
         <CTAes />
       </>
     ),
@@ -705,6 +797,30 @@ export const posts: Post[] = [
           presence — GBP, website, reviews, social — and tell you clearly
           what&apos;s working, what&apos;s missing, and what to fix first.
         </p>
+
+        <FAQ items={[
+          {
+            q: "Why does my Google Business Profile matter for AI search?",
+            a: "AI platforms including ChatGPT, Grok, Perplexity, and Google's own AI Overviews read Google Business Profile data to decide who to recommend for local queries. A complete, active, well-reviewed profile is one of the strongest signals these systems use. An incomplete one gets passed over — often without any indication to you.",
+          },
+          {
+            q: "What is GEO — Generative Engine Optimization?",
+            a: "GEO is the practice of making your business visible and recommendable to AI-powered search platforms — not just traditional Google search. It includes optimizing your Google Business Profile, building consistent business information across the web, and creating content that AI systems can cite with confidence.",
+          },
+          {
+            q: "How often should I update my Google Business Profile?",
+            a: "At minimum, weekly. Regular posts, new photos, and prompt responses to reviews signal to AI systems that your business is active and trustworthy. Businesses that haven't posted or added photos in months are scored as less current — and get passed over for those that are.",
+          },
+          {
+            q: "Will fixing my Google Business Profile affect what ChatGPT recommends?",
+            a: "Yes. Third-party AI platforms increasingly pull from structured web data to answer local queries. Google Business Profile data is among the most structured, consistent, and authoritative business data available — which is why it feeds into recommendations beyond just Google search.",
+          },
+          {
+            q: "What does a Doble AI digital presence audit cover?",
+            a: "We review your Google Business Profile, website performance, review volume and sentiment, competitive positioning, and AI visibility across platforms. You receive a written summary with specific, prioritized recommendations — no pitch deck, no obligation.",
+          },
+        ]} />
+
         <CTA />
       </>
     ),
@@ -848,6 +964,30 @@ export const posts: Post[] = [
           completa — GBP, sitio web, reseñas, redes sociales — y te decimos
           claramente qué está funcionando, qué falta y qué corregir primero.
         </p>
+
+        <FAQ items={[
+          {
+            q: "¿Por qué importa mi Perfil de Google Business para la búsqueda con IA?",
+            a: "Plataformas de IA como ChatGPT, Grok, Perplexity y los propios AI Overviews de Google leen los datos del Perfil de Google Business para decidir a quién recomendar en consultas locales. Un perfil completo, activo y con buenas reseñas es una de las señales más fuertes que usan estos sistemas. Uno incompleto se pasa por alto — muchas veces sin que te enteres.",
+          },
+          {
+            q: "¿Qué es el GEO — Optimización para Motores Generativos?",
+            a: "El GEO es la práctica de hacer que tu negocio sea visible y recomendable para plataformas de búsqueda impulsadas por IA — no solo para la búsqueda tradicional de Google. Incluye optimizar tu Perfil de Google Business, construir información comercial consistente en toda la web y crear contenido que los sistemas de IA puedan citar con confianza.",
+          },
+          {
+            q: "¿Con qué frecuencia debo actualizar mi Perfil de Google Business?",
+            a: "Como mínimo, semanalmente. Las publicaciones regulares, las fotos nuevas y las respuestas rápidas a reseñas le indican a los sistemas de IA que tu negocio está activo y es confiable. Los negocios que no han publicado ni añadido fotos en meses reciben una puntuación más baja — y se omiten en favor de los que sí están activos.",
+          },
+          {
+            q: "¿Arreglar mi Perfil de Google Business afectará lo que recomienda ChatGPT?",
+            a: "Sí. Las plataformas de IA de terceros utilizan cada vez más datos web estructurados para responder consultas locales. Los datos del Perfil de Google Business están entre los más estructurados, consistentes y con mayor autoridad disponibles — por eso alimentan recomendaciones más allá de la búsqueda de Google.",
+          },
+          {
+            q: "¿Qué cubre una auditoría de presencia digital de Doble AI?",
+            a: "Revisamos tu Perfil de Google Business, el rendimiento de tu sitio web, el volumen y sentimiento de reseñas, tu posición competitiva y tu visibilidad en plataformas de IA. Recibes un resumen escrito con recomendaciones específicas y priorizadas — sin presentación de ventas, sin compromiso.",
+          },
+        ]} />
+
         <CTAes />
       </>
     ),
