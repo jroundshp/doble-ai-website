@@ -69,6 +69,121 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "why-ai-needs-human-context",
+    title: "AI Gives You Scale. We Give It Context.",
+    excerpt:
+      "AI is available to everyone. The raw capability isn't the differentiator anymore. What matters is implementation — and that's where the human side of the equation becomes everything.",
+    date: "April 25, 2026",
+    dateISO: "2026-04-25",
+    category: "AI Strategy",
+    readTime: "4 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+    coverAlt: "Team collaborating around a table — human judgment and AI working together",
+    keywords:
+      "what does Doble AI do, bilingual AI implementation Colorado, AI implementation firm, human and AI collaboration, AI for small business Colorado, AI implementation vs AI consulting",
+    content: (
+      <>
+        <p>
+          The question comes up in every conversation. Usually within the first
+          two minutes.
+        </p>
+        <p>
+          <em>&ldquo;So — what exactly do you guys do?&rdquo;</em>
+        </p>
+        <p>
+          The honest answer is: we implement AI for your business. But that
+          phrase doesn&apos;t mean much by itself, so let me unpack it.
+        </p>
+
+        <h2>AI Is Not the Solution. It&apos;s the Ingredient.</h2>
+        <p>
+          The raw capability of AI is available to everyone. ChatGPT. Claude.
+          Gemini. You can open any of them right now and start typing. The tool
+          itself isn&apos;t the differentiator anymore.
+        </p>
+        <p>
+          What isn&apos;t commoditized is knowing which tools apply to your
+          situation, configuring them correctly, connecting them to your actual
+          workflows, and running them well over time. That&apos;s
+          implementation. And most businesses that try AI on their own run into
+          the same wall: they spend a few hours with a chatbot, get
+          underwhelmed, and conclude that AI isn&apos;t for them. What they
+          actually ran into was a configuration problem. The tool was generic.
+          It didn&apos;t know their business, their customers, their tone, their
+          operations. Generic tools produce generic results.
+        </p>
+        <p>We close that gap.</p>
+
+        <h2>Where the Magic Actually Lives</h2>
+        <p>
+          The real leverage is at the intersection of human judgment and AI
+          capability. The AI handles scale and speed. The human brings the
+          context, the judgment, the cultural fluency, and the ability to
+          connect the tool to the actual problem. Neither one gets there alone.
+        </p>
+        <p>
+          When people say &ldquo;AI is going to replace everyone&rdquo; — and
+          when others say &ldquo;AI can&apos;t replace the human touch&rdquo; —
+          they&apos;re both half right. Neither extreme is accurate. What&apos;s
+          accurate is that the businesses who learn to combine human judgment
+          with AI capability are going to outperform those who don&apos;t.
+          That&apos;s the whole game right now.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1000&q=80"
+          alt="Two people working together at a laptop — the human side of AI implementation"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>The Part AI Genuinely Can&apos;t Do Alone</h2>
+        <p>
+          Here&apos;s where Doble AI has an advantage that no software can
+          replicate. Our team is natively bilingual — not just fluent, but
+          culturally grounded. We have traveled and operated across 50+
+          countries. We understand how a buyer or customer from Mexico, Peru, or
+          Colombia thinks about a transaction, a service, a relationship. That
+          isn&apos;t something you can prompt-engineer.
+        </p>
+        <p>
+          Forty to fifty percent of Colorado mountain corridor residents speak
+          Spanish as a first language. Most businesses in the valley are
+          invisible to this market — not because they aren&apos;t serving them,
+          but because their content, their AI tools, and their online presence
+          weren&apos;t built with this market in mind. We fix that. In
+          native-quality Spanish, not translation.
+        </p>
+
+        <h2>What This Looks Like in Practice</h2>
+        <p>
+          Concretely, this might mean: an AI voice receptionist that answers
+          your phone in English and Spanish 24/7, qualifies the caller, and
+          sends you a transcript. A content engine that converts your listings
+          or services into a week of bilingual social content automatically. A
+          competitive intelligence system that shows you exactly where your
+          competitors are winning and where they aren&apos;t. A digital presence
+          audit that tells you where you&apos;re invisible and why.
+        </p>
+        <p>
+          The specific systems depend on your business. The process is always
+          the same: understand the problem, identify where AI creates real
+          leverage, build the system, run it, improve it over time.
+        </p>
+
+        <h2>The Short Version</h2>
+        <p>
+          We build and run AI systems for Colorado businesses — in English and
+          in Spanish — so the technology actually works for you. Not in theory.
+          In practice.
+        </p>
+
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "bilingual-ai-receptionist-small-business",
     title: "Your Phone Is Ringing. Nobody's There. That's Costing You.",
     excerpt:
@@ -2045,7 +2160,7 @@ export const posts: Post[] = [
           <li>
             <strong>Content that answers real questions.</strong> Write in clear,
             direct language that mirrors how a customer would ask an AI assistant
-            about your services. &ldquo;What does an AI consultant do for a
+            about your services. &ldquo;What does an AI implementation firm do for a
             small business?&rdquo; should have a clear answer on your site.
           </li>
           <li>
@@ -2660,7 +2775,7 @@ export const posts: Post[] = [
             },
             {
               q: "Do I need to be a programmer to use Claude Code?",
-              a: "You don't need to write code to benefit from Claude Code. The core value for business operators is the persistent workspace, memory system, and skills library — which a consultant or implementation partner can configure for you. Once set up, you interact with the agent in plain language. The technical setup is a one-time investment; the day-to-day use is conversational.",
+              a: "You don't need to write code to benefit from Claude Code. The core value for business operators is the persistent workspace, memory system, and skills library — which an implementation partner can configure for you. Once set up, you interact with the agent in plain language. The technical setup is a one-time investment; the day-to-day use is conversational.",
             },
             {
               q: "How is Claude Code different from ChatGPT?",
@@ -2911,7 +3026,7 @@ export const posts: Post[] = [
             },
             {
               q: "Can I use Claude Code without knowing how to code?",
-              a: "Yes. Many business operators use Claude Code primarily for its memory, skills, and context capabilities rather than for writing code. A consultant can configure the workspace, build your skill library, and set up the memory system. After that, day-to-day use is conversational — you describe what you need and the agent executes. The technical setup is a one-time investment.",
+              a: "Yes. Many business operators use Claude Code primarily for its memory, skills, and context capabilities rather than for writing code. An implementation partner can configure the workspace, build your skill library, and set up the memory system. After that, day-to-day use is conversational — you describe what you need and the agent executes. The technical setup is a one-time investment.",
             },
           ]}
         />
@@ -3197,7 +3312,7 @@ export const posts: Post[] = [
             <strong>Contenido que responde preguntas reales.</strong> Escribe en
             un lenguaje claro y directo que refleje cómo un cliente le
             preguntaría a un asistente de IA sobre tus servicios.
-            &ldquo;¿Qué hace un consultor de IA para una pequeña
+            &ldquo;¿Qué hace una empresa de implementación de IA para una pequeña
             empresa?&rdquo; debe tener una respuesta clara en tu sitio.
           </li>
           <li>
@@ -3914,7 +4029,7 @@ export const posts: Post[] = [
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Business owner working at laptop, planning their AI strategy",
     keywords:
-      "AI for small business, how to use AI in business, AI tools for business owners, AI adoption roadmap, ChatGPT for small business, AI consulting Colorado",
+      "AI for small business, how to use AI in business, AI tools for business owners, AI adoption roadmap, ChatGPT for small business, AI implementation Colorado",
     content: (
       <>
         <p>
@@ -4029,7 +4144,7 @@ export const posts: Post[] = [
             },
             {
               q: "Do I need to know how to code to use AI for my business?",
-              a: "No. The most valuable AI applications for most small business owners — content creation, research, scheduling, customer communication, and CRM automation — require no coding skills. More advanced applications like custom-built tools do involve code, but those are handled by an AI consultant or technical partner.",
+              a: "No. The most valuable AI applications for most small business owners — content creation, research, scheduling, customer communication, and CRM automation — require no coding skills. More advanced applications like custom-built tools do involve code, but those are handled by an AI implementation partner or technical partner.",
             },
             {
               q: "Which AI tools are best for small businesses in 2025?",

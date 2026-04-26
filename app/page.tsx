@@ -15,19 +15,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What does Doble AI do?",
-    a: "Doble AI is a bilingual AI consulting firm based in the Eagle River Valley, Colorado. We help Colorado businesses grow by auditing their digital presence, mapping the competitive landscape, implementing AI tools, and building brand and sales strategy — all available in both English and Spanish.",
+    a: "Doble AI is a bilingual AI implementation firm based in the Eagle River Valley, Colorado. We help Colorado businesses grow by auditing their digital presence, mapping the competitive landscape, implementing AI tools, and building brand and sales strategy — all available in both English and Spanish.",
   },
   {
     q: "What is included in a free business audit?",
     a: "Our free business audit covers your current online presence, Google Business Profile status, website performance, review volume and sentiment, and a high-level competitive comparison. We deliver a written summary within 5–7 days with specific, prioritized recommendations — no pitch deck, no obligation.",
   },
   {
-    q: "How much does AI consulting cost?",
-    a: "Doble AI pricing is scoped to your specific project and needs. Every engagement starts with a free audit. Typical 90-day consulting engagements are quoted after the audit based on scope. Contact us for a clear, itemized quote.",
+    q: "How much does AI implementation cost?",
+    a: "Doble AI pricing is scoped to your specific project and needs. Every engagement starts with a free audit. Typical 90-day implementation engagements are quoted after the audit based on scope. Contact us for a clear, itemized quote.",
   },
   {
-    q: "What makes Doble AI different from other consultants?",
-    a: "We are one of Colorado's few bilingual AI consulting firms. Unlike most consultants, we deliver strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents who speak Spanish as a first language. Our founders have business experience across 50+ countries and are natively bilingual.",
+    q: "What makes Doble AI different from other AI firms?",
+    a: "We are one of Colorado's few bilingual AI implementation firms. Unlike most AI firms, we deliver strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents who speak Spanish as a first language. Our founders have business experience across 50+ countries and are natively bilingual.",
   },
   {
     q: "Do I need to be located in the Vail Valley to work with Doble AI?",
@@ -85,7 +85,7 @@ function Hero() {
           En inglés y en español.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
-          One of Colorado&apos;s few bilingual AI consulting firms. We help Colorado businesses
+          One of Colorado&apos;s few bilingual AI implementation firms. We help Colorado businesses
           understand, adopt, and implement artificial intelligence — and reach the
           customers your competitors are ignoring.
         </p>
@@ -126,11 +126,11 @@ function Problem() {
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
             We help Colorado businesses grow with AI: sharper online visibility,
             better competitive intelligence, and a clear strategy for turning
-            that into revenue. And unlike most consulting firms, we can extend
+            that into revenue. And unlike most AI firms, we can extend
             that work into the Spanish-speaking market with native fluency and
             authentic content — not translations. For businesses that want it,
             that&apos;s a significant edge. For those focused on the English
-            market, the AI consulting stands on its own.
+            market, the AI implementation stands on its own.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
