@@ -98,8 +98,8 @@ export const posts: Post[] = [
         <h2>AI Is Not the Solution. It&apos;s the Ingredient.</h2>
         <p>
           The raw capability of AI is available to everyone. ChatGPT. Claude.
-          Gemini. You can open any of them right now and start typing. The tool
-          itself isn&apos;t the differentiator anymore.
+          Gemini. Grok. You can open any of them right now and start typing. The
+          tool itself isn&apos;t the differentiator anymore.
         </p>
         <p>
           What isn&apos;t commoditized is knowing which tools apply to your
