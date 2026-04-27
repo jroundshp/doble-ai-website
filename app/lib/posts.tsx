@@ -69,6 +69,181 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "your-ai-should-know-your-business-by-now",
+    title: "Your AI Should Know Your Business by Now",
+    excerpt:
+      "Most AI tools forget everything between sessions. A properly built AI workspace builds institutional knowledge that compounds daily — here&apos;s what that actually looks like.",
+    date: "April 27, 2026",
+    dateISO: "2026-04-27",
+    category: "AI Strategy",
+    readTime: "5 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "Glowing AI network representing knowledge and memory building over time for a small business",
+    keywords:
+      "AI that learns your business, AI memory small business, compounding AI knowledge, bilingual AI implementation Vail Valley, AI implementation partner Colorado",
+    content: (
+      <>
+        <p>
+          You&apos;ve tried the AI tools. You opened ChatGPT, typed a question,
+          got a decent answer&mdash;and then the next day you opened it again
+          and it had no idea who you were. No idea what your business does, who
+          your clients are, or what you spent the last hour explaining to it the
+          day before.
+        </p>
+        <p>
+          This is the default state of AI for most small businesses. A capable
+          tool that resets to zero every single session. And it&apos;s not a
+          minor inconvenience&mdash;it&apos;s the reason AI never quite
+          delivers on the promise. You can&apos;t build leverage with a tool
+          that forgets everything.
+        </p>
+
+        <h2>Why Most AI Tools Feel Like Starting Over Every Day</h2>
+        <p>
+          Off-the-shelf AI tools&mdash;even very good ones&mdash;are built to
+          be generic. They serve millions of users and they can&apos;t afford to
+          hold context for all of them. Every session starts blank. Every answer
+          is based only on what you type right now, not on anything the system
+          has learned about your business over time.
+        </p>
+        <p>
+          For a consumer asking a one-off question, that&apos;s fine. For a
+          business trying to use AI as a genuine operational asset, it&apos;s a
+          fundamental limitation. A tool that doesn&apos;t remember your
+          clients, your brand voice, your workflows, or your market can only
+          ever be a shortcut&mdash;never a system.
+        </p>
+
+        <h2>What It Means for AI to Actually Learn Your Business</h2>
+        <p>
+          A properly built AI workspace operates differently. Instead of
+          starting fresh every session, it arrives with context&mdash;because
+          that context has been built up deliberately and stored persistently.
+        </p>
+        <p>
+          This means the AI already knows your active clients and what stage
+          each relationship is in. It knows your brand voice and how you
+          communicate in English and Spanish. It knows the workflows your team
+          follows, the tools in your stack, and the decisions you&apos;ve
+          already made and why. Every session adds to that base of knowledge
+          rather than replacing it.
+        </p>
+        <p>
+          Over days and weeks, the system becomes progressively more
+          useful&mdash;not because the underlying model changed, but because the
+          institutional knowledge it can draw on keeps growing.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+          alt="Business professional working with AI on a laptop, knowledge compounding over time"
+          style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
+        />
+
+        <h2>How a Compounding AI Workspace Works</h2>
+        <p>
+          The architecture behind this isn&apos;t magic&mdash;it&apos;s
+          intentional design. A compounding AI workspace has three components
+          working together:
+        </p>
+        <ul>
+          <li>
+            <strong>Persistent memory.</strong> Structured records of your
+            clients, projects, preferences, and history that load automatically
+            into every session. The AI doesn&apos;t need to be
+            re-briefed&mdash;it already knows.
+          </li>
+          <li>
+            <strong>Accumulated skills.</strong> Documented workflows and
+            processes the AI can execute reliably&mdash;things you&apos;ve
+            built together over time that didn&apos;t exist before. A content
+            pipeline. An audit workflow. A client onboarding process. Each one
+            is a reusable capability.
+          </li>
+          <li>
+            <strong>Feedback integration.</strong> The system learns what works
+            and what doesn&apos;t. When you correct an approach or confirm that
+            something worked well, that guidance persists and shapes future
+            behavior. You don&apos;t repeat yourself.
+          </li>
+        </ul>
+        <p>
+          Put those three together and you have something fundamentally
+          different from a tool. You have an AI that is genuinely oriented
+          around your specific business&mdash;and getting more so every day.
+        </p>
+
+        <h2>What This Looks Like in Practice</h2>
+        <p>
+          At Doble AI, this is how we operate our own business and how we build
+          for our clients. When we sit down to work on a client&apos;s content,
+          the AI already knows that client&apos;s brand voice, their market,
+          their recent listings, and the formats that perform for them. We
+          don&apos;t explain it. We just work.
+        </p>
+        <p>
+          When we build an AI receptionist for a client&mdash;like our bilingual
+          voice agent LUCI&mdash;the workspace holds the full context of that
+          build: the configuration, the prompt decisions, the performance notes,
+          the upgrade history. Anyone picking up that project has the full
+          picture immediately.
+        </p>
+        <p>
+          This is the difference between AI as a search engine and AI as a
+          long-term team member. One answers your question. The other compounds.
+        </p>
+
+        <h2>Is This Right for Your Business?</h2>
+        <p>
+          If you&apos;re using AI for one-off tasks&mdash;drafting an
+          occasional email, answering a quick question&mdash;a generic tool is
+          probably sufficient. But if you want AI to become a genuine
+          operational layer in your business&mdash;one that handles client
+          communications, content, workflows, and customer interactions with
+          increasing competence over time&mdash;you need a workspace that&apos;s
+          built to learn.
+        </p>
+        <p>
+          That&apos;s what Doble AI builds. Not a tool you plug in. A system
+          that grows with your business, in English and Spanish, from day one.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "Can AI actually learn and remember my business?",
+              a: "Yes — but not automatically. Out of the box, most AI tools are stateless and forget everything between sessions. A properly architected AI workspace stores context persistently, so every session builds on what came before. The AI doesn't learn on its own; it's designed to accumulate and apply the knowledge you build into it.",
+            },
+            {
+              q: "What's the difference between a static AI tool and a learning AI workspace?",
+              a: "A static AI tool answers whatever you type, right now, with no memory of past sessions. A learning AI workspace arrives with context — your clients, workflows, brand voice, and history — already loaded, and grows that context with every session. The difference compounds over time: a static tool is equally useful on day one and day one hundred, while a learning workspace becomes dramatically more capable.",
+            },
+            {
+              q: "How long does it take for AI to meaningfully learn my business?",
+              a: "Faster than you'd expect. A well-structured onboarding session can give the workspace the core context it needs to be useful immediately. From there, each working session adds depth. Most clients notice meaningful improvement within the first two to three weeks of consistent use.",
+            },
+            {
+              q: "Does a learning AI workspace require technical expertise to maintain?",
+              a: "Not from you. That's what a good AI implementation partner handles. The architecture, the memory structure, the workflow documentation — those are built and maintained by us. You interact with a system that already knows your business. You don't manage the infrastructure behind it.",
+            },
+            {
+              q: "Can this work for a bilingual business?",
+              a: "It's where Doble AI specifically excels. The workspace holds brand voice, client context, and workflows in both English and Spanish. AI agents built on top of it — like our voice receptionist LUCI — operate natively in both languages without switching modes. For businesses serving both English- and Spanish-speaking clients in markets like the Vail Valley, this isn't a feature; it's the foundation.",
+            },
+            {
+              q: "What kinds of businesses benefit most from this approach?",
+              a: "Service businesses with ongoing client relationships, recurring workflows, and a need to communicate consistently across languages or teams. Real estate, hospitality, professional services, and local businesses with a significant Spanish-speaking client base are natural fits. If your business has institutional knowledge that currently lives only in people's heads, a learning AI workspace is exactly where that knowledge should also live.",
+            },
+          ]}
+        />
+
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "why-ai-needs-human-context",
     title: "AI Gives You Scale. We Give It Context.",
     excerpt:
