@@ -3,10 +3,10 @@ import { posts } from "../lib/posts";
 import Footer from "../components/Footer";
 
 const pinnedSlugs = [
+  "your-ai-should-know-your-business-by-now",
+  "tu-ia-ya-deberia-conocer-tu-negocio",
   "why-ai-needs-human-context",
   "bilingual-ai-receptionist-small-business",
-  "recepcionista-ia-bilingue-pequenos-negocios",
-  "ai-traffic-converts-better-than-paid-search",
 ];
 const pinned = pinnedSlugs.map((s) => posts.find((p) => p.slug === s)).filter(Boolean) as typeof posts;
 const rest = posts.filter((p) => !pinnedSlugs.includes(p.slug));

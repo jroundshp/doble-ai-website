@@ -244,6 +244,191 @@ export const posts: Post[] = [
     ),
   },
   {
+    slug: "tu-ia-ya-deberia-conocer-tu-negocio",
+    title: "Tu IA ya debería conocer tu negocio",
+    excerpt:
+      "La mayoría de las herramientas de IA olvidan todo entre sesiones. Un espacio de trabajo bien construido acumula conocimiento institucional que se multiplica cada día.",
+    date: "April 27, 2026",
+    dateISO: "2026-04-27",
+    category: "Estrategia de IA",
+    readTime: "5 min de lectura",
+    coverImage:
+      "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "Red de IA brillante que representa el conocimiento y la memoria acumulándose con el tiempo para un negocio",
+    keywords:
+      "IA que aprende tu negocio, memoria de IA para pequeños negocios, conocimiento de IA acumulado, implementación de IA bilingüe Vail Valley, socio de implementación de IA Colorado",
+    content: (
+      <>
+        <p>
+          Ya probaste las herramientas de IA. Abriste ChatGPT, escribiste una
+          pregunta, obtuviste una respuesta decente&mdash;y al día siguiente lo
+          abriste de nuevo y no tenía idea de quién eras. Sin idea de qué hace
+          tu negocio, quiénes son tus clientes, ni lo que pasaste la última hora
+          explicándole el día anterior.
+        </p>
+        <p>
+          Este es el estado predeterminado de la IA para la mayoría de los
+          pequeños negocios. Una herramienta capaz que se reinicia a cero en
+          cada sesión. Y no es una molestia menor&mdash;es la razón por la que
+          la IA nunca termina de cumplir su promesa. No puedes construir
+          apalancamiento con una herramienta que olvida todo.
+        </p>
+
+        <h2>
+          Por qué la mayoría de las herramientas de IA se sienten como empezar
+          de cero cada día
+        </h2>
+        <p>
+          Las herramientas de IA genéricas&mdash;incluso las muy buenas&mdash;están
+          diseñadas para ser universales. Sirven a millones de usuarios y no
+          pueden guardar contexto para todos ellos. Cada sesión comienza en
+          blanco. Cada respuesta se basa únicamente en lo que escribes ahora
+          mismo, no en nada que el sistema haya aprendido sobre tu negocio con
+          el tiempo.
+        </p>
+        <p>
+          Para un consumidor que hace una pregunta esporádica, eso está bien.
+          Para un negocio que intenta usar la IA como un activo operativo real,
+          es una limitación fundamental. Una herramienta que no recuerda a tus
+          clientes, tu voz de marca, tus flujos de trabajo ni tu mercado solo
+          puede ser un atajo&mdash;nunca un sistema.
+        </p>
+
+        <h2>Qué significa que la IA realmente aprenda tu negocio</h2>
+        <p>
+          Un espacio de trabajo de IA bien construido funciona de manera
+          diferente. En lugar de comenzar desde cero en cada sesión, llega con
+          contexto&mdash;porque ese contexto se ha acumulado deliberadamente y
+          se almacena de forma persistente.
+        </p>
+        <p>
+          Esto significa que la IA ya conoce a tus clientes activos y en qué
+          etapa se encuentra cada relación. Conoce tu voz de marca y cómo te
+          comunicas en inglés y en español. Conoce los flujos de trabajo que
+          sigue tu equipo, las herramientas de tu stack, y las decisiones que
+          ya tomaste y por qué. Cada sesión agrega a esa base de conocimiento
+          en lugar de reemplazarla.
+        </p>
+        <p>
+          Con el paso de los días y las semanas, el sistema se vuelve
+          progresivamente más útil&mdash;no porque el modelo subyacente haya
+          cambiado, sino porque el conocimiento institucional del que puede
+          disponer sigue creciendo.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+          alt="Profesional de negocios trabajando con IA en una laptop, conocimiento acumulándose con el tiempo"
+          style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
+        />
+
+        <h2>Cómo funciona un espacio de trabajo de IA que se compone</h2>
+        <p>
+          La arquitectura detrás de esto no es magia&mdash;es diseño
+          intencional. Un espacio de trabajo de IA que se compone tiene tres
+          componentes trabajando juntos :
+        </p>
+        <ul>
+          <li>
+            <strong>Memoria persistente.</strong> Registros estructurados de
+            tus clientes, proyectos, preferencias e historial que se cargan
+            automáticamente en cada sesión. La IA no necesita que la vuelvan a
+            informar&mdash;ya sabe.
+          </li>
+          <li>
+            <strong>Habilidades acumuladas.</strong> Flujos de trabajo y
+            procesos documentados que la IA puede ejecutar de manera
+            confiable&mdash;cosas que construiste juntos con el tiempo y que
+            antes no existían. Un pipeline de contenido. Un flujo de auditoría.
+            Un proceso de incorporación de clientes. Cada uno es una capacidad
+            reutilizable.
+          </li>
+          <li>
+            <strong>Integración de retroalimentación.</strong> El sistema
+            aprende qué funciona y qué no. Cuando corriges un enfoque o
+            confirmas que algo funcionó bien, esa orientación persiste y moldea
+            el comportamiento futuro. No te repites.
+          </li>
+        </ul>
+        <p>
+          Combina esos tres elementos y tienes algo fundamentalmente diferente a
+          una herramienta. Tienes una IA genuinamente orientada alrededor de tu
+          negocio específico&mdash;y cada día lo está más.
+        </p>
+
+        <h2>Cómo se ve esto en la práctica</h2>
+        <p>
+          En Doble AI, así es como operamos nuestro propio negocio y cómo
+          construimos para nuestros clientes. Cuando nos sentamos a trabajar en
+          el contenido de un cliente, la IA ya conoce su voz de marca, su
+          mercado, sus listados recientes y los formatos que funcionan para
+          ellos. No lo explicamos. Simplemente trabajamos.
+        </p>
+        <p>
+          Cuando construimos una recepcionista de IA para un cliente&mdash;como
+          nuestra agente de voz bilingüe LUCI&mdash;el espacio de trabajo
+          mantiene el contexto completo de esa construcción : la configuración,
+          las decisiones de prompt, las notas de rendimiento, el historial de
+          actualizaciones. Cualquiera que retome ese proyecto tiene el panorama
+          completo de inmediato.
+        </p>
+        <p>
+          Esta es la diferencia entre la IA como motor de búsqueda y la IA como
+          miembro del equipo a largo plazo. Uno responde tu pregunta. El otro
+          se compone.
+        </p>
+
+        <h2>¿Es esto adecuado para tu negocio?</h2>
+        <p>
+          Si usas la IA para tareas puntuales&mdash;redactar un correo
+          ocasional, responder una pregunta rápida&mdash;una herramienta
+          genérica probablemente sea suficiente. Pero si quieres que la IA se
+          convierta en una capa operativa genuina en tu negocio&mdash;una que
+          maneje las comunicaciones con clientes, el contenido, los flujos de
+          trabajo y las interacciones con clientes con una competencia cada vez
+          mayor&mdash;necesitas un espacio de trabajo construido para aprender.
+        </p>
+        <p>
+          Eso es lo que construye Doble AI. No una herramienta que conectas.
+          Un sistema que crece con tu negocio, en inglés y en español, desde el
+          primer día.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "¿Puede la IA realmente aprender y recordar mi negocio?",
+              a: "Sí, pero no automáticamente. De serie, la mayoría de las herramientas de IA no tienen memoria y olvidan todo entre sesiones. Un espacio de trabajo de IA bien arquitectado almacena el contexto de forma persistente, por lo que cada sesión se basa en lo anterior. La IA no aprende sola; está diseñada para acumular y aplicar el conocimiento que tú construyes en ella.",
+            },
+            {
+              q: "¿Cuál es la diferencia entre una herramienta de IA estática y un espacio de trabajo de IA que aprende?",
+              a: "Una herramienta de IA estática responde lo que escribes ahora mismo, sin memoria de sesiones anteriores. Un espacio de trabajo de IA que aprende llega con contexto—tus clientes, flujos de trabajo, voz de marca e historial—ya cargado, y hace crecer ese contexto con cada sesión. La diferencia se acumula con el tiempo : una herramienta estática es igual de útil el día uno que el día cien, mientras que un espacio de trabajo que aprende se vuelve enormemente más capaz.",
+            },
+            {
+              q: "¿Cuánto tiempo tarda la IA en aprender mi negocio de manera significativa?",
+              a: "Más rápido de lo que esperarías. Una sesión de incorporación bien estructurada puede darle al espacio de trabajo el contexto básico que necesita para ser útil de inmediato. A partir de ahí, cada sesión de trabajo agrega profundidad. La mayoría de los clientes notan una mejora significativa en las primeras dos o tres semanas de uso constante.",
+            },
+            {
+              q: "¿Un espacio de trabajo de IA que aprende requiere experiencia técnica para mantenerse?",
+              a: "No de tu parte. Eso es lo que maneja un buen socio de implementación de IA. La arquitectura, la estructura de memoria, la documentación de flujos de trabajo—todo eso lo construimos y mantenemos nosotros. Tú interactúas con un sistema que ya conoce tu negocio. No gestionas la infraestructura detrás de él.",
+            },
+            {
+              q: "¿Puede esto funcionar para un negocio bilingüe?",
+              a: "Es donde Doble AI específicamente sobresale. El espacio de trabajo mantiene la voz de marca, el contexto del cliente y los flujos de trabajo tanto en inglés como en español. Los agentes de IA construidos sobre él—como nuestra recepcionista de voz LUCI—operan nativamente en ambos idiomas sin cambiar de modo. Para negocios que atienden tanto a clientes de habla inglesa como española en mercados como el Valle de Vail, esto no es una característica; es la base.",
+            },
+            {
+              q: "¿Qué tipos de negocios se benefician más de este enfoque?",
+              a: "Negocios de servicios con relaciones continuas con clientes, flujos de trabajo recurrentes y necesidad de comunicarse de manera consistente en varios idiomas o equipos. Bienes raíces, hospitalidad, servicios profesionales y negocios locales con una base significativa de clientes hispanohablantes son candidatos naturales. Si tu negocio tiene conocimiento institucional que actualmente solo vive en la cabeza de las personas, un espacio de trabajo de IA que aprende es exactamente donde ese conocimiento también debería vivir.",
+            },
+          ]}
+        />
+
+        <CTAes />
+      </>
+    ),
+  },
+  {
     slug: "why-ai-needs-human-context",
     title: "AI Gives You Scale. We Give It Context.",
     excerpt:
