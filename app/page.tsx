@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What does Doble AI do?",
-    a: "Doble AI is a bilingual AI implementation firm based in the Eagle River Valley, Colorado. We help Colorado businesses grow by auditing their digital presence, mapping the competitive landscape, implementing AI tools, and building brand and sales strategy — all available in both English and Spanish.",
+    a: "Doble AI is an AI-native, bilingual implementation firm based in the Eagle River Valley, Colorado. We build AI workspaces that learn your business — remembering your clients, your workflows, and your brand voice, and compounding that knowledge over time. We also audit your digital presence, map your competitive landscape, and build brand and sales strategy. Everything we do is available in both English and Spanish.",
   },
   {
     q: "What is included in a free business audit?",
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "What makes Doble AI different from other AI firms?",
-    a: "We are one of Colorado's few bilingual AI implementation firms. Unlike most AI firms, we deliver strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents who speak Spanish as a first language. Our founders have business experience across 50+ countries and are natively bilingual.",
+    a: "Two things. First, we don't hand you a tool — we build an AI workspace that learns your business. It remembers your clients, your workflows, your brand voice, and the decisions you've already made. Every session compounds on the last. Most businesses get AI that resets to zero every day; our clients get AI that gets sharper the longer we work together. Second, we're one of Colorado's few bilingual AI implementation firms, delivering strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents whose first language is Spanish. Separately, each is a meaningful edge. Together, they're a significant one.",
   },
   {
     q: "Do I need to be located in the Vail Valley to work with Doble AI?",
@@ -85,9 +85,10 @@ function Hero() {
           En inglés y en español.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
-          One of Colorado&apos;s few bilingual AI implementation firms. We help Colorado businesses
-          understand, adopt, and implement artificial intelligence — and reach the
-          customers your competitors are ignoring.
+          We don&apos;t hand you a tool. We build an AI workspace that learns your
+          business&mdash;your clients, your workflows, your voice&mdash;and gets
+          sharper every day. One of Colorado&apos;s few bilingual AI implementation
+          firms, working in English and Spanish from day one.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
@@ -172,7 +173,7 @@ function Services() {
     {
       num: "03",
       name: "AI Implementation",
-      desc: "A tailored roadmap for integrating AI tools into your business — from automating repetitive tasks to using AI for content, outreach, and customer service.",
+      desc: "We build an AI workspace that learns your business — persistent memory, accumulated workflows, bilingual AI agents. Not a one-time setup. A system that compounds the longer we work together.",
       detail: "Custom scope per engagement",
     },
     {
@@ -399,8 +400,8 @@ function About() {
               desc: "English and Spanish aren't two languages to us — they're two ways of thinking about your market.",
             },
             {
-              title: "AI-Amplified",
-              desc: "We use the same AI tools we recommend, so our advice is grounded in real implementation experience.",
+              title: "AI-Native",
+              desc: "Doble AI runs entirely on the same compounding AI workspace we build for clients — persistent memory, accumulated skills, daily learning. We don't recommend what we haven't built on.",
             },
             {
               title: "Colorado-Based",
