@@ -581,44 +581,40 @@ export const posts: Post[] = [
     content: (
       <>
         <p>
-          La pregunta surge en cada conversación. Generalmente en los primeros
-          dos minutos.
+          La pregunta surge en cada conversación, generalmente en los primeros
+          dos minutos: &ldquo;¿Y qué es exactamente lo que hacen?&rdquo;
         </p>
         <p>
-          <em>&ldquo;¿Y qué es exactamente lo que hacen?&rdquo;</em>
-        </p>
-        <p>
-          La respuesta honesta es : implementamos la IA para tu negocio. Pero
-          esa frase no dice mucho por sí sola, así que permíteme explicarla.
+          La respuesta honesta es: implementamos la IA para tu negocio. Pero
+          esa frase no dice mucho por sí sola, así que permíteme explicártelo.
         </p>
 
         <h2>La IA no es la solución. Es el ingrediente.</h2>
         <p>
-          La capacidad bruta de la IA está disponible para todos. ChatGPT.
-          Claude. Gemini. Grok. Puedes abrir cualquiera de ellos ahora mismo y
-          empezar a escribir. La herramienta en sí ya no es el diferenciador.
+          La capacidad bruta de la IA está disponible para todos: ChatGPT,
+          Claude, Gemini, Grok. Puedes abrir cualquiera de ellos ahora mismo y
+          empezar a usarlo. La herramienta en sí ya no es el diferenciador.
         </p>
         <p>
-          Lo que no está al alcance de todos es saber qué herramientas aplican
+          Lo que no está al alcance de todos es saber qué herramientas aplicar
           a tu situación específica, configurarlas correctamente, conectarlas a
           tus flujos de trabajo reales y operarlas bien con el tiempo. A eso le
-          llamamos implementación. Y la mayoría de los negocios que intentan
-          usar la IA por su cuenta topan con la misma pared : pasan unas horas
-          con un chatbot, quedan decepcionados y concluyen que la IA no es para
-          ellos. Lo que realmente encontraron fue un problema de configuración.
-          La herramienta era genérica. No conocía su negocio, sus clientes, su
-          tono, sus operaciones. Las herramientas genéricas producen resultados
-          genéricos.
+          llamamos implementación. La mayoría de los negocios que intentan usar
+          la IA por su cuenta topan con la misma pared: pasan unas horas con un
+          chatbot, quedan decepcionados y concluyen que &ldquo;la IA no es para
+          ellos&rdquo;. En realidad, lo que encontraron fue un problema de
+          configuración. La herramienta era genérica. No conocía su negocio,
+          sus clientes, su tono ni sus operaciones. Las herramientas genéricas
+          producen resultados genéricos. En Doble.AI cerramos esa brecha.
         </p>
-        <p>Nosotros cerramos esa brecha.</p>
 
         <h2>Dónde ocurre la magia de verdad</h2>
         <p>
           El verdadero apalancamiento está en la intersección entre el juicio
           humano y la capacidad de la IA. La IA maneja la escala y la
-          velocidad. El ser humano aporta el contexto, el criterio, la fluidez
+          velocidad, el ser humano aporta el contexto, el criterio, la fluidez
           cultural y la capacidad de conectar la herramienta con el problema
-          real. Ninguno llega solo.
+          real. Ninguno de los dos llega solo.
         </p>
         <p>
           Cuando la gente dice &ldquo;la IA va a reemplazar a todos&rdquo;
@@ -642,33 +638,42 @@ export const posts: Post[] = [
           replicar. Nuestro equipo es bilingüe de nacimiento —no solo fluido,
           sino con arraigo cultural. Hemos viajado y operado en más de 50
           países. Entendemos cómo un comprador o cliente de México, Perú o
-          Colombia piensa en una transacción, un servicio, una relación. Eso no
-          se puede programar en un prompt.
+          Colombia piensa en una transacción, un servicio o una relación. Eso
+          no se puede programar en un prompt.
         </p>
         <p>
-          Del cuarenta al cincuenta por ciento de los residentes del corredor
-          de montaña de Colorado habla español como primer idioma. La mayoría
-          de los negocios del valle son invisibles para este mercado —no porque
-          no los estén atendiendo, sino porque su contenido, sus herramientas
-          de IA y su presencia en línea no fueron construidos pensando en este
-          mercado. Nosotros lo corregimos. En español de calidad nativa, no en
-          traducción.
+          Del 40% al 50% de los residentes de Colorado habla español como
+          primer idioma. La mayoría de los negocios del valle son invisibles
+          para este mercado, no porque no los estén atendiendo, sino porque su
+          contenido, sus herramientas de IA y su presencia en línea no fueron
+          construidos pensando en este público. Nosotros lo corregimos. En
+          español de calidad nativa, no en traducción automática.
         </p>
 
         <h2>Cómo se ve esto en la práctica</h2>
-        <p>
-          Concretamente, esto puede significar : una recepcionista de IA que
-          responde tu teléfono en inglés y español las 24 horas, califica al
-          que llama y te envía una transcripción. Un motor de contenido que
-          convierte tus propiedades o servicios en una semana de contenido
-          bilingüe automáticamente. Un sistema de inteligencia competitiva que
-          muestra exactamente dónde están ganando tus competidores y dónde no.
-          Una auditoría de presencia digital que te dice dónde eres invisible y
-          por qué.
-        </p>
+        <p>Concretamente, esto puede significar:</p>
+        <ul>
+          <li>
+            Una recepcionista de IA que responde tu teléfono en inglés y
+            español las 24 horas, califica al que llama y te envía una
+            transcripción.
+          </li>
+          <li>
+            Un motor de contenido que convierte tus propiedades o servicios en
+            una semana de contenido bilingüe automáticamente.
+          </li>
+          <li>
+            Un sistema de inteligencia competitiva que muestra exactamente
+            dónde están ganando tus competidores y dónde no.
+          </li>
+          <li>
+            Una auditoría de presencia digital que te dice dónde eres invisible
+            y por qué.
+          </li>
+        </ul>
         <p>
           Los sistemas específicos dependen de tu negocio. El proceso es
-          siempre el mismo : entender el problema, identificar dónde la IA crea
+          siempre el mismo: entender el problema, identificar dónde la IA crea
           apalancamiento real, construir el sistema, operarlo y mejorarlo con el
           tiempo.
         </p>
@@ -677,29 +682,29 @@ export const posts: Post[] = [
         <p>
           Construimos y operamos sistemas de IA para negocios de Colorado —en
           inglés y en español— para que la tecnología realmente funcione para
-          ti. No en teoría. En la práctica.
+          ti, no en teoría, en la práctica.
         </p>
 
         <FAQ items={[
           {
             q: "¿Qué hace Doble AI?",
-            a: "Implementamos sistemas de IA para negocios de Colorado — construimos, configuramos y operamos las herramientas para que produzcan resultados reales en tu operación específica. Nos especializamos en implementación bilingüe, entregando todo en inglés y en español de calidad nativa.",
+            a: "Implementamos sistemas de IA para negocios de Colorado. Construimos, configuramos y operamos las herramientas para que produzcan resultados reales en tu operación específica. Nos especializamos en implementación bilingüe, entregando todo en inglés y en español de calidad nativa.",
           },
           {
             q: "¿Cuál es la diferencia entre implementación de IA y consultoría de IA?",
-            a: "La consultoría termina con un informe. La implementación termina con un sistema funcionando. No te entregamos un mazo de estrategia — construimos las herramientas de IA, las conectamos a tus flujos de trabajo y las gestionamos con el tiempo.",
+            a: "La consultoría termina con un informe. La implementación termina con un sistema funcionando. No te entregamos un mazo de estrategias: construimos las herramientas de IA, las conectamos a tus flujos de trabajo y las gestionamos con el tiempo.",
           },
           {
             q: "¿Por qué la IA no funciona cuando la intento usar por mi cuenta?",
-            a: "Las herramientas de IA genéricas no conocen tu negocio, tus clientes ni tu mercado. La brecha entre que una herramienta esté disponible y que funcione para tu negocio es la capa de implementación : configuración, contexto y refinamiento continuo. Eso es lo que nosotros aportamos.",
+            a: "Las herramientas de IA genéricas no conocen tu negocio, tus clientes ni tu mercado. La brecha entre que una herramienta esté disponible y que realmente funcione para tu negocio es la capa de implementación: configuración, contexto y refinamiento continuo. Eso es lo que nosotros aportamos.",
           },
           {
             q: "¿Qué tipos de sistemas de IA construye Doble AI?",
-            a: "Recepcionistas de voz que atienden llamadas 24/7 en inglés y español, motores de contenido que convierten tus propiedades o servicios en contenido bilingüe, sistemas de inteligencia competitiva y auditorías de presencia digital. La combinación correcta depende de tu negocio.",
+            a: "Recepcionistas de voz que atienden llamadas 24/7 en inglés y español limpio, motores de contenido que convierten tus propiedades o servicios en contenido bilingüe, sistemas de inteligencia competitiva y auditorías de presencia digital. La combinación correcta depende de tu negocio.",
           },
           {
             q: "¿Trabaja Doble AI con negocios fuera del Vail Valley?",
-            a: "Sí. Aunque estamos basados en el Eagle River Valley y conocemos bien el corredor de montaña de Colorado, trabajamos con negocios en todo Colorado y a nivel nacional — especialmente aquellos que atienden o quieren llegar a mercados bilingües.",
+            a: "Sí. Aunque estamos basados en el Eagle River Valley y conocemos bien el camino de montaña de Colorado, trabajamos con negocios en todo Colorado y a nivel nacional, especialmente aquellos que atienden o quieren llegar a mercados bilingües.",
           },
         ]} />
 
