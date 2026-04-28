@@ -2,15 +2,28 @@ import Link from "next/link";
 import { posts } from "../lib/posts";
 import Footer from "../components/Footer";
 
-const pinnedSlugs = [
-  "your-ai-should-know-your-business-by-now",
-  "tu-ia-ya-deberia-conocer-tu-negocio",
-  "why-ai-needs-human-context",
-  "bilingual-ai-receptionist-small-business",
+// EN first, ES second — each pair lands in adjacent columns in the 2-col grid
+const pairs: [string, string?][] = [
+  ["your-ai-should-know-your-business-by-now", "tu-ia-ya-deberia-conocer-tu-negocio"],
+  ["why-ai-needs-human-context", "ia-escala-nosotros-contexto"],
+  ["bilingual-ai-receptionist-small-business", "recepcionista-ia-bilingue-pequenos-negocios"],
+  ["google-business-profile-ai-asset", "perfil-google-business-activo-ia"],
+  ["ai-traffic-converts-better-than-paid-search", "trafico-ia-convierte-mejor-que-busqueda-pagada"],
+  ["peruvian-spanish-the-neutral-accent-advantage", "espanol-peruano-la-ventaja-del-acento-neutro"],
+  ["bilingual-marketing-why-translation-is-not-enough", "marketing-bilingue-por-que-la-traduccion-no-es-suficiente"],
+  ["vail-real-estate-mexican-buyers-ai-search", "mercado-latino-mexicano-montana-colorado-ia"],
+  ["geo-vs-seo", "geo-vs-seo-espanol"],
+  ["competitive-analysis", "analisis-competitivo"],
+  ["digital-presence-audit", "presencia-digital-vendedor"],
+  ["bilingual-advantage-colorado"],
+  ["claude-code-vs-cowork"],
+  ["ai-learning-curve"],
+  ["ai-roadmap-business-owners"],
 ];
-const pinned = pinnedSlugs.map((s) => posts.find((p) => p.slug === s)).filter(Boolean) as typeof posts;
-const rest = posts.filter((p) => !pinnedSlugs.includes(p.slug));
-const displayPosts = [...pinned, ...rest];
+const displayPosts = pairs
+  .flatMap((pair) => pair.filter((s): s is string => s !== undefined))
+  .map((s) => posts.find((p) => p.slug === s))
+  .filter((p): p is (typeof posts)[number] => p !== undefined);
 
 const blogSchema = {
   "@context": "https://schema.org",
