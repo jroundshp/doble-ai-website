@@ -87,53 +87,51 @@ export const posts: Post[] = [
       <>
         <p>
           You&apos;ve tried the AI tools. You opened ChatGPT, typed a question,
-          got a decent answer&mdash;and then the next day you opened it again
-          and it had no idea who you were. No idea what your business does, who
-          your clients are, or what you spent the last hour explaining to it the
-          day before.
+          got a decent answer. The next day you opened it again and it had no
+          idea who you were. No idea what your business does, who your clients
+          are, or what you spent the last hour explaining to it the day before.
         </p>
         <p>
-          This is the default state of AI for most small businesses. A capable
-          tool that resets to zero every single session. And it&apos;s not a
-          minor inconvenience&mdash;it&apos;s the reason AI never quite
-          delivers on the promise. You can&apos;t build leverage with a tool
-          that forgets everything.
+          That&apos;s the default state of AI for most small businesses: a
+          capable tool that resets to zero every single session. It&apos;s not a
+          minor inconvenience. It&apos;s the reason AI never quite delivers on
+          the promise. You can&apos;t build leverage with a tool that forgets
+          everything.
         </p>
 
-        <h2>Why Most AI Tools Feel Like Starting Over Every Day</h2>
+        <h2>Why most AI tools feel like starting over every day</h2>
         <p>
-          Off-the-shelf AI tools&mdash;even very good ones&mdash;are built to
-          be generic. They serve millions of users and they can&apos;t afford to
-          hold context for all of them. Every session starts blank. Every answer
-          is based only on what you type right now, not on anything the system
-          has learned about your business over time.
+          Off-the-shelf AI tools, even very good ones, are built to be generic.
+          They serve millions of users and can&apos;t hold context for all of
+          them. Every session starts blank. Every answer is based only on what
+          you type right now, not on anything the system has learned about your
+          business over time.
         </p>
         <p>
           For a consumer asking a one-off question, that&apos;s fine. For a
           business trying to use AI as a genuine operational asset, it&apos;s a
-          fundamental limitation. A tool that doesn&apos;t remember your
-          clients, your brand voice, your workflows, or your market can only
-          ever be a shortcut&mdash;never a system.
+          real limitation. A tool that doesn&apos;t remember your clients, your
+          brand voice, or your workflows can only ever be a shortcut. Never a
+          system.
         </p>
 
-        <h2>What It Means for AI to Actually Learn Your Business</h2>
+        <h2>What it means for AI to actually learn your business</h2>
         <p>
           A properly built AI workspace operates differently. Instead of
-          starting fresh every session, it arrives with context&mdash;because
-          that context has been built up deliberately and stored persistently.
+          starting fresh every session, it arrives with context, because that
+          context has been built up deliberately and stored persistently.
         </p>
         <p>
-          This means the AI already knows your active clients and what stage
-          each relationship is in. It knows your brand voice and how you
-          communicate in English and Spanish. It knows the workflows your team
-          follows, the tools in your stack, and the decisions you&apos;ve
-          already made and why. Every session adds to that base of knowledge
-          rather than replacing it.
+          The AI already knows your active clients and where each relationship
+          stands. It knows your brand voice and how you communicate in English
+          and Spanish. It knows the workflows your team follows, the tools in
+          your stack, and the decisions you&apos;ve already made and why. Every
+          session adds to that base of knowledge rather than replacing it.
         </p>
         <p>
-          Over days and weeks, the system becomes progressively more
-          useful&mdash;not because the underlying model changed, but because the
-          institutional knowledge it can draw on keeps growing.
+          Over days and weeks, the system gets more useful, not because the
+          underlying model changed, but because the institutional knowledge it
+          can draw on keeps growing.
         </p>
 
         <img
@@ -142,72 +140,64 @@ export const posts: Post[] = [
           style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
         />
 
-        <h2>How a Compounding AI Workspace Works</h2>
+        <h2>How a compounding AI workspace works</h2>
         <p>
-          The architecture behind this isn&apos;t magic&mdash;it&apos;s
-          intentional design. A compounding AI workspace has three components
-          working together:
+          The architecture isn&apos;t magic. It&apos;s three things working
+          together.
         </p>
-        <ul>
-          <li>
-            <strong>Persistent memory.</strong> Structured records of your
-            clients, projects, preferences, and history that load automatically
-            into every session. The AI doesn&apos;t need to be
-            re-briefed&mdash;it already knows.
-          </li>
-          <li>
-            <strong>Accumulated skills.</strong> Documented workflows and
-            processes the AI can execute reliably&mdash;things you&apos;ve
-            built together over time that didn&apos;t exist before. A content
-            pipeline. An audit workflow. A client onboarding process. Each one
-            is a reusable capability.
-          </li>
-          <li>
-            <strong>Feedback integration.</strong> The system learns what works
-            and what doesn&apos;t. When you correct an approach or confirm that
-            something worked well, that guidance persists and shapes future
-            behavior. You don&apos;t repeat yourself.
-          </li>
-        </ul>
         <p>
-          Put those three together and you have something fundamentally
-          different from a tool. You have an AI that is genuinely oriented
-          around your specific business&mdash;and getting more so every day.
+          Persistent memory means the AI already knows your clients, your
+          preferences, your history — loaded automatically before you type a
+          word. No re-briefing.
+        </p>
+        <p>
+          Accumulated skills are the workflows you&apos;ve built together over
+          time: a content pipeline, a client onboarding sequence, an audit
+          process. Each one stays in the workspace and gets reused.
+        </p>
+        <p>
+          Feedback integration is how it gets better. When you correct something
+          or confirm an approach worked, that sticks. You don&apos;t repeat
+          yourself.
+        </p>
+        <p>
+          Put those together and the AI stops feeling like a tool and starts
+          feeling like someone who&apos;s been at your company for a while.
         </p>
 
-        <h2>What This Looks Like in Practice</h2>
+        <h2>What this looks like in practice</h2>
         <p>
-          At Doble AI, this is how we operate our own business and how we build
-          for our clients. When we sit down to work on a client&apos;s content,
-          the AI already knows that client&apos;s brand voice, their market,
-          their recent listings, and the formats that perform for them. We
-          don&apos;t explain it. We just work.
+          At Doble AI, this is how we run our own business and how we build for
+          clients. When we sit down to work on a client&apos;s content, the AI
+          already knows their brand voice, their market, their recent listings,
+          and the formats that perform for them. We don&apos;t explain it. We
+          just work.
         </p>
         <p>
-          When we build an AI receptionist for a client&mdash;like our bilingual
-          voice agent LUCI&mdash;the workspace holds the full context of that
-          build: the configuration, the prompt decisions, the performance notes,
-          the upgrade history. Anyone picking up that project has the full
-          picture immediately.
+          When we build an AI receptionist, like our bilingual voice agent LUCI,
+          the workspace holds the full context of that build: the configuration,
+          the prompt decisions, the performance notes, the upgrade history.
+          Anyone picking up the project has the full picture immediately.
         </p>
         <p>
-          This is the difference between AI as a search engine and AI as a
-          long-term team member. One answers your question. The other compounds.
+          The difference between AI as a search engine and AI as a long-term
+          team member comes down to this. One answers your question. The other
+          remembers the last hundred.
         </p>
 
-        <h2>Is This Right for Your Business?</h2>
+        <h2>Is this right for your business?</h2>
         <p>
-          If you&apos;re using AI for one-off tasks&mdash;drafting an
-          occasional email, answering a quick question&mdash;a generic tool is
-          probably sufficient. But if you want AI to become a genuine
-          operational layer in your business&mdash;one that handles client
-          communications, content, workflows, and customer interactions with
-          increasing competence over time&mdash;you need a workspace that&apos;s
-          built to learn.
+          If you&apos;re using AI for one-off tasks, drafting an occasional
+          email or answering a quick question, a generic tool is probably fine.
+          But if you want AI to become a real operational layer in your
+          business, one that handles client communications, content, and
+          customer interactions with increasing competence over time, you need a
+          workspace built to learn.
         </p>
         <p>
-          That&apos;s what Doble AI builds. Not a tool you plug in. A system
-          that grows with your business, in English and Spanish, from day one.
+          That&apos;s what we build at Doble AI. We set up the workspace, load
+          it with your business context, and hand you something that gets better
+          every time you use it — in English and in Spanish, from day one.
         </p>
 
         <FAQ
@@ -455,7 +445,7 @@ export const posts: Post[] = [
           phrase doesn&apos;t mean much by itself, so let me unpack it.
         </p>
 
-        <h2>AI Is Not the Solution. It&apos;s the Ingredient.</h2>
+        <h2>AI is not the solution. It&apos;s the ingredient.</h2>
         <p>
           The raw capability of AI is available to everyone. ChatGPT. Claude.
           Gemini. Grok. You can open any of them right now and start typing. The
@@ -474,20 +464,20 @@ export const posts: Post[] = [
         </p>
         <p>We close that gap.</p>
 
-        <h2>Where the Magic Actually Lives</h2>
+        <h2>Where the real leverage is</h2>
         <p>
-          The real leverage is at the intersection of human judgment and AI
+          The leverage is at the intersection of human judgment and AI
           capability. The AI handles scale and speed. The human brings the
-          context, the judgment, the cultural fluency, and the ability to
-          connect the tool to the actual problem. Neither one gets there alone.
+          context, the cultural fluency, and the ability to connect the tool to
+          the actual problem. Neither one gets there alone.
         </p>
         <p>
-          When people say &ldquo;AI is going to replace everyone&rdquo; — and
-          when others say &ldquo;AI can&apos;t replace the human touch&rdquo; —
-          they&apos;re both half right. Neither extreme is accurate. What&apos;s
-          accurate is that the businesses who learn to combine human judgment
-          with AI capability are going to outperform those who don&apos;t.
-          That&apos;s the whole game right now.
+          When people say &ldquo;AI is going to replace everyone,&rdquo; and
+          when others say &ldquo;AI can&apos;t replace the human touch,&rdquo;
+          they&apos;re both half right. What&apos;s accurate is that the
+          businesses who learn to combine human judgment with AI capability are
+          going to outperform those who don&apos;t. That&apos;s the whole game
+          right now.
         </p>
 
         <img
@@ -497,7 +487,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>The Part AI Genuinely Can&apos;t Do Alone</h2>
+        <h2>The part AI genuinely can&apos;t do alone</h2>
         <p>
           Here&apos;s where Doble AI has an advantage that no software can
           replicate. Our team is natively bilingual — not just fluent, but
@@ -515,7 +505,7 @@ export const posts: Post[] = [
           native-quality Spanish, not translation.
         </p>
 
-        <h2>What This Looks Like in Practice</h2>
+        <h2>What this looks like in practice</h2>
         <p>
           Concretely, this might mean: an AI voice receptionist that answers
           your phone in English and Spanish 24/7, qualifies the caller, and
@@ -531,7 +521,7 @@ export const posts: Post[] = [
           leverage, build the system, run it, improve it over time.
         </p>
 
-        <h2>The Short Version</h2>
+        <h2>The short version</h2>
         <p>
           We build and run AI systems for Colorado businesses — in English and
           in Spanish — so the technology actually works for you. Not in theory.
@@ -745,7 +735,7 @@ export const posts: Post[] = [
           small businesses, that path is broken more often than it should be.
         </p>
 
-        <h2>The Language Problem Nobody Talks About</h2>
+        <h2>The language problem nobody talks about</h2>
         <p>
           In Eagle County, roughly one in four residents speaks Spanish as a
           first or primary language. In the construction trades, hospitality,
@@ -764,7 +754,7 @@ export const posts: Post[] = [
           serve every caller. The problem is capacity.
         </p>
 
-        <h2>What a Bilingual AI Receptionist Actually Does</h2>
+        <h2>What a bilingual AI receptionist actually does</h2>
         <p>
           Lucy is a bilingual AI receptionist built by Doble AI. She answers
           your business line 24 hours a day, 7 days a week, in English and
@@ -789,7 +779,7 @@ export const posts: Post[] = [
           is warm before you even call back.
         </p>
 
-        <h2>What It Replaces (and What It Costs)</h2>
+        <h2>What it replaces (and what it costs)</h2>
         <p>
           A part-time human receptionist in the Vail Valley runs $15&ndash;20
           an hour. Even 20 hours a week is $1,200&ndash;1,600 a month &mdash;
@@ -814,7 +804,7 @@ export const posts: Post[] = [
           She goes live in five business days.
         </p>
 
-        <h2>Built for Colorado Mountain Living</h2>
+        <h2>Built for Colorado mountain living</h2>
         <p>
           One of the best things about running a business in the Colorado
           mountains is that the trailhead is never far away. You moved here for
@@ -1065,7 +1055,7 @@ export const posts: Post[] = [
           Profile.
         </p>
 
-        <h2>Why GBP Matters More Now Than Ever</h2>
+        <h2>Why GBP matters more now than ever</h2>
         <p>
           Google&apos;s AI Overviews — the AI-generated summaries that now
           appear at the top of many search results — pull heavily from Google
@@ -1091,52 +1081,29 @@ export const posts: Post[] = [
           Business Profile is ground zero for that.
         </p>
 
-        <h2>What &ldquo;Optimized&rdquo; Actually Means</h2>
+        <h2>What &ldquo;optimized&rdquo; actually means</h2>
         <p>
           Most business owners claimed their profile years ago, filled in the
           basics, and moved on. That&apos;s not enough anymore. An optimized
           GBP looks like this:
         </p>
         <ul>
-          <li>
-            <strong>Complete business information</strong> — name, address,
-            phone, website, hours (including holiday hours)
-          </li>
-          <li>
-            <strong>Accurate, specific categories</strong> — Google uses these
-            to match you to searches; wrong or vague categories cost you
-            visibility
-          </li>
-          <li>
-            <strong>Service descriptions</strong> — spell out what you do, who
-            you serve, and where
-          </li>
-          <li>
-            <strong>Photos</strong> — real, recent photos of your work, your
-            team, your location; AI and customers both respond to this
-          </li>
-          <li>
-            <strong>Regular posts</strong> — treat your GBP like a slow-moving
-            social feed; updates signal that you&apos;re active
-          </li>
-          <li>
-            <strong>Reviews — and responses</strong> — volume, recency, and
-            your responses to them are all signals that AI systems weight
-            heavily
-          </li>
-          <li>
-            <strong>Q&amp;A section</strong> — seed it with common questions
-            and answer them yourself if customers haven&apos;t yet
-          </li>
+          <li>Complete business information: name, address, phone, website, hours (including holiday hours)</li>
+          <li>Accurate, specific categories: Google uses these to match you to searches; wrong or vague categories cost you visibility</li>
+          <li>Service descriptions: spell out what you do, who you serve, and where</li>
+          <li>Photos: real, recent photos of your work, your team, your location; AI and customers both respond to this</li>
+          <li>Regular posts: treat your GBP like a slow-moving social feed; updates signal that you&apos;re active</li>
+          <li>Reviews and responses: volume, recency, and how you respond are all signals AI systems weight heavily</li>
+          <li>Q&amp;A section: seed it with common questions and answer them yourself if customers haven&apos;t yet</li>
         </ul>
         <p>
           None of this is technically complex. All of it takes consistent
           attention.
         </p>
 
-        <h2>What Neglect Costs You</h2>
+        <h2>What neglect costs you</h2>
         <p>
-          A stale Google Business Profile doesn&apos;t just underperform — it
+          A stale Google Business Profile doesn&apos;t just underperform. It
           actively works against you. Wrong hours mean lost customers who showed
           up when you were closed. Missing service categories mean you
           don&apos;t appear in searches you should win. No recent photos or
@@ -1149,7 +1116,7 @@ export const posts: Post[] = [
           being invisible.
         </p>
 
-        <h2>The Fix Is Not Complicated — But It Has to Happen</h2>
+        <h2>The fix isn&apos;t complicated, but it has to happen</h2>
         <p>
           The businesses that will win the next wave of AI-driven local search
           are not necessarily the ones with the biggest budgets or the fanciest
@@ -1578,7 +1545,7 @@ export const posts: Post[] = [
           register will land cleanly across all of them.
         </p>
 
-        <h2>What &ldquo;Neutral Spanish&rdquo; Actually Means</h2>
+        <h2>What &ldquo;neutral Spanish&rdquo; actually means</h2>
         <p>
           Spanish is not one language. It is a family of dialects that stretches
           from Mexico City to Buenos Aires, and within that family there are
@@ -1587,15 +1554,15 @@ export const posts: Post[] = [
           other at natural speaking speed.
         </p>
         <p>
-          &ldquo;Neutral Spanish&rdquo; &mdash; sometimes called{" "}
-          <em>español neutro</em> or <em>español estándar</em> &mdash; refers to
+          &ldquo;Neutral Spanish&rdquo; (sometimes called{" "}
+          <em>español neutro</em> or <em>español estándar</em>) refers to
           a register of the language that has been deliberately stripped of
           regional markers. It emerged as a practical standard for the dubbing
           and broadcasting industries in the 1970s and 80s, when producers needed
           a single Spanish voice-over that could air from Mexico City to Buenos
           Aires without alienating any audience. The result was a form of Spanish
-          that borrowed its phonetics heavily from Andean dialects &mdash; and at
-          the center of that region sits Peru.
+          that borrowed its phonetics heavily from Andean dialects, and at the
+          center of that region sits Peru.
         </p>
 
         <img
@@ -1605,11 +1572,11 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>The Phonetic Case for Peru</h2>
+        <h2>The phonetic case for Peru</h2>
         <p>
-          So what makes Peruvian Spanish &mdash; and particularly the educated
-          Lima dialect &mdash; the baseline? It comes down to several phonetic
-          features that other major Spanish varieties do not share:
+          So what makes Peruvian Spanish, and particularly the educated Lima
+          dialect, the baseline? It comes down to several phonetic features that
+          other major Spanish varieties do not share:
         </p>
         <ul>
           <li>
@@ -1621,8 +1588,8 @@ export const posts: Post[] = [
             the <em>s</em>{" "}is crisp and present. Every consonant earns its place.
           </li>
           <li>
-            <strong>Clean, consistent vowels.</strong>{" "}Andean Spanish &mdash;
-            including Peruvian &mdash; is known for its pure, stable vowel sounds.
+            <strong>Clean, consistent vowels.</strong>{" "}Andean Spanish, including
+            Peruvian, is known for its pure, stable vowel sounds.
             Unlike coastal Caribbean varieties where vowels can shift or merge
             under rapid speech, Peruvian vowels land exactly where the written
             word suggests. This predictability is a significant asset for speech
@@ -1643,8 +1610,8 @@ export const posts: Post[] = [
             <strong>
               The double-L (<em>ll</em>) and Y (<em>y</em>) keep their standard sounds.
             </strong>{" "}
-            In Rioplatense Spanish (Argentina and Uruguay), both letters &mdash;
-            the <em>ll</em>{" "}and the <em>y</em>{" "}&mdash; merge into a sound
+            In Rioplatense Spanish (Argentina and Uruguay), both letters,
+            the <em>ll</em>{" "}and the <em>y</em>, merge into a sound
             like the English &ldquo;sh,&rdquo; a feature called{" "}
             <em>yeísmo rehilado</em>. &ldquo;Yo me llamo&rdquo; becomes{" "}
             &ldquo;Sho me shamo.&rdquo; In Peruvian Spanish, neither letter takes
@@ -1654,13 +1621,13 @@ export const posts: Post[] = [
           </li>
         </ul>
 
-        <h2>The Accent Spectrum: A Honest Map</h2>
+        <h2>The accent spectrum: an honest map</h2>
         <p>
           I want to be clear: no dialect is &ldquo;better&rdquo; than another.
           The Argentine accent is musical and unmistakably confident. Colombian
           coastal Spanish has a warmth and rhythm that is deeply appealing.
           Dominican Spanish is expressive and rapid-fire in a way that signals
-          genuine intimacy. These are not flaws &mdash; they are the living
+          genuine intimacy. These are not flaws. They are the living
           identity of each culture.
         </p>
         <p>
@@ -1699,7 +1666,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>Why This Matters More Than Ever for AI</h2>
+        <h2>Why this matters more than ever for AI</h2>
         <p>
           When Doble AI builds voice AI, trains transcription models, or produces
           bilingual content, dialect is not a small detail. It is the difference
@@ -1712,32 +1679,32 @@ export const posts: Post[] = [
           because these features diverge significantly from the phonetic patterns
           that dominate training data. Voice AI built on a neutral Peruvian or
           highland Colombian base generalizes better across the Spanish-speaking
-          world &mdash; which is exactly why the dubbing industry settled on this
+          world, which is exactly why the dubbing industry settled on this
           standard forty years ago, and why AI developers are rediscovering the
           same logic today.
         </p>
         <p>
           For businesses trying to reach the 42 million Spanish speakers in the
-          United States &mdash; who come from Mexico, Central America, the
-          Caribbean, and South America &mdash; a voice or written tone
+          United States, who come from Mexico, Central America, the Caribbean,
+          and South America, a voice or written tone
           that is clearly regional will unconsciously signal in-group and
           out-group membership. A neutral Spanish baseline is not about erasing
           culture. It is about not accidentally excluding anyone before you even
           get to your message.
         </p>
 
-        <h2>What I Tell Clients</h2>
+        <h2>What I tell clients</h2>
         <p>
           When a business comes to us asking how to speak to Spanish-speaking
           customers, one of the first questions I ask is: <em>which</em>{" "}
           Spanish-speaking customers? If the answer is &ldquo;primarily Mexican
-          Americans in Texas,&rdquo; we lean into a Mexican standard &mdash; the
+          Americans in Texas,&rdquo; we lean into a Mexican standard: the
           vocabulary, the expressions, the cadence that feels like home to that
           audience. If the work is for Argentina, we know the{" "}
           <em>voseo</em> conventions and the cultural register that reads as
           natural there. For Chile, we know the idioms that don&apos;t travel
-          well across borders. That cultural fluency &mdash; earned through
-          actually being in those places &mdash; is what makes the fine-tuning
+          well across borders. That cultural fluency, earned through actually
+          being in those places, is what makes the fine-tuning
           worth something. If the answer is &ldquo;anyone who might buy from us
           across Latin America,&rdquo; we anchor to neutral Spanish: clear
           consonants, standard conjugations, vocabulary without a regional stamp.
@@ -1750,9 +1717,9 @@ export const posts: Post[] = [
           for everyone.
         </p>
         <p>
-          That&apos;s something I&apos;m genuinely proud of &mdash; not as a
-          coincidence of geography, but as a reminder that where you come from
-          shapes what you are able to build.
+          That&apos;s something I&apos;m genuinely proud of, not as a coincidence
+          of geography, but as a reminder that where you come from shapes what
+          you are able to build.
         </p>
 
         <FAQ
@@ -1805,7 +1772,7 @@ export const posts: Post[] = [
           afterthought consistently lose to those who speak to them first.
         </p>
 
-        <h2>The Difference Between Translation and Transcreation</h2>
+        <h2>The difference between translation and transcreation</h2>
         <p>
           Translation converts words. Transcreation converts meaning. They sound
           similar, but the difference in outcome is significant.
@@ -1838,7 +1805,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>Where Translation-Only Strategies Fail</h2>
+        <h2>Where translation-only strategies fail</h2>
         <p>
           The failures of direct translation in marketing aren&apos;t
           hypothetical. They&apos;re well-documented &mdash; and instructive.
@@ -1871,7 +1838,7 @@ export const posts: Post[] = [
           but in tone, reference, and cultural understanding.
         </p>
 
-        <h2>What Real Bilingual Marketing Looks Like</h2>
+        <h2>What real bilingual marketing looks like</h2>
         <p>
           Effective bilingual marketing is built from a fundamentally different
           starting point. Instead of creating English content and then adapting
@@ -1922,7 +1889,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>How AI Makes Bilingual Marketing More Accessible</h2>
+        <h2>How AI makes bilingual marketing more accessible</h2>
         <p>
           For years, genuine bilingual marketing was expensive enough that most
           small businesses skipped it entirely. Hiring bilingual copywriters,
@@ -1969,7 +1936,7 @@ export const posts: Post[] = [
           of building it.
         </p>
 
-        <h2>How to Get Started with a Bilingual Marketing Strategy</h2>
+        <h2>How to get started with a bilingual marketing strategy</h2>
         <p>
           You don&apos;t need to overhaul everything at once. The most effective
           approach is to start where the impact is highest and build from there.
@@ -2514,7 +2481,7 @@ export const posts: Post[] = [
           has implications well beyond property sales.
         </p>
 
-        <h2>The Market Most Colorado Businesses Are Missing</h2>
+        <h2>The market most Colorado businesses are missing</h2>
         <p>
           Mexican and Latin American families represent a substantial presence
           in the Vail Valley, the Roaring Fork Valley, Steamboat Springs, and
@@ -2543,7 +2510,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>How This Market Actually Searches</h2>
+        <h2>How this market actually searches</h2>
         <p>
           Two data points that most Colorado businesses have not seen:
         </p>
@@ -2576,7 +2543,7 @@ export const posts: Post[] = [
           searches in their first language and finding a blank wall.
         </p>
 
-        <h2>What We Are Building — and the Broader Opportunity</h2>
+        <h2>What we are building, and the broader opportunity</h2>
         <p>
           For our real estate client, the engagement covers a full foundation
           rebuild: SEO and GEO optimization across all platforms, schema markup,
@@ -2609,7 +2576,7 @@ export const posts: Post[] = [
           what we build into every piece of content we produce.
         </p>
 
-        <h2>The Window Is Open Across the Entire Corridor</h2>
+        <h2>The window is open across the entire corridor</h2>
         <p>
           No local business in Vail, Aspen, Steamboat Springs, the Roaring
           Fork Valley, or Breckenridge currently owns Spanish-language AI
@@ -2681,7 +2648,7 @@ export const posts: Post[] = [
           by the old ones.
         </p>
 
-        <h2>What Is SEO — and Why Isn&apos;t It Enough Anymore?</h2>
+        <h2>What is SEO, and why isn&apos;t it enough anymore?</h2>
         <p>
           <strong>SEO, or search engine optimization</strong>, is the practice
           of making your website easier for search engines like Google and Bing
@@ -2698,7 +2665,7 @@ export const posts: Post[] = [
           traditional SEO does nothing to capture them.
         </p>
 
-        <h2>How Are People Actually Searching in 2025?</h2>
+        <h2>How people are actually searching in 2026</h2>
         <p>
           The shift is real and accelerating. Platforms like ChatGPT, Perplexity,
           Grok, Claude, and Google&apos;s AI Overviews have changed how millions
@@ -2721,7 +2688,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>What Is GEO — Generative Engine Optimization?</h2>
+        <h2>What is GEO?</h2>
         <p>
           <strong>GEO, or generative engine optimization</strong>, is the
           practice of making your business visible and citable to AI-powered
@@ -2740,85 +2707,39 @@ export const posts: Post[] = [
           your Google ranking.
         </p>
 
-        <h2>Why Doesn&apos;t Traditional SEO Work for AI Platforms?</h2>
+        <h2>Why traditional SEO doesn&apos;t work for AI platforms</h2>
         <p>
           Traditional SEO tactics work by signaling relevance to search engine
           crawlers: keyword placement, page structure, domain authority, and
-          inbound links tell Google what your page is about. AI platforms
-          interpret information differently:
+          inbound links tell Google what your page is about. AI platforms read
+          differently:
         </p>
         <ul>
-          <li>
-            <strong>They don&apos;t crawl in real time.</strong> Large language
-            models are trained on data collected over a period of time, meaning
-            your most recent website update may not yet be reflected in what an
-            AI platform knows about you.
-          </li>
-          <li>
-            <strong>They prioritize authoritative context, not keyword density.</strong>{" "}
-            An AI recommendation is based on how your business is described and
-            cited across many sources — not just your own website.
-          </li>
-          <li>
-            <strong>They respond to natural language questions.</strong> A
-            customer asks Perplexity, &ldquo;Who does bilingual marketing in
-            Vail?&rdquo; — your website needs content that directly answers that
-            question in plain language to be surfaced.
-          </li>
-          <li>
-            <strong>They rely on structured signals.</strong> Schema markup,
-            consistent business information across directories, and explicit
-            categorization make it easier for AI systems to understand and
-            recommend your business accurately.
-          </li>
+          <li>Large language models are trained on data collected over time, not crawled in real time. Your most recent website update may not be reflected in what an AI platform knows about you.</li>
+          <li>AI recommendations are based on how your business is described and cited across many sources, not keyword density on your own website.</li>
+          <li>Customers ask AI tools questions in plain language: &ldquo;Who does bilingual marketing in Vail?&rdquo; Your site needs content that directly answers that.</li>
+          <li>Schema markup, consistent business information across directories, and explicit categorization help AI systems understand and recommend your business accurately.</li>
         </ul>
 
-        <h2>What Does GEO Optimization Actually Involve?</h2>
+        <h2>What GEO optimization actually involves</h2>
         <p>
-          GEO is not a single fix — it&apos;s a set of practices that
-          collectively improve how AI platforms perceive and reference your
-          business:
+          GEO is a set of practices that collectively improve how AI platforms
+          perceive and reference your business:
         </p>
         <ul>
-          <li>
-            <strong>Content that answers real questions.</strong> Write in clear,
-            direct language that mirrors how a customer would ask an AI assistant
-            about your services. &ldquo;What does an AI implementation firm do for a
-            small business?&rdquo; should have a clear answer on your site.
-          </li>
-          <li>
-            <strong>Consistent business information everywhere.</strong> Your
-            name, address, phone number, service description, and category must
-            match exactly across your website, Google Business Profile, Yelp,
-            industry directories, and social profiles. Inconsistency creates
-            ambiguity — and AI platforms don&apos;t recommend ambiguous
-            businesses.
-          </li>
-          <li>
-            <strong>Schema markup.</strong> Structured data embedded in your
-            website explicitly tells machines what your business is, where it
-            operates, what it offers, and how to contact you. This is one of the
-            clearest signals you can send to both search engines and AI systems.
-          </li>
-          <li>
-            <strong>Third-party citations.</strong> Mentions of your business in
-            local news, industry publications, review platforms, and partner
-            sites add credibility. AI models draw on external references to
-            validate authority.
-          </li>
-          <li>
-            <strong>Reviews and reputation signals.</strong> Volume, recency, and
-            quality of reviews factor into how AI platforms assess your
-            business&apos;s authority in a given category.
-          </li>
+          <li>Content that answers real questions, written in plain language that mirrors how a customer would ask an AI about your services. &ldquo;What does an AI implementation firm do for a small business?&rdquo; should have a clear answer on your site.</li>
+          <li>Consistent business information everywhere: name, address, phone, service description, and category must match across your website, Google Business Profile, Yelp, industry directories, and social profiles. Inconsistency creates ambiguity, and AI platforms don&apos;t recommend ambiguous businesses.</li>
+          <li>Schema markup: structured data embedded in your site that explicitly tells machines what your business is, where it operates, what it offers, and how to contact you.</li>
+          <li>Third-party citations: mentions in local news, industry publications, review platforms, and partner sites. AI models draw on external references to validate authority.</li>
+          <li>Reviews: volume, recency, and quality all factor into how AI platforms assess your authority in a given category.</li>
         </ul>
 
-        <h2>Do You Still Need SEO?</h2>
+        <h2>Do you still need SEO?</h2>
         <p>
           Yes. Google is not going away, and traditional search still drives
-          significant traffic for local businesses. A strong SEO foundation —
-          good site structure, technical performance, local keyword visibility,
-          and inbound links — remains valuable and reinforces GEO performance.
+          significant traffic for local businesses. A strong SEO foundation
+          (good site structure, technical performance, local keyword visibility,
+          and inbound links) remains valuable and reinforces GEO performance.
           Many of the signals AI platforms use overlap with what good SEO
           produces.
         </p>
@@ -2830,7 +2751,7 @@ export const posts: Post[] = [
           it won&apos;t stay open indefinitely.
         </p>
 
-        <h2>What Does a Combined SEO + GEO Strategy Look Like?</h2>
+        <h2>What a combined SEO + GEO strategy looks like</h2>
         <p>
           A combined approach doesn&apos;t require starting over. For most small
           businesses, it means layering GEO practices on top of an existing SEO
@@ -2862,8 +2783,9 @@ export const posts: Post[] = [
         </ol>
         <p>
           This is exactly the kind of audit and strategy work we do for Colorado
-          businesses. The landscape has changed. Most of your competitors
-          haven&apos;t adapted yet. Now is the right time to get ahead of it.
+          businesses. Most of your competitors are still running a SEO-only
+          playbook. The window to build GEO authority before they catch up is
+          open right now.
         </p>
 
         <FAQ
@@ -3438,7 +3360,7 @@ export const posts: Post[] = [
         </p>
         <p>
           Not because the model is weak. Not because you&apos;re using it wrong. But because the type of
-          interaction &mdash; a quick back-and-forth chat &mdash; puts a ceiling on what&apos;s possible.
+          interaction (a quick back-and-forth chat) puts a ceiling on what&apos;s possible.
           You can have the most talented person in the world available to help you, but if every
           conversation starts from zero and ends with no memory, there&apos;s a hard limit on how much
           leverage you can actually get.
@@ -3448,7 +3370,7 @@ export const posts: Post[] = [
           to someone building something that genuinely compounds. No technical background required.
         </p>
 
-        <h2>Level One: ChatGPT and Grok</h2>
+        <h2>Level one: ChatGPT and Grok</h2>
         <p>
           This is where almost everyone starts, and for good reason &mdash; it&apos;s accessible,
           it&apos;s free (or cheap), and it works immediately. You type a question, you get an answer.
@@ -3484,19 +3406,18 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>Level Two: Claude Chat and Claude Cowork</h2>
+        <h2>Level two: Claude Chat and Claude Cowork</h2>
         <p>
-          Claude &mdash; made by a company called Anthropic &mdash; represents a meaningful upgrade in
-          reasoning quality, writing ability, and nuance. Many people who move from ChatGPT to Claude
-          describe the difference as going from a knowledgeable assistant to a genuinely thoughtful
-          collaborator.
+          Claude, made by Anthropic, represents a meaningful upgrade in reasoning quality, writing
+          ability, and nuance. Many people who move from ChatGPT to Claude describe the difference
+          as going from a knowledgeable assistant to a genuinely thoughtful collaborator.
         </p>
         <p>
           Claude&apos;s web interface and Cowork give you that same chat experience, but with better
           thinking. The analysis is more sophisticated. The writing is more natural. It handles
-          complex, multi-part problems with more depth. It tends to push back more thoughtfully
-          &mdash; where ChatGPT might just give you what you asked for, Claude will often flag a risk
-          or consideration you haven&apos;t thought through. For business decisions, that matters.
+          complex, multi-part problems with more depth. It pushes back more thoughtfully. Where
+          ChatGPT might just give you what you asked for, Claude will often flag a risk or
+          consideration you haven&apos;t thought through. For business decisions, that matters.
         </p>
         <p>
           But Claude Cowork is still built on the same session model. When the conversation ends,
@@ -3511,7 +3432,7 @@ export const posts: Post[] = [
           build an <em>operation</em> with one.
         </p>
 
-        <h2>Level Three: Claude Code in VS Code</h2>
+        <h2>Level three: Claude Code in VS Code</h2>
         <p>
           This is where the conversation needs to shift, because what we&apos;re describing isn&apos;t
           a &ldquo;better chat tool.&rdquo; It&apos;s an entirely different kind of relationship with AI.
@@ -3523,23 +3444,21 @@ export const posts: Post[] = [
           system. When Claude lives inside your workspace, it stops being something you talk to and
           starts being something that works alongside you.
         </p>
-        <p>And most importantly: <strong>it can be trained.</strong></p>
+        <p>And most importantly: it can be trained.</p>
         <p>
-          <strong>Your standing orders.</strong> Every Claude Code workspace has a document Claude
-          reads before every single session &mdash; your current priorities, your active clients, your
-          rules. Claude reads this before you type a word. It walks in already briefed, every time.
+          Every Claude Code workspace has a document Claude reads before every single session: your
+          current priorities, your active clients, your rules. It walks in already briefed, every
+          time.
         </p>
         <p>
-          <strong>Your business memory.</strong> As Claude works with you, it builds memory files
-          that load in future sessions. It remembers who your clients are, what projects are active,
-          and every correction you&apos;ve made. In Cowork, corrections disappear when the session
-          ends. You&apos;ll give the same correction again tomorrow. In Claude Code, corrections are
-          saved and permanent. The agent you&apos;re working with in month three has been shaped by
-          months of real feedback from you.
+          As Claude works with you, it builds memory files that load in future sessions. It remembers
+          who your clients are, what projects are active, and every correction you&apos;ve made. In
+          Cowork, corrections disappear when the session ends. You&apos;ll give the same correction
+          again tomorrow. In Claude Code, corrections are saved and permanent. The agent you&apos;re
+          working with in month three has been shaped by months of real feedback from you.
         </p>
         <p>
-          <strong>Your standard procedures.</strong> In Claude Code, you can build
-          &ldquo;skills&rdquo; &mdash; your business procedures turned into commands. Your onboarding
+          You can also build skills: your business procedures turned into commands. Your onboarding
           process. Your client review. Your weekly business summary. Each becomes a single command the
           AI executes exactly right, every time, without re-explaining.
         </p>
@@ -3548,7 +3467,7 @@ export const posts: Post[] = [
           system for your business.
         </p>
 
-        <h2>What This Looks Like in Practice</h2>
+        <h2>What this looks like in practice</h2>
         <p>
           <strong>In ChatGPT:</strong> You ask &ldquo;help me write a follow-up email to a
           prospective client.&rdquo; It writes a professional, generic follow-up. You edit it heavily
@@ -3567,11 +3486,11 @@ export const posts: Post[] = [
           send in two minutes, not twenty.
         </p>
         <p>
-          Across every task, every client, every workflow &mdash; that difference compounds into a
+          Across every task, every client, every workflow, that difference compounds into a
           completely different kind of leverage.
         </p>
 
-        <h2>The Progression at a Glance</h2>
+        <h2>The progression at a glance</h2>
         <div className="overflow-x-auto my-8">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -3602,11 +3521,11 @@ export const posts: Post[] = [
           </table>
         </div>
 
-        <h2>The Question Worth Sitting With</h2>
+        <h2>The question worth sitting with</h2>
         <p>
-          Most people reading this are somewhere in level one or two. That&apos;s not a criticism
-          &mdash; that&apos;s just where the majority of AI users are right now, and those tools
-          genuinely help.
+          Most people reading this are somewhere in level one or two. That&apos;s not a criticism;
+          that&apos;s just where the majority of AI users are right now, and those tools genuinely
+          help.
         </p>
         <p>But here&apos;s the question worth sitting with:</p>
         <p>
@@ -3682,7 +3601,7 @@ export const posts: Post[] = [
           decisions.
         </p>
 
-        <h2>What a Competitive Analysis Actually Shows</h2>
+        <h2>What a competitive analysis actually shows</h2>
         <p>
           A thorough competitive analysis maps four things your competitors are
           doing that you probably aren&apos;t tracking:
@@ -3717,7 +3636,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>Why AI Changed What&apos;s Possible</h2>
+        <h2>Why AI changed what&apos;s possible</h2>
         <p>
           Manual competitive research is slow and incomplete. You can
           visit websites, read reviews, and search for your competitors — but
@@ -3733,7 +3652,7 @@ export const posts: Post[] = [
           exactly what&apos;s changed.
         </p>
 
-        <h2>The Strategic Question It Answers</h2>
+        <h2>The strategic question it answers</h2>
         <p>
           The real value of competitive analysis isn&apos;t in the data —
           it&apos;s in answering one question: <em>where should we focus?</em>{" "}
@@ -3750,7 +3669,7 @@ export const posts: Post[] = [
           prioritized action plan.
         </p>
 
-        <h2>The Cost of Not Knowing</h2>
+        <h2>The cost of not knowing</h2>
         <p>
           Businesses that skip competitive analysis tend to make the same
           mistake: competing on what they think matters rather than what the
@@ -4112,7 +4031,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>The Gaps Most Businesses Don&apos;t Know About</h2>
+        <h2>The gaps most businesses don&apos;t know about</h2>
         <p>
           In our experience auditing Colorado businesses, the most common
           findings aren&apos;t catastrophic failures — they&apos;re quiet leaks.
@@ -4131,7 +4050,7 @@ export const posts: Post[] = [
           have the information to make that call with confidence.
         </p>
 
-        <h2>How AI Makes Auditing Faster and Deeper</h2>
+        <h2>How AI makes auditing faster and deeper</h2>
         <p>
           What used to require weeks of manual research can now be done in a
           fraction of the time. AI tools crawl your site for technical issues,
@@ -4145,7 +4064,7 @@ export const posts: Post[] = [
           months, and specific to your market — not a generic template.
         </p>
 
-        <h2>What to Do With the Findings</h2>
+        <h2>What to do with the findings</h2>
         <p>
           A good audit doesn&apos;t just describe problems — it ranks them by
           impact and gives you a clear sequence for fixing them. Not everything
@@ -4209,7 +4128,7 @@ export const posts: Post[] = [
           single-language presence — and quietly accept that as normal.
         </p>
 
-        <h2>The Numbers Behind the Opportunity</h2>
+        <h2>The numbers behind the opportunity</h2>
         <p>
           In Eagle and Pitkin counties, Spanish-speaking residents make up 40–50%
           of the population. In Routt County (Steamboat Springs) and Summit
@@ -4231,7 +4150,7 @@ export const posts: Post[] = [
           style={{ maxHeight: "420px" }}
         />
 
-        <h2>What Bilingual Marketing Actually Means</h2>
+        <h2>What bilingual marketing actually means</h2>
         <p>
           Translation is not bilingual marketing. Running your English website
           through Google Translate and calling it done misses the point — and
@@ -4248,7 +4167,7 @@ export const posts: Post[] = [
           competitors. This is an open window.
         </p>
 
-        <h2>How AI Makes It Affordable</h2>
+        <h2>How AI makes it affordable</h2>
         <p>
           Historically, bilingual marketing required either a bilingual team
           member or ongoing translation costs. Both created friction that led
