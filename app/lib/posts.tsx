@@ -5046,6 +5046,219 @@ export const posts: Post[] = [
       </>
     ),
   },
+  {
+    slug: "tu-negocio-es-excelente-nadie-lo-sabe",
+    title: "Tu negocio es excelente. Nadie lo sabe.",
+    excerpt:
+      "La mayoría de los negocios pequeños del valle son excepcionales en lo que hacen y prácticamente invisibles en línea. Aquí está el camino de tres pasos para que te encuentren — y dónde encaja la IA.",
+    date: "May 1, 2026",
+    dateISO: "2026-05-01",
+    category: "Estrategia Digital",
+    readTime: "5 min de lectura",
+    coverImage: "/img-1298-river-outfitter.jpeg",
+    coverAlt:
+      "Guías de aventura preparando balsas en el Eagle River en Colorado, representando los negocios pequeños del Eagle River Valley",
+    keywords:
+      "presencia digital negocio pequeño, aparecer en línea negocio local, IA para negocios pequeños, SEO local Colorado, GEO negocio pequeño, optimización motores generativos, Eagle River Valley negocios",
+    content: (
+      <>
+        <p>
+          Hablamos con dueños de negocios pequeños en el Eagle River Valley cada
+          semana. Contratistas, excavadores, guías de aventura, floristas,
+          empresas de jardinería, profesionales de bienes raíces. Los que llevan
+          años en el negocio son genuinamente buenos en lo que hacen. Sus
+          clientes confían en ellos. Su trabajo habla por sí solo.
+        </p>
+        <p>Luego los buscamos en línea.</p>
+        <p>
+          A veces encontramos un sitio web que no se ha actualizado desde 2019.
+          A veces un perfil de Google con el número de teléfono equivocado, sin
+          fotos y con tres reseñas de hace años. A veces nada, solo una página
+          de Facebook de otra era.
+        </p>
+        <p>
+          La brecha entre qué tan buenos son estos negocios y qué tan visibles
+          están en línea es real, y cada año les cuesta más.
+        </p>
+
+        <h2>El problema de la experiencia invisible</h2>
+        <p>No es un fracaso de marketing. Es un problema de visibilidad.</p>
+        <p>
+          El negocio tiene valor real. El dueño tiene conocimiento profundo. Los
+          clientes que lo encuentran se vuelven leales. Pero la puerta digital o
+          no existe o no refleja lo que hay detrás, y el único camino hacia
+          nuevos clientes termina siendo el boca a boca y las referencias.
+        </p>
+        <p>
+          En una comunidad unida como la nuestra, eso funciona. Hasta que deja
+          de funcionar.
+        </p>
+        <p>
+          El boca a boca tiene un techo. Las referencias se agotan cuando la
+          economía baja o cuando la red de contactos envejece. Cada vez más,
+          incluso la referencia más cálida buscará en línea antes de llamar. Lo
+          que encuentre define lo que pasa después.
+        </p>
+
+        <h2>Por qué esta brecha se está volviendo más cara</h2>
+        <p>
+          Hasta hace unos años, una presencia digital débil era una oportunidad
+          perdida. Hoy es una responsabilidad que se acumula.
+        </p>
+        <p>
+          El comportamiento de búsqueda ha cambiado. Los clientes ya no solo
+          buscan en Google; ahora le preguntan a asistentes de inteligencia
+          artificial. ChatGPT, Gemini de Google y Grok—que creció de menos del
+          2% al casi 18% del mercado estadounidense de chatbots de IA en un solo
+          año (Apptopia vía Reuters, enero de 2026)—toman sus respuestas de
+          información indexada y fácil de encontrar. Los negocios con presencia
+          digital sólida reciben recomendaciones. Los que no tienen nada en
+          línea no aparecen.
+        </p>
+        <p>
+          Esto se llama GEO, optimización para motores generativos. Es la nueva
+          frontera del search local, y los negocios que construyen su presencia
+          digital ahora son los que van a aparecer en esas respuestas de IA
+          dentro de un año.
+        </p>
+        <p>
+          Esa ventana sigue abierta en la mayoría de los mercados pequeños. Por
+          ahora.
+        </p>
+
+        <h2>Fase 1: Que te encuentren</h2>
+        <p>Antes de cualquier otra cosa, un negocio necesita ser encontrable:</p>
+        <ul>
+          <li>
+            Un perfil de Google Business completo, verificado, con horarios
+            actualizados, fotos y un número de teléfono que funcione
+          </li>
+          <li>
+            Un sitio web que refleje lo que el negocio hace hoy, no una versión
+            del 2018 de la lista de servicios
+          </li>
+          <li>
+            Nombre, dirección y teléfono consistentes en todas las plataformas
+          </li>
+          <li>
+            Reseñas que reflejen la calidad del trabajo, lo suficientemente
+            recientes para importar
+          </li>
+        </ul>
+        <p>
+          Nada de esto es avanzado. Es la base. Sin ella, todo lo que venga
+          después—contenido, redes sociales, herramientas de IA—está construido
+          sobre arena.
+        </p>
+        <p>
+          La primera pregunta que le hacemos en Doble AI a cualquier nuevo
+          cliente: si alguien buscara ahora mismo lo que haces en tu área,
+          ¿te encontraría? ¿Y si te encontrara, lo que vería reflejaría la
+          calidad de tu trabajo?
+        </p>
+        <p>
+          Para la mayoría de los negocios que auditamos, la respuesta a al
+          menos una de esas preguntas es no.
+        </p>
+
+        <h2>Fase 2: Contar la historia</h2>
+        <p>
+          Con la base sólida, el contenido hace que la señal sea más fuerte con
+          el tiempo.
+        </p>
+        <p>
+          Páginas de servicios que respondan las preguntas reales de los
+          clientes. Artículos de blog que muestren lo que sabes. Preguntas
+          frecuentes que cubran lo que la gente pregunta antes de llamar. Fotos
+          del trabajo real.
+        </p>
+        <p>
+          Esto también es lo que impulsa la visibilidad en GEO. Los sistemas de
+          IA toman información de contenido escrito, indexado y fácil de
+          encontrar. Una empresa de techados en Eagle que ha publicado una página
+          sobre cómo trabaja a gran altitud tiene más probabilidades de aparecer
+          en una respuesta de IA que una que no ha publicado nada.
+        </p>
+        <p>
+          El contenido construye autoridad despacio y se acumula con el tiempo.
+          Es infraestructura, no una campaña.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+          alt="Laptop mostrando datos de presencia digital y analítica para un negocio pequeño"
+          style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
+        />
+
+        <h2>Fase 3: Amplificar con IA</h2>
+        <p>Ahora sí hay algo con qué trabajar.</p>
+        <p>
+          Una recepcionista de IA atiende llamadas fuera de horario y califica
+          prospectos, pero solo si el negocio tiene una identidad clara que
+          representar. Un sistema bilingüe abre un nuevo segmento de público,
+          pero el negocio primero necesita ser encontrable. Un flujo de
+          contenido automatizado escala lo que ya funciona, pero tiene que haber
+          algo que funcione.
+        </p>
+        <p>La IA no crea la señal. La amplifica.</p>
+        <p>
+          Esa es la parte que la mayoría de las conversaciones sobre IA se
+          saltan. Las herramientas son reales y el potencial es real, pero
+          necesitan algo sobre qué construir. Un negocio que no aparece en las
+          búsquedas no puede amplificar su camino hacia la visibilidad.
+        </p>
+
+        <h2>La secuencia es la estrategia</h2>
+        <p>
+          La mayoría de los diseñadores web se detienen en la Fase 1. La mayoría
+          de las empresas de IA saltan directo a la Fase 3. Los negocios que
+          construyen ventaja duradera trabajan las tres en orden, y empiezan
+          antes de que sus competidores locales despierten a la misma
+          oportunidad.
+        </p>
+        <p>
+          El objetivo es una presencia digital que refleje la calidad del
+          trabajo, llegue a nuevos clientes y le permita al equipo hacer más con
+          lo que ya tiene.
+        </p>
+        <p>
+          Tu experiencia es real. La pregunta es si quienes te necesitan pueden
+          encontrarte.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "¿Qué significa 'presencia digital' para un negocio pequeño?",
+              a: "Es todo lo que un cliente potencial encuentra cuando busca tu negocio o el servicio que ofreces: tu sitio web, perfil de Google, reseñas, perfiles en redes sociales y cualquier contenido que hayas publicado. Una presencia digital sólida significa que todo eso es preciso, consistente y representativo de lo que realmente haces.",
+            },
+            {
+              q: "¿Cómo sé si mi negocio aparece en línea?",
+              a: "Busca el nombre de tu negocio y el servicio que ofreces en tu área. Verifica si tu perfil de Google Business aparece, si la información es correcta y si estás mostrándote en los resultados locales. También puedes preguntarle a un asistente de IA como ChatGPT o Gemini de Google la misma pregunta que haría un nuevo cliente. Si tu negocio no aparece, eso es una señal.",
+            },
+            {
+              q: "¿Qué es GEO y por qué importa para los negocios pequeños?",
+              a: "GEO significa optimización para motores generativos: es la práctica de asegurarse de que tu negocio aparezca cuando herramientas de IA como ChatGPT, Gemini de Google o Grok respondan preguntas sobre tu industria o área. A medida que más clientes usan asistentes de IA para encontrar servicios, los negocios con bases digitales sólidas y contenido publicado reciben recomendaciones. Los que no tienen nada no aparecen.",
+            },
+            {
+              q: "¿Cuándo debería un negocio pequeño empezar a usar herramientas de IA?",
+              a: "Después de que la base digital esté en su lugar. Las herramientas de IA amplían lo que ya está funcionando: pueden automatizar la captación de prospectos, atender llamadas fuera de horario, acelerar la producción de contenido y extender la capacidad del equipo. Pero esas herramientas necesitan una presencia digital funcional sobre qué construir. Empezar con IA antes de establecer visibilidad tiende a dar resultados mediocres.",
+            },
+            {
+              q: "¿Cuánto tiempo tarda en construir una presencia digital desde cero?",
+              a: "El trabajo base—perfil de Google Business, sitio web actualizado, directorios consistentes—puede hacerse en semanas. La visibilidad en contenido y GEO se construye en meses. Los negocios que empiezan ahora van a estar en una posición considerablemente más fuerte para la próxima temporada que los que esperan.",
+            },
+            {
+              q: "¿Cuál es el primer paso?",
+              a: "Una auditoría honesta de lo que existe hoy: qué aparece cuando alguien busca tu negocio, si la información es correcta, si tu sitio web refleja tus servicios actuales. Esa base te dice exactamente dónde empezar.",
+            },
+          ]}
+        />
+
+        <CTAes />
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
