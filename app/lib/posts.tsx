@@ -4850,10 +4850,9 @@ export const posts: Post[] = [
     dateISO: "2026-05-01",
     category: "Digital Strategy",
     readTime: "5 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/img-1298-river-outfitter.jpeg",
     coverAlt:
-      "Small business owner at work, representing the gap between expertise and digital visibility",
+      "River outfitter guides preparing rafts on the Eagle River in Colorado, representing the skilled small businesses of the Eagle River Valley",
     keywords:
       "small business digital presence, get found online small business, AI for small business, local SEO Colorado, GEO small business, generative engine optimization, Eagle River Valley business",
     content: (
