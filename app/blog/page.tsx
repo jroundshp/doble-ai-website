@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 
 // EN first, ES second — each pair lands in adjacent columns in the 2-col grid
 const pairs: [string, string?][] = [
+  ["your-business-is-great-nobody-knows-it-exists"],
   ["your-ai-should-know-your-business-by-now", "tu-ia-ya-deberia-conocer-tu-negocio"],
   ["why-ai-needs-human-context", "ia-escala-nosotros-contexto"],
   ["bilingual-ai-receptionist-small-business", "recepcionista-ia-bilingue-pequenos-negocios"],

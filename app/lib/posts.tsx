@@ -4841,6 +4841,212 @@ export const posts: Post[] = [
       </>
     ),
   },
+  {
+    slug: "your-business-is-great-nobody-knows-it-exists",
+    title: "Your Business Is Great. Nobody Knows It Exists.",
+    excerpt:
+      "Most small businesses in the valley are exceptional at what they do and invisible online. Here&apos;s the three-step path from hidden to found — and where AI actually fits in.",
+    date: "May 1, 2026",
+    dateISO: "2026-05-01",
+    category: "Digital Strategy",
+    readTime: "5 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "Small business owner at work, representing the gap between expertise and digital visibility",
+    keywords:
+      "small business digital presence, get found online small business, AI for small business, local SEO Colorado, GEO small business, generative engine optimization, Eagle River Valley business",
+    content: (
+      <>
+        <p>
+          We talk to small business owners across the Eagle River Valley every
+          week. Contractors, excavators, outfitters, florists, landscaping
+          companies, real estate professionals. The ones who have been around
+          for years are genuinely good at what they do. Their customers trust
+          them. Their work speaks for itself.
+        </p>
+        <p>Then we search for them online.</p>
+        <p>
+          Sometimes we find a website that hasn&apos;t been updated since 2019.
+          Sometimes a Google listing with the wrong phone number, no photos, and
+          three reviews from years ago. Sometimes nothing at all, just a
+          Facebook page from a different era.
+        </p>
+        <p>
+          The gap between how good these businesses are and how visible they are
+          is real. And it&apos;s costing them more every year.
+        </p>
+
+        <h2>The hidden expertise problem</h2>
+        <p>It&apos;s not a marketing failure. It&apos;s a visibility problem.</p>
+        <p>
+          The business has real value. The owner has deep knowledge. The
+          customers who find them become loyal. But the digital front door
+          either doesn&apos;t exist or doesn&apos;t match what&apos;s behind
+          it, and so the only path to new customers is word of mouth and
+          referral.
+        </p>
+        <p>
+          In a tight-knit community like ours, that works. Until it
+          doesn&apos;t.
+        </p>
+        <p>
+          Word of mouth has a ceiling. Referrals dry up when the economy slows
+          or the referral network ages out. And increasingly, even the warmest
+          referral will search online before picking up the phone. What they
+          find shapes what happens next.
+        </p>
+
+        <h2>Why this gap is getting more expensive</h2>
+        <p>
+          A few years ago, a weak digital presence was a missed opportunity.
+          Today it&apos;s a liability that compounds.
+        </p>
+        <p>
+          Search behavior has shifted. Customers aren&apos;t just Googling
+          anymore; they&apos;re asking AI assistants. ChatGPT, Google&apos;s
+          Gemini, and Grok — which grew from under 2% to nearly 18% of the
+          U.S. AI chatbot market in a single year (Apptopia via Reuters,
+          January 2026) — all pull answers from indexed, findable information.
+          Businesses with a solid digital footprint get recommended. Businesses
+          with nothing online don&apos;t appear.
+        </p>
+        <p>
+          This is called GEO, generative engine optimization. It&apos;s the new
+          frontier of local search, and the businesses building their digital
+          presence now are the ones that will show up in those AI answers a year
+          from now.
+        </p>
+        <p>That window is still open in most small markets. Not for long.</p>
+
+        <h2>Phase 1: Get found</h2>
+        <p>Before anything else, a business needs to be findable:</p>
+        <ul>
+          <li>
+            A complete Google Business Profile, claimed and verified, with
+            current hours, photos, and a working phone number
+          </li>
+          <li>
+            A website that reflects what the business does today, not a 2018
+            version of the service list
+          </li>
+          <li>
+            Consistent name, address, and phone number across every platform
+          </li>
+          <li>
+            Reviews that reflect the quality of the work, recent enough to
+            matter
+          </li>
+        </ul>
+        <p>
+          None of this is advanced. It&apos;s the foundation. Without it,
+          everything that comes after — content, social, AI tools — is built on
+          sand.
+        </p>
+        <p>
+          The first question we ask any new client: if a stranger searched for
+          what you do in your area right now, would they find you? And if they
+          found you, would what they see match the quality of your work?
+        </p>
+        <p>
+          For most businesses we audit, the answer to at least one of those is
+          no.
+        </p>
+
+        <h2>Phase 2: Tell the story</h2>
+        <p>
+          Once the foundation is solid, content makes the signal louder over
+          time.
+        </p>
+        <p>
+          Service pages that answer real customer questions. Blog posts that
+          show what you know. FAQs that cover what people ask before they call.
+          Photos that show the actual work.
+        </p>
+        <p>
+          This is also what drives GEO visibility. AI systems pull from written,
+          indexed, findable content. A roofing company in Eagle that has
+          published a page on working at high altitude is more likely to show up
+          in an AI answer than one that hasn&apos;t written anything.
+        </p>
+        <p>
+          Content builds authority slowly and compounds over time. It&apos;s
+          infrastructure, not a campaign.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+          alt="Laptop showing analytics and digital presence data for a small business"
+          style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
+        />
+
+        <h2>Phase 3: Amplify with AI</h2>
+        <p>Now there&apos;s something to work with.</p>
+        <p>
+          An AI receptionist handles after-hours calls and qualifies leads, but
+          only if the business has a clear identity to represent. A bilingual
+          system opens a new market segment, but the business needs to be
+          findable first. An automated content pipeline scales what&apos;s
+          working, but there has to be something working.
+        </p>
+        <p>AI doesn&apos;t create the signal. It amplifies it.</p>
+        <p>
+          That&apos;s the part most AI conversations skip. The tools are real
+          and the potential is real, but they need something to build on. A
+          business that isn&apos;t showing up in search can&apos;t amplify its
+          way to visibility.
+        </p>
+
+        <h2>The sequence is the strategy</h2>
+        <p>
+          Most web designers stop at Phase 1. Most AI firms jump straight to
+          Phase 3. The businesses that build lasting advantage work through all
+          three in order, and they start before their local competitors wake up
+          to the same opportunity.
+        </p>
+        <p>
+          The goal is a digital presence that genuinely reflects the quality of
+          the work, reaches new customers, and uses AI to extend what the team
+          can already do.
+        </p>
+        <p>
+          Your expertise is real. The question is whether the market can find
+          it.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "What does 'digital presence' mean for a small business?",
+              a: "It's the sum of everything a potential customer finds when they search for your business or the service you offer — your website, Google listing, reviews, social profiles, and any content you've published. A strong digital presence means all of those things are accurate, consistent, and representative of what you actually do.",
+            },
+            {
+              q: "How do I know if my business is showing up online?",
+              a: "Search for your own business name and for the service you provide in your area. Check whether your Google Business Profile appears, whether the information is accurate, and whether you're showing up in local results. You can also ask an AI assistant like ChatGPT or Google's Gemini the same question a new customer would ask. If your business doesn't come up, that's a signal.",
+            },
+            {
+              q: "What is GEO and why does it matter for small businesses?",
+              a: "GEO stands for generative engine optimization — it's the practice of making sure your business appears when AI tools like ChatGPT, Google's Gemini, or Grok answer questions about your industry or area. As more customers use AI assistants to find services, businesses with solid digital foundations and published content get recommended. Businesses without them don't appear at all.",
+            },
+            {
+              q: "When should a small business start using AI tools?",
+              a: "After the digital foundation is in place. AI tools amplify what's already working — they can automate lead intake, handle after-hours calls, speed up content production, and extend your team's capacity. But those tools need a functional digital presence to build on. Starting with AI before establishing visibility tends to produce underwhelming results.",
+            },
+            {
+              q: "How long does it take to build a digital presence from scratch?",
+              a: "The foundational work — Google Business Profile, updated website, consistent listings — can be done in weeks. Content and GEO visibility build over months. The businesses that start now will be in a meaningfully stronger position by next season than the ones that wait.",
+            },
+            {
+              q: "What's the first step?",
+              a: "An honest audit of what exists today — what shows up when someone searches for your business, whether the information is accurate, whether your website reflects your current services. That baseline tells you exactly where to start.",
+            },
+          ]}
+        />
+
+        <CTA />
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
