@@ -372,10 +372,10 @@ const projects = [
     kind: "Our product · Live data dashboard",
     step1Label: "The gap we saw",
     step1:
-      "River conditions for Colorado's headwaters were scattered across separate agency pages — slow to find and hard to read in real time.",
+      "River guides, fly-fishing outfitters, and local river enthusiasts were bouncing between half a dozen sources to get current, accurate flows, water temperatures, and — for the fly guides especially — turbidity. The data existed, but it was scattered and slow to read when conditions change by the hour.",
     step2Label: "What we built",
     step2:
-      "A live dashboard that pulls flow, water temperature, and turbidity into one clean, real-time view anyone can read at a glance.",
+      "One place to check the spots that matter across the Vail–Eagle River Valley and the Roaring Fork Valley — live flow, water temperature, and turbidity in a single, clean, real-time view. One bookmark instead of six.",
     domain: "coheadwatersreport.com",
     href: "https://coheadwatersreport.com",
     cta: "See it live",
