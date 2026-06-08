@@ -62,6 +62,7 @@ export default function Home() {
       <Services />
       <VoiceDemo />
       <SampleWork />
+      <Projects />
       <FAQ />
       <About />
       <Contact />
@@ -336,6 +337,193 @@ function SampleWork() {
               </span>
             </div>
           </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Projects ──
+   Live builds we've shipped. Each row tells the same story: what we found / the
+   gap we saw → what we did → proof you can click.
+
+   IMAGERY: each project's visual is a browser-frame mock (branded gradient panel)
+   so the section ships with no extra assets. To use a real screenshot instead,
+   drop a file at public/work/<slug>.png and pass `image="/work/<slug>.png"` on the
+   project below — ProjectVisual will render it in the frame in place of the panel. */
+const projects = [
+  {
+    name: "Sol Ramirez Real Estate",
+    kind: "Client build · Real estate · Ajijic, Mexico",
+    step1Label: "The audit revealed",
+    step1:
+      "A certified, experienced bilingual agent with almost no independent presence — no personal website, listings buried inside a broker page and the MLS, weak social, and zero reviews. A strong local expert who was effectively invisible online.",
+    step2Label: "What we did",
+    step2:
+      "Built a full bilingual site: for-sale plus a dedicated rentals section synced live from the Chapala MLS, Ajijic and Chapala area guides, a foreign-buyer blog tuned for search, her credentials front and center, and WhatsApp on every page.",
+    domain: "solramrealestate.com",
+    href: "https://solramrealestate.com",
+    cta: "Visit the site",
+    tag: "Bilingual real estate",
+    gradient: "linear-gradient(135deg, #0f3d4a 0%, #1c6b6e 58%, #e8a13c 125%)",
+  },
+  {
+    name: "CO Headwaters Report",
+    kind: "Our product · Live data dashboard",
+    step1Label: "The gap we saw",
+    step1:
+      "River conditions for Colorado's headwaters were scattered across separate agency pages — slow to find and hard to read in real time.",
+    step2Label: "What we built",
+    step2:
+      "A live dashboard that pulls flow, water temperature, and turbidity into one clean, real-time view anyone can read at a glance.",
+    domain: "coheadwatersreport.com",
+    href: "https://coheadwatersreport.com",
+    cta: "See it live",
+    tag: "Real-time river data",
+    gradient: "linear-gradient(135deg, #0a2540 0%, #145e8c 100%)",
+  },
+  {
+    name: "Vail Valley Report",
+    kind: "Our product · Live data dashboard",
+    step1Label: "The gap we saw",
+    step1:
+      "Locals and visitors had to check four different sources to piece together temperatures, weather, and resort conditions.",
+    step2Label: "What we built",
+    step2:
+      "A one-stop live report — Vail and Beaver Creek top and base temps, weather, and Eagle County Airport conditions, all in a single glance.",
+    domain: "vailvalleyreport.com",
+    href: "https://vailvalleyreport.com",
+    cta: "See it live",
+    tag: "One-stop conditions",
+    gradient: "linear-gradient(135deg, #1a2238 0%, #5b7fb0 100%)",
+  },
+  {
+    name: "LUCI — Bilingual AI Receptionist",
+    kind: "Our product · Bilingual AI · Live on this site",
+    step1Label: "The challenge",
+    step1:
+      "Small businesses miss calls — and miss them in two languages. After-hours and overflow calls go unanswered, and round-the-clock bilingual coverage is expensive to staff.",
+    step2Label: "What we built",
+    step2:
+      "LUCI answers 24/7 — Lucy in English, Lucía in Spanish — handles questions, routes calls, and emails you every lead. She's live on this very site: call and try her right now.",
+    domain: "dobleai.com",
+    href: "tel:+19705282835",
+    cta: "Call her now · (970) 528-2835",
+    tag: "Answers in English & Spanish",
+    gradient: "linear-gradient(135deg, #2a1505 0%, #b5560f 62%, #f97316 125%)",
+  },
+];
+
+function ProjectVisual({
+  domain,
+  tag,
+  name,
+  gradient,
+  image,
+}: {
+  domain: string;
+  tag: string;
+  name: string;
+  gradient: string;
+  image?: string;
+}) {
+  return (
+    <div className="rounded-2xl overflow-hidden border border-white/[0.1] shadow-2xl shadow-black/40">
+      {/* browser chrome */}
+      <div className="flex items-center gap-2 px-4 py-3 bg-white/[0.06] border-b border-white/[0.08]">
+        <span className="w-3 h-3 rounded-full bg-red-400/60" />
+        <span className="w-3 h-3 rounded-full bg-yellow-400/60" />
+        <span className="w-3 h-3 rounded-full bg-green-400/60" />
+        <div className="ml-3 flex-1 truncate rounded-md bg-black/30 px-3 py-1.5 text-xs text-[#a3a3a3]">
+          {domain}
+        </div>
+      </div>
+      {/* preview — branded panel, or a real screenshot if `image` is provided */}
+      {image ? (
+        <img src={image} alt={`${name} preview`} className="block w-full h-auto" />
+      ) : (
+        <div
+          className="relative aspect-[16/10] flex flex-col items-center justify-center text-center px-8"
+          style={{ background: gradient }}
+        >
+          <div className="text-[11px] font-semibold tracking-widest uppercase text-white/70 mb-3">
+            {tag}
+          </div>
+          <div className="text-2xl md:text-3xl font-bold text-white leading-tight">
+            {name}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Projects() {
+  return (
+    <section id="projects" className="py-24 px-6">
+      <div className="max-w-6xl mx-auto">
+        <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
+          <span className="w-6 h-px bg-orange-500" />
+          Recent projects
+        </div>
+        <h2 className="text-4xl font-bold mb-4">Real businesses. Real results.</h2>
+        <p className="text-[#a3a3a3] text-lg mb-16 max-w-2xl">
+          We don&apos;t just audit — we build and ship. Here&apos;s a look at what
+          we found, what we did about it, and the work itself. Every link below is
+          live: see for yourself.
+        </p>
+
+        <div className="space-y-16 md:space-y-24">
+          {projects.map((p, i) => (
+            <div
+              key={p.name}
+              className="grid md:grid-cols-2 gap-10 md:gap-16 items-center"
+            >
+              {/* visual — alternates sides on desktop */}
+              <div className={i % 2 === 1 ? "md:order-2" : ""}>
+                <ProjectVisual
+                  domain={p.domain}
+                  tag={p.tag}
+                  name={p.name}
+                  gradient={p.gradient}
+                />
+              </div>
+
+              {/* story */}
+              <div className={i % 2 === 1 ? "md:order-1" : ""}>
+                <div className="text-xs font-bold text-orange-500 tracking-widest uppercase mb-3">
+                  {p.kind}
+                </div>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-6">{p.name}</h3>
+
+                <div className="space-y-5 mb-7">
+                  <div className="border-l-2 border-white/[0.12] pl-4">
+                    <div className="text-[11px] font-semibold tracking-widest uppercase text-[#8a8a8a] mb-1.5">
+                      {p.step1Label}
+                    </div>
+                    <p className="text-[#a3a3a3] leading-relaxed">{p.step1}</p>
+                  </div>
+                  <div className="border-l-2 border-orange-500/50 pl-4">
+                    <div className="text-[11px] font-semibold tracking-widest uppercase text-orange-500/80 mb-1.5">
+                      {p.step2Label}
+                    </div>
+                    <p className="text-[#cfcfcf] leading-relaxed">{p.step2}</p>
+                  </div>
+                </div>
+
+                <a
+                  href={p.href}
+                  {...(p.href.startsWith("http")
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
+                  className="group inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-400 text-white font-semibold px-6 py-3 rounded-full text-sm transition-colors"
+                >
+                  {p.cta}
+                  <span className="group-hover:translate-x-0.5 transition-transform">→</span>
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

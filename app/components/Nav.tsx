@@ -16,6 +16,7 @@ export default function Nav() {
         <div className="hidden md:flex items-center gap-8 text-sm text-[#a3a3a3]">
           <a href="#services" className="hover:text-white transition-colors">Services</a>
           <a href="#work" className="hover:text-white transition-colors">Our Work</a>
+          <a href="#projects" className="hover:text-white transition-colors">Projects</a>
           <a href="/translation" className="hover:text-white transition-colors">Translation</a>
           <a href="/blog" className="hover:text-white transition-colors">Blog</a>
           <a href="#about" className="hover:text-white transition-colors">About</a>
@@ -54,6 +55,7 @@ export default function Nav() {
         <div className="md:hidden bg-[#0a0a0a] border-t border-white/[0.06] px-6 py-4 flex flex-col gap-4 text-sm text-[#a3a3a3]">
           <a href="#services" onClick={close} className="hover:text-white transition-colors py-1">Services</a>
           <a href="#work" onClick={close} className="hover:text-white transition-colors py-1">Our Work</a>
+          <a href="#projects" onClick={close} className="hover:text-white transition-colors py-1">Projects</a>
           <a href="/translation" onClick={close} className="hover:text-white transition-colors py-1">Translation</a>
           <a href="/blog" onClick={close} className="hover:text-white transition-colors py-1">Blog</a>
           <a href="#about" onClick={close} className="hover:text-white transition-colors py-1">About</a>
