@@ -387,10 +387,10 @@ const projects = [
     kind: "Our product · Live data dashboard",
     step1Label: "The gap we saw",
     step1:
-      "Locals and visitors had to check four different sources to piece together temperatures, weather, and resort conditions.",
+      "Locals, visitors, and anyone heading up the mountain were checking one site for the temperature in town, another for the top and base of the resort, and yet another for the airport — just to figure out what the day actually looked like across the valley.",
     step2Label: "What we built",
     step2:
-      "A one-stop live report — Vail and Beaver Creek top and base temps, weather, and Eagle County Airport conditions, all in a single glance.",
+      "A one-stop live report for the Vail Valley — current temps at the top and base of both Vail and Beaver Creek, local weather, and Eagle County Airport conditions, all on a single screen. One glance before you drive up, fly in, or head out.",
     domain: "vailvalleyreport.com",
     href: "https://vailvalleyreport.com",
     cta: "See it live",
