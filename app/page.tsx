@@ -271,7 +271,7 @@ function SampleWork() {
         <h2 className="text-4xl font-bold mb-4">See what an audit looks like.</h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
           Before you commit to anything, see the quality of work we deliver. Here are
-          real audits we completed for Colorado businesses — shared anonymously.
+          real audits we&apos;ve completed for the businesses we work with — shared anonymously.
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a
@@ -317,7 +317,7 @@ function SampleWork() {
             </div>
           </a>
           <a
-            href="https://jroundshp.github.io/doble-ai-deliverables/eagle-river-excavator/"
+            href="https://jroundshp.github.io/doble-ai-deliverables/sol-ramirez/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors"
@@ -326,11 +326,11 @@ function SampleWork() {
               <div className="text-xs font-bold text-orange-500 tracking-widest uppercase mb-3">
                 Business Audit · April 2026
               </div>
-              <h3 className="text-xl font-semibold mb-2">Eagle River Valley Excavator</h3>
+              <h3 className="text-xl font-semibold mb-2">Chapala Lakeside Realtor</h3>
               <p className="text-[#a3a3a3] text-sm mb-6 flex-1">
-                Eagle River Valley, Colorado — Family-owned excavation and trucking
-                operation, 50+ years in business. Digital presence audit and
-                priority growth roadmap.
+                Lake Chapala, Mexico — Bilingual real estate agent serving an
+                expat-heavy market. Digital presence audit, search and AI-visibility
+                check, competitive landscape, and a prioritized growth roadmap.
               </p>
               <span className="inline-flex items-center gap-2 text-orange-500 font-medium text-sm group-hover:gap-3 transition-all">
                 View the full audit →
