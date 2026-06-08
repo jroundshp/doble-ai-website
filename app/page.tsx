@@ -357,7 +357,7 @@ const projects = [
     kind: "Client build · Real estate · Ajijic, Mexico",
     step1Label: "The audit revealed",
     step1:
-      "A certified, experienced bilingual agent with almost no independent presence — no personal website, listings buried inside a broker page and the MLS, weak social, and zero reviews. A strong local expert who was effectively invisible online.",
+      "A respected local expert — experienced, certified, and genuinely great at what she does — with almost no digital presence to show for it. No personal website, listings buried in a broker page and the MLS. She wasn't surfacing in Google searches, and AI tools like ChatGPT and Grok didn't know she existed. To anyone searching online, she was invisible.",
     step2Label: "What we did",
     step2:
       "Built a full bilingual site: for-sale plus a dedicated rentals section synced live from the Chapala MLS, Ajijic and Chapala area guides, a foreign-buyer blog tuned for search, her credentials front and center, and WhatsApp on every page.",
