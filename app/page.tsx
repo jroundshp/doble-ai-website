@@ -366,6 +366,7 @@ const projects = [
     cta: "Visit the site",
     tag: "Adventure film & photography",
     gradient: "linear-gradient(135deg, #0a0a0a 0%, #5c0a14 60%, #c8102e 125%)",
+    image: "/work/alexander-estrada.jpg",
   },
   {
     name: "Sol Ramirez Real Estate",
@@ -501,6 +502,7 @@ function Projects() {
                   tag={p.tag}
                   name={p.name}
                   gradient={p.gradient}
+                  image={p.image}
                 />
               </div>
 
