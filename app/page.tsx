@@ -353,21 +353,6 @@ function SampleWork() {
    project below — ProjectVisual will render it in the frame in place of the panel. */
 const projects = [
   {
-    name: "Sol Ramirez Real Estate",
-    kind: "Client build · Real estate · Ajijic, Mexico",
-    step1Label: "The audit revealed",
-    step1:
-      "A respected local expert — experienced, certified, and genuinely great at what she does — with almost no digital presence to show for it. No personal website, listings buried in a broker page and the MLS. She wasn't surfacing in Google searches, and AI tools like ChatGPT and Grok didn't know she existed. To anyone searching online, she was invisible.",
-    step2Label: "What we did",
-    step2:
-      "Built a full bilingual site: for-sale plus a dedicated rentals section synced live from the Chapala MLS, Ajijic and Chapala area guides, a foreign-buyer blog tuned for search, her credentials front and center, and WhatsApp on every page.",
-    domain: "solramrealestate.com",
-    href: "https://solramrealestate.com",
-    cta: "Visit the site",
-    tag: "Bilingual real estate",
-    gradient: "linear-gradient(135deg, #0f3d4a 0%, #1c6b6e 58%, #e8a13c 125%)",
-  },
-  {
     name: "Alexander Estrada",
     kind: "Client build · Adventure film & photography · Denver–Boulder, CO",
     step1Label: "The audit revealed",
@@ -381,6 +366,21 @@ const projects = [
     cta: "Visit the site",
     tag: "Adventure film & photography",
     gradient: "linear-gradient(135deg, #0a0a0a 0%, #5c0a14 60%, #c8102e 125%)",
+  },
+  {
+    name: "Sol Ramirez Real Estate",
+    kind: "Client build · Real estate · Ajijic, Mexico",
+    step1Label: "The audit revealed",
+    step1:
+      "A respected local expert — experienced, certified, and genuinely great at what she does — with almost no digital presence to show for it. No personal website, listings buried in a broker page and the MLS. She wasn't surfacing in Google searches, and AI tools like ChatGPT and Grok didn't know she existed. To anyone searching online, she was invisible.",
+    step2Label: "What we did",
+    step2:
+      "Built a full bilingual site: for-sale plus a dedicated rentals section synced live from the Chapala MLS, Ajijic and Chapala area guides, a foreign-buyer blog tuned for search, her credentials front and center, and WhatsApp on every page.",
+    domain: "solramrealestate.com",
+    href: "https://solramrealestate.com",
+    cta: "Visit the site",
+    tag: "Bilingual real estate",
+    gradient: "linear-gradient(135deg, #0f3d4a 0%, #1c6b6e 58%, #e8a13c 125%)",
   },
   {
     name: "CO Headwaters Report",
