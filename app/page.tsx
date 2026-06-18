@@ -360,7 +360,7 @@ const projects = [
       "A filmmaker, photographer, and drone pilot with ten-plus years of work and real credits — Simon Reeve's BBC series, Channel 4 News, ABC News, Natural Habitat Adventures. His old WordPress site showed almost none of it. Image-first work that should fill the screen sat cramped in a dated template, and years of climbing, expedition, and commercial shoots were scattered and hard to browse.",
     step2Label: "What we built",
     step2:
-      "An image-first, bilingual portfolio inspired by Jimmy Chin's — near-black, full-bleed, one red accent. The homepage opens on a single frame with Films, Photos, and About as the way in. His showreel and films live together, 200-plus photos are sorted into browsable galleries, and a blog tells his Cusco-to-Colorado story in English and Spanish — all built for search and for the way people actually look at visual work.",
+      "An image-first, bilingual portfolio inspired by Jimmy Chin's — near-black, full-bleed, one red accent. The homepage opens on a single frame with Films, Photos, and About as the way in. His showreel and films live together, 200-plus photos are sorted into browsable galleries, and a blog tells his Cusco-to-Colorado story in English and Spanish. The whole site is architected for SEO and GEO, so he surfaces in regular Google searches and in AI tools like ChatGPT and Grok — and it's built for the way people actually look at visual work.",
     domain: "alexanderestral.com",
     href: "https://alexanderestral.com",
     cta: "Visit the site",
