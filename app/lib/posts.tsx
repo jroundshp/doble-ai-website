@@ -70,7 +70,7 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 export const posts: Post[] = [
   {
     slug: "human-plus-ai-is-the-magic",
-    title: "The magic was never the AI. It's you, with a backhoe.",
+    title: "The magic was never the AI. It's you, with an earth mover.",
     excerpt:
       "Everyone&apos;s bracing for AI to replace the human touch. The opposite is true: the person in the seat is what makes AI worth anything. Here&apos;s why.",
     date: "June 22, 2026",
@@ -78,9 +78,9 @@ export const posts: Post[] = [
     category: "AI Strategy",
     readTime: "6 min read",
     coverImage:
-      "https://images.unsplash.com/photo-1762291270825-0a49ab389d05?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629807473015-41699c4471b5?auto=format&fit=crop&w=1200&q=80",
     coverAlt:
-      "A backhoe loader with a front bucket and a rear digging arm, the small operator's everyday machine standing in for AI as leverage",
+      "An operator in the cab of an earth mover lifting a full bucket of dirt, the person running the machine while AI does the heavy lifting",
     keywords:
       "human plus AI small business, AI leverage not replacement, multiple AI agents small business, bilingual AI implementation Vail Valley, AI implementation partner Colorado",
     content: (
@@ -117,18 +117,19 @@ export const posts: Post[] = [
           person is the senior partner in it.
         </p>
 
-        <h2>AI is a backhoe, not a replacement for the operator</h2>
+        <h2>AI is an earth mover, not a replacement for the operator</h2>
         <p>
           Here&apos;s the way we describe it to business owners. Imagine
           you&apos;ve been digging trenches by hand for years. You&apos;re good
           at it. You know exactly where the line has to run and how deep. Then
-          someone hands you a backhoe.
+          someone hands you an earth mover.
         </p>
         <p>
-          The backhoe doesn&apos;t make you unnecessary. It makes you ten times
-          more productive at the thing you already know how to do. But a backhoe
-          with nobody in the seat is just an expensive machine sitting in a
-          field. Worse, a backhoe driven by someone who doesn&apos;t know the
+          The earth mover doesn&apos;t make you unnecessary. It makes you ten
+          times more productive at the thing you already know how to do. But an
+          earth mover with nobody in the seat is just an expensive machine
+          sitting in a field. Worse, an earth mover driven by someone who
+          doesn&apos;t know the
           property will tear through a water line in seconds. The power of the
           machine is only as good as the judgment of the operator.
         </p>
@@ -136,8 +137,8 @@ export const posts: Post[] = [
           That&apos;s AI. It moves an enormous amount of dirt fast. It still
           needs you to know where to dig. The owner who understands their
           business and learns to run the machine well is in a different league
-          than both the person still using a shovel and the person who bought a
-          backhoe and let it run wild.
+          than both the person still using a shovel and the person who bought an
+          earth mover and let it run wild.
         </p>
 
         <img
@@ -171,8 +172,8 @@ export const posts: Post[] = [
 
         <h2>The crew that gets sharper every month</h2>
         <p>
-          Here&apos;s the part that compounds. A hired backhoe operator shows up
-          knowing nothing about your property. A good AI setup is the opposite.
+          Here&apos;s the part that compounds. A hired earth mover operator shows
+          up knowing nothing about your property. A good AI setup is the opposite.
           The more you work with it, the more it knows: your brand voice, your
           regulars, the way you like proposals structured, the mistakes you
           never want repeated. It carries all of that forward.
@@ -264,7 +265,7 @@ export const posts: Post[] = [
   },
   {
     slug: "humano-mas-ia-es-la-magia",
-    title: "La magia nunca fue la IA. Eres tú, con la retroexcavadora.",
+    title: "La magia nunca fue la IA. Eres tú, con la cargadora.",
     excerpt:
       "Todos temen que la IA reemplace el toque humano. Es al revés: la persona al mando es lo que hace que la IA valga algo. Aquí te explicamos por qué.",
     date: "June 22, 2026",
@@ -272,9 +273,9 @@ export const posts: Post[] = [
     category: "Estrategia de IA",
     readTime: "6 min de lectura",
     coverImage:
-      "https://images.unsplash.com/photo-1762291270825-0a49ab389d05?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629807473015-41699c4471b5?auto=format&fit=crop&w=1200&q=80",
     coverAlt:
-      "Una retroexcavadora con cucharón frontal y brazo excavador trasero, la máquina cotidiana del pequeño operador como símbolo de la IA como apalancamiento",
+      "Un operador en la cabina de una cargadora levantando un cucharón lleno de tierra, la persona que maneja la máquina mientras la IA hace el trabajo pesado",
     keywords:
       "humano más IA pequeños negocios, IA como apalancamiento, múltiples agentes de IA, implementación de IA bilingüe Vail Valley, socio de implementación de IA Colorado",
     content: (
@@ -311,18 +312,18 @@ export const posts: Post[] = [
           socio mayor de esa sociedad.
         </p>
 
-        <h2>La IA es una retroexcavadora, no un reemplazo del operador</h2>
+        <h2>La IA es una cargadora, no un reemplazo del operador</h2>
         <p>
           Así se lo explicamos a los dueños de negocios. Imagina que llevas años
           cavando zanjas a mano. Eres bueno en eso. Sabes exactamente por dónde
           tiene que ir la línea y a qué profundidad. Entonces alguien te entrega
-          una retroexcavadora.
+          una cargadora.
         </p>
         <p>
-          La retroexcavadora no te vuelve innecesario. Te vuelve diez veces más
-          productivo en lo que ya sabías hacer. Pero una retroexcavadora sin
+          La cargadora no te vuelve innecesario. Te vuelve diez veces más
+          productivo en lo que ya sabías hacer. Pero una cargadora sin
           nadie en el asiento es solo una máquina cara parada en un terreno.
-          Peor aún, una retroexcavadora manejada por alguien que no conoce la
+          Peor aún, una cargadora manejada por alguien que no conoce la
           propiedad romperá una tubería de agua en segundos. La potencia de la
           máquina vale solo tanto como el criterio del operador.
         </p>
@@ -331,7 +332,7 @@ export const posts: Post[] = [
           necesitando que tú sepas dónde cavar. El dueño que entiende su negocio
           y aprende a operar bien la máquina juega en otra liga, distinta tanto
           de quien sigue usando una pala como de quien compró una
-          retroexcavadora y la dejó descontrolarse.
+          cargadora y la dejó descontrolarse.
         </p>
 
         <img
@@ -364,7 +365,7 @@ export const posts: Post[] = [
 
         <h2>La cuadrilla que se afina mes con mes</h2>
         <p>
-          Aquí está la parte que se acumula. Un operador de retroexcavadora
+          Aquí está la parte que se acumula. Un operador de cargadora
           contratado llega sin saber nada de tu propiedad. Un buen sistema de IA
           es lo contrario. Mientras más trabajas con él, más sabe: tu voz de
           marca, tus clientes habituales, cómo te gusta estructurar las
