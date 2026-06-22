@@ -100,15 +100,15 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   title: {
-    default: "Doble AI — Bilingual AI Implementation for Colorado Businesses",
-    template: "%s — Doble AI",
+    default: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
+    template: "%s | Doble AI",
   },
   description:
-    "Doble AI helps Colorado businesses grow with AI strategy, bilingual marketing, and digital presence — in English and in Spanish.",
+    "Doble AI helps Colorado businesses grow with AI strategy, bilingual marketing, and digital presence, in English and in Spanish.",
   openGraph: {
-    title: "Doble AI — Bilingual AI Implementation for Colorado Businesses",
+    title: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
     description:
-      "One of Colorado's few bilingual AI implementation firms. AI strategy, competitive analysis, and brand growth — in English and Spanish.",
+      "One of Colorado's few bilingual AI implementation firms. AI strategy, competitive analysis, and brand growth, in English and Spanish.",
     url: "https://dobleai.com",
     siteName: "Doble AI",
     locale: "en_US",
@@ -118,13 +118,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Doble AI — Bilingual AI Implementation for Colorado Businesses",
+        alt: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Doble AI — Bilingual AI Implementation for Colorado Businesses",
+    title: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
     description:
       "One of Colorado's few bilingual AI implementation firms. AI strategy and bilingual marketing for Eagle River Valley businesses.",
     images: ["/og-image.png"],

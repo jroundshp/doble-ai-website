@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-10 px-6 border-t border-white/[0.06]">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#555]">
         <div>
-          doble<span className="text-orange-500">AI</span> — Eagle River Valley, Colorado
+          doble<span className="text-orange-500">AI</span> · Eagle River Valley, Colorado
         </div>
         <div className="flex gap-6">
           <a href="/#services" className="hover:text-white transition-colors">Services</a>

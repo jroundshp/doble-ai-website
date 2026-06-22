@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What does Doble AI do?",
-    a: "Doble AI is an AI-native, bilingual implementation firm based in the Eagle River Valley, Colorado. We build AI workspaces that learn your business — remembering your clients, your workflows, and your brand voice, and compounding that knowledge over time. We also audit your digital presence, map your competitive landscape, and build brand and sales strategy. Everything we do is available in both English and Spanish.",
+    a: "Doble AI is an AI-native, bilingual implementation firm based in the Eagle River Valley, Colorado. We build AI workspaces that learn your business, remembering your clients, your workflows, and your brand voice, and compounding that knowledge over time. We also audit your digital presence, map your competitive landscape, and build brand and sales strategy. Everything we do is available in both English and Spanish.",
   },
   {
     q: "What is included in a free business audit?",
-    a: "Our free business audit covers your current online presence, Google Business Profile status, website performance, review volume and sentiment, and a high-level competitive comparison. We deliver a written summary within 5–7 days with specific, prioritized recommendations — no pitch deck, no obligation.",
+    a: "Our free business audit covers your current online presence, Google Business Profile status, website performance, review volume and sentiment, and a high-level competitive comparison. We deliver a written summary within 5–7 days with specific, prioritized recommendations. No pitch deck, no obligation.",
   },
   {
     q: "How much does AI implementation cost?",
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "What makes Doble AI different from other AI firms?",
-    a: "Two things. First, we don't hand you a tool — we build an AI workspace that learns your business. It remembers your clients, your workflows, your brand voice, and the decisions you've already made. Every session compounds on the last. Most businesses get AI that resets to zero every day; our clients get AI that gets sharper the longer we work together. Second, we're one of Colorado's few bilingual AI implementation firms, delivering strategy and content in native-quality Spanish as well as English — reaching the 40–50% of Colorado mountain corridor residents whose first language is Spanish. Separately, each is a meaningful edge. Together, they're a significant one.",
+    a: "Two things. First, we don't hand you a tool. We build an AI workspace that learns your business. It remembers your clients, your workflows, your brand voice, and the decisions you've already made. Every session compounds on the last. Most businesses get AI that resets to zero every day; our clients get AI that gets sharper the longer we work together. Second, we're one of Colorado's few bilingual AI implementation firms, delivering strategy and content in native-quality Spanish as well as English, reaching the 40–50% of Colorado mountain corridor residents whose first language is Spanish. Separately, each is a meaningful edge. Together, they're a significant one.",
   },
   {
     q: "Do I need to be located in the Vail Valley to work with Doble AI?",
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "What industries does Doble AI work with?",
-    a: "We work with small to mid-size businesses across construction and trades, real estate, hospitality, professional services, and nonprofits — especially businesses serving or looking to reach Spanish-speaking customers in Colorado mountain communities.",
+    a: "We work with small to mid-size businesses across construction and trades, real estate, hospitality, professional services, and nonprofits, especially businesses serving or looking to reach Spanish-speaking customers in Colorado mountain communities.",
   },
 ];
 
@@ -121,7 +121,7 @@ function Problem() {
             The opportunity
           </div>
           <h2 className="text-4xl font-bold leading-tight mb-6">
-            AI-powered growth —<br />
+            AI-powered growth,<br />
             with a competitive edge<br />
             most firms can&apos;t offer.
           </h2>
@@ -130,7 +130,7 @@ function Problem() {
             better competitive intelligence, and a clear strategy for turning
             that into revenue. And unlike most AI firms, we can extend
             that work into the Spanish-speaking market with native fluency and
-            authentic content — not translations. For businesses that want it,
+            authentic content, not translations. For businesses that want it,
             that&apos;s a significant edge. For those focused on the English
             market, the AI implementation stands on its own.
           </p>
@@ -162,7 +162,7 @@ function Services() {
     {
       num: "01",
       name: "Business Audit",
-      desc: "A full diagnostic of your online presence, competitors, and gaps — delivered as a detailed written report. This is where every engagement starts.",
+      desc: "A full diagnostic of your online presence, competitors, and gaps, delivered as a detailed written report. This is where every engagement starts.",
       detail: "Delivered in 5–7 days",
     },
     {
@@ -174,13 +174,13 @@ function Services() {
     {
       num: "03",
       name: "AI Implementation",
-      desc: "We build an AI workspace that learns your business — persistent memory, accumulated workflows, bilingual AI agents. Not a one-time setup. A system that compounds the longer we work together.",
+      desc: "We build an AI workspace that learns your business: persistent memory, accumulated workflows, bilingual AI agents. Not a one-time setup. A system that compounds the longer we work together.",
       detail: "Custom scope per engagement",
     },
     {
       num: "04",
       name: "Brand & Sales Growth",
-      desc: "Digital presence buildout, content strategy, and a clear plan to turn your brand into a revenue-generating asset. Available in English — and in Spanish for businesses ready to grow that market.",
+      desc: "Digital presence buildout, content strategy, and a clear plan to turn your brand into a revenue-generating asset. Available in English, with Spanish for businesses ready to grow that market.",
       detail: "English · Spanish optional",
     },
   ];
@@ -197,7 +197,7 @@ function Services() {
             Four services. One clear outcome.
           </h2>
           <p className="text-[#a3a3a3] max-w-sm">
-            Pricing is scoped to your project — it starts with a free audit.
+            Pricing is scoped to your project. It starts with a free audit.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-4">
@@ -235,7 +235,7 @@ function VoiceDemo() {
               Call our AI receptionist.
             </h2>
             <p className="text-[#a3a3a3] leading-relaxed max-w-md mb-2">
-              Lucy answers in English. Switch to Spanish — she becomes Lucía, instantly. Available 24/7, never on hold, never off script.
+              Lucy answers in English. Switch to Spanish and she becomes Lucía, instantly. Available 24/7, never on hold, never off script.
             </p>
             <p className="text-[#a3a3a3] leading-relaxed max-w-md">
               This is the same system we build for our clients. Try it, then ask us to build one for your business.
@@ -271,7 +271,7 @@ function SampleWork() {
         <h2 className="text-4xl font-bold mb-4">See what an audit looks like.</h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
           Before you commit to anything, see the quality of work we deliver. Here are
-          real audits we&apos;ve completed for the businesses we work with — shared anonymously.
+          real audits we&apos;ve completed for the businesses we work with, shared anonymously.
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a
@@ -286,7 +286,7 @@ function SampleWork() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Colorado Trade Business</h3>
               <p className="text-[#a3a3a3] text-sm mb-6 flex-1">
-                Northwest Colorado — Specialty contractor serving the luxury mountain
+                Northwest Colorado. Specialty contractor serving the luxury mountain
                 corridor. Full competitive analysis, digital presence audit, and
                 growth recommendations.
               </p>
@@ -307,7 +307,7 @@ function SampleWork() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Vail Valley Real Estate Group</h3>
               <p className="text-[#a3a3a3] text-sm mb-6 flex-1">
-                Vail Valley, Colorado — Luxury real estate team with $850M+ career
+                Vail Valley, Colorado. Luxury real estate team with $850M+ career
                 volume. Digital presence audit, competitive landscape, and 90-day
                 growth roadmap.
               </p>
@@ -328,7 +328,7 @@ function SampleWork() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Chapala Lakeside Realtor</h3>
               <p className="text-[#a3a3a3] text-sm mb-6 flex-1">
-                Lake Chapala, Mexico — Bilingual real estate agent serving an
+                Lake Chapala, Mexico. Bilingual real estate agent serving an
                 expat-heavy market. Digital presence audit, search and AI-visibility
                 check, competitive landscape, and a prioritized growth roadmap.
               </p>
@@ -357,10 +357,10 @@ const projects = [
     kind: "Client build · Adventure film & photography · Denver–Boulder, CO",
     step1Label: "The audit revealed",
     step1:
-      "A filmmaker, photographer, and drone pilot with ten-plus years of work and real credits — Simon Reeve's BBC series, Channel 4 News, ABC News, Natural Habitat Adventures. His old WordPress site showed almost none of it. Image-first work that should fill the screen sat cramped in a dated template, and years of climbing, expedition, and commercial shoots were scattered and hard to browse.",
+      "A filmmaker, photographer, and drone pilot with ten-plus years of work and real credits: Simon Reeve's BBC series, Channel 4 News, ABC News, Natural Habitat Adventures. His old WordPress site showed almost none of it. Image-first work that should fill the screen sat cramped in a dated template, and years of climbing, expedition, and commercial shoots were scattered and hard to browse.",
     step2Label: "What we built",
     step2:
-      "An image-first, bilingual portfolio inspired by Jimmy Chin's — near-black, full-bleed, one red accent. The homepage opens on a single frame with Films, Photos, and About as the way in. His showreel and films live together, 200-plus photos are sorted into browsable galleries, and a blog tells his Cusco-to-Colorado story in English and Spanish. The whole site is architected for SEO and GEO, so he surfaces in regular Google searches and in AI tools like ChatGPT and Grok — and it's built for the way people actually look at visual work.",
+      "An image-first, bilingual portfolio inspired by Jimmy Chin's: near-black, full-bleed, one red accent. The homepage opens on a single frame with Films, Photos, and About as the way in. His showreel and films live together, 200-plus photos are sorted into browsable galleries, and a blog tells his Cusco-to-Colorado story in English and Spanish. The whole site is architected for SEO and GEO, so he surfaces in regular Google searches and in AI tools like ChatGPT and Grok, and it's built for the way people actually look at visual work.",
     domain: "alexanderestral.com",
     href: "https://alexanderestral.com",
     cta: "Visit the site",
@@ -373,7 +373,7 @@ const projects = [
     kind: "Client build · Real estate · Ajijic, Mexico",
     step1Label: "The audit revealed",
     step1:
-      "A respected local expert — experienced, certified, and genuinely great at what she does — with almost no digital presence to show for it. No personal website, listings buried in a broker page and the MLS. She wasn't surfacing in Google searches, and AI tools like ChatGPT and Grok didn't know she existed. To anyone searching online, she was invisible.",
+      "A respected local expert (experienced, certified, and genuinely great at what she does) with almost no digital presence to show for it. No personal website, listings buried in a broker page and the MLS. She wasn't surfacing in Google searches, and AI tools like ChatGPT and Grok didn't know she existed. To anyone searching online, she was invisible.",
     step2Label: "What we did",
     step2:
       "Built a full bilingual site: for-sale plus a dedicated rentals section synced live from the Chapala MLS, Ajijic and Chapala area guides, a foreign-buyer blog tuned for search, her credentials front and center, and WhatsApp on every page.",
@@ -388,10 +388,10 @@ const projects = [
     kind: "Our product · Live data dashboard",
     step1Label: "The gap we saw",
     step1:
-      "River guides, fly-fishing outfitters, and local river enthusiasts were bouncing between half a dozen sources to get current, accurate flows, water temperatures, and — for the fly guides especially — turbidity. The data existed, but it was scattered and slow to read when conditions change by the hour.",
+      "River guides, fly-fishing outfitters, and local river enthusiasts were bouncing between half a dozen sources to get current, accurate flows, water temperatures, and, for the fly guides especially, turbidity. The data existed, but it was scattered and slow to read when conditions change by the hour.",
     step2Label: "What we built",
     step2:
-      "One place to check the spots that matter across the Vail–Eagle River Valley and the Roaring Fork Valley — live flow, water temperature, and turbidity in a single, clean, real-time view. One bookmark instead of six.",
+      "One place to check the spots that matter across the Vail–Eagle River Valley and the Roaring Fork Valley: live flow, water temperature, and turbidity in a single, clean, real-time view. One bookmark instead of six.",
     domain: "coheadwatersreport.com",
     href: "https://coheadwatersreport.com",
     cta: "See it live",
@@ -403,10 +403,10 @@ const projects = [
     kind: "Our product · Live data dashboard",
     step1Label: "The gap we saw",
     step1:
-      "Locals, visitors, and anyone heading up the mountain were checking one site for the temperature in town, another for the top and base of the resort, and yet another for the airport — just to figure out what the day actually looked like across the valley.",
+      "Locals, visitors, and anyone heading up the mountain were checking one site for the temperature in town, another for the top and base of the resort, and yet another for the airport, just to figure out what the day actually looked like across the valley.",
     step2Label: "What we built",
     step2:
-      "A one-stop live report for the Vail Valley — current temps at the top and base of both Vail and Beaver Creek, local weather, and Eagle County Airport conditions, all on a single screen. One glance before you drive up, fly in, or head out.",
+      "A one-stop live report for the Vail Valley: current temps at the top and base of both Vail and Beaver Creek, local weather, and Eagle County Airport conditions, all on a single screen. One glance before you drive up, fly in, or head out.",
     domain: "vailvalleyreport.com",
     href: "https://vailvalleyreport.com",
     cta: "See it live",
@@ -414,14 +414,14 @@ const projects = [
     gradient: "linear-gradient(135deg, #1a2238 0%, #5b7fb0 100%)",
   },
   {
-    name: "LUCI — Bilingual AI Receptionist",
+    name: "LUCI: Bilingual AI Receptionist",
     kind: "Our product · Bilingual AI · Live on this site",
     step1Label: "The challenge",
     step1:
-      "Small businesses miss calls — and miss them in two languages. After-hours and overflow calls go unanswered, and round-the-clock bilingual coverage is expensive to staff.",
+      "Small businesses miss calls, and miss them in two languages. After-hours and overflow calls go unanswered, and round-the-clock bilingual coverage is expensive to staff.",
     step2Label: "What we built",
     step2:
-      "LUCI answers 24/7 — Lucy in English, Lucía in Spanish — handles questions, routes calls, and emails you every lead. She's live on this very site: call and try her right now.",
+      "LUCI answers 24/7 (Lucy in English, Lucía in Spanish), handles questions, routes calls, and emails you every lead. She's live on this very site: call and try her right now.",
     domain: "dobleai.com",
     href: "tel:+19705282835",
     cta: "Call her now · (970) 528-2835",
@@ -484,7 +484,7 @@ function Projects() {
         </div>
         <h2 className="text-4xl font-bold mb-4">Real businesses. Real results.</h2>
         <p className="text-[#a3a3a3] text-lg mb-16 max-w-2xl">
-          We don&apos;t just audit — we build and ship. Here&apos;s a look at what
+          We don&apos;t just audit. We build and ship. Here&apos;s a look at what
           we found, what we did about it, and the work itself. Every link below is
           live: see for yourself.
         </p>
@@ -564,14 +564,14 @@ function About() {
             </h2>
             <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
               Doble AI was founded by John and Gisella Rounds in the Eagle River Valley.
-              John brings decades of global business development experience — having
+              John brings decades of global business development experience, having
               worked and traveled across more than 50 countries. He is bilingual in
               English and Spanish, and has spent his career helping businesses grow
               in complex, multicultural environments around the world.
             </p>
             <p className="text-[#a3a3a3] text-lg leading-relaxed">
               Gisella is originally from Peru. Her bilingual fluency and deep
-              cultural knowledge aren&apos;t a feature we bolted on — they&apos;re
+              cultural knowledge aren&apos;t a feature we bolted on. They&apos;re
               the foundation of how we think about every client&apos;s market.
               Together, we combine genuine cross-cultural expertise with the latest
               AI tools to help Colorado businesses reach more customers and grow faster.
@@ -602,11 +602,11 @@ function About() {
           {[
             {
               title: "Natively Bilingual",
-              desc: "English and Spanish aren't two languages to us — they're two ways of thinking about your market.",
+              desc: "English and Spanish aren't two languages to us. They're two ways of thinking about your market.",
             },
             {
               title: "AI-Native",
-              desc: "Doble AI runs entirely on the same compounding AI workspace we build for clients — persistent memory, accumulated skills, daily learning. We don't recommend what we haven't built on.",
+              desc: "Doble AI runs entirely on the same compounding AI workspace we build for clients: persistent memory, accumulated skills, daily learning. We don't recommend what we haven't built on.",
             },
             {
               title: "Colorado-Based",
@@ -672,7 +672,7 @@ function Contact() {
         <h2 className="text-4xl font-bold mb-4">Start with a free audit.</h2>
         <p className="text-[#a3a3a3] text-lg mb-12">
           We&apos;ll take a look at your current online presence and tell you exactly
-          where the gaps are — no obligation, no pitch deck.
+          where the gaps are. No obligation, no pitch deck.
         </p>
         <AuditForm />
         <p className="text-[#666] text-sm mt-6">

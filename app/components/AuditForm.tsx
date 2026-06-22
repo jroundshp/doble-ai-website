@@ -38,7 +38,7 @@ export default function AuditForm() {
           </svg>
         </div>
         <div>
-          <h3 className="text-2xl font-bold text-white mb-2">Thank you — we&apos;ll be in touch.</h3>
+          <h3 className="text-2xl font-bold text-white mb-2">Thank you, we&apos;ll be in touch.</h3>
           <p className="text-[#a3a3a3]">
             Your free audit request came through. We&apos;ll review your business and reach out within 1–2 business days with what we find.
           </p>

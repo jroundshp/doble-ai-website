@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 import riverPhoto from "../../public/gisella-river.jpg";
 
 export const metadata: Metadata = {
-  title: "Translation & Interpretation — Eagle River Valley",
+  title: "Translation & Interpretation, Eagle River Valley",
   description:
     "Professional English–Spanish translation and live interpretation led by Gisella Rounds, a native Peruvian Spanish speaker with 20+ years of cross-cultural experience. Serving the Eagle River Valley and Colorado mountain corridor.",
   alternates: {
     canonical: "/translation",
   },
   openGraph: {
-    title: "Translation & Interpretation — Eagle River Valley | Doble AI",
+    title: "Translation & Interpretation, Eagle River Valley | Doble AI",
     description:
       "Professional English–Spanish translation and live interpretation. Native-quality. Culturally grounded. Serving the Vail Valley, Roaring Fork Valley, and Colorado mountain corridor.",
     url: "https://dobleai.com/translation",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         url: "/gisella-mountains-web.jpg",
         width: 1200,
         height: 800,
-        alt: "Gisella Rounds — Bilingual Translation & Interpretation, Eagle River Valley",
+        alt: "Gisella Rounds, Bilingual Translation & Interpretation, Eagle River Valley",
       },
     ],
   },
@@ -46,7 +46,7 @@ const translationSchema = {
       "@id": "https://dobleai.com/translation#translation-service",
       name: "English to Spanish Translation",
       description:
-        "Professional English-to-Spanish translation for marketing copy, blog posts, event materials, outreach documents, and social content — delivered in authentic, native-quality Spanish.",
+        "Professional English-to-Spanish translation for marketing copy, blog posts, event materials, outreach documents, and social content, delivered in authentic, native-quality Spanish.",
       provider: { "@id": "https://dobleai.com/#organization" },
       areaServed: [
         { "@type": "AdministrativeArea", name: "Eagle County, Colorado" },
@@ -144,7 +144,7 @@ function Hero() {
           <span className="text-orange-500">Authentic.</span> Cultural. Human.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
-          Professional translation and live interpretation — led by a native Peruvian
+          Professional translation and live interpretation, led by a native Peruvian
           Spanish speaker with 20+ years of cross-cultural experience. Because the
           difference between technically correct and genuinely resonant is everything.
         </p>
@@ -166,7 +166,7 @@ function Services() {
     {
       num: "01",
       name: "English → Spanish Translation",
-      desc: "Blog posts, marketing copy, event materials, outreach documents, social content — translated into authentic, native-quality Spanish. Not AI-generated. Not textbook. The kind of Spanish that actually connects with your audience.",
+      desc: "Blog posts, marketing copy, event materials, outreach documents, social content, translated into authentic, native-quality Spanish. Not AI-generated. Not textbook. The kind of Spanish that actually connects with your audience.",
       detail: "Documents · Blog · Marketing · Outreach",
       primary: true,
     },
@@ -180,7 +180,7 @@ function Services() {
     {
       num: "03",
       name: "Live Interpretation",
-      desc: "On-site bilingual interpretation for events, corporate meetings, community gatherings, and nonprofit programs. From Bravo! Vail and GoPro Mountain Games to private corporate sessions — both John and Gisella are available.",
+      desc: "On-site bilingual interpretation for events, corporate meetings, community gatherings, and nonprofit programs. From Bravo! Vail and GoPro Mountain Games to private corporate sessions, both John and Gisella are available.",
       detail: "Events · Corporate · Nonprofit · Community",
       primary: false,
     },
@@ -233,11 +233,11 @@ function GisellaSection() {
               Gisella is a native Spanish speaker from Peru with deep roots in Latin
               American culture and 20+ years of experience bridging language across
               more than 30 countries. She knows the regional differences, the warmth,
-              the humor — the things that make a translation feel like it was written
+              the humor, the things that make a translation feel like it was written
               for the reader, not just converted from English.
             </p>
             <p className="text-[#a3a3a3] text-lg leading-relaxed mb-10">
-              For live events, both Gisella and John are available — bilingual
+              For live events, both Gisella and John are available, bilingual
               by nature, not by necessity.
             </p>
             <div className="grid grid-cols-3 gap-4">
@@ -303,7 +303,7 @@ function CommunityTrust() {
           Trusted by organizations that shape our valley.
         </h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
-          From large-scale events to essential nonprofits — Gisella is available
+          From large-scale events to essential nonprofits, Gisella is available
           to provide live interpretation and translation services for the organizations
           and gatherings that define life in the Eagle River Valley.
         </p>
@@ -332,7 +332,7 @@ function CTA() {
         </div>
         <h2 className="text-4xl font-bold mb-4">Ready to connect with your audience?</h2>
         <p className="text-[#a3a3a3] text-lg mb-10">
-          Tell us about your project — document translation, event interpretation,
+          Tell us about your project: document translation, event interpretation,
           or something else. We&apos;ll get back to you quickly.
         </p>
         <a
