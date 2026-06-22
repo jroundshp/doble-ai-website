@@ -59,6 +59,17 @@ body {
   font-style: italic;
 }
 
+.prose-doble a {
+  color: #f97316;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+.prose-doble a:hover {
+  color: #fb923c;
+}
+
 .prose-doble dl {
   margin-bottom: 1.5rem;
 }
