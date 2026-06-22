@@ -265,7 +265,7 @@ export const posts: Post[] = [
   },
   {
     slug: "humano-mas-ia-es-la-magia",
-    title: "La magia nunca fue la IA. Eres tú, con la cargadora.",
+    title: "La magia nunca fue la IA. Eres tú, con maquinaria pesada.",
     excerpt:
       "Todos temen que la IA reemplace el toque humano. Es al revés: la persona al mando es lo que hace que la IA valga algo. Aquí te explicamos por qué.",
     date: "June 22, 2026",
@@ -275,7 +275,7 @@ export const posts: Post[] = [
     coverImage:
       "https://images.unsplash.com/photo-1629807473015-41699c4471b5?auto=format&fit=crop&w=1200&q=80",
     coverAlt:
-      "Un operador en la cabina de una cargadora levantando un cucharón lleno de tierra, la persona que maneja la máquina mientras la IA hace el trabajo pesado",
+      "Un operador en la cabina de una máquina pesada levantando un cucharón lleno de tierra, la persona que maneja la maquinaria mientras la IA hace el trabajo pesado",
     keywords:
       "humano más IA pequeños negocios, IA como apalancamiento, múltiples agentes de IA, implementación de IA bilingüe Vail Valley, socio de implementación de IA Colorado",
     content: (
@@ -312,27 +312,27 @@ export const posts: Post[] = [
           socio mayor de esa sociedad.
         </p>
 
-        <h2>La IA es una cargadora, no un reemplazo del operador</h2>
+        <h2>La IA es maquinaria pesada, no un reemplazo del operador</h2>
         <p>
           Así se lo explicamos a los dueños de negocios. Imagina que llevas años
           cavando zanjas a mano. Eres bueno en eso. Sabes exactamente por dónde
           tiene que ir la línea y a qué profundidad. Entonces alguien te entrega
-          una cargadora.
+          maquinaria pesada.
         </p>
         <p>
-          La cargadora no te vuelve innecesario. Te vuelve diez veces más
-          productivo en lo que ya sabías hacer. Pero una cargadora sin
-          nadie en el asiento es solo una máquina cara parada en un terreno.
-          Peor aún, una cargadora manejada por alguien que no conoce la
-          propiedad romperá una tubería de agua en segundos. La potencia de la
-          máquina vale solo tanto como el criterio del operador.
+          La maquinaria pesada no te vuelve innecesario. Te vuelve diez veces
+          más productivo en lo que ya sabías hacer. Pero una máquina así sin
+          nadie en el asiento es solo un equipo caro parado en un terreno. Peor
+          aún, esa misma máquina en manos de alguien que no conoce la propiedad
+          romperá una tubería de agua en segundos. La potencia de la máquina
+          vale solo tanto como el criterio del operador.
         </p>
         <p>
           Eso es la IA. Mueve una cantidad enorme de tierra muy rápido. Sigue
           necesitando que tú sepas dónde cavar. El dueño que entiende su negocio
           y aprende a operar bien la máquina juega en otra liga, distinta tanto
-          de quien sigue usando una pala como de quien compró una
-          cargadora y la dejó descontrolarse.
+          de quien sigue usando una pala como de quien compró maquinaria
+          pesada y la dejó descontrolarse.
         </p>
 
         <img
@@ -365,8 +365,8 @@ export const posts: Post[] = [
 
         <h2>La cuadrilla que se afina mes con mes</h2>
         <p>
-          Aquí está la parte que se acumula. Un operador de cargadora
-          contratado llega sin saber nada de tu propiedad. Un buen sistema de IA
+          Aquí está la parte que se acumula. Un operador de maquinaria pesada
+          que contratas llega sin saber nada de tu propiedad. Un buen sistema de IA
           es lo contrario. Mientras más trabajas con él, más sabe: tu voz de
           marca, tus clientes habituales, cómo te gusta estructurar las
           propuestas, los errores que nunca quieres repetir. Lo lleva todo
