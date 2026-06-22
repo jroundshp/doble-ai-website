@@ -69,6 +69,395 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "human-plus-ai-is-the-magic",
+    title: "The magic was never the AI. It's you, with a backhoe.",
+    excerpt:
+      "Everyone&apos;s bracing for AI to replace the human touch. The opposite is true: the person in the seat is what makes AI worth anything. Here&apos;s why.",
+    date: "June 22, 2026",
+    dateISO: "2026-06-22",
+    category: "AI Strategy",
+    readTime: "6 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "A small business owner and team working together, the human side of AI implementation",
+    keywords:
+      "human plus AI small business, AI leverage not replacement, multiple AI agents small business, bilingual AI implementation Vail Valley, AI implementation partner Colorado",
+    content: (
+      <>
+        <p>
+          There&apos;s a quiet fear running under every conversation about AI
+          right now: that the machine is going to do your job, talk to your
+          clients, and slowly make the human part of your business obsolete.
+          It&apos;s a reasonable thing to worry about. It&apos;s also, from what
+          we see every day, backwards.
+        </p>
+        <p>
+          The businesses getting real value out of AI aren&apos;t the ones
+          handing the wheel to a machine. They&apos;re the ones where a person
+          who knows the work sits in the driver&apos;s seat and uses AI to do
+          far more than they ever could alone. The human touch isn&apos;t the
+          thing AI replaces. It&apos;s the thing that makes AI worth anything.
+        </p>
+
+        <h2>Why the human touch matters more now, not less</h2>
+        <p>
+          AI is confidently wrong sometimes. It doesn&apos;t know your best
+          client had a hard year, or that one supplier always runs late, or that
+          this particular customer needs a phone call instead of an email. It
+          has no stake in the outcome and no judgment about what actually
+          matters to your business. A person does. Put the two together and the
+          person supplies the judgment and the context while the AI supplies the
+          speed and the reach.
+        </p>
+        <p>
+          Take the human out and you get fast, generic, occasionally
+          embarrassing output. Take the AI out and you get thoughtful work that
+          takes ten times as long. The value lives in the combination, and the
+          person is the senior partner in it.
+        </p>
+
+        <h2>AI is a backhoe, not a replacement for the operator</h2>
+        <p>
+          Here&apos;s the way we describe it to business owners. Imagine
+          you&apos;ve been digging trenches by hand for years. You&apos;re good
+          at it. You know exactly where the line has to run and how deep. Then
+          someone hands you a backhoe.
+        </p>
+        <p>
+          The backhoe doesn&apos;t make you unnecessary. It makes you ten times
+          more productive at the thing you already know how to do. But a backhoe
+          with nobody in the seat is just an expensive machine sitting in a
+          field. Worse, a backhoe driven by someone who doesn&apos;t know the
+          property will tear through a water line in seconds. The power of the
+          machine is only as good as the judgment of the operator.
+        </p>
+        <p>
+          That&apos;s AI. It moves an enormous amount of dirt fast. It still
+          needs you to know where to dig. The owner who understands their
+          business and learns to run the machine well is in a different league
+          than both the person still using a shovel and the person who bought a
+          backhoe and let it run wild.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80"
+          alt="Business owner directing a team, like running a fleet of specialized AI agents"
+          style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
+        />
+
+        <h2>You&apos;re not operating one machine. You&apos;re running a fleet.</h2>
+        <p>
+          The picture gets more interesting once you realize you&apos;re not
+          limited to one machine. The real shift for a small business isn&apos;t
+          a single AI tool. It&apos;s the ability to direct a whole team of
+          specialized helpers at once.
+        </p>
+        <p>
+          One drafts your proposals. One researches a prospect before a meeting.
+          One keeps an eye on your numbers and flags what looks off. One answers
+          the phone after hours and books the appointment. You&apos;re not doing
+          each of those jobs anymore, and you&apos;re not hiring four people to
+          do them either. You&apos;re directing them, the way a good foreman
+          runs a crew. You set the standard, you make the calls that matter, and
+          the work gets done at a scale that used to require a much bigger
+          company.
+        </p>
+        <p>
+          This is what people miss when they picture AI as a chatbot. A chatbot
+          answers one question. A fleet of agents runs parts of your operation,
+          with you in charge of all of it.
+        </p>
+
+        <h2>The crew that gets sharper every month</h2>
+        <p>
+          Here&apos;s the part that compounds. A hired backhoe operator shows up
+          knowing nothing about your property. A good AI setup is the opposite.
+          The more you work with it, the more it knows: your brand voice, your
+          regulars, the way you like proposals structured, the mistakes you
+          never want repeated. It carries all of that forward.
+        </p>
+        <p>
+          Six months in, the system isn&apos;t just faster than when you
+          started. It&apos;s tuned to your business specifically. We wrote about
+          how that memory actually works in{" "}
+          <a href="/blog/your-ai-should-know-your-business-by-now">
+            Your AI Should Know Your Business by Now
+          </a>
+          , because it&apos;s the difference between a tool you re-explain every
+          morning and one that already knows. For a small business, that
+          compounding is the closest thing there is to building institutional
+          knowledge without building a big institution.
+        </p>
+
+        <h2>Where the human touch shows most: language</h2>
+        <p>
+          There&apos;s one place all of this comes together for the businesses
+          we work with in the Eagle River Valley, and that&apos;s language. For
+          a lot of your customers, the most human thing you can do is meet them
+          in the language they&apos;re most comfortable in. A generic AI tool
+          will translate. It won&apos;t sound like you, and it won&apos;t catch
+          the difference between a phrase that lands and one that&apos;s
+          technically correct but cold.
+        </p>
+        <p>
+          That&apos;s exactly where a person steers and the AI scales. We build
+          sites and systems that show up fully in both English and Spanish, with
+          the warmth intact in each, not a translated copy of the other. You can
+          see it in real client work:{" "}
+          <a href="https://solramrealestate.com">Sol Ramirez Real Estate</a>{" "}
+          serves buyers on both sides of the language line in Mexico, and{" "}
+          <a href="https://alexanderestral.com">Alexander Estrada</a>&apos;s
+          filmmaking portfolio runs natively in English and Spanish. In both
+          cases the bilingual reach is the machine. The voice is the human.
+        </p>
+
+        <h2>What this looks like on a Monday</h2>
+        <p>
+          You sit down Monday morning. The proposals from Friday are drafted and
+          waiting for your edits. There&apos;s a one-page brief on the prospect
+          you&apos;re meeting at ten, pulled together overnight. A weekend
+          inquiry that came in Spanish already got a warm, accurate reply and a
+          booked call. None of it went out without you, and none of it took you
+          the hours it used to.
+        </p>
+        <p>
+          That isn&apos;t a machine running your business. That&apos;s you
+          running your business with a machine that knows it well, in two
+          languages, at a scale that used to be out of reach. The magic was
+          never the AI on its own. It&apos;s what a person who knows the work can
+          do once they stop digging by hand.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "Will AI replace the human side of my business?",
+              a: "Not if you use it well. AI is leverage, not a substitute for judgment. On its own it produces fast, generic output; the value comes from a person who knows the business directing it, supplying context, and deciding what actually matters. The businesses getting the most out of AI are the ones where a skilled person stays firmly in charge.",
+            },
+            {
+              q: "What does 'human plus AI' actually mean for a small business?",
+              a: "It means you stay the decision-maker and the AI becomes leverage. You set the standard, make the calls, and handle the relationships; the AI handles the volume, the speed, and the repetitive work behind them. Picture yourself as the operator of a powerful machine, not someone being replaced by one.",
+            },
+            {
+              q: "What do you mean by 'multiple agents' or a 'fleet'?",
+              a: "Instead of one general chatbot, you direct several specialized AI helpers at once: one for drafting, one for research, one for watching your numbers, one for answering calls. Each handles a slice of the work and you oversee all of them. It lets a small business operate at a scale that used to require a much larger team.",
+            },
+            {
+              q: "Does AI really get better at my specific business over time?",
+              a: "A properly built AI setup does, because it's designed to retain context: your brand voice, your clients, your preferences, your past corrections. It doesn't improve on its own, but it accumulates and applies what you build into it, so it's noticeably more tuned to your business after a few months than on day one.",
+            },
+            {
+              q: "How does this work for a bilingual business?",
+              a: "This is where the human-plus-AI approach matters most. AI lets a small team show up fully in both English and Spanish without losing the personal warmth, as long as a person is steering the voice. Generic tools translate; a well-built bilingual system sounds native in each language. For businesses serving English- and Spanish-speaking customers in markets like the Vail Valley, that's the difference between reaching people and actually connecting with them.",
+            },
+            {
+              q: "Do I need to be technical to run a setup like this?",
+              a: "No. The architecture, the agents, and the memory are built and maintained by your AI implementation partner. Your job is the part only you can do: knowing your business and making the calls. You operate the machine; you don't have to build it.",
+            },
+          ]}
+        />
+
+        <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "humano-mas-ia-es-la-magia",
+    title: "La magia nunca fue la IA. Eres tú, con la retroexcavadora.",
+    excerpt:
+      "Todos temen que la IA reemplace el toque humano. Es al revés: la persona al mando es lo que hace que la IA valga algo. Aquí te explicamos por qué.",
+    date: "June 22, 2026",
+    dateISO: "2026-06-22",
+    category: "Estrategia de IA",
+    readTime: "6 min de lectura",
+    coverImage:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "Dueño de un pequeño negocio y su equipo trabajando juntos, el lado humano de la implementación de IA",
+    keywords:
+      "humano más IA pequeños negocios, IA como apalancamiento, múltiples agentes de IA, implementación de IA bilingüe Vail Valley, socio de implementación de IA Colorado",
+    content: (
+      <>
+        <p>
+          Hay un miedo silencioso debajo de cada conversación sobre IA en este
+          momento: que la máquina va a hacer tu trabajo, hablar con tus clientes
+          y, poco a poco, volver obsoleta la parte humana de tu negocio. Es algo
+          razonable de temer. También es, por lo que vemos todos los días, al
+          revés.
+        </p>
+        <p>
+          Los negocios que sacan valor real de la IA no son los que le entregan
+          el volante a una máquina. Son aquellos donde una persona que conoce el
+          trabajo se sienta al mando y usa la IA para lograr mucho más de lo que
+          jamás podría sola. El toque humano no es lo que la IA reemplaza. Es lo
+          que hace que la IA valga algo.
+        </p>
+
+        <h2>Por qué el toque humano importa más ahora, no menos</h2>
+        <p>
+          La IA a veces se equivoca con total seguridad. No sabe que tu mejor
+          cliente tuvo un año difícil, ni que un proveedor siempre llega tarde,
+          ni que este cliente en particular necesita una llamada en lugar de un
+          correo. No tiene nada en juego ni criterio sobre lo que de verdad
+          importa en tu negocio. Una persona sí. Junta a las dos y la persona
+          aporta el criterio y el contexto mientras la IA aporta la velocidad y
+          el alcance.
+        </p>
+        <p>
+          Quita a la persona y obtienes resultados rápidos, genéricos y a veces
+          vergonzosos. Quita la IA y obtienes trabajo cuidadoso que toma diez
+          veces más tiempo. El valor vive en la combinación, y la persona es el
+          socio mayor de esa sociedad.
+        </p>
+
+        <h2>La IA es una retroexcavadora, no un reemplazo del operador</h2>
+        <p>
+          Así se lo explicamos a los dueños de negocios. Imagina que llevas años
+          cavando zanjas a mano. Eres bueno en eso. Sabes exactamente por dónde
+          tiene que ir la línea y a qué profundidad. Entonces alguien te entrega
+          una retroexcavadora.
+        </p>
+        <p>
+          La retroexcavadora no te vuelve innecesario. Te vuelve diez veces más
+          productivo en lo que ya sabías hacer. Pero una retroexcavadora sin
+          nadie en el asiento es solo una máquina cara parada en un terreno.
+          Peor aún, una retroexcavadora manejada por alguien que no conoce la
+          propiedad romperá una tubería de agua en segundos. La potencia de la
+          máquina vale solo tanto como el criterio del operador.
+        </p>
+        <p>
+          Eso es la IA. Mueve una cantidad enorme de tierra muy rápido. Sigue
+          necesitando que tú sepas dónde cavar. El dueño que entiende su negocio
+          y aprende a operar bien la máquina juega en otra liga, distinta tanto
+          de quien sigue usando una pala como de quien compró una
+          retroexcavadora y la dejó descontrolarse.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80"
+          alt="Persona dirigiendo a un equipo, como operar una flota de agentes de IA especializados"
+          style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
+        />
+
+        <h2>No operas una sola máquina. Diriges una flota.</h2>
+        <p>
+          El panorama se vuelve más interesante cuando te das cuenta de que no
+          estás limitado a una sola máquina. El verdadero cambio para un pequeño
+          negocio no es una sola herramienta de IA. Es la capacidad de dirigir a
+          todo un equipo de ayudantes especializados a la vez.
+        </p>
+        <p>
+          Uno redacta tus propuestas. Otro investiga a un prospecto antes de una
+          reunión. Otro vigila tus números y señala lo que se ve raro. Otro
+          contesta el teléfono fuera de horario y agenda la cita. Ya no haces
+          cada uno de esos trabajos, y tampoco contratas a cuatro personas para
+          hacerlos. Los diriges, como un buen capataz dirige a su cuadrilla.
+          Fijas el estándar, tomas las decisiones que importan y el trabajo se
+          hace a una escala que antes exigía una empresa mucho más grande.
+        </p>
+        <p>
+          Esto es lo que la gente no ve cuando imagina la IA como un chatbot. Un
+          chatbot responde una pregunta. Una flota de agentes opera partes de tu
+          negocio, contigo al mando de todo.
+        </p>
+
+        <h2>La cuadrilla que se afina mes con mes</h2>
+        <p>
+          Aquí está la parte que se acumula. Un operador de retroexcavadora
+          contratado llega sin saber nada de tu propiedad. Un buen sistema de IA
+          es lo contrario. Mientras más trabajas con él, más sabe: tu voz de
+          marca, tus clientes habituales, cómo te gusta estructurar las
+          propuestas, los errores que nunca quieres repetir. Lo lleva todo
+          consigo hacia adelante.
+        </p>
+        <p>
+          A los seis meses, el sistema no solo es más rápido que cuando
+          empezaste. Está afinado específicamente a tu negocio. Escribimos sobre
+          cómo funciona esa memoria en{" "}
+          <a href="/blog/tu-ia-ya-deberia-conocer-tu-negocio">
+            Tu IA ya debería conocer tu negocio
+          </a>
+          , porque es la diferencia entre una herramienta que vuelves a
+          explicar cada mañana y una que ya lo sabe. Para un pequeño negocio,
+          esa acumulación es lo más parecido que existe a construir conocimiento
+          institucional sin construir una gran institución.
+        </p>
+
+        <h2>Dónde se nota más el toque humano: el idioma</h2>
+        <p>
+          Hay un lugar donde todo esto se junta para los negocios con los que
+          trabajamos en el Eagle River Valley, y es el idioma. Para muchos de
+          tus clientes, lo más humano que puedes hacer es atenderlos en el
+          idioma en el que se sienten más cómodos. Una herramienta de IA
+          genérica va a traducir. No va a sonar como tú, y no va a captar la
+          diferencia entre una frase que conecta y una que es técnicamente
+          correcta pero fría.
+        </p>
+        <p>
+          Ahí es exactamente donde la persona dirige y la IA escala. Construimos
+          sitios y sistemas que se presentan por completo en inglés y en
+          español, con la calidez intacta en cada uno, no una copia traducida
+          del otro. Lo puedes ver en trabajo real de clientes:{" "}
+          <a href="https://solramrealestate.com">Sol Ramirez Real Estate</a>{" "}
+          atiende a compradores de ambos lados de la línea del idioma en México,
+          y el portafolio de cine de{" "}
+          <a href="https://alexanderestral.com">Alexander Estrada</a> funciona
+          de forma nativa en inglés y en español. En ambos casos el alcance
+          bilingüe es la máquina. La voz es lo humano.
+        </p>
+
+        <h2>Cómo se ve esto un lunes</h2>
+        <p>
+          Te sientas el lunes por la mañana. Las propuestas del viernes están
+          redactadas y esperando tus ajustes. Hay un resumen de una página sobre
+          el prospecto con el que te reúnes a las diez, armado durante la noche.
+          Una consulta que llegó en español el fin de semana ya recibió una
+          respuesta cálida y precisa, y una llamada agendada. Nada de eso salió
+          sin ti, y nada te tomó las horas que solía tomarte.
+        </p>
+        <p>
+          Eso no es una máquina manejando tu negocio. Eres tú manejando tu
+          negocio con una máquina que lo conoce bien, en dos idiomas, a una
+          escala que antes estaba fuera de tu alcance. La magia nunca fue la IA
+          por sí sola. Es lo que una persona que conoce el trabajo puede lograr
+          una vez que deja de cavar a mano.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "¿La IA va a reemplazar el lado humano de mi negocio?",
+              a: "No si la usas bien. La IA es apalancamiento, no un sustituto del criterio. Por sí sola produce resultados rápidos y genéricos; el valor viene de una persona que conoce el negocio dirigiéndola, aportando contexto y decidiendo qué importa de verdad. Los negocios que más aprovechan la IA son aquellos donde una persona capaz se mantiene firmemente al mando.",
+            },
+            {
+              q: "¿Qué significa de verdad 'humano más IA' para un pequeño negocio?",
+              a: "Significa que tú sigues tomando las decisiones y la IA se vuelve apalancamiento. Fijas el estándar, tomas las decisiones y manejas las relaciones; la IA maneja el volumen, la velocidad y el trabajo repetitivo detrás de todo eso. Imagínate como el operador de una máquina potente, no como alguien al que esa máquina reemplaza.",
+            },
+            {
+              q: "¿A qué te refieres con 'múltiples agentes' o una 'flota'?",
+              a: "En lugar de un solo chatbot general, diriges a varios ayudantes de IA especializados a la vez: uno para redactar, otro para investigar, otro para vigilar tus números, otro para contestar llamadas. Cada uno se encarga de una parte del trabajo y tú los supervisas a todos. Permite que un pequeño negocio opere a una escala que antes exigía un equipo mucho más grande.",
+            },
+            {
+              q: "¿La IA de verdad mejora en mi negocio específico con el tiempo?",
+              a: "Un sistema de IA bien construido sí, porque está diseñado para retener contexto: tu voz de marca, tus clientes, tus preferencias, tus correcciones pasadas. No mejora por sí solo, pero acumula y aplica lo que construyes en él, así que está notablemente más afinado a tu negocio después de unos meses que el primer día.",
+            },
+            {
+              q: "¿Cómo funciona esto para un negocio bilingüe?",
+              a: "Aquí es donde el enfoque humano más IA importa más. La IA permite que un equipo pequeño se presente por completo en inglés y en español sin perder la calidez personal, siempre que una persona dirija la voz. Las herramientas genéricas traducen; un sistema bilingüe bien construido suena nativo en cada idioma. Para negocios que atienden a clientes de habla inglesa y española en mercados como el Vail Valley, esa es la diferencia entre alcanzar a la gente y de verdad conectar con ella.",
+            },
+            {
+              q: "¿Necesito ser técnico para operar un sistema así?",
+              a: "No. La arquitectura, los agentes y la memoria los construye y mantiene tu socio de implementación de IA. Tu trabajo es la parte que solo tú puedes hacer: conocer tu negocio y tomar las decisiones. Tú operas la máquina; no tienes que construirla.",
+            },
+          ]}
+        />
+
+        <CTAes />
+      </>
+    ),
+  },
+  {
     slug: "your-ai-should-know-your-business-by-now",
     title: "Your AI Should Know Your Business by Now",
     excerpt:
