@@ -249,7 +249,7 @@ export const posts: Post[] = [
             },
             {
               q: "How does this work for a bilingual business?",
-              a: "This is where the human-plus-AI approach matters most. AI lets a small team show up fully in both English and Spanish without losing the personal warmth, as long as a person is steering the voice. Generic tools translate; a well-built bilingual system sounds native in each language. For businesses serving English- and Spanish-speaking customers in markets like the Vail Valley, that's the difference between reaching people and actually connecting with them.",
+              a: "This is where the human-plus-AI approach matters most. AI lets a small team show up fully in both English and Spanish without losing the personal warmth, as long as a person is steering the voice. Generic tools translate; a well-built bilingual system sounds native in each language. Whether your business serves bilingual customers in the Vail Valley or a bilingual market like Lakeside, Chapala, and Ajijic, that's the difference between reaching people and actually connecting with them.",
             },
             {
               q: "Do I need to be technical to run a setup like this?",
@@ -444,7 +444,7 @@ export const posts: Post[] = [
             },
             {
               q: "¿Cómo funciona esto para un negocio bilingüe?",
-              a: "Aquí es donde el enfoque humano más IA importa más. La IA permite que un equipo pequeño se presente por completo en inglés y en español sin perder la calidez personal, siempre que una persona dirija la voz. Las herramientas genéricas traducen; un sistema bilingüe bien construido suena nativo en cada idioma. Para negocios que atienden a clientes de habla inglesa y española en mercados como el Vail Valley, esa es la diferencia entre alcanzar a la gente y de verdad conectar con ella.",
+              a: "Aquí es donde el enfoque humano más IA importa más. La IA permite que un equipo pequeño se presente por completo en inglés y en español sin perder la calidez personal, siempre que una persona dirija la voz. Las herramientas genéricas traducen; un sistema bilingüe bien construido suena nativo en cada idioma. Ya sea que tu negocio atienda a clientes bilingües en el Vail Valley o en un mercado bilingüe como Chapala, Ajijic y la Ribera del lago, esa es la diferencia entre alcanzar a la gente y de verdad conectar con ella.",
             },
             {
               q: "¿Necesito ser técnico para operar un sistema así?",
