@@ -78,9 +78,9 @@ export const posts: Post[] = [
     category: "AI Strategy",
     readTime: "6 min read",
     coverImage:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629807473015-41699c4471b5?auto=format&fit=crop&w=1200&q=80",
     coverAlt:
-      "A small business owner and team working together, the human side of AI implementation",
+      "An operator in the cab of a loader moving a full bucket of earth, AI as leverage for the person who runs the machine",
     keywords:
       "human plus AI small business, AI leverage not replacement, multiple AI agents small business, bilingual AI implementation Vail Valley, AI implementation partner Colorado",
     content: (
@@ -272,9 +272,9 @@ export const posts: Post[] = [
     category: "Estrategia de IA",
     readTime: "6 min de lectura",
     coverImage:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629807473015-41699c4471b5?auto=format&fit=crop&w=1200&q=80",
     coverAlt:
-      "Dueño de un pequeño negocio y su equipo trabajando juntos, el lado humano de la implementación de IA",
+      "Un operador en la cabina de una cargadora moviendo un cucharón lleno de tierra, la IA como apalancamiento para quien maneja la máquina",
     keywords:
       "humano más IA pequeños negocios, IA como apalancamiento, múltiples agentes de IA, implementación de IA bilingüe Vail Valley, socio de implementación de IA Colorado",
     content: (
