@@ -69,6 +69,631 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "vail-eagle-river-valley-mountain-biking-guide",
+    title:
+      "My daughter made me put the phone down: a mountain biking guide to the Vail and Eagle River Valley",
+    author: {
+      name: "John Tyler",
+      bio: "Real estate broker and longtime resident of the Vail and Eagle River Valley, and a Doble AI client. Doble AI runs the bilingual AI systems behind his business. Happiest with a laptop closed and a bike on the dirt.",
+    },
+    excerpt:
+      "A week off the screens and back on the trails reminded me how good the riding here is. Here is every mountain bike spot in the valley, by town and by ability, with links.",
+    date: "June 25, 2026",
+    dateISO: "2026-06-25",
+    category: "Local Guide",
+    readTime: "9 min read",
+    coverImage: "/mtb-gypsum-trailhead.jpg",
+    coverAlt:
+      "A mountain bike leaning against the Town of Gypsum Buckhorn Valley trailhead sign in the high desert of the Eagle River Valley",
+    keywords:
+      "mountain biking Vail Valley, Eagle Colorado mountain bike trails, Eagle Valley Trail, Vail bike park, Beaver Creek bike park, West Avon Preserve, beginner mountain bike trails Eagle River Valley, kids mountain biking Eagle Colorado",
+    content: (
+      <>
+        <p>
+          Last month my daughter flew in from Jackson, Wyoming, took one look at
+          me hunched over my phone and my laptop, and said the thing I needed to
+          hear: put it down, Dad, and let&apos;s go ride. She grew up in this
+          valley and now lives in one of the best mountain towns in the country,
+          so when she says the riding is worth it, I listen. We pulled the bikes
+          off the rack the next morning.
+        </p>
+        <p>
+          I have lived and sold real estate in the Vail and Eagle River Valley
+          for years, and I had let myself forget what is sitting right outside
+          the back door. Getting back on the dirt fixed that fast. By the end of
+          the week I was reminded of something I tell clients all the time: this
+          is one of the great mountain biking places in the country, and most
+          people, locals included, only ever scratch the surface of it.
+        </p>
+        <p>
+          Most of us meet the valley on pavement. The{" "}
+          <a href="https://www.eaglevalleytrail.org/">Eagle Valley Trail</a> is
+          the spine of the whole place: a paved path that, when the last gaps are
+          finished, runs about 63 miles from the top of Vail Pass down through
+          Vail, Minturn, Avon, Edwards, Eagle, and Gypsum toward Dotsero and the
+          edge of Glenwood Canyon. It is one of the great rides in Colorado, car
+          free almost the entire way, following the river the whole time. If you
+          have a few hours and a road or gravel bike, ride it.
+        </p>
+        <p>
+          But the paved path is the doorway, not the destination. The moment you
+          want to leave it and get on the dirt, the valley opens up into one of
+          the densest concentrations of mountain biking in the state. The trouble
+          is that the good stuff is spread across six towns, three resorts, BLM
+          land, and Forest Service land, and no single sign points you to it. So
+          here is the guide I wish someone had handed me: where to ride, town by
+          town and ability by ability, with a link to each place so you can plan
+          the day.
+        </p>
+
+        <img
+          src="/mtb-gore-valley-signpost.jpg"
+          alt="A trail signpost in the aspens pointing toward the Gore Valley Trail and Vail Pass Trailhead, where the paved path meets the dirt"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "460px" }}
+        />
+
+        <h2>The one resource to bookmark first</h2>
+        <p>
+          Before the trail list, save these. The{" "}
+          <a href="https://www.vvmba.org/">Vail Valley Mountain Bike Association</a>{" "}
+          builds and maintains most of the singletrack between Vail and Eagle,
+          and their site is the closest thing to a master map of the valley. For
+          live trail conditions, status, and turn by turn navigation, the two
+          apps locals actually use are{" "}
+          <a href="https://www.trailforks.com/region/eagle/">Trailforks</a> and{" "}
+          <a href="https://www.mtbproject.com/directory/8011445/vail">MTB Project</a>.
+          The town of Eagle keeps its own trail portal at{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Ride Eagle</a>,
+          which is worth a look on its own.
+        </p>
+
+        <h2>Where to ride, town by town</h2>
+        <p>
+          The valley is long and low at one end, high and alpine at the other.
+          That spread is the whole point: in a single morning you can choose
+          warm high desert in Eagle or cool aspen and spruce up at Vail. Each
+          town has its own character on the dirt.
+        </p>
+
+        <h3>Eagle: the dirt capital of the valley</h3>
+        <p>
+          If the valley has a mountain bike town, it is Eagle. More than 100
+          miles of high desert singletrack climb straight out of town, and a
+          good chunk of it stays rideable when the high country is still under
+          snow. The classics are{" "}
+          <a href="https://www.trailforks.com/trails/boneyard-14183/">Boneyard</a>,
+          a flowing blue with rock gardens, the slalom style{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Haymaker</a>{" "}
+          built to host high school state championships, and the playful Pool and
+          Ice Rink. Plan and check status through{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Ride Eagle</a>,
+          and follow the volunteers keeping it all alive at the{" "}
+          <a href="https://www.hardscrabbletrails.org/">Hardscrabble Trails Coalition</a>.
+        </p>
+
+        <h3>Vail Mountain: lift served and high alpine</h3>
+        <p>
+          Vail Mountain runs a lift served bike park off the gondola, plus more
+          than 35 miles of trail you can earn under your own power. The marquee
+          rides are Radio Flyer, a smooth downhill flow trail that intermediate
+          riders and kids love, Golden Gate for newer riders, and the long,
+          demanding Grand Traverse for a full day in the alpine. Details and the
+          Bike Haul uphill option are on the{" "}
+          <a href="https://www.vail.com/travel-guide/best-vail-mountain-biking-trails.aspx">
+            Vail Mountain biking page
+          </a>
+          , with the town and valley network mapped on{" "}
+          <a href="https://www.trailforks.com/region/vail/">Trailforks Vail</a>{" "}
+          and managed by the{" "}
+          <a href="https://www.vailrec.com/mountain-biking">Vail Recreation District</a>.
+        </p>
+
+        <h3>Beaver Creek: the family friendly bike park</h3>
+        <p>
+          Beaver Creek runs a lift served bike park that leans gentler and more
+          progression friendly than Vail, which makes it the easiest place in the
+          valley to put a nervous first timer on a chairlift and a flow trail the
+          same afternoon. Hours, lift access, and trail maps are on the{" "}
+          <a href="https://www.beavercreek.com/explore-the-resort/activities-and-events/biking.aspx">
+            Beaver Creek biking page
+          </a>
+          .
+        </p>
+
+        <h3>Avon and Edwards: the flow trail middle of the valley</h3>
+        <p>
+          The West Avon Preserve, on the hill between Avon and Edwards, is the
+          everyday riding spot for the heart of the valley. It is a web of
+          mellow, well built flow trails like Our Backyard, Saddleridge, and Wild
+          West, perfect for after work laps and for building confidence. The
+          preserve is open space looked after by the town of{" "}
+          <a href="https://www.avon.org/">Avon</a> and the{" "}
+          <a href="https://www.evlt.org/">Eagle Valley Land Trust</a>. Nearby,
+          June Creek above Singletree gives Edwards riders a longer
+          intermediate climb and descent.
+        </p>
+
+        <h3>Minturn: the classic Meadow Mountain ride</h3>
+        <p>
+          Just south of the interstate, Meadow Mountain above Minturn is the
+          valley&apos;s rite of passage intermediate ride: a steady dirt road
+          climb rewarded with a fast, grin inducing singletrack descent through
+          meadows and aspen. It is Forest Service land, so it opens later in the
+          season once it dries out. You will find it on{" "}
+          <a href="https://www.trailforks.com/region/vail/">Trailforks</a> and{" "}
+          <a href="https://www.vvmba.org/">VVMBA</a>.
+        </p>
+
+        <h2>The bike parks</h2>
+        <p>
+          If you want gravity without the climb, or a controlled place to learn,
+          the valley has four distinct options:
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.vail.com/travel-guide/best-vail-mountain-biking-trails.aspx">
+              Vail Bike Park
+            </a>
+            : lift served downhill off the gondola, with everything from flow to
+            steep, technical black and double black.
+          </li>
+          <li>
+            <a href="https://www.beavercreek.com/explore-the-resort/activities-and-events/biking.aspx">
+              Beaver Creek Bike Park
+            </a>
+            : the gentler, more progression focused of the two resorts, and the
+            best place to bring a family to the lifts.
+          </li>
+          <li>
+            <a href="https://rideeagle.com/mountain-biking-trails/">
+              Eagle Bike Park
+            </a>
+            : a free, town run pump track and jump area in Eagle, no lift ticket
+            required, ideal for skills and for kids.
+          </li>
+          <li>
+            <a href="https://www.avon.org/">Avon</a>: a pump track near
+            Nottingham Lake in the middle of town, handy for a quick session
+            without leaving the valley floor.
+          </li>
+        </ul>
+
+        <img
+          src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?auto=format&fit=crop&w=1000&q=80"
+          alt="A young rider on a pump track, the kind of free skills park found in Eagle, Colorado"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>Where to take the kids, especially in Eagle</h2>
+        <p>
+          Eagle has quietly become one of the best towns in Colorado to raise a
+          young rider. The free{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Eagle Bike Park</a>{" "}
+          pump track and jump lines let kids build skills without traffic or a
+          lift line, and gentle trails like Pool and Ice Rink are right there
+          when they are ready for real singletrack. The Haymaker trail was
+          literally built to host the Colorado High School Cycling League state
+          championships, and the valley fields strong youth teams through that
+          league. For the youngest riders, the resort bike parks at Beaver Creek
+          and Vail run lessons and rentals sized for kids.
+        </p>
+
+        <h2>Pick a trail by ability</h2>
+        <p>
+          If you would rather choose by skill than by town, here is the short
+          list.
+        </p>
+
+        <h3>Beginners</h3>
+        <p>
+          Start in the West Avon Preserve on Our Backyard or Saddleridge, ride
+          Golden Gate at Vail, lap the green flow trails at Beaver Creek, or
+          session the free Eagle pump track. In Eagle, Pool and Ice Rink is a
+          friendly first taste of high desert singletrack.
+        </p>
+
+        <h3>Intermediate</h3>
+        <p>
+          This is the valley&apos;s sweet spot. Ride Boneyard and Haymaker in
+          Eagle, Radio Flyer at Vail, the Meadow Mountain loop in Minturn, and
+          June Creek above Edwards. Any of these makes a satisfying two to three
+          hour ride.
+        </p>
+
+        <h3>Expert</h3>
+        <p>
+          For real challenge, link the Grand Traverse with Two Elk for a big
+          alpine day at Vail, drop into the black and double black lines in the
+          Vail Bike Park, and push deeper into the technical upper trails and the
+          Hardscrabble network above Eagle. At altitude, on rock, these earn
+          their rating.
+        </p>
+
+        <h2>When to ride, and a few mountain rules</h2>
+        <p>
+          Season runs roughly April through November, but it is staggered by
+          elevation. The BLM trails out of Eagle, like Boneyard and the lower
+          Haymaker loops, ride nearly year round, while town open space trails
+          generally run mid April to mid December and the high alpine around Vail
+          does not melt out until well into summer. A few things the valley will
+          teach you fast: drink far more water than you think at this altitude,
+          be off the high exposed trails before the afternoon thunderstorms roll
+          in, ride dawn or dusk and expect to share the trail with deer and elk,
+          and always check current status on Trailforks or Ride Eagle before you
+          drive to a trailhead.
+        </p>
+
+        <h2>What a week on the trails reminded me</h2>
+        <p>
+          Here is the part that stuck with me. The reason I could say yes when my
+          daughter showed up is that my business did not fall apart while I was
+          gone for a week. That is newer than I would like to admit. For a long
+          time I was the one answering every email and chasing every lead at all
+          hours, which is exactly how you end up hunched over a laptop when your
+          kid walks in the door.
+        </p>
+        <p>
+          What changed is the AI that Doble AI built into how I work. The
+          inquiries get answered, the follow ups go out, the content keeps
+          running, in English and in Spanish, whether I am at my desk or somewhere
+          up Meadow Mountain catching my breath. Good technology is supposed to
+          give you your life back, not eat it. A week on the dirt was a pretty
+          good reminder that it can.
+        </p>
+        <p>
+          So get out there. Ride the Eagle Valley Trail, then leave it for the
+          dirt. The valley has been here the whole time, waiting for you to look
+          up from the screen.
+        </p>
+
+        <FAQ items={[
+          {
+            q: "Where is the best mountain biking in the Vail Valley?",
+            a: "Eagle has the largest network, with over 100 miles of high desert singletrack including Boneyard and Haymaker. Vail Mountain offers lift served alpine riding, Beaver Creek has the most family friendly bike park, and the West Avon Preserve between Avon and Edwards is the everyday flow trail spot. The best choice depends on your ability and how high you want to ride.",
+          },
+          {
+            q: "What is the Eagle Valley Trail?",
+            a: "The Eagle Valley Trail is a paved, mostly car free recreation path that runs about 63 miles along the river through the Eagle River Valley, connecting Vail, Minturn, Avon, Edwards, Eagle, and Gypsum. It is ideal for road and gravel bikes and is the easiest way to travel the valley on two wheels before you head off onto the dirt.",
+          },
+          {
+            q: "Where can beginners mountain bike in the Eagle River Valley?",
+            a: "The West Avon Preserve (Our Backyard, Saddleridge) is the friendliest place to start, along with Golden Gate at Vail, the green flow trails at the Beaver Creek bike park, and the free pump track in Eagle. Pool and Ice Rink in Eagle is a gentle first taste of real singletrack.",
+          },
+          {
+            q: "Are there lift served bike parks near Vail?",
+            a: "Yes. Vail Mountain runs a lift served bike park off the gondola with everything up to double black, and Beaver Creek runs a gentler, more progression friendly park that is great for families. Eagle and Avon also have free pump tracks for skills work without a lift ticket.",
+          },
+          {
+            q: "Where can kids learn to mountain bike in Eagle, Colorado?",
+            a: "Eagle is one of the best towns in Colorado for young riders. The free Eagle Bike Park pump track and jump lines let kids build skills safely, gentle trails like Pool and Ice Rink are nearby, and the valley fields strong youth teams through the Colorado High School Cycling League, which holds state championships on Eagle's Haymaker trail.",
+          },
+          {
+            q: "When is mountain biking season in the Vail Valley?",
+            a: "Roughly April through November, staggered by elevation. The BLM trails out of Eagle ride nearly year round, town open space trails generally run mid April to mid December, and the high alpine around Vail does not fully melt out until summer. Always check Trailforks or Ride Eagle for current conditions before you go.",
+          },
+        ]} />
+
+        <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "guia-ciclismo-montana-valle-vail-eagle-river",
+    title:
+      "Mi hija me hizo soltar el teléfono: guía de ciclismo de montaña en el valle de Vail y Eagle River",
+    author: {
+      name: "John Tyler",
+      bio: "Agente de bienes raíces y residente de muchos años del valle de Vail y Eagle River, y cliente de Doble AI, que opera los sistemas de IA bilingües detrás de su negocio. Más feliz con la laptop cerrada y la bici en la tierra.",
+    },
+    excerpt:
+      "Una semana lejos de las pantallas y de vuelta en los senderos me recordó lo bueno que es rodar aquí. Aquí está cada lugar de bici de montaña en el valle, por pueblo y por nivel, con enlaces.",
+    date: "June 25, 2026",
+    dateISO: "2026-06-25",
+    category: "Guía Local",
+    readTime: "9 min de lectura",
+    coverImage: "/mtb-gypsum-trailhead.jpg",
+    coverAlt:
+      "Una bicicleta de montaña apoyada en el letrero del trailhead de Buckhorn Valley del pueblo de Gypsum, en el alto desierto del valle de Eagle River",
+    keywords:
+      "ciclismo de montaña valle de Vail, senderos bici montaña Eagle Colorado, Eagle Valley Trail, bike park Vail, bike park Beaver Creek, West Avon Preserve, senderos bici principiantes Eagle River, ciclismo niños Eagle Colorado",
+    content: (
+      <>
+        <p>
+          El mes pasado mi hija voló desde Jackson, Wyoming, me vio encorvado
+          sobre el teléfono y la laptop, y me dijo justo lo que necesitaba
+          escuchar: suéltalo, papá, vamos a rodar. Ella creció en este valle y
+          hoy vive en uno de los mejores pueblos de montaña del país, así que
+          cuando dice que vale la pena rodar, le hago caso. A la mañana siguiente
+          bajamos las bicis del portabicis.
+        </p>
+        <p>
+          Llevo años viviendo y vendiendo bienes raíces en el valle de Vail y
+          Eagle River, y me había permitido olvidar lo que tengo justo afuera de
+          la puerta. Volver a la tierra lo arregló rápido. Para el final de la
+          semana recordé algo que les digo a mis clientes todo el tiempo: este es
+          uno de los grandes lugares para andar en bici de montaña del país, y la
+          mayoría, locales incluidos, apenas rasca la superficie.
+        </p>
+        <p>
+          La mayoría conoce el valle sobre asfalto. El{" "}
+          <a href="https://www.eaglevalleytrail.org/">Eagle Valley Trail</a> es la
+          columna vertebral de todo el lugar: un camino pavimentado que, cuando
+          se cierren los últimos tramos, recorrerá unos 100 kilómetros desde lo
+          alto de Vail Pass, bajando por Vail, Minturn, Avon, Edwards, Eagle y
+          Gypsum hacia Dotsero y el borde del cañón de Glenwood. Es uno de los
+          grandes recorridos de Colorado, sin autos casi todo el camino y
+          siguiendo el río de principio a fin. Si tienes unas horas y una bici de
+          ruta o gravel, hazlo.
+        </p>
+        <p>
+          Pero el camino pavimentado es la puerta, no el destino. En el momento
+          en que quieras dejarlo y entrar a la tierra, el valle se abre en una de
+          las mayores concentraciones de ciclismo de montaña del estado. El
+          problema es que lo bueno está repartido entre seis pueblos, tres
+          centros de esquí, terrenos de la BLM y del Servicio Forestal, y ningún
+          letrero te lleva a todo. Así que esta es la guía que ojalá alguien me
+          hubiera dado: dónde rodar, pueblo por pueblo y nivel por nivel, con un
+          enlace a cada lugar para que planifiques el día.
+        </p>
+
+        <img
+          src="/mtb-gore-valley-signpost.jpg"
+          alt="Un letrero de senderos entre los álamos que apunta al Gore Valley Trail y al trailhead de Vail Pass, donde el camino pavimentado se encuentra con la tierra"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "460px" }}
+        />
+
+        <h2>El recurso que conviene guardar primero</h2>
+        <p>
+          Antes de la lista de senderos, guarda esto. La{" "}
+          <a href="https://www.vvmba.org/">Vail Valley Mountain Bike Association</a>{" "}
+          construye y mantiene la mayor parte del singletrack entre Vail y Eagle,
+          y su sitio es lo más parecido a un mapa maestro del valle. Para
+          condiciones en vivo, estado de los senderos y navegación paso a paso,
+          las dos apps que usan los locales son{" "}
+          <a href="https://www.trailforks.com/region/eagle/">Trailforks</a> y{" "}
+          <a href="https://www.mtbproject.com/directory/8011445/vail">MTB Project</a>.
+          El pueblo de Eagle mantiene su propio portal de senderos en{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Ride Eagle</a>.
+        </p>
+
+        <h2>Dónde rodar, pueblo por pueblo</h2>
+        <p>
+          El valle es largo y bajo en un extremo, alto y alpino en el otro. Esa
+          variedad es justamente lo bueno: en una sola mañana puedes elegir el
+          desierto cálido de Eagle o los álamos y abetos frescos de Vail. Cada
+          pueblo tiene su propio carácter sobre la tierra.
+        </p>
+
+        <h3>Eagle: la capital de la tierra en el valle</h3>
+        <p>
+          Si el valle tiene un pueblo ciclista, es Eagle. Más de 160 kilómetros
+          de singletrack de alto desierto suben directamente desde el pueblo, y
+          buena parte se puede rodar cuando las zonas altas siguen bajo nieve.
+          Los clásicos son{" "}
+          <a href="https://www.trailforks.com/trails/boneyard-14183/">Boneyard</a>,
+          un sendero azul fluido con jardines de roca, el sinuoso{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Haymaker</a>,
+          construido para albergar campeonatos estatales de preparatoria, y el
+          divertido Pool and Ice Rink. Planifica y revisa el estado en{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Ride Eagle</a> y
+          sigue a los voluntarios que lo mantienen todo en la{" "}
+          <a href="https://www.hardscrabbletrails.org/">Hardscrabble Trails Coalition</a>.
+        </p>
+
+        <h3>Vail Mountain: con remonte y bien alto</h3>
+        <p>
+          Vail Mountain opera un bike park con remonte desde la góndola, además
+          de más de 56 kilómetros de senderos que puedes ganar con tus propias
+          piernas. Los recorridos estrella son Radio Flyer, un sendero de
+          descenso fluido que aman los intermedios y los niños, Golden Gate para
+          quienes empiezan, y el largo y exigente Grand Traverse para un día
+          completo en la alta montaña. Los detalles y la opción de subida Bike
+          Haul están en la{" "}
+          <a href="https://www.vail.com/travel-guide/best-vail-mountain-biking-trails.aspx">
+            página de ciclismo de Vail Mountain
+          </a>
+          , con la red del pueblo y el valle en{" "}
+          <a href="https://www.trailforks.com/region/vail/">Trailforks Vail</a> y
+          gestionada por el{" "}
+          <a href="https://www.vailrec.com/mountain-biking">Vail Recreation District</a>.
+        </p>
+
+        <h3>Beaver Creek: el bike park familiar</h3>
+        <p>
+          Beaver Creek opera un bike park con remonte más suave y progresivo que
+          el de Vail, lo que lo convierte en el lugar más fácil del valle para
+          subir por primera vez a alguien nervioso a una telesilla y a un sendero
+          fluido la misma tarde. Horarios, acceso y mapas están en la{" "}
+          <a href="https://www.beavercreek.com/explore-the-resort/activities-and-events/biking.aspx">
+            página de ciclismo de Beaver Creek
+          </a>
+          .
+        </p>
+
+        <h3>Avon y Edwards: los senderos fluidos del centro del valle</h3>
+        <p>
+          El West Avon Preserve, en la loma entre Avon y Edwards, es el lugar de
+          rodada diaria del corazón del valle. Es una red de senderos fluidos y
+          bien construidos como Our Backyard, Saddleridge y Wild West, perfecta
+          para vueltas después del trabajo y para ganar confianza. La reserva es
+          espacio abierto cuidado por el pueblo de{" "}
+          <a href="https://www.avon.org/">Avon</a> y el{" "}
+          <a href="https://www.evlt.org/">Eagle Valley Land Trust</a>. Cerca, June
+          Creek, sobre Singletree, ofrece a los ciclistas de Edwards una subida y
+          un descenso intermedios más largos.
+        </p>
+
+        <h3>Minturn: el clásico Meadow Mountain</h3>
+        <p>
+          Justo al sur de la autopista, Meadow Mountain sobre Minturn es la
+          rodada intermedia de iniciación del valle: una subida constante por
+          camino de tierra recompensada con un descenso de singletrack rápido y
+          gozoso entre prados y álamos. Es terreno del Servicio Forestal, así que
+          abre más tarde en la temporada cuando se seca. Lo encuentras en{" "}
+          <a href="https://www.trailforks.com/region/vail/">Trailforks</a> y en{" "}
+          <a href="https://www.vvmba.org/">VVMBA</a>.
+        </p>
+
+        <h2>Los bike parks</h2>
+        <p>
+          Si quieres gravedad sin la subida, o un lugar controlado para aprender,
+          el valle tiene cuatro opciones distintas:
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.vail.com/travel-guide/best-vail-mountain-biking-trails.aspx">
+              Vail Bike Park
+            </a>
+            : descenso con remonte desde la góndola, desde sendero fluido hasta
+            negro y doble negro técnico.
+          </li>
+          <li>
+            <a href="https://www.beavercreek.com/explore-the-resort/activities-and-events/biking.aspx">
+              Beaver Creek Bike Park
+            </a>
+            : el más suave y progresivo de los dos centros, ideal para llevar a
+            la familia al remonte.
+          </li>
+          <li>
+            <a href="https://rideeagle.com/mountain-biking-trails/">
+              Eagle Bike Park
+            </a>
+            : un pump track y zona de saltos gratis y municipal en Eagle, sin
+            necesidad de boleto, ideal para técnica y para niños.
+          </li>
+          <li>
+            <a href="https://www.avon.org/">Avon</a>: un pump track junto al lago
+            Nottingham en el centro del pueblo, práctico para una sesión rápida
+            sin salir del fondo del valle.
+          </li>
+        </ul>
+
+        <img
+          src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?auto=format&fit=crop&w=1000&q=80"
+          alt="Un joven ciclista en un pump track, como el parque de habilidades gratuito de Eagle, Colorado"
+          className="w-full rounded-xl my-8 object-cover"
+          style={{ maxHeight: "420px" }}
+        />
+
+        <h2>Dónde llevar a los niños, sobre todo en Eagle</h2>
+        <p>
+          Eagle se ha convertido, sin mucho ruido, en uno de los mejores pueblos
+          de Colorado para criar a un joven ciclista. El{" "}
+          <a href="https://rideeagle.com/mountain-biking-trails/">Eagle Bike Park</a>{" "}
+          gratuito, con su pump track y líneas de saltos, deja que los niños
+          desarrollen técnica sin tráfico ni filas, y senderos suaves como Pool
+          and Ice Rink están justo al lado cuando ya están listos para el
+          singletrack de verdad. El sendero Haymaker se construyó literalmente
+          para albergar los campeonatos estatales de la Colorado High School
+          Cycling League, y el valle tiene equipos juveniles fuertes en esa liga.
+          Para los más pequeños, los bike parks de Beaver Creek y Vail ofrecen
+          clases y rentas a su medida.
+        </p>
+
+        <h2>Elige un sendero por nivel</h2>
+        <p>
+          Si prefieres elegir por habilidad y no por pueblo, esta es la lista
+          corta.
+        </p>
+
+        <h3>Principiantes</h3>
+        <p>
+          Empieza en el West Avon Preserve por Our Backyard o Saddleridge, rueda
+          Golden Gate en Vail, da vueltas en los senderos verdes de Beaver Creek
+          o practica en el pump track gratuito de Eagle. En Eagle, Pool and Ice
+          Rink es una primera prueba amable del singletrack de alto desierto.
+        </p>
+
+        <h3>Intermedios</h3>
+        <p>
+          Aquí está el punto fuerte del valle. Rueda Boneyard y Haymaker en
+          Eagle, Radio Flyer en Vail, el circuito de Meadow Mountain en Minturn y
+          June Creek sobre Edwards. Cualquiera de estos da una rodada satisfactoria
+          de dos a tres horas.
+        </p>
+
+        <h3>Expertos</h3>
+        <p>
+          Para un reto de verdad, enlaza el Grand Traverse con Two Elk para un
+          gran día alpino en Vail, métete en las líneas negras y doble negras del
+          Vail Bike Park, y sube por los senderos técnicos altos y la red de
+          Hardscrabble sobre Eagle. En altura y sobre roca, estos se ganan su
+          calificación.
+        </p>
+
+        <h2>Cuándo rodar, y algunas reglas de montaña</h2>
+        <p>
+          La temporada va de abril a noviembre, más o menos, pero escalonada por
+          la altitud. Los senderos de la BLM saliendo de Eagle, como Boneyard y
+          los tramos bajos de Haymaker, se ruedan casi todo el año, mientras que
+          los senderos de espacio abierto municipal van de mediados de abril a
+          mediados de diciembre y la alta montaña de Vail no se descongela hasta
+          bien entrado el verano. Algunas cosas que el valle te enseña rápido:
+          toma mucha más agua de la que crees a esta altura, baja de los senderos
+          altos y expuestos antes de las tormentas de la tarde, rueda al amanecer
+          o al atardecer y espera compartir el camino con venados y alces, y
+          revisa siempre el estado en Trailforks o Ride Eagle antes de manejar a
+          un trailhead.
+        </p>
+
+        <h2>Lo que una semana en los senderos me recordó</h2>
+        <p>
+          Esta es la parte que se me quedó. La razón por la que pude decir que sí
+          cuando llegó mi hija es que mi negocio no se vino abajo mientras estuve
+          fuera una semana. Eso es más nuevo de lo que me gusta admitir. Durante
+          mucho tiempo fui el que contestaba cada correo y perseguía cada cliente
+          potencial a toda hora, que es justo como terminas encorvado sobre la
+          laptop cuando tu hija entra por la puerta.
+        </p>
+        <p>
+          Lo que cambió es la IA que Doble AI integró en mi forma de trabajar. Las
+          consultas se responden, los seguimientos salen, el contenido sigue
+          corriendo, en inglés y en español, esté yo en el escritorio o allá
+          arriba en Meadow Mountain recuperando el aliento. La buena tecnología
+          debe devolverte la vida, no comérsela. Una semana en la tierra fue un
+          buen recordatorio de que puede hacerlo.
+        </p>
+        <p>
+          Así que sal a rodar. Recorre el Eagle Valley Trail y luego déjalo por la
+          tierra. El valle ha estado aquí todo el tiempo, esperando a que levantes
+          la vista de la pantalla.
+        </p>
+
+        <FAQ items={[
+          {
+            q: "¿Dónde está el mejor ciclismo de montaña en el valle de Vail?",
+            a: "Eagle tiene la red más grande, con más de 160 kilómetros de singletrack de alto desierto, incluidos Boneyard y Haymaker. Vail Mountain ofrece rodada alpina con remonte, Beaver Creek tiene el bike park más familiar, y el West Avon Preserve entre Avon y Edwards es el lugar de senderos fluidos del día a día. La mejor opción depende de tu nivel y de qué tan alto quieras rodar.",
+          },
+          {
+            q: "¿Qué es el Eagle Valley Trail?",
+            a: "El Eagle Valley Trail es un camino recreativo pavimentado, casi todo sin autos, que recorre unos 100 kilómetros junto al río por el valle de Eagle River, conectando Vail, Minturn, Avon, Edwards, Eagle y Gypsum. Es ideal para bicis de ruta y gravel y es la forma más fácil de recorrer el valle sobre dos ruedas antes de salir a la tierra.",
+          },
+          {
+            q: "¿Dónde pueden andar en bici de montaña los principiantes en el valle de Eagle River?",
+            a: "El West Avon Preserve (Our Backyard, Saddleridge) es el lugar más amable para empezar, junto con Golden Gate en Vail, los senderos verdes del bike park de Beaver Creek y el pump track gratuito de Eagle. Pool and Ice Rink en Eagle es una primera prueba suave de singletrack real.",
+          },
+          {
+            q: "¿Hay bike parks con remonte cerca de Vail?",
+            a: "Sí. Vail Mountain opera un bike park con remonte desde la góndola con todo hasta doble negro, y Beaver Creek opera un parque más suave y progresivo, ideal para familias. Eagle y Avon también tienen pump tracks gratuitos para practicar técnica sin boleto de remonte.",
+          },
+          {
+            q: "¿Dónde pueden aprender los niños a andar en bici de montaña en Eagle, Colorado?",
+            a: "Eagle es uno de los mejores pueblos de Colorado para jóvenes ciclistas. El Eagle Bike Park gratuito, con pump track y líneas de saltos, deja que los niños desarrollen técnica con seguridad, hay senderos suaves como Pool and Ice Rink cerca, y el valle tiene equipos juveniles fuertes en la Colorado High School Cycling League, que celebra campeonatos estatales en el sendero Haymaker de Eagle.",
+          },
+          {
+            q: "¿Cuándo es la temporada de ciclismo de montaña en el valle de Vail?",
+            a: "De abril a noviembre, más o menos, escalonada por la altitud. Los senderos de la BLM saliendo de Eagle se ruedan casi todo el año, los senderos de espacio abierto municipal van de mediados de abril a mediados de diciembre, y la alta montaña de Vail no se descongela hasta el verano. Revisa siempre Trailforks o Ride Eagle para conocer las condiciones actuales antes de ir.",
+          },
+        ]} />
+
+        <CTAes />
+      </>
+    ),
+  },
+  {
     slug: "human-plus-ai-is-the-magic",
     title: "The magic was never the AI. It's you, with an earth mover.",
     excerpt:
