@@ -418,10 +418,10 @@ const projects = [
     kind: "Our product · Outdoor destination guide · Ellicottville, NY",
     step1Label: "The gap we saw",
     step1:
-      "Ellicottville is a two-resort, four-season ski village (Holiday Valley and HoliMont) with 140-plus miles of mountain-bike trail, hiking, fishing, paddling, and Allegany State Park just to the south. But there was no single, independent place that pulled all of it together. Visitors had to bounce between two resort sites, a chamber directory, and Facebook to piece together what the town actually offers.",
+      "Ellicottville is a two-resort, four-season ski village (Holiday Valley and HoliMont) with 140-plus miles of mountain-bike trail, hiking, fishing, paddling, and Allegany State Park just to the south. But there was no single, independent place that pulled it all together. Locals and visitors alike had to bounce between two resort sites, a chamber directory, and Facebook just to figure out what the town actually offers across a given season.",
     step2Label: "What we built",
     step2:
-      "One outdoor hub for all four seasons: things to do, the village, directories of 21 local shops and 25 restaurants, an events calendar, live weather, and a growing library of local guides. It's built for SEO and GEO, so it surfaces in Google and in AI tools like ChatGPT and Grok, with newsletter capture and featured slots ready for local businesses.",
+      "One place locals and visitors can go for the whole town: things to do across all four seasons, the village, directories of 21 shops and 25 restaurants, a live events calendar, weather, and a growing library of local guides. This project didn't call for a bilingual build, but it got the same care our client sites do. It's fast, thoughtfully organized, and engineered for SEO and GEO, so the town surfaces in Google and in AI tools like ChatGPT and Grok. One bookmark instead of six.",
     domain: "ellicottvilleoutside.com",
     href: "https://ellicottvilleoutside.com",
     cta: "See it live",
