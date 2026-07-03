@@ -369,6 +369,21 @@ const projects = [
     image: "/work/alexander-estrada.jpg",
   },
   {
+    name: "Ellicottville Outside",
+    kind: "Our product · Outdoor destination guide · Ellicottville, NY",
+    step1Label: "The gap we saw",
+    step1:
+      "Ellicottville is a two-resort, four-season ski village (Holiday Valley and HoliMont) with 140-plus miles of mountain-bike trail, hiking, fishing, paddling, and Allegany State Park just to the south. But there was no single, independent place that pulled it all together. Locals and visitors alike had to bounce between two resort sites, a chamber directory, and Facebook just to figure out what the town actually offers across a given season.",
+    step2Label: "What we built",
+    step2:
+      "One place locals and visitors can go for the whole town: things to do across all four seasons, the village, directories of 21 shops and 25 restaurants, a live events calendar, weather, and a growing library of local guides. This project didn't call for a bilingual build, but it got the same care our client sites do. It's fast, thoughtfully organized, and engineered for SEO and GEO, so the town surfaces in Google and in AI tools like ChatGPT and Grok. One bookmark instead of six.",
+    domain: "ellicottvilleoutside.com",
+    href: "https://ellicottvilleoutside.com",
+    cta: "See it live",
+    tag: "All things outdoor in Ellicottville",
+    gradient: "linear-gradient(135deg, #0c2a1a 0%, #1f5a3a 58%, #d4a029 125%)",
+  },
+  {
     name: "Sol Ramirez Real Estate",
     kind: "Client build · Real estate · Ajijic, Mexico",
     step1Label: "The audit revealed",
@@ -412,21 +427,6 @@ const projects = [
     cta: "See it live",
     tag: "One-stop conditions",
     gradient: "linear-gradient(135deg, #1a2238 0%, #5b7fb0 100%)",
-  },
-  {
-    name: "Ellicottville Outside",
-    kind: "Our product · Outdoor destination guide · Ellicottville, NY",
-    step1Label: "The gap we saw",
-    step1:
-      "Ellicottville is a two-resort, four-season ski village (Holiday Valley and HoliMont) with 140-plus miles of mountain-bike trail, hiking, fishing, paddling, and Allegany State Park just to the south. But there was no single, independent place that pulled it all together. Locals and visitors alike had to bounce between two resort sites, a chamber directory, and Facebook just to figure out what the town actually offers across a given season.",
-    step2Label: "What we built",
-    step2:
-      "One place locals and visitors can go for the whole town: things to do across all four seasons, the village, directories of 21 shops and 25 restaurants, a live events calendar, weather, and a growing library of local guides. This project didn't call for a bilingual build, but it got the same care our client sites do. It's fast, thoughtfully organized, and engineered for SEO and GEO, so the town surfaces in Google and in AI tools like ChatGPT and Grok. One bookmark instead of six.",
-    domain: "ellicottvilleoutside.com",
-    href: "https://ellicottvilleoutside.com",
-    cta: "See it live",
-    tag: "All things outdoor in Ellicottville",
-    gradient: "linear-gradient(135deg, #0c2a1a 0%, #1f5a3a 58%, #d4a029 125%)",
   },
   {
     name: "LUCI: Bilingual AI Receptionist",
