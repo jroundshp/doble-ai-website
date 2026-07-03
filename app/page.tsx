@@ -382,6 +382,7 @@ const projects = [
     cta: "See it live",
     tag: "All things outdoor in Ellicottville",
     gradient: "linear-gradient(135deg, #0c2a1a 0%, #1f5a3a 58%, #d4a029 125%)",
+    image: "/work/ellicottville-outside.jpg",
   },
   {
     name: "Sol Ramirez Real Estate",
