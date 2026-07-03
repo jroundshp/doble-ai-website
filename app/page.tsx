@@ -414,6 +414,21 @@ const projects = [
     gradient: "linear-gradient(135deg, #1a2238 0%, #5b7fb0 100%)",
   },
   {
+    name: "Ellicottville Outside",
+    kind: "Our product · Outdoor destination guide · Ellicottville, NY",
+    step1Label: "The gap we saw",
+    step1:
+      "Ellicottville is a two-resort, four-season ski village (Holiday Valley and HoliMont) with 140-plus miles of mountain-bike trail, hiking, fishing, paddling, and Allegany State Park just to the south. But there was no single, independent place that pulled all of it together. Visitors had to bounce between two resort sites, a chamber directory, and Facebook to piece together what the town actually offers.",
+    step2Label: "What we built",
+    step2:
+      "One outdoor hub for all four seasons: things to do, the village, directories of 21 local shops and 25 restaurants, an events calendar, live weather, and a growing library of local guides. It's built for SEO and GEO, so it surfaces in Google and in AI tools like ChatGPT and Grok, with newsletter capture and featured slots ready for local businesses.",
+    domain: "ellicottvilleoutside.com",
+    href: "https://ellicottvilleoutside.com",
+    cta: "See it live",
+    tag: "All things outdoor in Ellicottville",
+    gradient: "linear-gradient(135deg, #0c2a1a 0%, #1f5a3a 58%, #d4a029 125%)",
+  },
+  {
     name: "LUCI: Bilingual AI Receptionist",
     kind: "Our product · Bilingual AI · Live on this site",
     step1Label: "The challenge",
