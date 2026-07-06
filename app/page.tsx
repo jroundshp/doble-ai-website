@@ -60,6 +60,7 @@ export default function Home() {
       <Hero />
       <Problem />
       <Services />
+      <HowWeWork />
       <VoiceDemo />
       <SampleWork />
       <Projects />
@@ -78,7 +79,7 @@ function Hero() {
       <div className="max-w-6xl mx-auto">
         <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-8">
           <span className="w-6 h-px bg-orange-500" />
-          Eagle River Valley, Colorado
+          Eagle River Valley, Colorado · Working across borders
         </div>
         <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight max-w-4xl mb-8">
           Grow your business<br />
@@ -87,9 +88,11 @@ function Hero() {
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
           We don&apos;t hand you a tool. We build an AI workspace that learns your
-          business&mdash;your clients, your workflows, your voice&mdash;and gets
-          sharper every day. One of Colorado&apos;s few bilingual AI implementation
-          firms, working in English and Spanish from day one.
+          business: your clients, your workflows, your voice. It remembers
+          everything and never starts from zero, so the work compounds the longer
+          we&apos;re together. Bilingual when your market calls for it, excellent
+          either way. One of Colorado&apos;s few bilingual AI implementation firms,
+          working locally, nationally, and across the border.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
@@ -212,6 +215,65 @@ function Services() {
               <h3 className="text-xl font-semibold mb-3">{s.name}</h3>
               <p className="text-[#a3a3a3] leading-relaxed mb-4">{s.desc}</p>
               <div className="text-xs text-orange-500/70 font-medium">{s.detail}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── How We Work ── */
+function HowWeWork() {
+  const cards = [
+    {
+      title: "Nothing starts from zero",
+      desc: "Every client detail, standard, and lesson lives in a persistent memory. We pick up exactly where we left off, every time.",
+    },
+    {
+      title: "Refined across every build",
+      desc: "The playbook that ships your project has been sharpened on every one before it. You get all of that experience with none of the ramp-up.",
+    },
+    {
+      title: "Fast where it counts",
+      desc: "A full business audit in 5–7 days. Content published in two languages. Sites watched for the failures that don't throw an error.",
+    },
+  ];
+
+  return (
+    <section className="py-24 px-6 border-t border-white/[0.06]">
+      <div className="max-w-6xl mx-auto">
+        <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
+          <span className="w-6 h-px bg-orange-500" />
+          How we work
+        </div>
+        <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
+          <h2 className="text-4xl font-bold leading-tight">
+            Agency-level output,<br />without the agency.
+          </h2>
+          <div>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed mb-4">
+              Most firms our size move slowly because every project starts from
+              scratch. We built our own AI operating system so ours don&apos;t. It
+              holds everything we know about your business and applies the
+              standards and playbooks we&apos;ve refined across every build
+              we&apos;ve done.
+            </p>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed">
+              You get the speed and consistency of a full team, from a senior
+              partner who actually knows your account. From the Eagle River Valley
+              to Ajijic, Mexico to upstate New York.
+            </p>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-3 gap-4">
+          {cards.map((c) => (
+            <div
+              key={c.title}
+              className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8"
+            >
+              <h3 className="text-lg font-semibold mb-3">{c.title}</h3>
+              <p className="text-[#a3a3a3] leading-relaxed">{c.desc}</p>
             </div>
           ))}
         </div>
@@ -498,7 +560,7 @@ function Projects() {
           <span className="w-6 h-px bg-orange-500" />
           Recent projects
         </div>
-        <h2 className="text-4xl font-bold mb-4">Real businesses. Real results.</h2>
+        <h2 className="text-4xl font-bold mb-4">Real businesses, in Colorado and beyond.</h2>
         <p className="text-[#a3a3a3] text-lg mb-16 max-w-2xl">
           We don&apos;t just audit. We build and ship. Here&apos;s a look at what
           we found, what we did about it, and the work itself. Every link below is
@@ -622,11 +684,11 @@ function About() {
             },
             {
               title: "AI-Native",
-              desc: "Doble AI runs entirely on the same compounding AI workspace we build for clients: persistent memory, accumulated skills, daily learning. We don't recommend what we haven't built on.",
+              desc: "Doble AI runs entirely on the same compounding AI workspace we build for clients: persistent memory, accumulated skills, knowledge that carries from one project to the next. We don't recommend what we haven't built on.",
             },
             {
-              title: "Colorado-Based",
-              desc: "We know the Vail, Roaring Fork, and Steamboat markets. Your clients are our neighbors.",
+              title: "Rooted, not limited",
+              desc: "We know the Vail, Roaring Fork, and Steamboat markets cold. That same system now ships projects across the country and into Mexico.",
             },
           ].map((p) => (
             <div
