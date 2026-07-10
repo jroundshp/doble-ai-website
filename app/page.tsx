@@ -428,6 +428,7 @@ const projects = [
     cta: "Visit the site",
     tag: "Bilingual luxury real estate",
     gradient: "linear-gradient(135deg, #14202d 0%, #1b2a3b 55%, #b8943f 125%)",
+    image: "/work/john-tyler.png",
   },
   {
     name: "Alexander Estrada",
