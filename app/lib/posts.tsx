@@ -78,10 +78,9 @@ export const posts: Post[] = [
     dateISO: "2026-07-15",
     category: "AI Strategy",
     readTime: "7 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/gore-creek-bridge-vail.jpg",
     coverAlt:
-      "A small business owner at a desk reviewing plans, deciding which parts of the business to rebuild around AI",
+      "A pedestrian bridge over Gore Creek in Vail, Colorado, framed by pines and mountainside in the Eagle River Valley where Doble AI works with local businesses",
     keywords:
       "AI for small business Colorado, AI workflows small business, agents small business, rebuilding business around AI, Eagle River Valley AI implementation, bilingual AI implementation Vail Valley",
     content: (
