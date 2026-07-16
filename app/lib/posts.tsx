@@ -69,6 +69,259 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
 
 export const posts: Post[] = [
   {
+    slug: "rebuilding-your-business-around-ai",
+    title:
+      "Most owners are still playing with prompts. A few are rebuilding around AI.",
+    excerpt:
+      "After five months auditing businesses and top realtors across three countries, here&apos;s the real AI shift: not better tools, but restructuring the work around them.",
+    date: "July 15, 2026",
+    dateISO: "2026-07-15",
+    category: "AI Strategy",
+    readTime: "7 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    coverAlt:
+      "A small business owner at a desk reviewing plans, deciding which parts of the business to rebuild around AI",
+    keywords:
+      "AI for small business Colorado, AI workflows small business, agents small business, rebuilding business around AI, Eagle River Valley AI implementation, bilingual AI implementation Vail Valley",
+    content: (
+      <>
+        <p>
+          For the last five or six months we&apos;ve been doing the same two
+          things over and over: auditing businesses and rebuilding the digital
+          side of the ones we take on. Not just here in the Eagle River Valley.
+          We&apos;ve been through the websites and the numbers of small
+          businesses and top-producing realtors in Colorado, in Mexico, in
+          Peru, and a handful of other markets around the States. One pattern
+          kept showing up. The businesses pulling ahead aren&apos;t buying
+          better AI. They&apos;re quietly restructuring around it.
+        </p>
+        <p>
+          Most owners are still poking at a chatbot to write a caption or clean
+          up an email. Fine. That&apos;s not the thing. The shift that matters
+          is one level up: how the work gets divided, who owns what, and what a
+          role even is now that a machine can do part of one. That&apos;s a
+          reorganization, and it has already started.
+        </p>
+
+        <h2>You&apos;ve already climbed part of this ladder</h2>
+        <p>
+          Nobody got here in one jump. Most owners walked the same steps without
+          noticing:
+        </p>
+        <ol>
+          <li>You asked ChatGPT a question here and there, like a smart friend.</li>
+          <li>
+            You noticed it could just find things, and stopped reaching for
+            Google first.
+          </li>
+          <li>You found a few prompts that worked and kept reusing them.</li>
+          <li>
+            Now it can do parts of the job, not just answer about them. It takes
+            a task most of the way and you check it.
+          </li>
+        </ol>
+        <p>
+          Each step felt small. End to end, the work it can carry changed. Step
+          four is the one that forces a reorganization, and most people
+          haven&apos;t noticed it landed.
+        </p>
+
+        <h2>The question that reorganizes everything</h2>
+        <p>
+          Here&apos;s the one we ask owners now: if you designed this business
+          today, with agents able to carry real work from day one, would it look
+          anything like it does?
+        </p>
+        <p>
+          It gets uncomfortable fast. Most of how your business is structured was
+          never a decision. It grew that way. You have someone doing that task
+          because you hired them before the tool existed. You chase quotes by
+          hand because that has always been the job. Ask the question honestly
+          and the same thing happens every time: whole chunks of the setup turn
+          out to be habit, not need.
+        </p>
+
+        <h2>The org chart is quietly flipping</h2>
+        <p>
+          The old structure was built around managing people: a lead, an
+          assistant, a coordinator, someone on the follow-up. The new one is
+          built around owning workflows. One person owns an outcome and directs a
+          set of agents and tools that do the pieces, checks what matters, and
+          catches what goes wrong.
+        </p>
+        <p>
+          That person isn&apos;t a prompt engineer. They&apos;re closer to a
+          general manager. They know the goal, wire up the tools, inspect the
+          output, kill the bad answer before it reaches a customer, and tighten
+          the loop so it&apos;s better next time. For a solo realtor or a
+          three-person shop, that&apos;s the old team folded into one seat with
+          systems underneath it. We called it running a fleet in{" "}
+          <a href="/blog/human-plus-ai-is-the-magic">
+            The magic was never the AI
+          </a>
+          .
+        </p>
+
+        <h2>Two people, same title, no longer the same job</h2>
+        <p>
+          Here&apos;s where it gets sharp. Put two agents in the same market with
+          the same title. One runs on AI systems and produces five to ten times
+          the output. The other still does it all by hand. Whatever the business
+          card says, they are not doing the same job anymore.
+        </p>
+        <p>
+          You can pretend they&apos;re equal for a while. It holds right up until
+          the one carrying the systems realizes they are the operating system,
+          not an equal seat. For the people who moved early, the restructure
+          isn&apos;t coming. It already happened.
+        </p>
+
+        <h2>The model was never your bottleneck</h2>
+        <p>
+          The owners winning at this stopped arguing about which model is
+          smartest. Your bottleneck isn&apos;t the brain. It&apos;s that your
+          business information is scattered and the AI can&apos;t reach the tools
+          you actually use. A brilliant model pointed at a mess is still a mess.
+          A decent model with clean information and a tight workflow around it
+          makes money. We wrote about that side in{" "}
+          <a href="/blog/your-ai-should-know-your-business-by-now">
+            Your AI Should Know Your Business by Now
+          </a>
+          . Usually that&apos;s the real gap. Not the brain. What you feed it.
+        </p>
+
+        <h2>The first wins are boring</h2>
+        <p>
+          None of this starts with something flashy. It starts with the work
+          nobody brags about: answering the same question for the tenth time,
+          drafting the quote, turning a pile of receipts into something your
+          bookkeeper can use, chasing the lead that went quiet, answering the
+          phone after hours instead of losing the job to voicemail. That&apos;s
+          where the money is. Take a real bite out of it and you&apos;ve already
+          won, whether or not you ever do anything fancier.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+          alt="Small business owner and a small team mapping how work gets divided between people, tools, and AI agents"
+          style={{ width: "100%", borderRadius: "12px", margin: "2rem 0" }}
+        />
+
+        <h2>Don&apos;t make AI do everything</h2>
+        <p>
+          Half the jobs people hand a chatbot are the wrong jobs for it. Math,
+          fixed rules, prices, scheduling? Don&apos;t let it guess. Use a
+          spreadsheet or your booking system, the things that are right every
+          time. Writing, translating, summarizing, reading a messy situation and
+          making a call? That&apos;s where the model earns its keep.
+        </p>
+        <p>
+          The best setups we build are less magic and more plumbing, and we mean
+          it as a compliment. You ask in plain language, the AI works out what
+          you want, the right tool or your own data does the exact work, the AI
+          explains it back, and you make the call. The AI is the friendly front
+          and back. The real work in the middle is done by something that
+          doesn&apos;t make things up.
+        </p>
+
+        <h2>Spend the capacity where it counts</h2>
+        <p>
+          AI rarely shows up first as a smaller payroll. It shows up as
+          capacity, hours handed back. That freed time is the raw material of the
+          whole restructure, and it&apos;s where most people blow it. They clear
+          the calendar and then fill it with more of the same admin, the way
+          you&apos;d free up your best closer and then book them into internal
+          meetings.
+        </p>
+        <p>
+          The time is supposed to go to the work only you can do: the
+          relationships, the deals that matter, the calls that need your
+          judgment and no one else&apos;s. Let it get eaten by busier days and
+          you never actually restructured anything. You just got busier.
+        </p>
+
+        <h2>Good news if you&apos;re the one at the top</h2>
+        <p>
+          Easy to read all this as a threat. It&apos;s the opposite if
+          you&apos;re the one running the place. Picture a good dental practice:
+          one highly skilled person up top, strong systems underneath, more
+          judgment per person than a shop that&apos;s all hands and no system.
+          That&apos;s the structure AI finally puts in reach of a small
+          operation.
+        </p>
+        <p>
+          And it makes average execution cheap. Anyone can generate a passable
+          email or a generic post. What it can&apos;t generate is your taste,
+          your read on your own market, or the trust you&apos;ve built with the
+          people who keep hiring you. Those get more valuable as everything
+          around them gets cheaper. The premium moves to the person who asks the
+          sharper question, spots the wrong answer, and moves fast without making
+          a mess.
+        </p>
+
+        <h2>Where this hits hardest here: language</h2>
+        <p>
+          For a lot of the businesses and agents we work with, the sharpest
+          version of this is language. A big share of your customers are most
+          comfortable in Spanish, and meeting them there is one of the most human
+          things you can do. It&apos;s exactly the kind of work AI can carry, as
+          long as a person steers the voice. A generic tool translates your words
+          and loses your warmth. A setup built for it shows up fully in English
+          and Spanish, sounding like you in each. A three-person shop couldn&apos;t
+          pull that off before. Now it can.
+        </p>
+
+        <h2>The weak version and the strong version</h2>
+        <p>
+          The weak version of adopting AI is handing everyone a chatbot and
+          calling it done. Feels like progress, changes nothing. The strong
+          version is redrawing how the work is structured: picking the handful of
+          workflows that actually run your business, the quoting, the follow-up,
+          the front desk, the bilingual side, and rebuilding those around what AI
+          can do now.
+        </p>
+        <p>
+          Most owners are still playing with prompts. A few are rebuilding the
+          org chart. You don&apos;t have to restructure everything at once. Pick
+          the one workflow that eats your week, ask what it would look like if you
+          designed it today with agents on hand, and start there.
+        </p>
+
+        <FAQ
+          items={[
+            {
+              q: "I run a small business, not a corporation. Does any of this actually apply to me?",
+              a: "It applies more to you, not less. A small business feels every hour of wasted work and every lost lead directly, so the payoff from fixing one clogged workflow lands faster than it would at a big company. You also don't have layers of approval in the way. You can decide to rebuild how quotes or follow-ups work and have it running the same week.",
+            },
+            {
+              q: "Which AI tool or model should I be using?",
+              a: "That's usually the wrong first question. For most small businesses the model isn't the bottleneck; the bottleneck is that your business information is scattered and the AI isn't connected to the tools you actually use. Get your information clean and in one place, wire the AI into your real workflow, and a fairly ordinary model will outperform a fancier one that's flying blind.",
+            },
+            {
+              q: "Where should I start if I only want to try one thing?",
+              a: "Pick the boring task that eats the most of your week and costs you customers when it slips: answering repeat questions, drafting quotes, following up on leads, or answering the phone after hours. Those are where AI pays off first. Start with one, get it working reliably, and expand from there. Don't try to redesign the whole business at once.",
+            },
+            {
+              q: "Will AI just let me cut staff?",
+              a: "Usually not right away, and that's fine. What it gives a small business first is capacity: hours back and work that no longer slips. The mistake is letting those hours vanish into more busywork. Point the time you get back at the work only you can do, the relationships and the decisions, and that's where the real return shows up.",
+            },
+            {
+              q: "Should AI handle things like pricing and math?",
+              a: "No. If a task is math, fixed rules, prices, or scheduling, use software that gets it exactly right every time, like a spreadsheet or your booking system. Save the AI for writing, translating, summarizing, and judgment calls. The best setups let the AI handle the language while a reliable tool does the exact calculations behind it.",
+            },
+            {
+              q: "How does this work for a bilingual business?",
+              a: "This is where it matters most in our area. AI lets a small team show up fully in both English and Spanish without losing the personal warmth, as long as a person steers the voice. A generic tool translates and sounds cold; a system built for it sounds native in each language. For a business serving a largely Spanish-speaking customer base, that's the difference between technically reaching people and actually connecting with them.",
+            },
+          ]}
+        />
+
+        <CTA />
+      </>
+    ),
+  },
+  {
     slug: "human-plus-ai-is-the-magic",
     title: "The magic was never the AI. It's you, with an earth mover.",
     excerpt:
