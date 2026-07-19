@@ -1,6 +1,13 @@
 import { notFound } from "next/navigation";
 import { posts, getPost } from "../../lib/posts";
+import { getLang, getTranslation } from "../../lib/pairs";
 import Footer from "../../components/Footer";
+
+const SITE = "https://dobleai.com";
+
+function absoluteUrl(pathOrUrl: string) {
+  return pathOrUrl.startsWith("http") ? pathOrUrl : `${SITE}${pathOrUrl}`;
+}
 
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -14,12 +21,22 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
+  const lang = getLang(slug);
+  const translation = getTranslation(slug);
   return {
     title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
     alternates: {
       canonical: `/blog/${slug}`,
+      ...(translation && {
+        languages: {
+          [lang]: `${SITE}/blog/${slug}`,
+          [translation.lang]: `${SITE}/blog/${translation.slug}`,
+          "x-default":
+            lang === "en" ? `${SITE}/blog/${slug}` : `${SITE}/blog/${translation.slug}`,
+        },
+      }),
     },
     openGraph: {
       title: post.title,
@@ -29,6 +46,13 @@ export async function generateMetadata({
       publishedTime: post.dateISO,
       authors: [post.author?.name ?? "John Rounds"],
       images: [{ url: post.coverImage, alt: post.coverAlt }],
+      locale: lang === "es" ? "es_ES" : "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [absoluteUrl(post.coverImage)],
     },
   };
 }
@@ -42,13 +66,24 @@ export default async function BlogPost({
   const post = getPost(slug);
   if (!post) notFound();
 
+  const lang = getLang(slug);
+  const translation = getTranslation(slug);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "@id": `https://dobleai.com/blog/${post.slug}`,
     headline: post.title,
     description: post.excerpt,
-    image: post.coverImage,
+    image: absoluteUrl(post.coverImage),
+    inLanguage: lang,
+    ...(translation && {
+      [lang === "en" ? "workTranslation" : "translationOfWork"]: {
+        "@type": "Article",
+        "@id": `https://dobleai.com/blog/${translation.slug}`,
+        inLanguage: translation.lang,
+      },
+    }),
     datePublished: post.dateISO,
     dateModified: post.dateISO,
     author: post.author
@@ -124,6 +159,20 @@ export default async function BlogPost({
           >
             ← All posts
           </a>
+
+          {/* Language pair cross-link */}
+          {translation && (
+            <a
+              href={`/blog/${translation.slug}`}
+              className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 text-orange-400 hover:text-orange-300 hover:border-orange-500/50 text-sm font-medium px-4 py-2 rounded-full transition-colors mb-8"
+              lang={translation.lang}
+              hrefLang={translation.lang}
+            >
+              {lang === "en"
+                ? "Leer este artículo en español →"
+                : "Read this article in English →"}
+            </a>
+          )}
 
           {/* Meta */}
           <div className="flex items-center gap-3 mb-6">
