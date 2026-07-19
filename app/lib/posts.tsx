@@ -12,6 +12,9 @@ export type Post = {
   coverAlt: string;
   keywords?: string;
   author?: { name: string; bio: string; image?: string };
+  // When set, blog/[slug]/page.tsx emits FAQPage JSON-LD from these items.
+  // Keep in sync by referencing the same const used in the post's <FAQ />.
+  faq?: { q: string; a: string }[];
   content: React.ReactNode;
 };
 
@@ -53,9 +56,15 @@ const CTAes = () => (
   </div>
 );
 
-const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
+const FAQ = ({
+  items,
+  title = "Frequently Asked Questions",
+}: {
+  items: { q: string; a: string }[];
+  title?: string;
+}) => (
   <div className="mt-10">
-    <h2>Frequently Asked Questions</h2>
+    <h2>{title}</h2>
     <dl>
       {items.map((item, i) => (
         <div key={i}>
@@ -67,9 +76,64 @@ const FAQ = ({ items }: { items: { q: string; a: string }[] }) => (
   </div>
 );
 
+const rebuildingFaqEN = [
+  {
+    q: "I run a small business, not a corporation. Does any of this actually apply to me?",
+    a: "It applies more to you, not less. A small business feels every hour of wasted work and every lost lead directly, so the payoff from fixing one clogged workflow lands faster than it would at a big company. You also don't have layers of approval in the way. You can decide to rebuild how quotes or follow-ups work and have it running the same week.",
+  },
+  {
+    q: "Which AI tool or model should I be using?",
+    a: "That's usually the wrong first question. For most small businesses the model isn't the bottleneck; the bottleneck is that your business information is scattered and the AI isn't connected to the tools you actually use. Get your information clean and in one place, wire the AI into your real workflow, and a fairly ordinary model will outperform a fancier one that's flying blind.",
+  },
+  {
+    q: "Where should I start if I only want to try one thing?",
+    a: "Pick the boring task that eats the most of your week and costs you customers when it slips: answering repeat questions, drafting quotes, following up on leads, or answering the phone after hours. Those are where AI pays off first. Start with one, get it working reliably, and expand from there. Don't try to redesign the whole business at once.",
+  },
+  {
+    q: "Will AI just let me cut staff?",
+    a: "Usually not right away, and that's fine. What it gives a small business first is capacity: hours back and work that no longer slips. The mistake is letting those hours vanish into more busywork. Point the time you get back at the work only you can do, the relationships and the decisions, and that's where the real return shows up.",
+  },
+  {
+    q: "Should AI handle things like pricing and math?",
+    a: "No. If a task is math, fixed rules, prices, or scheduling, use software that gets it exactly right every time, like a spreadsheet or your booking system. Save the AI for writing, translating, summarizing, and judgment calls. The best setups let the AI handle the language while a reliable tool does the exact calculations behind it.",
+  },
+  {
+    q: "How does this work for a bilingual business?",
+    a: "This is where it matters most in our area. AI lets a small team show up fully in both English and Spanish without losing the personal warmth, as long as a person steers the voice. A generic tool translates and sounds cold; a system built for it sounds native in each language. For a business serving a largely Spanish-speaking customer base, that's the difference between technically reaching people and actually connecting with them.",
+  },
+];
+
+const rebuildingFaqES = [
+  {
+    q: "Tengo un pequeño negocio, no una corporación. ¿De verdad me aplica algo de esto?",
+    a: "Te aplica más, no menos. Un pequeño negocio siente cada hora de trabajo desperdiciada y cada prospecto perdido de forma directa, así que el beneficio de arreglar un flujo atascado llega más rápido que en una empresa grande. Además, no tienes capas de aprobación en el camino. Puedes decidir reconstruir cómo funcionan las cotizaciones o los seguimientos y tenerlo andando esa misma semana.",
+  },
+  {
+    q: "¿Qué herramienta o modelo de IA debería usar?",
+    a: "Suele ser la pregunta equivocada para empezar. Para la mayoría de los pequeños negocios el modelo no es el cuello de botella; el cuello de botella es que la información de tu negocio está dispersa y la IA no está conectada a las herramientas que de verdad usas. Ordena tu información en un solo lugar, conecta la IA a tu flujo de trabajo real y un modelo bastante común le ganará a uno más sofisticado que trabaja a ciegas.",
+  },
+  {
+    q: "¿Por dónde empiezo si solo quiero probar una cosa?",
+    a: "Elige la tarea aburrida que más se come tu semana y que te cuesta clientes cuando falla: responder preguntas repetidas, redactar cotizaciones, dar seguimiento a prospectos o contestar el teléfono fuera de horario. Ahí es donde la IA rinde primero. Empieza con una, hazla funcionar de forma confiable y crece desde ahí. No intentes rediseñar todo el negocio de una vez.",
+  },
+  {
+    q: "¿La IA simplemente me va a dejar recortar personal?",
+    a: "Por lo general no de inmediato, y está bien. Lo que primero le da a un pequeño negocio es capacidad: horas de vuelta y trabajo que ya no se cae. El error es dejar que esas horas se esfumen en más trabajo administrativo. Apunta el tiempo que recuperas al trabajo que solo tú puedes hacer, las relaciones y las decisiones, y ahí es donde aparece el verdadero retorno.",
+  },
+  {
+    q: "¿La IA debería encargarse de cosas como precios y matemáticas?",
+    a: "No. Si una tarea es matemáticas, reglas fijas, precios o agenda, usa software que dé el resultado exacto siempre, como una hoja de cálculo o tu sistema de reservas. Guarda la IA para escribir, traducir, resumir y decisiones de criterio. Los mejores sistemas dejan que la IA maneje el lenguaje mientras una herramienta confiable hace los cálculos exactos por detrás.",
+  },
+  {
+    q: "¿Cómo funciona esto para un negocio bilingüe?",
+    a: "Aquí es donde más importa en nuestra zona. La IA le permite a un equipo pequeño aparecer completo en inglés y en español sin perder la calidez personal, siempre que una persona dirija la voz. Una herramienta genérica traduce y suena fría; un sistema hecho para esto suena nativo en cada idioma. Para un negocio que atiende a una base de clientes mayormente hispanohablante, esa es la diferencia entre técnicamente llegar a la gente y de verdad conectar con ella.",
+  },
+];
+
 export const posts: Post[] = [
   {
     slug: "rebuilding-your-business-around-ai",
+    faq: rebuildingFaqEN,
     title:
       "Most owners are still playing with prompts. A few are rebuilding around AI.",
     excerpt:
@@ -287,34 +351,7 @@ export const posts: Post[] = [
           designed it today with agents on hand, and start there.
         </p>
 
-        <FAQ
-          items={[
-            {
-              q: "I run a small business, not a corporation. Does any of this actually apply to me?",
-              a: "It applies more to you, not less. A small business feels every hour of wasted work and every lost lead directly, so the payoff from fixing one clogged workflow lands faster than it would at a big company. You also don't have layers of approval in the way. You can decide to rebuild how quotes or follow-ups work and have it running the same week.",
-            },
-            {
-              q: "Which AI tool or model should I be using?",
-              a: "That's usually the wrong first question. For most small businesses the model isn't the bottleneck; the bottleneck is that your business information is scattered and the AI isn't connected to the tools you actually use. Get your information clean and in one place, wire the AI into your real workflow, and a fairly ordinary model will outperform a fancier one that's flying blind.",
-            },
-            {
-              q: "Where should I start if I only want to try one thing?",
-              a: "Pick the boring task that eats the most of your week and costs you customers when it slips: answering repeat questions, drafting quotes, following up on leads, or answering the phone after hours. Those are where AI pays off first. Start with one, get it working reliably, and expand from there. Don't try to redesign the whole business at once.",
-            },
-            {
-              q: "Will AI just let me cut staff?",
-              a: "Usually not right away, and that's fine. What it gives a small business first is capacity: hours back and work that no longer slips. The mistake is letting those hours vanish into more busywork. Point the time you get back at the work only you can do, the relationships and the decisions, and that's where the real return shows up.",
-            },
-            {
-              q: "Should AI handle things like pricing and math?",
-              a: "No. If a task is math, fixed rules, prices, or scheduling, use software that gets it exactly right every time, like a spreadsheet or your booking system. Save the AI for writing, translating, summarizing, and judgment calls. The best setups let the AI handle the language while a reliable tool does the exact calculations behind it.",
-            },
-            {
-              q: "How does this work for a bilingual business?",
-              a: "This is where it matters most in our area. AI lets a small team show up fully in both English and Spanish without losing the personal warmth, as long as a person steers the voice. A generic tool translates and sounds cold; a system built for it sounds native in each language. For a business serving a largely Spanish-speaking customer base, that's the difference between technically reaching people and actually connecting with them.",
-            },
-          ]}
-        />
+        <FAQ items={rebuildingFaqEN} />
 
         <CTA />
       </>
@@ -322,6 +359,7 @@ export const posts: Post[] = [
   },
   {
     slug: "reestructurando-tu-negocio-con-ia",
+    faq: rebuildingFaqES,
     title:
       "La mayoría todavía juega con prompts. Unos pocos están reestructurando su negocio con IA.",
     excerpt:
@@ -550,34 +588,7 @@ export const posts: Post[] = [
           se vería si lo diseñaras hoy con agentes a la mano, y empieza por ahí.
         </p>
 
-        <FAQ
-          items={[
-            {
-              q: "Tengo un pequeño negocio, no una corporación. ¿De verdad me aplica algo de esto?",
-              a: "Te aplica más, no menos. Un pequeño negocio siente cada hora de trabajo desperdiciada y cada prospecto perdido de forma directa, así que el beneficio de arreglar un flujo atascado llega más rápido que en una empresa grande. Además, no tienes capas de aprobación en el camino. Puedes decidir reconstruir cómo funcionan las cotizaciones o los seguimientos y tenerlo andando esa misma semana.",
-            },
-            {
-              q: "¿Qué herramienta o modelo de IA debería usar?",
-              a: "Suele ser la pregunta equivocada para empezar. Para la mayoría de los pequeños negocios el modelo no es el cuello de botella; el cuello de botella es que la información de tu negocio está dispersa y la IA no está conectada a las herramientas que de verdad usas. Ordena tu información en un solo lugar, conecta la IA a tu flujo de trabajo real y un modelo bastante común le ganará a uno más sofisticado que trabaja a ciegas.",
-            },
-            {
-              q: "¿Por dónde empiezo si solo quiero probar una cosa?",
-              a: "Elige la tarea aburrida que más se come tu semana y que te cuesta clientes cuando falla: responder preguntas repetidas, redactar cotizaciones, dar seguimiento a prospectos o contestar el teléfono fuera de horario. Ahí es donde la IA rinde primero. Empieza con una, hazla funcionar de forma confiable y crece desde ahí. No intentes rediseñar todo el negocio de una vez.",
-            },
-            {
-              q: "¿La IA simplemente me va a dejar recortar personal?",
-              a: "Por lo general no de inmediato, y está bien. Lo que primero le da a un pequeño negocio es capacidad: horas de vuelta y trabajo que ya no se cae. El error es dejar que esas horas se esfumen en más trabajo administrativo. Apunta el tiempo que recuperas al trabajo que solo tú puedes hacer, las relaciones y las decisiones, y ahí es donde aparece el verdadero retorno.",
-            },
-            {
-              q: "¿La IA debería encargarse de cosas como precios y matemáticas?",
-              a: "No. Si una tarea es matemáticas, reglas fijas, precios o agenda, usa software que dé el resultado exacto siempre, como una hoja de cálculo o tu sistema de reservas. Guarda la IA para escribir, traducir, resumir y decisiones de criterio. Los mejores sistemas dejan que la IA maneje el lenguaje mientras una herramienta confiable hace los cálculos exactos por detrás.",
-            },
-            {
-              q: "¿Cómo funciona esto para un negocio bilingüe?",
-              a: "Aquí es donde más importa en nuestra zona. La IA le permite a un equipo pequeño aparecer completo en inglés y en español sin perder la calidez personal, siempre que una persona dirija la voz. Una herramienta genérica traduce y suena fría; un sistema hecho para esto suena nativo en cada idioma. Para un negocio que atiende a una base de clientes mayormente hispanohablante, esa es la diferencia entre técnicamente llegar a la gente y de verdad conectar con ella.",
-            },
-          ]}
-        />
+        <FAQ title="Preguntas frecuentes" items={rebuildingFaqES} />
 
         <CTAes />
       </>
@@ -940,7 +951,7 @@ export const posts: Post[] = [
           una vez que deja de cavar a mano.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿La IA va a reemplazar el lado humano de mi negocio?",
@@ -1290,7 +1301,7 @@ export const posts: Post[] = [
           primer día.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Puede la IA realmente aprender y recordar mi negocio?",
@@ -1580,7 +1591,7 @@ export const posts: Post[] = [
           ti, no en teoría, en la práctica.
         </p>
 
-        <FAQ items={[
+        <FAQ title="Preguntas frecuentes" items={[
           {
             q: "¿Qué hace Doble AI?",
             a: "Implementamos sistemas de IA para negocios de Colorado. Construimos, configuramos y operamos las herramientas para que produzcan resultados reales en tu operación específica. Nos especializamos en implementación bilingüe, entregando todo en inglés y en español de calidad nativa.",
@@ -1899,7 +1910,7 @@ export const posts: Post[] = [
           trabajo conseguir &mdash; vale la pena conversar sobre Lucy.
         </p>
 
-        <FAQ items={[
+        <FAQ title="Preguntas frecuentes" items={[
           {
             q: "¿Qué es Lucy, la recepcionista IA de Doble AI?",
             a: "Lucy es la recepcionista IA bilingüe de Doble AI. Atiende tu teléfono de negocio 24/7 en inglés y español, resume cada llamada en un correo a tu bandeja de entrada y envía seguimientos automáticos a quienes comparten su correo electrónico.",
@@ -2202,7 +2213,7 @@ export const posts: Post[] = [
           claramente qué está funcionando, qué falta y qué corregir primero.
         </p>
 
-        <FAQ items={[
+        <FAQ title="Preguntas frecuentes" items={[
           {
             q: "¿Por qué importa mi Perfil de Google Business para la búsqueda con IA?",
             a: "Plataformas de IA como ChatGPT, Grok, Perplexity y los propios AI Overviews de Google leen los datos del Perfil de Google Business para decidir a quién recomendar en consultas locales. Un perfil completo, activo y con buenas reseñas es una de las señales más fuertes que usan estos sistemas. Uno incompleto se pasa por alto — muchas veces sin que te enteres.",
@@ -3142,7 +3153,7 @@ export const posts: Post[] = [
           donde vienes da forma a lo que eres capaz de construir.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Qué es el español neutro y por qué se usa en la IA?",
@@ -3327,7 +3338,7 @@ export const posts: Post[] = [
           Sin compromiso.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Cuánto mejor convierte el tráfico referido por IA comparado con Google?",
@@ -3959,7 +3970,7 @@ export const posts: Post[] = [
           es lo que hace que se queden.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Cuál es la diferencia entre marketing bilingüe y traducción?",
@@ -4848,7 +4859,7 @@ export const posts: Post[] = [
           adelantarte.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Cuál es la diferencia entre GEO y SEO?",
@@ -5253,7 +5264,7 @@ export const posts: Post[] = [
           juego y ejecutarlo, en la dirección que tenga sentido para tu negocio.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Qué es un análisis competitivo para una pequeña empresa?",
@@ -5434,7 +5445,7 @@ export const posts: Post[] = [
           Auditoría gratuita, sin compromiso. Los datos hablan por sí solos.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Son los propietarios mexicanos y latinos un mercado significativo en el Vail Valley?",
@@ -5721,7 +5732,7 @@ export const posts: Post[] = [
           búsqueda.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Qué es una auditoría de presencia digital?",
@@ -6131,7 +6142,7 @@ export const posts: Post[] = [
           encontrarte.
         </p>
 
-        <FAQ
+        <FAQ title="Preguntas frecuentes"
           items={[
             {
               q: "¿Qué significa 'presencia digital' para un negocio pequeño?",
