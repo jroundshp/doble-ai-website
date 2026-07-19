@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { posts } from "./lib/posts";
+import { townPages } from "./lib/locations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = posts.map((post) => ({
@@ -7,6 +8,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.dateISO),
     changeFrequency: "monthly" as const,
     priority: 0.7,
+  }));
+
+  const locationPages = townPages.map((t) => ({
+    url: `https://dobleai.com/locations/${t.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
   }));
 
   return [
@@ -28,6 +36,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: "https://dobleai.com/locations",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    ...locationPages,
     ...blogPosts,
   ];
 }
