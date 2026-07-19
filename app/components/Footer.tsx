@@ -1,17 +1,41 @@
-export default function Footer() {
+const FOOTER_LABELS = {
+  en: {
+    tagline: "Eagle River Valley, Colorado",
+    base: "/",
+    services: "Services",
+    work: "Work",
+    translation: "Translation",
+    blog: "Blog",
+    about: "About",
+    contact: "Contact",
+  },
+  es: {
+    tagline: "Valle del río Eagle, Colorado",
+    base: "/es",
+    services: "Servicios",
+    work: "Trabajo",
+    translation: "Traducción",
+    blog: "Blog",
+    about: "Nosotros",
+    contact: "Contacto",
+  },
+} as const;
+
+export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
+  const t = FOOTER_LABELS[lang];
   return (
     <footer className="py-10 px-6 border-t border-white/[0.06]">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#555]">
         <div>
-          doble<span className="text-orange-500">AI</span> · Eagle River Valley, Colorado
+          doble<span className="text-orange-500">AI</span> · {t.tagline}
         </div>
         <div className="flex gap-6">
-          <a href="/#services" className="hover:text-white transition-colors">Services</a>
-          <a href="/#work" className="hover:text-white transition-colors">Work</a>
-          <a href="/translation" className="hover:text-white transition-colors">Translation</a>
-          <a href="/blog" className="hover:text-white transition-colors">Blog</a>
-          <a href="/#about" className="hover:text-white transition-colors">About</a>
-          <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
+          <a href={`${t.base}#services`} className="hover:text-white transition-colors">{t.services}</a>
+          <a href={`${t.base}#work`} className="hover:text-white transition-colors">{t.work}</a>
+          <a href="/translation" className="hover:text-white transition-colors">{t.translation}</a>
+          <a href="/blog" className="hover:text-white transition-colors">{t.blog}</a>
+          <a href={`${t.base}#about`} className="hover:text-white transition-colors">{t.about}</a>
+          <a href={`${t.base}#contact`} className="hover:text-white transition-colors">{t.contact}</a>
         </div>
         <div className="flex items-center gap-5">
           <a href="https://x.com/dobleai_co" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="X">

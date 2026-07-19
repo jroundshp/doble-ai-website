@@ -9,6 +9,11 @@ import Nav from "./components/Nav";
 export const metadata: Metadata = {
   alternates: {
     canonical: "/",
+    languages: {
+      en: "https://dobleai.com/",
+      es: "https://dobleai.com/es",
+      "x-default": "https://dobleai.com/",
+    },
   },
 };
 

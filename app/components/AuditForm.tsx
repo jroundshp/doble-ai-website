@@ -3,10 +3,40 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function AuditForm() {
+const FORM_LABELS = {
+  en: {
+    thanksTitle: "Thank you, we'll be in touch.",
+    thanksBody:
+      "Your free audit request came through. We'll review your business and reach out within 1–2 business days with what we find.",
+    redirecting: "Taking you back to the home page…",
+    name: "Your name",
+    email: "Email address",
+    business: "Your business name",
+    message: "Tell us about your business and what you're trying to grow...",
+    sending: "Sending…",
+    submit: "Request my free audit",
+    home: "/",
+  },
+  es: {
+    thanksTitle: "¡Gracias! Estaremos en contacto.",
+    thanksBody:
+      "Tu solicitud de auditoría gratuita llegó bien. Revisaremos tu negocio y te contactaremos en 1–2 días hábiles con lo que encontremos.",
+    redirecting: "Regresando a la página principal…",
+    name: "Tu nombre",
+    email: "Correo electrónico",
+    business: "El nombre de tu negocio",
+    message: "Cuéntanos sobre tu negocio y qué quieres hacer crecer...",
+    sending: "Enviando…",
+    submit: "Solicitar mi auditoría gratuita",
+    home: "/es",
+  },
+} as const;
+
+export default function AuditForm({ lang = "en" }: { lang?: "en" | "es" }) {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const router = useRouter();
+  const t = FORM_LABELS[lang];
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -25,7 +55,7 @@ export default function AuditForm() {
     setSubmitting(false);
 
     setTimeout(() => {
-      router.push("/");
+      router.push(t.home);
     }, 4000);
   }
 
@@ -38,12 +68,10 @@ export default function AuditForm() {
           </svg>
         </div>
         <div>
-          <h3 className="text-2xl font-bold text-white mb-2">Thank you, we&apos;ll be in touch.</h3>
-          <p className="text-[#a3a3a3]">
-            Your free audit request came through. We&apos;ll review your business and reach out within 1–2 business days with what we find.
-          </p>
+          <h3 className="text-2xl font-bold text-white mb-2">{t.thanksTitle}</h3>
+          <p className="text-[#a3a3a3]">{t.thanksBody}</p>
         </div>
-        <p className="text-[#555] text-sm">Taking you back to the home page…</p>
+        <p className="text-[#555] text-sm">{t.redirecting}</p>
       </div>
     );
   }
@@ -55,27 +83,27 @@ export default function AuditForm() {
           type="text"
           name="name"
           required
-          placeholder="Your name"
+          placeholder={t.name}
           className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
         />
         <input
           type="email"
           name="email"
           required
-          placeholder="Email address"
+          placeholder={t.email}
           className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
         />
       </div>
       <input
         type="text"
         name="business"
-        placeholder="Your business name"
+        placeholder={t.business}
         className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors"
       />
       <textarea
         rows={4}
         name="message"
-        placeholder="Tell us about your business and what you're trying to grow..."
+        placeholder={t.message}
         className="bg-white/[0.05] border border-white/[0.1] rounded-xl px-4 py-3 text-white placeholder:text-[#666] focus:outline-none focus:border-orange-500/50 transition-colors resize-none"
       />
       <button
@@ -83,7 +111,7 @@ export default function AuditForm() {
         disabled={submitting}
         className="bg-orange-500 hover:bg-orange-400 disabled:opacity-60 text-white font-semibold px-8 py-4 rounded-full transition-colors mt-2"
       >
-        {submitting ? "Sending…" : "Request my free audit"}
+        {submitting ? t.sending : t.submit}
       </button>
     </form>
   );
