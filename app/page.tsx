@@ -64,6 +64,7 @@ export default function Home() {
       <VoiceDemo />
       <SampleWork />
       <Projects />
+      <Testimonials />
       <FAQ />
       <About />
       <Contact />
@@ -642,6 +643,70 @@ function Projects() {
 }
 
 /* ── About ── */
+const testimonials = [
+  {
+    quote:
+      "The bilingual team at Doble AI has completely reshaped how we approach our online digital presence. They captured almost five decades of my experience and market knowledge of the Vail and Eagle River Valley, and helped us take what we do day in and day out and showcase it online. In short, they underpromised and overdelivered.",
+    name: "John Tyler",
+    role: "John Tyler Real Estate · Vail Valley, Colorado",
+    lang: "en",
+  },
+  {
+    quote:
+      "El equipo de Doble AI captó perfectamente lo que hacemos y construyó una plataforma que refleja mi conocimiento y experiencia aquí en Chapala, Ajijic y toda la ribera. La tecnología no es lo mío, y me ayudaron a tomar lo que tenía en la cabeza y mostrarlo en línea de forma efectiva, en un formato bilingüe que ayuda a mis compradores y vendedores. 10 de 10.",
+    name: "Sol Ramírez",
+    role: "Sol Ramírez Real Estate · Ajijic, México",
+    lang: "es",
+  },
+  {
+    quote:
+      "I have known the founder of Doble AI for almost ten years, and what he and Gisella have created with their agency is nothing short of incredible. They helped me take my life's work, present it digitally and bilingually, and gave me a way to communicate what I do effectively. Their cultural and language understanding of the Latin American and United States markets cannot be overstated. A 10/10 agency.",
+    name: "Alexander Estrada",
+    role: "Filmmaker & Photographer · Colorado",
+    lang: "en",
+  },
+];
+
+function Testimonials() {
+  return (
+    <section id="testimonials" className="py-24 px-6 border-t border-white/[0.06]">
+      <div className="max-w-6xl mx-auto">
+        <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
+          <span className="w-6 h-px bg-orange-500" />
+          Client words
+        </div>
+        <h2 className="text-4xl font-bold mb-4">In their own words. En sus propias palabras.</h2>
+        <p className="text-[#a3a3a3] text-lg mb-14 max-w-2xl">
+          Three clients, two countries, two languages. Unedited beyond punctuation.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          {testimonials.map((t) => (
+            <figure
+              key={t.name}
+              className="bg-white/[0.03] border border-white/[0.06] rounded-2xl p-7 flex flex-col"
+            >
+              <span aria-hidden="true" className="text-orange-500 text-5xl leading-none font-serif mb-4">
+                &ldquo;
+              </span>
+              <blockquote
+                lang={t.lang}
+                className="text-[#d4d4d4] text-sm leading-relaxed flex-1"
+              >
+                {t.quote}
+              </blockquote>
+              <figcaption className="mt-6 pt-5 border-t border-white/[0.06]">
+                <p className="text-sm font-semibold text-white">{t.name}</p>
+                <p className="text-xs text-[#a3a3a3] mt-1">{t.role}</p>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function About() {
   return (
     <section id="about" className="py-24 px-6">
