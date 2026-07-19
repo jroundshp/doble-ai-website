@@ -482,6 +482,7 @@ const projects = [
     cta: "Visit the site",
     tag: "Bilingual real estate",
     gradient: "linear-gradient(135deg, #0f3d4a 0%, #1c6b6e 58%, #e8a13c 125%)",
+    image: "/work/sol-ramirez.jpg",
   },
   {
     name: "CO Headwaters Report",

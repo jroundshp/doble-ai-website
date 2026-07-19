@@ -478,6 +478,7 @@ const projects = [
     cta: "Visitar el sitio",
     tag: "Bienes raíces bilingüe",
     gradient: "linear-gradient(135deg, #0f3d4a 0%, #1c6b6e 58%, #e8a13c 125%)",
+    image: "/work/sol-ramirez.jpg",
   },
   {
     name: "CO Headwaters Report",
