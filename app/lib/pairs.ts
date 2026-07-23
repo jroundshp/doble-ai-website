@@ -3,6 +3,7 @@
 // and the visible cross-language link. A post absent from this array is
 // invisible on the blog index.
 export const pairs: [string, string?][] = [
+  ["why-ai-is-step-four-not-step-one", "por-que-la-ia-es-el-paso-cuatro-no-el-paso-uno"],
   ["rebuilding-your-business-around-ai", "reestructurando-tu-negocio-con-ia"],
   ["human-plus-ai-is-the-magic", "humano-mas-ia-es-la-magia"],
   ["your-business-is-great-nobody-knows-it-exists", "tu-negocio-es-excelente-nadie-lo-sabe"],

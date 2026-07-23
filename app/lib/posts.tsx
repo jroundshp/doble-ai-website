@@ -130,7 +130,301 @@ const rebuildingFaqES = [
   },
 ];
 
+const stepFourFaqEN = [
+  {
+    q: "Should my small business start with AI?",
+    a: "Usually not. Start by measuring how visible you are to the customers you want: search results, your Google profile, reviews, and what AI assistants say when someone asks about your category. If that layer is weak, fix it first. AI multiplies what already exists, and it pays off far more once there is something solid to multiply.",
+  },
+  {
+    q: "What comes before AI implementation?",
+    a: "Three things: an audit that tells you where you stand, a competitive analysis that tells you who is winning your market and why, and the brand and visibility work that gets you found and tells your story. Once those are in place, AI implementation stops being a gadget and starts being a multiplier.",
+  },
+  {
+    q: "How long does each step take?",
+    a: "Our business audit is delivered in 5 to 7 days, and the competitive landscape analysis is included with it or available on its own. Brand and sales growth is ongoing work measured in weeks and months. AI implementation is scoped per engagement and builds on everything before it.",
+  },
+  {
+    q: "I already pay for AI tools. Did I waste money?",
+    a: "Probably not, but you may be underusing them. A chatbot or a writing assistant helps day to day. The bigger return arrives when the AI is connected to a business customers can actually find, with clean information behind it. Keep the tools; fix the foundation they sit on.",
+  },
+  {
+    q: "Can I skip straight to step four?",
+    a: "Sometimes. A business with a strong site, steady reviews, and real visibility has already done steps one through three, whether or not it called them that. The audit is how you find out. If the foundation checks out, going straight to AI implementation is exactly right.",
+  },
+  {
+    q: "Does the order change for a bilingual market?",
+    a: "The order stays the same; the work inside each step changes. The audit looks at how you show up in English and in Spanish, the competitive analysis usually finds that almost nobody is serving Spanish speakers well, and the brand work covers both languages. By the time AI arrives in step four, it is bilingual from day one.",
+  },
+];
+
+const stepFourFaqES = [
+  {
+    q: "¿Mi pequeño negocio debería empezar con IA?",
+    a: "Por lo general, no. Empieza midiendo qué tan visible eres para los clientes que quieres: resultados de búsqueda, tu perfil de Google, reseñas y lo que responden los asistentes de IA cuando alguien pregunta por tu categoría. Si esa capa está débil, arréglala primero. La IA multiplica lo que ya existe, y rinde mucho más cuando hay algo sólido que multiplicar.",
+  },
+  {
+    q: "¿Qué viene antes de la implementación de IA?",
+    a: "Tres cosas: una auditoría que te dice dónde estás parado, un análisis competitivo que te dice quién está ganando tu mercado y por qué, y el trabajo de marca y visibilidad que hace que te encuentren y cuenta tu historia. Con eso en su lugar, la implementación de IA deja de ser un aparato y se convierte en un multiplicador.",
+  },
+  {
+    q: "¿Cuánto tarda cada paso?",
+    a: "Nuestra auditoría de negocio se entrega en 5 a 7 días, y el análisis del panorama competitivo viene incluido o se hace por separado. El crecimiento de marca y ventas es trabajo continuo que se mide en semanas y meses. La implementación de IA se define a la medida de cada proyecto y se apoya en todo lo anterior.",
+  },
+  {
+    q: "Ya pago herramientas de IA. ¿Tiré mi dinero?",
+    a: "Probablemente no, pero quizá las estás subutilizando. Un chatbot o un asistente de redacción ayuda en el día a día. El retorno grande llega cuando la IA está conectada a un negocio que los clientes sí pueden encontrar, con información limpia detrás. Quédate con las herramientas; arregla la base donde están paradas.",
+  },
+  {
+    q: "¿Puedo saltarme directo al paso cuatro?",
+    a: "A veces. Un negocio con un buen sitio, reseñas constantes y visibilidad real ya hizo los pasos uno al tres, aunque no los llamara así. La auditoría es la forma de saberlo. Si la base está sólida, ir directo a la implementación de IA es exactamente lo correcto.",
+  },
+  {
+    q: "¿El orden cambia para un mercado bilingüe?",
+    a: "El orden se mantiene; lo que cambia es el trabajo dentro de cada paso. La auditoría revisa cómo apareces en inglés y en español, el análisis competitivo casi siempre encuentra que nadie atiende bien a los hispanohablantes, y el trabajo de marca cubre ambos idiomas. Cuando la IA llega en el paso cuatro, ya es bilingüe desde el primer día.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "why-ai-is-step-four-not-step-one",
+    faq: stepFourFaqEN,
+    title: "Why AI is step four, not step one",
+    excerpt:
+      "We are an AI implementation firm, and we put AI last on our own services list. Here&apos;s the order that actually works for a small business, and why.",
+    date: "July 23, 2026",
+    dateISO: "2026-07-23",
+    category: "AI Strategy",
+    readTime: "4 min read",
+    coverImage: "/work/services-four-steps.jpg",
+    coverAlt:
+      "The four services on the Doble AI homepage in their new order: 01 Business Audit, 02 Competitive Landscape Analysis, 03 Brand and Sales Growth, 04 AI Implementation",
+    keywords:
+      "small business AI strategy, when to adopt AI small business, business audit before AI, digital presence before AI implementation, AI implementation Colorado, bilingual AI implementation Eagle River Valley",
+    content: (
+      <>
+        <p>
+          This week we changed the order of the services on our own homepage.
+          A small edit: four cards, new numbers. But the order is the whole
+          argument. Business audit first, competitive landscape second, brand
+          and sales growth third, AI implementation last. We are an AI
+          implementation firm, and we put AI fourth on purpose.
+        </p>
+        <p>
+          Here&apos;s why, and why we&apos;d give the same order to any small
+          business owner who asks where to start.
+        </p>
+
+        <h2>Why would an AI firm put AI last?</h2>
+        <p>
+          Because AI is an amplifier. It multiplies whatever your business
+          already produces. If your visibility and your story are strong, AI
+          multiplies that. If customers can&apos;t find you, AI multiplies
+          silence, just faster and at higher volume.
+        </p>
+        <p>
+          Most of the owners we audit are getting pitched AI tools every week.
+          Almost none of them have the foundation those tools need to pay off.
+          Nothing is wrong with the tools. They&apos;re being sold out of
+          order.
+        </p>
+
+        <h2>Step one: find out where you actually stand</h2>
+        <p>
+          Every engagement we take starts with a business audit: your website,
+          your Google profile, your reviews, how you show up in search and in
+          AI answers, and how all of that compares to what your customers see
+          when they go looking. You can&apos;t fix what you haven&apos;t
+          measured, and owners are usually surprised by what the measurement
+          shows. Almost every time, the weak spot turns out to be visibility
+          rather than the product.
+        </p>
+
+        <h2>Step two: learn who&apos;s winning your market and why</h2>
+        <p>
+          Your gaps only mean something next to the businesses taking your
+          customers. So we map the competitive landscape: who ranks where you
+          should, what they do well, where they&apos;re coasting, and the
+          white space nobody in your market has claimed yet. That last part
+          matters most. In almost every market we&apos;ve audited, there is an
+          open lane no one is running in.
+        </p>
+
+        <h2>Step three: get found and tell your story</h2>
+        <p>
+          This is the digital presence work. A site that answers the questions
+          customers actually ask. A Google profile with real reviews on it.
+          Content that says what you do in plain language, in Spanish too when
+          your market calls for it. It&apos;s the least glamorous step and the
+          highest-leverage one, because this layer is what AI has to work with
+          later. Skip it and step four has nothing to stand on.
+        </p>
+
+        <h2>Step four: now AI has something to compound</h2>
+        <p>
+          With the foundation in place, AI implementation stops being a
+          gadget. A workspace with persistent memory that learns your
+          business. Workflows that accumulate instead of resetting every
+          morning. A bilingual agent answering the phone after hours instead
+          of losing the job to voicemail. Built on a business customers can
+          find, these systems compound. Built on an invisible one, they just
+          run quietly next to the silence.
+        </p>
+
+        <img
+          src="/gore-creek-bridge-vail.jpg"
+          alt="Pedestrian bridge over Gore Creek in Vail, Colorado, near where Doble AI audits and rebuilds small business digital presence"
+        />
+
+        <h2>We ran this order on ourselves</h2>
+        <p>
+          This isn&apos;t theory. In July we ran a full prospect-style audit
+          on our own business, the same one we sell. The product side graded
+          well. Our findability graded embarrassingly low. The firm that sells
+          getting found wasn&apos;t being found.
+        </p>
+        <p>
+          So we spent the month on steps one through three for ourselves:
+          fixing structured data, shipping a Spanish homepage, building town
+          pages, working our Google profile, asking for reviews. Our AI was
+          already built. It was waiting on everything else. That experience,
+          more than any sales logic, is why the services on our homepage now
+          read one, two, three, four.
+        </p>
+        <p>
+          If you take one thing from this, take the sequence. Before you buy
+          an AI tool, spend a week finding out whether customers can find you
+          at all. That week is what we call step one, and ours is free.
+        </p>
+
+        <FAQ items={stepFourFaqEN} />
+        <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "por-que-la-ia-es-el-paso-cuatro-no-el-paso-uno",
+    faq: stepFourFaqES,
+    title: "Por qué la IA es el paso cuatro, no el paso uno",
+    excerpt:
+      "Somos una firma de implementación de IA y pusimos la IA al final de nuestra lista de servicios. El orden es el argumento: auditoría, competencia, presencia y después la IA.",
+    date: "July 23, 2026",
+    dateISO: "2026-07-23",
+    category: "Estrategia de IA",
+    readTime: "4 min de lectura",
+    coverImage: "/work/services-four-steps.jpg",
+    coverAlt:
+      "Los cuatro servicios en la página de Doble AI en su nuevo orden: 01 Auditoría de negocio, 02 Análisis del panorama competitivo, 03 Crecimiento de marca y ventas, 04 Implementación de IA",
+    keywords:
+      "estrategia de IA pequeños negocios, cuándo adoptar IA en mi negocio, auditoría digital antes de IA, presencia digital antes de implementar IA, implementación de IA bilingüe Colorado",
+    content: (
+      <>
+        <p>
+          Esta semana cambiamos el orden de los servicios en nuestra propia
+          página. Un cambio pequeño: cuatro tarjetas, números nuevos. Pero el
+          orden es el argumento completo. Primero la auditoría de negocio,
+          segundo el panorama competitivo, tercero el crecimiento de marca y
+          ventas, y al final la implementación de IA. Somos una firma de
+          implementación de IA y pusimos la IA en cuarto lugar a propósito.
+        </p>
+        <p>
+          Aquí está el porqué, y por qué le daríamos el mismo orden a
+          cualquier dueño de un pequeño negocio que pregunte por dónde
+          empezar.
+        </p>
+
+        <h2>¿Por qué una firma de IA pondría la IA al final?</h2>
+        <p>
+          Porque la IA es un amplificador: multiplica lo que tu negocio ya
+          produce. Si tu visibilidad y tu historia son fuertes, la IA
+          multiplica eso. Si los clientes no te encuentran, la IA multiplica
+          el silencio, solo que más rápido y a mayor volumen.
+        </p>
+        <p>
+          A la mayoría de los dueños que auditamos les ofrecen herramientas de
+          IA cada semana. Casi ninguno tiene la base que esas herramientas
+          necesitan para rendir. Las herramientas no están mal—las están
+          vendiendo en el orden equivocado.
+        </p>
+
+        <h2>Paso uno: saber dónde estás parado de verdad</h2>
+        <p>
+          Cada proyecto que tomamos empieza con una auditoría de negocio: tu
+          sitio web, tu perfil de Google, tus reseñas, cómo apareces en los
+          buscadores y en las respuestas de IA, y cómo se compara todo eso con
+          lo que ven tus clientes cuando te buscan. No puedes arreglar lo que
+          no has medido, y a los dueños casi siempre les sorprende lo que la
+          medición muestra. La sorpresa rara vez es el producto. Es la
+          visibilidad.
+        </p>
+
+        <h2>Paso dos: saber quién está ganando tu mercado y por qué</h2>
+        <p>
+          Tus brechas solo significan algo junto a los negocios que se están
+          llevando a tus clientes. Por eso mapeamos el panorama competitivo:
+          quién aparece donde tú deberías aparecer, qué hacen bien, dónde se
+          están durmiendo y qué espacio libre nadie en tu mercado ha
+          reclamado. Esa última parte es la que más importa. En casi todos los
+          mercados que hemos auditado hay un carril abierto por el que nadie
+          está corriendo.
+        </p>
+
+        <h2>Paso tres: que te encuentren y contar tu historia</h2>
+        <p>
+          Este es el trabajo de presencia digital. Un sitio que responde las
+          preguntas que los clientes de verdad hacen. Un perfil de Google con
+          reseñas reales. Contenido que explica lo que haces en lenguaje
+          claro, también en español cuando tu mercado lo pide. Es el paso
+          menos glamoroso y el de mayor palanca, porque esta capa es con la
+          que la IA va a trabajar después. Si te lo saltas, el paso cuatro no
+          tiene dónde pararse.
+        </p>
+
+        <h2>Paso cuatro: ahora la IA tiene algo que multiplicar</h2>
+        <p>
+          Con la base en su lugar, la implementación de IA deja de ser un
+          aparato. Un espacio de trabajo con memoria persistente que aprende
+          tu negocio. Flujos de trabajo que se acumulan en lugar de empezar de
+          cero cada mañana. Un agente bilingüe que contesta el teléfono fuera
+          de horario en lugar de perder el trabajo en el buzón de voz.
+          Montados sobre un negocio que los clientes pueden encontrar, estos
+          sistemas se acumulan. Montados sobre uno invisible, solo corren en
+          silencio junto al silencio.
+        </p>
+
+        <img
+          src="/gore-creek-bridge-vail.jpg"
+          alt="Puente peatonal sobre Gore Creek en Vail, Colorado, cerca de donde Doble AI audita y reconstruye la presencia digital de pequeños negocios"
+        />
+
+        <h2>Aplicamos este orden en nosotros mismos</h2>
+        <p>
+          Esto no es teoría. En julio corrimos una auditoría completa, estilo
+          prospecto, sobre nuestro propio negocio, la misma que vendemos. El
+          lado del producto salió bien calificado. Nuestra visibilidad salió
+          vergonzosamente baja. La firma que vende que te encuentren no estaba
+          siendo encontrada.
+        </p>
+        <p>
+          Así que pasamos el mes en los pasos uno al tres para nosotros
+          mismos: arreglar los datos estructurados, publicar una página de
+          inicio en español, construir páginas por pueblo, trabajar nuestro
+          perfil de Google, pedir reseñas. Nuestra IA ya estaba construida.
+          Estaba esperando todo lo demás. Esa experiencia, más que cualquier
+          lógica de ventas, es la razón por la que los servicios en nuestra
+          página ahora se leen uno, dos, tres, cuatro.
+        </p>
+        <p>
+          Si te llevas una sola cosa de este artículo, llévate la secuencia.
+          Antes de comprar una herramienta de IA, dedica una semana a
+          averiguar si los clientes pueden encontrarte. Esa semana es lo que
+          nosotros llamamos el paso uno, y la nuestra es gratis.
+        </p>
+
+        <FAQ items={stepFourFaqES} title="Preguntas frecuentes" />
+        <CTAes />
+      </>
+    ),
+  },
   {
     slug: "rebuilding-your-business-around-ai",
     faq: rebuildingFaqEN,
