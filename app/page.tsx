@@ -182,15 +182,15 @@ function Services() {
     },
     {
       num: "03",
-      name: "AI Implementation",
-      desc: "We build an AI workspace that learns your business: persistent memory, accumulated workflows, bilingual AI agents. Not a one-time setup. A system that compounds the longer we work together.",
-      detail: "Custom scope per engagement",
-    },
-    {
-      num: "04",
       name: "Brand & Sales Growth",
       desc: "Digital presence buildout, content strategy, and a clear plan to turn your brand into a revenue-generating asset. Available in English, with Spanish for businesses ready to grow that market.",
       detail: "English · Spanish optional",
+    },
+    {
+      num: "04",
+      name: "AI Implementation",
+      desc: "We build an AI workspace that learns your business: persistent memory, accumulated workflows, bilingual AI agents. Not a one-time setup. A system that compounds the longer we work together.",
+      detail: "Custom scope per engagement",
     },
   ];
 

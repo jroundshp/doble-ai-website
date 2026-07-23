@@ -202,15 +202,15 @@ function Services() {
     },
     {
       num: "03",
-      name: "Implementación de IA",
-      desc: "Construimos un espacio de trabajo con IA que aprende tu negocio: memoria persistente, flujos de trabajo acumulados y agentes de IA bilingües. No es una instalación de una sola vez, sino un sistema que se acumula mientras más trabajamos juntos.",
-      detail: "Alcance a la medida de cada proyecto",
-    },
-    {
-      num: "04",
       name: "Crecimiento de marca y ventas",
       desc: "Construcción de presencia digital, estrategia de contenido y un plan claro para convertir tu marca en un activo que genera ingresos. En español y en inglés, según el mercado que quieras hacer crecer.",
       detail: "Español · Inglés",
+    },
+    {
+      num: "04",
+      name: "Implementación de IA",
+      desc: "Construimos un espacio de trabajo con IA que aprende tu negocio: memoria persistente, flujos de trabajo acumulados y agentes de IA bilingües. No es una instalación de una sola vez, sino un sistema que se acumula mientras más trabajamos juntos.",
+      detail: "Alcance a la medida de cada proyecto",
     },
   ];
 
