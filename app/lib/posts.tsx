@@ -961,7 +961,7 @@ export const posts: Post[] = [
     date: "July 15, 2026",
     dateISO: "2026-07-15",
     category: "AI Strategy",
-    readTime: "8 min read",
+    readTime: "7 min read",
     coverImage: "/gore-creek-bridge-vail.jpg",
     coverAlt:
       "A pedestrian bridge over Gore Creek in Vail, Colorado, framed by pines and mountainside in the Eagle River Valley where Doble AI works with local businesses",
@@ -1187,7 +1187,7 @@ export const posts: Post[] = [
     date: "July 15, 2026",
     dateISO: "2026-07-15",
     category: "Estrategia de IA",
-    readTime: "8 min de lectura",
+    readTime: "7 min de lectura",
     coverImage: "/gore-creek-bridge-vail.jpg",
     coverAlt:
       "Un puente peatonal sobre Gore Creek en Vail, Colorado, rodeado de pinos y montaña, en el Eagle River Valley donde Doble AI trabaja con negocios locales",
@@ -3068,7 +3068,7 @@ export const posts: Post[] = [
     date: "April 21, 2026",
     dateISO: "2026-04-21",
     category: "AI Strategy",
-    readTime: "8 min read",
+    readTime: "7 min read",
     coverImage:
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Digital analytics dashboard showing AI traffic outperforming traditional marketing channels in 2026",
@@ -3491,7 +3491,7 @@ export const posts: Post[] = [
     date: "April 17, 2026",
     dateISO: "2026-04-17",
     category: "Bilingual Marketing",
-    readTime: "8 min read",
+    readTime: "7 min read",
     coverImage:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Two people collaborating across languages, representing bilingual marketing strategy",
@@ -4006,7 +4006,7 @@ export const posts: Post[] = [
     date: "21 de abril de 2026",
     dateISO: "2026-04-21",
     category: "Estrategia de IA",
-    readTime: "8 min de lectura",
+    readTime: "7 min de lectura",
     coverImage:
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Panel de análisis digital que muestra el tráfico de IA superando a los canales de marketing tradicionales en 2026",
@@ -4561,7 +4561,7 @@ export const posts: Post[] = [
     date: "17 de abril de 2026",
     dateISO: "2026-04-17",
     category: "Marketing Bilingüe",
-    readTime: "8 min de lectura",
+    readTime: "7 min de lectura",
     coverImage:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Dos personas colaborando en diferentes idiomas, representando una estrategia de marketing bilingüe",
@@ -4827,7 +4827,7 @@ export const posts: Post[] = [
     date: "April 16, 2026",
     dateISO: "2026-04-16",
     category: "AI Tools",
-    readTime: "8 min read",
+    readTime: "7 min read",
     coverImage:
       "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Developer workspace with VS Code editor on a dark screen",
