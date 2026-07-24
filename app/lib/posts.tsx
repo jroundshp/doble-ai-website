@@ -327,7 +327,10 @@ export const posts: Post[] = [
           decision, and lesson, kept where the other agents can read it.
           Without it, each agent wakes up a stranger to the business. With
           it, the receptionist knows the service list and the writer knows
-          the house style without being told twice.
+          the house style without being told twice. It&apos;s also why the
+          team compounds: a lesson learned on one client&apos;s project
+          becomes a rule every later project inherits, so the whole system
+          is sharper this month than it was last month.
         </p>
 
         <h2>How do you actually build one?</h2>
@@ -426,7 +429,12 @@ export const posts: Post[] = [
         </p>
         <p>
           The other path is building it with someone who has already made
-          the mistakes. Either way, start with one agent and the leak it
+          the mistakes. The parts are cheap. The months of tuning
+          underneath our five agents are not: the written knowledge base
+          they all read from, the checks that caught real failures, the
+          voice work that makes the Spanish sound native. That layer is
+          what you&apos;d actually be hiring, and it&apos;s the part that
+          transfers. Either way, start with one agent and the leak it
           guards. Our receptionist answered her first after-hours call the
           week she was hired, and that call became a job. That&apos;s the
           whole pitch for a cloud team: it was a Tuesday night, nobody was
@@ -530,6 +538,10 @@ export const posts: Post[] = [
           leerlo. Sin ella, cada agente amanece siendo un extraño para el
           negocio. Con ella, la recepcionista se sabe la lista de servicios y
           el redactor conoce el estilo de la casa sin que se lo repitan.
+          También es la razón por la que el equipo se acumula: una lección
+          aprendida en el proyecto de un cliente se vuelve una regla que
+          heredan todos los proyectos siguientes, así que el sistema entero
+          está más afinado este mes que el mes pasado.
         </p>
 
         <h2>¿Cómo se construye uno?</h2>
@@ -635,8 +647,13 @@ export const posts: Post[] = [
         </p>
         <p>
           El otro camino es construirlo con alguien que ya cometió los
-          errores. En cualquiera de los dos casos, empieza con un agente y
-          la fuga que cuida. Nuestra recepcionista contestó su primera
+          errores. Las piezas son baratas. Los meses de ajuste debajo de
+          nuestros 5 agentes no lo son: la base de conocimiento escrita de
+          la que todos leen, las revisiones que atraparon fallas reales, el
+          trabajo de voz que hace que el español suene nativo. Esa capa es
+          lo que en realidad estarías contratando, y es la parte que se
+          transfiere. En cualquiera de los dos casos, empieza con un agente
+          y la fuga que cuida. Nuestra recepcionista contestó su primera
           llamada fuera de horario la misma semana en que fue contratada, y
           esa llamada se convirtió en un trabajo. Ese es todo el argumento de
           un equipo en la nube: era martes por la noche, nadie estaba
