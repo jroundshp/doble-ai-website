@@ -97,7 +97,7 @@ export default function BlogIndex() {
             <div className="group flex flex-col md:flex-row bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.08] rounded-2xl overflow-hidden transition-colors">
               <Link
                 href={`/blog/${featured.post.slug}`}
-                className="md:w-[55%] shrink-0 aspect-[16/9] overflow-hidden"
+                className="md:w-[55%] shrink-0 aspect-[1200/630] overflow-hidden"
               >
                 <img
                   src={featured.post.coverImage}

@@ -244,7 +244,7 @@ export const posts: Post[] = [
     faq: cloudTeamFaqEN,
     title: "One person, five agents: how to build your own AI cloud team",
     excerpt:
-      "Doble AI runs on one human and five AI agents. Here&apos;s the full playbook: the roster, the tools, what it costs, and the part that actually gets hard.",
+      "Doble AI runs on one human and five AI agents. Here's the full playbook: the roster, the tools, what it costs, and the part that actually gets hard.",
     date: "July 24, 2026",
     dateISO: "2026-07-24",
     category: "AI Strategy",
@@ -716,7 +716,7 @@ export const posts: Post[] = [
     faq: stepFourFaqEN,
     title: "Why AI is step four, not step one",
     excerpt:
-      "We are an AI implementation firm, and we put AI last on our own services list. Here&apos;s the order that actually works for a small business, and why.",
+      "We are an AI implementation firm, and we put AI last on our own services list. Here's the order that actually works for a small business, and why.",
     date: "July 23, 2026",
     dateISO: "2026-07-23",
     category: "AI Strategy",
@@ -957,7 +957,7 @@ export const posts: Post[] = [
     title:
       "Most owners are still playing with prompts. A few are rebuilding around AI.",
     excerpt:
-      "After five months auditing businesses and top realtors across three countries, here&apos;s the real AI shift: not better tools, but restructuring the work around them.",
+      "After five months auditing businesses and top realtors across three countries, here's the real AI shift: not better tools, but restructuring the work around them.",
     date: "July 15, 2026",
     dateISO: "2026-07-15",
     category: "AI Strategy",
@@ -1418,7 +1418,7 @@ export const posts: Post[] = [
     slug: "human-plus-ai-is-the-magic",
     title: "The magic was never the AI. It's you, with an earth mover.",
     excerpt:
-      "Everyone&apos;s bracing for AI to replace the human touch. The opposite is true: the person in the seat is what makes AI worth anything. Here&apos;s why.",
+      "Everyone's bracing for AI to replace the human touch. The opposite is true: the person in the seat is what makes AI worth anything. Here's why.",
     date: "June 22, 2026",
     dateISO: "2026-06-22",
     category: "AI Strategy",
@@ -1808,7 +1808,7 @@ export const posts: Post[] = [
     slug: "your-ai-should-know-your-business-by-now",
     title: "Your AI Should Know Your Business by Now",
     excerpt:
-      "Most AI tools forget everything between sessions. A properly built AI workspace builds institutional knowledge that compounds daily. Here&apos;s what that actually looks like.",
+      "Most AI tools forget everything between sessions. A properly built AI workspace builds institutional knowledge that compounds daily. Here's what that actually looks like.",
     date: "April 27, 2026",
     dateISO: "2026-04-27",
     category: "AI Strategy",
@@ -3243,7 +3243,7 @@ export const posts: Post[] = [
       bio: "Partner at Doble AI. Native Peruvian and bilingual professional with two decades in the hotel and restaurant industry at the JW Marriott Lima. Brings deep cultural fluency across Latin America to translation, interpretation, and AI-driven bilingual strategy.",
     },
     excerpt:
-      "As a Peruvian and a native Spanish speaker, I&apos;ve spent my career navigating the rich diversity of the Spanish-speaking world. Here&apos;s why Peru&apos;s linguistic neutrality is a real advantage, and how it shapes the way we build AI at Doble AI.",
+      "As a Peruvian and a native Spanish speaker, I've spent my career navigating the rich diversity of the Spanish-speaking world. Here's why Peru's linguistic neutrality is a real advantage, and how it shapes the way we build AI at Doble AI.",
     date: "April 17, 2026",
     dateISO: "2026-04-17",
     category: "Bilingual Marketing",
@@ -6581,7 +6581,7 @@ export const posts: Post[] = [
     slug: "your-business-is-great-nobody-knows-it-exists",
     title: "Your Business Is Great. Nobody Knows It Exists.",
     excerpt:
-      "Most small businesses in the valley are exceptional at what they do and invisible online. Here&apos;s the three-step path from hidden to found, and where AI actually fits in.",
+      "Most small businesses in the valley are exceptional at what they do and invisible online. Here's the three-step path from hidden to found, and where AI actually fits in.",
     date: "May 1, 2026",
     dateISO: "2026-05-01",
     category: "Digital Strategy",
