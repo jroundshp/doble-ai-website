@@ -97,12 +97,12 @@ export default function BlogIndex() {
             <div className="group flex flex-col md:flex-row bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.08] rounded-2xl overflow-hidden transition-colors">
               <Link
                 href={`/blog/${featured.post.slug}`}
-                className="md:w-[55%] shrink-0 aspect-[1200/630] overflow-hidden"
+                className="md:w-[55%] shrink-0 md:aspect-auto aspect-[1200/630] overflow-hidden bg-[#0a0a0a] flex items-center"
               >
                 <img
                   src={featured.post.coverImage}
                   alt={featured.post.coverAlt}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                 />
               </Link>
               <div className="p-8 md:p-10 flex flex-col justify-center flex-1">
