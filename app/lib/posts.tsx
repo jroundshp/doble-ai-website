@@ -249,7 +249,7 @@ export const posts: Post[] = [
     dateISO: "2026-07-24",
     category: "AI Strategy",
     readTime: "7 min read",
-    coverImage: "/work/cloud-team-one-person-five-agents.jpg",
+    coverImage: "/work/cloud-team-one-person-five-agents-v2.jpg",
     coverAlt:
       "Org chart with one orange node labeled YOU connected to five AI agents: bilingual receptionist, night watcher, blog and social writer, audit analyst, and business memory, next to the headline One person, five agents",
     keywords:
@@ -457,7 +457,7 @@ export const posts: Post[] = [
     dateISO: "2026-07-24",
     category: "Estrategia de IA",
     readTime: "7 min de lectura",
-    coverImage: "/work/cloud-team-one-person-five-agents.jpg",
+    coverImage: "/work/cloud-team-one-person-five-agents-v2.jpg",
     coverAlt:
       "Organigrama con un nodo naranja conectado a cinco agentes de IA: recepcionista bilingüe, vigilante nocturno, redactor de blog y redes, analista de auditorías y memoria del negocio, junto al titular One person, five agents",
     keywords:
