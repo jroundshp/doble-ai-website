@@ -541,8 +541,8 @@ export const posts: Post[] = [
           El redactor escribe artículos como este en los dos idiomas, ajusta
           los gráficos de redes a los formatos que pide cada plataforma y
           quema subtítulos en video vertical. Un humano edita todo antes de
-          publicar. El trabajo del redactor es que publicar cueste una hora y
-          no una tarde.
+          publicar. El trabajo del redactor es conseguir que publicar tome
+          solo una hora en lugar de toda una tarde.
         </p>
         <p>
           El analista es el agente que más sorprende a la gente, y el que
