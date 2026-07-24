@@ -184,7 +184,470 @@ const stepFourFaqES = [
   },
 ];
 
+const cloudTeamFaqEN = [
+  {
+    q: "What is an AI cloud team?",
+    a: "A set of AI agents that each own a recurring job in a business: answering the phone, monitoring sites, drafting content, running research. They run on schedules and triggers in the cloud, work when nobody is at a desk, and report to one human who reviews what matters.",
+  },
+  {
+    q: "How much does it cost to run a team of AI agents?",
+    a: "Ours costs a few hundred dollars a month across an AI workspace subscription, a voice platform billed by the minute, and a couple of small automation services. That is the software side. The real cost is a few hours of human attention each week to read reports and correct course.",
+  },
+  {
+    q: "Which AI agent should a small business build first?",
+    a: "The one guarding your biggest leak. For most service businesses that is the phone: a bilingual AI receptionist can pay for itself with one saved job. If you never miss calls but never publish, start with a writer instead. Build one, make it reliable, then add the next.",
+  },
+  {
+    q: "Do I need to know how to code to build an AI agent team?",
+    a: "Mostly no. Voice platforms, AI workspaces, and automation tools are configured in plain language now. What you do need is to write down how your business actually works, in detail, and the patience to test each agent against real situations before you trust it.",
+  },
+  {
+    q: "How do I know if my AI agents are still working?",
+    a: "You don't, unless something checks. Automations tend to stop quietly instead of crashing loudly. Give one agent the job of checking the others every day, and have it report even when everything is fine, so that a missing report is itself an alarm.",
+  },
+  {
+    q: "Can AI agents work in both English and Spanish?",
+    a: "Yes, and for our markets that is the whole point. Our receptionist greets callers bilingually and continues in whichever language the caller uses. Our writer drafts every post in both languages. A person still steers the voice so the Spanish sounds native rather than translated.",
+  },
+];
+
+const cloudTeamFaqES = [
+  {
+    q: "¿Qué es un equipo de IA en la nube?",
+    a: "Un conjunto de agentes de IA donde cada uno es dueño de una tarea recurrente del negocio: contestar el teléfono, vigilar los sitios, redactar contenido, hacer investigación. Corren en la nube con horarios y disparadores, trabajan cuando no hay nadie en el escritorio y le reportan a un solo humano que revisa lo importante.",
+  },
+  {
+    q: "¿Cuánto cuesta mantener un equipo de agentes de IA?",
+    a: "El nuestro cuesta unos cientos de dólares al mes entre la suscripción a un espacio de trabajo de IA, una plataforma de voz que cobra por minuto y un par de servicios pequeños de automatización. Ese es el lado del software. El costo real son unas horas de atención humana a la semana para leer reportes y corregir el rumbo.",
+  },
+  {
+    q: "¿Qué agente de IA debería construir primero un pequeño negocio?",
+    a: "El que cuida tu fuga más grande. Para la mayoría de los negocios de servicios es el teléfono: una recepcionista de IA bilingüe se puede pagar sola con un solo trabajo salvado. Si nunca pierdes llamadas pero nunca publicas, empieza con un redactor. Construye uno, hazlo confiable y luego agrega el siguiente.",
+  },
+  {
+    q: "¿Necesito saber programar para armar un equipo de agentes de IA?",
+    a: "En su mayoría, no. Las plataformas de voz, los espacios de trabajo de IA y las herramientas de automatización hoy se configuran en lenguaje natural. Lo que sí necesitas es escribir cómo funciona tu negocio de verdad, con detalle, y la paciencia de probar cada agente contra situaciones reales antes de confiar en él.",
+  },
+  {
+    q: "¿Cómo sé si mis agentes de IA siguen funcionando?",
+    a: "No lo sabes, a menos que algo los revise. Las automatizaciones tienden a detenerse en silencio en lugar de fallar con ruido. Dale a un agente el trabajo de revisar a los demás todos los días, y haz que reporte incluso cuando todo está bien, para que un reporte ausente sea en sí mismo una alarma.",
+  },
+  {
+    q: "¿Los agentes de IA pueden trabajar en inglés y en español?",
+    a: "Sí, y para nuestros mercados ese es justamente el punto. Nuestra recepcionista saluda de forma bilingüe y continúa en el idioma que use quien llama. Nuestro redactor escribe cada artículo en los dos idiomas. Una persona sigue dirigiendo la voz para que el español suene nativo y no traducido.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "build-your-own-ai-team",
+    faq: cloudTeamFaqEN,
+    title: "One person, five agents: how to build your own AI cloud team",
+    excerpt:
+      "Doble AI runs on one human and five AI agents. Here&apos;s the full playbook: the roster, the tools, what it costs, and the part that actually gets hard.",
+    date: "July 24, 2026",
+    dateISO: "2026-07-24",
+    category: "AI Strategy",
+    readTime: "7 min read",
+    coverImage: "/work/cloud-team-one-person-five-agents.jpg",
+    coverAlt:
+      "Org chart with one orange node labeled YOU connected to five AI agent nodes labeled Receptionist, Watcher, Writer, Analyst, and Memory, next to the headline One person, five agents",
+    keywords:
+      "build your own AI team, AI cloud team small business, AI agents for small business, bilingual AI receptionist, AI monitoring small business, AI automation small business Colorado, bilingual AI implementation Eagle River Valley",
+    content: (
+      <>
+        <p>
+          Every &ldquo;we&rdquo; on this website is technically true. Doble AI
+          has a receptionist who answers the phone in two languages, a night
+          watchman who checks every site before sunrise, a writer, an analyst,
+          and a memory that never loses a detail. It also has exactly one
+          human, and I sleep.
+        </p>
+        <p>
+          This post is the playbook for that team. Publishing it feels
+          backwards for a company that builds these systems for a living.
+          We&apos;re doing it anyway, partly because the pieces stopped being
+          secret a while ago, and partly because the hard part of an AI team
+          was never the setup. The hard part shows up around week three, and
+          there&apos;s a section on it below.
+        </p>
+
+        <h2>What is an AI cloud team?</h2>
+        <p>
+          A cloud team is a set of AI agents that each own a recurring job in
+          your business. Not a chatbot you visit when you remember to. Agents
+          run on schedules and triggers, do their work whether or not
+          you&apos;re at a desk, and report to one human who checks what
+          matters. If you read{" "}
+          <a href="/blog/rebuilding-your-business-around-ai">
+            our post on restructuring around AI
+          </a>
+          , this is that org chart in practice: one owner directing systems
+          instead of a stack of roles.
+        </p>
+
+        <h2>Meet the five agents</h2>
+        <p>
+          The receptionist answers our business line around the clock in
+          English and Spanish, asks what the caller needs, and emails me a
+          summary with the caller&apos;s name and number about a minute after
+          the call ends. Missed calls were the reason we built her: an
+          after-hours caller who hits voicemail dials the next number on the
+          list. We wrote up{" "}
+          <a href="/blog/bilingual-ai-receptionist-small-business">
+            how she works
+          </a>{" "}
+          if you want the detail.
+        </p>
+        <p>
+          The watcher clocks in at 7 every morning. It loads every site
+          we&apos;re responsible for, checks the data feeds behind our river
+          and weather dashboards, confirms the receptionist&apos;s lead emails
+          still have a pulse, and flags anything that changed overnight. It
+          files a report even when nothing broke. That detail matters more
+          than it sounds, and it gets its own section below.
+        </p>
+        <p>
+          The writer drafts posts like this one in both languages, resizes
+          social graphics into the formats each platform wants, and burns
+          subtitles onto vertical video. A human edits everything before it
+          ships. The writer&apos;s job is to make publishing cost an hour
+          instead of an afternoon.
+        </p>
+        <p>
+          The analyst runs the audits we sell. It reads a prospect&apos;s
+          site and their competitors&apos;, checks how the business shows up
+          in search and in AI answers, and assembles findings for a human to
+          verify and sign. It has read more small business websites this year
+          than I will in my life.
+        </p>
+        <p>
+          The memory is the least visible agent and the one that makes the
+          rest work. It&apos;s a persistent record of every client, price,
+          decision, and lesson, kept where the other agents can read it.
+          Without it, each agent wakes up a stranger to the business. With
+          it, the receptionist knows the service list and the writer knows
+          the house style without being told twice.
+        </p>
+
+        <h2>How do you actually build one?</h2>
+        <p>
+          Here&apos;s the sequence we&apos;d hand any owner who wants to try
+          it. It&apos;s the one we followed, cleaned up with hindsight.
+        </p>
+        <ol>
+          <li>
+            List the jobs, not the tools. Write down the recurring work that
+            eats your week or leaks money when it slips: the phone, the
+            follow-ups, the posting, the checking. Your first agents come
+            from that list, never from a tool demo.
+          </li>
+          <li>
+            Give the team a memory before you give it work. Write down what
+            your business knows: services, prices, hours, how you talk to
+            customers, the mistakes you refuse to repeat. Keep it in one
+            place an AI workspace can read. This one step improves every
+            agent you add later.
+          </li>
+          <li>
+            Hire one agent and make it boringly reliable. Start with the job
+            guarding your biggest leak. For most service businesses
+            that&apos;s the phone. Run it for two or three weeks, read every
+            report it produces, and fix what it gets wrong before you add a
+            second.
+          </li>
+          <li>
+            Put a human checkpoint wherever a mistake could reach a customer.
+            Our writer drafts and a person publishes. Our analyst assembles
+            and a person signs. The receptionist talks to customers directly,
+            so she gets the narrowest job description on the team and hands
+            off anything unusual.
+          </li>
+          <li>
+            Hire a watcher before you hire agent number four. Automations
+            rarely crash loudly. They stop quietly, and you find out from a
+            customer weeks later. One agent whose entire job is checking the
+            others is what makes the team trustworthy.
+          </li>
+        </ol>
+
+        <h2>What does it cost to run?</h2>
+        <p>
+          Less than most owners guess. The software behind our five agents
+          comes to a few hundred dollars a month: an AI workspace
+          subscription, a voice platform that bills by the minute (ours runs
+          on Vapi with Claude as the brain), and a small automation service
+          that moves the lead emails. That&apos;s less than one weekend shift
+          of a part-time employee.
+        </p>
+        <p>
+          The expensive input is attention. A few focused hours a week
+          reading the watcher&apos;s reports, correcting the writer&apos;s
+          drafts, and tightening instructions when an agent gets something
+          wrong. Skip those hours and the team drifts. That&apos;s the real
+          price, and no subscription covers it.
+        </p>
+
+        <img
+          src="/john-rounds.jpeg"
+          alt="John Rounds, founder of Doble AI and the company&apos;s entire human headcount, in the Eagle River Valley, Colorado"
+        />
+
+        <h2>The part that actually gets hard</h2>
+        <p>
+          Silent failure. This month a portfolio site we monitor lost 10 of
+          its 13 videos overnight when a hosting plan changed. The pages
+          loaded fine. Nothing errored. Every player just sat there saying
+          the video didn&apos;t exist. The watcher caught it against the
+          previous day&apos;s baseline, and the owner knew before almost any
+          visitor did.
+        </p>
+        <p>
+          Our own plumbing has the same weakness. The service that moves the
+          receptionist&apos;s lead emails can pause itself when it hits a
+          plan limit, and a paused automation looks exactly like a quiet
+          week. She would keep answering calls perfectly while the leads
+          evaporated. So the watcher checks her too.
+        </p>
+        <p>
+          This is the piece of the playbook that doesn&apos;t compress into
+          a checklist. Setup is a weekend. Distrust is a discipline. Every
+          agent on the team exists because something used to slip, and the
+          watcher exists because the agents themselves can slip.
+        </p>
+
+        <h2>Should you build it yourself?</h2>
+        <p>
+          If you enjoyed reading this, honestly, maybe. The pieces are
+          consumer grade now. You don&apos;t need to code; you need to write
+          down how your business works and be stubborn about checking. Most
+          owners we meet don&apos;t stall at setup. They stall in week three,
+          when the novelty is gone and the reports need reading.
+        </p>
+        <p>
+          The other path is building it with someone who has already made
+          the mistakes. Either way, start with one agent and the leak it
+          guards. Our receptionist answered her first after-hours call the
+          week she was hired, and that call became a job. That&apos;s the
+          whole pitch for a cloud team: it was a Tuesday night, nobody was
+          working, and the business answered anyway.
+        </p>
+
+        <FAQ items={cloudTeamFaqEN} />
+        <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "construye-tu-propio-equipo-de-ia",
+    faq: cloudTeamFaqES,
+    title:
+      "Una persona, cinco agentes: cómo construir tu propio equipo de IA en la nube",
+    excerpt:
+      "Doble AI funciona con un humano y 5 agentes de IA. Aquí está el manual completo: el equipo, las herramientas, lo que cuesta y la parte que de verdad se pone difícil.",
+    date: "July 24, 2026",
+    dateISO: "2026-07-24",
+    category: "Estrategia de IA",
+    readTime: "7 min de lectura",
+    coverImage: "/work/cloud-team-one-person-five-agents.jpg",
+    coverAlt:
+      "Organigrama con un nodo naranja conectado a cinco agentes de IA: recepcionista, vigilante, redactor, analista y memoria, junto al titular One person, five agents",
+    keywords:
+      "construir equipo de IA, agentes de IA para pequeños negocios, recepcionista de IA bilingüe, automatización con IA pequeños negocios, equipo de IA en la nube, implementación de IA bilingüe Colorado",
+    content: (
+      <>
+        <p>
+          Cada &ldquo;nosotros&rdquo; en este sitio es técnicamente cierto.
+          Doble AI tiene una recepcionista que contesta el teléfono en dos
+          idiomas, un vigilante nocturno que revisa cada sitio antes del
+          amanecer, un redactor, un analista y una memoria que no pierde un
+          solo detalle. También tiene exactamente un humano, y yo duermo.
+        </p>
+        <p>
+          Este artículo es el manual de ese equipo. Publicarlo suena
+          contradictorio para una empresa que construye estos sistemas como
+          negocio. Lo hacemos de todas formas, en parte porque las piezas
+          dejaron de ser secretas hace tiempo, y en parte porque lo difícil
+          de un equipo de IA nunca fue la instalación. Lo difícil aparece
+          alrededor de la tercera semana, y más abajo tiene su propia
+          sección.
+        </p>
+
+        <h2>¿Qué es un equipo de IA en la nube?</h2>
+        <p>
+          Un equipo en la nube es un conjunto de agentes de IA donde cada uno
+          es dueño de una tarea recurrente de tu negocio. No es un chatbot al
+          que visitas cuando te acuerdas. Los agentes corren con horarios y
+          disparadores, hacen su trabajo estés o no frente al escritorio, y
+          le reportan a un humano que revisa lo importante. Si leíste{" "}
+          <a href="/blog/reestructurando-tu-negocio-con-ia">
+            nuestro artículo sobre reestructurar el negocio con IA
+          </a>
+          , esto es ese organigrama en la práctica: un dueño dirigiendo
+          sistemas en lugar de una pila de puestos.
+        </p>
+
+        <h2>Conoce a los cinco agentes</h2>
+        <p>
+          La recepcionista contesta nuestra línea a toda hora en inglés y
+          español, pregunta qué necesita quien llama y me manda por correo un
+          resumen con nombre y número aproximadamente un minuto después de
+          colgar. Las llamadas perdidas fueron la razón de construirla:
+          quien llama fuera de horario y cae al buzón marca el siguiente
+          número de la lista. Escribimos{" "}
+          <a href="/blog/recepcionista-ia-bilingue-pequenos-negocios">
+            cómo funciona
+          </a>{" "}
+          por si quieres el detalle.
+        </p>
+        <p>
+          El vigilante entra a trabajar a las 7 de la mañana. Carga cada
+          sitio del que somos responsables, revisa las fuentes de datos
+          detrás de nuestros tableros de ríos y clima, confirma que los
+          correos de prospectos de la recepcionista sigan vivos y marca
+          cualquier cosa que haya cambiado durante la noche. Entrega un
+          reporte incluso cuando nada se rompió. Ese detalle importa más de
+          lo que suena, y tiene su propia sección más abajo.
+        </p>
+        <p>
+          El redactor escribe artículos como este en los dos idiomas, ajusta
+          los gráficos de redes a los formatos que pide cada plataforma y
+          quema subtítulos en video vertical. Un humano edita todo antes de
+          publicar. El trabajo del redactor es que publicar cueste una hora y
+          no una tarde.
+        </p>
+        <p>
+          El analista corre las auditorías que vendemos. Lee el sitio de un
+          prospecto y los de sus competidores, revisa cómo aparece el negocio
+          en los buscadores y en las respuestas de IA, y arma los hallazgos
+          para que un humano los verifique y los firme. Este año ha leído más
+          sitios de pequeños negocios de los que yo leeré en mi vida.
+        </p>
+        <p>
+          La memoria es el agente menos visible y el que hace que el resto
+          funcione. Es un registro persistente de cada cliente, precio,
+          decisión y lección, guardado donde los demás agentes pueden
+          leerlo. Sin ella, cada agente amanece siendo un extraño para el
+          negocio. Con ella, la recepcionista se sabe la lista de servicios y
+          el redactor conoce el estilo de la casa sin que se lo repitan.
+        </p>
+
+        <h2>¿Cómo se construye uno?</h2>
+        <p>
+          Esta es la secuencia que le daríamos a cualquier dueño que quiera
+          intentarlo. Es la que seguimos nosotros, ordenada con el beneficio
+          de la experiencia.
+        </p>
+        <ol>
+          <li>
+            Enlista los trabajos, no las herramientas. Escribe el trabajo
+            recurrente que se come tu semana o que pierde dinero cuando
+            falla: el teléfono, los seguimientos, las publicaciones, las
+            revisiones. Tus primeros agentes salen de esa lista, nunca de la
+            demostración de una herramienta.
+          </li>
+          <li>
+            Dale al equipo una memoria antes de darle trabajo. Escribe lo que
+            tu negocio sabe: servicios, precios, horarios, cómo le hablas a
+            tus clientes, los errores que no piensas repetir. Guárdalo en un
+            solo lugar que un espacio de trabajo de IA pueda leer. Este paso
+            mejora a cada agente que agregues después.
+          </li>
+          <li>
+            Contrata un agente y hazlo aburridamente confiable. Empieza por
+            el trabajo que cuida tu fuga más grande. Para la mayoría de los
+            negocios de servicios es el teléfono. Déjalo correr 2 o 3
+            semanas, lee cada reporte que produzca y corrige lo que haga mal
+            antes de agregar el segundo.
+          </li>
+          <li>
+            Pon un punto de control humano donde un error pueda llegar a un
+            cliente. Nuestro redactor hace borradores y una persona publica.
+            Nuestro analista arma y una persona firma. La recepcionista habla
+            directo con los clientes, así que tiene la descripción de puesto
+            más estrecha del equipo y transfiere cualquier cosa inusual.
+          </li>
+          <li>
+            Contrata un vigilante antes de contratar al agente número
+            cuatro. Las automatizaciones rara vez fallan con ruido. Se
+            detienen en silencio, y te enteras por un cliente semanas
+            después. Un agente cuyo único trabajo es revisar a los demás es
+            lo que vuelve confiable al equipo.
+          </li>
+        </ol>
+
+        <h2>¿Cuánto cuesta mantenerlo?</h2>
+        <p>
+          Menos de lo que la mayoría de los dueños calcula. El software
+          detrás de nuestros 5 agentes suma unos cientos de dólares al mes:
+          la suscripción a un espacio de trabajo de IA, una plataforma de voz
+          que cobra por minuto (la nuestra corre en Vapi con Claude como
+          cerebro) y un servicio pequeño de automatización que mueve los
+          correos de prospectos. Eso es menos que un turno de fin de semana
+          de un empleado de medio tiempo.
+        </p>
+        <p>
+          El insumo caro es la atención: unas horas concentradas a la semana
+          para leer los reportes del vigilante, corregir los borradores del
+          redactor y ajustar instrucciones cuando un agente se equivoca. Si
+          te saltas esas horas, el equipo se desvía. Ese es el precio real, y
+          ninguna suscripción lo cubre.
+        </p>
+
+        <img
+          src="/john-rounds.jpeg"
+          alt="John Rounds, fundador de Doble AI y todo el personal humano de la empresa, en el valle del río Eagle, Colorado"
+        />
+
+        <h2>La parte que de verdad se pone difícil</h2>
+        <p>
+          La falla silenciosa. Este mes, un sitio de portafolio que
+          monitoreamos perdió 10 de sus 13 videos de la noche a la mañana
+          cuando cambió un plan de hosting. Las páginas cargaban bien. Nada
+          marcó error. Cada reproductor simplemente decía que el video no
+          existía. El vigilante lo detectó contra la línea base del día
+          anterior, y el dueño lo supo antes que casi cualquier visitante.
+        </p>
+        <p>
+          Nuestra propia tubería tiene la misma debilidad. El servicio que
+          mueve los correos de la recepcionista puede pausarse solo al tocar
+          el límite de su plan, y una automatización en pausa se ve idéntica
+          a una semana tranquila. Ella seguiría contestando llamadas a la
+          perfección mientras los prospectos se evaporan. Por eso el
+          vigilante también la revisa a ella.
+        </p>
+        <p>
+          Esta es la parte del manual que no cabe en una lista de pasos. La
+          instalación es un fin de semana. La desconfianza es una
+          disciplina. Cada agente del equipo existe porque algo se caía
+          antes, y el vigilante existe porque los propios agentes se pueden
+          caer.
+        </p>
+
+        <h2>¿Deberías construirlo tú mismo?</h2>
+        <p>
+          Si disfrutaste leer esto, honestamente, tal vez sí. Las piezas hoy
+          son de nivel consumidor. No necesitas programar; necesitas
+          escribir cómo funciona tu negocio y ser terco con las revisiones.
+          La mayoría de los dueños que conocemos no se atora en la
+          instalación. Se atora en la tercera semana, cuando la novedad se
+          fue y los reportes hay que leerlos.
+        </p>
+        <p>
+          El otro camino es construirlo con alguien que ya cometió los
+          errores. En cualquiera de los dos casos, empieza con un agente y
+          la fuga que cuida. Nuestra recepcionista contestó su primera
+          llamada fuera de horario la misma semana en que fue contratada, y
+          esa llamada se convirtió en un trabajo. Ese es todo el argumento de
+          un equipo en la nube: era martes por la noche, nadie estaba
+          trabajando y el negocio contestó de todas formas.
+        </p>
+
+        <FAQ items={cloudTeamFaqES} title="Preguntas frecuentes" />
+        <CTAes />
+      </>
+    ),
+  },
   {
     slug: "why-ai-is-step-four-not-step-one",
     faq: stepFourFaqEN,
