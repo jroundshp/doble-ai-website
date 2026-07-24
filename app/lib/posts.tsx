@@ -478,9 +478,9 @@ export const posts: Post[] = [
     dateISO: "2026-07-24",
     category: "Estrategia de IA",
     readTime: "8 min de lectura",
-    coverImage: "/work/cloud-team-one-person-five-agents-v2.jpg",
+    coverImage: "/work/equipo-ia-una-persona-cinco-agentes.jpg",
     coverAlt:
-      "Organigrama con un nodo naranja conectado a cinco agentes de IA: recepcionista bilingüe, vigilante nocturno, redactor de blog y redes, analista de auditorías y memoria del negocio, junto al titular One person, five agents",
+      "Organigrama con un nodo naranja etiquetado TÚ conectado a cinco agentes de IA: recepcionista bilingüe, vigilante nocturno, redactor de blog y redes, analista de auditorías y memoria del negocio, junto al titular Una persona. Cinco agentes.",
     keywords:
       "construir equipo de IA, agentes de IA para pequeños negocios, recepcionista de IA bilingüe, automatización con IA pequeños negocios, equipo de IA en la nube, implementación de IA bilingüe Colorado",
     content: (
