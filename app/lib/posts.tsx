@@ -248,7 +248,7 @@ export const posts: Post[] = [
     date: "July 24, 2026",
     dateISO: "2026-07-24",
     category: "AI Strategy",
-    readTime: "7 min read",
+    readTime: "8 min read",
     coverImage: "/work/cloud-team-one-person-five-agents-v2.jpg",
     coverAlt:
       "Org chart with one orange node labeled YOU connected to five AI agents: bilingual receptionist, night watcher, blog and social writer, audit analyst, and business memory, next to the headline One person, five agents",
@@ -289,11 +289,9 @@ export const posts: Post[] = [
         <h2>Meet the five agents</h2>
         <p>
           The receptionist answers our business line around the clock in
-          English and Spanish, asks what the caller needs, and emails me a
-          summary with the caller&apos;s name and number about a minute after
-          the call ends. Missed calls were the reason we built her: an
-          after-hours caller who hits voicemail dials the next number on the
-          list. We wrote up{" "}
+          English and Spanish and emails me a lead summary a minute after
+          each call ends. She exists because an after-hours caller who hits
+          voicemail dials the next number on the list. We wrote up{" "}
           <a href="/blog/bilingual-ai-receptionist-small-business">
             how she works
           </a>{" "}
@@ -315,11 +313,34 @@ export const posts: Post[] = [
           instead of an afternoon.
         </p>
         <p>
-          The analyst runs the audits we sell. It reads a prospect&apos;s
-          site and their competitors&apos;, checks how the business shows up
-          in search and in AI answers, and assembles findings for a human to
-          verify and sign. It has read more small business websites this year
-          than I will in my life.
+          The analyst is the agent that surprises people, and the one
+          I&apos;d fight hardest to keep. Give it a business name and a
+          market and it comes back with the kind of picture that used to
+          take a week of desk research: every competitor&apos;s site read
+          closely, who ranks where and why, what the Google profiles and
+          reviews look like, how each business shows up when a customer asks
+          ChatGPT or Perplexity for a recommendation, and where the open
+          lane is that nobody in the market is running in. It reads at a
+          volume no human can match. It has read more small business
+          websites this year than I will in my life.
+        </p>
+        <p>
+          That horsepower is the engine behind the audits we sell, and it
+          has changed our day-to-day decisions too. Pricing a new service,
+          sizing up a town we haven&apos;t worked in, deciding whether a
+          niche deserves its own page: each of those now starts with an hour
+          of the analyst sweeping the market instead of a guess.
+        </p>
+        <p>
+          The clearest example is real estate. For one realtor client, the
+          analyst read the sites and marketing of the top-producing agents
+          across two luxury mountain markets: what they publish, what they
+          skip, whose brand their brokerage is actually building, and the
+          gaps every single one of them shares. That&apos;s the market
+          picture a big brokerage&apos;s research department used to own,
+          and it came back in an afternoon. A human still verifies and
+          signs every finding before it reaches a client. What changed is
+          how much ground we cover before judgment kicks in.
         </p>
         <p>
           The memory is the least visible agent and the one that makes the
@@ -456,7 +477,7 @@ export const posts: Post[] = [
     date: "July 24, 2026",
     dateISO: "2026-07-24",
     category: "Estrategia de IA",
-    readTime: "7 min de lectura",
+    readTime: "8 min de lectura",
     coverImage: "/work/cloud-team-one-person-five-agents-v2.jpg",
     coverAlt:
       "Organigrama con un nodo naranja conectado a cinco agentes de IA: recepcionista bilingüe, vigilante nocturno, redactor de blog y redes, analista de auditorías y memoria del negocio, junto al titular One person, five agents",
@@ -498,11 +519,10 @@ export const posts: Post[] = [
         <h2>Conoce a los cinco agentes</h2>
         <p>
           La recepcionista contesta nuestra línea a toda hora en inglés y
-          español, pregunta qué necesita quien llama y me manda por correo un
-          resumen con nombre y número aproximadamente un minuto después de
-          colgar. Las llamadas perdidas fueron la razón de construirla:
-          quien llama fuera de horario y cae al buzón marca el siguiente
-          número de la lista. Escribimos{" "}
+          español y me manda por correo un resumen del prospecto un minuto
+          después de cada llamada. Existe porque quien llama fuera de
+          horario y cae al buzón marca el siguiente número de la lista.
+          Escribimos{" "}
           <a href="/blog/recepcionista-ia-bilingue-pequenos-negocios">
             cómo funciona
           </a>{" "}
@@ -525,11 +545,37 @@ export const posts: Post[] = [
           no una tarde.
         </p>
         <p>
-          El analista corre las auditorías que vendemos. Lee el sitio de un
-          prospecto y los de sus competidores, revisa cómo aparece el negocio
-          en los buscadores y en las respuestas de IA, y arma los hallazgos
-          para que un humano los verifique y los firme. Este año ha leído más
-          sitios de pequeños negocios de los que yo leeré en mi vida.
+          El analista es el agente que más sorprende a la gente, y el que
+          más pelearía por conservar. Dale el nombre de un negocio y un
+          mercado y regresa con el tipo de panorama que antes tomaba una
+          semana de investigación de escritorio: el sitio de cada
+          competidor leído con cuidado, quién aparece dónde y por qué, cómo
+          se ven los perfiles de Google y las reseñas, cómo aparece cada
+          negocio cuando un cliente le pide una recomendación a ChatGPT o a
+          Perplexity, y cuál es el carril abierto por el que nadie en el
+          mercado está corriendo. Lee a un volumen que ningún humano puede
+          igualar. Este año ha leído más sitios de pequeños negocios de los
+          que yo leeré en mi vida.
+        </p>
+        <p>
+          Esa potencia es el motor de las auditorías que vendemos, y también
+          cambió nuestras decisiones de todos los días. Ponerle precio a un
+          servicio nuevo, medir un pueblo donde no hemos trabajado, decidir
+          si un nicho merece su propia página: cada una de esas decisiones
+          ahora empieza con una hora del analista barriendo el mercado en
+          lugar de una corazonada.
+        </p>
+        <p>
+          El ejemplo más claro es bienes raíces. Para un cliente agente
+          inmobiliario, el analista leyó los sitios y el marketing de los
+          agentes de mayor producción en dos mercados de lujo de montaña:
+          qué publican, qué omiten, la marca de quién está construyendo en
+          realidad su corredora y las brechas que todos comparten. Ese es el
+          panorama de mercado que antes solo tenía el departamento de
+          investigación de una corredora grande, y llegó en una tarde. Un
+          humano sigue verificando y firmando cada hallazgo antes de que
+          llegue a un cliente. Lo que cambió es cuánto terreno cubrimos
+          antes de que entre el criterio.
         </p>
         <p>
           La memoria es el agente menos visible y el que hace que el resto
@@ -915,7 +961,7 @@ export const posts: Post[] = [
     date: "July 15, 2026",
     dateISO: "2026-07-15",
     category: "AI Strategy",
-    readTime: "7 min read",
+    readTime: "8 min read",
     coverImage: "/gore-creek-bridge-vail.jpg",
     coverAlt:
       "A pedestrian bridge over Gore Creek in Vail, Colorado, framed by pines and mountainside in the Eagle River Valley where Doble AI works with local businesses",
@@ -1141,7 +1187,7 @@ export const posts: Post[] = [
     date: "July 15, 2026",
     dateISO: "2026-07-15",
     category: "Estrategia de IA",
-    readTime: "7 min de lectura",
+    readTime: "8 min de lectura",
     coverImage: "/gore-creek-bridge-vail.jpg",
     coverAlt:
       "Un puente peatonal sobre Gore Creek en Vail, Colorado, rodeado de pinos y montaña, en el Eagle River Valley donde Doble AI trabaja con negocios locales",
@@ -3022,7 +3068,7 @@ export const posts: Post[] = [
     date: "April 21, 2026",
     dateISO: "2026-04-21",
     category: "AI Strategy",
-    readTime: "7 min read",
+    readTime: "8 min read",
     coverImage:
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Digital analytics dashboard showing AI traffic outperforming traditional marketing channels in 2026",
@@ -3445,7 +3491,7 @@ export const posts: Post[] = [
     date: "April 17, 2026",
     dateISO: "2026-04-17",
     category: "Bilingual Marketing",
-    readTime: "7 min read",
+    readTime: "8 min read",
     coverImage:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Two people collaborating across languages, representing bilingual marketing strategy",
@@ -3960,7 +4006,7 @@ export const posts: Post[] = [
     date: "21 de abril de 2026",
     dateISO: "2026-04-21",
     category: "Estrategia de IA",
-    readTime: "7 min de lectura",
+    readTime: "8 min de lectura",
     coverImage:
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Panel de análisis digital que muestra el tráfico de IA superando a los canales de marketing tradicionales en 2026",
@@ -4515,7 +4561,7 @@ export const posts: Post[] = [
     date: "17 de abril de 2026",
     dateISO: "2026-04-17",
     category: "Marketing Bilingüe",
-    readTime: "7 min de lectura",
+    readTime: "8 min de lectura",
     coverImage:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Dos personas colaborando en diferentes idiomas, representando una estrategia de marketing bilingüe",
@@ -4781,7 +4827,7 @@ export const posts: Post[] = [
     date: "April 16, 2026",
     dateISO: "2026-04-16",
     category: "AI Tools",
-    readTime: "7 min read",
+    readTime: "8 min read",
     coverImage:
       "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80",
     coverAlt: "Developer workspace with VS Code editor on a dark screen",
