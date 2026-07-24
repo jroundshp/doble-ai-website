@@ -271,8 +271,8 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="/gore-creek-bridge-vail.jpg"
-          alt="Pedestrian bridge over Gore Creek in Vail, Colorado, near where Doble AI audits and rebuilds small business digital presence"
+          src="/colorado-peak-dirt-road.jpg"
+          alt="Snow-capped Colorado peak above green hillsides and a high-country dirt road, in the mountain markets where Doble AI audits and rebuilds small business digital presence"
         />
 
         <h2>We ran this order on ourselves</h2>
@@ -392,8 +392,8 @@ export const posts: Post[] = [
         </p>
 
         <img
-          src="/gore-creek-bridge-vail.jpg"
-          alt="Puente peatonal sobre Gore Creek en Vail, Colorado, cerca de donde Doble AI audita y reconstruye la presencia digital de pequeños negocios"
+          src="/colorado-peak-dirt-road.jpg"
+          alt="Pico nevado de Colorado sobre laderas verdes y un camino de tierra de montaña, en los mercados donde Doble AI audita y reconstruye la presencia digital de pequeños negocios"
         />
 
         <h2>Aplicamos este orden en nosotros mismos</h2>
