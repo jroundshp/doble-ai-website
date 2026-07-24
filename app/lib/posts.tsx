@@ -251,7 +251,7 @@ export const posts: Post[] = [
     readTime: "7 min read",
     coverImage: "/work/cloud-team-one-person-five-agents.jpg",
     coverAlt:
-      "Org chart with one orange node labeled YOU connected to five AI agent nodes labeled Receptionist, Watcher, Writer, Analyst, and Memory, next to the headline One person, five agents",
+      "Org chart with one orange node labeled YOU connected to five AI agents: bilingual receptionist, night watcher, blog and social writer, audit analyst, and business memory, next to the headline One person, five agents",
     keywords:
       "build your own AI team, AI cloud team small business, AI agents for small business, bilingual AI receptionist, AI monitoring small business, AI automation small business Colorado, bilingual AI implementation Eagle River Valley",
     content: (
@@ -451,7 +451,7 @@ export const posts: Post[] = [
     readTime: "7 min de lectura",
     coverImage: "/work/cloud-team-one-person-five-agents.jpg",
     coverAlt:
-      "Organigrama con un nodo naranja conectado a cinco agentes de IA: recepcionista, vigilante, redactor, analista y memoria, junto al titular One person, five agents",
+      "Organigrama con un nodo naranja conectado a cinco agentes de IA: recepcionista bilingüe, vigilante nocturno, redactor de blog y redes, analista de auditorías y memoria del negocio, junto al titular One person, five agents",
     keywords:
       "construir equipo de IA, agentes de IA para pequeños negocios, recepcionista de IA bilingüe, automatización con IA pequeños negocios, equipo de IA en la nube, implementación de IA bilingüe Colorado",
     content: (
