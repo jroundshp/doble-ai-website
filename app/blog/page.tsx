@@ -2,10 +2,13 @@ import Link from "next/link";
 import { posts } from "../lib/posts";
 import { pairs } from "../lib/pairs";
 import Footer from "../components/Footer";
-const displayPosts = pairs
-  .flatMap((pair) => pair.filter((s): s is string => s !== undefined))
-  .map((s) => posts.find((p) => p.slug === s))
-  .filter((p): p is (typeof posts)[number] => p !== undefined);
+const displayPairs = pairs.flatMap(([enSlug, esSlug]) => {
+  const post = posts.find((p) => p.slug === enSlug);
+  if (!post) return [];
+  const esPost = esSlug ? posts.find((p) => p.slug === esSlug) : undefined;
+  return [{ post, esPost }];
+});
+const featured = displayPairs[0];
 
 const blogSchema = {
   "@context": "https://schema.org",
@@ -87,44 +90,119 @@ export default function BlogIndex() {
         </div>
       </section>
 
+      {/* Featured latest post */}
+      {featured && (
+        <section className="pb-12 px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="group flex flex-col md:flex-row bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.08] rounded-2xl overflow-hidden transition-colors">
+              <Link
+                href={`/blog/${featured.post.slug}`}
+                className="md:w-[55%] shrink-0 aspect-[16/9] overflow-hidden"
+              >
+                <img
+                  src={featured.post.coverImage}
+                  alt={featured.post.coverAlt}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </Link>
+              <div className="p-8 md:p-10 flex flex-col justify-center flex-1">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-xs font-bold text-white bg-orange-500 rounded-full px-3 py-1 tracking-widest uppercase">
+                    Latest
+                  </span>
+                  <span className="text-xs font-bold text-orange-500 tracking-widest uppercase">
+                    {featured.post.category}
+                  </span>
+                  <span className="text-[#555] text-xs">·</span>
+                  <span className="text-[#555] text-xs">
+                    {featured.post.readTime}
+                  </span>
+                </div>
+                <Link href={`/blog/${featured.post.slug}`}>
+                  <h2 className="text-2xl md:text-3xl font-bold leading-snug mb-4 group-hover:text-orange-400 transition-colors">
+                    {featured.post.title}
+                  </h2>
+                </Link>
+                <p className="text-[#a3a3a3] leading-relaxed mb-6">
+                  {featured.post.excerpt}
+                </p>
+                <div className="flex items-center gap-6">
+                  <Link
+                    href={`/blog/${featured.post.slug}`}
+                    className="text-orange-500 font-medium hover:translate-x-1 transition-transform"
+                  >
+                    Read →
+                  </Link>
+                  {featured.esPost && (
+                    <Link
+                      href={`/blog/${featured.esPost.slug}`}
+                      className="text-[#a3a3a3] text-sm hover:text-orange-400 transition-colors"
+                    >
+                      Leer en español →
+                    </Link>
+                  )}
+                  <span className="text-[#555] text-xs ml-auto">
+                    {featured.post.date}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Post Grid */}
       <section className="pb-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
-          {displayPosts.map((post) => (
-            <Link
+          {displayPairs.slice(1).map(({ post, esPost }) => (
+            <div
               key={post.slug}
-              href={`/blog/${post.slug}`}
               className="group flex flex-col bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.08] rounded-2xl overflow-hidden transition-colors"
             >
-              <div className="aspect-[16/9] overflow-hidden">
-                <img
-                  src={post.coverImage}
-                  alt={post.coverAlt}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-8 flex flex-col flex-1">
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="text-xs font-bold text-orange-500 tracking-widest uppercase">
-                    {post.category}
-                  </span>
-                  <span className="text-[#555] text-xs">·</span>
-                  <span className="text-[#555] text-xs">{post.readTime}</span>
+              <Link href={`/blog/${post.slug}`} className="flex flex-col flex-1">
+                <div className="aspect-[16/9] overflow-hidden">
+                  <img
+                    src={post.coverImage}
+                    alt={post.coverAlt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
-                <h2 className="text-xl font-semibold leading-snug mb-3 group-hover:text-orange-400 transition-colors">
-                  {post.title}
-                </h2>
-                <p className="text-[#a3a3a3] text-sm leading-relaxed flex-1 mb-6">
-                  {post.excerpt}
-                </p>
-                <div className="flex items-center justify-between">
-                  <span className="text-[#555] text-xs">{post.date}</span>
-                  <span className="text-orange-500 text-sm font-medium group-hover:translate-x-1 transition-transform">
+                <div className="px-8 pt-8 flex flex-col flex-1">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-xs font-bold text-orange-500 tracking-widest uppercase">
+                      {post.category}
+                    </span>
+                    <span className="text-[#555] text-xs">·</span>
+                    <span className="text-[#555] text-xs">{post.readTime}</span>
+                  </div>
+                  <h2 className="text-xl font-semibold leading-snug mb-3 group-hover:text-orange-400 transition-colors">
+                    {post.title}
+                  </h2>
+                  <p className="text-[#a3a3a3] text-sm leading-relaxed flex-1 mb-6">
+                    {post.excerpt}
+                  </p>
+                </div>
+              </Link>
+              <div className="px-8 pb-8 flex items-center justify-between">
+                <span className="text-[#555] text-xs">{post.date}</span>
+                <div className="flex items-center gap-5">
+                  {esPost && (
+                    <Link
+                      href={`/blog/${esPost.slug}`}
+                      className="text-[#a3a3a3] text-xs hover:text-orange-400 transition-colors"
+                    >
+                      Leer en español
+                    </Link>
+                  )}
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="text-orange-500 text-sm font-medium group-hover:translate-x-1 transition-transform"
+                  >
                     Read →
-                  </span>
+                  </Link>
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </section>
