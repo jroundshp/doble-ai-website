@@ -663,6 +663,13 @@ const testimonials = [
     role: "Cineasta y fotógrafo · Colorado",
     lang: "en",
   },
+  {
+    quote:
+      "What impressed us most was John's ability to identify meaningful opportunities and translate them into specific, actionable steps. His recommendations were thoughtful, detailed, and tailored to each business rather than relying on a one-size-fits-all approach.",
+    name: "Dueño de varios negocios",
+    role: "Auditorías de presencia digital · Oeste de Nueva York",
+    lang: "en",
+  },
 ];
 
 function Testimonials() {
@@ -675,10 +682,10 @@ function Testimonials() {
         </div>
         <h2 className="text-4xl font-bold mb-4">En sus propias palabras. In their own words.</h2>
         <p className="text-[#a3a3a3] text-lg mb-14 max-w-2xl">
-          3 clientes, 2 países, 2 idiomas. Sin editar más allá de la puntuación.
+          4 clientes, 2 países, 2 idiomas. Sin editar más allá de la puntuación.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {testimonials.map((t) => (
             <figure
               key={t.name}
