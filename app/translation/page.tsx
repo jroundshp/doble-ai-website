@@ -285,11 +285,7 @@ function CommunityTrust() {
     "Vail Valley Foundation",
     "Bravo! Vail",
     "GoPro Mountain Games",
-    "Walking Mountains Science Center",
-    "Eagle Valley Community Foundation",
-    "Habitat for Humanity",
-    "Eagle County Fair",
-    "Eagle County Health & Human Services",
+    "Vilar Performing Arts Center",
   ];
 
   return (
@@ -303,7 +299,7 @@ function CommunityTrust() {
           Trusted by organizations that shape our valley.
         </h2>
         <p className="text-[#a3a3a3] text-lg mb-12 max-w-2xl">
-          From large-scale events to essential nonprofits, Gisella is available
+          From large-scale events to world-class performances, Gisella is available
           to provide live interpretation and translation services for the organizations
           and gatherings that define life in the Eagle River Valley.
         </p>
