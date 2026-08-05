@@ -238,7 +238,534 @@ const cloudTeamFaqES = [
   },
 ];
 
+const selectedFaqEN = [
+  {
+    q: "What is the difference between ranking and being selected in an AI Overview?",
+    a: "Ranking sorts every page that matched a query, so a low position still leaves you on the board. Retrieval selects a small set of sources before it writes anything, and everything outside that set is never evaluated. In a ranking system you can be losing. In a retrieval system you can be absent, and absent looks identical to not existing.",
+  },
+  {
+    q: "How do I find out whether AI search is recommending my business?",
+    a: "Write down the five questions a customer actually asks before hiring you, then ask each one in Google, ChatGPT, Perplexity, and Grok. Screenshot every answer. Note whether you appear, which competitors do, and which sources the answer cites. That last column matters most, because it tells you where the trust is coming from and which of those places you are missing from.",
+  },
+  {
+    q: "Why does my content not show up in AI answers even though it is on my website?",
+    a: "Usually because it is not in the HTML your server sends. Answers hidden inside a click-to-open accordion, a tab, or a page that builds itself in the browser are visible to people and invisible to the crawler that feeds AI answers. We have audited sites where every answer on the most important page existed for visitors and none of them existed in the source.",
+  },
+  {
+    q: "Does domain authority still matter for AI search?",
+    a: "Much less than it did. Authority scores were built to predict ranking position, and retrieval is not ranking. What decides selection is whether your business is clearly identified, whether the answer to the question is in plain text on your site, and whether independent sources say the same things about you. A small business can win those on a specific question that a bigger competitor never bothered to answer.",
+  },
+  {
+    q: "What should a small business fix first to get cited by AI search?",
+    a: "Put real answers, in plain sentences, on the pages where the questions belong, and make sure they appear in the page source. Then make your business details identical everywhere they appear: your site, your Google Business Profile, and any directory that lists you. Those two jobs cost nothing but attention, and they are what most local businesses are failing right now.",
+  },
+  {
+    q: "Is there an advantage to answering in Spanish as well as English?",
+    a: "In our market it is the largest one available. Ask an AI assistant a buying question in Spanish about most Colorado mountain towns and the set of sources it can pull from is nearly empty, so it reaches for whatever it can find. A business with genuine Spanish answers written for Spanish speakers, not run through a translator, can become the default source for an entire category of question in a matter of weeks.",
+  },
+];
+
+const selectedFaqES = [
+  {
+    q: "¿Cuál es la diferencia entre posicionar y ser seleccionado en un AI Overview?",
+    a: "El posicionamiento ordena todas las páginas que coinciden con una búsqueda, así que una posición baja igual te deja en la lista. La recuperación selecciona un grupo pequeño de fuentes antes de escribir una sola palabra, y todo lo que queda fuera de ese grupo nunca se evalúa. En un sistema de posicionamiento puedes ir perdiendo. En un sistema de recuperación puedes estar ausente, y ausente se ve igual que no existir.",
+  },
+  {
+    q: "¿Cómo sé si la búsqueda con IA está recomendando mi negocio?",
+    a: "Escribe las cinco preguntas que un cliente hace de verdad antes de contratarte y hazle cada una a Google, ChatGPT, Perplexity y Grok. Toma captura de cada respuesta. Anota si apareces, qué competidores sí aparecen y qué fuentes cita la respuesta. Esa última columna es la más importante: te dice de dónde viene la confianza y en cuáles de esos lugares no estás.",
+  },
+  {
+    q: "¿Por qué mi contenido no aparece en las respuestas de IA si está en mi sitio web?",
+    a: "Casi siempre porque no está en el HTML que envía tu servidor. Las respuestas escondidas dentro de un acordeón que hay que abrir, de una pestaña o de una página que se arma en el navegador son visibles para las personas e invisibles para el rastreador que alimenta las respuestas de IA. Hemos auditado sitios donde todas las respuestas de la página más importante existían para el visitante y ninguna existía en el código fuente.",
+  },
+  {
+    q: "¿La autoridad de dominio todavía importa para la búsqueda con IA?",
+    a: "Mucho menos que antes. Los puntajes de autoridad se crearon para predecir posiciones, y la recuperación no es posicionamiento. Lo que decide la selección es si tu negocio está claramente identificado, si la respuesta a la pregunta está en texto plano en tu sitio y si fuentes independientes dicen lo mismo de ti. Un negocio pequeño puede ganar en esas tres cosas para una pregunta específica que un competidor grande nunca se molestó en responder.",
+  },
+  {
+    q: "¿Qué debería arreglar primero un negocio pequeño para que la IA lo cite?",
+    a: "Pon respuestas reales, en frases claras, en las páginas donde corresponden esas preguntas, y asegúrate de que aparezcan en el código fuente. Después haz que los datos de tu negocio sean idénticos en todos lados: tu sitio, tu perfil de Google Business y cualquier directorio que te liste. Esas dos tareas no cuestan dinero, solo atención, y son justo donde la mayoría de los negocios locales está fallando hoy.",
+  },
+  {
+    q: "¿Hay ventaja en responder en español además de en inglés?",
+    a: "En nuestro mercado es la ventaja más grande disponible. Hazle a un asistente de IA una pregunta de compra en español sobre casi cualquier pueblo de montaña de Colorado y el conjunto de fuentes del que puede tomar información está casi vacío, así que echa mano de lo que encuentre. Un negocio con respuestas genuinas en español, escritas para hispanohablantes y no pasadas por un traductor, puede convertirse en la fuente por defecto de toda una categoría de preguntas en cuestión de semanas.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "you-dont-rank-into-an-ai-overview",
+    faq: selectedFaqEN,
+    title: "You don't rank into an AI Overview. You get selected.",
+    excerpt:
+      "Close to half of Google searches now open with an AI answer. Most owners read that as a traffic problem. It is an access problem, and access works nothing like ranking.",
+    date: "August 5, 2026",
+    dateISO: "2026-08-05",
+    category: "AI Strategy",
+    readTime: "7 min read",
+    coverImage: "/work/ai-overview-you-get-selected.jpg",
+    coverAlt:
+      "Diagram showing eight grey bars labeled everything that could rank passing through a dashed orange selection line, with only three orange bars emerging labeled what the AI answer cites",
+    keywords:
+      "AI Overviews, do you rank in AI Overviews, how to get cited by AI search, AI search visibility small business, generative engine optimization, GEO vs SEO, bilingual AI search Colorado, get selected by AI Overviews",
+    content: (
+      <>
+        <p>
+          A number has been going around: AI Overviews now show up on close to
+          half of all Google searches. The exact figure depends on whose
+          tracker you trust, because every study measures a different set of
+          keywords, a different country, and a different mix of phones and
+          desktops. Reasonable measurements this year land anywhere from 25%
+          to 60%. The direction is not in dispute. A year ago the same
+          trackers were reporting around 15%.
+        </p>
+        <p>
+          Almost everyone reading that number treats it as a traffic story.
+          Fewer clicks, and a line sloping down in Analytics. That reading is
+          true, and it is the smaller half of what happened.
+          The bigger change is that Google quietly switched jobs, and most
+          businesses are still optimizing for the old one.
+        </p>
+
+        <h2>Ranking and retrieval are not the same system</h2>
+        <p>
+          Ranking sorts. Retrieval selects. That sounds like a distinction
+          without a difference until you notice what happens to everyone who
+          loses.
+        </p>
+        <p>
+          Under ranking, every page that matched the query was on the board.
+          Position 14 was losing, but position 14 still existed. Somebody
+          scrolled. Somebody hit page two. Somebody found you at the bottom of
+          a list and called anyway. A bad ranking cost you volume. It did not
+          cost you the possibility of being found.
+        </p>
+        <p>
+          Retrieval does not work that way. When a question comes in and the
+          system composes an answer, it does not weigh every page on the
+          topic. It pulls a small set of sources it already treats as reliable
+          for that kind of question, reads those, and writes from them. If
+          your business is not in that set, nothing else about you gets
+          evaluated. Not your copy, not your backlinks, not your domain
+          authority. You are not ranked badly. You are not ranked.
+        </p>
+        <p>
+          The sharpest version of this I have seen came from an SEO posting as
+          @Charles_SEO: you don&apos;t rank into an AI Overview, you get
+          selected into one. Selection has a gate. Ranking never did.
+        </p>
+
+        <h2>What does an access problem look like in practice?</h2>
+        <p>
+          It looks like a business with a perfectly good website that AI
+          assistants have never heard of.
+        </p>
+        <p>
+          We run an AI visibility check as part of every audit. We take the
+          five questions a customer actually asks before hiring someone in
+          that category, ask all five in Google, ChatGPT, Perplexity, and
+          Grok, and screenshot what comes back. The pattern repeats often
+          enough that it stopped being a surprise. The business is real, the
+          site is fine, the reviews are decent, and across twenty answers the
+          business is named zero times. Meanwhile a competitor with an uglier
+          site gets recommended by name in three of the four engines.
+        </p>
+        <p>
+          The competitor did not win a ranking contest. The competitor was
+          inside the set and our client was outside it.
+        </p>
+
+        <h2>Why good content still gets skipped</h2>
+        <p>
+          The most common cause is the least glamorous one. The answers are on
+          the site, but they are not in what the server actually sends.
+        </p>
+        <p>
+          We audited a company earlier this year with the best-built site
+          we had seen all year, genuinely sharp work. Its most important page
+          had a long list of buying questions, each one answered well. Every
+          answer sat inside a click-to-open accordion that the browser filled
+          in after the page loaded. We checked the source the way a crawler
+          receives it: 114 questions on the page, 114 answers missing.
+          A visitor saw a thorough page. A retriever saw a heading and a
+          script tag.
+        </p>
+        <p>
+          Another site we looked at was built entirely in the browser. Beautiful
+          in Chrome, and effectively a blank page to anything reading the HTML.
+          Its whole business was invisible to the systems now answering half of
+          all searches.
+        </p>
+
+        <img
+          src="/work/retriever-vs-visitor-page.jpg"
+          alt="Side by side comparison showing four FAQ questions a visitor sees in an accordion versus the bare HTML a retriever receives, with a note that zero of four answers are present"
+        />
+
+        <p>
+          Neither of those is a content problem. Both are access problems, and
+          both are fixable in an afternoon by someone who knows to look. What
+          makes them dangerous is that nothing appears broken. The site loads,
+          the page ranks, the owner has no reason to suspect anything.
+        </p>
+
+        <h2>What gets a business into the trusted set?</h2>
+        <p>
+          Four things, in roughly this order of neglect.
+        </p>
+        <ol>
+          <li>
+            The answer has to be in the page source, in plain text, on the
+            page where the question belongs. Not behind a click, not built by
+            a script, not buried in a PDF. If you can right-click, view
+            source, and find the sentence, so can a retriever.
+          </li>
+          <li>
+            The answer has to be shaped like an answer. A heading phrased the
+            way a customer asks the question, followed by a direct reply in
+            two or three sentences before any preamble. Retrieval systems lift
+            passages, not pages, and a passage that stands alone is a passage
+            that can be quoted.
+          </li>
+          <li>
+            Your business has to be one identifiable entity. Same name, same
+            address, same phone, same service list on your site, on your{" "}
+            <a href="/blog/google-business-profile-ai-asset">
+              Google Business Profile
+            </a>
+            , and everywhere else you are listed. Three spellings of your
+            company name reads as three weak signals instead of one strong
+            one.
+          </li>
+          <li>
+            Somebody other than you has to say it. Reviews, local directories,
+            chamber listings, a local news mention. When we map which sources
+            the AI answers actually cite, they are frequently not the
+            business&apos;s own website. They are the places that talk about
+            the business.
+          </li>
+        </ol>
+
+        <h2>Why this is better news for a small business than it sounds</h2>
+        <p>
+          Ranking rewarded accumulated advantage. Domain age, link budgets,
+          years of published volume. A local contractor was never going to
+          out-authority a national directory, which is why the top of a lot of
+          local searches was owned by companies that do not operate in your
+          town.
+        </p>
+        <p>
+          Retrieval sets are small and specific to the question. For a broad
+          query the set is crowded and hard to break into. For{" "}
+          <em>&ldquo;who repairs asphalt driveways in Gypsum, Colorado, and
+          speaks Spanish&rdquo;</em>{" "}
+          the set is nearly empty, and the system will pull from whatever
+          thin material it can find. You cannot outspend a national brand on
+          links. You can absolutely be the only clean, complete, corroborated
+          answer to a question about your town.
+        </p>
+        <p>
+          The language gap is the widest version of this. Ask any of the four
+          engines a buying question in Spanish about most Colorado mountain
+          towns and watch how little it has to work with. That is not a
+          hypothetical opening. It is a category of question with almost no
+          qualified sources, in a valley where a large share of the workforce
+          asks questions that way. We wrote about{" "}
+          <a href="/blog/geo-vs-seo">
+            the difference between optimizing for search and optimizing for
+            answers
+          </a>{" "}
+          if you want the mechanics.
+        </p>
+
+        <h2>How do you check where you stand?</h2>
+        <p>
+          You can do the first pass yourself this week, and you should, because
+          the results tend to be more persuasive than anything I could write
+          here.
+        </p>
+        <p>
+          Write down the five questions a customer asks right before they hire
+          someone like you. Ask all five in Google, ChatGPT, Perplexity, and
+          Grok. Screenshot everything. Then fill in three columns: were you
+          named, who was named instead, and what sources did the answer cite.
+        </p>
+        <p>
+          Then check the plumbing. Pull up your most important page, view the
+          source, and search it for the answers you know are on that page. If
+          the text is not in there, the crawler feeding those engines never saw
+          it either.
+        </p>
+        <p>
+          That exercise is the front half of every audit we run, and it is the
+          part clients quote back to us months later. Screenshots of four AI
+          engines recommending your competitor by name settle an argument that
+          a traffic chart never quite does.
+        </p>
+
+        <h2>The part worth remembering</h2>
+        <p>
+          The businesses that adapt to this will not be the ones that publish
+          the most. They will be the ones that are legible: clear about what
+          they do, answering real questions in text a machine can read,
+          described consistently everywhere they appear, and vouched for by
+          somebody besides themselves.
+        </p>
+        <p>
+          That has always been decent advice. What changed is the penalty for
+          ignoring it. Under ranking, a business that skipped all of it landed
+          on page three. Under retrieval, it does not land anywhere, and the
+          owner has no idea, because the site looks fine and the phone was
+          always going to ring a little less this quarter for some other
+          reason. The 114 missing answers we found were on the best-built
+          site in the audit. That is the whole problem in one sentence.
+        </p>
+
+        <FAQ items={selectedFaqEN} />
+        <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "no-te-posicionas-te-seleccionan",
+    faq: selectedFaqES,
+    title: "No te posicionas en un AI Overview. Te seleccionan.",
+    excerpt:
+      "Casi la mitad de las búsquedas en Google ya abren con una respuesta de IA. Casi todos lo leen como un problema de tráfico. Es un problema de acceso, y el acceso no funciona como el posicionamiento.",
+    date: "August 5, 2026",
+    dateISO: "2026-08-05",
+    category: "Estrategia de IA",
+    readTime: "7 min de lectura",
+    coverImage: "/work/ai-overview-te-seleccionan.jpg",
+    coverAlt:
+      "Diagrama con ocho barras grises etiquetadas todo lo que podría posicionar pasando por una línea naranja punteada de selección, de la que solo salen tres barras naranjas etiquetadas lo que cita la respuesta de IA",
+    keywords:
+      "AI Overviews, cómo aparecer en respuestas de IA, visibilidad en búsqueda con IA, optimización para motores generativos, GEO vs SEO en español, búsqueda con IA en español, IA para pequeños negocios Colorado",
+    content: (
+      <>
+        <p>
+          Hay un dato circulando: los AI Overviews ya aparecen en casi la mitad
+          de las búsquedas de Google. La cifra exacta depende de a qué estudio
+          le creas, porque cada uno mide un conjunto distinto de palabras clave,
+          otro país y otra mezcla de teléfonos y computadoras. Las mediciones
+          serias de este año van del 25% al 60%. La dirección no está en
+          discusión: hace un año los mismos estudios reportaban alrededor del
+          15%.
+        </p>
+        <p>
+          Casi todos leen ese número como una historia de tráfico. Menos clics,
+          menos sesiones, una línea que baja en Analytics. Esa lectura es cierta
+          y es la mitad menos importante de lo que pasó. El cambio grande es que
+          Google cambió de oficio sin avisar, y la mayoría de los negocios sigue
+          optimizando para el oficio anterior.
+        </p>
+
+        <h2>Posicionar y recuperar no son el mismo sistema</h2>
+        <p>
+          Posicionar es ordenar. Recuperar es seleccionar. Suena a una
+          diferencia de palabras hasta que ves qué le pasa a los que pierden.
+        </p>
+        <p>
+          Con el posicionamiento, cada página que coincidía con la búsqueda
+          estaba en la lista. La posición 14 iba perdiendo, pero la posición 14
+          existía. Alguien bajaba. Alguien pasaba a la segunda página. Alguien
+          te encontraba al final y te llamaba igual. Un mal posicionamiento te
+          costaba volumen; no te costaba la posibilidad de aparecer.
+        </p>
+        <p>
+          La recuperación no funciona así. Cuando entra una pregunta y el
+          sistema arma una respuesta, no pesa todas las páginas del tema. Toma
+          un grupo pequeño de fuentes que ya considera confiables para ese tipo
+          de pregunta, las lee y escribe a partir de ellas. Si tu negocio no
+          está en ese grupo, nada más de ti se evalúa: ni tu texto, ni tus
+          enlaces, ni tu autoridad de dominio. No es que estés mal posicionado.
+          Es que no estás.
+        </p>
+        <p>
+          La mejor forma de decirlo que he visto vino de un SEO que publica como
+          @Charles_SEO: no te posicionas en un AI Overview, te seleccionan. La
+          selección tiene una puerta. El posicionamiento nunca la tuvo.
+        </p>
+
+        <h2>¿Cómo se ve un problema de acceso en la práctica?</h2>
+        <p>
+          Se ve como un negocio con un sitio web perfectamente decente del que
+          los asistentes de IA jamás han oído hablar.
+        </p>
+        <p>
+          En cada auditoría corremos una revisión de visibilidad en IA. Tomamos
+          las cinco preguntas que un cliente hace de verdad antes de contratar a
+          alguien de esa categoría, hacemos las cinco en Google, ChatGPT,
+          Perplexity y Grok, y capturamos todo lo que responden. El patrón se
+          repite tanto que dejó de sorprendernos: el negocio es real, el sitio
+          está bien, las reseñas son decentes y en veinte respuestas el negocio
+          aparece cero veces. Mientras tanto, un competidor con un sitio más
+          feo sale recomendado por su nombre en tres de los cuatro motores.
+        </p>
+        <p>
+          Ese competidor no ganó un concurso de posicionamiento. Ese competidor
+          estaba dentro del grupo y nuestro cliente estaba fuera.
+        </p>
+
+        <h2>Por qué el buen contenido igual se pasa por alto</h2>
+        <p>
+          La causa más común es también la menos glamorosa: las respuestas están
+          en el sitio, pero no están en lo que el servidor realmente envía.
+        </p>
+        <p>
+          Este año auditamos una empresa con el sitio mejor construido que
+          habíamos visto en meses, trabajo genuinamente bueno. Su página más
+          importante tenía una lista larga de preguntas de compra, cada una bien
+          respondida. Todas las respuestas vivían dentro de un acordeón que el
+          navegador rellenaba después de cargar la página. Revisamos el código
+          fuente tal como lo recibe un rastreador: 114 preguntas en la página,
+          114 respuestas ausentes. El visitante veía una página completa. El
+          recuperador veía un título y una etiqueta de script.
+        </p>
+        <p>
+          Otro sitio que revisamos estaba construido por completo en el
+          navegador: precioso en Chrome y prácticamente una página en blanco
+          para cualquier cosa que leyera el HTML. Todo su negocio era invisible
+          para los sistemas que hoy responden la mitad de las búsquedas.
+        </p>
+
+        <img
+          src="/work/recuperador-vs-visitante-pagina.jpg"
+          alt="Comparación lado a lado entre las cuatro preguntas frecuentes que ve un visitante en un acordeón y el HTML pelado que recibe un recuperador, con la nota de que ninguna de las cuatro respuestas está presente"
+        />
+
+        <p>
+          Ninguno de los dos es un problema de contenido. Los dos son problemas
+          de acceso, y los dos se arreglan en una tarde si alguien sabe dónde
+          mirar. Lo peligroso es que nada parece roto: el sitio carga, la página
+          posiciona, el dueño no tiene motivo para sospechar.
+        </p>
+
+        <h2>¿Qué mete a un negocio en el grupo de confianza?</h2>
+        <p>
+          Cuatro cosas, más o menos en este orden de abandono.
+        </p>
+        <ol>
+          <li>
+            La respuesta tiene que estar en el código fuente, en texto plano, en
+            la página donde corresponde esa pregunta. No detrás de un clic, no
+            armada por un script, no enterrada en un PDF. Si puedes hacer clic
+            derecho, ver el código fuente y encontrar la frase, un recuperador
+            también.
+          </li>
+          <li>
+            La respuesta tiene que tener forma de respuesta. Un título redactado
+            como el cliente hace la pregunta, seguido de una contestación
+            directa en dos o tres frases antes de cualquier introducción. Los
+            sistemas de recuperación levantan pasajes, no páginas, y un pasaje
+            que se entiende solo es un pasaje que se puede citar.
+          </li>
+          <li>
+            Tu negocio tiene que ser una sola entidad identificable. Mismo
+            nombre, misma dirección, mismo teléfono y misma lista de servicios
+            en tu sitio, en tu{" "}
+            <a href="/blog/perfil-google-business-activo-ia">
+              perfil de Google Business
+            </a>{" "}
+            y en cualquier otro lugar donde aparezcas. Tres formas de escribir
+            el nombre de tu empresa se leen como tres señales débiles en vez de
+            una fuerte.
+          </li>
+          <li>
+            Alguien que no seas tú tiene que decirlo. Reseñas, directorios
+            locales, listados de la cámara de comercio, una mención en prensa
+            local. Cuando mapeamos qué fuentes citan de verdad las respuestas de
+            IA, con frecuencia no es el sitio del negocio. Son los lugares que
+            hablan del negocio.
+          </li>
+        </ol>
+
+        <h2>Por qué esto es mejor noticia para un negocio pequeño de lo que parece</h2>
+        <p>
+          El posicionamiento premiaba la ventaja acumulada: antigüedad del
+          dominio, presupuesto para enlaces, años de publicar volumen. Un
+          contratista local nunca iba a ganarle en autoridad a un directorio
+          nacional, y por eso buena parte de las búsquedas locales estaba en
+          manos de empresas que ni siquiera operan en tu pueblo.
+        </p>
+        <p>
+          Los grupos de recuperación son pequeños y específicos por pregunta.
+          Para una búsqueda amplia, el grupo está lleno y es difícil de romper.
+          Para{" "}
+          <em>
+            &ldquo;quién repara entradas de asfalto en Gypsum, Colorado, y habla
+            español&rdquo;
+          </em>{" "}
+          el grupo está casi vacío, y el sistema jalará de lo poco que
+          encuentre. No puedes gastar más que una marca nacional en enlaces. Sí
+          puedes ser la única respuesta limpia, completa y respaldada sobre una
+          pregunta de tu pueblo.
+        </p>
+        <p>
+          La brecha de idioma es la versión más ancha de esto. Hazle a
+          cualquiera de los cuatro motores una pregunta de compra en español
+          sobre casi cualquier pueblo de montaña de Colorado y fíjate con qué
+          poco material tiene que trabajar. No es una oportunidad hipotética: es
+          una categoría entera de preguntas casi sin fuentes calificadas, en un
+          valle donde buena parte de la fuerza laboral pregunta justamente así.
+          Escribimos sobre{" "}
+          <a href="/blog/geo-vs-seo-espanol">
+            la diferencia entre optimizar para búsquedas y optimizar para
+            respuestas
+          </a>{" "}
+          si quieres la mecánica.
+        </p>
+
+        <h2>¿Cómo revisas dónde estás parado?</h2>
+        <p>
+          La primera pasada la puedes hacer tú esta semana, y deberías, porque
+          el resultado suele convencer más que cualquier cosa que yo escriba
+          aquí.
+        </p>
+        <p>
+          Anota las cinco preguntas que hace un cliente justo antes de contratar
+          a alguien como tú. Hazlas las cinco en Google, ChatGPT, Perplexity y
+          Grok. Captura todo. Después llena tres columnas: si te nombraron, a
+          quién nombraron en tu lugar y qué fuentes citó la respuesta.
+        </p>
+        <p>
+          Luego revisa la plomería. Abre tu página más importante, mira el
+          código fuente y busca ahí las respuestas que sabes que están en esa
+          página. Si el texto no aparece, el rastreador que alimenta esos
+          motores tampoco lo vio.
+        </p>
+        <p>
+          Ese ejercicio es la primera mitad de cada auditoría que hacemos, y es
+          la parte que los clientes nos repiten meses después. Cuatro capturas
+          de cuatro motores de IA recomendando a tu competencia por su nombre
+          cierran una discusión que una gráfica de tráfico nunca cierra del
+          todo.
+        </p>
+
+        <h2>Lo que vale la pena recordar</h2>
+        <p>
+          Los negocios que se adapten a esto no serán los que más publiquen.
+          Serán los legibles: claros sobre lo que hacen, respondiendo preguntas
+          reales en texto que una máquina pueda leer, descritos de forma
+          consistente en todos lados y respaldados por alguien más que ellos
+          mismos.
+        </p>
+        <p>
+          Eso siempre fue un buen consejo. Lo que cambió es el castigo por
+          ignorarlo. Con el posicionamiento, el negocio que se saltaba todo eso
+          caía en la página tres. Con la recuperación, no cae en ningún lado, y
+          el dueño ni se entera, porque el sitio se ve bien y el teléfono iba a
+          sonar un poco menos este trimestre por alguna otra razón. Las 114
+          respuestas ausentes que encontramos estaban en el sitio mejor
+          construido de la auditoría. Ahí está el problema completo en una
+          frase.
+        </p>
+
+        <FAQ items={selectedFaqES} title="Preguntas frecuentes" />
+        <CTAes />
+      </>
+    ),
+  },
   {
     slug: "build-your-own-ai-team",
     faq: cloudTeamFaqEN,
