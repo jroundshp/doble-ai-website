@@ -399,7 +399,7 @@ export const posts: Post[] = [
 
         <img
           src="/work/retriever-vs-visitor-page.jpg"
-          alt="Side by side comparison showing four FAQ questions a visitor sees in an accordion versus the bare HTML a retriever receives, with a note that zero of four answers are present"
+          alt="Side by side comparison showing three FAQ questions a visitor sees in an accordion versus the bare HTML a retriever receives, with a note that zero of three answers are present"
         />
 
         <p>
@@ -631,7 +631,7 @@ export const posts: Post[] = [
 
         <img
           src="/work/recuperador-vs-visitante-pagina.jpg"
-          alt="Comparación lado a lado entre las cuatro preguntas frecuentes que ve un visitante en un acordeón y el HTML pelado que recibe un recuperador, con la nota de que ninguna de las cuatro respuestas está presente"
+          alt="Comparación lado a lado entre las tres preguntas frecuentes que ve un visitante en un acordeón y el HTML pelado que recibe un recuperador, con la nota de que ninguna de las tres respuestas está presente"
         />
 
         <p>
