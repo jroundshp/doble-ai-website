@@ -500,7 +500,11 @@ export const posts: Post[] = [
           That exercise is the front half of every audit we run, and it is the
           part clients quote back to us months later. Screenshots of four AI
           engines recommending your competitor by name settle an argument that
-          a traffic chart never quite does.
+          a traffic chart never quite does. The back half is{" "}
+          <a href="/blog/competitive-analysis">
+            working out what those competitors are actually doing well
+          </a>
+          , which is the part most owners skip.
         </p>
 
         <h2>The part worth remembering</h2>
@@ -1289,7 +1293,12 @@ export const posts: Post[] = [
           when they go looking. You can&apos;t fix what you haven&apos;t
           measured, and owners are usually surprised by what the measurement
           shows. Almost every time, the weak spot turns out to be visibility
-          rather than the product.
+          rather than the product. Ranking in search and being quoted in an AI
+          answer are{" "}
+          <a href="/blog/geo-vs-seo">
+            not the same problem
+          </a>
+          , and a site can pass the first while failing the second.
         </p>
 
         <h2>Step two: learn who&apos;s winning your market and why</h2>
@@ -1299,7 +1308,11 @@ export const posts: Post[] = [
           should, what they do well, where they&apos;re coasting, and the
           white space nobody in your market has claimed yet. That last part
           matters most. In almost every market we&apos;ve audited, there is an
-          open lane no one is running in.
+          open lane no one is running in. Here is{" "}
+          <a href="/blog/competitive-analysis">
+            what that analysis actually turns up
+          </a>{" "}
+          and why so few owners run one.
         </p>
 
         <h2>Step three: get found and tell your story</h2>
@@ -1987,7 +2000,11 @@ export const posts: Post[] = [
           Take the human out and you get fast, generic, occasionally
           embarrassing output. Take the AI out and you get thoughtful work that
           takes ten times as long. The value lives in the combination, and the
-          person is the senior partner in it.
+          person is the senior partner in it. That is also why{" "}
+          <a href="/blog/why-ai-needs-human-context">
+            the context a person brings matters more than the raw capability
+          </a>{" "}
+          now that everyone has access to the same tools.
         </p>
 
         <h2>AI is an earth mover, not a replacement for the operator</h2>
