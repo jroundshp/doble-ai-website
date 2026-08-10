@@ -470,7 +470,11 @@ export const posts: Post[] = [
           towns and watch how little it has to work with. That is not a
           hypothetical opening. It is a category of question with almost no
           qualified sources, in a valley where a large share of the workforce
-          asks questions that way. We wrote about{" "}
+          asks questions that way. That is the same gap we described in{" "}
+          <a href="/blog/bilingual-advantage-colorado">
+            reaching the other half of your Colorado market
+          </a>
+          , now showing up one layer deeper. We wrote about{" "}
           <a href="/blog/geo-vs-seo">
             the difference between optimizing for search and optimizing for
             answers
@@ -888,7 +892,17 @@ export const posts: Post[] = [
         <h2>How do you actually build one?</h2>
         <p>
           Here&apos;s the sequence we&apos;d hand any owner who wants to try
-          it. It&apos;s the one we followed, cleaned up with hindsight.
+          it. It&apos;s the one we followed, cleaned up with hindsight. It
+          assumes you are past the chat-window stage, which is its own
+          progression:{" "}
+          <a href="/blog/ai-learning-curve">
+            most people are still at level one or two
+          </a>
+          , and the jump that matters is{" "}
+          <a href="/blog/claude-code-vs-cowork">
+            training a tool instead of just using one
+          </a>
+          .
         </p>
         <ol>
           <li>
@@ -1333,7 +1347,12 @@ export const posts: Post[] = [
           morning. A bilingual agent answering the phone after hours instead
           of losing the job to voicemail. Built on a business customers can
           find, these systems compound. Built on an invisible one, they just
-          run quietly next to the silence.
+          run quietly next to the silence. If you want the version of this
+          written as a decision rather than a sequence, we laid out{" "}
+          <a href="/blog/ai-roadmap-business-owners">
+            how far to take AI and how to choose your own stopping point
+          </a>
+          .
         </p>
 
         <img
