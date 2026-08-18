@@ -27,10 +27,15 @@ const organizationSchema = {
       },
       description:
         "One of Colorado's few bilingual AI implementation firms. Based in the Eagle River Valley and working locally, nationally, and across the border. AI strategy, competitive analysis, and brand growth, delivered natively in English and in Spanish.",
+      // The business is in Gypsum. This is the NAP anchor Google cross-checks
+      // against Google Business Profile and Facebook, so it states the town
+      // exactly. "Eagle River Valley" stays in the prose as the regional
+      // identity: Gypsum sits in it, so both are true and each does a job.
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Eagle",
+        addressLocality: "Gypsum",
         addressRegion: "CO",
+        postalCode: "81637",
         addressCountry: "US",
       },
       // Rooted, not limited: the home counties stay first as the local anchor,
