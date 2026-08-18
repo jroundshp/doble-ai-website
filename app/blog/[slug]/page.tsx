@@ -164,7 +164,7 @@ export default async function BlogPost({
             href="/#contact"
             className="bg-orange-500 hover:bg-orange-400 text-white text-sm font-medium px-4 py-2 rounded-full transition-colors"
           >
-            Free Audit
+            Free Snapshot
           </a>
         </div>
       </nav>

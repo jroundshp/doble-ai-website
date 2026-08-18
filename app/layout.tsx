@@ -59,6 +59,38 @@ const organizationSchema = {
         availableLanguage: ["English", "Spanish"],
       },
       knowsLanguage: ["en", "es"],
+      // Prices are stated here so AI engines quote them correctly. Keep these
+      // in lockstep with the Services section, the FAQ, and /llms.txt: a price
+      // a machine repeats is a promise the buyer arrives already believing.
+      makesOffer: [
+        {
+          "@type": "Offer",
+          name: "The Findability Report",
+          description:
+            "Full diagnostic of site structure and indexation, Google Business Profile, competitive landscape, and how five buyer questions are answered across four AI engines. Scored out of ten, delivered in writing with screenshots. Credited in full against the first month of Doble Presence.",
+          price: "1500",
+          priceCurrency: "USD",
+        },
+        {
+          "@type": "Offer",
+          name: "Doble Presence",
+          description:
+            "We build or repair the site, then run it: content published in English and Spanish as real pairs, schema and structure kept correct for AI engines, and monitoring for what breaks.",
+          priceCurrency: "USD",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            minPrice: "2500",
+            priceCurrency: "USD",
+            unitCode: "MON",
+          },
+        },
+        {
+          "@type": "Offer",
+          name: "AI Implementation",
+          description:
+            "A bilingual AI workspace that learns the business: persistent memory, accumulated workflows, bilingual agents. Quoted per engagement.",
+        },
+      ],
       founder: [
         {
           "@type": "Person",

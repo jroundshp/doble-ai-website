@@ -23,12 +23,12 @@ const faqs = [
     a: "Doble AI is an AI-native, bilingual implementation firm based in the Eagle River Valley, Colorado. We build AI workspaces that learn your business, remembering your clients, your workflows, and your brand voice, and compounding that knowledge over time. We also audit your digital presence, map your competitive landscape, and build brand and sales strategy. Everything we do is available in both English and Spanish.",
   },
   {
-    q: "What is included in a free business audit?",
-    a: "Our free business audit covers your current online presence, Google Business Profile status, website performance, review volume and sentiment, and a high-level competitive comparison. We deliver a written summary within 5–7 days with specific, prioritized recommendations. No pitch deck, no obligation.",
+    q: "What is the difference between the free snapshot and the Findability Report?",
+    a: "The free snapshot is a one-page summary of where you stand: whether your pages are indexed, whether your Google Business Profile is claimed and complete, and the obvious structural problems on your site. It costs nothing and there is no obligation. The Findability Report is the full diagnostic: site structure and indexation, Google Business Profile, competitive landscape, and how five real buyer questions get answered across four AI engines, scored out of ten and delivered in writing with the screenshots behind every finding. It is $1,500, and we credit the full amount against your first month of Doble Presence if you continue.",
   },
   {
-    q: "How much does AI implementation cost?",
-    a: "Doble AI pricing is scoped to your specific project and needs. Every engagement starts with a free audit. Typical 90-day implementation engagements are quoted after the audit based on scope. Contact us for a clear, itemized quote.",
+    q: "How much does this cost?",
+    a: "The Findability Report is $1,500, credited in full against your first month if you continue. Doble Presence starts at $2,500 a month and is scoped to your business. AI Implementation is quoted per engagement after the Report, because the scope depends entirely on what we find. Pricing is fixed and stated up front. We do not bill hourly.",
   },
   {
     q: "What makes Doble AI different from other AI firms?",
@@ -105,7 +105,7 @@ function Hero() {
             href="#contact"
             className="bg-orange-500 hover:bg-orange-400 text-white font-semibold px-8 py-4 rounded-full text-base transition-colors"
           >
-            Get a free audit
+            Get a free snapshot
           </a>
           <a
             href="#services"
@@ -135,7 +135,7 @@ function Problem() {
             most firms can&apos;t offer.
           </h2>
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
-            We help Colorado businesses grow with AI: sharper online visibility,
+            We help business owners grow with AI: sharper online visibility,
             better competitive intelligence, and a clear strategy for turning
             that into revenue. And unlike most AI firms, we can extend
             that work into the Spanish-speaking market with native fluency and
@@ -170,27 +170,21 @@ function Services() {
   const services = [
     {
       num: "01",
-      name: "Business Audit",
-      desc: "A full diagnostic of your online presence, competitors, and gaps, delivered as a detailed written report. This is where every engagement starts.",
-      detail: "Delivered in 5–7 days",
+      name: "The Findability Report",
+      desc: "Where you actually stand. We check your site structure and indexation, your Google Business Profile, your competitive landscape, and how five real buyer questions get answered across four AI engines. Scored out of ten, delivered in writing, with the screenshots behind every finding.",
+      detail: "$1,500 · Delivered in 5–7 days · Credited to your first month",
     },
     {
       num: "02",
-      name: "Competitive Landscape Analysis",
-      desc: "We map your competitive environment, identify where you're losing ground, and find the white space your competitors haven't claimed yet.",
-      detail: "Included with audit or standalone",
+      name: "Doble Presence",
+      desc: "We build or repair the site, then run it. Content published in English and Spanish as real pairs rather than translations, schema and structure kept correct so AI engines can read you, and monitoring that catches what breaks before your customers do.",
+      detail: "From $2,500/month · English · Spanish optional",
     },
     {
       num: "03",
-      name: "Brand & Sales Growth",
-      desc: "Digital presence buildout, content strategy, and a clear plan to turn your brand into a revenue-generating asset. Available in English, with Spanish for businesses ready to grow that market.",
-      detail: "English · Spanish optional",
-    },
-    {
-      num: "04",
       name: "AI Implementation",
       desc: "We build an AI workspace that learns your business: persistent memory, accumulated workflows, bilingual AI agents. Not a one-time setup. A system that compounds the longer we work together.",
-      detail: "Custom scope per engagement",
+      detail: "Quoted per engagement",
     },
   ];
 
@@ -203,10 +197,11 @@ function Services() {
         </div>
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <h2 className="text-4xl font-bold leading-tight max-w-lg">
-            Four services. One clear outcome.
+            Two products. One clear outcome.
           </h2>
           <p className="text-[#a3a3a3] max-w-sm">
-            Pricing is scoped to your project. It starts with a free audit.
+            Start with a free snapshot. Pricing is fixed and stated up front,
+            never hourly.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-4">
@@ -841,10 +836,11 @@ function Contact() {
           <span className="w-6 h-px bg-orange-500" />
           Get started
         </div>
-        <h2 className="text-4xl font-bold mb-4">Start with a free audit.</h2>
+        <h2 className="text-4xl font-bold mb-4">Start with a free snapshot.</h2>
         <p className="text-[#a3a3a3] text-lg mb-12">
-          We&apos;ll take a look at your current online presence and tell you exactly
-          where the gaps are. No obligation, no pitch deck.
+          One page on where you stand: whether Google and the AI engines can find
+          you, and the gaps worth fixing first. Back within two business days.
+          No obligation, no pitch deck.
         </p>
         <AuditForm />
         <p className="text-[#666] text-sm mt-6">

@@ -40,12 +40,12 @@ const faqs = [
     a: "Doble AI es una firma bilingüe de implementación de IA con base en el valle del río Eagle, Colorado. Construimos espacios de trabajo con IA que aprenden tu negocio: recuerdan a tus clientes, tus procesos y la voz de tu marca, y acumulan ese conocimiento con el tiempo. También auditamos tu presencia digital, mapeamos tu panorama competitivo y construimos estrategia de marca y ventas. Todo lo que hacemos está disponible en español y en inglés.",
   },
   {
-    q: "¿Qué incluye la auditoría gratuita de negocio?",
-    a: "Cubre tu presencia actual en línea, el estado de tu perfil de Google Business, el rendimiento de tu sitio web, el volumen y el tono de tus reseñas y una comparación competitiva de alto nivel. Entregamos un resumen escrito en 5–7 días con recomendaciones específicas y priorizadas. Sin presentaciones de venta y sin compromiso.",
+    q: "¿Cuál es la diferencia entre el diagnóstico gratuito y el Informe de Visibilidad?",
+    a: "El diagnóstico gratuito es un resumen de una página sobre dónde estás: si tus páginas están indexadas, si tu perfil de Google Business está reclamado y completo, y los problemas estructurales evidentes de tu sitio. No cuesta nada y no tiene compromiso. El Informe de Visibilidad es el diagnóstico completo: estructura del sitio e indexación, perfil de Google Business, panorama competitivo y cómo responden 4 motores de IA a 5 preguntas reales de compradores, con puntaje sobre 10, entregado por escrito y con las capturas de pantalla que respaldan cada hallazgo. Cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presencia si continúas.",
   },
   {
-    q: "¿Cuánto cuesta la implementación de IA?",
-    a: "Los precios de Doble AI se ajustan a tu proyecto y a tus necesidades. Todo empieza con una auditoría gratuita. Los proyectos típicos de implementación de 90 días se cotizan después de la auditoría según el alcance. Contáctanos para una cotización clara y detallada.",
+    q: "¿Cuánto cuesta?",
+    a: "El Informe de Visibilidad cuesta 1.500 dólares y te lo acreditamos completo al primer mes si continúas. Doble Presencia empieza en 2.500 dólares al mes y se ajusta a tu negocio. La Implementación de IA se cotiza por proyecto después del Informe, porque el alcance depende de lo que encontremos. Los precios son fijos y se dicen desde el principio. No cobramos por hora.",
   },
   {
     q: "¿Qué hace diferente a Doble AI de otras firmas de IA?",
@@ -124,7 +124,7 @@ function Hero() {
             href="#contact"
             className="bg-orange-500 hover:bg-orange-400 text-white font-semibold px-8 py-4 rounded-full text-base transition-colors"
           >
-            Solicita tu auditoría gratuita
+            Solicita tu diagnóstico gratuito
           </a>
           <a
             href="#services"
@@ -190,27 +190,21 @@ function Services() {
   const services = [
     {
       num: "01",
-      name: "Auditoría de negocio",
-      desc: "Un diagnóstico completo de tu presencia en línea, tus competidores y tus brechas, entregado como un informe escrito y detallado. Aquí empieza cada proyecto.",
-      detail: "Entregada en 5–7 días",
+      name: "El Informe de Visibilidad",
+      desc: "Tu punto de partida real. Revisamos la estructura de tu sitio y su indexación, tu perfil de Google Business, tu panorama competitivo y cómo responden 4 motores de IA a 5 preguntas reales de compradores. Con puntaje sobre 10, entregado por escrito y con las capturas de pantalla que respaldan cada hallazgo.",
+      detail: "1.500 dólares · Entregado en 5–7 días · Acreditado al primer mes",
     },
     {
       num: "02",
-      name: "Análisis del panorama competitivo",
-      desc: "Mapeamos tu entorno competitivo, identificamos dónde estás perdiendo terreno y encontramos el espacio libre que tus competidores todavía no reclaman.",
-      detail: "Incluido con la auditoría o por separado",
+      name: "Doble Presencia",
+      desc: "Construimos o reparamos el sitio, y después lo operamos. Publicamos contenido en español y en inglés como pares reales, no como traducciones. Mantenemos el esquema y la estructura correctos para que los motores de IA puedan leerte, y monitoreamos el sitio para detectar lo que se rompe antes que tus clientes.",
+      detail: "Desde 2.500 dólares al mes · Español · Inglés",
     },
     {
       num: "03",
-      name: "Crecimiento de marca y ventas",
-      desc: "Construcción de presencia digital, estrategia de contenido y un plan claro para convertir tu marca en un activo que genera ingresos. En español y en inglés, según el mercado que quieras hacer crecer.",
-      detail: "Español · Inglés",
-    },
-    {
-      num: "04",
       name: "Implementación de IA",
       desc: "Construimos un espacio de trabajo con IA que aprende tu negocio: memoria persistente, flujos de trabajo acumulados y agentes de IA bilingües. No es una instalación de una sola vez, sino un sistema que se acumula mientras más trabajamos juntos.",
-      detail: "Alcance a la medida de cada proyecto",
+      detail: "Cotizado por proyecto",
     },
   ];
 
@@ -223,11 +217,11 @@ function Services() {
         </div>
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <h2 className="text-4xl font-bold leading-tight max-w-lg">
-            Cuatro servicios. Un resultado claro.
+            Dos productos. Un resultado claro.
           </h2>
           <p className="text-[#a3a3a3] max-w-sm">
-            Los precios se ajustan a tu proyecto. Todo empieza con una auditoría
-            gratuita.
+            Empieza con un diagnóstico gratuito. Los precios son fijos y se dicen
+            desde el principio, nunca por hora.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-4">
@@ -830,10 +824,11 @@ function Contact() {
           <span className="w-6 h-px bg-orange-500" />
           Empieza hoy
         </div>
-        <h2 className="text-4xl font-bold mb-4">Empieza con una auditoría gratuita.</h2>
+        <h2 className="text-4xl font-bold mb-4">Empieza con un diagnóstico gratuito.</h2>
         <p className="text-[#a3a3a3] text-lg mb-12">
-          Revisaremos tu presencia actual en línea y te diremos exactamente dónde
-          están las brechas. Sin compromiso y sin presentaciones de venta.
+          Una página sobre dónde estás: si Google y los motores de IA pueden
+          encontrarte, y las brechas que conviene arreglar primero. Te
+          respondemos en 2 días hábiles. Sin compromiso y sin presentaciones de venta.
         </p>
         <AuditForm lang="es" />
         <p className="text-[#666] text-sm mt-6">

@@ -2,7 +2,7 @@
 
 > Doble AI is a bilingual (English and Spanish) AI implementation firm based in the Eagle River Valley, Colorado. We audit a business's digital presence, map its competitive landscape, build its brand and sales presence, and implement AI workspaces that learn the business and keep learning it. Rooted in Colorado, working nationally and across the border.
 
-Founded by John and Gisella Rounds. Doble AI is the AI services brand of **Eagle River Base Camp**, the Colorado LLC behind the work; contracts and invoices carry the Eagle River Basecamp LLC name. We are an AI-native firm, which means we run our own operation on the systems we sell: persistent workspaces, automated site-health and search-visibility monitoring, and bilingual publishing pipelines that we built for ourselves before we offered them to anyone. Every engagement starts with a free audit.
+Founded by John and Gisella Rounds. Doble AI is the AI services brand of **Eagle River Base Camp**, the Colorado LLC behind the work; contracts and invoices carry the Eagle River Basecamp LLC name. We are an AI-native firm, which means we run our own operation on the systems we sell: persistent workspaces, automated site-health and search-visibility monitoring, and bilingual publishing pipelines that we built for ourselves before we offered them to anyone. Every engagement starts with a free snapshot.
 
 Spanish is native-quality work, not translation. Gisella is a native Peruvian Spanish speaker and leads translation and cultural review, so Spanish-language content reads as though it was written in Spanish, because it was. Bilingual is a decisive edge when the market calls for it. English-only work stands on its own.
 
@@ -13,19 +13,22 @@ Spanish is native-quality work, not translation. Gisella is a native Peruvian Sp
 - **Based**: Gypsum, Colorado, in the Eagle River Valley. We know the Vail, Roaring Fork and Steamboat markets well
 - **Reach**: Colorado and nationally, plus work in Mexico and upstate New York. Location is not a constraint
 - **Languages**: English and Spanish, both delivered natively
-- **Entry point**: a free audit. Paid work is scoped per project, never hourly
+- **Entry point**: a free one-page snapshot, back within 2 business days
+- **Pricing**: The Findability Report is $1,500 (credited in full against the first month of Doble Presence). Doble Presence starts at $2,500/month. AI Implementation is quoted per engagement. Fixed pricing, stated up front, never hourly
 - **Contact**: WhatsApp +1 970 376 2725, or the audit request form at https://dobleai.com
 
-## Services
+## Products
 
-- **Business Audit** — a full diagnostic of online presence, competitors, and gaps, delivered as a detailed written report. Where every engagement starts. Delivered in 5 to 7 days.
-- **Competitive Landscape Analysis** — we map the competitive environment, identify where a business is losing ground, and find the white space competitors have not claimed. Included with the audit or standalone.
-- **Brand & Sales Growth** — digital presence buildout, content strategy, and a plan that turns a brand into a revenue-generating asset. English, with Spanish for businesses ready to grow that market.
-- **AI Implementation** — we build an AI workspace that learns the business: persistent memory, accumulated workflows, bilingual agents. Not a one-time setup. A system that compounds. Custom scope per engagement.
+Two named products, plus custom work. Start with the free snapshot, then the Report, then Presence.
+
+- **Free snapshot** — one page on where a business stands: whether its pages are indexed, whether its Google Business Profile is claimed and complete, and the obvious structural problems on the site. No cost, no obligation, back within 2 business days.
+- **The Findability Report** — the full diagnostic. Site structure and indexation, Google Business Profile, competitive landscape, and how 5 real buyer questions get answered across 4 AI engines. Scored out of 10, delivered in writing, with the screenshots behind every finding. **$1,500**, delivered in 5 to 7 days, credited in full against the first month of Doble Presence.
+- **Doble Presence** — we build or repair the site, then run it. Content published in English and Spanish as real pairs rather than translations, schema and structure kept correct so AI engines can read the business, and monitoring that catches what breaks. **From $2,500/month.** Called Doble Presencia in Spanish.
+- **AI Implementation** — an AI workspace that learns the business: persistent memory, accumulated workflows, bilingual agents. Not a one-time setup, a system that compounds. Quoted per engagement after the Report.
 
 ## Key pages
 
-- [Home](https://dobleai.com): services, client work, how we work, and the free audit request
+- [Home](https://dobleai.com): the two products, client work, how we work, and the free snapshot request
 - [Inicio en español](https://dobleai.com/es): the full site in Spanish
 - [Blog](https://dobleai.com/blog): bilingual writing on AI visibility, GEO, bilingual marketing, and digital presence. Most posts exist as an English and Spanish pair
 - Town pages for the Eagle River Valley, each with a Spanish counterpart: [Vail](https://dobleai.com/locations/vail), [Avon](https://dobleai.com/locations/avon), [Edwards](https://dobleai.com/locations/edwards), [Eagle](https://dobleai.com/locations/eagle), [Gypsum](https://dobleai.com/locations/gypsum)

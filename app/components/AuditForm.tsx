@@ -7,27 +7,27 @@ const FORM_LABELS = {
   en: {
     thanksTitle: "Thank you, we'll be in touch.",
     thanksBody:
-      "Your free audit request came through. We'll review your business and reach out within 1–2 business days with what we find.",
+      "Your free snapshot request came through. We'll review your business and reach out within 1–2 business days with what we find.",
     redirecting: "Taking you back to the home page…",
     name: "Your name",
     email: "Email address",
     business: "Your business name",
     message: "Tell us about your business and what you're trying to grow...",
     sending: "Sending…",
-    submit: "Request my free audit",
+    submit: "Request my free snapshot",
     home: "/",
   },
   es: {
     thanksTitle: "¡Gracias! Estaremos en contacto.",
     thanksBody:
-      "Tu solicitud de auditoría gratuita llegó bien. Revisaremos tu negocio y te contactaremos en 1–2 días hábiles con lo que encontremos.",
+      "Tu solicitud de diagnóstico gratuito llegó bien. Revisaremos tu negocio y te contactaremos en 1–2 días hábiles con lo que encontremos.",
     redirecting: "Regresando a la página principal…",
     name: "Tu nombre",
     email: "Correo electrónico",
     business: "El nombre de tu negocio",
     message: "Cuéntanos sobre tu negocio y qué quieres hacer crecer...",
     sending: "Enviando…",
-    submit: "Solicitar mi auditoría gratuita",
+    submit: "Solicitar mi diagnóstico gratuito",
     home: "/es",
   },
 } as const;

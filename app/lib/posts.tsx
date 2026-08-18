@@ -32,7 +32,7 @@ const CTA = () => (
       href="/#contact"
       className="inline-block bg-orange-500 hover:bg-orange-400 text-white font-semibold px-8 py-3 rounded-full transition-colors"
     >
-      Request your free audit
+      Request your free snapshot
     </a>
   </div>
 );
@@ -42,7 +42,7 @@ const CTAes = () => (
     <p className="text-sm text-orange-500 font-semibold tracking-widest uppercase mb-3">
       ¿Listo para saber dónde estás parado?
     </p>
-    <h3 className="text-2xl font-bold mb-3">Obtén una auditoría gratuita.</h3>
+    <h3 className="text-2xl font-bold mb-3">Obtén un diagnóstico gratuito.</h3>
     <p className="text-[#a3a3a3] mb-6 max-w-md mx-auto">
       Revisaremos tu presencia digital, posición competitiva y dónde la IA
       puede marcar la mayor diferencia — sin costo alguno.
@@ -51,7 +51,7 @@ const CTAes = () => (
       href="/#contact"
       className="inline-block bg-orange-500 hover:bg-orange-400 text-white font-semibold px-8 py-3 rounded-full transition-colors"
     >
-      Solicita tu auditoría gratuita
+      Solicita tu diagnóstico gratuito
     </a>
   </div>
 );
@@ -4889,7 +4889,7 @@ export const posts: Post[] = [
           If you are a real estate professional, contractor, property manager,
           or service business anywhere in Colorado&apos;s mountain communities
           and you want to know what this market finds when they search for what
-          you do, we will show you. Free audit, no obligation. The data
+          you do, we will show you. Free snapshot, no obligation. The data
           speaks for itself.
         </p>
 
@@ -6825,7 +6825,7 @@ export const posts: Post[] = [
           propiedades o empresa de servicios en cualquier lugar de las
           comunidades de montaña de Colorado y quieres saber qué encuentra
           este mercado cuando busca lo que tú ofreces — te lo mostraremos.
-          Auditoría gratuita, sin compromiso. Los datos hablan por sí solos.
+          Diagnóstico gratuito, sin compromiso. Los datos hablan por sí solos.
         </p>
 
         <FAQ title="Preguntas frecuentes"

@@ -195,7 +195,7 @@ export default async function TownPage({
           {/* CTA */}
           <div className="mt-14 p-8 bg-orange-500/10 border border-orange-500/30 rounded-2xl text-center">
             <p className="text-sm text-orange-500 font-semibold tracking-widest uppercase mb-3">
-              {es ? "Auditoría gratuita" : "Free audit"}
+              {es ? "Diagnóstico gratuito" : "Free snapshot"}
             </p>
             <h3 className="text-2xl font-bold mb-3">
               {es
@@ -211,7 +211,7 @@ export default async function TownPage({
               href="/#contact"
               className="inline-block bg-orange-500 hover:bg-orange-400 text-white font-medium px-6 py-3 rounded-full transition-colors"
             >
-              {es ? "Solicitar mi auditoría gratuita" : "Request my free audit"}
+              {es ? "Solicitar mi diagnóstico gratuito" : "Request my free snapshot"}
             </a>
             <p className="text-[#777] text-xs mt-4">
               {es
