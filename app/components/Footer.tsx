@@ -1,6 +1,7 @@
 const FOOTER_LABELS = {
   en: {
     tagline: "Eagle River Valley, Colorado",
+    entity: "A service of Eagle River Base Camp / Doble AI",
     base: "/",
     services: "Services",
     work: "Work",
@@ -11,6 +12,7 @@ const FOOTER_LABELS = {
   },
   es: {
     tagline: "Valle del río Eagle, Colorado",
+    entity: "Un servicio de Eagle River Base Camp / Doble AI",
     base: "/es",
     services: "Servicios",
     work: "Trabajo",
@@ -28,6 +30,9 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#555]">
         <div>
           doble<span className="text-orange-500">AI</span> · {t.tagline}
+          <span className="block text-xs text-[#444] mt-1">
+            {t.entity}
+          </span>
         </div>
         <div className="flex gap-6">
           <a href={`${t.base}#services`} className="hover:text-white transition-colors">{t.services}</a>

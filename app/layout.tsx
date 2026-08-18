@@ -16,7 +16,8 @@ const organizationSchema = {
       "@type": "Organization",
       "@id": "https://dobleai.com/#organization",
       name: "Doble AI",
-      legalName: "Doble AI LLC",
+      legalName: "Eagle River Basecamp LLC",
+      alternateName: ["Eagle River Base Camp / Doble AI", "Eagle River Base Camp"],
       url: "https://dobleai.com",
       logo: {
         "@type": "ImageObject",
@@ -25,18 +26,26 @@ const organizationSchema = {
         height: 50,
       },
       description:
-        "One of Colorado's few bilingual AI implementation firms. We help Colorado businesses grow with AI strategy, competitive analysis, and bilingual marketing — in English and in Spanish.",
+        "One of Colorado's few bilingual AI implementation firms. Based in the Eagle River Valley and working locally, nationally, and across the border. AI strategy, competitive analysis, and brand growth, delivered natively in English and in Spanish.",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Eagle",
         addressRegion: "CO",
         addressCountry: "US",
       },
+      // Rooted, not limited: the home counties stay first as the local anchor,
+      // then the wider reach we actually serve (client work in Mexico and
+      // across the US). Listing only the four counties told machines we work
+      // nowhere else, which is why category-matching tools missed the locality
+      // and the reach both.
       areaServed: [
         { "@type": "AdministrativeArea", name: "Eagle County, Colorado" },
         { "@type": "AdministrativeArea", name: "Pitkin County, Colorado" },
         { "@type": "AdministrativeArea", name: "Routt County, Colorado" },
         { "@type": "AdministrativeArea", name: "Summit County, Colorado" },
+        { "@type": "AdministrativeArea", name: "Colorado" },
+        { "@type": "Country", name: "United States" },
+        { "@type": "Country", name: "Mexico" },
       ],
       telephone: "+19703762725",
       contactPoint: {
@@ -100,15 +109,15 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   title: {
-    default: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
+    default: "Doble AI: Bilingual AI Implementation from Colorado",
     template: "%s | Doble AI",
   },
   description:
-    "Doble AI helps Colorado businesses grow with AI strategy, bilingual marketing, and digital presence, in English and in Spanish.",
+    "Bilingual AI implementation from Colorado's Eagle River Valley. Audits, competitive analysis, and AI systems in English and Spanish. Local, national, cross-border.",
   openGraph: {
-    title: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
+    title: "Doble AI: Bilingual AI Implementation from Colorado",
     description:
-      "One of Colorado's few bilingual AI implementation firms. AI strategy, competitive analysis, and brand growth, in English and Spanish.",
+      "One of Colorado's few bilingual AI implementation firms. Based in the Eagle River Valley, working locally, nationally, and across the border, in English and Spanish.",
     url: "https://dobleai.com",
     siteName: "Doble AI",
     locale: "en_US",
@@ -118,15 +127,15 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
+        alt: "Doble AI: Bilingual AI Implementation from Colorado",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Doble AI: Bilingual AI Implementation for Colorado Businesses",
+    title: "Doble AI: Bilingual AI Implementation from Colorado",
     description:
-      "One of Colorado's few bilingual AI implementation firms. AI strategy and bilingual marketing for Eagle River Valley businesses.",
+      "One of Colorado's few bilingual AI implementation firms. Rooted in the Eagle River Valley, working locally, nationally, and across the border.",
     images: ["/og-image.png"],
   },
 };

@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "Do I need to be located in the Vail Valley to work with Doble AI?",
-    a: "No. While we are based in the Eagle River Valley and know the Vail, Roaring Fork, and Steamboat Springs markets well, we work with businesses across Colorado and nationally. If you want to reach bilingual markets or implement AI strategy, we can help regardless of location.",
+    a: "No. We are based in the Eagle River Valley and know the Vail, Roaring Fork, and Steamboat Springs markets well, and that has never been the limit of who we work with. Current and past client work spans Colorado, upstate New York, Missouri, Michigan, and Mexico. If you want to reach bilingual markets or implement AI strategy, we can help regardless of location.",
   },
   {
     q: "What industries does Doble AI work with?",
