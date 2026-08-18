@@ -173,6 +173,7 @@ function Services() {
       name: "The Findability Report",
       desc: "Where you actually stand. We check your site structure and indexation, your Google Business Profile, your competitive landscape, and how five real buyer questions get answered across four AI engines. Scored out of ten, delivered in writing, with the screenshots behind every finding.",
       detail: "$1,500 · Delivered in 5–7 days · Credited to your first month",
+      href: "/findability-report",
     },
     {
       num: "02",
@@ -216,6 +217,14 @@ function Services() {
               <h3 className="text-xl font-semibold mb-3">{s.name}</h3>
               <p className="text-[#a3a3a3] leading-relaxed mb-4">{s.desc}</p>
               <div className="text-xs text-orange-500/70 font-medium">{s.detail}</div>
+              {s.href && (
+                <a
+                  href={s.href}
+                  className="inline-block mt-4 text-sm text-orange-500 hover:text-orange-400 font-medium"
+                >
+                  See every check we run &rarr;
+                </a>
+              )}
             </div>
           ))}
         </div>
