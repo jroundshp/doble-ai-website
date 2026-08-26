@@ -170,7 +170,7 @@ export default async function BlogPost({
       </nav>
 
       {/* Article */}
-      <article className="pt-28 pb-24 px-6">
+      <article lang={lang} className="pt-28 pb-24 px-6">
         <div className="max-w-2xl mx-auto">
           {/* Breadcrumb */}
           <a
