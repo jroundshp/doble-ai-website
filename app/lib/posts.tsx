@@ -292,7 +292,417 @@ const selectedFaqES = [
   },
 ];
 
+const secondBrainFaqEN = [
+  {
+    q: "What is a second brain, in this sense?",
+    a: "A system that holds the business when you are not in the room: persistent memory, named jobs, frozen methods, and a human on send, spend, publish, and delete. If it only stores notes, it is still a notebook.",
+  },
+  {
+    q: "Is this just ChatGPT with memory turned on?",
+    a: "No. Memory is the first piece, not the whole thing. A chat that remembers your prices still needs a job, a way to know the job worked, and a person who has to approve anything that reaches a customer.",
+  },
+  {
+    q: "How is this different from Notion or a notes app?",
+    a: "Those are filing cabinets. They do not answer the phone, notice a dead page, or draft the follow-up you skipped. The architecture puts work on top of the memory, then puts a person on the output.",
+  },
+  {
+    q: "Do I need to know how to code?",
+    a: "Mostly no. The workspaces, voice agents, and schedulers are configured in plain language now. What you do need is to write down how the business actually works, and the patience to run one job by hand until it is boring.",
+  },
+  {
+    q: "What should I build first?",
+    a: "The leak. For most service businesses that is the phone. Write the memory, run one job for two weeks, freeze the method, then put it on a clock. Five agents on day one is how you get five quiet failures.",
+  },
+  {
+    q: "Can this work in English and Spanish?",
+    a: "Yes, and for our markets that is the point. The receptionist already greets in both languages. The methods have to be written in both, not translated after the fact. A person still steers the Spanish so it sounds native.",
+  },
+  {
+    q: "Is this the same as the five-agent team you wrote about in July?",
+    a: "That post was the roster. This one is the wiring under it. You can build the architecture with one job. The five agents are what it looks like after the wiring has been earning its keep.",
+  },
+];
+
+const secondBrainFaqES = [
+  {
+    q: "¿Qué es un segundo cerebro, en este sentido?",
+    a: "Un sistema que sostiene el negocio cuando tú no estás: memoria que persiste, trabajos con nombre, métodos congelados y una persona en el último paso: enviar, gastar, publicar y borrar. Si solo guarda notas, sigue siendo un cuaderno.",
+  },
+  {
+    q: "¿Esto es simplemente ChatGPT con la memoria activada?",
+    a: "No. La memoria es la primera pieza, no todo el asunto. Un chat que recuerda tus precios todavía necesita un trabajo asignado, una forma de saber que ese trabajo salió bien y una persona que apruebe cualquier cosa que llegue a un cliente.",
+  },
+  {
+    q: "¿En qué se diferencia de Notion o de una app de notas?",
+    a: "Esas son archiveros. No contestan el teléfono, no se dan cuenta de que una página amaneció caída ni redactan el seguimiento que se te pasó. La arquitectura pone trabajo encima de la memoria, y después pone a una persona en la salida.",
+  },
+  {
+    q: "¿Necesito saber programar?",
+    a: "Casi nunca. Los espacios de trabajo, los agentes de voz y los programadores de tareas se configuran en lenguaje común. Lo que sí necesitas es escribir cómo funciona tu negocio de verdad, y la paciencia de hacer un solo trabajo a mano hasta que se vuelva aburrido.",
+  },
+  {
+    q: "¿Qué debería construir primero?",
+    a: "La fuga. En la mayoría de los negocios de servicio, esa fuga es el teléfono. Escribe la memoria, haz un trabajo durante dos semanas, congela el método y después déjalo programado. Cinco agentes el primer día es la receta para cinco fracasos silenciosos.",
+  },
+  {
+    q: "¿Esto funciona en inglés y en español?",
+    a: "Sí, y en nuestros mercados ese es justamente el punto. La recepcionista ya saluda en los dos idiomas. Los métodos hay que escribirlos en ambos, no traducirlos después. Una persona sigue dirigiendo el español para que suene nativo.",
+  },
+  {
+    q: "¿Es lo mismo que el equipo de cinco agentes del que escribieron en julio?",
+    a: "Ese artículo era el equipo. Este es el cableado que va debajo. La arquitectura se puede construir con un solo trabajo. Los cinco agentes son cómo se ve después de que el cableado lleva tiempo ganándose su lugar.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "second-brain-architecture",
+    faq: secondBrainFaqEN,
+    title: "A second brain is an architecture, not an app",
+    excerpt:
+      "The notes-app second brain stalled. The useful one is wiring: memory, named jobs, and a human on anything that ships.",
+    date: "August 26, 2026",
+    dateISO: "2026-08-26",
+    category: "AI Strategy",
+    readTime: "4 min read",
+    coverImage: "/colorado-peak-dirt-road.jpg",
+    coverAlt:
+      "Snow-capped Colorado peak above a high-country dirt road, the view away from the desk while an AI second brain keeps the business running",
+    keywords:
+      "second brain, AI second brain for small business, second brain architecture, personal knowledge management vs AI agents, persistent AI memory, AI agent architecture, human in the loop AI, bilingual AI receptionist Colorado",
+    content: (
+      <>
+        <p>
+          Tiago Forte&apos;s version of a second brain was a filing cabinet you
+          trusted more than your own head: notes, tags, a place for everything.
+          Plenty of owners built one. Almost none of them run the business from
+          it. The cabinet filled up. The work stayed in the same chats that
+          forget you overnight.
+        </p>
+        <p>
+          That is not an argument against the idea. It is an argument that the
+          idea was waiting on tools that did not exist yet.
+        </p>
+
+        <h2>What is a second brain supposed to do?</h2>
+        <p>Hold the business when you are not in the room.</p>
+        <p>
+          Not &ldquo;store your notes.&rdquo; Hold the jobs: the phone, the
+          follow-ups, the weekly check that the site still loads, the draft you
+          would have written if you had an afternoon. Remember the decisions so
+          you do not re-brief a stranger every Monday. Put a human on anything
+          that can reach a customer or move money.
+        </p>
+        <p>
+          If it cannot do work while the laptop is closed, it is still a
+          notebook.
+        </p>
+        <p>
+          We already wrote{" "}
+          <a href="/blog/build-your-own-ai-team">the roster version of this</a>{" "}
+          in July: one person, five agents. This post is the wiring under that
+          roster. Without the wiring, five agents is just five more chats.
+        </p>
+
+        <h2>Why did the notes version stall?</h2>
+        <p>Because memory without a job is a hobby.</p>
+        <p>
+          A Notion wiki does not answer the phone. A ChatGPT thread does not
+          know last month&apos;s price list unless you paste it again. A folder
+          of PDFs does not notice when a page went blank overnight. Owners
+          treated &ldquo;second brain&rdquo; as a place to put information, then
+          wondered why nothing compounded.
+        </p>
+        <p>
+          The other stall is starting with tools. You collect a chatbot, a note
+          app, a scheduler, a voice agent, and you still have one brain doing
+          all the routing. The architecture is the routing. The tools sit on top
+          of it.
+        </p>
+
+        <h2>What does the architecture actually look like?</h2>
+        <p>Four pieces. Skip one and it falls back into a chat window.</p>
+        <p>
+          Memory that survives the session. Services, prices, how you talk, the
+          mistakes you refuse to repeat, sitting in one place the system can
+          read before you type. This is the piece we called{" "}
+          <a href="/blog/your-ai-should-know-your-business-by-now">
+            your AI should know your business
+          </a>{" "}
+          in April. It is still the first piece. Hire jobs before you have this
+          and every agent wakes up a stranger.
+        </p>
+        <p>
+          Named jobs, not a mega-chat. One place that owns the phone. One that
+          drafts. One that checks whether the others went quiet. A general
+          helper that does everything builds context that transfers to nothing.
+        </p>
+        <p>
+          Frozen methods. The third time you correct the same draft, you are
+          teaching. Write the method down: when to use it, what it needs, how
+          you know it worked, what still needs you. Then stop re-explaining it.
+        </p>
+        <p>
+          A human on the wire. Send, spend, publish, delete. The system can
+          draft all night. It does not get to ship. That checkpoint is the
+          reason{" "}
+          <a href="/blog/human-plus-ai-is-the-magic">
+            the pairing beats either side working alone
+          </a>
+          .
+        </p>
+
+        <img
+          src="/work/second-brain-four-pieces-en.jpg"
+          alt="Four stacked layers of an AI second brain architecture: memory that survives the session, named jobs, frozen methods, and a human on send, spend, publish and delete"
+        />
+
+        <p>
+          None of that requires a custom platform. It requires deciding those
+          four things out loud.
+        </p>
+
+        <h2>Which tools exist now?</h2>
+        <p>
+          The consumer versions caught up this year. You can rent a workspace
+          that keeps files and logins, teach it a task by doing the task once,
+          and put the result on a schedule. Mail, calendar, and a Git repo plug
+          in without a developer. Voice agents answer the phone in both
+          languages. None of that was true when the first second-brain books
+          came out.
+        </p>
+        <p>
+          You do not need all of it. You need memory, one job, and a checkpoint.
+          Our{" "}
+          <a href="/blog/bilingual-ai-receptionist-small-business">
+            bilingual receptionist
+          </a>{" "}
+          is the proof we use because it is the least abstract: the line is
+          (970) 528-2835, it answers when nobody is in the office, and a person
+          still reads the lead. That is a second brain doing a job, not a notes
+          app with a nicer prompt.
+        </p>
+        <p>
+          The temptation is to install a marketplace of other people&apos;s
+          methods. Don&apos;t. A method you did not read is a stranger with your
+          logins.
+        </p>
+
+        <h2>Where should you start?</h2>
+        <p>Not with five agents. With the leak.</p>
+        <p>
+          Write down how the business actually works, in the ugly detail: hours,
+          prices, who you never discount for, what &ldquo;done&rdquo; looks like
+          on a quote. Put that where the system can read it. Then pick the one
+          job that loses you money when it slips. For most of the owners we
+          meet, that is the phone. For some it is the follow-up that never goes
+          out. Run that job with the system for two weeks. Correct it. Then
+          freeze the method. Then put it on a clock.
+        </p>
+        <p>
+          That order is the same one we argue everywhere else:{" "}
+          <a href="/blog/why-ai-is-step-four-not-step-one">
+            the AI part comes fourth, not first
+          </a>
+          .
+        </p>
+        <p>
+          If you skip those steps you will have a beautiful stack that still
+          needs you in the chair. We run a cloud desk for the hours the laptop
+          is closed and a separate workspace for the files that have to change
+          on disk. That split is boring. It is also why the second brain still
+          works when I am not at the desk.
+        </p>
+        <p>
+          Run the first job for two weeks. If it is still saving you a leak,
+          freeze it. If it isn&apos;t, you only lost two weeks.
+        </p>
+
+        <FAQ items={secondBrainFaqEN} />
+        <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "un-segundo-cerebro-es-una-arquitectura",
+    faq: secondBrainFaqES,
+    title: "Un segundo cerebro es una arquitectura, no una app",
+    excerpt:
+      "El segundo cerebro de las notas se quedó a medias. El que sirve es cableado: memoria, trabajos con nombre y una persona en todo lo que se publica.",
+    date: "26 de agosto de 2026",
+    dateISO: "2026-08-26",
+    category: "Estrategia de IA",
+    readTime: "4 min de lectura",
+    coverImage: "/colorado-peak-dirt-road.jpg",
+    coverAlt:
+      "Pico nevado de Colorado sobre un camino de tierra de montaña, la vista lejos del escritorio mientras un segundo cerebro con IA mantiene el negocio andando",
+    keywords:
+      "segundo cerebro, segundo cerebro con IA, arquitectura de agentes de IA, memoria persistente IA, gestión de conocimiento personal, IA para pequeños negocios, recepcionista IA bilingüe Colorado",
+    content: (
+      <>
+        <p>
+          La versión de Tiago Forte del segundo cerebro era un archivero en el
+          que confiabas más que en tu propia cabeza: notas, etiquetas, un lugar
+          para cada cosa. Muchos dueños de negocio armaron uno. Casi ninguno
+          dirige su negocio desde ahí. El archivero se llenó. El trabajo se
+          quedó en los mismos chats que te olvidan de un día para otro.
+        </p>
+        <p>
+          Eso no es un argumento contra la idea. Es un argumento de que la idea
+          estaba esperando herramientas que todavía no existían.
+        </p>
+
+        <h2>¿Qué se supone que hace un segundo cerebro?</h2>
+        <p>Sostener el negocio cuando tú no estás.</p>
+        <p>
+          No &ldquo;guardar tus notas&rdquo;. Sostener los trabajos: el
+          teléfono, los seguimientos, la revisión semanal de que el sitio
+          todavía carga, el borrador que habrías escrito si hubieras tenido una
+          tarde libre. Recordar las decisiones para no volver a explicárselo
+          todo a un desconocido cada lunes. Que una persona revise cualquier cosa
+          que pueda llegar a un cliente o mover dinero.
+        </p>
+        <p>
+          Si no puede trabajar mientras la laptop está cerrada, sigue siendo un
+          cuaderno.
+        </p>
+        <p>
+          En julio ya escribimos{" "}
+          <a href="/blog/construye-tu-propio-equipo-de-ia">
+            la versión del equipo
+          </a>
+          : una persona, cinco agentes. Este artículo es el cableado que va
+          debajo de ese equipo. Sin el cableado, cinco agentes son cinco chats
+          más.
+        </p>
+
+        <h2>¿Por qué se estancó la versión de notas?</h2>
+        <p>Porque memoria sin trabajo asignado es un pasatiempo.</p>
+        <p>
+          Un wiki en Notion no contesta el teléfono. Un hilo de ChatGPT no
+          conoce la lista de precios del mes pasado si no se la vuelves a pegar.
+          Una carpeta de PDF no se da cuenta de que una página amaneció en
+          blanco. Los dueños trataron el &ldquo;segundo cerebro&rdquo; como un
+          lugar donde poner información, y luego se preguntaron por qué nada se
+          acumulaba.
+        </p>
+        <p>
+          El otro atasco es empezar por las herramientas. Juntas un chatbot, una
+          app de notas, un programador de tareas, un agente de voz, y sigues
+          teniendo un solo cerebro decidiendo qué va a dónde. La arquitectura es
+          justamente esa decisión. Las herramientas van encima.
+        </p>
+
+        <h2>¿Cómo se ve la arquitectura en la práctica?</h2>
+        <p>
+          Cuatro piezas. Si te saltas una, todo vuelve a caer en una ventana de
+          chat.
+        </p>
+        <p>
+          Memoria que sobrevive a la sesión. Servicios, precios, cómo hablas,
+          los errores que no piensas repetir, en un solo lugar que el sistema
+          pueda leer antes de que escribas. Es la pieza que llamamos{" "}
+          <a href="/blog/tu-ia-ya-deberia-conocer-tu-negocio">
+            tu IA ya debería conocer tu negocio
+          </a>{" "}
+          en abril. Sigue siendo la primera. Si le encargas trabajos antes de
+          tener esto, cada agente despierta siendo un desconocido.
+        </p>
+        <p>
+          Trabajos con nombre, no un mega-chat. Un lugar que se encarga del
+          teléfono. Otro que redacta. Otro que revisa si los demás se quedaron
+          callados. Un ayudante general que hace de todo acumula contexto que
+          después no le sirve para ningún otro trabajo.
+        </p>
+        <p>
+          Métodos congelados. A la tercera vez que corriges el mismo borrador,
+          estás enseñando. Escribe el método: cuándo se usa, qué necesita, cómo
+          sabes que funcionó, qué sigue necesitándote a ti. Y deja de explicarlo
+          otra vez.
+        </p>
+        <p>
+          Una persona en el último paso. Enviar, gastar, publicar, borrar. El sistema
+          puede redactar toda la noche. Publicar no le toca. Ese punto de
+          control es la razón por la que{" "}
+          <a href="/blog/humano-mas-ia-es-la-magia">
+            la dupla rinde más que cualquiera de los dos lados por separado
+          </a>
+          .
+        </p>
+
+        <img
+          src="/work/second-brain-four-pieces-es.jpg"
+          alt="Cuatro capas de la arquitectura de un segundo cerebro con IA: memoria que sobrevive a la sesión, trabajos con nombre, métodos congelados y una persona en el último paso: enviar, gastar, publicar y borrar"
+        />
+
+        <p>
+          Nada de esto exige una plataforma a medida. Exige decidir esas cuatro
+          cosas en voz alta.
+        </p>
+
+        <h2>¿Qué herramientas existen hoy?</h2>
+        <p>
+          Las versiones de consumo se pusieron al día este año. Puedes contratar un
+          espacio de trabajo que guarda archivos y accesos, enseñarle una tarea
+          haciéndola una sola vez y dejar el resultado programado. Correo,
+          calendario y un repositorio de Git se conectan sin programador. Los
+          agentes de voz contestan el teléfono en los dos idiomas. Nada de eso
+          era cierto cuando salieron los primeros libros sobre el segundo
+          cerebro.
+        </p>
+        <p>
+          No necesitas todo. Necesitas memoria, un trabajo y un punto de
+          control. Nuestra{" "}
+          <a href="/blog/recepcionista-ia-bilingue-pequenos-negocios">
+            recepcionista bilingüe
+          </a>{" "}
+          es la prueba que usamos porque es la menos abstracta: la línea es el
+          (970) 528-2835, contesta cuando no hay nadie en la oficina y una
+          persona sigue leyendo el prospecto. Eso es un segundo cerebro haciendo
+          un trabajo, no una app de notas con un mejor prompt.
+        </p>
+        <p>
+          La tentación es instalar un mercado de métodos ajenos. No lo hagas. Un
+          método que no leíste es un desconocido con tus contraseñas.
+        </p>
+
+        <h2>¿Por dónde empezar?</h2>
+        <p>No con cinco agentes. Con la fuga.</p>
+        <p>
+          Escribe cómo funciona tu negocio de verdad, con el detalle feo:
+          horarios, precios, a quién nunca le haces descuento, qué significa
+          &ldquo;terminado&rdquo; en una cotización. Ponlo donde el sistema
+          pueda leerlo. Después elige el único trabajo que te cuesta dinero
+          cuando se cae. Para la mayoría de los dueños que conocemos, ese
+          trabajo es el teléfono. Para otros es el seguimiento que nunca sale.
+          Haz ese trabajo con el sistema durante dos semanas. Corrígelo.
+          Después congela el método. Después déjalo programado.
+        </p>
+        <p>
+          Ese orden es el mismo que defendemos en todo lo demás:{" "}
+          <a href="/blog/por-que-la-ia-es-el-paso-cuatro-no-el-paso-uno">
+            la parte de IA va cuarta, no primera
+          </a>
+          .
+        </p>
+        <p>
+          Si te saltas esos pasos vas a tener un stack precioso que igual te
+          necesita sentado en la silla. Nosotros tenemos un escritorio en la
+          nube para las horas en que la laptop está cerrada y un espacio aparte
+          para los archivos que tienen que cambiar en disco. Esa división es
+          aburrida. También es la razón por la que el segundo cerebro sigue
+          funcionando cuando no estoy en el escritorio.
+        </p>
+        <p>
+          Prueba el primer trabajo dos semanas. Si te sigue tapando una fuga,
+          congélalo. Si no, solo perdiste dos semanas.
+        </p>
+
+        <FAQ items={secondBrainFaqES} title="Preguntas frecuentes" />
+        <CTAes />
+      </>
+    ),
+  },
   {
     slug: "you-dont-rank-into-an-ai-overview",
     faq: selectedFaqEN,
