@@ -493,7 +493,7 @@ const projects = [
     kind: "Client build · Driveway repair & resurfacing · Gypsum, CO",
     step1Label: "What we found",
     step1:
-      "Nine years in asphalt, his own company started at the beginning of 2026, and no digital presence at all. No website, no Google Business Profile, no Facebook, not one directory listing. Someone in Gypsum searching for driveway repair had no way to find him, and Google and ChatGPT had never heard of him either. He works in English and Spanish, in a valley where that matters and where not one competitor had a Spanish page.",
+      "Nine years in asphalt, his own company started at the beginning of 2026, and no digital presence at all. No website, no Google Business Profile, not one directory listing. Someone in Gypsum searching for driveway repair had no way to find him, and Google and ChatGPT had never heard of him either. He works in English and Spanish, in a valley where that matters and where not one competitor had a Spanish page.",
     step2Label: "What we did",
     step2:
       "Bought the domain, built a bilingual site written twice instead of translated, and got his Google Business Profile filed and verified so he turns up in the map box for the fifteen towns he actually drives to, Vail to Aspen. Every photo on the site is his own work. The part homeowners stop on is the diagnostic gallery: three kinds of cracking, three different answers, including the ones where the cheap fix is the right call. Call, text, or WhatsApp from any page in either language, and the whole build is architected for SEO and GEO, so he surfaces in Google and in AI tools like ChatGPT and Grok.",
