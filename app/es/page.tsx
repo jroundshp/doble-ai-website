@@ -475,6 +475,22 @@ const projects = [
     image: "/work/sol-ramirez.jpg",
   },
   {
+    name: "Rocky Goat Asphalt Repair",
+    kind: "Proyecto de cliente · Reparación y repavimentación de entradas · Gypsum, CO",
+    step1Label: "Lo que encontramos",
+    step1:
+      "Nueve años trabajando el asfalto, empresa propia abierta a principios de 2026 y cero presencia digital. Ni sitio web, ni perfil de Google Business, ni Facebook, ni un solo directorio. Quien buscaba reparación de entradas en Gypsum no tenía cómo encontrarlo, y ni Google ni ChatGPT sabían que existía. Trabaja en español y en inglés, en un valle donde eso pesa y donde ningún competidor tenía una página en español.",
+    step2Label: "Lo que hicimos",
+    step2:
+      "Compramos el dominio, construimos un sitio bilingüe escrito dos veces en lugar de traducido, y dejamos su perfil de Google Business creado y verificado para que aparezca en el mapa de los 15 pueblos a los que de verdad maneja, de Vail a Aspen. Cada foto del sitio es trabajo suyo. Donde más se detiene la gente es en la galería de diagnóstico: 3 tipos de agrietamiento, 3 respuestas distintas, incluidas las veces en que lo barato es lo correcto. Llamada, mensaje o WhatsApp desde cualquier página y en cualquiera de los 2 idiomas, y todo el sitio está diseñado para SEO y GEO, así que aparece en Google y en herramientas de IA como ChatGPT y Grok.",
+    domain: "rockygoatasphalt.com",
+    href: "https://rockygoatasphalt.com",
+    cta: "Visitar el sitio",
+    tag: "Reparación de entradas bilingüe",
+    gradient: "linear-gradient(135deg, #1b1b1d 0%, #3a3f44 55%, #d98a24 125%)",
+    image: "/work/rocky-goat.jpg",
+  },
+  {
     name: "CO Headwaters Report",
     kind: "Nuestro producto · Panel de datos en vivo",
     step1Label: "La brecha que vimos",
