@@ -93,12 +93,13 @@ function Hero() {
           En inglés y en español.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
-          We don&apos;t hand you a tool. We build an AI workspace that learns your
-          business: your clients, your workflows, your voice. It remembers
-          everything and never starts from zero, so the work compounds the longer
-          we&apos;re together. Bilingual when your market calls for it, excellent
-          either way. One of Colorado&apos;s few bilingual AI implementation firms,
-          working locally, nationally, and across the border.
+          AI amplifies a business. It cannot invent one. So we start where your
+          customers actually look: whether Google and the AI engines can find you
+          at all. Then we build the site and the content that give them something
+          to find. Only then does automation have anything to work with. Most web
+          designers stop at the website. Most AI firms start at the automation.
+          We work the whole sequence. Bilingual when your market calls for it,
+          excellent either way, locally, nationally, and across the border.
         </p>
         <div className="flex flex-wrap gap-4">
           <a

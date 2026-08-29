@@ -150,11 +150,11 @@ export const metadata: Metadata = {
     template: "%s | Doble AI",
   },
   description:
-    "Bilingual AI implementation from Colorado's Eagle River Valley. Audits, competitive analysis, and AI systems in English and Spanish. Local, national, cross-border.",
+    "We start with whether Google and the AI engines can find you, then build what they find. Bilingual AI implementation from Colorado's Eagle River Valley.",
   openGraph: {
     title: "Doble AI: Bilingual AI Implementation from Colorado",
     description:
-      "One of Colorado's few bilingual AI implementation firms. Based in the Eagle River Valley, working locally, nationally, and across the border, in English and Spanish.",
+      "AI amplifies a business, it cannot invent one. We work the whole sequence: findability first, then the site and the content, then automation. English and Spanish, from Colorado's Eagle River Valley.",
     url: "https://dobleai.com",
     siteName: "Doble AI",
     locale: "en_US",
@@ -172,7 +172,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Doble AI: Bilingual AI Implementation from Colorado",
     description:
-      "One of Colorado's few bilingual AI implementation firms. Rooted in the Eagle River Valley, working locally, nationally, and across the border.",
+      "Findability first, then the site and the content, then automation. Bilingual work rooted in Colorado's Eagle River Valley, locally, nationally, and across the border.",
     images: ["/og-image.png"],
   },
 };

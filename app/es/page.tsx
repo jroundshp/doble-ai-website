@@ -9,7 +9,7 @@ import Nav from "../components/Nav";
 export const metadata: Metadata = {
   title: "Implementación de IA bilingüe para negocios de Colorado",
   description:
-    "En Doble AI ayudamos a los negocios de Colorado a crecer con estrategia de IA, marketing bilingüe y presencia digital, en español y en inglés.",
+    "Empezamos por si Google y los motores de IA te encuentran, y después construimos lo que van a encontrar. IA bilingüe desde el valle del río Eagle, Colorado.",
   alternates: {
     canonical: "/es",
     languages: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Doble AI: Implementación de IA bilingüe para negocios de Colorado",
     description:
-      "Una de las pocas firmas bilingües de implementación de IA en Colorado. Estrategia de IA, análisis competitivo y crecimiento de marca, en español y en inglés.",
+      "La IA amplifica lo que ya existe, no lo inventa. Trabajamos la secuencia completa: primero que te encuentren, después el sitio y el contenido, después la automatización. En español y en inglés.",
     url: "https://dobleai.com/es",
     locale: "es_ES",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Doble AI: Implementación de IA bilingüe para negocios de Colorado",
     description:
-      "Estrategia de IA, análisis competitivo y crecimiento de marca para negocios de Colorado, en español y en inglés.",
+      "Primero que te encuentren, después el sitio y el contenido, después la automatización. Trabajo bilingüe desde el valle del río Eagle, Colorado.",
   },
 };
 
@@ -111,13 +111,15 @@ function Hero() {
           En español y en inglés.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
-          No te entregamos una herramienta: construimos un espacio de trabajo con
-          IA que aprende tu negocio, tus clientes, tus procesos y tu voz. Lo
-          recuerda todo y nunca empieza de cero, así que el trabajo se acumula
-          mientras más tiempo trabajamos juntos. Bilingüe cuando tu mercado lo
-          pide, excelente en cualquier caso. Una de las pocas firmas bilingües de
-          implementación de IA en Colorado, trabajando a nivel local, nacional y
-          del otro lado de la frontera.
+          La IA amplifica lo que ya existe. No lo inventa. Por eso empezamos
+          donde tus clientes realmente buscan: si Google y los motores de IA te
+          encuentran o no. Después construimos el sitio y el contenido que les da
+          algo que encontrar. Solo entonces la automatización tiene con qué
+          trabajar. La mayoría de los diseñadores web se queda en el sitio. La
+          mayoría de las firmas de IA arranca en la automatización. Nosotros
+          trabajamos la secuencia completa. Bilingüe cuando tu mercado lo pide,
+          excelente en cualquier caso, a nivel local, nacional y del otro lado de
+          la frontera.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
