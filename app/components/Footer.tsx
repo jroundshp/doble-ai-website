@@ -9,6 +9,7 @@ const FOOTER_LABELS = {
     blog: "Blog",
     about: "About",
     contact: "Contact",
+    google: "Doble AI on Google",
   },
   es: {
     tagline: "Valle del río Eagle, Colorado",
@@ -20,6 +21,7 @@ const FOOTER_LABELS = {
     blog: "Blog",
     about: "Nosotros",
     contact: "Contacto",
+    google: "Doble AI en Google",
   },
 } as const;
 
@@ -43,6 +45,11 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
           <a href={`${t.base}#contact`} className="hover:text-white transition-colors">{t.contact}</a>
         </div>
         <div className="flex items-center gap-5">
+          <a href="https://www.google.com/maps/place/Doble+AI/@39.9905819,-107.4135804,8z/data=!3m1!4b1!4m6!3m5!1s0xa19bb2c29209c305:0x41ae076704a347ff!8m2!3d39.990582!4d-107.4135804!16s%2Fg%2F11nhhprgby" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label={t.google}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.24 10.285V14.4h6.806c-.275 1.765-2.056 5.174-6.806 5.174-4.095 0-7.439-3.389-7.439-7.574s3.344-7.574 7.439-7.574c2.33 0 3.891.989 4.785 1.849l3.254-3.138C18.189 1.186 15.479 0 12.24 0c-6.635 0-12 5.365-12 12s5.365 12 12 12c6.926 0 11.52-4.869 11.52-11.726 0-.788-.085-1.39-.189-1.989H12.24z"/>
+            </svg>
+          </a>
           <a href="https://x.com/dobleai_co" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="X">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
