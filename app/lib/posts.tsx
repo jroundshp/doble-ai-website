@@ -5492,9 +5492,13 @@ export const posts: Post[] = [
         </ol>
         <p>
           This is exactly the kind of audit and strategy work we do for Colorado
-          businesses. Most of your competitors are still running a SEO-only
-          playbook. The window to build GEO authority before they catch up is
-          open right now.
+          businesses. Step one above is the one most people cannot run on their
+          own business, which is why we sell it on its own as the{" "}
+          <a href="/findability-report">Findability Report</a>: your visibility
+          on Google and across four AI engines, scored and written up, with the
+          screenshots behind every finding. Most of your competitors are still
+          running a SEO-only playbook. The window to build GEO authority before
+          they catch up is open right now.
         </p>
 
         <FAQ
@@ -6787,6 +6791,14 @@ export const posts: Post[] = [
           consistently wins the comparison when a potential customer is choosing
           between you and the business next to you in search results.
         </p>
+        <p>
+          If you would rather have someone run that comparison for you, that is
+          what the{" "}
+          <a href="/findability-report">Findability Report</a> covers: site
+          structure and indexation, your Google Business Profile, the
+          competitive set, and how five real buyer questions get answered across
+          four AI engines.
+        </p>
 
         <FAQ
           items={[
@@ -7720,6 +7732,13 @@ export const posts: Post[] = [
         <p>
           Your expertise is real. The question is whether the market can find
           it.
+        </p>
+        <p>
+          Phase 1 is the one worth measuring before you spend anything. The{" "}
+          <a href="/findability-report">Findability Report</a> is how we do it:
+          whether your pages are indexed, what your Google Business Profile
+          looks like next to your competitors, and how four AI engines answer
+          five real buyer questions in your category.
         </p>
 
         <FAQ

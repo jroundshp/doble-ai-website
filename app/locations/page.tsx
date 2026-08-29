@@ -64,11 +64,44 @@ export default function LocationsPage() {
           <h1 className="text-4xl md:text-5xl font-bold leading-[1.1] tracking-tight mb-6">
             One valley, five towns, two languages.
           </h1>
-          <p className="text-[#a3a3a3] text-lg leading-relaxed max-w-2xl mb-14">
+          <p className="text-[#a3a3a3] text-lg leading-relaxed max-w-2xl mb-8">
             Every town in the Eagle River Valley runs on a different economy, and its
             businesses get found in different ways. We work with each one on its own
             terms, with a page for every community in English and in Spanish.
           </p>
+
+          <div className="max-w-2xl mb-14 space-y-4 text-[#a3a3a3] leading-relaxed">
+            <p>
+              A business in Vail is often selling to someone who flew in and is
+              deciding between it and a competitor they found on their phone that
+              morning. A business in Gypsum is selling to neighbors, and to a
+              Spanish-speaking market most of its competitors have never written
+              a single page for. Half an hour apart on I-70, and almost nothing
+              in common about how a customer finds you.
+            </p>
+            <p>That is why there is no single valley-wide page here.</p>
+            <p>
+              Search does not work at the level of a region. It works at the
+              level of a town and a language, and the businesses that surface are
+              the ones that said plainly where they are and who they serve. The
+              AI engines people now ask for recommendations behave the same way.
+              Vague gets you left out of the answer.
+            </p>
+            <p>
+              We are based in Gypsum and work the length of the valley, in
+              English and in Spanish, written as real pairs rather than
+              translations. Each page below covers what that local market
+              actually looks like. If you would rather start with where you stand
+              today, the{" "}
+              <a
+                href="/findability-report"
+                className="text-orange-500 hover:text-orange-400 transition-colors"
+              >
+                Findability Report
+              </a>{" "}
+              measures it.
+            </p>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-5">
             {enTowns.map((t) => (
