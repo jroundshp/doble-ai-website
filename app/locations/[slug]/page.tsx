@@ -215,8 +215,8 @@ export default async function TownPage({
             </a>
             <p className="text-[#777] text-xs mt-4">
               {es
-                ? "O llama a LUCI, nuestra recepcionista bilingüe con IA: (970) 528-2835"
-                : "Or call LUCI, our bilingual AI receptionist: (970) 528-2835"}
+                ? "O llama a LUCI, nuestra recepcionista bilingüe con IA: (970) 406-4630"
+                : "Or call LUCI, our bilingual AI receptionist: (970) 406-4630"}
             </p>
           </div>
         </div>

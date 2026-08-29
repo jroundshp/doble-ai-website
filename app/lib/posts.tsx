@@ -478,7 +478,7 @@ export const posts: Post[] = [
             bilingual receptionist
           </a>{" "}
           is the proof we use because it is the least abstract: the line is
-          (970) 528-2835, it answers when nobody is in the office, and a person
+          (970) 406-4630, it answers when nobody is in the office, and a person
           still reads the lead. That is a second brain doing a job, not a notes
           app with a nicer prompt.
         </p>
@@ -657,7 +657,7 @@ export const posts: Post[] = [
             recepcionista bilingüe
           </a>{" "}
           es la prueba que usamos porque es la menos abstracta: la línea es el
-          (970) 528-2835, contesta cuando no hay nadie en la oficina y una
+          (970) 406-4630, contesta cuando no hay nadie en la oficina y una
           persona sigue leyendo el prospecto. Eso es un segundo cerebro haciendo
           un trabajo, no una app de notas con un mejor prompt.
         </p>

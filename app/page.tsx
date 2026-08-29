@@ -316,13 +316,13 @@ function VoiceDemo() {
           </div>
           <div className="flex flex-col items-start md:items-center gap-4 shrink-0">
             <a
-              href="tel:+19705282835"
+              href="tel:+19704064630"
               className="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-400 text-white font-semibold text-lg px-8 py-4 rounded-xl transition-colors"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.69h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.09a16 16 0 0 0 6 6l1.47-1.47a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
               </svg>
-              (970) 528-2835
+              (970) 406-4630
             </a>
             <p className="text-xs text-[#a3a3a3]">Free call · English &amp; Spanish · 24/7</p>
           </div>
@@ -545,8 +545,8 @@ const projects = [
     step2:
       "LUCI answers 24/7 (Lucy in English, Lucía in Spanish), handles questions, routes calls, and emails you every lead. She's live on this very site: call and try her right now.",
     domain: "dobleai.com",
-    href: "tel:+19705282835",
-    cta: "Call her now · (970) 528-2835",
+    href: "tel:+19704064630",
+    cta: "Call her now · (970) 406-4630",
     tag: "Answers in English & Spanish",
     gradient: "linear-gradient(135deg, #2a1505 0%, #b5560f 62%, #f97316 125%)",
   },
