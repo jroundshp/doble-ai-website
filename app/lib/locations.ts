@@ -83,7 +83,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "What does it cost to get started?",
-        a: "The audit is free. We review your digital presence, score it, and walk you through the findings in plain language. If you want our help fixing things, you get a roadmap with fixed quotes per project. No retainer is required to begin.",
+        a: "The audit is free. We review your digital presence, score it, and walk you through the findings in plain language. If you want our help after that, the full Findability Report is $1,500, credited in full against your first month of Doble Presence. Pricing is fixed and stated up front, never hourly. Nothing is owed to begin.",
       },
     ],
   },
@@ -145,7 +145,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "¿Cuánto cuesta empezar?",
-        a: "La auditoría es gratuita. Revisamos tu presencia digital, le ponemos calificación y te explicamos los resultados en lenguaje claro. Si quieres que te ayudemos, recibes un plan con precios fijos por proyecto, sin mensualidades obligatorias.",
+        a: "La auditoría es gratuita. Revisamos tu presencia digital, le ponemos calificación y te explicamos los resultados en lenguaje claro. Si después quieres que te ayudemos, el Informe de Visibilidad completo cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presencia. Los precios son fijos y se dicen desde el principio, nunca por hora. Empezar no te compromete a nada.",
       },
     ],
   },
@@ -587,7 +587,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "What does it cost to get started?",
-        a: "The audit is free, and since we are based in Gypsum we will happily do the walkthrough over coffee in town. After that you get fixed prices per project. The first fixes for most Gypsum businesses are also the cheapest ones on the list.",
+        a: "The audit is free, and since we are based in Gypsum we will happily do the walkthrough over coffee in town. After that, the full Findability Report is $1,500, credited in full against your first month of Doble Presence. For most Gypsum businesses the first fixes are also the cheapest ones on the list.",
       },
     ],
   },
@@ -649,7 +649,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "¿Cuánto cuesta empezar?",
-        a: "La auditoría es gratuita, y como vivimos en Gypsum, con gusto te explicamos los resultados con un café aquí en el pueblo. Después recibes precios fijos por proyecto. Para la mayoría de los negocios de Gypsum, los primeros arreglos son también los más baratos de la lista.",
+        a: "La auditoría es gratuita, y como vivimos en Gypsum, con gusto te explicamos los resultados con un café aquí en el pueblo. Después, el Informe de Visibilidad completo cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presencia. Para la mayoría de los negocios de Gypsum, los primeros arreglos son también los más baratos de la lista.",
       },
     ],
   },
