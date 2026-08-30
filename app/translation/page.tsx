@@ -140,7 +140,7 @@ function Hero() {
           Translation &amp; Interpretation · Eagle River Valley
         </div>
         <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight max-w-4xl mb-8">
-          Your words in Spanish.<br />
+          Your words in Spanish.{" "}<br />
           <span className="text-orange-500">Authentic.</span> Cultural. Human.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
@@ -227,7 +227,7 @@ function GisellaSection() {
               Led by Gisella Rounds
             </div>
             <h2 className="text-4xl font-bold leading-tight mb-6">
-              Not just a translator.<br />A cultural bridge.
+              Not just a translator.{" "}<br />A cultural bridge.
             </h2>
             <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
               Gisella is a native Spanish speaker from Peru with deep roots in Latin

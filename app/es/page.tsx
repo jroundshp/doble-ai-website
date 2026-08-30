@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "¿Cuánto cuesta?",
-    a: "El Informe de Visibilidad cuesta 1.500 dólares y te lo acreditamos completo al primer mes si continúas. Doble Presencia empieza en 2.500 dólares al mes y se ajusta a tu negocio. La Implementación de IA se cotiza por proyecto después del Informe, porque el alcance depende de lo que encontremos. Los precios son fijos y se dicen desde el principio. No cobramos por hora.",
+    a: "El Informe de Visibilidad cuesta 1.500 dólares y te lo acreditamos completo al primer mes si continúas. Doble Presencia empieza en 2.500 dólares al mes en inglés y 3.500 bilingüe, y se ajusta a tu negocio. El espacio de trabajo con IA que construimos para operar tu mes va incluido en Presencia, no se cotiza aparte. Los precios son fijos y se dicen desde el principio. No cobramos por hora.",
   },
   {
     q: "¿Qué hace diferente a Doble AI de otras firmas de IA?",
@@ -106,8 +106,8 @@ function Hero() {
           Valle del río Eagle, Colorado · Trabajando a través de fronteras
         </div>
         <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight max-w-4xl mb-8">
-          Haz crecer tu negocio<br />
-          <span className="text-orange-500">con IA.</span><br />
+          Haz crecer tu negocio{" "}<br />
+          <span className="text-orange-500">con IA.</span>{" "}<br />
           En español y en inglés.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
@@ -151,8 +151,8 @@ function Problem() {
             La oportunidad
           </div>
           <h2 className="text-4xl font-bold leading-tight mb-6">
-            Crecimiento con IA,<br />
-            con una ventaja que<br />
+            Crecimiento con IA,{" "}<br />
+            con una ventaja que{" "}<br />
             pocas firmas pueden ofrecer.
           </h2>
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
@@ -169,7 +169,7 @@ function Problem() {
         <div className="grid grid-cols-2 gap-4">
           {[
             { val: "IA", label: "Herramientas para automatizar, amplificar y hacer crecer tu negocio" },
-            { val: "90", label: "Días para resultados medibles" },
+            { val: "90", label: "Días para tu primera revisión completa de avance" },
             { val: "5–7", label: "Días para entregar tu auditoría completa" },
             { val: "2x", label: "Alcance potencial para negocios que atienden a clientes en inglés y en español" },
           ].map((s) => (
@@ -199,14 +199,8 @@ function Services() {
     {
       num: "02",
       name: "Doble Presencia",
-      desc: "Construimos o reparamos el sitio, y después lo operamos. Publicamos contenido en español y en inglés como pares reales, no como traducciones. Mantenemos el esquema y la estructura correctos para que los motores de IA puedan leerte, y monitoreamos el sitio para detectar lo que se rompe antes que tus clientes.",
-      detail: "Desde 2.500 dólares al mes · Español · Inglés",
-    },
-    {
-      num: "03",
-      name: "Implementación de IA",
-      desc: "Construimos un espacio de trabajo con IA que aprende tu negocio: memoria persistente, flujos de trabajo acumulados y agentes de IA bilingües. No es una instalación de una sola vez, sino un sistema que se acumula mientras más trabajamos juntos.",
-      detail: "Cotizado por proyecto",
+      desc: "Construimos o reparamos el sitio, y después lo operamos. Publicamos contenido en español y en inglés como pares reales, no como traducciones. Mantenemos el esquema y la estructura correctos para que los motores de IA puedan leerte, y monitoreamos el sitio para detectar lo que se rompe antes que tus clientes. Por debajo corre un espacio de trabajo con IA que aprende tu negocio: memoria persistente, flujos de trabajo acumulados y agentes bilingües. Ese espacio de trabajo es la forma en que opera el mes, no una línea aparte.",
+      detail: "Desde 2.500 dólares al mes en inglés · Desde 3.500 bilingüe",
     },
   ];
 
@@ -272,7 +266,7 @@ function HowWeWork() {
         </div>
         <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
           <h2 className="text-4xl font-bold leading-tight">
-            Resultados de agencia,<br />sin la agencia.
+            Resultados de agencia,{" "}<br />sin la agencia.
           </h2>
           <div>
             <p className="text-[#a3a3a3] text-lg leading-relaxed mb-4">
@@ -736,7 +730,7 @@ function About() {
               Quiénes somos
             </div>
             <h2 className="text-4xl font-bold leading-tight mb-6">
-              Pensamiento global.<br />Bilingües por naturaleza.<br />Con base en Colorado.
+              Pensamiento global.{" "}<br />Bilingües por naturaleza.{" "}<br />Con base en Colorado.
             </h2>
             <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
               Doble AI fue fundada por John y Gisella Rounds en el valle del río

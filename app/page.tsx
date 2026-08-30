@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "How much does this cost?",
-    a: "The Findability Report is $1,500, credited in full against your first month if you continue. Doble Presence starts at $2,500 a month and is scoped to your business. AI Implementation is quoted per engagement after the Report, because the scope depends entirely on what we find. Pricing is fixed and stated up front. We do not bill hourly.",
+    a: "The Findability Report is $1,500, credited in full against your first month if you continue. Doble Presence starts at $2,500 a month in English and $3,500 a month bilingual, and is scoped to your business. The AI workspace we build to run your month is part of Presence, not a separate quote. Pricing is fixed and stated up front. We do not bill hourly.",
   },
   {
     q: "What makes Doble AI different from other AI firms?",
@@ -88,8 +88,8 @@ function Hero() {
           Eagle River Valley, Colorado · Working across borders
         </div>
         <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight max-w-4xl mb-8">
-          Grow your business<br />
-          <span className="text-orange-500">with AI.</span><br />
+          Grow your business{" "}<br />
+          <span className="text-orange-500">with AI.</span>{" "}<br />
           En inglés y en español.
         </h1>
         <p className="text-xl text-[#a3a3a3] max-w-2xl leading-relaxed mb-12">
@@ -131,8 +131,8 @@ function Problem() {
             The opportunity
           </div>
           <h2 className="text-4xl font-bold leading-tight mb-6">
-            AI-powered growth,<br />
-            with a competitive edge<br />
+            AI-powered growth,{" "}<br />
+            with a competitive edge{" "}<br />
             most firms can&apos;t offer.
           </h2>
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
@@ -148,7 +148,7 @@ function Problem() {
         <div className="grid grid-cols-2 gap-4">
           {[
             { val: "AI", label: "Tools to automate, amplify, and grow your business" },
-            { val: "90", label: "Days to measurable results" },
+            { val: "90", label: "Days to your first full progress review" },
             { val: "5–7", label: "Days to deliver your full business audit" },
             { val: "2x", label: "Potential reach for businesses that serve both English and Spanish-speaking markets" },
           ].map((s) => (
@@ -179,14 +179,8 @@ function Services() {
     {
       num: "02",
       name: "Doble Presence",
-      desc: "We build or repair the site, then run it. Content published in English and Spanish as real pairs rather than translations, schema and structure kept correct so AI engines can read you, and monitoring that catches what breaks before your customers do.",
-      detail: "From $2,500/month · English · Spanish optional",
-    },
-    {
-      num: "03",
-      name: "AI Implementation",
-      desc: "We build an AI workspace that learns your business: persistent memory, accumulated workflows, bilingual AI agents. Not a one-time setup. A system that compounds the longer we work together.",
-      detail: "Quoted per engagement",
+      desc: "We build or repair the site, then run it. Content published in English and Spanish as real pairs rather than translations, schema and structure kept correct so AI engines can read you, and monitoring that catches what breaks before your customers do. Underneath it runs an AI workspace that learns your business: persistent memory, accumulated workflows, bilingual agents. That workspace is how the month runs, not a separate line item.",
+      detail: "From $2,500/month English · From $3,500/month bilingual",
     },
   ];
 
@@ -260,7 +254,7 @@ function HowWeWork() {
         </div>
         <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
           <h2 className="text-4xl font-bold leading-tight">
-            Agency-level output,<br />without the agency.
+            Agency-level output,{" "}<br />without the agency.
           </h2>
           <div>
             <p className="text-[#a3a3a3] text-lg leading-relaxed mb-4">
@@ -753,7 +747,7 @@ function About() {
               Who we are
             </div>
             <h2 className="text-4xl font-bold leading-tight mb-6">
-              Global thinkers.<br />Bilingual by nature.<br />Colorado-based.
+              Global thinkers.{" "}<br />Bilingual by nature.{" "}<br />Colorado-based.
             </h2>
             <p className="text-[#a3a3a3] text-lg leading-relaxed mb-6">
               Doble AI was founded by John and Gisella Rounds in the Eagle River Valley.

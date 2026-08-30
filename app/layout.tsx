@@ -75,7 +75,7 @@ const organizationSchema = {
           "@type": "Offer",
           name: "Doble Presence",
           description:
-            "We build or repair the site, then run it: content published in English and Spanish as real pairs, schema and structure kept correct for AI engines, and monitoring for what breaks.",
+            "We build or repair the site, then run it: content published in English and Spanish as real pairs, schema and structure kept correct for AI engines, and monitoring for what breaks. Includes the AI workspace that learns the business: persistent memory, accumulated workflows, bilingual agents. From $2,500/month in English, from $3,500/month bilingual.",
           priceCurrency: "USD",
           priceSpecification: {
             "@type": "PriceSpecification",
@@ -83,12 +83,6 @@ const organizationSchema = {
             priceCurrency: "USD",
             unitCode: "MON",
           },
-        },
-        {
-          "@type": "Offer",
-          name: "AI Implementation",
-          description:
-            "A bilingual AI workspace that learns the business: persistent memory, accumulated workflows, bilingual agents. Quoted per engagement.",
         },
       ],
       founder: [

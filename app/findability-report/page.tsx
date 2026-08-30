@@ -169,7 +169,7 @@ export default function FindabilityReport() {
             The method, published in full
           </div>
           <h1 className="text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-8">
-            The Findability<br />
+            The Findability{" "}<br />
             <span className="text-orange-500">Report.</span>
           </h1>
           <p className="text-xl text-[#a3a3a3] leading-relaxed mb-10">
