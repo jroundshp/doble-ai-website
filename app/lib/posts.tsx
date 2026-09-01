@@ -950,7 +950,7 @@ export const posts: Post[] = [
     title: "No te posicionas en un AI Overview. Te seleccionan.",
     excerpt:
       "Casi la mitad de las búsquedas en Google ya abren con una respuesta de IA. Casi todos lo leen como un problema de tráfico. Es un problema de acceso, y el acceso no funciona como el posicionamiento.",
-    date: "August 5, 2026",
+    date: "5 de agosto de 2026",
     dateISO: "2026-08-05",
     category: "Estrategia de IA",
     readTime: "7 min de lectura",
@@ -1429,7 +1429,7 @@ export const posts: Post[] = [
       "Una persona, cinco agentes: cómo construir tu propio equipo de IA en la nube",
     excerpt:
       "Doble AI funciona con un humano y 5 agentes de IA. Aquí está el manual completo: el equipo, las herramientas, lo que cuesta y la parte que de verdad se pone difícil.",
-    date: "July 24, 2026",
+    date: "24 de julio de 2026",
     dateISO: "2026-07-24",
     category: "Estrategia de IA",
     readTime: "8 min de lectura",
@@ -1819,7 +1819,7 @@ export const posts: Post[] = [
     title: "Por qué la IA es el paso cuatro, no el paso uno",
     excerpt:
       "Somos una firma de implementación de IA y pusimos la IA al final de nuestra lista de servicios. Después fuimos más lejos y la metimos dentro del segundo de 2 productos. El orden es el argumento.",
-    date: "July 23, 2026",
+    date: "23 de julio de 2026",
     dateISO: "2026-07-23",
     category: "Estrategia de IA",
     readTime: "4 min de lectura",
@@ -2182,7 +2182,7 @@ export const posts: Post[] = [
       "La mayoría todavía juega con prompts. Unos pocos están reestructurando su negocio con IA.",
     excerpt:
       "El verdadero cambio con la IA no son mejores herramientas: es reestructurar el trabajo alrededor de ellas. Lo que vimos tras auditar negocios en tres países.",
-    date: "July 15, 2026",
+    date: "15 de julio de 2026",
     dateISO: "2026-07-15",
     category: "Estrategia de IA",
     readTime: "7 min de lectura",
@@ -2616,7 +2616,7 @@ export const posts: Post[] = [
     title: "La magia nunca fue la IA. Eres tú, con maquinaria pesada.",
     excerpt:
       "Todos temen que la IA reemplace el toque humano. Es al revés: la persona al mando es lo que hace que la IA valga algo. Aquí te explicamos por qué.",
-    date: "June 22, 2026",
+    date: "22 de junio de 2026",
     dateISO: "2026-06-22",
     category: "Estrategia de IA",
     readTime: "6 min de lectura",
@@ -2976,7 +2976,7 @@ export const posts: Post[] = [
     title: "Tu IA ya debería conocer tu negocio",
     excerpt:
       "La mayoría de las herramientas de IA olvidan todo entre sesiones. Un espacio de trabajo bien construido acumula conocimiento institucional que se multiplica cada día.",
-    date: "April 27, 2026",
+    date: "27 de abril de 2026",
     dateISO: "2026-04-27",
     category: "Estrategia de IA",
     readTime: "5 min de lectura",
@@ -7814,7 +7814,7 @@ export const posts: Post[] = [
     title: "Tu negocio es excelente. Nadie lo sabe.",
     excerpt:
       "La mayoría de los negocios pequeños del valle son excepcionales en lo que hacen y prácticamente invisibles en línea. Aquí está el camino de tres pasos para que te encuentren — y dónde encaja la IA.",
-    date: "May 1, 2026",
+    date: "1 de mayo de 2026",
     dateISO: "2026-05-01",
     category: "Estrategia Digital",
     readTime: "5 min de lectura",

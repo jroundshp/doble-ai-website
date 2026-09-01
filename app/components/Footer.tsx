@@ -9,6 +9,7 @@ const FOOTER_LABELS = {
     report: "Findability Report",
     presenceHref: "/doble-presence",
     presence: "Doble Presence",
+    blogHref: "/blog",
     translation: "Translation",
     blog: "Blog",
     about: "About",
@@ -25,6 +26,7 @@ const FOOTER_LABELS = {
     report: "Findability Report",
     presenceHref: "/es/doble-presence",
     presence: "Doble Presence",
+    blogHref: "/es/blog",
     translation: "Traducción",
     blog: "Blog",
     about: "Nosotros",
@@ -49,13 +51,11 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
           <a href={`${t.base}#work`} className="hover:text-white transition-colors">{t.work}</a>
           <a href={t.findability} className="hover:text-white transition-colors">{t.report}</a>
           <a href={t.presenceHref} className="hover:text-white transition-colors">{t.presence}</a>
-          {/* English-only pages stay out of the Spanish footer until they have twins */}
+          {/* Translation is still English-only; it stays out until it has a twin */}
           {lang === "en" && (
-            <>
-              <a href="/translation" className="hover:text-white transition-colors">{t.translation}</a>
-              <a href="/blog" className="hover:text-white transition-colors">{t.blog}</a>
-            </>
+            <a href="/translation" className="hover:text-white transition-colors">{t.translation}</a>
           )}
+          <a href={t.blogHref} className="hover:text-white transition-colors">{t.blog}</a>
           <a href={`${t.base}#about`} className="hover:text-white transition-colors">{t.about}</a>
           <a href={`${t.base}#contact`} className="hover:text-white transition-colors">{t.contact}</a>
         </div>

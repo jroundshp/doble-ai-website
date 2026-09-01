@@ -1,112 +1,105 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { posts } from "../lib/posts";
-import { pairs } from "../lib/pairs";
-import Footer from "../components/Footer";
-const displayPairs = pairs.flatMap(([enSlug, esSlug]) => {
-  const post = posts.find((p) => p.slug === enSlug);
-  if (!post) return [];
-  const esPost = esSlug ? posts.find((p) => p.slug === esSlug) : undefined;
-  return [{ post, esPost }];
-});
-const featured = displayPairs[0];
+import { posts } from "../../lib/posts";
+import { pairs } from "../../lib/pairs";
+import Footer from "../../components/Footer";
+import Nav from "../../components/Nav";
+
+/* Only the posts that actually exist in Spanish. A Spanish reader arriving
+   here should never be handed an English page, so an EN post with no ES twin
+   simply is not listed. Newest first, by the post's own dateISO. */
+const esPosts = pairs
+  .flatMap(([enSlug, esSlug]) => {
+    if (!esSlug) return [];
+    const post = posts.find((p) => p.slug === esSlug);
+    if (!post) return [];
+    const enPost = posts.find((p) => p.slug === enSlug);
+    return [{ post, enPost }];
+  })
+  .sort((a, b) => b.post.dateISO.localeCompare(a.post.dateISO));
+
+const featured = esPosts[0];
+const rest = esPosts.slice(1);
 
 const blogSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "@id": "https://dobleai.com/blog",
-  name: "The Doble AI Blog",
+  "@id": "https://dobleai.com/es/blog",
+  name: "El blog de Doble AI",
+  inLanguage: "es",
   description:
-    "Practical guides on AI adoption, digital presence, competitive strategy, and bilingual marketing for Colorado businesses.",
-  url: "https://dobleai.com/blog",
+    "Guías prácticas sobre adopción de IA, presencia digital, estrategia competitiva y marketing bilingüe para negocios de Colorado. Escritas en español, no traducidas.",
+  url: "https://dobleai.com/es/blog",
   publisher: { "@id": "https://dobleai.com/#organization" },
-  blogPost: posts.map((p) => ({
+  blogPost: esPosts.map(({ post }) => ({
     "@type": "BlogPosting",
-    headline: p.title,
-    url: `https://dobleai.com/blog/${p.slug}`,
-    datePublished: p.dateISO,
-    description: p.excerpt,
+    headline: post.title,
+    url: `https://dobleai.com/blog/${post.slug}`,
+    datePublished: post.dateISO,
+    description: post.excerpt,
+    inLanguage: "es",
   })),
 };
 
-import type { Metadata } from "next";
-
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Blog en español",
   description:
-    "Practical guides on AI adoption, digital presence, competitive strategy, and bilingual marketing for Colorado businesses.",
+    "Guías prácticas sobre IA, presencia digital y marketing bilingüe para negocios de Colorado. Escritas en español por una hablante nativa, no traducidas del inglés.",
   alternates: {
-    canonical: "/blog",
+    canonical: "/es/blog",
     languages: {
-      en: "https://dobleai.com/blog",
       es: "https://dobleai.com/es/blog",
+      en: "https://dobleai.com/blog",
       "x-default": "https://dobleai.com/blog",
     },
   },
   openGraph: {
-    title: "The Doble AI Blog",
+    title: "El blog de Doble AI, en español",
     description:
-      "Practical guides on AI adoption, digital presence, competitive strategy, and bilingual marketing for Colorado businesses.",
-    url: "https://dobleai.com/blog",
+      "Guías prácticas sobre IA, presencia digital y marketing bilingüe para negocios de Colorado. Escritas en español, no traducidas.",
+    url: "https://dobleai.com/es/blog",
+    locale: "es_ES",
+    type: "website",
   },
 };
 
-export default function BlogIndex() {
+export default function BlogIndexEs() {
   return (
-    <main className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
+    <main lang="es" className="min-h-screen bg-[#0a0a0a] text-[#f5f5f5]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
-      {/* Nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center">
-            <img src="/logo.svg" alt="Doble AI" className="h-8 w-auto" />
-          </a>
-          <div className="hidden md:flex items-center gap-8 text-sm text-[#a3a3a3]">
-            <a href="/#services" className="hover:text-white transition-colors">Services</a>
-            <a href="/#work" className="hover:text-white transition-colors">Our Work</a>
-            <a href="/translation" className="hover:text-white transition-colors">Translation</a>
-            <a href="/blog" className="text-white">Blog</a>
-            <a href="/#about" className="hover:text-white transition-colors">About</a>
-            <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
-          </div>
-          <div className="flex items-center gap-3">
-            <a
-              href="/es/blog"
-              hrefLang="es"
-              lang="es"
-              title="Ver el blog en español"
-              className="border border-white/20 hover:border-orange-500/60 hover:text-white text-[#a3a3a3] text-sm font-semibold px-3 py-2 rounded-full transition-colors"
-            >
-              ES
-            </a>
-            <a
-              href="/#contact"
-              className="bg-orange-500 hover:bg-orange-400 text-white text-sm font-medium px-4 py-2 rounded-full transition-colors"
-            >
-              Free Snapshot
-            </a>
-          </div>
-        </div>
-      </nav>
+      <Nav lang="es" />
 
-      {/* Header */}
+      {/* Encabezado */}
       <section className="pt-32 pb-16 px-6">
         <div className="max-w-6xl mx-auto">
+          <div className="mb-8">
+            <a
+              href="/blog"
+              lang="en"
+              hrefLang="en"
+              className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 text-orange-400 hover:text-orange-300 hover:border-orange-500/50 text-sm font-medium px-4 py-2 rounded-full transition-colors"
+            >
+              Read the blog in English →
+            </a>
+          </div>
           <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
             <span className="w-6 h-px bg-orange-500" />
-            Insights
+            Ideas
           </div>
-          <h1 className="text-5xl font-bold mb-4">The Doble AI Blog</h1>
+          <h1 className="text-5xl font-bold mb-4">El blog de Doble AI</h1>
           <p className="text-[#a3a3a3] text-lg max-w-2xl">
-            Practical guides on AI, digital presence, and bilingual marketing for
-            Colorado businesses.
+            Guías prácticas sobre IA, presencia digital y marketing bilingüe
+            para negocios de Colorado. Estos {esPosts.length} artículos están
+            escritos en español, no traducidos del inglés. Los que todavía solo
+            existen en inglés no aparecen aquí.
           </p>
         </div>
       </section>
 
-      {/* Featured latest post */}
+      {/* El más reciente */}
       {featured && (
         <section className="pb-12 px-6">
           <div className="max-w-6xl mx-auto">
@@ -124,7 +117,7 @@ export default function BlogIndex() {
               <div className="p-8 md:p-10 flex flex-col justify-center flex-1">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-xs font-bold text-white bg-orange-500 rounded-full px-3 py-1 tracking-widest uppercase">
-                    Latest
+                    Lo más reciente
                   </span>
                   <span className="text-xs font-bold text-orange-500 tracking-widest uppercase">
                     {featured.post.category}
@@ -147,14 +140,16 @@ export default function BlogIndex() {
                     href={`/blog/${featured.post.slug}`}
                     className="text-orange-500 font-medium hover:translate-x-1 transition-transform"
                   >
-                    Read →
+                    Leer →
                   </Link>
-                  {featured.esPost && (
+                  {featured.enPost && (
                     <Link
-                      href={`/blog/${featured.esPost.slug}`}
+                      href={`/blog/${featured.enPost.slug}`}
+                      lang="en"
+                      hrefLang="en"
                       className="text-[#a3a3a3] text-sm hover:text-orange-400 transition-colors"
                     >
-                      Leer en español →
+                      Read in English →
                     </Link>
                   )}
                   <span className="text-[#555] text-xs ml-auto">
@@ -167,10 +162,10 @@ export default function BlogIndex() {
         </section>
       )}
 
-      {/* Post Grid */}
+      {/* El resto */}
       <section className="pb-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
-          {displayPairs.slice(1).map(({ post, esPost }) => (
+          {rest.map(({ post, enPost }) => (
             <div
               key={post.slug}
               className="group flex flex-col bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.08] rounded-2xl overflow-hidden transition-colors"
@@ -202,19 +197,21 @@ export default function BlogIndex() {
               <div className="px-8 pb-8 flex items-center justify-between">
                 <span className="text-[#555] text-xs">{post.date}</span>
                 <div className="flex items-center gap-5">
-                  {esPost && (
+                  {enPost && (
                     <Link
-                      href={`/blog/${esPost.slug}`}
+                      href={`/blog/${enPost.slug}`}
+                      lang="en"
+                      hrefLang="en"
                       className="text-[#a3a3a3] text-xs hover:text-orange-400 transition-colors"
                     >
-                      Leer en español
+                      Read in English
                     </Link>
                   )}
                   <Link
                     href={`/blog/${post.slug}`}
                     className="text-orange-500 text-sm font-medium group-hover:translate-x-1 transition-transform"
                   >
-                    Read →
+                    Leer →
                   </Link>
                 </div>
               </div>
@@ -223,7 +220,28 @@ export default function BlogIndex() {
         </div>
       </section>
 
-      <Footer />
+      {/* Los que faltan en español */}
+      <section className="pb-24 px-6">
+        <div className="max-w-6xl mx-auto border-t border-white/[0.06] pt-12">
+          <p className="text-[#a3a3a3] leading-relaxed max-w-2xl">
+            Hay algunos artículos que todavía solo existen en inglés. No los
+            listamos aquí porque mandarte a una página en inglés desde un índice
+            en español no es servicio bilingüe, es una traducción pendiente.
+            Están en{" "}
+            <a
+              href="/blog"
+              lang="en"
+              hrefLang="en"
+              className="text-orange-500 hover:text-orange-400"
+            >
+              el blog en inglés
+            </a>{" "}
+            si quieres verlos, y sus versiones en español van llegando.
+          </p>
+        </div>
+      </section>
+
+      <Footer lang="es" />
     </main>
   );
 }

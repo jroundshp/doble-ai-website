@@ -5,7 +5,7 @@ import Nav from "../../components/Nav";
 export const metadata: Metadata = {
   title: "Doble Presence: qué trae el mes",
   description:
-    "El retainer que opera tu sitio después del diagnóstico: publicación bilingüe, esquema y estructura correctos para los motores de IA, monitoreo y el espacio de trabajo con IA que aprende tu negocio. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
+    "El servicio mensual que opera tu sitio después del diagnóstico: publicación bilingüe, esquema y estructura correctos para los motores de IA, monitoreo y el espacio de trabajo con IA que aprende tu negocio. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
   alternates: {
     canonical: "/es/doble-presence",
     languages: {
@@ -56,8 +56,8 @@ const WORK = [
       "Después el sitio empieza a decir cosas. En un idioma o en dos, y si son dos, escritas dos veces en lugar de pasadas por un traductor.",
     items: [
       ["Pares reales, no traducciones", "El contenido en español lo escribe en español una hablante nativa, y después se contrasta con el inglés por sentido y no por palabras. Una página que se lee como traducción termina tratada como traducción."],
-      ["Contenido que los motores de IA pueden citar", "Páginas de servicio, preguntas frecuentes y guías que responden lo que tus compradores realmente preguntan, con sus palabras, y con el esquema que le permite a un motor levantar la respuesta limpia."],
-      ["Esquema y estructura, mantenidos", "FAQPage, Service, LocalBusiness, Article y el grafo de hreflang, mantenidos correctos mientras el sitio crece. Los datos estructurados son un piso de legibilidad, no un truco de posicionamiento: deciden si una máquina puede leerte siquiera."],
+      ["Contenido que los motores de IA pueden citar", "Páginas de servicio, preguntas frecuentes y guías que responden lo que tus compradores realmente preguntan, con sus palabras, y con el esquema que le permite a un motor extraer la respuesta limpia."],
+      ["Esquema y estructura, mantenidos", "FAQPage, Service, LocalBusiness, Article y el grafo de hreflang, mantenidos correctos mientras el sitio crece. Los datos estructurados son una base de legibilidad, no un truco de posicionamiento: deciden si una máquina puede leerte siquiera."],
       ["Enlazado interno", "Cada página nueva enlazada desde algo que ya está indexado. Una página a la que solo apuntan páginas sin indexar es una página que nadie encuentra."],
     ],
   },
@@ -69,7 +69,7 @@ const WORK = [
     items: [
       ["Salud del sitio, a diario", "Disponibilidad, redirecciones, deriva de canónicas, validez del sitemap y el grafo de enlaces. Construimos estas revisiones primero para nuestras propias propiedades, y la mayoría existe porque algo se rompió y nada lo detectó."],
       ["Search Console y GA4", "Indexación y cobertura vigiladas por página y no como un porcentaje del sitio, con el tráfico leído contra eso para que una caída llegue con su explicación."],
-      ["Visibilidad en IA, otra vez", "El barrido de 4 motores del Findability Report, corrido de nuevo para que el puntaje sobre 10 muestre movimiento en lugar de quedarse en un PDF."],
+      ["Visibilidad en IA, otra vez", "El barrido de 4 motores del Findability Report, que repetimos para que el puntaje sobre 10 muestre movimiento en lugar de quedarse en un PDF."],
       ["Formularios y teléfono", "El camino de interesado a contactable, probado en lugar de asumido."],
     ],
   },
@@ -110,7 +110,7 @@ const faqs = [
   },
   {
     q: "¿De cuánto tiempo es el compromiso?",
-    a: "Presence es un retainer mensual y se acumula, así que vale más en el mes nueve que en el mes dos. Eso es un argumento para quedarse, no una cláusula de permanencia. Si paras, el sitio, el contenido y el perfil de Google son tuyos.",
+    a: "Presence es un servicio mensual y se acumula, así que vale más en el mes nueve que en el mes dos. Eso es un argumento para quedarse, no una cláusula de permanencia. Si paras, el sitio, el contenido y el perfil de Google son tuyos.",
   },
   {
     q: "¿Quién hace el trabajo?",
@@ -125,12 +125,12 @@ const schema = {
       "@type": "Service",
       "@id": "https://dobleai.com/es/doble-presence#service",
       name: "Doble Presence",
-      serviceType: "Retainer de presencia digital e implementación de IA",
+      serviceType: "Servicio mensual de presencia digital e implementación de IA",
       provider: { "@id": "https://dobleai.com/#organization" },
       url: "https://dobleai.com/es/doble-presence",
       inLanguage: "es",
       description:
-        "Un retainer mensual: construimos o reparamos el sitio y después lo operamos. Publicación bilingüe como pares reales, esquema y estructura correctos para los motores de IA, monitoreo de salud del sitio y visibilidad en buscadores, y el espacio de trabajo con IA que aprende el negocio. Incluye la implementación de IA; no se cotiza aparte.",
+        "Un servicio mensual: construimos o reparamos el sitio y después lo operamos. Publicación bilingüe como pares reales, esquema y estructura correctos para los motores de IA, monitoreo de salud del sitio y visibilidad en buscadores, y el espacio de trabajo con IA que aprende el negocio. Incluye la implementación de IA; no se cotiza aparte.",
       offers: {
         "@type": "Offer",
         priceCurrency: "USD",
@@ -252,9 +252,9 @@ export default function DoblePresenceEs() {
           <p className="text-[#a3a3a3] text-lg leading-relaxed">
             Hay una segunda razón, y nos importa más. Las piezas son baratas. Los
             meses de afinación por debajo no lo son. Todo lo que sabemos de tu
-            negocio se acumula en un solo lugar, y el mes de pasado mañana es
-            mejor que este por lo que este nos enseñó. Un proyecto termina. Esto
-            se acumula.
+            negocio se acumula en un solo lugar, y de aquí a dos meses el
+            trabajo sale mejor por lo que nos enseñó este. Un proyecto termina.
+            Esto se acumula.
           </p>
         </div>
       </section>
@@ -369,7 +369,7 @@ export default function DoblePresenceEs() {
           </h2>
           <p className="text-[#a3a3a3] text-lg mb-10 leading-relaxed">
             Una página sobre dónde estás parado, de vuelta en 2 días hábiles.
-            Casi nadie debería firmar un retainer sin ver esa página antes.
+            Casi nadie debería contratar un servicio mensual sin ver antes esa página.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a

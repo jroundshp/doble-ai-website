@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 /* ── El método ──
    En el orden en que corre, que es también el orden en que los problemas se
    bloquean entre sí. No tiene sentido calificar cómo responde la IA sobre un
-   negocio cuyas respuestas no están en el HTML servido, así que el piso de
+   negocio cuyas respuestas no están en el HTML servido, así que la base de
    legibilidad va primero y todo lo demás depende de él. */
 const PHASES = [
   {

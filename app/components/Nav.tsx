@@ -15,6 +15,7 @@ const LABELS = {
     toggleHref: "/es",
     toggleTitle: "Ver este sitio en español",
     base: "/",
+    blogHref: "/blog",
   },
   es: {
     services: "Servicios",
@@ -29,6 +30,7 @@ const LABELS = {
     toggleHref: "/",
     toggleTitle: "View this site in English",
     base: "/es",
+    blogHref: "/es/blog",
   },
 } as const;
 
@@ -37,19 +39,15 @@ export default function Nav({ lang = "en" }: { lang?: "en" | "es" }) {
   const close = () => setOpen(false);
   const t = LABELS[lang];
 
-  // Translation and the blog index only exist in English. Listing them in the
-  // Spanish nav sent a Spanish reader straight into an English page, so they
-  // stay out of it until /es/translation and /es/blog exist.
+  // Blog points at the index for the language you are reading: /es/blog lists
+  // only the posts that exist in Spanish. Translation is still English-only,
+  // so it stays out of the Spanish nav until /es/translation exists.
   const links = [
     { href: `${t.base}#services`, label: t.services },
     { href: `${t.base}#work`, label: t.work },
     { href: `${t.base}#projects`, label: t.projects },
-    ...(lang === "en"
-      ? [
-          { href: "/translation", label: t.translation },
-          { href: "/blog", label: t.blog },
-        ]
-      : []),
+    ...(lang === "en" ? [{ href: "/translation", label: t.translation }] : []),
+    { href: t.blogHref, label: t.blog },
     { href: `${t.base}#about`, label: t.about },
     { href: `${t.base}#contact`, label: t.contact },
   ];
