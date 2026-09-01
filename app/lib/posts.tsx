@@ -1676,9 +1676,9 @@ export const posts: Post[] = [
     dateISO: "2026-07-23",
     category: "AI Strategy",
     readTime: "4 min read",
-    coverImage: "/work/services-four-steps.jpg",
+    coverImage: "/work/ai-step-four-en.jpg",
     coverAlt:
-      "The Doble AI homepage services section, since reduced from four cards to two products: the Findability Report and Doble Presence",
+      "Two products in this order: 01 The Findability Report, where you stand, delivered in 5 to 7 days; 02 Doble Presence, the month that follows.",
     keywords:
       "small business AI strategy, when to adopt AI small business, findability before AI, digital presence before AI implementation, AI implementation Colorado, bilingual AI implementation Eagle River Valley, Findability Report, Doble Presence",
     content: (
@@ -1823,9 +1823,9 @@ export const posts: Post[] = [
     dateISO: "2026-07-23",
     category: "Estrategia de IA",
     readTime: "4 min de lectura",
-    coverImage: "/work/services-four-steps.jpg",
+    coverImage: "/work/ai-step-four-es.jpg",
     coverAlt:
-      "La sección de servicios de la página de Doble AI, que después pasó de cuatro tarjetas a dos productos: el Findability Report y Doble Presence",
+      "Dos productos, en este orden: 01 Findability Report; 02 Doble Presence.",
     keywords:
       "estrategia de IA pequeños negocios, cuándo adoptar IA en mi negocio, visibilidad antes de la IA, presencia digital antes de implementar IA, implementación de IA bilingüe Colorado, Findability Report, Doble Presence",
     content: (
