@@ -70,7 +70,7 @@ export default function BlogIndexEs() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
-      <Nav lang="es" />
+      <Nav lang="es" toggleHref="/blog" />
 
       {/* Encabezado */}
       <section className="pt-32 pb-16 px-6">

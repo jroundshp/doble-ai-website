@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { posts, getPost } from "../../lib/posts";
 import { getLang, getTranslation } from "../../lib/pairs";
 import Footer from "../../components/Footer";
+import Nav from "../../components/Nav";
 
 const SITE = "https://dobleai.com";
 
@@ -124,8 +125,18 @@ export default async function BlogPost({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://dobleai.com" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://dobleai.com/blog" },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: lang === "es" ? "Inicio" : "Home",
+        item: lang === "es" ? "https://dobleai.com/es" : "https://dobleai.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: lang === "es" ? "https://dobleai.com/es/blog" : "https://dobleai.com/blog",
+      },
       { "@type": "ListItem", position: 3, name: post.title, item: `https://dobleai.com/blog/${post.slug}` },
     ],
   };
@@ -146,39 +157,32 @@ export default async function BlogPost({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-      {/* Nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center">
-            <img src="/logo.svg" alt="Doble AI" className="h-8 w-auto" />
-          </a>
-          <div className="hidden md:flex items-center gap-8 text-sm text-[#a3a3a3]">
-            <a href="/#services" className="hover:text-white transition-colors">Services</a>
-            <a href="/#work" className="hover:text-white transition-colors">Our Work</a>
-            <a href="/translation" className="hover:text-white transition-colors">Translation</a>
-            <a href="/blog" className="hover:text-white transition-colors">Blog</a>
-            <a href="/#about" className="hover:text-white transition-colors">About</a>
-            <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
-          </div>
-          <a
-            href="/#contact"
-            className="bg-orange-500 hover:bg-orange-400 text-white text-sm font-medium px-4 py-2 rounded-full transition-colors"
-          >
-            Free Snapshot
-          </a>
-        </div>
-      </nav>
+      {/* The post's own twin is the right target for the language toggle:
+          a Spanish reader toggling out of a Spanish post wants the English
+          version of that post, not the English homepage. */}
+      <Nav
+        lang={lang}
+        toggleHref={
+          translation
+            ? `/blog/${translation.slug}`
+            : lang === "en"
+              ? "/es/blog"
+              : "/blog"
+        }
+      />
 
       {/* Article */}
       <article lang={lang} className="pt-28 pb-24 px-6">
         <div className="max-w-2xl mx-auto">
-          {/* Breadcrumb */}
-          <a
-            href="/blog"
-            className="inline-flex items-center gap-2 text-[#a3a3a3] hover:text-white text-sm transition-colors mb-10"
-          >
-            ← All posts
-          </a>
+          {/* Breadcrumb — back to the index in the language being read */}
+          <div className="mb-10">
+            <a
+              href={lang === "es" ? "/es/blog" : "/blog"}
+              className="inline-flex items-center gap-2 text-[#a3a3a3] hover:text-white text-sm transition-colors"
+            >
+              ← {lang === "es" ? "Todos los artículos" : "All posts"}
+            </a>
+          </div>
 
           {/* Language pair cross-link */}
           {translation && (
@@ -256,7 +260,7 @@ export default async function BlogPost({
         </div>
       </article>
 
-      <Footer />
+      <Footer lang={lang} />
     </main>
   );
 }

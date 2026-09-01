@@ -165,7 +165,7 @@ export default function DoblePresenceEs() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <Nav lang="es" />
+      <Nav lang="es" toggleHref="/doble-presence" />
 
       {/* ── Hero ── */}
       <section className="pt-32 pb-20 px-6">

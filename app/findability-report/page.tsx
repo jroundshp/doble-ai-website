@@ -164,7 +164,7 @@ export default function FindabilityReport() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <Nav />
+      <Nav toggleHref="/es/findability-report" />
 
       {/* ── Hero ── */}
       <section className="pt-32 pb-20 px-6">

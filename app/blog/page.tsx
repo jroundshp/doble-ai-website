@@ -2,6 +2,7 @@ import Link from "next/link";
 import { posts } from "../lib/posts";
 import { pairs } from "../lib/pairs";
 import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 const displayPairs = pairs.flatMap(([enSlug, esSlug]) => {
   const post = posts.find((p) => p.slug === enSlug);
   if (!post) return [];
@@ -57,39 +58,7 @@ export default function BlogIndex() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
-      {/* Nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/[0.06]">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center">
-            <img src="/logo.svg" alt="Doble AI" className="h-8 w-auto" />
-          </a>
-          <div className="hidden md:flex items-center gap-8 text-sm text-[#a3a3a3]">
-            <a href="/#services" className="hover:text-white transition-colors">Services</a>
-            <a href="/#work" className="hover:text-white transition-colors">Our Work</a>
-            <a href="/translation" className="hover:text-white transition-colors">Translation</a>
-            <a href="/blog" className="text-white">Blog</a>
-            <a href="/#about" className="hover:text-white transition-colors">About</a>
-            <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
-          </div>
-          <div className="flex items-center gap-3">
-            <a
-              href="/es/blog"
-              hrefLang="es"
-              lang="es"
-              title="Ver el blog en español"
-              className="border border-white/20 hover:border-orange-500/60 hover:text-white text-[#a3a3a3] text-sm font-semibold px-3 py-2 rounded-full transition-colors"
-            >
-              ES
-            </a>
-            <a
-              href="/#contact"
-              className="bg-orange-500 hover:bg-orange-400 text-white text-sm font-medium px-4 py-2 rounded-full transition-colors"
-            >
-              Free Snapshot
-            </a>
-          </div>
-        </div>
-      </nav>
+      <Nav toggleHref="/es/blog" />
 
       {/* Header */}
       <section className="pt-32 pb-16 px-6">

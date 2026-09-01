@@ -34,10 +34,19 @@ const LABELS = {
   },
 } as const;
 
-export default function Nav({ lang = "en" }: { lang?: "en" | "es" }) {
+export default function Nav({
+  lang = "en",
+  toggleHref,
+}: {
+  lang?: "en" | "es";
+  /** Where the EN/ES toggle goes. Pass the page's own twin; defaults to the
+      other language's homepage, which is right only for pages with no twin. */
+  toggleHref?: string;
+}) {
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
   const t = LABELS[lang];
+  const twin = toggleHref ?? t.toggleHref;
 
   // Blog points at the index for the language you are reading: /es/blog lists
   // only the posts that exist in Spanish. Translation is still English-only,
@@ -70,7 +79,7 @@ export default function Nav({ lang = "en" }: { lang?: "en" | "es" }) {
 
         <div className="flex items-center gap-3">
           <a
-            href={t.toggleHref}
+            href={twin}
             hrefLang={lang === "en" ? "es" : "en"}
             lang={lang === "en" ? "es" : "en"}
             title={t.toggleTitle}
@@ -118,7 +127,7 @@ export default function Nav({ lang = "en" }: { lang?: "en" | "es" }) {
             </a>
           ))}
           <a
-            href={t.toggleHref}
+            href={twin}
             hrefLang={lang === "en" ? "es" : "en"}
             lang={lang === "en" ? "es" : "en"}
             onClick={close}
