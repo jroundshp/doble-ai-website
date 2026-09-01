@@ -52,10 +52,17 @@ const organizationSchema = {
         { "@type": "Country", name: "United States" },
         { "@type": "Country", name: "Mexico" },
       ],
-      telephone: "+19703762725",
+      // One NAP. The public, answerable number is the LUCI line: it is the
+      // number printed on the site, so it is the number in the schema. The
+      // WhatsApp number stays a link in the copy and is deliberately not
+      // published here, because two telephone values is how a NAP mismatch
+      // starts.
+      telephone: "+19704064630",
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer service",
+        telephone: "+19704064630",
+        email: "john@dobleai.com",
         availableLanguage: ["English", "Spanish"],
       },
       knowsLanguage: ["en", "es"],

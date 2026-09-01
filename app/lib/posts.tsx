@@ -137,19 +137,19 @@ const stepFourFaqEN = [
   },
   {
     q: "What comes before AI implementation?",
-    a: "Three things: an audit that tells you where you stand, a competitive analysis that tells you who is winning your market and why, and the brand and visibility work that gets you found and tells your story. Once those are in place, AI implementation stops being a gadget and starts being a multiplier.",
+    a: "Findability. The Findability Report tells you where you stand: whether machines can read your site, whether people can find it, whether AI engines recommend you, and who is winning your market instead. Once that is settled, the AI has something to compound. That is why we sell two products in that order rather than four services in a row.",
   },
   {
     q: "How long does each step take?",
-    a: "Our business audit is delivered in 5 to 7 days, and the competitive landscape analysis is included with it or available on its own. Brand and sales growth is ongoing work measured in weeks and months. AI implementation is scoped per engagement and builds on everything before it.",
+    a: "The Findability Report is delivered in 5 to 7 days, and the competitive landscape is part of it rather than a separate purchase. Doble Presence is the month that follows, and it is ongoing by design: the build or repair first, then publishing, monitoring, and the AI workspace that runs it. The AI implementation is inside Presence, not quoted next to it.",
   },
   {
     q: "I already pay for AI tools. Did I waste money?",
     a: "Probably not, but you may be underusing them. A chatbot or a writing assistant helps day to day. The bigger return arrives when the AI is connected to a business customers can actually find, with clean information behind it. Keep the tools; fix the foundation they sit on.",
   },
   {
-    q: "Can I skip straight to step four?",
-    a: "Sometimes. A business with a strong site, steady reviews, and real visibility has already done steps one through three, whether or not it called them that. The audit is how you find out. If the foundation checks out, going straight to AI implementation is exactly right.",
+    q: "Can I skip straight to the AI part?",
+    a: "Sometimes. A business with a strong site, steady reviews, and real visibility has already done the earlier work, whether or not it called it that. The Findability Report is how you find out. If the foundation checks out, going straight to Doble Presence is exactly right, and the AI workspace comes with it.",
   },
   {
     q: "Does the order change for a bilingual market?",
@@ -164,19 +164,19 @@ const stepFourFaqES = [
   },
   {
     q: "¿Qué viene antes de la implementación de IA?",
-    a: "Tres cosas: una auditoría que te dice dónde estás parado, un análisis competitivo que te dice quién está ganando tu mercado y por qué, y el trabajo de marca y visibilidad que hace que te encuentren y cuenta tu historia. Con eso en su lugar, la implementación de IA deja de ser un aparato y se convierte en un multiplicador.",
+    a: "Que te encuentren. El Findability Report te dice dónde estás parado: si las máquinas pueden leer tu sitio, si la gente puede encontrarlo, si los motores de IA te recomiendan y quién está ganando tu mercado en tu lugar. Resuelto eso, la IA tiene qué multiplicar. Por eso vendemos 2 productos en ese orden y no 4 servicios en fila.",
   },
   {
     q: "¿Cuánto tarda cada paso?",
-    a: "Nuestra auditoría de negocio se entrega en 5 a 7 días, y el análisis del panorama competitivo viene incluido o se hace por separado. El crecimiento de marca y ventas es trabajo continuo que se mide en semanas y meses. La implementación de IA se define a la medida de cada proyecto y se apoya en todo lo anterior.",
+    a: "El Findability Report se entrega en 5 a 7 días, y el panorama competitivo va dentro del informe, no se compra aparte. Doble Presence es el mes que sigue, y es continuo por diseño: primero la construcción o la reparación, después la publicación, el monitoreo y el espacio de trabajo con IA que lo opera. La implementación de IA va dentro de Presence, no se cotiza al lado.",
   },
   {
     q: "Ya pago herramientas de IA. ¿Tiré mi dinero?",
     a: "Probablemente no, pero quizá las estás subutilizando. Un chatbot o un asistente de redacción ayuda en el día a día. El retorno grande llega cuando la IA está conectada a un negocio que los clientes sí pueden encontrar, con información limpia detrás. Quédate con las herramientas; arregla la base donde están paradas.",
   },
   {
-    q: "¿Puedo saltarme directo al paso cuatro?",
-    a: "A veces. Un negocio con un buen sitio, reseñas constantes y visibilidad real ya hizo los pasos uno al tres, aunque no los llamara así. La auditoría es la forma de saberlo. Si la base está sólida, ir directo a la implementación de IA es exactamente lo correcto.",
+    q: "¿Puedo saltarme directo a la parte de IA?",
+    a: "A veces. Un negocio con un buen sitio, reseñas constantes y visibilidad real ya hizo el trabajo previo, aunque no lo llamara así. El Findability Report es la forma de saberlo. Si la base está sólida, ir directo a Doble Presence es exactamente lo correcto, y el espacio de trabajo con IA viene incluido.",
   },
   {
     q: "¿El orden cambia para un mercado bilingüe?",
@@ -1671,24 +1671,34 @@ export const posts: Post[] = [
     faq: stepFourFaqEN,
     title: "Why AI is step four, not step one",
     excerpt:
-      "We are an AI implementation firm, and we put AI last on our own services list. Here's the order that actually works for a small business, and why.",
+      "We are an AI implementation firm, and we put AI last on our own services list. Then we went further and folded it into the second of two products. Here's the order that actually works for a small business, and why.",
     date: "July 23, 2026",
     dateISO: "2026-07-23",
     category: "AI Strategy",
     readTime: "4 min read",
     coverImage: "/work/services-four-steps.jpg",
     coverAlt:
-      "The four services on the Doble AI homepage in their new order: 01 Business Audit, 02 Competitive Landscape Analysis, 03 Brand and Sales Growth, 04 AI Implementation",
+      "The Doble AI homepage services section, since reduced from four cards to two products: the Findability Report and Doble Presence",
     keywords:
-      "small business AI strategy, when to adopt AI small business, business audit before AI, digital presence before AI implementation, AI implementation Colorado, bilingual AI implementation Eagle River Valley",
+      "small business AI strategy, when to adopt AI small business, findability before AI, digital presence before AI implementation, AI implementation Colorado, bilingual AI implementation Eagle River Valley, Findability Report, Doble Presence",
     content: (
       <>
         <p>
-          This week we changed the order of the services on our own homepage.
-          A small edit: four cards, new numbers. But the order is the whole
-          argument. Business audit first, competitive landscape second, brand
-          and sales growth third, AI implementation last. We are an AI
-          implementation firm, and we put AI fourth on purpose.
+          Last summer we changed the order of the services on our own homepage.
+          A small edit: four cards, new numbers. But the order was the whole
+          argument. Audit first, competitive landscape second, brand and sales
+          growth third, AI implementation last. We are an AI implementation
+          firm, and we put AI fourth on purpose.
+        </p>
+        <p>
+          Since then we have gone further, and the update matters more than the
+          original post did. There are no longer four cards. There are two
+          products: the{" "}
+          <a href="/findability-report">Findability Report</a>, which tells you
+          where you stand, and{" "}
+          <a href="/doble-presence">Doble Presence</a>, the month that follows.
+          The AI implementation did not get dropped. It moved inside Presence,
+          where it belongs, because it was never a thing you buy on its own.
         </p>
         <p>
           Here&apos;s why, and why we&apos;d give the same order to any small
@@ -1709,9 +1719,9 @@ export const posts: Post[] = [
           order.
         </p>
 
-        <h2>Step one: find out where you actually stand</h2>
+        <h2>Product one: find out where you actually stand</h2>
         <p>
-          Every engagement we take starts with a business audit: your website,
+          Every engagement we take starts with the Findability Report: your website,
           your Google profile, your reviews, how you show up in search and in
           AI answers, and how all of that compares to what your customers see
           when they go looking. You can&apos;t fix what you haven&apos;t
@@ -1725,10 +1735,11 @@ export const posts: Post[] = [
           , and a site can pass the first while failing the second.
         </p>
 
-        <h2>Step two: learn who&apos;s winning your market and why</h2>
+        <h2>Inside it: who&apos;s winning your market and why</h2>
         <p>
           Your gaps only mean something next to the businesses taking your
-          customers. So we map the competitive landscape: who ranks where you
+          customers, which is why the competitive landscape is part of the
+          Report rather than a second purchase. We map who ranks where you
           should, what they do well, where they&apos;re coasting, and the
           white space nobody in your market has claimed yet. That last part
           matters most. In almost every market we&apos;ve audited, there is an
@@ -1739,26 +1750,30 @@ export const posts: Post[] = [
           and why so few owners run one.
         </p>
 
-        <h2>Step three: get found and tell your story</h2>
+        <h2>Product two: get found, tell your story, and let AI compound it</h2>
         <p>
-          This is the digital presence work. A site that answers the questions
-          customers actually ask. A Google profile with real reviews on it.
-          Content that says what you do in plain language, in Spanish too when
-          your market calls for it. It&apos;s the least glamorous step and the
-          highest-leverage one, because this layer is what AI has to work with
-          later. Skip it and step four has nothing to stand on.
+          This is Doble Presence, and it is where the old steps three and four
+          collapsed into one thing. A site that answers the questions customers
+          actually ask. A Google profile with real reviews on it. Content that
+          says what you do in plain language, in Spanish too when your market
+          calls for it. It&apos;s the least glamorous work and the
+          highest-leverage, because this layer is what AI has to work with.
         </p>
-
-        <h2>Step four: now AI has something to compound</h2>
         <p>
-          With the foundation in place, AI implementation stops being a
-          gadget. A workspace with persistent memory that learns your
-          business. Workflows that accumulate instead of resetting every
-          morning. A bilingual agent answering the phone after hours instead
-          of losing the job to voicemail. Built on a business customers can
-          find, these systems compound. Built on an invisible one, they just
-          run quietly next to the silence. If you want the version of this
-          written as a decision rather than a sequence, we laid out{" "}
+          And underneath it runs the workspace: persistent memory that learns
+          your business, workflows that accumulate instead of resetting every
+          morning, bilingual agents that publish and review in both languages.
+          Where a month calls for it, a voice agent answers the phone after
+          hours instead of losing the job to voicemail. Ours does;{" "}
+          <a href="tel:+19704064630">call (970) 406-4630</a> and you can hear
+          it.
+        </p>
+        <p>
+          That workspace used to be card four with its own quote. It is now
+          simply how the month gets done, and there is no separate price for it,
+          because selling it separately was selling the amplifier without the
+          thing to amplify. If you want the version of this written as a
+          decision rather than a sequence, we laid out{" "}
           <a href="/blog/ai-roadmap-business-owners">
             how far to take AI and how to choose your own stopping point
           </a>
@@ -1778,17 +1793,19 @@ export const posts: Post[] = [
           getting found wasn&apos;t being found.
         </p>
         <p>
-          So we spent the month on steps one through three for ourselves:
-          fixing structured data, shipping a Spanish homepage, building town
-          pages, working our Google profile, asking for reviews. Our AI was
-          already built. It was waiting on everything else. That experience,
-          more than any sales logic, is why the services on our homepage now
-          read one, two, three, four.
+          So we spent the month on our own findability: fixing structured data,
+          shipping a Spanish homepage, building town pages, working our Google
+          profile, asking for reviews. Our AI was already built. It was waiting
+          on everything else. That experience, more than any sales logic, is why
+          the homepage now shows two products instead of four cards, and why the
+          AI sits inside the second one rather than beside it.
         </p>
         <p>
-          If you take one thing from this, take the sequence. Before you buy
-          an AI tool, spend a week finding out whether customers can find you
-          at all. That week is what we call step one, and ours is free.
+          If you take one thing from this, take the sequence. Before you buy an
+          AI tool, spend a week finding out whether customers can find you at
+          all. That is what the{" "}
+          <a href="/findability-report">Findability Report</a> is for, and the
+          one-page version of it is free.
         </p>
 
         <FAQ items={stepFourFaqEN} />
@@ -1801,25 +1818,34 @@ export const posts: Post[] = [
     faq: stepFourFaqES,
     title: "Por qué la IA es el paso cuatro, no el paso uno",
     excerpt:
-      "Somos una firma de implementación de IA y pusimos la IA al final de nuestra lista de servicios. El orden es el argumento: auditoría, competencia, presencia y después la IA.",
+      "Somos una firma de implementación de IA y pusimos la IA al final de nuestra lista de servicios. Después fuimos más lejos y la metimos dentro del segundo de 2 productos. El orden es el argumento.",
     date: "July 23, 2026",
     dateISO: "2026-07-23",
     category: "Estrategia de IA",
     readTime: "4 min de lectura",
     coverImage: "/work/services-four-steps.jpg",
     coverAlt:
-      "Los cuatro servicios en la página de Doble AI en su nuevo orden: 01 Auditoría de negocio, 02 Análisis del panorama competitivo, 03 Crecimiento de marca y ventas, 04 Implementación de IA",
+      "La sección de servicios de la página de Doble AI, que después pasó de cuatro tarjetas a dos productos: el Findability Report y Doble Presence",
     keywords:
-      "estrategia de IA pequeños negocios, cuándo adoptar IA en mi negocio, auditoría digital antes de IA, presencia digital antes de implementar IA, implementación de IA bilingüe Colorado",
+      "estrategia de IA pequeños negocios, cuándo adoptar IA en mi negocio, visibilidad antes de la IA, presencia digital antes de implementar IA, implementación de IA bilingüe Colorado, Findability Report, Doble Presence",
     content: (
       <>
         <p>
-          Esta semana cambiamos el orden de los servicios en nuestra propia
+          El verano pasado cambiamos el orden de los servicios en nuestra propia
           página. Un cambio pequeño: cuatro tarjetas, números nuevos. Pero el
-          orden es el argumento completo. Primero la auditoría de negocio,
-          segundo el panorama competitivo, tercero el crecimiento de marca y
-          ventas, y al final la implementación de IA. Somos una firma de
-          implementación de IA y pusimos la IA en cuarto lugar a propósito.
+          orden era el argumento completo. Primero la auditoría, segundo el
+          panorama competitivo, tercero el crecimiento de marca y ventas, y al
+          final la implementación de IA. Somos una firma de implementación de IA
+          y pusimos la IA en cuarto lugar a propósito.
+        </p>
+        <p>
+          Desde entonces fuimos más lejos, y esa actualización importa más que
+          el artículo original. Ya no hay cuatro tarjetas. Hay 2 productos: el{" "}
+          <a href="/es/findability-report">Findability Report</a>, que te dice
+          dónde estás parado, y{" "}
+          <a href="/es/doble-presence">Doble Presence</a>, el mes que sigue. La
+          implementación de IA no desapareció: se movió dentro de Presence,
+          que es donde le corresponde, porque nunca fue algo que se compre solo.
         </p>
         <p>
           Aquí está el porqué, y por qué le daríamos el mismo orden a
@@ -1841,9 +1867,9 @@ export const posts: Post[] = [
           vendiendo en el orden equivocado.
         </p>
 
-        <h2>Paso uno: saber dónde estás parado de verdad</h2>
+        <h2>Producto uno: saber dónde estás parado de verdad</h2>
         <p>
-          Cada proyecto que tomamos empieza con una auditoría de negocio: tu
+          Cada proyecto que tomamos empieza con el Findability Report: tu
           sitio web, tu perfil de Google, tus reseñas, cómo apareces en los
           buscadores y en las respuestas de IA, y cómo se compara todo eso con
           lo que ven tus clientes cuando te buscan. No puedes arreglar lo que
@@ -1852,38 +1878,40 @@ export const posts: Post[] = [
           visibilidad.
         </p>
 
-        <h2>Paso dos: saber quién está ganando tu mercado y por qué</h2>
+        <h2>Dentro del informe: quién está ganando tu mercado y por qué</h2>
         <p>
           Tus brechas solo significan algo junto a los negocios que se están
-          llevando a tus clientes. Por eso mapeamos el panorama competitivo:
-          quién aparece donde tú deberías aparecer, qué hacen bien, dónde se
+          llevando a tus clientes, y por eso el panorama competitivo va dentro
+          del informe y no como una segunda compra. Mapeamos quién aparece donde tú deberías aparecer, qué hacen bien, dónde se
           están durmiendo y qué espacio libre nadie en tu mercado ha
           reclamado. Esa última parte es la que más importa. En casi todos los
           mercados que hemos auditado hay un carril abierto por el que nadie
           está corriendo.
         </p>
 
-        <h2>Paso tres: que te encuentren y contar tu historia</h2>
+        <h2>Producto dos: que te encuentren, cuenta tu historia y deja que la IA lo multiplique</h2>
         <p>
-          Este es el trabajo de presencia digital. Un sitio que responde las
-          preguntas que los clientes de verdad hacen. Un perfil de Google con
-          reseñas reales. Contenido que explica lo que haces en lenguaje
-          claro, también en español cuando tu mercado lo pide. Es el paso
-          menos glamoroso y el de mayor palanca, porque esta capa es con la
-          que la IA va a trabajar después. Si te lo saltas, el paso cuatro no
-          tiene dónde pararse.
+          Esto es Doble Presence, y es donde los viejos pasos tres y cuatro se
+          juntaron en una sola cosa. Un sitio que responde las preguntas que los
+          clientes de verdad hacen. Un perfil de Google con reseñas reales.
+          Contenido que explica lo que haces en lenguaje claro, también en
+          español cuando tu mercado lo pide. Es el trabajo menos glamoroso y el
+          de mayor palanca, porque esta capa es con la que la IA va a trabajar.
         </p>
-
-        <h2>Paso cuatro: ahora la IA tiene algo que multiplicar</h2>
         <p>
-          Con la base en su lugar, la implementación de IA deja de ser un
-          aparato. Un espacio de trabajo con memoria persistente que aprende
-          tu negocio. Flujos de trabajo que se acumulan en lugar de empezar de
-          cero cada mañana. Un agente bilingüe que contesta el teléfono fuera
-          de horario en lugar de perder el trabajo en el buzón de voz.
-          Montados sobre un negocio que los clientes pueden encontrar, estos
-          sistemas se acumulan. Montados sobre uno invisible, solo corren en
-          silencio junto al silencio.
+          Y por debajo corre el espacio de trabajo: memoria persistente que
+          aprende tu negocio, flujos que se acumulan en lugar de empezar de cero
+          cada mañana, agentes bilingües que publican y revisan en los 2
+          idiomas. Cuando el mes lo pide, un agente de voz contesta el teléfono
+          fuera de horario en lugar de perder el trabajo en el buzón. El nuestro
+          lo hace:{" "}
+          <a href="tel:+19704064630">marca el (970) 406-4630</a> y lo escuchas.
+        </p>
+        <p>
+          Ese espacio de trabajo era la tarjeta cuatro, con su propia cotización.
+          Hoy es simplemente la forma en que se hace el mes, y no tiene precio
+          aparte, porque venderlo por separado era vender el amplificador sin
+          nada que amplificar.
         </p>
 
         <img
@@ -1900,19 +1928,20 @@ export const posts: Post[] = [
           siendo encontrada.
         </p>
         <p>
-          Así que pasamos el mes en los pasos uno al tres para nosotros
-          mismos: arreglar los datos estructurados, publicar una página de
-          inicio en español, construir páginas por pueblo, trabajar nuestro
-          perfil de Google, pedir reseñas. Nuestra IA ya estaba construida.
-          Estaba esperando todo lo demás. Esa experiencia, más que cualquier
-          lógica de ventas, es la razón por la que los servicios en nuestra
-          página ahora se leen uno, dos, tres, cuatro.
+          Así que pasamos el mes trabajando nuestra propia visibilidad: arreglar
+          los datos estructurados, publicar una página de inicio en español,
+          construir páginas por pueblo, trabajar nuestro perfil de Google, pedir
+          reseñas. Nuestra IA ya estaba construida. Estaba esperando todo lo
+          demás. Esa experiencia, más que cualquier lógica de ventas, es la
+          razón por la que la página ahora muestra 2 productos en lugar de 4
+          tarjetas, y por la que la IA va dentro del segundo y no al lado.
         </p>
         <p>
           Si te llevas una sola cosa de este artículo, llévate la secuencia.
-          Antes de comprar una herramienta de IA, dedica una semana a
-          averiguar si los clientes pueden encontrarte. Esa semana es lo que
-          nosotros llamamos el paso uno, y la nuestra es gratis.
+          Antes de comprar una herramienta de IA, dedica una semana a averiguar
+          si los clientes pueden encontrarte. Para eso existe el{" "}
+          <a href="/es/findability-report">Findability Report</a>, y la versión
+          de una página es gratis.
         </p>
 
         <FAQ items={stepFourFaqES} title="Preguntas frecuentes" />
@@ -3415,7 +3444,7 @@ export const posts: Post[] = [
     slug: "bilingual-ai-receptionist-small-business",
     title: "Your Phone Is Ringing. Nobody's There. That's Costing You.",
     excerpt:
-      "Missed calls don't just mean missed conversations. They mean missed revenue. For small businesses in the Vail Valley, where a growing share of customers speak Spanish, the problem compounds. Here's how a bilingual AI receptionist changes the math.",
+      "Missed calls don't just mean missed conversations. They mean missed revenue. For small businesses in the Vail Valley, where a growing share of customers speak Spanish, the problem compounds. Call (970) 406-4630 and hear what a bilingual AI voice agent does about it.",
     date: "April 23, 2026",
     dateISO: "2026-04-23",
     category: "AI Tools",
@@ -3425,7 +3454,7 @@ export const posts: Post[] = [
     coverAlt:
       "Colorado Rocky Mountain meadow and lake near Aspen: Colorado mountain living and small business",
     keywords:
-      "bilingual AI receptionist small business, AI phone answering service English Spanish, never miss a call small business, AI receptionist Vail Colorado, Lucy bilingual AI Doble AI, bilingual answering service Colorado, AI receptionist cost small business",
+      "bilingual AI receptionist small business, AI phone answering service English Spanish, never miss a call small business, AI voice agent Vail Colorado, LUCI bilingual AI Doble AI, bilingual answering service Colorado, Doble Presence phone agent",
     content: (
       <>
         <p>
@@ -3463,13 +3492,14 @@ export const posts: Post[] = [
           serve every caller. The problem is capacity.
         </p>
 
-        <h2>What a bilingual AI receptionist actually does</h2>
+        <h2>What a bilingual AI voice agent actually does</h2>
         <p>
-          Lucy is a bilingual AI receptionist built by Doble AI. She answers
-          your business line 24 hours a day, 7 days a week, in English and
-          Spanish. She handles the calls that happen while you&apos;re working,
-          after hours, and on weekends. She does it in the
-          caller&apos;s language.
+          LUCI is the bilingual AI voice agent we built at Doble AI. She answers
+          our own business line 24 hours a day, 7 days a week, in English and
+          Spanish, and you can call her right now at{" "}
+          <a href="tel:+19704064630">(970) 406-4630</a>. She handles the calls
+          that happen while you&apos;re working, after hours, and on weekends,
+          in the caller&apos;s language.
         </p>
         <p>
           When a call ends, you get an email. Not a voicemail you have to
@@ -3488,29 +3518,30 @@ export const posts: Post[] = [
           is warm before you even call back.
         </p>
 
-        <h2>What it replaces (and what it costs)</h2>
+        <h2>How you would actually get one</h2>
         <p>
-          A part-time human receptionist in the Vail Valley runs $15&ndash;20
-          an hour. Even 20 hours a week is $1,200&ndash;1,600 a month,
-          and that person isn&apos;t available nights, weekends, or when
-          they&apos;re sick. Bilingual staff cost more and are harder to find.
+          Here is the part that has changed since we first wrote this post. We
+          do not sell an AI receptionist as its own product, with its own setup
+          fee and its own monthly price. We tried it that way and it was the
+          wrong shape: a voice agent that is good is a voice agent that knows
+          the business, and knowing the business is not a five-day
+          configuration job.
         </p>
         <p>
-          The most comparable commercial service,{" "}
-          <strong>Smith.ai,</strong>{" "}charges $300&ndash;500 a month for a
-          human-hybrid answering service. Their Spanish support is limited. And
-          it&apos;s not truly AI. Humans fill the gaps, which is why it
-          costs what it costs.
+          So there are two products now, and this is not one of them. The{" "}
+          <a href="/findability-report">Findability Report</a> tells you where
+          you stand, and{" "}<a href="/doble-presence">Doble Presence</a> is the
+          month that follows: we build or repair the site, then run it. Where a
+          client&apos;s month calls for a phone agent, it gets built inside
+          Presence, on top of the same workspace that already holds the
+          services, the pricing, the service area, and the answers to the
+          questions people actually call to ask.
         </p>
         <p>
-          Lucy is{" "}
-          <strong>$500 to set up and $179 a month.</strong>{" "}
-          That includes a dedicated business phone number, full bilingual
-          capability, lead summaries to your inbox, and automatic
-          follow-up emails to callers who share their address.
-        </p>
-        <p>
-          She goes live in five business days.
+          Which is why the demo is a phone number rather than a pricing table.
+          Call <a href="tel:+19704064630">(970) 406-4630</a>. That is LUCI
+          answering our own line, in either language, and it is the fastest way
+          to hear what Presence sounds like when it picks up a phone.
         </p>
 
         <h2>Built for Colorado mountain living</h2>
@@ -3523,45 +3554,46 @@ export const posts: Post[] = [
           lifestyle shouldn&apos;t mean missing the call that pays for it.
         </p>
         <p>
-          We didn&apos;t build Lucy for a generic market. We built her for
+          We didn&apos;t build LUCI for a generic market. We built her for
           business owners in the Vail Valley, the Roaring Fork, and the
-          Colorado mountain corridor, places where the customer base
-          spans two languages and one missed call can mean a lost job, a lost
-          reservation, or a lost season. Lucy covers your phone so you can
-          step away from it without stepping away from your business.
+          Colorado mountain corridor, places where the customer base spans two
+          languages and one missed call can mean a lost job, a lost
+          reservation, or a lost season.
         </p>
         <p>
-          Lucy runs our own front line at Doble AI. Every call to our office
+          LUCI runs our own front line at Doble AI. Every call to our office
           goes through her first. We know she works because we use her every
-          day.
+          day, and that is the only claim we will make about her: not a price,
+          not a promise, a number you can dial.
         </p>
         <p>
           If you&apos;re a contractor, outfitter, florist, real estate
           professional, or service business owner in Colorado&apos;s mountain
-          corridor, and you&apos;re tired of missing calls you worked
-          hard to earn, Lucy is worth a conversation.
+          corridor, and you&apos;re tired of missing calls you worked hard to
+          earn, start with the free snapshot below. If the phone turns out to be
+          your biggest leak, we will say so, and the fix lives inside Presence.
         </p>
 
         <FAQ items={[
           {
-            q: "What is Lucy, Doble AI's AI receptionist?",
-            a: "Lucy is Doble AI's bilingual AI voice receptionist. She answers your business phone 24/7 in English and Spanish, summarizes each call in an email to your inbox, and sends automatic follow-ups to callers who share their email address.",
+            q: "What is LUCI, Doble AI's AI voice agent?",
+            a: "LUCI is Doble AI's bilingual AI voice agent. She answers our own business line 24/7 in English and Spanish at (970) 406-4630, summarizes each call in an email, and sends automatic follow-ups to callers who share their email address. Calling her is a live demonstration of what Doble Presence can put on a phone.",
           },
           {
             q: "How much does the AI receptionist cost?",
-            a: "Lucy is $500 to set up and $179 a month. That includes a dedicated business phone number, full bilingual capability, call summaries sent to your inbox after every call, and automatic follow-up emails to callers. She goes live in five business days.",
+            a: "There is no receptionist SKU. Doble AI sells two products: the Findability Report at $1,500, and Doble Presence from $2,500 a month in English and $3,500 a month bilingual. Where a client's month calls for a bilingual phone agent, it is built inside Presence rather than priced as a separate subscription.",
           },
           {
-            q: "What does Lucy do when she can't answer a caller's question?",
+            q: "What does LUCI do when she can't answer a caller's question?",
             a: "She takes the caller's name, number, and reason for calling and gets it to you immediately by email, the same way she handles every call. You always have a complete record of who called and what they needed.",
           },
           {
-            q: "Can Lucy handle industry-specific questions about my business?",
-            a: "Yes. Lucy is trained on your specific business: your services, pricing, hours, service area, and common questions. She's configured for your operation, not a generic script.",
+            q: "Can a voice agent handle industry-specific questions about my business?",
+            a: "Yes, because it is built on the same workspace that already holds your services, pricing, hours, service area, and the questions people actually call to ask. That is the reason it lives inside Doble Presence rather than being sold as a standalone configuration: the answers have to come from somewhere, and somewhere is the month of work underneath.",
           },
           {
-            q: "Does the AI receptionist work for businesses outside the Vail Valley?",
-            a: "Yes. Lucy can be deployed for any Colorado business and most businesses nationally. She's particularly valuable in markets where a significant share of customers speak Spanish as a first language.",
+            q: "Does this work for businesses outside the Vail Valley?",
+            a: "Yes. Doble Presence runs for businesses across Colorado, nationally, and in Mexico. A bilingual phone agent is particularly valuable in markets where a significant share of customers speak Spanish as a first language, and we will tell you plainly when a market does not have that base.",
           },
         ]} />
 
@@ -3573,7 +3605,7 @@ export const posts: Post[] = [
     slug: "recepcionista-ia-bilingue-pequenos-negocios",
     title: "Tu teléfono está sonando. Nadie contesta. Eso te cuesta dinero.",
     excerpt:
-      "Las llamadas perdidas no solo significan conversaciones perdidas — significan ingresos que se van. Para los pequeños negocios en el Valle de Vail, donde cada vez más clientes hablan español, el problema se multiplica. Así es como una recepcionista IA bilingüe cambia las cuentas.",
+      "Las llamadas perdidas no solo significan conversaciones perdidas: significan ingresos que se van. Para los pequeños negocios en el valle de Vail, donde cada vez más clientes hablan español, el problema se multiplica. Marca el (970) 406-4630 y escucha qué hace al respecto un agente de voz bilingüe con IA.",
     date: "23 de abril de 2026",
     dateISO: "2026-04-23",
     category: "Herramientas de IA",
@@ -3583,7 +3615,7 @@ export const posts: Post[] = [
     coverAlt:
       "Pradera y lago en las Montañas Rocosas de Colorado cerca de Aspen — vida en la montaña y pequeños negocios",
     keywords:
-      "recepcionista IA bilingüe pequeños negocios, contestador automático IA español inglés, nunca perder llamadas negocio pequeño, recepcionista IA Vail Colorado, Lucy recepcionista IA Doble AI, servicio contestador bilingüe Colorado, costo recepcionista IA negocio pequeño, atención telefónica IA español",
+      "recepcionista IA bilingüe pequeños negocios, contestador automático IA español inglés, nunca perder llamadas negocio pequeño, agente de voz IA Vail Colorado, LUCI Doble AI, servicio contestador bilingüe Colorado, Doble Presence agente telefónico, atención telefónica IA español",
     content: (
       <>
         <p>
@@ -3621,13 +3653,14 @@ export const posts: Post[] = [
           capacidad.
         </p>
 
-        <h2>Lo que hace en realidad una recepcionista IA bilingüe</h2>
+        <h2>Lo que hace en realidad un agente de voz bilingüe con IA</h2>
         <p>
-          Lucy es una recepcionista IA bilingüe creada por Doble AI. Atiende
-          tu línea de negocio las 24 horas del día, los 7 días de la semana,
-          en inglés y en español. Cubre las llamadas que entran mientras estás
-          trabajando, fuera de horario y los fines de semana &mdash; y lo hace
-          en el idioma de quien llama.
+          LUCI es el agente de voz bilingüe con IA que construimos en Doble AI.
+          Atiende nuestra propia línea las 24 horas del día, los 7 días de la
+          semana, en español y en inglés, y puedes llamarla ahora mismo al{" "}
+          <a href="tel:+19704064630">(970) 406-4630</a>. Cubre las llamadas que
+          entran mientras estás trabajando, fuera de horario y los fines de
+          semana, y lo hace en el idioma de quien llama.
         </p>
         <p>
           Cuando termina cada llamada, recibes un correo electrónico. No un
@@ -3647,30 +3680,30 @@ export const posts: Post[] = [
           la llamada.
         </p>
 
-        <h2>Lo que reemplaza (y lo que cuesta)</h2>
+        <h2>Cómo se consigue uno en realidad</h2>
         <p>
-          Una recepcionista humana de medio tiempo en el Valle de Vail cuesta
-          entre $15 y $20 la hora. Solo 20 horas a la semana son entre $1,200
-          y $1,600 al mes &mdash; y esa persona no está disponible de noche,
-          los fines de semana ni cuando se enferma. El personal bilingüe cuesta
-          más y es más difícil de encontrar.
+          Aquí está la parte que cambió desde que escribimos este artículo. No
+          vendemos una recepcionista con IA como producto aparte, con su costo
+          de instalación y su mensualidad. Lo intentamos así y era la forma
+          equivocada: un agente de voz bueno es uno que conoce el negocio, y
+          conocer el negocio no es un trabajo de configuración de cinco días.
         </p>
         <p>
-          El servicio comercial más comparable, Smith.ai, cobra entre $300 y
-          $500 al mes por un servicio híbrido con humanos. Su soporte en
-          español es limitado. Y no es verdaderamente IA &mdash; los humanos
-          llenan los huecos&mdash;, por eso cuesta lo que cuesta.
+          Hoy hay dos productos, y este no es uno de ellos. El{" "}
+          <a href="/es/findability-report">Findability Report</a> te dice dónde
+          estás parado, y{" "}<a href="/es/doble-presence">Doble Presence</a> es
+          el mes que sigue: construimos o reparamos el sitio y después lo
+          operamos. Cuando el mes de un cliente pide un agente telefónico, se
+          construye dentro de Presence, sobre el mismo espacio de trabajo que ya
+          guarda los servicios, los precios, el área de cobertura y las
+          respuestas a lo que la gente de verdad llama a preguntar.
         </p>
         <p>
-          Lucy cuesta{" "}
-          <strong>$500 de configuración y $179 al mes.</strong>{" "}
-          Eso incluye un número de teléfono dedicado para tu negocio, capacidad
-          bilingüe completa, resúmenes de prospectos en tu correo y mensajes
-          automáticos de seguimiento para quienes compartan su dirección de
-          correo.
-        </p>
-        <p>
-          Está en funcionamiento en cinco días hábiles.
+          Por eso la demostración es un número de teléfono y no una tabla de
+          precios. Marca el <a href="tel:+19704064630">(970) 406-4630</a>. Esa
+          es LUCI contestando nuestra propia línea, en cualquiera de los 2
+          idiomas, y es la forma más rápida de escuchar cómo suena Presence
+          cuando levanta un teléfono.
         </p>
 
         <h2>Diseñada para la vida en las montañas de Colorado</h2>
@@ -3684,45 +3717,47 @@ export const posts: Post[] = [
           perder la llamada que lo paga.
         </p>
         <p>
-          No construimos a Lucy para un mercado genérico. La construimos para
-          dueños de negocios en el Valle de Vail, el Roaring Fork y el corredor
-          montañoso de Colorado &mdash; lugares donde la base de clientes abarca
-          dos idiomas y una llamada perdida puede significar un trabajo perdido,
-          una reservación que se fue o toda una temporada. Lucy cubre tu
-          teléfono para que puedas alejarte de él sin alejarte de tu negocio.
+          No construimos a LUCI para un mercado genérico. La construimos para
+          dueños de negocios en el valle de Vail, el Roaring Fork y el corredor
+          montañoso de Colorado: lugares donde la base de clientes abarca 2
+          idiomas y una llamada perdida puede significar un trabajo perdido, una
+          reservación que se fue o toda una temporada.
         </p>
         <p>
-          Lucy atiende nuestra propia línea en Doble AI. Cada llamada a nuestra
+          LUCI atiende nuestra propia línea en Doble AI. Cada llamada a nuestra
           oficina pasa primero por ella. Sabemos que funciona porque la usamos
-          todos los días.
+          todos los días, y esa es la única afirmación que vamos a hacer sobre
+          ella: ni un precio ni una promesa, un número que puedes marcar.
         </p>
         <p>
           Si eres contratista, guía de pesca, florista, profesional de bienes
           raíces o dueño de un negocio de servicios en el corredor montañoso de
-          Colorado &mdash; y estás cansado de perder llamadas que te costó
-          trabajo conseguir &mdash; vale la pena conversar sobre Lucy.
+          Colorado, y estás cansado de perder llamadas que te costó trabajo
+          conseguir, empieza por el diagnóstico gratuito de abajo. Si el
+          teléfono resulta ser tu fuga más grande, te lo decimos, y el arreglo
+          vive dentro de Presence.
         </p>
 
         <FAQ title="Preguntas frecuentes" items={[
           {
-            q: "¿Qué es Lucy, la recepcionista IA de Doble AI?",
-            a: "Lucy es la recepcionista IA bilingüe de Doble AI. Atiende tu teléfono de negocio 24/7 en inglés y español, resume cada llamada en un correo a tu bandeja de entrada y envía seguimientos automáticos a quienes comparten su correo electrónico.",
+            q: "¿Qué es LUCI, el agente de voz con IA de Doble AI?",
+            a: "LUCI es el agente de voz bilingüe con IA de Doble AI. Atiende nuestra propia línea 24/7 en español y en inglés en el (970) 406-4630, resume cada llamada en un correo y envía seguimientos automáticos a quienes comparten su correo electrónico. Llamarla es una demostración en vivo de lo que Doble Presence puede poner en un teléfono.",
           },
           {
             q: "¿Cuánto cuesta la recepcionista IA?",
-            a: "Lucy tiene un costo de instalación de $500 y $179 al mes. Eso incluye un número de teléfono de negocio dedicado, capacidad bilingüe completa, resúmenes de llamadas enviados a tu correo y correos de seguimiento automáticos. Entra en operación en cinco días hábiles.",
+            a: "No existe un producto de recepcionista con precio propio. Doble AI vende 2 productos: el Findability Report por 1.500 dólares, y Doble Presence desde 2.500 dólares al mes en inglés y 3.500 bilingüe. Cuando el mes de un cliente pide un agente telefónico bilingüe, se construye dentro de Presence en lugar de cobrarse como una suscripción aparte.",
           },
           {
-            q: "¿Qué hace Lucy cuando no puede responder la pregunta de quien llama?",
+            q: "¿Qué hace LUCI cuando no puede responder la pregunta de quien llama?",
             a: "Toma el nombre, número y motivo de la llamada y te lo envía de inmediato por correo electrónico — igual que con cada llamada. Siempre tendrás un registro completo de quién llamó y qué necesitaba.",
           },
           {
-            q: "¿Puede Lucy manejar preguntas específicas sobre mi negocio?",
-            a: "Sí. Lucy se entrena con la información de tu negocio específico : tus servicios, precios, horarios, área de servicio y preguntas frecuentes. Se configura para tu operación, no con un guion genérico.",
+            q: "¿Puede un agente de voz manejar preguntas específicas sobre mi negocio?",
+            a: "Sí, porque se construye sobre el mismo espacio de trabajo que ya guarda tus servicios, precios, horarios, área de cobertura y las preguntas que la gente de verdad llama a hacer. Esa es la razón por la que vive dentro de Doble Presence y no se vende como una configuración suelta: las respuestas tienen que salir de algún lado, y ese lado es el mes de trabajo por debajo.",
           },
           {
-            q: "¿Funciona la recepcionista IA para negocios fuera del Vail Valley?",
-            a: "Sí. Lucy puede implementarse para cualquier negocio en Colorado y la mayoría a nivel nacional. Es especialmente valiosa en mercados donde una parte significativa de los clientes habla español como primer idioma.",
+            q: "¿Funciona esto para negocios fuera del valle de Vail?",
+            a: "Sí. Doble Presence opera para negocios en todo Colorado, a nivel nacional y en México. Un agente telefónico bilingüe es especialmente valioso en mercados donde una parte significativa de los clientes habla español como primer idioma, y te decimos con claridad cuando un mercado no tiene esa base.",
           },
         ]} />
 

@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     "The full method behind our $1,500 findability diagnostic: every structural check we run, a four-engine AI visibility sweep scored out of ten, Google Business Profile, and competitive landscape. Published in full.",
   alternates: {
     canonical: "/findability-report",
+    languages: {
+      en: "https://dobleai.com/findability-report",
+      es: "https://dobleai.com/es/findability-report",
+      "x-default": "https://dobleai.com/findability-report",
+    },
   },
   openGraph: {
     title: "The Findability Report: what we check and why | Doble AI",
@@ -164,6 +169,16 @@ export default function FindabilityReport() {
       {/* ── Hero ── */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto">
+          <div className="mb-8">
+            <a
+              href="/es/findability-report"
+              lang="es"
+              hrefLang="es"
+              className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 text-orange-400 hover:text-orange-300 hover:border-orange-500/50 text-sm font-medium px-4 py-2 rounded-full transition-colors"
+            >
+              Leer esta página en español →
+            </a>
+          </div>
           <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-8">
             <span className="w-6 h-px bg-orange-500" />
             The method, published in full
@@ -207,6 +222,12 @@ export default function FindabilityReport() {
               className="border border-white/20 hover:border-white/40 text-white font-semibold px-8 py-4 rounded-full transition-colors"
             >
               Read the method
+            </a>
+            <a
+              href="/doble-presence"
+              className="border border-white/20 hover:border-white/40 text-white font-semibold px-8 py-4 rounded-full transition-colors"
+            >
+              What Doble Presence is
             </a>
           </div>
         </div>
@@ -290,36 +311,24 @@ export default function FindabilityReport() {
           <h2 className="text-3xl font-bold leading-tight mb-8">
             What you actually receive.
           </h2>
-          <ul className="space-y-5 text-[#a3a3a3] text-lg leading-relaxed">
-            <li className="flex gap-4">
-              <span className="text-orange-500 mt-1">&mdash;</span>
-              <span>
-                A written report as a private web page, not a PDF, so the
-                screenshots are readable and every link works.
-              </span>
+          <ul className="space-y-5 text-[#a3a3a3] text-lg leading-relaxed list-disc pl-5 marker:text-orange-500">
+            <li>
+              A written report as a private web page, not a PDF, so the
+              screenshots are readable and every link works.
             </li>
-            <li className="flex gap-4">
-              <span className="text-orange-500 mt-1">&mdash;</span>
-              <span>
-                Every finding with the evidence attached. We report what is
-                visible and verify it at the source. If something cannot be
-                seen, the report says &ldquo;not visible,&rdquo; never
-                &ldquo;does not exist.&rdquo;
-              </span>
+            <li>
+              Every finding with the evidence attached. We report what is
+              visible and verify it at the source. If something cannot be seen,
+              the report says &ldquo;not visible,&rdquo; never &ldquo;does not
+              exist.&rdquo;
             </li>
-            <li className="flex gap-4">
-              <span className="text-orange-500 mt-1">&mdash;</span>
-              <span>
-                An AI visibility score out of ten, with the screenshots behind
-                it, that can be re-run monthly to show movement.
-              </span>
+            <li>
+              An AI visibility score out of ten, with the screenshots behind it,
+              that can be re-run monthly to show movement.
             </li>
-            <li className="flex gap-4">
-              <span className="text-orange-500 mt-1">&mdash;</span>
-              <span>
-                A prioritised fix list written for whoever manages your site,
-                including the ones you can do without us.
-              </span>
+            <li>
+              A prioritised fix list written for whoever manages your site,
+              including the ones you can do without us.
             </li>
           </ul>
         </div>

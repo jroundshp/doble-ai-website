@@ -30,7 +30,7 @@ export const townPages: TownPage[] = [
     lang: "en",
     pairSlug: "vail-espanol",
     town: "Vail",
-    metaTitle: "AI Marketing & Digital Presence in Vail, CO",
+    metaTitle: "Get found in Vail, CO: the Findability Report and Doble Presence",
     metaDescription:
       "Doble AI helps Vail businesses get found on Google and in AI search, tell their story to a global audience, and answer every call in English and Spanish.",
     tags: ["Resort economy", "Global visitors", "Hospitality"],
@@ -44,19 +44,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "What we do for Vail businesses",
     services: [
       {
-        phase: "Get found",
-        name: "Audit and foundation",
-        body: "We audit your Google Business Profile, website, and reviews against the searches Vail guests actually type, then fix whatever is keeping you off the first screen.",
+        phase: "Product 01",
+        name: "The Findability Report",
+        body: "We check your Google Business Profile, your site structure, and your reviews against the searches Vail guests actually type, and we put five of those questions to four AI engines to see who gets named instead of you. Scored out of ten, delivered in writing in 5 to 7 days. $1,500, credited to your first month.",
       },
       {
-        phase: "Tell the story",
-        name: "Content AI can quote",
-        body: "Guides, FAQs, and service pages that answer real guest questions, so Google and AI assistants have something of yours to cite when a visitor asks who to book.",
-      },
-      {
-        phase: "Amplify",
-        name: "LUCI, a 24/7 bilingual receptionist",
-        body: "Vail's guests call from every time zone. LUCI answers around the clock in English and Spanish, takes reservations and requests, and emails you the lead.",
+        phase: "Product 02",
+        name: "Doble Presence",
+        body: "Then we build or repair the site and run it every month: guides, FAQs, and service pages that answer real guest questions in English and Spanish, so Google and the AI assistants have something of yours to cite when a visitor asks who to book. Monitoring catches what breaks. From $2,500/month English, $3,500/month bilingual.",
       },
     ],
     bilingualHeading: "Two languages, one guest experience",
@@ -79,7 +74,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "Can you help us serve international and Spanish-speaking guests?",
-        a: "That is our specialty. We are a bilingual firm: we build Spanish versions of your key pages, translate menus and guest materials with native quality, and LUCI, our AI receptionist, answers your phone in both languages.",
+        a: "That is our specialty. We are a bilingual firm: we build Spanish versions of your key pages, translate menus and guest materials with native quality, and where the month calls for it, Presence puts a bilingual voice agent on your line. Call ours at (970) 406-4630 to hear one working.",
       },
       {
         q: "What does it cost to get started?",
@@ -92,7 +87,7 @@ export const townPages: TownPage[] = [
     lang: "es",
     pairSlug: "vail",
     town: "Vail",
-    metaTitle: "IA y marketing digital en Vail, Colorado",
+    metaTitle: "Que te encuentren en Vail: Findability Report y Doble Presence",
     metaDescription:
       "En Doble AI ayudamos a los negocios de Vail a aparecer en Google y en la búsqueda con IA, contar su historia y atender cada llamada en inglés y en español.",
     tags: ["Economía turística", "Visitantes globales", "Hospitalidad"],
@@ -106,19 +101,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "Qué hacemos por los negocios de Vail",
     services: [
       {
-        phase: "Aparece",
-        name: "Auditoría y base digital",
-        body: "Auditamos tu perfil de Google, tu sitio web y tus reseñas frente a lo que los huéspedes de Vail realmente buscan, y arreglamos lo que te deja fuera de la primera pantalla.",
+        phase: "Producto 01",
+        name: "El Findability Report",
+        body: "Revisamos tu perfil de Google, la estructura de tu sitio y tus reseñas frente a lo que los huéspedes de Vail realmente buscan, y le hacemos 5 de esas preguntas a 4 motores de IA para ver a quién nombran en tu lugar. Con puntaje sobre 10 y entregado por escrito en 5 a 7 días. 1.500 dólares, acreditados a tu primer mes.",
       },
       {
-        phase: "Cuenta tu historia",
-        name: "Contenido que la IA puede citar",
-        body: "Guías, preguntas frecuentes y páginas de servicio que responden dudas reales, para que Google y los asistentes de IA tengan algo tuyo que citar.",
-      },
-      {
-        phase: "Amplifica",
-        name: "LUCI, recepcionista bilingüe 24/7",
-        body: "Los huéspedes de Vail llaman desde cualquier zona horaria. LUCI contesta a toda hora en inglés y en español, toma reservas y te envía el contacto por correo.",
+        phase: "Producto 02",
+        name: "Doble Presence",
+        body: "Después construimos o reparamos el sitio y lo operamos cada mes: guías, preguntas frecuentes y páginas de servicio que responden dudas reales en español y en inglés, para que Google y los asistentes de IA tengan algo tuyo que citar. El monitoreo detecta lo que se rompe. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
       },
     ],
     bilingualHeading: "Dos idiomas, una sola experiencia",
@@ -141,11 +131,11 @@ export const townPages: TownPage[] = [
       },
       {
         q: "¿Pueden ayudarme a atender clientes en español y en inglés?",
-        a: "Es nuestra especialidad. Somos una firma bilingüe: creamos las versiones en español de tus páginas clave, traducimos menús y materiales con calidad nativa, y LUCI, nuestra recepcionista con IA, contesta tu teléfono en los 2 idiomas.",
+        a: "Es nuestra especialidad. Somos una firma bilingüe: creamos las versiones en español de tus páginas clave, traducimos menús y materiales con calidad nativa, y cuando el mes lo pide, Presence pone un agente de voz bilingüe en tu línea. Marca el nuestro, (970) 406-4630, para escuchar uno funcionando.",
       },
       {
         q: "¿Cuánto cuesta empezar?",
-        a: "La auditoría es gratuita. Revisamos tu presencia digital, le ponemos calificación y te explicamos los resultados en lenguaje claro. Si después quieres que te ayudemos, el Informe de Visibilidad completo cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presencia. Los precios son fijos y se dicen desde el principio, nunca por hora. Empezar no te compromete a nada.",
+        a: "La auditoría es gratuita. Revisamos tu presencia digital, le ponemos calificación y te explicamos los resultados en lenguaje claro. Si después quieres que te ayudemos, el Findability Report completo cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presence. Los precios son fijos y se dicen desde el principio, nunca por hora. Empezar no te compromete a nada.",
       },
     ],
   },
@@ -156,7 +146,7 @@ export const townPages: TownPage[] = [
     lang: "en",
     pairSlug: "avon-espanol",
     town: "Avon",
-    metaTitle: "AI Marketing & Digital Presence in Avon, CO",
+    metaTitle: "Get found in Avon, CO: the Findability Report and Doble Presence",
     metaDescription:
       "Doble AI helps Avon businesses win both audiences: Beaver Creek guests and the year-round locals who shop, eat, and search in two languages.",
     tags: ["Beaver Creek's front door", "Main-street retail", "Bilingual community"],
@@ -170,19 +160,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "What we do for Avon businesses",
     services: [
       {
-        phase: "Get found",
-        name: "Audit and foundation",
-        body: "We audit how you show up for both of your audiences: the Beaver Creek visitor searching from the chairlift and the local searching from the couch. Then we fix the gaps, starting with your Google profile and reviews.",
+        phase: "Product 01",
+        name: "The Findability Report",
+        body: "We measure how you show up for both of your audiences: the Beaver Creek visitor searching from the chairlift and the local searching from the couch, in English and in Spanish. Google profile, site structure, reviews, competitors, and a four-engine AI sweep scored out of ten. $1,500, delivered in 5 to 7 days, credited to your first month.",
       },
       {
-        phase: "Tell the story",
-        name: "Content AI can quote",
-        body: "Service pages and FAQs that answer what Avon customers actually ask, in the words they use, so search engines and AI assistants cite you instead of a competitor.",
-      },
-      {
-        phase: "Amplify",
-        name: "LUCI, a 24/7 bilingual receptionist",
-        body: "LUCI answers your phone in English and Spanish, every hour you are closed or busy, and emails you every lead with a summary and callback number.",
+        phase: "Product 02",
+        name: "Doble Presence",
+        body: "Then we fix it and keep it fixed: service pages and FAQs that answer what Avon customers actually ask, in the words they use and in both languages, so search engines and AI assistants cite you instead of a competitor. From $2,500/month English, $3,500/month bilingual.",
       },
     ],
     bilingualHeading: "The bilingual main street",
@@ -218,7 +203,7 @@ export const townPages: TownPage[] = [
     lang: "es",
     pairSlug: "avon",
     town: "Avon",
-    metaTitle: "IA y marketing digital en Avon, Colorado",
+    metaTitle: "Que te encuentren en Avon: Findability Report y Doble Presence",
     metaDescription:
       "En Doble AI ayudamos a los negocios de Avon a ganar sus 2 públicos: los huéspedes de Beaver Creek y la comunidad local que busca en español.",
     tags: ["La puerta de Beaver Creek", "Comercio local", "Comunidad bilingüe"],
@@ -232,19 +217,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "Qué hacemos por los negocios de Avon",
     services: [
       {
-        phase: "Aparece",
-        name: "Auditoría y base digital",
-        body: "Auditamos cómo apareces ante tus 2 públicos: el visitante de Beaver Creek que busca desde la telesilla y el vecino que busca desde su casa. Después arreglamos lo que falta, empezando por tu perfil de Google y tus reseñas.",
+        phase: "Producto 01",
+        name: "El Findability Report",
+        body: "Medimos cómo apareces ante tus 2 públicos: el visitante de Beaver Creek que busca desde la telesilla y el vecino que busca desde su casa, en inglés y en español. Perfil de Google, estructura del sitio, reseñas, competencia y un barrido de 4 motores de IA con puntaje sobre 10. 1.500 dólares, entregado en 5 a 7 días y acreditado a tu primer mes.",
       },
       {
-        phase: "Cuenta tu historia",
-        name: "Contenido que la IA puede citar",
-        body: "Páginas de servicios y preguntas frecuentes que responden lo que tus clientes realmente preguntan, con las palabras que ellos usan, para que Google y la IA te citen a ti.",
-      },
-      {
-        phase: "Amplifica",
-        name: "LUCI, recepcionista bilingüe 24/7",
-        body: "LUCI contesta tu teléfono en inglés y en español cuando estás cerrado u ocupado, y te envía cada contacto por correo con resumen y número para devolver la llamada.",
+        phase: "Producto 02",
+        name: "Doble Presence",
+        body: "Después lo arreglamos y lo mantenemos: páginas de servicios y preguntas frecuentes que responden lo que tus clientes realmente preguntan, con sus palabras y en los 2 idiomas, para que Google y la IA te citen a ti. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
       },
     ],
     bilingualHeading: "La calle principal bilingüe",
@@ -282,7 +262,7 @@ export const townPages: TownPage[] = [
     lang: "en",
     pairSlug: "edwards-espanol",
     town: "Edwards",
-    metaTitle: "AI Marketing & Digital Presence in Edwards, CO",
+    metaTitle: "Get found in Edwards, CO: the Findability Report and Doble Presence",
     metaDescription:
       "Doble AI helps Edwards professionals and restaurants turn strong referrals into strong search presence, in English and Spanish.",
     tags: ["Professional services", "Riverwalk dining", "Family neighborhoods"],
@@ -296,19 +276,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "What we do for Edwards businesses",
     services: [
       {
-        phase: "Get found",
-        name: "Audit and foundation",
-        body: "We audit what a referred client sees in the first sixty seconds of searching your name, then repair it: Google profile, reviews, and a site that reflects who you actually are today.",
+        phase: "Product 01",
+        name: "The Findability Report",
+        body: "We audit what a referred client sees in the first sixty seconds of searching your name: Google profile, reviews, site structure, the competitive set, and how four AI engines answer five questions a client would ask before choosing a practice. Scored out of ten. $1,500, delivered in 5 to 7 days, credited to your first month.",
       },
       {
-        phase: "Tell the story",
-        name: "Content AI can quote",
-        body: "Plain-language pages that answer the questions clients ask before choosing a practice or a table: services, process, pricing philosophy, and the FAQs AI assistants pull from.",
-      },
-      {
-        phase: "Amplify",
-        name: "LUCI, a 24/7 bilingual receptionist",
-        body: "LUCI answers after hours and during the lunch rush, in English and Spanish, screens the request, and emails your front desk a clean summary before the caller has hung up.",
+        phase: "Product 02",
+        name: "Doble Presence",
+        body: "Then we repair the site and run it: plain-language pages on services, process, and pricing philosophy, plus the FAQs AI assistants pull from, published in English and Spanish and kept current. From $2,500/month English, $3,500/month bilingual.",
       },
     ],
     bilingualHeading: "Bilingual, where it earns its keep",
@@ -331,7 +306,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "Can you help us serve Spanish-speaking clients?",
-        a: "Yes, and natively rather than through machine translation. We build Spanish versions of your key pages and intake materials, and LUCI answers your phone in both languages, which matters for clients who would rather not navigate an English-only front desk.",
+        a: "Yes, and natively rather than through machine translation. We build Spanish versions of your key pages and intake materials, and where the month calls for it, Presence puts a bilingual voice agent on your line, which matters for clients who would rather not navigate an English-only front desk. Ours answers at (970) 406-4630.",
       },
       {
         q: "What does it cost to get started?",
@@ -344,7 +319,7 @@ export const townPages: TownPage[] = [
     lang: "es",
     pairSlug: "edwards",
     town: "Edwards",
-    metaTitle: "IA y marketing digital en Edwards, Colorado",
+    metaTitle: "Que te encuentren en Edwards: Findability Report y Doble Presence",
     metaDescription:
       "En Doble AI ayudamos a los profesionales y restaurantes de Edwards a convertir sus referencias en presencia digital sólida, en inglés y en español.",
     tags: ["Servicios profesionales", "Restaurantes del Riverwalk", "Barrios familiares"],
@@ -358,19 +333,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "Qué hacemos por los negocios de Edwards",
     services: [
       {
-        phase: "Aparece",
-        name: "Auditoría y base digital",
-        body: "Auditamos lo que un cliente referido ve en el primer minuto de buscar tu nombre, y lo reparamos: perfil de Google, reseñas y un sitio que refleje quién eres hoy.",
+        phase: "Producto 01",
+        name: "El Findability Report",
+        body: "Auditamos lo que un cliente referido ve en el primer minuto de buscar tu nombre: perfil de Google, reseñas, estructura del sitio, la competencia real y cómo responden 4 motores de IA a 5 preguntas que alguien haría antes de elegir. Con puntaje sobre 10. 1.500 dólares, entregado en 5 a 7 días y acreditado a tu primer mes.",
       },
       {
-        phase: "Cuenta tu historia",
-        name: "Contenido que la IA puede citar",
-        body: "Páginas en lenguaje claro que responden lo que los clientes preguntan antes de elegir: servicios, proceso, precios y las preguntas frecuentes de donde citan los asistentes de IA.",
-      },
-      {
-        phase: "Amplifica",
-        name: "LUCI, recepcionista bilingüe 24/7",
-        body: "LUCI contesta fuera de horario y en la hora pico, en inglés y en español, filtra la solicitud y le envía a tu recepción un resumen limpio antes de que el cliente cuelgue.",
+        phase: "Producto 02",
+        name: "Doble Presence",
+        body: "Después reparamos el sitio y lo operamos: páginas en lenguaje claro sobre servicios, proceso y criterio de precios, más las preguntas frecuentes de donde citan los asistentes de IA, publicadas en español y en inglés y mantenidas al día. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
       },
     ],
     bilingualHeading: "Bilingüe, donde de verdad rinde",
@@ -393,7 +363,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "¿Pueden ayudarme a atender clientes en español?",
-        a: "Sí, y con calidad nativa, no con traducción automática. Creamos las versiones en español de tus páginas y materiales de ingreso, y LUCI contesta tu teléfono en los 2 idiomas, algo que tus clientes hispanohablantes agradecen desde la primera llamada.",
+        a: "Sí, y con calidad nativa, no con traducción automática. Creamos las versiones en español de tus páginas y materiales de ingreso, y cuando el mes lo pide, Presence pone un agente de voz bilingüe en tu línea, algo que tus clientes hispanohablantes agradecen desde la primera llamada. El nuestro contesta en el (970) 406-4630.",
       },
       {
         q: "¿Cuánto cuesta empezar?",
@@ -408,7 +378,7 @@ export const townPages: TownPage[] = [
     lang: "en",
     pairSlug: "eagle-espanol",
     town: "Eagle",
-    metaTitle: "AI Marketing & Digital Presence in Eagle, CO",
+    metaTitle: "Get found in Eagle, CO: the Findability Report and Doble Presence",
     metaDescription:
       "Doble AI helps Eagle contractors, trades, and local shops turn word-of-mouth reputations into search results that win the next decade of customers.",
     tags: ["County seat", "Trades & contractors", "Outdoor town"],
@@ -422,19 +392,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "What we do for Eagle businesses",
     services: [
       {
-        phase: "Get found",
-        name: "Audit and foundation",
-        body: "We claim and complete your Google Business Profile, get your first wave of reviews moving, and make sure your site says what you do, where you work, and how to reach you.",
+        phase: "Product 01",
+        name: "The Findability Report",
+        body: "We check whether your Google Business Profile is claimed and complete, whether your pages are indexed at all, who is ranking where you should be, and what four AI engines say when a homeowner asks who does your kind of work in Eagle. Scored out of ten. $1,500, delivered in 5 to 7 days, credited to your first month.",
       },
       {
-        phase: "Tell the story",
-        name: "Content AI can quote",
-        body: "Project photos with real descriptions, service pages per trade, and FAQs that answer what homeowners ask, so you show up when someone searches for the work you actually do.",
-      },
-      {
-        phase: "Amplify",
-        name: "LUCI, a 24/7 bilingual receptionist",
-        body: "You cannot answer the phone from a job site. LUCI can: she takes the call in English or Spanish, captures the job details, and emails you a summary you can return from the truck.",
+        phase: "Product 02",
+        name: "Doble Presence",
+        body: "Then we build it out and run it: project photos with real descriptions, a service page per trade, and FAQs that answer what homeowners ask, in English and Spanish, with the review engine moving and the site watched for what breaks. From $2,500/month English, $3,500/month bilingual.",
       },
     ],
     bilingualHeading: "Bilingual on the job site",
@@ -457,7 +422,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "Can you help with Spanish-speaking customers and crews?",
-        a: "Yes. We are a bilingual firm. We write real Spanish, not machine translation, for your services page and job ads, and LUCI answers your phone in both languages so no caller gets stuck.",
+        a: "Yes. We are a bilingual firm. We write real Spanish, not machine translation, for your services page and job ads, and where the month calls for it, Presence puts a bilingual voice agent on your line so no caller gets stuck. Ours answers at (970) 406-4630.",
       },
       {
         q: "What does it cost to get started?",
@@ -470,7 +435,7 @@ export const townPages: TownPage[] = [
     lang: "es",
     pairSlug: "eagle",
     town: "Eagle",
-    metaTitle: "IA y marketing digital en Eagle, Colorado",
+    metaTitle: "Que te encuentren en Eagle: Findability Report y Doble Presence",
     metaDescription:
       "En Doble AI ayudamos a contratistas, oficios y comercios de Eagle a convertir su reputación de boca en boca en resultados de búsqueda que ganan clientes.",
     tags: ["Cabecera del condado", "Oficios y contratistas", "Pueblo de montaña"],
@@ -484,19 +449,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "Qué hacemos por los negocios de Eagle",
     services: [
       {
-        phase: "Aparece",
-        name: "Auditoría y base digital",
-        body: "Reclamamos y completamos tu perfil de Google, ponemos en marcha tu primera ola de reseñas y nos aseguramos de que tu sitio diga qué haces, dónde trabajas y cómo contactarte.",
+        phase: "Producto 01",
+        name: "El Findability Report",
+        body: "Revisamos si tu perfil de Google está reclamado y completo, si tus páginas están siquiera indexadas, quién aparece donde deberías aparecer tú y qué responden 4 motores de IA cuando un dueño de casa pregunta quién hace tu tipo de trabajo en Eagle. Con puntaje sobre 10. 1.500 dólares, entregado en 5 a 7 días y acreditado a tu primer mes.",
       },
       {
-        phase: "Cuenta tu historia",
-        name: "Contenido que la IA puede citar",
-        body: "Fotos de proyectos con descripciones reales, páginas por servicio y preguntas frecuentes que responden lo que preguntan los dueños de casa, para que aparezcas cuando buscan tu oficio.",
-      },
-      {
-        phase: "Amplifica",
-        name: "LUCI, recepcionista bilingüe 24/7",
-        body: "No puedes contestar el teléfono desde la obra. LUCI sí: toma la llamada en inglés o en español, captura los detalles del trabajo y te envía un resumen para devolver la llamada desde la troca.",
+        phase: "Producto 02",
+        name: "Doble Presence",
+        body: "Después lo construimos y lo operamos: fotos de proyectos con descripciones reales, una página por servicio y preguntas frecuentes que responden lo que preguntan los dueños de casa, en español y en inglés, con el motor de reseñas andando y el sitio vigilado. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
       },
     ],
     bilingualHeading: "Bilingüe en la obra",
@@ -519,7 +479,7 @@ export const townPages: TownPage[] = [
       },
       {
         q: "¿Pueden ayudarme con clientes y cuadrillas que hablan español?",
-        a: "Sí. Somos una firma bilingüe. Escribimos español de verdad, no traducción automática, para tu página de servicios y tus anuncios de empleo, y LUCI contesta tu teléfono en los 2 idiomas para que ninguna llamada se pierda.",
+        a: "Sí. Somos una firma bilingüe. Escribimos español de verdad, no traducción automática, para tu página de servicios y tus anuncios de empleo, y cuando el mes lo pide, Presence pone un agente de voz bilingüe en tu línea para que ninguna llamada se pierda. El nuestro contesta en el (970) 406-4630.",
       },
       {
         q: "¿Cuánto cuesta empezar?",
@@ -534,7 +494,7 @@ export const townPages: TownPage[] = [
     lang: "en",
     pairSlug: "gypsum-espanol",
     town: "Gypsum",
-    metaTitle: "AI Marketing & Digital Presence in Gypsum, CO",
+    metaTitle: "Get found in Gypsum, CO: the Findability Report and Doble Presence",
     metaDescription:
       "Doble AI is based in Gypsum. We help our home town's trades, industry, and family businesses own the local search results while they are still cheap to own.",
     tags: ["Our home town", "Trades & industry", "Fastest growing"],
@@ -548,19 +508,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "What we do for Gypsum businesses",
     services: [
       {
-        phase: "Get found",
-        name: "Audit and foundation",
-        body: "We claim and build out your Google Business Profile, start the review engine, and fix your site so that new Gypsum families and Front Range customers flying into the airport can actually find you.",
+        phase: "Product 01",
+        name: "The Findability Report",
+        body: "We are in Gypsum, so we know how little is published here. We check your Google Business Profile, your site structure, and your reviews, then ask four AI engines the five questions a new Gypsum family or a customer flying into the airport would ask. Scored out of ten. $1,500, delivered in 5 to 7 days, credited to your first month.",
       },
       {
-        phase: "Tell the story",
-        name: "Content AI can quote",
-        body: "Real photos, real project write-ups, and FAQs in plain language. In a town with this little published content, even a modest page per service makes you the answer AI assistants find.",
-      },
-      {
-        phase: "Amplify",
-        name: "LUCI, a 24/7 bilingual receptionist",
-        body: "Half of Gypsum works with its hands, away from a phone. LUCI answers in English and Spanish, takes the job details, and emails you a summary before you are off the machine.",
+        phase: "Product 02",
+        name: "Doble Presence",
+        body: "Then we build it and run it: real photos, real project write-ups, and FAQs in plain language, published in English and Spanish. In a town with this little published content, even a modest page per service makes you the answer AI assistants find. From $2,500/month English, $3,500/month bilingual.",
       },
     ],
     bilingualHeading: "Bilingual, like the town itself",
@@ -582,8 +537,8 @@ export const townPages: TownPage[] = [
         a: "Keep the word of mouth; it is your best asset. But Gypsum is adding new households faster than anywhere in the county, and new arrivals have no word of mouth to rely on. They search. Showing up well is how your reputation reaches people who have not met you yet.",
       },
       {
-        q: "How does LUCI work for a crew that is in the field all day?",
-        a: "She answers your business line any hour, in English or Spanish, asks the questions you would ask (what is the job, where, how soon), and emails you a clean summary with the callback number. You return one organized call instead of playing phone tag all week.",
+        q: "How would a voice agent work for a crew that is in the field all day?",
+        a: "Call LUCI, the one that answers our own line at (970) 406-4630, and you will hear it. It answers any hour, in English or Spanish, asks the questions you would ask (what is the job, where, how soon), and emails you a clean summary with the callback number. You return one organized call instead of playing phone tag all week.",
       },
       {
         q: "What does it cost to get started?",
@@ -596,7 +551,7 @@ export const townPages: TownPage[] = [
     lang: "es",
     pairSlug: "gypsum",
     town: "Gypsum",
-    metaTitle: "IA y marketing digital en Gypsum, Colorado",
+    metaTitle: "Que te encuentren en Gypsum: Findability Report y Doble Presence",
     metaDescription:
       "Doble AI tiene su base en Gypsum. Ayudamos a los oficios, la industria y los negocios familiares de nuestro pueblo a adueñarse de la búsqueda local.",
     tags: ["Nuestro pueblo", "Oficios e industria", "El que más crece"],
@@ -610,19 +565,14 @@ export const townPages: TownPage[] = [
     servicesHeading: "Qué hacemos por los negocios de Gypsum",
     services: [
       {
-        phase: "Aparece",
-        name: "Auditoría y base digital",
-        body: "Reclamamos y completamos tu perfil de Google, encendemos el motor de reseñas y arreglamos tu sitio para que las familias nuevas de Gypsum y los clientes que llegan por el aeropuerto puedan encontrarte.",
+        phase: "Producto 01",
+        name: "El Findability Report",
+        body: "Vivimos en Gypsum, así que sabemos lo poco que se publica aquí. Revisamos tu perfil de Google, la estructura de tu sitio y tus reseñas, y después le hacemos a 4 motores de IA las 5 preguntas que haría una familia nueva de Gypsum o un cliente que llega por el aeropuerto. Con puntaje sobre 10. 1.500 dólares, entregado en 5 a 7 días y acreditado a tu primer mes.",
       },
       {
-        phase: "Cuenta tu historia",
-        name: "Contenido que la IA puede citar",
-        body: "Fotos reales, proyectos reales y preguntas frecuentes en lenguaje claro. En un pueblo con tan poco contenido publicado, hasta una página modesta por servicio te convierte en la respuesta que la IA encuentra.",
-      },
-      {
-        phase: "Amplifica",
-        name: "LUCI, recepcionista bilingüe 24/7",
-        body: "Medio Gypsum trabaja con las manos, lejos del teléfono. LUCI contesta en inglés y en español, toma los detalles del trabajo y te envía un resumen antes de que bajes de la máquina.",
+        phase: "Producto 02",
+        name: "Doble Presence",
+        body: "Después lo construimos y lo operamos: fotos reales, proyectos reales y preguntas frecuentes en lenguaje claro, publicadas en español y en inglés. En un pueblo con tan poco contenido publicado, hasta una página modesta por servicio te convierte en la respuesta que la IA encuentra. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
       },
     ],
     bilingualHeading: "Bilingüe, como el pueblo mismo",
@@ -644,12 +594,12 @@ export const townPages: TownPage[] = [
         a: "Conserva la boca en boca: es tu mejor activo. Pero Gypsum suma hogares nuevos más rápido que cualquier otro pueblo del condado, y los recién llegados no tienen vecinos a quienes preguntar. Buscan en internet. Aparecer bien es la forma de que tu reputación alcance a quienes todavía no te conocen.",
       },
       {
-        q: "¿Cómo funciona LUCI para una cuadrilla que pasa el día en el campo?",
-        a: "Contesta tu línea a cualquier hora, en inglés o en español, hace las preguntas que tú harías (qué trabajo es, dónde, para cuándo) y te envía por correo un resumen limpio con el número de contacto. Devuelves una sola llamada organizada en lugar de perseguir mensajes toda la semana.",
+        q: "¿Cómo funcionaría un agente de voz para una cuadrilla que pasa el día en el campo?",
+        a: "Marca el (970) 406-4630 y escucha a LUCI, la que contesta nuestra propia línea. Contesta a cualquier hora, en inglés o en español, hace las preguntas que tú harías (qué trabajo es, dónde, para cuándo) y te envía por correo un resumen limpio con el número de contacto. Devuelves una sola llamada organizada en lugar de perseguir mensajes toda la semana.",
       },
       {
         q: "¿Cuánto cuesta empezar?",
-        a: "La auditoría es gratuita, y como vivimos en Gypsum, con gusto te explicamos los resultados con un café aquí en el pueblo. Después, el Informe de Visibilidad completo cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presencia. Para la mayoría de los negocios de Gypsum, los primeros arreglos son también los más baratos de la lista.",
+        a: "La auditoría es gratuita, y como vivimos en Gypsum, con gusto te explicamos los resultados con un café aquí en el pueblo. Después, el Findability Report completo cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presence. Para la mayoría de los negocios de Gypsum, los primeros arreglos son también los más baratos de la lista.",
       },
     ],
   },

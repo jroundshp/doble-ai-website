@@ -19,16 +19,24 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: "What does Doble AI do?",
-    a: "Doble AI is an AI-native, bilingual implementation firm based in the Eagle River Valley, Colorado. We build AI workspaces that learn your business, remembering your clients, your workflows, and your brand voice, and compounding that knowledge over time. We also audit your digital presence, map your competitive landscape, and build brand and sales strategy. Everything we do is available in both English and Spanish.",
+    q: "Where do I start with Doble AI?",
+    a: "With the free snapshot. It is one page on where you stand: whether your pages are indexed, whether your Google Business Profile is claimed and complete, and the obvious structural problems on your site. It comes back within two business days, it costs nothing, and there is no obligation. If it turns up something worth the full diagnostic, we say so.",
   },
   {
-    q: "What is the difference between the free snapshot and the Findability Report?",
-    a: "The free snapshot is a one-page summary of where you stand: whether your pages are indexed, whether your Google Business Profile is claimed and complete, and the obvious structural problems on your site. It costs nothing and there is no obligation. The Findability Report is the full diagnostic: site structure and indexation, Google Business Profile, competitive landscape, and how five real buyer questions get answered across four AI engines, scored out of ten and delivered in writing with the screenshots behind every finding. It is $1,500, and we credit the full amount against your first month of Doble Presence if you continue.",
+    q: "What is the Findability Report?",
+    a: "The full diagnostic, and the first of our two products. Site structure and indexation, Google Business Profile, competitive landscape, and how five real buyer questions get answered across four AI engines, scored out of ten and delivered in writing with the screenshots behind every finding. It is $1,500, delivered in 5 to 7 days, and credited in full against your first month of Doble Presence if you continue. Every check we run is published at dobleai.com/findability-report.",
+  },
+  {
+    q: "What is Doble Presence?",
+    a: "The second product, and the one that runs every month. We build or repair the site, then run it: content published in English and Spanish as real pairs rather than translations, schema and structure kept correct so AI engines can read you, and monitoring that catches what breaks before your customers do. Underneath it runs an AI workspace that learns your business, and that workspace is how the month runs rather than a separate quote. From $2,500 a month in English and $3,500 a month bilingual.",
   },
   {
     q: "How much does this cost?",
     a: "The Findability Report is $1,500, credited in full against your first month if you continue. Doble Presence starts at $2,500 a month in English and $3,500 a month bilingual, and is scoped to your business. The AI workspace we build to run your month is part of Presence, not a separate quote. Pricing is fixed and stated up front. We do not bill hourly.",
+  },
+  {
+    q: "Is LUCI something I buy separately?",
+    a: "No. LUCI is the bilingual AI voice agent that answers our own line at (970) 406-4630, and calling it is the fastest way to hear what Doble Presence sounds like when it answers the phone. It is a demonstration, not a product with its own price. Where a client's month calls for a phone agent, it is built inside Presence.",
   },
   {
     q: "What makes Doble AI different from other AI firms?",
@@ -41,6 +49,10 @@ const faqs = [
   {
     q: "What industries does Doble AI work with?",
     a: "We work with small to mid-size businesses across construction and trades, real estate, hospitality, professional services, and nonprofits, especially businesses serving or looking to reach Spanish-speaking customers in Colorado mountain communities.",
+  },
+  {
+    q: "Are you the same as the other companies with similar names?",
+    a: "No, and there are a few. We are not Doble Engineering, the Boston electrical test equipment manufacturer. We are not the video production company on LinkedIn at /company/doble-ai, run by Ernesto Jimenez. We are not Base Camp in Eagle River, Wisconsin. Doble AI is the AI services brand of Eagle River Basecamp LLC, a Colorado company in Gypsum, in the Eagle River Valley. One office, one phone number: (970) 406-4630.",
   },
 ];
 
@@ -141,15 +153,15 @@ function Problem() {
             that into revenue. And unlike most AI firms, we can extend
             that work into the Spanish-speaking market with native fluency and
             authentic content, not translations. For businesses that want it,
-            that&apos;s a significant edge. For those focused on the English
-            market, the AI implementation stands on its own.
+            that&apos;s a significant edge. For the rest, the English-only work
+            is the same work.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           {[
             { val: "AI", label: "Tools to automate, amplify, and grow your business" },
             { val: "90", label: "Days to your first full progress review" },
-            { val: "5–7", label: "Days to deliver your full business audit" },
+            { val: "5–7", label: "Days to deliver your Findability Report" },
             { val: "2x", label: "Potential reach for businesses that serve both English and Spanish-speaking markets" },
           ].map((s) => (
             <div
@@ -175,12 +187,15 @@ function Services() {
       desc: "Where you actually stand. We check your site structure and indexation, your Google Business Profile, your competitive landscape, and how five real buyer questions get answered across four AI engines. Scored out of ten, delivered in writing, with the screenshots behind every finding.",
       detail: "$1,500 · Delivered in 5–7 days · Credited to your first month",
       href: "/findability-report",
+      linkLabel: "See every check we run →",
     },
     {
       num: "02",
       name: "Doble Presence",
       desc: "We build or repair the site, then run it. Content published in English and Spanish as real pairs rather than translations, schema and structure kept correct so AI engines can read you, and monitoring that catches what breaks before your customers do. Underneath it runs an AI workspace that learns your business: persistent memory, accumulated workflows, bilingual agents. That workspace is how the month runs, not a separate line item.",
       detail: "From $2,500/month English · From $3,500/month bilingual",
+      href: "/doble-presence",
+      linkLabel: "See what is in the month →",
     },
   ];
 
@@ -217,7 +232,7 @@ function Services() {
                   href={s.href}
                   className="inline-block mt-4 text-sm text-orange-500 hover:text-orange-400 font-medium"
                 >
-                  See every check we run &rarr;
+                  {s.linkLabel}
                 </a>
               )}
             </div>
@@ -241,7 +256,7 @@ function HowWeWork() {
     },
     {
       title: "Fast where it counts",
-      desc: "A full business audit in 5–7 days. Content published in two languages. Sites watched for the failures that don't throw an error.",
+      desc: "A Findability Report in 5 to 7 days. Content published in two languages. Sites watched for the failures that don't throw an error.",
     },
   ];
 
@@ -305,7 +320,8 @@ function VoiceDemo() {
               Lucy answers in English. Switch to Spanish and she becomes Lucía, instantly. Available 24/7, never on hold, never off script.
             </p>
             <p className="text-[#a3a3a3] leading-relaxed max-w-md">
-              This is the same system we build for our clients. Try it, then ask us to build one for your business.
+              This is how Doble Presence answers the phone. Call (970) 406-4630
+              and hear it working, then ask us to point one at your line.
             </p>
           </div>
           <div className="flex flex-col items-start md:items-center gap-4 shrink-0">
@@ -418,7 +434,7 @@ function SampleWork() {
    so the section ships with no extra assets. To use a real screenshot instead,
    drop a file at public/work/<slug>.png and pass `image="/work/<slug>.png"` on the
    project below — ProjectVisual will render it in the frame in place of the panel. */
-const projects = [
+const clientProjects = [
   {
     name: "John Tyler Real Estate",
     kind: "Client build · Luxury real estate · Vail & the Eagle River Valley, CO",
@@ -452,22 +468,6 @@ const projects = [
     image: "/work/alexander-estrada.jpg",
   },
   {
-    name: "Ellicottville Outside",
-    kind: "Our product · Outdoor destination guide · Ellicottville, NY",
-    step1Label: "The gap we saw",
-    step1:
-      "Ellicottville is a two-resort, four-season ski village (Holiday Valley and HoliMont) with 140-plus miles of mountain-bike trail, hiking, fishing, paddling, and Allegany State Park just to the south. But there was no single, independent place that pulled it all together. Locals and visitors alike had to bounce between two resort sites, a chamber directory, and Facebook just to figure out what the town actually offers across a given season.",
-    step2Label: "What we built",
-    step2:
-      "One place locals and visitors can go for the whole town: things to do across all four seasons, the village, directories of 21 shops and 25 restaurants, a live events calendar, weather, and a growing library of local guides. This project didn't call for a bilingual build, but it got the same care our client sites do. It's fast, thoughtfully organized, and engineered for SEO and GEO, so the town surfaces in Google and in AI tools like ChatGPT and Grok. One bookmark instead of six.",
-    domain: "ellicottvilleoutside.com",
-    href: "https://ellicottvilleoutside.com",
-    cta: "See it live",
-    tag: "All things outdoor in Ellicottville",
-    gradient: "linear-gradient(135deg, #0c2a1a 0%, #1f5a3a 58%, #d4a029 125%)",
-    image: "/work/ellicottville-outside.jpg",
-  },
-  {
     name: "Sol Ramirez Real Estate",
     kind: "Client build · Real estate · Ajijic, Mexico",
     step1Label: "The audit revealed",
@@ -491,7 +491,7 @@ const projects = [
       "Nine years in asphalt, his own company started at the beginning of 2026, and no digital presence at all. No website, no Google Business Profile, not one directory listing. Someone in Gypsum searching for driveway repair had no way to find him, and Google and ChatGPT had never heard of him either. He works in English and Spanish, in a valley where that matters and where not one competitor had a Spanish page.",
     step2Label: "What we did",
     step2:
-      "Bought the domain, built a bilingual site written twice instead of translated, and got his Google Business Profile filed and verified so he turns up in the map box for the fifteen towns he actually drives to, Vail to Aspen. Every photo on the site is his own work. The part homeowners stop on is the diagnostic gallery: three kinds of cracking, three different answers, including the ones where the cheap fix is the right call. Call, text, or WhatsApp from any page in either language, and the whole build is architected for SEO and GEO, so he surfaces in Google and in AI tools like ChatGPT and Grok.",
+      "Bought the domain, built a bilingual site written twice instead of translated, and filed his Google Business Profile so there is something for the map box to find. Two listings are live and the merge is still in progress. Every photo on the site is his own work. The part homeowners stop on is the diagnostic gallery: three kinds of cracking, three different answers, including the ones where the cheap fix is the right call. Call, text, or WhatsApp from any page in either language, and the whole build is architected for SEO and GEO, so he surfaces in Google and in AI tools like ChatGPT and Grok.",
     domain: "rockygoatasphalt.com",
     href: "https://rockygoatasphalt.com",
     cta: "Visit the site",
@@ -499,50 +499,28 @@ const projects = [
     gradient: "linear-gradient(135deg, #1b1b1d 0%, #3a3f44 55%, #d98a24 125%)",
     image: "/work/rocky-goat.jpg",
   },
+];
+
+/* Properties we own. Not things we sell: they are where the same method runs
+   on our own dime, which is the only reason they belong on this page. */
+const ownedProperties = [
+  {
+    name: "Ellicottville Outside",
+    what: "The whole of a two-resort ski town in one place: four seasons of things to do, 20 shops, 26 places to eat and drink, a live events calendar, and 50-plus miles of trail within minutes of the village, with Art Roscoe in Allegany State Park a short drive south.",
+    domain: "ellicottvilleoutside.com",
+    href: "https://ellicottvilleoutside.com",
+  },
   {
     name: "CO Headwaters Report",
-    kind: "Our product · Live data dashboard",
-    step1Label: "The gap we saw",
-    step1:
-      "River guides, fly-fishing outfitters, and local river enthusiasts were bouncing between half a dozen sources to get current, accurate flows, water temperatures, and, for the fly guides especially, turbidity. The data existed, but it was scattered and slow to read when conditions change by the hour.",
-    step2Label: "What we built",
-    step2:
-      "One place to check the spots that matter across the Vail–Eagle River Valley and the Roaring Fork Valley: live flow, water temperature, and turbidity in a single, clean, real-time view. One bookmark instead of six.",
+    what: "Live flow, water temperature, and turbidity for the Vail, Eagle River, and Roaring Fork stretches that guides and outfitters actually check.",
     domain: "coheadwatersreport.com",
     href: "https://coheadwatersreport.com",
-    cta: "See it live",
-    tag: "Real-time river data",
-    gradient: "linear-gradient(135deg, #0a2540 0%, #145e8c 100%)",
   },
   {
     name: "Vail Valley Report",
-    kind: "Our product · Live data dashboard",
-    step1Label: "The gap we saw",
-    step1:
-      "Locals, visitors, and anyone heading up the mountain were checking one site for the temperature in town, another for the top and base of the resort, and yet another for the airport, just to figure out what the day actually looked like across the valley.",
-    step2Label: "What we built",
-    step2:
-      "A one-stop live report for the Vail Valley: current temps at the top and base of both Vail and Beaver Creek, local weather, and Eagle County Airport conditions, all on a single screen. One glance before you drive up, fly in, or head out.",
+    what: "Top and base temperatures at Vail and Beaver Creek, town weather, and Eagle County Airport conditions on one screen.",
     domain: "vailvalleyreport.com",
     href: "https://vailvalleyreport.com",
-    cta: "See it live",
-    tag: "One-stop conditions",
-    gradient: "linear-gradient(135deg, #1a2238 0%, #5b7fb0 100%)",
-  },
-  {
-    name: "LUCI: Bilingual AI Receptionist",
-    kind: "Our product · Bilingual AI · Live on this site",
-    step1Label: "The challenge",
-    step1:
-      "Small businesses miss calls, and miss them in two languages. After-hours and overflow calls go unanswered, and round-the-clock bilingual coverage is expensive to staff.",
-    step2Label: "What we built",
-    step2:
-      "LUCI answers 24/7 (Lucy in English, Lucía in Spanish), handles questions, routes calls, and emails you every lead. She's live on this very site: call and try her right now.",
-    domain: "dobleai.com",
-    href: "tel:+19704064630",
-    cta: "Call her now · (970) 406-4630",
-    tag: "Answers in English & Spanish",
-    gradient: "linear-gradient(135deg, #2a1505 0%, #b5560f 62%, #f97316 125%)",
   },
 ];
 
@@ -606,7 +584,7 @@ function Projects() {
         </p>
 
         <div className="space-y-16 md:space-y-24">
-          {projects.map((p, i) => (
+          {clientProjects.map((p, i) => (
             <div
               key={p.name}
               className="grid md:grid-cols-2 gap-10 md:gap-16 items-center"
@@ -657,6 +635,37 @@ function Projects() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* ── The properties we own ── */}
+        <div className="mt-24 pt-16 border-t border-white/[0.06]">
+          <p className="text-[#a3a3a3] text-lg leading-relaxed max-w-2xl mb-10">
+            We run the same method on properties we own, at our own expense:{" "}
+            <strong className="text-white font-semibold">Ellicottville Outside</strong>,{" "}
+            <strong className="text-white font-semibold">CO Headwaters Report</strong>, and{" "}
+            <strong className="text-white font-semibold">Vail Valley Report</strong>.
+            They are not for sale. They are where we prove the method on our own
+            dime before we bill anyone for it.
+          </p>
+          <div className="grid md:grid-cols-3 gap-4">
+            {ownedProperties.map((o) => (
+              <a
+                key={o.name}
+                href={o.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.08] rounded-2xl p-6 transition-colors"
+              >
+                <h3 className="text-lg font-semibold mb-2">{o.name}</h3>
+                <p className="text-[#a3a3a3] text-sm leading-relaxed flex-1 mb-4">
+                  {o.what}
+                </p>
+                <span className="text-sm text-orange-500 font-medium group-hover:text-orange-400 transition-colors">
+                  {o.domain} →
+                </span>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>

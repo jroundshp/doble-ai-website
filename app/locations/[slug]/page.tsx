@@ -103,7 +103,7 @@ export default async function TownPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <Nav />
+      <Nav lang={town.lang} />
 
       <article className="pt-28 pb-24 px-6">
         <div className="max-w-2xl mx-auto">
@@ -215,14 +215,14 @@ export default async function TownPage({
             </a>
             <p className="text-[#777] text-xs mt-4">
               {es
-                ? "O llama a LUCI, nuestra recepcionista bilingüe con IA: (970) 406-4630"
-                : "Or call LUCI, our bilingual AI receptionist: (970) 406-4630"}
+                ? "¿O quieres escuchar cómo Presence contesta el teléfono? Llama a LUCI al (970) 406-4630."
+                : "Or hear how Presence answers the phone: call LUCI at (970) 406-4630."}
             </p>
           </div>
         </div>
       </article>
 
-      <Footer />
+      <Footer lang={town.lang} />
     </main>
   );
 }

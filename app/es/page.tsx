@@ -36,16 +36,24 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: "¿Qué hace Doble AI?",
-    a: "Doble AI es una firma bilingüe de implementación de IA con base en el valle del río Eagle, Colorado. Construimos espacios de trabajo con IA que aprenden tu negocio: recuerdan a tus clientes, tus procesos y la voz de tu marca, y acumulan ese conocimiento con el tiempo. También auditamos tu presencia digital, mapeamos tu panorama competitivo y construimos estrategia de marca y ventas. Todo lo que hacemos está disponible en español y en inglés.",
+    q: "¿Por dónde empiezo con Doble AI?",
+    a: "Por el diagnóstico gratuito. Es una página sobre dónde estás: si tus páginas están indexadas, si tu perfil de Google Business está reclamado y completo, y los problemas estructurales evidentes de tu sitio. Te llega en 2 días hábiles, no cuesta nada y no te compromete. Si aparece algo que amerita el diagnóstico completo, te lo decimos.",
   },
   {
-    q: "¿Cuál es la diferencia entre el diagnóstico gratuito y el Informe de Visibilidad?",
-    a: "El diagnóstico gratuito es un resumen de una página sobre dónde estás: si tus páginas están indexadas, si tu perfil de Google Business está reclamado y completo, y los problemas estructurales evidentes de tu sitio. No cuesta nada y no tiene compromiso. El Informe de Visibilidad es el diagnóstico completo: estructura del sitio e indexación, perfil de Google Business, panorama competitivo y cómo responden 4 motores de IA a 5 preguntas reales de compradores, con puntaje sobre 10, entregado por escrito y con las capturas de pantalla que respaldan cada hallazgo. Cuesta 1.500 dólares y te lo acreditamos completo al primer mes de Doble Presencia si continúas.",
+    q: "¿Qué es el Findability Report?",
+    a: "El diagnóstico completo, y el primero de nuestros 2 productos. Estructura del sitio e indexación, perfil de Google Business, panorama competitivo y cómo responden 4 motores de IA a 5 preguntas reales de compradores, con puntaje sobre 10, entregado por escrito y con las capturas que respaldan cada hallazgo. Cuesta 1.500 dólares, se entrega en 5 a 7 días y te lo acreditamos completo al primer mes de Doble Presence si continúas. Cada revisión que hacemos está publicada en dobleai.com/es/findability-report.",
+  },
+  {
+    q: "¿Qué es Doble Presence?",
+    a: "El segundo producto, y el que opera cada mes. Construimos o reparamos el sitio y después lo operamos: contenido publicado en español y en inglés como pares reales, no como traducciones; esquema y estructura correctos para que los motores de IA puedan leerte; y monitoreo que detecta lo que se rompe antes que tus clientes. Por debajo corre un espacio de trabajo con IA que aprende tu negocio, y ese espacio es la forma en que opera el mes, no una cotización aparte. Desde 2.500 dólares al mes en inglés y 3.500 bilingüe.",
   },
   {
     q: "¿Cuánto cuesta?",
-    a: "El Informe de Visibilidad cuesta 1.500 dólares y te lo acreditamos completo al primer mes si continúas. Doble Presencia empieza en 2.500 dólares al mes en inglés y 3.500 bilingüe, y se ajusta a tu negocio. El espacio de trabajo con IA que construimos para operar tu mes va incluido en Presencia, no se cotiza aparte. Los precios son fijos y se dicen desde el principio. No cobramos por hora.",
+    a: "El Findability Report cuesta 1.500 dólares y te lo acreditamos completo al primer mes si continúas. Doble Presence empieza en 2.500 dólares al mes en inglés y 3.500 bilingüe, y se ajusta a tu negocio. El espacio de trabajo con IA que construimos para operar tu mes va incluido en Presence, no se cotiza aparte. Los precios son fijos y se dicen desde el principio. No cobramos por hora.",
+  },
+  {
+    q: "¿LUCI se compra por separado?",
+    a: "No. LUCI es el agente de voz bilingüe con IA que contesta nuestra propia línea en el (970) 406-4630, y llamarla es la forma más rápida de escuchar cómo suena Doble Presence cuando contesta el teléfono. Es una demostración, no un producto con precio propio. Cuando el mes de un cliente pide un agente telefónico, se construye dentro de Presence.",
   },
   {
     q: "¿Qué hace diferente a Doble AI de otras firmas de IA?",
@@ -58,6 +66,10 @@ const faqs = [
   {
     q: "¿Con qué industrias trabaja Doble AI?",
     a: "Trabajamos con pequeños y medianos negocios de construcción y oficios, bienes raíces, hospitalidad, servicios profesionales y organizaciones sin fines de lucro, en especial negocios que atienden o quieren llegar a clientes hispanohablantes en las comunidades de montaña de Colorado.",
+  },
+  {
+    q: "¿Son ustedes las otras empresas con nombres parecidos?",
+    a: "No, y hay varias. No somos Doble Engineering, el fabricante de equipos de prueba eléctrica de Boston. No somos la productora de video que aparece en LinkedIn como /company/doble-ai, de Ernesto Jimenez. No somos Base Camp de Eagle River, Wisconsin. Doble AI es la marca de servicios de IA de Eagle River Basecamp LLC, una empresa de Colorado con base en Gypsum, en el valle del río Eagle. Una sola oficina y un solo teléfono: (970) 406-4630.",
   },
 ];
 
@@ -162,15 +174,15 @@ function Problem() {
             las firmas de IA, podemos extender ese trabajo al mercado
             hispanohablante con fluidez nativa y contenido auténtico, no con
             traducciones. Para los negocios que lo quieren, es una ventaja
-            importante. Para los que se enfocan en el mercado en inglés, la
-            implementación de IA se sostiene por sí sola.
+            importante. Para el resto, el trabajo en inglés es exactamente el
+            mismo trabajo.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           {[
             { val: "IA", label: "Herramientas para automatizar, amplificar y hacer crecer tu negocio" },
             { val: "90", label: "Días para tu primera revisión completa de avance" },
-            { val: "5–7", label: "Días para entregar tu auditoría completa" },
+            { val: "5–7", label: "Días para entregar tu Findability Report" },
             { val: "2x", label: "Alcance potencial para negocios que atienden a clientes en inglés y en español" },
           ].map((s) => (
             <div
@@ -192,15 +204,19 @@ function Services() {
   const services = [
     {
       num: "01",
-      name: "El Informe de Visibilidad",
+      name: "El Findability Report",
       desc: "Tu punto de partida real. Revisamos la estructura de tu sitio y su indexación, tu perfil de Google Business, tu panorama competitivo y cómo responden 4 motores de IA a 5 preguntas reales de compradores. Con puntaje sobre 10, entregado por escrito y con las capturas de pantalla que respaldan cada hallazgo.",
       detail: "1.500 dólares · Entregado en 5–7 días · Acreditado al primer mes",
+      href: "/es/findability-report",
+      linkLabel: "Mira cada revisión que hacemos →",
     },
     {
       num: "02",
-      name: "Doble Presencia",
+      name: "Doble Presence",
       desc: "Construimos o reparamos el sitio, y después lo operamos. Publicamos contenido en español y en inglés como pares reales, no como traducciones. Mantenemos el esquema y la estructura correctos para que los motores de IA puedan leerte, y monitoreamos el sitio para detectar lo que se rompe antes que tus clientes. Por debajo corre un espacio de trabajo con IA que aprende tu negocio: memoria persistente, flujos de trabajo acumulados y agentes bilingües. Ese espacio de trabajo es la forma en que opera el mes, no una línea aparte.",
       detail: "Desde 2.500 dólares al mes en inglés · Desde 3.500 bilingüe",
+      href: "/es/doble-presence",
+      linkLabel: "Mira qué trae el mes →",
     },
   ];
 
@@ -232,6 +248,12 @@ function Services() {
               <h3 className="text-xl font-semibold mb-3">{s.name}</h3>
               <p className="text-[#a3a3a3] leading-relaxed mb-4">{s.desc}</p>
               <div className="text-xs text-orange-500/70 font-medium">{s.detail}</div>
+              <a
+                href={s.href}
+                className="inline-block mt-4 text-sm text-orange-500 hover:text-orange-400 font-medium"
+              >
+                {s.linkLabel}
+              </a>
             </div>
           ))}
         </div>
@@ -253,7 +275,7 @@ function HowWeWork() {
     },
     {
       title: "Rápido donde importa",
-      desc: "Una auditoría completa de negocio en 5–7 días. Contenido publicado en 2 idiomas. Sitios vigilados contra las fallas que no arrojan ningún error.",
+      desc: "Un Findability Report en 5 a 7 días. Contenido publicado en 2 idiomas. Sitios vigilados contra las fallas que no arrojan ningún error.",
     },
   ];
 
@@ -318,8 +340,8 @@ function VoiceDemo() {
               al instante. Disponible 24/7, sin esperas y sin salirse del guion.
             </p>
             <p className="text-[#a3a3a3] leading-relaxed max-w-md">
-              Es el mismo sistema que construimos para nuestros clientes.
-              Pruébala y luego pídenos una para tu negocio.
+              Así contesta el teléfono Doble Presence. Marca el (970) 406-4630 y
+              escúchalo funcionando, y después pídenos apuntar uno a tu línea.
             </p>
           </div>
           <div className="flex flex-col items-start md:items-center gap-4 shrink-0">
@@ -405,7 +427,7 @@ function SampleWork() {
 }
 
 /* ── Projects ── */
-const projects = [
+const clientProjects = [
   {
     name: "John Tyler Real Estate",
     kind: "Proyecto de cliente · Bienes raíces de lujo · Vail y el valle del río Eagle, CO",
@@ -439,22 +461,6 @@ const projects = [
     image: "/work/alexander-estrada.jpg",
   },
   {
-    name: "Ellicottville Outside",
-    kind: "Nuestro producto · Guía de destino al aire libre · Ellicottville, NY",
-    step1Label: "La brecha que vimos",
-    step1:
-      "Ellicottville es un pueblo de esquí con 2 resorts y 4 temporadas (Holiday Valley y HoliMont), más de 140 millas de senderos de bicicleta de montaña, caminatas, pesca, kayak y el parque estatal Allegany justo al sur. Pero no existía un solo lugar independiente que lo reuniera todo. Locales y visitantes tenían que saltar entre los sitios de los 2 resorts, un directorio de la cámara de comercio y Facebook solo para saber qué ofrece el pueblo en cada temporada.",
-    step2Label: "Lo que construimos",
-    step2:
-      "Un solo lugar para todo el pueblo: qué hacer en las 4 temporadas, la villa, directorios con 21 tiendas y 25 restaurantes, un calendario de eventos en vivo, el clima y una biblioteca creciente de guías locales. Este proyecto no pedía una versión bilingüe, pero recibió el mismo cuidado que nuestros sitios de clientes. Es rápido, está bien organizado y está diseñado para SEO y GEO, así que el pueblo aparece en Google y en herramientas de IA como ChatGPT y Grok. Un solo marcador en lugar de 6.",
-    domain: "ellicottvilleoutside.com",
-    href: "https://ellicottvilleoutside.com",
-    cta: "Verlo en vivo",
-    tag: "Todo lo outdoor en Ellicottville",
-    gradient: "linear-gradient(135deg, #0c2a1a 0%, #1f5a3a 58%, #d4a029 125%)",
-    image: "/work/ellicottville-outside.jpg",
-  },
-  {
     name: "Sol Ramirez Real Estate",
     kind: "Proyecto de cliente · Bienes raíces · Ajijic, México",
     step1Label: "Lo que reveló la auditoría",
@@ -478,7 +484,7 @@ const projects = [
       "Nueve años trabajando el asfalto, empresa propia abierta a principios de 2026 y cero presencia digital. Ni sitio web, ni perfil de Google Business, ni un solo directorio. Quien buscaba reparación de entradas en Gypsum no tenía cómo encontrarlo, y ni Google ni ChatGPT sabían que existía. Trabaja en español y en inglés, en un valle donde eso pesa y donde ningún competidor tenía una página en español.",
     step2Label: "Lo que hicimos",
     step2:
-      "Compramos el dominio, construimos un sitio bilingüe escrito dos veces en lugar de traducido, y dejamos su perfil de Google Business creado y verificado para que aparezca en el mapa de los 15 pueblos a los que de verdad maneja, de Vail a Aspen. Cada foto del sitio es trabajo suyo. Donde más se detiene la gente es en la galería de diagnóstico: 3 tipos de agrietamiento, 3 respuestas distintas, incluidas las veces en que lo barato es lo correcto. Llamada, mensaje o WhatsApp desde cualquier página y en cualquiera de los 2 idiomas, y todo el sitio está diseñado para SEO y GEO, así que aparece en Google y en herramientas de IA como ChatGPT y Grok.",
+      "Compramos el dominio, construimos un sitio bilingüe escrito dos veces en lugar de traducido, y dejamos presentado su perfil de Google Business para que el mapa tenga algo que encontrar. Hay 2 fichas en vivo y la fusión sigue en proceso. Cada foto del sitio es trabajo suyo. Donde más se detiene la gente es en la galería de diagnóstico: 3 tipos de agrietamiento, 3 respuestas distintas, incluidas las veces en que lo barato es lo correcto. Llamada, mensaje o WhatsApp desde cualquier página y en cualquiera de los 2 idiomas, y todo el sitio está diseñado para SEO y GEO, así que aparece en Google y en herramientas de IA como ChatGPT y Grok.",
     domain: "rockygoatasphalt.com",
     href: "https://rockygoatasphalt.com",
     cta: "Visitar el sitio",
@@ -486,50 +492,28 @@ const projects = [
     gradient: "linear-gradient(135deg, #1b1b1d 0%, #3a3f44 55%, #d98a24 125%)",
     image: "/work/rocky-goat.jpg",
   },
+];
+
+/* Propiedades nuestras. No se venden: es donde el mismo método corre a nuestra
+   costa, que es la única razón por la que aparecen en esta página. */
+const ownedProperties = [
+  {
+    name: "Ellicottville Outside",
+    what: "Todo un pueblo de 2 resorts en un solo lugar: qué hacer en las 4 temporadas, 20 tiendas, 26 lugares para comer y beber, un calendario de eventos en vivo y más de 50 millas de sendero a minutos de la villa, con Art Roscoe en el parque estatal Allegany a un rato en carro.",
+    domain: "ellicottvilleoutside.com",
+    href: "https://ellicottvilleoutside.com",
+  },
   {
     name: "CO Headwaters Report",
-    kind: "Nuestro producto · Panel de datos en vivo",
-    step1Label: "La brecha que vimos",
-    step1:
-      "Guías de río, operadores de pesca con mosca y aficionados locales saltaban entre media docena de fuentes para conocer los caudales actuales, la temperatura del agua y, para los guías de mosca en especial, la turbidez. Los datos existían, pero estaban dispersos y eran lentos de leer cuando las condiciones cambian cada hora.",
-    step2Label: "Lo que construimos",
-    step2:
-      "Un solo lugar para revisar los puntos que importan entre el valle de Vail y el río Eagle y el valle de Roaring Fork: caudal, temperatura del agua y turbidez en vivo, en una sola vista limpia y en tiempo real. Un solo marcador en lugar de 6.",
+    what: "Caudal, temperatura del agua y turbidez en vivo de los tramos de Vail, el río Eagle y Roaring Fork que los guías y operadores de verdad revisan.",
     domain: "coheadwatersreport.com",
     href: "https://coheadwatersreport.com",
-    cta: "Verlo en vivo",
-    tag: "Datos de río en tiempo real",
-    gradient: "linear-gradient(135deg, #0a2540 0%, #145e8c 100%)",
   },
   {
     name: "Vail Valley Report",
-    kind: "Nuestro producto · Panel de datos en vivo",
-    step1Label: "La brecha que vimos",
-    step1:
-      "Locales, visitantes y cualquiera que subiera a la montaña revisaban un sitio para la temperatura del pueblo, otro para la cima y la base del resort y otro más para el aeropuerto, solo para saber cómo se veía el día en el valle.",
-    step2Label: "Lo que construimos",
-    step2:
-      "Un reporte en vivo de todo el valle de Vail: temperaturas actuales en la cima y la base de Vail y de Beaver Creek, el clima local y las condiciones del aeropuerto del condado de Eagle, todo en una sola pantalla. Un vistazo antes de manejar, volar o salir.",
+    what: "Temperaturas de cima y base en Vail y Beaver Creek, el clima del pueblo y las condiciones del aeropuerto del condado de Eagle en una sola pantalla.",
     domain: "vailvalleyreport.com",
     href: "https://vailvalleyreport.com",
-    cta: "Verlo en vivo",
-    tag: "Condiciones en un solo lugar",
-    gradient: "linear-gradient(135deg, #1a2238 0%, #5b7fb0 100%)",
-  },
-  {
-    name: "LUCI: Recepcionista bilingüe con IA",
-    kind: "Nuestro producto · IA bilingüe · En vivo en este sitio",
-    step1Label: "El desafío",
-    step1:
-      "Los pequeños negocios pierden llamadas, y las pierden en 2 idiomas. Las llamadas fuera de horario y las de desborde quedan sin contestar, y mantener cobertura bilingüe las 24 horas con personal es caro.",
-    step2Label: "Lo que construimos",
-    step2:
-      "LUCI contesta 24/7 (Lucía en español, Lucy en inglés), responde preguntas, dirige llamadas y te envía cada contacto por correo. Está en vivo en este mismo sitio: llámala y pruébala ahora.",
-    domain: "dobleai.com",
-    href: "tel:+19704064630",
-    cta: "Llámala ahora · (970) 406-4630",
-    tag: "Contesta en español y en inglés",
-    gradient: "linear-gradient(135deg, #2a1505 0%, #b5560f 62%, #f97316 125%)",
   },
 ];
 
@@ -591,7 +575,7 @@ function Projects() {
         </p>
 
         <div className="space-y-16 md:space-y-24">
-          {projects.map((p, i) => (
+          {clientProjects.map((p, i) => (
             <div
               key={p.name}
               className="grid md:grid-cols-2 gap-10 md:gap-16 items-center"
@@ -640,6 +624,37 @@ function Projects() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* ── Las propiedades que son nuestras ── */}
+        <div className="mt-24 pt-16 border-t border-white/[0.06]">
+          <p className="text-[#a3a3a3] text-lg leading-relaxed max-w-2xl mb-10">
+            El mismo método corre en propiedades nuestras, pagadas por nosotros:{" "}
+            <strong className="text-white font-semibold">Ellicottville Outside</strong>,{" "}
+            <strong className="text-white font-semibold">CO Headwaters Report</strong> y{" "}
+            <strong className="text-white font-semibold">Vail Valley Report</strong>.
+            No están a la venta. Son donde probamos el método con nuestro propio
+            dinero antes de cobrárselo a nadie.
+          </p>
+          <div className="grid md:grid-cols-3 gap-4">
+            {ownedProperties.map((o) => (
+              <a
+                key={o.name}
+                href={o.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.08] rounded-2xl p-6 transition-colors"
+              >
+                <h3 className="text-lg font-semibold mb-2">{o.name}</h3>
+                <p className="text-[#a3a3a3] text-sm leading-relaxed flex-1 mb-4">
+                  {o.what}
+                </p>
+                <span className="text-sm text-orange-500 font-medium group-hover:text-orange-400 transition-colors">
+                  {o.domain} →
+                </span>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>

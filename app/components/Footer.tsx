@@ -5,6 +5,10 @@ const FOOTER_LABELS = {
     base: "/",
     services: "Services",
     work: "Work",
+    findability: "/findability-report",
+    report: "Findability Report",
+    presenceHref: "/doble-presence",
+    presence: "Doble Presence",
     translation: "Translation",
     blog: "Blog",
     about: "About",
@@ -17,6 +21,10 @@ const FOOTER_LABELS = {
     base: "/es",
     services: "Servicios",
     work: "Trabajo",
+    findability: "/es/findability-report",
+    report: "Findability Report",
+    presenceHref: "/es/doble-presence",
+    presence: "Doble Presence",
     translation: "Traducción",
     blog: "Blog",
     about: "Nosotros",
@@ -36,11 +44,18 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
             {t.entity}
           </span>
         </div>
-        <div className="flex gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           <a href={`${t.base}#services`} className="hover:text-white transition-colors">{t.services}</a>
           <a href={`${t.base}#work`} className="hover:text-white transition-colors">{t.work}</a>
-          <a href="/translation" className="hover:text-white transition-colors">{t.translation}</a>
-          <a href="/blog" className="hover:text-white transition-colors">{t.blog}</a>
+          <a href={t.findability} className="hover:text-white transition-colors">{t.report}</a>
+          <a href={t.presenceHref} className="hover:text-white transition-colors">{t.presence}</a>
+          {/* English-only pages stay out of the Spanish footer until they have twins */}
+          {lang === "en" && (
+            <>
+              <a href="/translation" className="hover:text-white transition-colors">{t.translation}</a>
+              <a href="/blog" className="hover:text-white transition-colors">{t.blog}</a>
+            </>
+          )}
           <a href={`${t.base}#about`} className="hover:text-white transition-colors">{t.about}</a>
           <a href={`${t.base}#contact`} className="hover:text-white transition-colors">{t.contact}</a>
         </div>
