@@ -629,7 +629,7 @@ export const posts: Post[] = [
     title: "A los que construyen la máquina no los reemplaza la máquina",
     excerpt:
       "Las tareas se están yendo y negarlo no ayuda a nadie. Lo que construyes mientras tanto es tuyo: flujos, agentes y memoria.",
-    date: "September 2, 2026",
+    date: "2 de septiembre de 2026",
     dateISO: "2026-09-02",
     category: "Estrategia de IA",
     readTime: "7 min de lectura",
@@ -767,12 +767,7 @@ export const posts: Post[] = [
           Si usas la IA como una forma más rápida de terminar el trabajo de
           hoy, terminas el trabajo de hoy más rápido y nada más. No se acumula
           nada. Si la usas como algo a lo que le estás enseñando, cada
-          corrección que haces este mes te sigue pagando el año que viene. Es
-          la misma idea que{" "}
-          <a href="/blog/humano-mas-ia-es-la-magia">
-            la persona en el asiento de la maquinaria
-          </a>
-          , vista desde el lado de tu carrera.
+          corrección que haces este mes te sigue pagando el año que viene.
         </p>
         <p>
           Los archivos probablemente son de tu empleador, y conviene que
