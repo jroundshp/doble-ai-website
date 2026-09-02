@@ -26,7 +26,7 @@ const CTA = () => (
     <h3 className="text-2xl font-bold mb-3">Get a free business audit.</h3>
     <p className="text-[#a3a3a3] mb-6 max-w-md mx-auto">
       We&apos;ll review your digital presence, competitive position, and where
-      AI can make the biggest difference — at no charge.
+      AI can make the biggest difference, at no charge.
     </p>
     <a
       href="/#contact"
@@ -406,6 +406,14 @@ export const posts: Post[] = [
           nephew automated a report that used to take two days.
         </p>
         <p>
+          Outside that call, the same question is everywhere. Headlines.
+          Friends asking whether they should retrain. A lot of people treating
+          the tools like weather. Tasks are leaving, and jobs that were only
+          those tasks are next. The useful move is the opposite of waiting: use
+          the same tools to write down how you work, then keep the system. That
+          is the better situation.
+        </p>
+        <p>
           The stock answer is that AI will not take your job, a person using AI
           will. It is a decent line. It is also useless, because it does not
           tell you what to do on Monday.
@@ -454,8 +462,7 @@ export const posts: Post[] = [
           the cases where the normal answer is wrong.
         </p>
         <p>
-          That is strategy work. It is the same thinking you would pay a
-          consultant to do, except you are doing it about your own job, and at
+          That is strategy work. You are doing it about your own job, and at
           the end of it you have a working thing instead of a slide.
         </p>
 

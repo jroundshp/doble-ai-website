@@ -93,7 +93,7 @@ export default async function BlogPost({
           "@type": "Person",
           "@id": "https://dobleai.com/#john-rounds",
           name: "John Rounds",
-          jobTitle: "AI Consultant & Founder",
+          jobTitle: "Founder & AI Implementation Specialist",
           url: "https://dobleai.com/#john-rounds",
         },
     publisher: { "@id": "https://dobleai.com/#organization" },
@@ -250,7 +250,7 @@ export default async function BlogPost({
               <div>
                 <p className="text-sm font-semibold text-white mb-1">John Rounds</p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed">
-                  Founder of Doble AI. Bilingual AI consultant and business strategist with 20+ years of
+                  Founder & AI Implementation Specialist at Doble AI. Bilingual AI implementation and business strategy, with 20+ years of
                   international experience across 50+ countries. Works with Colorado businesses to implement
                   AI strategy and grow in both English and Spanish markets.
                 </p>
