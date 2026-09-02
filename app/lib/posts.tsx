@@ -354,7 +354,241 @@ const secondBrainFaqES = [
   },
 ];
 
+const buildMachineFaqEN = [
+  {
+    q: "Will AI take my job?",
+    a: "It will take tasks out of your job, and it is already doing it. The honest read is that repetitive work with no judgment in it moves first. What survives is the part where somebody decides what should happen and takes responsibility for it. The people who come out ahead are not the ones who avoided the tools; they are the ones who used them to build workflows, agents, and memory they now own.",
+  },
+  {
+    q: "What is the difference between a prompt and a workflow?",
+    a: "A prompt is one turn of conversation. You type, it answers, and when the window closes the whole thing is gone. A workflow is the way you do something written down as steps: what goes in, what good output looks like, which cases break the normal answer, and where a human still has to sign off. A prompt gets you one result. A workflow gets you the same result every time, including on the days you are not thinking clearly.",
+  },
+  {
+    q: "I am not technical. Can I actually build this?",
+    a: "Yes, and the writing matters more than the code. The hard part is describing how you make a decision clearly enough that something else can follow it, and that is not a programming skill. The tools available now let you teach a task by doing it once and then put it on a schedule. Most people who stall are stuck on the description, not the software.",
+  },
+  {
+    q: "If I automate my own work, am I making myself redundant?",
+    a: "Only if you hand over the system and keep nothing. There is a real difference between building an automation, giving it away, and going back to your old queue, versus owning the workflow and moving up to the next problem. Keep the thing you built and keep building. The risk is not that you automate your work; it is that you automate it and stay in the same seat.",
+  },
+  {
+    q: "Do I own what I build at work?",
+    a: "The files usually belong to your employer, and you should assume they do. What leaves with you is less negotiable: you are now a person who has designed a working system, and you know how to build the next one faster. That is what shows up in your next salary conversation, and it is not something a company can keep in a folder.",
+  },
+  {
+    q: "How long before any of this pays off?",
+    a: "Longer than the demos suggest. The first version of a workflow is usually worse than doing the task by hand, which is exactly when most people quit. Expect a few weeks of correction before something runs reliably, and expect the real return to show up months later, once the system has enough accumulated context that it stops making the same mistakes. The parts are cheap. The tuning underneath them is not.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "will-ai-take-my-job-build-the-machine",
+    faq: buildMachineFaqEN,
+    title: "The people who build the machine don\u2019t get replaced by it",
+    excerpt:
+      "The tasks are going away, and pretending otherwise helps nobody. What you build on the way out is yours: workflows, agents, and memory.",
+    date: "September 2, 2026",
+    dateISO: "2026-09-02",
+    category: "AI Strategy",
+    readTime: "7 min read",
+    coverImage: "/work/build-the-machine-en.jpg",
+    coverAlt:
+      "Dark title card reading The people who build the machine don't get replaced by it, above three cards labeled Workflows, Agents and Memory",
+    keywords:
+      "will AI take my job, AI job replacement, AI and careers, build AI workflows, AI agents for individuals, persistent AI memory, AI skills that pay, automate admin work, high level thinking vs busywork",
+    content: (
+      <>
+        <p>
+          It comes up sideways, usually at the end of a call about something
+          else. Their company bought licenses for the whole department. A team
+          down the hall got smaller and nobody explained why. Somebody&apos;s
+          nephew automated a report that used to take two days.
+        </p>
+        <p>
+          The stock answer is that AI will not take your job, a person using AI
+          will. It is a decent line. It is also useless, because it does not
+          tell you what to do on Monday.
+        </p>
+        <h2>What is actually disappearing?</h2>
+        <p>
+          Tasks. The ones that run the same way every time and do not require
+          you to know anything that is not already written down. Formatting the
+          report. Pulling numbers into a summary. The first draft of an email
+          you have written four hundred times. Reading a long document to find
+          the one paragraph that matters.
+        </p>
+        <p>
+          If your week is mostly those, that is a real problem, and the
+          reassurance industry around AI is doing you no favors by skipping
+          past it.
+        </p>
+        <p>
+          What is not disappearing is the part where somebody decides what
+          should happen, and answers for it afterward. That work is getting
+          more valuable, not less, because there is now more output in the
+          world that needs someone to judge it.
+        </p>
+
+        <h2>Is the goal just to save time?</h2>
+        <p>That is where almost everyone stops, and it is the smaller half.</p>
+        <p>
+          &ldquo;AI frees you up to focus on strategy&rdquo; is the most worn
+          sentence in this industry. Every software company says it. It is also
+          easy to disprove: plenty of people automate an afternoon of admin and
+          find the afternoon has refilled with different admin by Thursday.
+          Time you get back does not become high-level thinking on its own. It
+          becomes email, unless you spend it on purpose.
+        </p>
+        <p>
+          But there is something underneath that line that is true, and hardly
+          anyone says it out loud. You cannot automate a decision without first
+          writing down how you make it.
+        </p>
+        <p>
+          Try it once. Take the thing you do every week and explain it to a
+          system well enough that what comes back is something you would
+          actually send. You will get four sentences in and hit a wall, because
+          most of what you know about that task has never been said out loud.
+          You will have to define what good looks like. You will have to name
+          the cases where the normal answer is wrong.
+        </p>
+        <p>
+          That is strategy work. It is the same thinking you would pay a
+          consultant to do, except you are doing it about your own job, and at
+          the end of it you have a working thing instead of a slide.
+        </p>
+
+        <h2>What do you build instead?</h2>
+        <p>
+          You build three things, and the reason it matters for the fear is
+          that all three leave the building with you.
+        </p>
+        <p>
+          A workflow is how you do something, written down in enough detail
+          that it runs the same way twice. Not a prompt. A prompt is one turn
+          of conversation and it evaporates when the window closes. A workflow
+          has inputs, steps, a definition of done, and a note about the part
+          that still needs a person.
+        </p>
+        <p>
+          An agent is that workflow running on a schedule or a trigger, while
+          you are asleep or on a chairlift. This is the point where it stops
+          feeling like a tool and starts feeling like help. We wrote the roster
+          version of this in July:{" "}
+          <a href="/blog/build-your-own-ai-team">one person, five agents</a>.
+        </p>
+        <p>
+          Memory is the system knowing your business. Your clients, your
+          prices, the way you talk, which of your projects deploys with a
+          script instead of a push, the mistake you made in March that you
+          refuse to repeat. It is the piece we argued for in April when we said{" "}
+          <a href="/blog/your-ai-should-know-your-business-by-now">
+            your AI should know your business by now
+          </a>
+          , and it is still the piece that gets skipped.
+        </p>
+
+        <img
+          src="/work/three-assets-you-own-en.jpg"
+          alt="Three stacked rows showing the assets an individual builds with AI: workflows as judgment written down, agents as workflows running on a schedule, and memory as the system knowing your clients and prices"
+        />
+
+        <h2>Why is memory the part that matters?</h2>
+        <p>Because it is the only one of the three that compounds.</p>
+        <p>
+          Anyone can copy your prompt in ten seconds. Anyone can buy the same
+          subscription. Nobody can copy two years of your accumulated context,
+          because it was never written anywhere else. It came out of being
+          corrected, over and over, by someone who knew when the answer was
+          wrong.
+        </p>
+        <p>
+          That is worth saying plainly, because it changes what you are
+          building. If you treat AI as a faster way to finish today&apos;s
+          work, you get today&apos;s work finished faster and nothing else.
+          Nothing accumulates. That is level one, and{" "}
+          <a href="/blog/ai-learning-curve">most people never leave it</a>. If
+          you treat it as something you are teaching, every correction you make
+          this month is still paying you next year.
+        </p>
+        <p>
+          The files may live on a company laptop, and you should assume they
+          belong to your employer. The part that leaves with you is not
+          negotiable: you have designed a working system, you know where the
+          hard parts were, and the next one takes you a third as long. That is
+          the thing you are actually negotiating with.
+        </p>
+
+        <h2>What does this look like when it is real?</h2>
+        <p>
+          Our phone is answered by one of these. It picks up in English or
+          Spanish, takes the caller&apos;s details, and emails the lead before
+          anyone has looked at a screen. It is not a demo. It is the number on
+          our contact page, and it has been answering since August.
+        </p>
+        <p>
+          Behind the writing sits about a hundred small files of memory. Which
+          client sites deploy with a script instead of a push, because I broke
+          one that way once. Which Spanish words we do not use. Which claims
+          are still unverified and cannot go in front of a client. None of that
+          was written in a burst. It went in one correction at a time, usually
+          right after something went wrong.
+        </p>
+        <p>
+          The wiring under all of it is the same four pieces every time, which
+          we laid out in{" "}
+          <a href="/blog/second-brain-architecture">
+            a second brain is an architecture, not an app
+          </a>
+          . The tools changed twice this year. The architecture did not.
+        </p>
+
+        <h2>What does it cost to get there?</h2>
+        <p>
+          The parts are cheap. A subscription, an automation service, a voice
+          platform billed by the minute. What actually costs you is the months
+          of tuning underneath, and that is the part nobody puts in a sales
+          deck.
+        </p>
+        <p>
+          Version one of anything you build will be worse than doing the task
+          by hand. That is not a sign you chose badly. It is the normal shape
+          of the curve, and it is exactly where most people quit, somewhere in
+          week three, right before the corrections start compounding. The
+          people who end up with something that works are not smarter. They
+          were willing to be slower for a month.
+        </p>
+
+        <h2>Where do you start on Monday?</h2>
+        <p>
+          Pick the task you resent most. Not the most important one, the most
+          annoying one, because you will need the motivation in week three.
+        </p>
+        <p>
+          Write out how you actually do it, in steps, including the judgment
+          calls you have never articulated. Then run it five times with
+          whatever AI tool you already have, and keep a running note of every
+          single thing it got wrong and what the right answer was.
+        </p>
+        <p>
+          That note is the thing. Not the automation, the note. It is the first
+          page of your memory, and it is the only part of this that cannot be
+          bought, borrowed, or handed to you by a vendor.
+        </p>
+        <p>
+          A year from now the automation will be unremarkable and you could
+          rebuild it in an afternoon. The note will be forty pages, it will
+          contain most of what you know about your own work, and it will exist
+          for exactly one reason: you kept it.
+        </p>
+
+        <FAQ items={buildMachineFaqEN} />
+
+        <CTA />
+      </>
+    ),
+  },
   {
     slug: "second-brain-architecture",
     faq: secondBrainFaqEN,
