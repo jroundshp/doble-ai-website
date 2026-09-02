@@ -381,6 +381,33 @@ const buildMachineFaqEN = [
   },
 ];
 
+const buildMachineFaqES = [
+  {
+    q: "¿La IA me va a quitar el trabajo?",
+    a: "Te va a quitar tareas del trabajo, y eso ya está pasando. Lo honesto es decir que el trabajo repetitivo, el que no lleva criterio, se va primero. Lo que queda es la parte donde alguien decide qué debe pasar y responde por esa decisión. Los que salen mejor parados no son los que evitaron las herramientas, sino los que las usaron para construir flujos, agentes y memoria que ahora son suyos.",
+  },
+  {
+    q: "¿Cuál es la diferencia entre un prompt y un flujo de trabajo?",
+    a: "Un prompt es un turno de conversación. Escribes, te responde, y cuando cierras la ventana no queda nada. Un flujo de trabajo es cómo haces algo, escrito por pasos: qué entra, cómo se ve un buen resultado, en qué casos la respuesta normal no sirve, y dónde todavía tiene que firmar una persona. Un prompt te da un resultado. Un flujo te da el mismo resultado siempre, incluso los días en que no estás pensando bien.",
+  },
+  {
+    q: "No soy una persona técnica. ¿De verdad puedo construir esto?",
+    a: "Sí, y escribir bien importa más que programar. La parte difícil es describir cómo tomas una decisión con suficiente claridad como para que otra cosa la pueda seguir, y eso no es una habilidad de programación. Las herramientas de hoy te dejan enseñar una tarea haciéndola una vez y después ponerla en un horario. Casi todos los que se atascan están atascados en la descripción, no en el software.",
+  },
+  {
+    q: "Si automatizo mi propio trabajo, ¿no me estoy volviendo prescindible?",
+    a: "Solo si entregas el sistema y no te quedas con nada. Hay una diferencia real entre construir una automatización, regalarla y volver a tu misma fila de pendientes, y quedarte con el flujo para pasar al siguiente problema. Guarda lo que construiste y sigue construyendo. El riesgo no es automatizar tu trabajo; es automatizarlo y quedarte en la misma silla.",
+  },
+  {
+    q: "¿Lo que construyo en mi empleo es mío?",
+    a: "Los archivos casi siempre son de la empresa, y conviene que lo des por hecho. Lo que sí se va contigo no está a discusión: ya diseñaste un sistema que funciona y sabes cómo hacer el siguiente en menos tiempo. Eso es lo que aparece en tu próxima conversación de sueldo, y no es algo que una empresa pueda guardar en una carpeta.",
+  },
+  {
+    q: "¿En cuánto tiempo se ve el resultado?",
+    a: "Más tarde de lo que sugieren las demostraciones. La primera versión de un flujo suele ser peor que hacer la tarea a mano, que es justo cuando la mayoría abandona. Cuenta con algunas semanas de corrección antes de que algo corra de forma confiable, y con que el retorno real aparezca meses después, cuando el sistema ya acumuló suficiente contexto para dejar de repetir los mismos errores. Las piezas son baratas. El ajuste que va debajo no lo es.",
+  },
+];
+
 export const posts: Post[] = [
   {
     slug: "will-ai-take-my-job-build-the-machine",
@@ -593,6 +620,237 @@ export const posts: Post[] = [
         <FAQ items={buildMachineFaqEN} />
 
         <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "la-ia-me-va-a-quitar-el-trabajo",
+    faq: buildMachineFaqES,
+    title: "A los que construyen la máquina no los reemplaza la máquina",
+    excerpt:
+      "Las tareas se están yendo y negarlo no ayuda a nadie. Lo que construyes mientras tanto es tuyo: flujos, agentes y memoria.",
+    date: "September 2, 2026",
+    dateISO: "2026-09-02",
+    category: "Estrategia de IA",
+    readTime: "7 min de lectura",
+    coverImage: "/work/build-the-machine-es.jpg",
+    coverAlt:
+      "Placa oscura que dice A los que construyen la máquina no los reemplaza la máquina, sobre tres tarjetas: Flujos, Agentes y Memoria",
+    keywords:
+      "la IA me va a quitar el trabajo, IA y empleo, automatización y trabajo, flujos de trabajo con IA, agentes de IA, memoria persistente IA, habilidades de IA que pagan, trabajo administrativo automatizado",
+    content: (
+      <>
+        <p>
+          Casi siempre sale al final de una llamada, cuando ya se habló de otra
+          cosa. Que en la empresa le compraron licencias a todo el
+          departamento. Que un equipo del otro pasillo quedó más pequeño y
+          nadie explicó por qué. Que el sobrino de alguien automatizó un
+          reporte que antes tomaba dos días.
+        </p>
+        <p>
+          Fuera de esa llamada, la misma pregunta está en todas partes: en los
+          titulares, en los amigos que preguntan si deberían estudiar otra
+          cosa, en toda la gente que trata a estas herramientas como si fueran
+          el clima. Las tareas se están yendo, y los puestos que solo eran esas tareas
+          siguen en la lista. Lo útil es hacer justo lo contrario de esperar:
+          usar esas mismas herramientas para dejar escrito cómo trabajas, y
+          quedarte con el sistema.
+        </p>
+        <p>
+          La respuesta de cajón es que la IA no te va a quitar el trabajo, te
+          lo va a quitar alguien que sí la usa. La frase no está mal. Tampoco
+          sirve de mucho, porque no te dice qué hacer el lunes.
+        </p>
+
+        <h2>¿Qué es lo que está desapareciendo?</h2>
+        <p>
+          Tareas. Las que salen igual todas las veces y no dependen de que
+          sepas algo que no esté ya escrito en alguna parte: dar formato al
+          reporte, pasar números a un resumen, escribir el primer borrador de
+          un correo que ya redactaste cuatrocientas veces, leer un documento
+          largo para encontrar el único párrafo que importa.
+        </p>
+        <p>
+          Si tu semana es sobre todo eso, el problema es real, y a nadie le
+          sirve que le endulcen la respuesta.
+        </p>
+        <p>
+          Lo que no desaparece es la parte donde alguien decide qué debe pasar
+          y responde por eso después. Ese trabajo vale más ahora, no menos,
+          porque hay mucho más material dando vueltas que necesita a alguien
+          que lo juzgue.
+        </p>
+
+        <h2>¿La meta es solo ahorrar tiempo?</h2>
+        <p>
+          Ahí se queda casi todo el mundo, y esa es la mitad menos interesante.
+        </p>
+        <p>
+          &ldquo;La IA te libera para que te dediques a la estrategia&rdquo; es
+          la frase más gastada de esta industria. La dicen todas las empresas
+          de software. También es fácil de desmentir: mucha gente automatiza
+          una tarde de trabajo administrativo y para el jueves esa tarde ya se
+          volvió a llenar con otro trabajo administrativo. El tiempo que
+          recuperas no se convierte solo en pensamiento estratégico. Se
+          convierte en correos, salvo que decidas gastarlo en otra cosa.
+        </p>
+        <p>
+          Pero debajo de esa frase hay algo cierto que casi nadie dice en voz
+          alta: no puedes automatizar una decisión sin antes dejar escrito cómo
+          la tomas.
+        </p>
+        <p>
+          Pruébalo una vez. Toma eso que haces todas las semanas y explícaselo
+          a un sistema con suficiente detalle como para que lo que salga sea
+          algo que de verdad mandarías. A las cuatro frases te topas con una
+          pared, porque la mayor parte de lo que sabes sobre esa tarea nunca la
+          dijiste en voz alta. Vas a tener que definir qué es un buen
+          resultado. Vas a tener que nombrar los casos donde la respuesta
+          normal está mal.
+        </p>
+        <p>
+          Eso es trabajo de estrategia. Lo estás haciendo sobre tu propio
+          trabajo, y al final te queda algo que funciona en lugar de una
+          diapositiva.
+        </p>
+
+        <h2>¿Qué construyes en lugar de eso?</h2>
+        <p>
+          Construyes tres cosas, y lo que importa para el miedo es que las tres
+          se van contigo cuando te vas.
+        </p>
+        <p>
+          Un flujo de trabajo es la manera en que haces algo, escrita con
+          suficiente detalle como para que salga igual dos veces. No es un
+          prompt. Un prompt es un turno de conversación y se evapora cuando
+          cierras la ventana. Un flujo tiene entradas, pasos, una definición de
+          cuándo está terminado, y una nota sobre la parte que todavía necesita
+          a una persona.
+        </p>
+        <p>
+          Un agente es ese mismo flujo puesto a correr en un horario o con un
+          disparador, mientras tú duermes o estás en la telesilla. Ahí es donde
+          deja de sentirse como una herramienta y empieza a sentirse como
+          ayuda. La versión de esto en forma de equipo la escribimos en julio:{" "}
+          <a href="/blog/construye-tu-propio-equipo-de-ia">
+            una persona, cinco agentes
+          </a>
+          .
+        </p>
+        <p>
+          La memoria es que el sistema conozca tu negocio. Tus clientes, tus
+          precios, cómo hablas, cuáles de tus proyectos se publican con un
+          script en vez de un push, el error de marzo que no piensas repetir.
+          Es la pieza por la que discutimos en abril cuando dijimos que{" "}
+          <a href="/blog/tu-ia-ya-deberia-conocer-tu-negocio">
+            tu IA ya debería conocer tu negocio
+          </a>
+          , y sigue siendo la que todos se saltan.
+        </p>
+
+        <img
+          src="/work/three-assets-you-own-es.jpg"
+          alt="Tres filas que muestran lo que una persona construye con IA: flujos de trabajo como criterio por escrito, agentes como flujos puestos a correr en un horario, y memoria como el sistema conociendo a tus clientes y tus precios"
+        />
+
+        <h2>¿Por qué la memoria es la parte que importa?</h2>
+        <p>Porque es la única de las tres que se acumula.</p>
+        <p>
+          Cualquiera copia tu prompt en diez segundos. Cualquiera paga la misma
+          suscripción. Nadie copia dos años de contexto tuyo, porque ese
+          contexto no está escrito en ningún otro lado. Salió de que alguien lo
+          corrigiera una y otra vez, alguien que sabía cuándo la respuesta
+          estaba mal.
+        </p>
+        <p>
+          Vale la pena decirlo claro, porque cambia lo que estás construyendo.
+          Si usas la IA como una forma más rápida de terminar el trabajo de
+          hoy, terminas el trabajo de hoy más rápido y nada más. No se acumula
+          nada. Si la usas como algo a lo que le estás enseñando, cada
+          corrección que haces este mes te sigue pagando el año que viene. Es
+          la misma idea que{" "}
+          <a href="/blog/humano-mas-ia-es-la-magia">
+            la persona en el asiento de la maquinaria
+          </a>
+          , vista desde el lado de tu carrera.
+        </p>
+        <p>
+          Los archivos probablemente son de tu empleador, y conviene que
+          asumas que sí. Lo que se va contigo no está a discusión: diseñaste un
+          sistema que funciona, sabes dónde estaban las partes difíciles, y el
+          siguiente te toma la tercera parte del tiempo. Eso es lo que de
+          verdad estás negociando.
+        </p>
+
+        <h2>¿Cómo se ve esto cuando ya funciona?</h2>
+        <p>
+          Nuestro teléfono lo contesta uno de estos. Contesta en inglés o en
+          español, toma los datos de quien llama, y manda el correo con el
+          prospecto antes de que alguien haya mirado una pantalla. No es una
+          demostración. Es el número que está en nuestra página de contacto, y
+          viene contestando desde agosto.
+        </p>
+        <p>
+          Detrás de lo que escribimos hay como cien archivos pequeños de
+          memoria: cuáles sitios de clientes se publican con un script en vez
+          de un push, porque una vez rompí uno así; qué palabras en español no
+          usamos; qué datos siguen sin verificar y no pueden ir frente a un
+          cliente. Nada de eso se escribió de un tirón. Entró de a una
+          corrección por vez, casi siempre justo después de que algo saliera
+          mal.
+        </p>
+        <p>
+          El cableado debajo de todo esto son las mismas cuatro piezas siempre,
+          las que dejamos explicadas en{" "}
+          <a href="/blog/un-segundo-cerebro-es-una-arquitectura">
+            un segundo cerebro es una arquitectura, no una app
+          </a>
+          . Las herramientas cambiaron dos veces este año. La arquitectura no.
+        </p>
+
+        <h2>¿Cuánto cuesta llegar ahí?</h2>
+        <p>
+          Las piezas son baratas: una suscripción, un servicio de
+          automatización, una plataforma de voz que cobra por minuto. Lo que de
+          verdad cuesta son los meses de ajuste que van debajo, y esa es la
+          parte que nadie pone en una presentación de ventas.
+        </p>
+        <p>
+          La primera versión de cualquier cosa que construyas va a ser peor que
+          hacer la tarea a mano. Eso no significa que elegiste mal. Es la forma
+          normal de la curva, y es justo ahí donde la mayoría abandona, en
+          algún punto de la tercera semana, justo antes de que las correcciones
+          empiecen a acumularse. Los que terminan con algo que funciona no son
+          más inteligentes. Estuvieron dispuestos a ser más lentos durante un
+          mes.
+        </p>
+
+        <h2>¿Por dónde empiezas el lunes?</h2>
+        <p>
+          Elige la tarea que más te fastidia. No la más importante, la más
+          molesta, porque vas a necesitar esas ganas en la tercera semana.
+        </p>
+        <p>
+          Escribe cómo la haces de verdad, por pasos, incluidas las decisiones
+          que nunca pusiste en palabras. Después córrela cinco veces con la
+          herramienta de IA que ya tengas, y anota cada cosa que salió mal y
+          cuál era la respuesta correcta.
+        </p>
+        <p>
+          Esa nota es lo importante. No la automatización, la nota. Es la
+          primera página de tu memoria, y es la única parte de esto que no se
+          compra, ni se pide prestada, ni te la entrega un proveedor.
+        </p>
+        <p>
+          Dentro de un año la automatización va a ser algo común y podrías
+          rehacerla en una tarde. La nota va a tener cuarenta páginas, va a
+          contener casi todo lo que sabes sobre tu propio trabajo, y va a
+          existir por una sola razón: la guardaste.
+        </p>
+
+        <FAQ items={buildMachineFaqES} title="Preguntas frecuentes" />
+
+        <CTAes />
       </>
     ),
   },
