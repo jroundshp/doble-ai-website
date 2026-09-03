@@ -641,8 +641,8 @@ export const posts: Post[] = [
     content: (
       <>
         <p>
-          Casi siempre sale al final de una llamada, cuando ya se habló de otra
-          cosa. Que en la empresa le compraron licencias a todo el
+          Casi siempre sale al final de una llamada, cuando ya se habló de todo lo
+          demás. Que en la empresa le compraron licencias a todo el
           departamento. Que un equipo del otro pasillo quedó más pequeño y
           nadie explicó por qué. Que el sobrino de alguien automatizó un
           reporte que antes tomaba dos días.
@@ -653,25 +653,25 @@ export const posts: Post[] = [
           cosa, en toda la gente que trata a estas herramientas como si fueran
           el clima. Las tareas se están yendo, y los puestos que solo eran esas tareas
           siguen en la lista. Lo útil es hacer justo lo contrario de esperar:
-          usar esas mismas herramientas para dejar escrito cómo trabajas, y
+          usar esas mismas herramientas para dejar por escrito cómo trabajas y
           quedarte con el sistema.
         </p>
         <p>
-          La respuesta de cajón es que la IA no te va a quitar el trabajo, te
-          lo va a quitar alguien que sí la usa. La frase no está mal. Tampoco
+          La respuesta de cajón es que la IA no te va a quitar el trabajo: te lo
+          va a quitar alguien que sí la usa. La frase no está mal. Tampoco
           sirve de mucho, porque no te dice qué hacer el lunes.
         </p>
 
         <h2>¿Qué es lo que está desapareciendo?</h2>
         <p>
           Tareas. Las que salen igual todas las veces y no dependen de que
-          sepas algo que no esté ya escrito en alguna parte: dar formato al
+          sepas algo que no esté ya escrito en algún lado: dar formato al
           reporte, pasar números a un resumen, escribir el primer borrador de
           un correo que ya redactaste cuatrocientas veces, leer un documento
           largo para encontrar el único párrafo que importa.
         </p>
         <p>
-          Si tu semana es sobre todo eso, el problema es real, y a nadie le
+          Si tu semana se reduce sobre todo a eso, el problema es real, y a nadie le
           sirve que le endulcen la respuesta.
         </p>
         <p>
@@ -710,7 +710,7 @@ export const posts: Post[] = [
         </p>
         <p>
           Eso es trabajo de estrategia. Lo estás haciendo sobre tu propio
-          trabajo, y al final te queda algo que funciona en lugar de una
+          trabajo y, al final, te queda algo que funciona en lugar de una
           diapositiva.
         </p>
 
@@ -720,7 +720,7 @@ export const posts: Post[] = [
           se van contigo cuando te vas.
         </p>
         <p>
-          Un flujo de trabajo es la manera en que haces algo, escrita con
+          Un flujo de trabajo es la forma en que haces algo, escrita con
           suficiente detalle como para que salga igual dos veces. No es un
           prompt. Un prompt es un turno de conversación y se evapora cuando
           cierras la ventana. Un flujo tiene entradas, pasos, una definición de
