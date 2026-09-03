@@ -738,7 +738,8 @@ export const posts: Post[] = [
           .
         </p>
         <p>
-          La memoria es que el sistema conozca tu negocio. Tus clientes, tus
+          La memoria es que el sistema conozca tu negocio de verdad. Tus clientes,
+          tus
           precios, cómo hablas, cuáles de tus proyectos se publican con un
           script en vez de un push, el error de marzo que no piensas repetir.
           Es la pieza por la que discutimos en abril cuando dijimos que{" "}
@@ -754,39 +755,41 @@ export const posts: Post[] = [
         />
 
         <h2>¿Por qué la memoria es la parte que importa?</h2>
-        <p>Porque es la única de las tres que se acumula.</p>
+        <p>Porque es la única de las tres que se acumula con el tiempo.</p>
         <p>
-          Cualquiera copia tu prompt en diez segundos. Cualquiera paga la misma
-          suscripción. Nadie copia dos años de contexto tuyo, porque ese
+          Cualquiera puede copiar tu prompt en diez segundos. Cualquiera puede
+          pagar la misma suscripción. Nadie puede copiar dos años de contexto
+          tuyo, porque ese
           contexto no está escrito en ningún otro lado. Salió de que alguien lo
           corrigiera una y otra vez, alguien que sabía cuándo la respuesta
           estaba mal.
         </p>
         <p>
           Vale la pena decirlo claro, porque cambia lo que estás construyendo.
-          Si usas la IA como una forma más rápida de terminar el trabajo de
-          hoy, terminas el trabajo de hoy más rápido y nada más. No se acumula
+          Si usas la IA solo como una forma más rápida de terminar el trabajo de
+          hoy, terminas el trabajo de hoy más rápido... y nada más. No se acumula
           nada. Si la usas como algo a lo que le estás enseñando, cada
           corrección que haces este mes te sigue pagando el año que viene.
         </p>
         <p>
-          Los archivos probablemente son de tu empleador, y conviene que
-          asumas que sí. Lo que se va contigo no está a discusión: diseñaste un
+          Los archivos probablemente son de tu empresa, y conviene que lo
+          asumas así. Lo que se va contigo no está a discusión: diseñaste un
           sistema que funciona, sabes dónde estaban las partes difíciles, y el
-          siguiente te toma la tercera parte del tiempo. Eso es lo que de
-          verdad estás negociando.
+          siguiente te toma la tercera parte del tiempo. Eso es lo que realmente
+          estás negociando.
         </p>
 
         <h2>¿Cómo se ve esto cuando ya funciona?</h2>
         <p>
-          Nuestro teléfono lo contesta uno de estos. Contesta en inglés o en
+          Nuestro teléfono lo contesta uno de estos agentes. Contesta en inglés o
+          en
           español, toma los datos de quien llama, y manda el correo con el
           prospecto antes de que alguien haya mirado una pantalla. No es una
           demostración. Es el número que está en nuestra página de contacto, y
           viene contestando desde agosto.
         </p>
         <p>
-          Detrás de lo que escribimos hay como cien archivos pequeños de
+          Detrás de lo que escribimos hay unos cien archivos pequeños de
           memoria: cuáles sitios de clientes se publican con un script en vez
           de un push, porque una vez rompí uno así; qué palabras en español no
           usamos; qué datos siguen sin verificar y no pueden ir frente a un
@@ -806,13 +809,13 @@ export const posts: Post[] = [
         <h2>¿Cuánto cuesta llegar ahí?</h2>
         <p>
           Las piezas son baratas: una suscripción, un servicio de
-          automatización, una plataforma de voz que cobra por minuto. Lo que de
-          verdad cuesta son los meses de ajuste que van debajo, y esa es la
+          automatización, una plataforma de voz que cobra por minuto. Lo que realmente
+          cuesta son los meses de ajuste que hay detrás, y esa es la
           parte que nadie pone en una presentación de ventas.
         </p>
         <p>
-          La primera versión de cualquier cosa que construyas va a ser peor que
-          hacer la tarea a mano. Eso no significa que elegiste mal. Es la forma
+          La primera versión de casi cualquier cosa que construyas va a ser peor
+          que hacerla a mano. Eso no significa que elegiste mal. Es la forma
           normal de la curva, y es justo ahí donde la mayoría abandona, en
           algún punto de la tercera semana, justo antes de que las correcciones
           empiecen a acumularse. Los que terminan con algo que funciona no son
@@ -822,7 +825,7 @@ export const posts: Post[] = [
 
         <h2>¿Por dónde empiezas el lunes?</h2>
         <p>
-          Elige la tarea que más te fastidia. No la más importante, la más
+          Elige la tarea que más te fastidia. No la más importante, sino la más
           molesta, porque vas a necesitar esas ganas en la tercera semana.
         </p>
         <p>
