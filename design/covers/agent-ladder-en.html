@@ -1,0 +1,44 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1200px; height:630px; overflow:hidden; }
+  body {
+    background:#0a0a0a;
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding:42px 72px 0 72px;
+  }
+  .eyebrow { display:flex; align-items:center; gap:20px; margin-bottom:22px; }
+  .rule { width:72px; height:3px; background:#f97316; flex:none; }
+  .label { color:#f97316; font-size:17px; font-weight:700;
+    letter-spacing:.22em; text-transform:uppercase; white-space:nowrap; }
+  h2 { color:#fff; font-size:40px; font-weight:800; letter-spacing:-.025em;
+    line-height:1.1; margin-bottom:10px; }
+  .sub { color:#a3a3a3; font-size:21px; font-weight:400; margin-bottom:26px; }
+  .card { display:flex; align-items:center; height:74px; border-radius:14px;
+    padding:0 30px; background:#141414;
+    border:1px solid rgba(255,255,255,.07); }
+  .card + .card { margin-top:11px; }
+  .card.accent { background:#1e1008; border:1px solid #f97316; }
+  .num { width:74px; flex:none; color:#f97316; font-size:20px;
+    font-weight:700; letter-spacing:.02em; }
+  .name { width:330px; flex:none; color:#fff; font-size:27px; font-weight:700;
+    letter-spacing:-.02em; }
+  .card.accent .name { color:#f97316; }
+  .desc { flex:1; color:#a3a3a3; font-size:20px; font-weight:400;
+    line-height:1.3; }
+</style></head>
+<body>
+  <div class="eyebrow"><span class="rule"></span><span class="label">Five rungs, one direction</span></div>
+  <h2>Where your AI actually sits today</h2>
+  <div class="sub">Most businesses are on rung one and shopping for rung five.</div>
+  <div class="card"><div class="num">01</div><div class="name">Chatbot</div><div class="desc">You open it, you type, it forgets</div></div>
+  <div class="card"><div class="num">02</div><div class="name">Coding assistant</div><div class="desc">It finishes the line you already started</div></div>
+  <div class="card"><div class="num">03</div><div class="name">Loop</div><div class="desc">It runs the same job again without you there</div></div>
+  <div class="card"><div class="num">04</div><div class="name">Graph</div><div class="desc">Agents hand work to each other and check it</div></div>
+  <div class="card accent"><div class="num">05</div><div class="name">Teammate</div><div class="desc">It plans, executes and reviews alongside you</div></div>
+</body></html>

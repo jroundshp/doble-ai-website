@@ -408,7 +408,278 @@ const buildMachineFaqES = [
   },
 ];
 
+const agentStackFaqEN = [
+  {
+    q: "What is the difference between an AI chatbot and an AI agent?",
+    a: "A chatbot waits for you to open it and forgets the conversation when you close the tab. An agent has a named job it does on a trigger that is not you, with context that survives between runs, tools it can actually reach, and a place the finished work lands. Same underlying model in both cases. The five pieces around it are what make one of them useful while you are asleep.",
+  },
+  {
+    q: "What is an agent loop, and what is an agent graph?",
+    a: "A loop is one agent doing the same job again on a trigger you set once, without you starting it each time. A graph is several agents handing work to each other, where one drafts and another checks before anything reaches you. The progression people describe runs chatbot, coding assistant, loop, graph, teammate. For most small businesses the return starts at the loop, and a loop does not require code.",
+  },
+  {
+    q: "Is GrokBot or Claude better for a small business?",
+    a: "They are better at different halves. GrokBot is the easier place to start and the better home for always-on work: routing, routines, browser logins, follow-through while nobody is at a keyboard. Claude in a code editor is the better home for anything that touches files, repositories, deploys, or long careful document work. If you are only going to run one thing this year, start with the accessible one.",
+  },
+  {
+    q: "Do I need to know how to code to build an AI agent?",
+    a: "Not to build your first one. The hard part is describing the job clearly enough that something else can follow it, and that is writing, not programming. Coding starts to matter at the point where you need an agent to change something inside a system it cannot reach from a browser, and most businesses take months to hit that wall.",
+  },
+  {
+    q: "Is it worth running two AI platforms instead of one?",
+    a: "It is worth it when the second one can genuinely disagree with the first. Two agents on the same platform share the same context and the same blind spots, so they mostly agree with each other, which feels like verification but is not. Two different models reviewing the same client page find different problems with it, and that catch happens before the page ships rather than after.",
+  },
+  {
+    q: "What is the first agent a small business should build?",
+    a: "The job you keep forgetting to do, not the most important one in the business. You need the annoyance to carry you through week three, when the first version is still worse than doing it by hand. Answering the phone, checking whether anything broke overnight, and drafting the recurring thing you write every week are the three that pay back fastest.",
+  },
+  {
+    q: "Will I have to rebuild everything when a better model comes out?",
+    a: "No, and that is the argument for learning the structure rather than the tool. The job, the context, the tool access, the trigger, and the destination all carry over. We have moved pieces of our own roster between platforms this year and rebuilt none of the thinking underneath. The model is the part that gets replaced. The architecture is the part you keep.",
+  },
+];
+
+
 export const posts: Post[] = [
+  {
+    slug: "grokbot-or-claude-agent-architecture",
+    faq: agentStackFaqEN,
+    title: "GrokBot or Claude? The chat window is not the product",
+    excerpt:
+      "GrokBot is the easiest place most people will ever start. Claude in VS Code goes deeper. We run both, and the handoff between them is the actual system.",
+    date: "September 6, 2026",
+    dateISO: "2026-09-06",
+    category: "AI Tools",
+    readTime: "9 min read",
+    coverImage: "/work/agent-stack-two-layers-en.jpg",
+    coverAlt:
+      "Dark title card reading GrokBot or Claude? The chat window is not the product, above three cards labeled GrokBot as the operating layer, Claude in VS Code as the build layer, and the handoff between them",
+    keywords:
+      "GrokBot vs Claude, is Grok or Claude better for business, AI agents vs chatbots, build an AI agent for my business, Claude Code VS Code, always-on AI agents, AI agent architecture, running two AI models together, bilingual AI implementation Colorado",
+    content: (
+      <>
+        <p>
+          The question arrives in the same shape every time. Somebody has been
+          using one of these tools for a year, they have watched a demo of an
+          agent doing something without a human in the room, and they want to
+          know which one to buy.
+        </p>
+        <p>
+          It is the wrong question, and I say that as someone running agents on
+          two platforms at once. The model is close to the least interesting
+          decision in front of you. What separates a chatbot from an agent is
+          not which company built it. It is five things you have to put around
+          it, and those five are identical no matter whose logo is on the
+          window.
+        </p>
+
+        <h2>What actually makes something an agent?</h2>
+        <p>
+          A chatbot waits. You open it, you type, it answers, you close the
+          tab, and everything you just established about your business is gone.
+          Tomorrow you explain it again.
+        </p>
+        <p>
+          An agent has a job it does whether you show up or not. Getting there
+          takes five pieces, and none of them are the model.
+        </p>
+        <p>
+          It needs a job: one named responsibility, not &ldquo;help me with
+          stuff.&rdquo; It needs context that survives the window closing, so
+          it knows your clients, your prices, and the mistake you made in March
+          that you refuse to repeat. It needs tools it can actually reach,
+          which is the difference between telling you the page is broken and
+          fixing the page. It needs a trigger that is not you, whether that is
+          a schedule, an inbound call, or a file landing in a folder. And it
+          needs somewhere the work goes when it is done, where a person will
+          find it.
+        </p>
+        <p>
+          Take any one of those away and you are back to a chat window with a
+          better name. Put all five around an ordinary model and you have
+          something that runs your Tuesday. That is the whole trick, and it is
+          the reason the platform argument matters less than everyone thinks.
+        </p>
+
+        <h2>How far past a chatbot does this go?</h2>
+        <p>
+          There is a version of this making the rounds that stacks it in five
+          steps: chatbot, coding assistant, loop, graph, teammate. It is a good
+          map. Most business owners I talk to are standing on the first rung
+          and shopping for the fifth.
+        </p>
+
+        <img
+          src="/work/agent-ladder-en.jpg"
+          alt="Five stacked rows showing the progression from chatbot to coding assistant to loop to graph to teammate, with short descriptions of what each one does"
+        />
+
+        <p>
+          A loop is the same job running again without you starting it. A graph
+          is several agents handing work to each other and checking what comes
+          back. A teammate is what you have when the graph is reliable enough
+          that you stop watching every step and start reviewing results.
+        </p>
+        <p>
+          The loud claim attached to that framing is that the frontier labs
+          have already moved most of their own work to the top rung. I cannot
+          verify it, neither can the people repeating it, and I would not build
+          a decision on it.
+        </p>
+        <p>The map is still useful anyway.</p>
+        <p>
+          Here is the part that matters if you run a small business. The return
+          starts at rung three, and rung three is reachable this month without
+          writing a line of code, by someone who has never opened a terminal.
+          You do not need a graph of agents handing work around. You need one
+          job that runs without you.
+        </p>
+
+        <h2>Is GrokBot good enough for most people?</h2>
+        <p>
+          Right now, for most people, it is the best entry point available. I
+          do not say that as a Grok partisan.
+        </p>
+        <p>
+          The place almost everyone dies is the setup tax. Installing things.
+          Understanding a repository. Figuring out why the thing that worked
+          yesterday cannot find a file today. GrokBot removes most of that. You
+          describe the job in plain language, you point it at the accounts it
+          needs, and it runs. You can hand it a routine and walk away from the
+          keyboard, which is a sentence that was not true of consumer AI a year
+          ago.
+        </p>
+        <p>
+          Our chief of staff agent lives there. It handles routing, it keeps
+          specialists on call for the work that does not need me, it logs into
+          the browser-shaped parts of the business that a terminal cannot
+          touch, and it follows through on things while I am somewhere else. It
+          is not the most powerful thing we run. It is the one that asked the
+          least of me to start, and it has been right often enough that I now
+          check its work rather than redo it.
+        </p>
+
+        <h2>What does Claude in VS Code do that GrokBot does not?</h2>
+        <p>
+          It owns the parts of the business that live in files. The repository.
+          The terminal. The deploys. The long, careful work of
+          reading forty documents and finding the one number that contradicts
+          the other thirty-nine. Memory that sits on disk as files I can open,
+          edit, and correct, rather than something I have to trust is in there
+          somewhere. When a client site needs a fix, this is the layer that
+          makes the change, checks it, and pushes it live.
+        </p>
+        <p>
+          That is the difference between an agent that reports a problem and an
+          agent that closes it. It is also the version of this that people miss
+          when they treat a powerful tool as a nicer place to chat, which we
+          argued about in April:{" "}
+          <a href="/blog/claude-code-vs-cowork">
+            you are using Claude, but you are not training it
+          </a>
+          .
+        </p>
+        <p>
+          The cost is real. You are managing files. When something breaks you
+          have to read what broke. It is a steeper start than GrokBot and I
+          would not send someone there first.
+        </p>
+
+        <h2>Why run both instead of picking one?</h2>
+        <p>
+          They cover different halves. The handoff between them turned out to
+          be the part that matters.
+        </p>
+        <p>
+          Claude owns the repo, the terminals, the deploys, and the deep file
+          work. GrokBot runs the operating layer around it: routing, the
+          specialists, the browser logins, the routines, the follow-through
+          that happens while nobody is at a keyboard. Speed where Claude is
+          strongest, persistence and parallel coverage where GrokBot is.
+        </p>
+        <p>
+          The loop is spec, build, verify, approve. A brief gets drafted in one
+          place and pressure-tested in the other. A live page or a client email
+          gets a second set of eyes before it ships. When one model drifts, or
+          reads a design problem as a factual one, the other usually catches
+          it, and I would rather find that out on my own screen than in a
+          client&apos;s inbox.
+        </p>
+        <p>
+          That is redundancy, not busywork. The distinction is whether the
+          second pass can actually disagree with the first. Two agents on the
+          same platform, sharing the same context and the same blind spots,
+          mostly agree with each other, which feels like verification and is
+          not. Two different models looking at the same page will find
+          different things wrong with it.
+        </p>
+
+        <h2>What does this look like on a normal Tuesday?</h2>
+        <p>
+          At seven in the morning, before anyone is awake, a watcher runs
+          nineteen checks across the sites we are responsible for and says
+          something only if one of them broke quietly overnight. Nobody starts
+          it.
+        </p>
+        <p>
+          Our phone is answered in English or Spanish by an agent that takes
+          the caller&apos;s details and emails the lead before a human has
+          looked at a screen. That is the piece we wrote up in{" "}
+          <a href="/blog/bilingual-ai-receptionist-small-business">
+            the bilingual receptionist post
+          </a>
+          , and it runs on the Grok side of the house.
+        </p>
+        <p>
+          The client work runs on the other side, with about a hundred small
+          files of memory behind it. Which client sites deploy with a script
+          instead of a push, because I broke one that way once. Which Spanish
+          words we do not use. Which claims are still unverified and cannot go
+          in front of a client. None of that went in as a burst of
+          documentation. It went in one correction at a time, usually right
+          after something went wrong. The roster version of all of this is
+          here:{" "}
+          <a href="/blog/build-your-own-ai-team">one person, five agents</a>.
+        </p>
+        <p>
+          Neither half would be better if I forced it onto the other platform.
+          That is the only claim in this post I am confident about, because I
+          have tried it.
+        </p>
+
+        <h2>Where do you start?</h2>
+        <p>
+          Start on the easier platform, and start with one job you keep
+          forgetting to do. Not the most important job. The one you resent,
+          because you will need the motivation in week three when the first
+          version is worse than doing it yourself.
+        </p>
+        <p>
+          Give it the five pieces. Name the job. Write down the context it
+          needs, and keep writing it down every time it gets something wrong.
+          Connect it to the accounts it has to reach. Put it on a schedule.
+          Decide where the output lands. Then leave it alone for a week and see
+          what comes back.
+        </p>
+        <p>
+          You move an agent down to the harder layer when you hit the wall, and
+          the wall is specific: you need it to change something in a system it
+          cannot reach. Not before. Most people go looking for the powerful
+          tool first and never get an agent running at all.
+        </p>
+        <p>
+          The roster we published in July has already moved one agent onto a
+          different platform. Nothing underneath it had to change: same job,
+          same context files, same trigger, same place the output lands. That
+          is the only reason I am not nervous about whatever ships next spring.
+        </p>
+
+        <FAQ items={agentStackFaqEN} />
+
+        <CTA />
+      </>
+    ),
+  },
   {
     slug: "will-ai-take-my-job-build-the-machine",
     faq: buildMachineFaqEN,
