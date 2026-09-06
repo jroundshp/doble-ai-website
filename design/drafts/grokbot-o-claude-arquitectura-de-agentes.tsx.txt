@@ -56,8 +56,8 @@ const agentStackFaqES = [
     content: (
       <>
         <p>
-          Siempre me hacen la misma pregunta. Alguien lleva un año usando una
-          de estas herramientas, vio una demostración de un agente que hacía
+          Siempre me hacen la misma pregunta. Alguien lleva un año escribiendo
+          en una ventana de chat, vio una demostración de un agente que hacía
           algo sin nadie en la sala, y quiere saber cuál comprar.
         </p>
         <p>

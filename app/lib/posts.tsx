@@ -460,7 +460,7 @@ export const posts: Post[] = [
       <>
         <p>
           The question arrives in the same shape every time. Somebody has been
-          using one of these tools for a year, they have watched a demo of an
+          typing into a chat window for a year, they have watched a demo of an
           agent doing something without a human in the room, and they want to
           know which one to buy.
         </p>
