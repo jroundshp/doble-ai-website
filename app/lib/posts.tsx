@@ -522,11 +522,10 @@ export const posts: Post[] = [
         </p>
         <p>
           The loud claim attached to that framing is that the frontier labs
-          have already moved most of their own work to the top rung. I cannot
-          verify it, neither can the people repeating it, and I would not build
-          a decision on it.
+          already run most of their own work at the top rung. I cannot verify
+          that, and I would not build a buying decision on it. The map is still
+          useful anyway.
         </p>
-        <p>The map is still useful anyway.</p>
         <p>
           Here is the part that matters if you run a small business. The return
           starts at rung three, and rung three is reachable this month without
@@ -612,6 +611,15 @@ export const posts: Post[] = [
           mostly agree with each other, which feels like verification and is
           not. Two different models looking at the same page will find
           different things wrong with it.
+        </p>
+        <p>
+          It is not free either, and I would rather say that than sell it as a
+          clean win. You are feeding two memories instead of one. You have to
+          decide which half owns a job, or the same work gets done twice, or it
+          gets dropped because each side assumed the other had it. What the
+          overhead buys you is a second pass that can genuinely disagree with
+          the first. If you are not willing to maintain both, run one loop on
+          the easier platform and stay there until you hit a wall.
         </p>
 
         <h2>What does this look like on a normal Tuesday?</h2>

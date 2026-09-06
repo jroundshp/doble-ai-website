@@ -250,9 +250,9 @@ export default async function BlogPost({
               <div>
                 <p className="text-sm font-semibold text-white mb-1">John Rounds</p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed">
-                  Founder & AI Implementation Specialist at Doble AI. Bilingual AI implementation and business strategy, with 20+ years of
-                  international experience across 50+ countries. Works with Colorado businesses to implement
-                  AI strategy and grow in both English and Spanish markets.
+                  Founder & AI Implementation Specialist at Doble AI. Bilingual AI
+                  implementation, with 20+ years of international experience across 50+ countries.
+                  Builds and runs AI systems for Colorado businesses in both English and Spanish markets.
                 </p>
               </div>
             </div>

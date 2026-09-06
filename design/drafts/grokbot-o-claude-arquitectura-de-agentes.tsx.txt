@@ -131,11 +131,10 @@ const agentStackFaqES = [
         </p>
         <p>
           La afirmación fuerte que acompaña a ese marco es que los laboratorios
-          de frontera ya movieron casi todo su trabajo al escalón de arriba. No
-          lo puedo verificar, quienes lo repiten tampoco, y no armaría una
-          decisión sobre eso.
+          de frontera ya corren casi todo su trabajo en el escalón de arriba. No
+          lo puedo verificar, y no armaría una decisión de compra sobre eso. El
+          mapa sirve igual.
         </p>
-        <p>El mapa sirve igual.</p>
         <p>
           Lo que importa si tienes un negocio pequeño es esto. El retorno
           empieza en el escalón tres, y ese escalón está al alcance este mes sin
@@ -220,8 +219,18 @@ const agentStackFaqES = [
           segunda revisión puede realmente estar en desacuerdo con la primera.
           Dos agentes en la misma plataforma, con el mismo contexto y los
           mismos puntos ciegos, casi siempre se dan la razón, y eso se siente
-          como verificación sin serlo. Dos modelos distintos mirando la misma
+          como verificación sin serlo. Dos modelos distintos que miran la misma
           página encuentran cosas distintas.
+        </p>
+        <p>
+          Tampoco sale gratis, y prefiero decirlo antes que venderlo como una
+          victoria limpia. Alimentas dos memorias en lugar de una. Tienes que
+          decidir qué mitad se queda con cada trabajo, o el mismo trabajo se
+          hace dos veces, o se cae porque cada lado dio por hecho que lo tenía
+          el otro. Lo que compras con ese costo es una segunda revisión capaz
+          de contradecir a la primera. Si no estás dispuesto a mantener las dos,
+          corre un solo ciclo en la plataforma fácil y quédate ahí hasta que
+          choques con el muro.
         </p>
 
         <h2>¿Cómo se ve esto un martes cualquiera?</h2>
