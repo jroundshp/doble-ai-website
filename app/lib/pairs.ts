@@ -3,8 +3,7 @@
 // and the visible cross-language link. A post absent from this array is
 // invisible on the blog index.
 export const pairs: [string, string?][] = [
-  // ES twin staged in design/drafts/, pending Gisela review
-  ["grokbot-or-claude-agent-architecture"],
+  ["grokbot-or-claude-agent-architecture", "grokbot-o-claude-arquitectura-de-agentes"],
   ["will-ai-take-my-job-build-the-machine", "la-ia-me-va-a-quitar-el-trabajo"],
   ["second-brain-architecture", "un-segundo-cerebro-es-una-arquitectura"],
   ["you-dont-rank-into-an-ai-overview", "no-te-posicionas-te-seleccionan"],

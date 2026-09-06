@@ -441,6 +441,37 @@ const agentStackFaqEN = [
 
 
 
+const agentStackFaqES = [
+  {
+    q: "¿Cuál es la diferencia entre un chatbot y un agente de IA?",
+    a: "Un chatbot espera a que lo abras y olvida todo cuando cierras la pestaña. Un agente tiene un trabajo con nombre, un disparador que no eres tú, contexto que sobrevive entre ejecuciones, herramientas que puede alcanzar y un lugar donde aterriza el resultado. El modelo puede ser el mismo en los dos casos. Las cinco piezas alrededor son la diferencia.",
+  },
+  {
+    q: "¿Qué es un ciclo de agentes y qué es un grafo de agentes?",
+    a: "Un ciclo es un agente que hace el mismo trabajo otra vez con un disparador que configuras una sola vez. Un grafo son varios agentes que se pasan trabajo, uno redacta y otro revisa. Para la mayoría de los negocios pequeños el retorno empieza en el ciclo, y un ciclo no exige programar.",
+  },
+  {
+    q: "¿Qué conviene más para un negocio pequeño, GrokBot o Claude?",
+    a: "Son mejores en mitades distintas. GrokBot es el arranque más fácil y la mejor casa para el trabajo siempre activo: enrutamiento, rutinas, accesos de navegador, seguimiento sin nadie frente al teclado. Claude en un editor de código es mejor para todo lo que toca archivos, repositorios o despliegues. Si solo vas a montar una cosa este año, empieza por la accesible.",
+  },
+  {
+    q: "¿Hay que saber programar para crear un agente de IA?",
+    a: "Para el primero no. La parte difícil es describir el trabajo con suficiente claridad como para que otra cosa lo pueda seguir, y eso es escribir, no programar. Programar importa cuando necesitas que un agente cambie algo dentro de un sistema al que no llega desde un navegador, y la mayoría de los negocios tarda meses en chocar con ese muro.",
+  },
+  {
+    q: "¿Vale la pena usar dos plataformas de IA en lugar de una?",
+    a: "Vale la pena cuando la segunda puede contradecir de verdad a la primera. Dos agentes en la misma plataforma comparten los mismos puntos ciegos, así que casi siempre se dan la razón, y eso se siente como verificación sin serlo. El costo son dos memorias que alimentar y una decisión sobre qué mitad se queda con cada trabajo. Si no vas a mantener las dos, usa una sola.",
+  },
+  {
+    q: "¿Cuál es el primer agente que debería crear un negocio pequeño?",
+    a: "El trabajo que se te olvida hacer, no el más importante del negocio. Necesitas esa molestia para aguantar la semana tres, cuando la primera versión todavía es peor que hacerlo a mano. Contestar el teléfono, revisar si algo se rompió durante la noche y redactar eso que reescribes cada semana son los que se pagan más rápido.",
+  },
+  {
+    q: "¿Voy a tener que reconstruir todo cuando salga un modelo mejor?",
+    a: "No, y ese es el argumento para aprender la estructura y no la herramienta. El trabajo, el contexto, el acceso a herramientas, el disparador y el destino se trasladan igual. Este año movimos piezas de nuestro propio equipo entre plataformas y no reconstruimos nada del razonamiento de abajo. El modelo se reemplaza. La arquitectura es lo que te quedas.",
+  },
+];
+
 export const posts: Post[] = [
   {
     slug: "grokbot-or-claude-agent-architecture",
@@ -642,6 +673,219 @@ export const posts: Post[] = [
         <FAQ items={agentStackFaqEN} />
 
         <CTA />
+      </>
+    ),
+  },
+  {
+    slug: "grokbot-o-claude-arquitectura-de-agentes",
+    faq: agentStackFaqES,
+    title: "¿GrokBot o Claude? La ventana de chat no es el producto",
+    excerpt:
+      "GrokBot es el punto de entrada más fácil que existe hoy. Claude en VS Code llega más lejos. Usamos los dos, y el traspaso entre ambos es el sistema real.",
+    date: "September 6, 2026",
+    dateISO: "2026-09-06",
+    category: "Herramientas de IA",
+    readTime: "7 min de lectura",
+    coverImage: "/work/agent-stack-two-layers-es.jpg",
+    coverAlt:
+      "Tarjeta oscura que dice ¿GrokBot o Claude? La ventana de chat no es el producto, sobre tres tarjetas: GrokBot como capa de operación, Claude en VS Code como capa de construcción, y el traspaso entre ambos",
+    keywords:
+      "GrokBot o Claude, agentes de IA para negocios, diferencia entre chatbot y agente, cómo crear un agente de IA, Claude Code VS Code, agentes de IA siempre activos, arquitectura de agentes de IA, implementación de IA bilingüe Colorado",
+    content: (
+      <>
+        <p>
+          Siempre me hacen la misma pregunta. Alguien lleva un año escribiendo
+          en una ventana de chat, vio una demostración de un agente que
+          trabajaba sin nadie en la sala, y quiere saber cuál comprar.
+        </p>
+        <p>
+          Es la pregunta equivocada, y lo digo como alguien que tiene agentes
+          corriendo en dos plataformas a la vez. El modelo es casi la decisión
+          menos importante acá. Lo que separa un chatbot de un agente son cinco
+          cosas que le pones alrededor, y esas cinco son iguales sin importar
+          quién lo construyó.
+        </p>
+
+        <h2>¿Qué convierte algo en un agente?</h2>
+        <p>
+          Un chatbot espera. Lo abres, escribes, te responde, cierras la
+          pestaña, y todo lo que acabas de explicar sobre tu negocio
+          desapareció. Mañana lo explicas otra vez.
+        </p>
+        <p>
+          Un agente tiene un trabajo que hace aparezcas tú o no. Eso exige cinco
+          piezas, y ninguna es el modelo. Un trabajo: una responsabilidad con
+          nombre, no &ldquo;ayúdame con cosas&rdquo;. Contexto que sobrevive al
+          cierre de la ventana, para que sepa quiénes son tus clientes, cuáles
+          son tus precios y cuál fue el error de marzo que no piensas repetir.
+          Herramientas que puede alcanzar de verdad, que es la diferencia entre
+          avisarte que la página está rota y arreglarla. Un disparador que no
+          seas tú: un horario, una llamada entrante, un archivo que aparece en
+          una carpeta. Y un lugar donde aterriza el trabajo, donde una persona
+          lo va a encontrar.
+        </p>
+        <p>
+          Quita cualquiera de las cinco y vuelves a tener una ventana de chat
+          con mejor nombre. Ponlas todas alrededor de un modelo común y
+          corriente y tienes algo que se encarga de tu martes.
+        </p>
+
+        <h2>¿Hasta dónde llega esto más allá de un chatbot?</h2>
+        <p>
+          Circula una versión ordenada en cinco escalones: chatbot, asistente de
+          código, ciclo, grafo, compañero de equipo. Casi todos los dueños de
+          negocio con los que hablo están parados en el primer escalón y
+          comprando el quinto.
+        </p>
+
+        <img
+          src="/work/agent-ladder-es.jpg"
+          alt="Cinco filas que muestran la progresión de chatbot a asistente de código, ciclo, grafo y compañero de equipo, con una descripción breve de lo que hace cada uno"
+        />
+
+        <p>
+          Un ciclo es el mismo trabajo que se ejecuta otra vez sin que tú lo
+          arranques. Un grafo son varios agentes que se pasan trabajo y revisan
+          lo que devuelve el otro. Un compañero de equipo es lo que tienes
+          cuando el grafo es lo bastante confiable como para dejar de vigilar
+          cada paso y empezar a revisar resultados. El retorno empieza en el
+          escalón tres, y ese escalón está al alcance este mes sin escribir una
+          línea de código.
+        </p>
+
+        <h2>¿GrokBot alcanza para la mayoría?</h2>
+        <p>
+          Hoy, para la mayoría, es el mejor punto de entrada que existe, y no lo
+          digo como fanático de Grok. Donde casi todos se quedan en el camino es
+          en el costo de instalación, y GrokBot elimina casi todo eso. Describes
+          el trabajo en lenguaje normal, lo apuntas a las cuentas que necesita,
+          y corre. Le puedes dejar una rutina e irte del teclado, algo que hace
+          un año no era cierto en la IA de consumo.
+        </p>
+        <p>
+          Nuestro agente de jefatura de gabinete vive ahí. Reparte el trabajo,
+          mantiene especialistas disponibles, entra a las partes del negocio que
+          viven en el navegador y que una terminal no puede tocar, y da
+          seguimiento mientras yo estoy en otro lado. No es lo más potente que
+          corremos. Es lo que menos me pidió para arrancar.
+        </p>
+
+        <h2>¿Qué hace Claude en VS Code que GrokBot no hace?</h2>
+        <p>
+          Se queda con las partes del negocio que viven en archivos. El
+          repositorio. La terminal. Los despliegues. El trabajo largo de leer
+          cuarenta documentos para encontrar el número que contradice a los
+          otros treinta y nueve. Memoria en disco, como archivos que puedo abrir
+          y corregir.
+        </p>
+        <p>
+          Esa es la diferencia entre un agente que reporta un problema y uno que
+          lo cierra, algo que discutimos en abril:{" "}
+          <a href="/blog/claude-code-vs-cowork">
+            estás usando Claude, pero no lo estás entrenando
+          </a>
+          .
+        </p>
+        <p>
+          El costo es real. Estás administrando archivos, y cuando algo se rompe
+          tienes que leer qué se rompió. Es un arranque más empinado que GrokBot
+          y no mandaría a nadie ahí primero.
+        </p>
+
+        <h2>¿Por qué usar los dos en lugar de elegir uno?</h2>
+        <p>
+          Cubren mitades distintas, y el traspaso entre las dos resultó ser lo
+          que importa. Ninguna mejoraría si la forzara a la otra plataforma, y
+          esa es la afirmación de la que estoy más seguro acá, porque ya lo
+          intenté.
+        </p>
+        <p>
+          El ciclo es especificar, construir, verificar, aprobar. Un documento
+          se redacta en un lado y se pone a prueba en el otro. Cuando un modelo
+          se desvía, o lee un problema de diseño como si fuera de datos, el otro
+          lo detecta, y prefiero enterarme en mi pantalla y no en la bandeja de
+          entrada de un cliente.
+        </p>
+        <p>
+          Eso es redundancia, no trabajo inventado. La diferencia está en si la
+          segunda revisión puede contradecir de verdad a la primera. Dos agentes
+          en la misma plataforma comparten los mismos puntos ciegos, así que
+          casi siempre se dan la razón, y eso se siente como verificación sin
+          serlo.
+        </p>
+        <p>
+          Tampoco sale gratis. Alimentas dos memorias en lugar de una, y tienes
+          que decidir qué mitad se queda con cada trabajo, o el trabajo se hace
+          dos veces, o se cae porque cada lado dio por hecho que lo tenía el
+          otro. Si no vas a mantener las dos, corre un solo ciclo en la
+          plataforma fácil y quédate ahí hasta que choques con el muro.
+        </p>
+
+        <h2>¿Cómo se ve esto un martes cualquiera?</h2>
+        <p>
+          A las siete de la mañana, antes de que nadie despierte, un vigilante
+          corre 19 revisiones sobre los sitios de los que somos responsables y
+          solo dice algo si uno se rompió en silencio durante la noche. Nadie lo
+          arranca.
+        </p>
+        <p>
+          Nuestro teléfono lo contesta en inglés o español un agente que toma
+          los datos de quien llama y envía el prospecto por correo antes de que
+          una persona haya mirado una pantalla. De eso escribimos en{" "}
+          <a href="/blog/recepcionista-ia-bilingue-pequenos-negocios">
+            el artículo de la recepcionista bilingüe
+          </a>
+          . Corre del lado de Grok.
+        </p>
+        <p>
+          El trabajo de clientes corre del otro lado, con unos 100 archivos
+          pequeños de memoria detrás. Qué sitios de cliente se publican con un
+          script y no con un push, porque una vez rompí uno así. Qué palabras en
+          español no usamos. Qué afirmaciones siguen sin verificar y no pueden
+          llegar a un cliente. Entró de a una corrección por vez, casi siempre
+          justo después de que algo salió mal. La versión completa del equipo
+          está acá:{" "}
+          <a href="/blog/construye-tu-propio-equipo-de-ia">
+            una persona, cinco agentes
+          </a>
+          .
+        </p>
+
+        <h2>¿Por dónde se empieza?</h2>
+        <p>
+          Empieza en la plataforma fácil, con un trabajo que se te olvida hacer.
+          No el más importante. El que te da rabia, porque vas a necesitar esa
+          motivación en la semana tres, cuando la primera versión sea peor que
+          hacerlo a mano.
+        </p>
+        <p>
+          Dale las cinco piezas. Nómbrale el trabajo, escribe el contexto que
+          necesita y corrígelo cada vez que se equivoque, conéctalo a las
+          cuentas que tiene que alcanzar, ponlo en un horario, decide dónde
+          aterriza el resultado. Después déjalo solo una semana.
+        </p>
+        <p>
+          Bájalo a la capa difícil cuando choques con el muro, y el muro es
+          específico: necesita cambiar algo dentro de un sistema que no puede
+          alcanzar. Antes no. La mayoría sale a buscar la herramienta potente
+          primero y nunca termina con un agente corriendo.
+        </p>
+        <p>
+          El equipo que publicamos en julio ya movió un agente a otra
+          plataforma, y nada de lo que está debajo cambió. Por eso no me pone
+          nervioso lo que salga la primavera que viene.
+        </p>
+        <p>
+          La meta no es tener un equipo más grande. Es gastar menos semana en la
+          rutina repetitiva y más en el criterio, en el pensamiento de fondo, en
+          las decisiones que solo debería tomar una persona. Los agentes se
+          quedan con el trabajo de ciclo. Tú te quedas con el gusto y con la
+          última palabra.
+        </p>
+
+        <FAQ items={agentStackFaqES} title="Preguntas frecuentes" />
+
+        <CTAes />
       </>
     ),
   },
