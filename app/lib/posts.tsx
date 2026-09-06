@@ -682,7 +682,7 @@ export const posts: Post[] = [
     title: "¿GrokBot o Claude? La ventana de chat no es el producto",
     excerpt:
       "GrokBot es el punto de entrada más fácil que existe hoy. Claude en VS Code llega más lejos. Usamos los dos, y el traspaso entre ambos es el sistema real.",
-    date: "September 6, 2026",
+    date: "6 de septiembre de 2026",
     dateISO: "2026-09-06",
     category: "Herramientas de IA",
     readTime: "7 min de lectura",
