@@ -408,6 +408,33 @@ const buildMachineFaqES = [
   },
 ];
 
+const pressButtonFaqEN = [
+  {
+    q: "What is the difference between an AI skill and an automated AI job?",
+    a: "A skill is a saved set of instructions that produces the same kind of output every time you run it. An automated job is that same skill started by something other than you: a schedule, a form submission, a finished call, a file landing in a folder. The skill does not change. What changes is that the business keeps moving when you are not at the keyboard.",
+  },
+  {
+    q: "What does human in the loop mean if the AI runs on its own?",
+    a: "It means the human moves from starting the work to approving it. The job runs, the output lands somewhere you already look, and you approve it, correct it, or reject it. Anything that leaves the business, like a client email, a price, or a published page, still waits for that approval before it goes out.",
+  },
+  {
+    q: "What can trigger an AI workflow automatically?",
+    a: "Two kinds of things. A schedule, such as every morning at seven or every Monday, usually called a cron job. Or an event, such as a web form being submitted, a call ending, an email arriving, or a new file appearing, which usually reaches the AI through a webhook. Most small businesses already run on both kinds of rhythm. The work is connecting them to a skill.",
+  },
+  {
+    q: "Which business tasks should not be fully automated with AI?",
+    a: "Anything that goes out under your name or cannot be undone: sending client emails, changing prices, publishing, payments, deleting records. Let the automated job prepare those and have a person approve the last step. Also keep any task off a schedule until you can describe what a good result looks like, or the schedule will just repeat the mistake on time.",
+  },
+  {
+    q: "Why does my AI automation work when I run it but fail on a schedule?",
+    a: "Because you and the scheduler are not running it in the same context. When you start it, it has your logins, your open files and your permissions. The scheduler often has fewer. We had a check pass every time we ran it by hand and fail every scheduled run, because the scheduler on a Mac could not read a file on the Desktop. Test every automated job by making the trigger itself run it.",
+  },
+  {
+    q: "Do I need a developer to put an AI skill on a schedule?",
+    a: "Usually not for the first one. Several AI tools now let you set a recurring task in plain language, and services like Zapier or Make can connect a form or an inbox to an AI step without code. You need a developer or an implementation partner when the job has to reach inside a system with no simple connection, or when a failure has to reach you somewhere other than the tool itself.",
+  },
+];
+
 const agentStackFaqEN = [
   {
     q: "What is the difference between an AI chatbot and an AI agent?",
@@ -473,6 +500,218 @@ const agentStackFaqES = [
 ];
 
 export const posts: Post[] = [
+  {
+    slug: "your-ai-still-waits-for-you-to-press-the-button",
+    faq: pressButtonFaqEN,
+    title: "Your AI still waits for you to press the button",
+    excerpt:
+      "A skills library feels like the finish line. If you still start every run, you are the bottleneck. What changes when the trigger isn't you.",
+    date: "September 19, 2026",
+    dateISO: "2026-09-19",
+    category: "AI Strategy",
+    readTime: "7 min read",
+    coverImage: "/work/press-the-button-en.jpg",
+    coverAlt:
+      "Dark title card reading Your AI still waits for you to press the button, above three cards: chat, where you start it and do the work; a skill, where you start it and it does the work; and an automated job, where something else starts it and you sign off",
+    keywords:
+      "automate AI workflows, AI skills vs automated jobs, scheduled AI tasks, AI webhook automation, human in the loop AI approval, which tasks to automate with AI, AI automation for small business, why automation works manually but fails on schedule, bilingual AI implementation Colorado",
+    content: (
+      <>
+        <p>
+          A test for anyone who has gotten good at AI: count the runs you
+          started this week. Every summary, every draft, every report your
+          saved skills produced. Who pressed start?
+        </p>
+        <p>
+          If the answer is you, every time, you are at the level most serious
+          users settle into and mistake for the top. You wrote your prompts
+          down, turned them into skills, and the output is consistent now. That
+          is real progress, and we spent most of April arguing for it in{" "}
+          <a href="/blog/ai-learning-curve">the AI learning curve</a> and{" "}
+          <a href="/blog/claude-code-vs-cowork">
+            you&apos;re using Claude, but you&apos;re not training it
+          </a>
+          . But the business still only moves when you sit down and start it.
+          You built a fast machine with one ignition key, and the key lives in
+          your pocket.
+        </p>
+
+        <h2>What changes when a skill runs without you?</h2>
+        <p>
+          Less than you would expect, which is the good news. The skill stays
+          the same. The instructions, the context and the output format all
+          carry over. The only thing that changes is what starts it.
+        </p>
+        <p>
+          At the button, you start it. Past the button, something in the
+          business does: a time of day, a form submission, a call ending, a
+          file landing in a folder. The jargon is a cron job for the schedule
+          and a webhook for the event, and you do not need either word to use
+          them. You need to answer one question per skill: what event in my
+          business should mean this work starts?
+        </p>
+        <p>
+          We walked through the five pieces an agent needs in{" "}
+          <a href="/blog/grokbot-or-claude-agent-architecture">
+            GrokBot or Claude?
+          </a>
+          , so I won&apos;t repeat the list. This post is about the piece
+          people skip, the trigger, and what happens to your job once it
+          isn&apos;t you.
+        </p>
+
+        <img
+          src="/work/press-the-button-flow-en.jpg"
+          alt="Four cards showing a skill running without anyone starting it: a 7 a.m. trigger, the skill running twenty checks, a one-line result landing where you already look, and a person approving, fixing or throwing it out"
+        />
+
+        <h2>What does it mean that the human only ratifies?</h2>
+        <p>
+          Ratifying is signing off on work that is already done. You stop
+          doing the task and start judging it: approve it, fix it, or throw it
+          out. That sounds like a demotion. In practice it is the first time
+          your judgment gets used on every run, instead of being spent on
+          remembering to start it.
+        </p>
+        <p>
+          It only works if the output is built to be judged fast. Our site
+          watcher runs at seven every morning and nobody starts it. It checks
+          twenty things across the sites we are responsible for, ours and our
+          clients&apos;. When everything is fine, it says so in one line. When
+          something is broken, it names the site and the check that failed.
+        </p>
+        <p>
+          That one line is the most important design decision in the whole
+          setup. If the healthy report ran a page long, I would stop reading it
+          by the second week, and then nobody would be ratifying anything. An
+          automated job whose output you have stopped reading is worse than a
+          manual one, because it looks like coverage.
+        </p>
+
+        <h2>Why did our check pass by hand and fail on schedule?</h2>
+        <p>
+          The watcher also taught us the lesson I would put first on any list
+          about automation. This month we added a check that compares the
+          listings on a real estate client&apos;s site against the MLS. We ran
+          it by hand and it passed. We ran it again and it passed. Then it
+          failed on its first scheduled run, and on the one after that.
+        </p>
+        <p>
+          Nothing on the client&apos;s site was wrong. All seven listings
+          matched both mornings. The check itself could not run. On a Mac, the
+          scheduler is not allowed to read files on the Desktop, and the check
+          kept its reference copy in a folder on the Desktop. When I ran it, it
+          ran as me, with my permissions. When the schedule ran it, it
+          didn&apos;t have them.
+        </p>
+        <p>
+          That is the trouble with testing automation by pressing the button.
+          You are testing your own context: your logins, your open files, your
+          permissions. The trigger runs in a different one. A skill is not
+          automated until it has worked in the context the trigger uses, which
+          for us now means forcing the scheduler itself to run a new check
+          before we call it done.
+        </p>
+        <p>
+          We moved the check to read the live site instead of a file, which
+          turned out to be the better question anyway: does the page the
+          public sees match the MLS? The second fix was smaller and mattered
+          as much. The failed run had reported itself as a list of eight
+          problems, because the error text looked like problems. Now a check
+          that cannot run says so in one line and draws no conclusion about the
+          listings. A job that could not run and a job that found something
+          wrong are two different facts, and the morning line has to keep them
+          apart.
+        </p>
+
+        <h2>Which skills should go on a trigger first?</h2>
+        <p>
+          The ones you have run by hand often enough to be bored. Boredom means
+          the input has a stable shape and you know what a good result looks
+          like. A skill is judgment written down (we made that case in{" "}
+          <a href="/blog/will-ai-take-my-job-build-the-machine">
+            the people who build the machine
+          </a>
+          ), and a skill you still tweak on every run is judgment you
+          haven&apos;t finished writing. Good first candidates share a few
+          traits:
+        </p>
+        <ul>
+          <li>
+            It follows a rhythm the business already has: every morning, every
+            new lead, every finished call.
+          </li>
+          <li>
+            The input arrives somewhere a machine can see it, like an inbox, a
+            folder, or a form.
+          </li>
+          <li>A wrong result lands with you before it reaches anyone else.</li>
+          <li>You can tell a good result from a bad one in under a minute.</li>
+        </ul>
+        <p>
+          Here is one we haven&apos;t moved yet. Every call we record is
+          already written to disk as a transcript when it ends. Turning a
+          transcript into notes and action items is a skill I use constantly,
+          and I still start it by asking. The event already exists, the input
+          is the same shape every time, and a bad summary costs me a minute.
+          It is the obvious next one off the button.
+        </p>
+
+        <h2>Which jobs should never run on a trigger?</h2>
+        <p>
+          My rule is that nothing leaves the building on a trigger alone. A
+          trigger can prepare a client email, and a person sends it. A trigger can draft a price change, a
+          blog post, or a reply to a review, and a person approves it before
+          anyone outside sees it. Anything you can&apos;t take back, like
+          payments, deletions or sending, stays behind a human even when the
+          drafting is automatic.
+        </p>
+        <p>
+          This is the part people get backwards. They automate the finish,
+          because sending is the tedious click, and keep doing the preparation
+          by hand because it feels like the real work. Flip it. The preparation
+          is exactly what a trigger should do while you sleep. The click that
+          puts your name on something is the piece worth keeping.
+        </p>
+        <p>
+          Keep one more kind of job off the trigger: anything where the call
+          changes every time. If you can&apos;t write down what a good result
+          looks like, the job is not a skill yet, and automating it produces
+          bad work on a schedule.
+        </p>
+
+        <h2>How do you move your first skill off the button?</h2>
+        <p>
+          Pick the skill you ran most often last month. Write down what you
+          check when you review its output. That list becomes your
+          ratify step, and it is usually shorter than you expect. Decide where
+          the output lands: somewhere you already look every day, not a new
+          dashboard you will forget. Then name the event that should start it,
+          and connect the two.
+        </p>
+        <p>
+          Before you trust it, make the trigger run it once while you watch.
+          Not you pressing the button: the schedule, or the actual event. Our
+          check passed every run I started and failed every run the schedule
+          started, and nothing short of watching the scheduled run would have
+          shown me that.
+        </p>
+        <p>
+          Then leave it alone for a week and only read what it hands you.
+        </p>
+        <p>
+          Every morning at seven, twenty checks run across the sites we are
+          responsible for, and most days the whole report is one line. I
+          don&apos;t start it and I don&apos;t have to remember it exists.
+          Reading that line is the job now.
+        </p>
+
+        <FAQ items={pressButtonFaqEN} />
+
+        <CTA />
+      </>
+    ),
+  },
   {
     slug: "grokbot-or-claude-agent-architecture",
     faq: agentStackFaqEN,
