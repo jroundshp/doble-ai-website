@@ -1,0 +1,142 @@
+// TIGHTENED ES body for tu-ia-sigue-esperando-que-aprietes-el-boton, held for Gisela (2026-09-19).
+// Replaces the post's `content: (` block up to the <FAQ items={pressButtonFaqES}> line; also set readTime "5 min de lectura".
+// Mostly deletions from her approved text. NEW phrasing to check: "Solo qué lo arranca"; "Convertir tus instrucciones en skills (...) es un avance real";
+// "El disparador es una de las cinco piezas que explicamos en ¿GrokBot o Claude?, y es la que casi todos se saltan";
+// the four list items; "no está terminado"; "las notas todavía las pido yo"; "Haz que el resultado llegue a un lugar que ya revisas";
+// "Apretar el botón es probar tu propio contexto"; closing "corren veinte revisiones en nuestros sitios".
+    content: (
+      <>
+        <p>
+          Una prueba para quien ya se volvió bueno usando IA: cuenta cuántas
+          ejecuciones arrancaste esta semana. Cada resumen, cada borrador, cada
+          reporte que produjeron tus skills guardados. ¿Quién apretó el botón?
+        </p>
+        <p>
+          Si la respuesta es tú, todas las veces, estás en el nivel donde se
+          quedan casi todos los usuarios serios, convencidos de que ya llegaron
+          arriba. Convertir tus instrucciones en skills (flujos de trabajo
+          guardados que la IA sigue igual cada vez) es un avance real, y lo
+          defendimos en{" "}
+          <a href="/blog/ai-learning-curve">la curva de aprendizaje de la IA</a>{" "}
+          y en{" "}
+          <a href="/blog/claude-code-vs-cowork">
+            usas Claude, pero no lo estás entrenando
+          </a>{" "}
+          (ambos en inglés). El problema es que el negocio solo se mueve cuando
+          tú te sientas a arrancarlo. Construiste una máquina rápida con una
+          sola llave de encendido, y esa llave la llevas en el bolsillo.
+        </p>
+
+        <h2>¿Qué cambia cuando un skill corre sin ti?</h2>
+        <p>
+          Solo qué lo arranca. Las instrucciones, el contexto y el formato del
+          resultado se mantienen. Con el botón, lo arrancas tú. Sin el botón,
+          lo arranca algo que pasa en el negocio: una hora del día, un
+          formulario enviado, una llamada que termina, un archivo que aparece
+          en una carpeta. Lo que necesitas es responder una pregunta por cada
+          skill: ¿qué tiene que pasar en mi negocio para que este trabajo
+          empiece?
+        </p>
+        <p>
+          El disparador es una de las cinco piezas que explicamos en{" "}
+          <a href="/blog/grokbot-o-claude-arquitectura-de-agentes">
+            ¿GrokBot o Claude?
+          </a>
+          , y es la que casi todos se saltan.
+        </p>
+
+        <img
+          src="/work/press-the-button-flow-es.jpg"
+          alt="Cuatro tarjetas que muestran un skill que corre sin que nadie lo arranque: un disparador a las 7 de la mañana, el skill haciendo veinte revisiones, un resultado de una línea que llega donde ya miras, y una persona que lo aprueba, lo corrige o lo descarta"
+        />
+
+        <h2>¿Qué significa que la persona solo aprueba?</h2>
+        <p>
+          Dejas de hacer la tarea y empiezas a juzgarla: la apruebas, la
+          corriges o la descartas. Eso solo funciona si el resultado está
+          pensado para revisarse rápido. Nuestro monitor de sitios corre todos
+          los días a las 7 de la mañana sin que nadie lo arranque. Hace veinte
+          revisiones en los sitios de los que somos responsables. Cuando todo
+          está bien, lo dice en una línea.
+        </p>
+        <p>
+          Esa única línea es la decisión de diseño más importante del sistema.
+          Si el reporte de un día normal ocupara una página, yo dejaría de
+          leerlo en la segunda semana. Una tarea automática cuyo resultado ya
+          nadie lee es peor que una manual, porque da la impresión de que
+          alguien está vigilando.
+        </p>
+
+        <h2>¿Por qué nuestra revisión funcionaba a mano y fallaba con el horario?</h2>
+        <p>
+          Este mes agregamos una revisión que compara los inmuebles publicados
+          en el sitio de un cliente de bienes raíces con el MLS. La corrimos a
+          mano dos veces y pasó. Después falló en su primera ejecución
+          programada, y también en la siguiente.
+        </p>
+        <p>
+          En el sitio del cliente no había nada mal. En una Mac, el programador
+          de tareas no tiene permiso para leer archivos del Escritorio, y la
+          revisión guardaba ahí su copia de referencia. Cuando la corría yo,
+          corría con mis permisos. Cuando la corría el horario, no los tenía.
+        </p>
+        <p>
+          Apretar el botón es probar tu propio contexto, con tus sesiones
+          abiertas, tus archivos y tus permisos. El disparador trabaja en otro
+          contexto. Un skill no está automatizado hasta que funcionó en el
+          contexto que usa el disparador.
+        </p>
+
+        <h2>¿Qué skills conviene poner primero en un disparador?</h2>
+        <p>
+          Los que ya corriste a mano tantas veces que te aburren. Un skill es
+          criterio puesto por escrito (lo explicamos en{" "}
+          <a href="/blog/la-ia-me-va-a-quitar-el-trabajo">
+            a los que construyen la máquina no los reemplaza la máquina
+          </a>
+          ), y un skill que todavía ajustas en cada ejecución no está
+          terminado. Los buenos candidatos:
+        </p>
+        <ul>
+          <li>
+            Siguen un ritmo que el negocio ya tiene: cada mañana, cada cliente
+            nuevo, cada llamada que termina.
+          </li>
+          <li>Reciben la información en un lugar donde una máquina la puede ver.</li>
+          <li>Te llegan a ti antes que a nadie más.</li>
+          <li>Se pueden juzgar como buenos o malos en menos de un minuto.</li>
+        </ul>
+        <p>
+          Hay uno que todavía no pasamos al disparador: cada llamada que
+          grabamos queda guardada como transcripción cuando termina, y las
+          notas todavía las pido yo. Es el siguiente candidato obvio para dejar
+          de depender del botón.
+        </p>
+
+        <h2>¿Qué trabajos nunca deberían correr con un disparador?</h2>
+        <p>
+          Mi regla es que nada sale del negocio solo porque se activó un
+          disparador. El disparador puede preparar un correo para un cliente,
+          un cambio de precio o la respuesta a una reseña, pero una persona lo
+          aprueba antes de que alguien de afuera lo vea. Aquí es donde casi
+          todos lo hacen al revés: automatizan el envío, porque es el clic
+          tedioso. La preparación es justamente lo que un disparador debería
+          hacer mientras duermes. El clic que pone tu nombre en algo es la parte
+          que vale la pena conservar.
+        </p>
+
+        <h2>¿Cómo sacas tu primer skill del botón?</h2>
+        <p>
+          Elige el skill que más ejecutaste el mes pasado. Anota qué revisas
+          cuando miras su resultado: esa lista es tu paso de aprobación. Haz
+          que el resultado llegue a un lugar que ya revisas todos los días.
+          Define qué evento lo tiene que arrancar y, antes de confiar en él,
+          haz que ese disparador lo ejecute una vez mientras miras. No tú
+          apretando el botón, sino el horario o el evento real.
+        </p>
+        <p>
+          Todos los días a las 7 de la mañana corren veinte revisiones en
+          nuestros sitios, y casi siempre el reporte completo es una sola
+          línea. No lo arranco yo. Mi trabajo ahora es leer esa línea.
+        </p>
+
