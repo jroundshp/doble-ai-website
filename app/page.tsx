@@ -499,6 +499,22 @@ const clientProjects = [
     gradient: "linear-gradient(135deg, #1b1b1d 0%, #3a3f44 55%, #d98a24 125%)",
     image: "/work/rocky-goat.jpg",
   },
+  {
+    name: "Ultimate Kitchen Tools",
+    kind: "Client build · Hand-carved kitchen tools · Northern Michigan",
+    step1Label: "Where it started",
+    step1:
+      "A really fun one, for a family member. Chris Rounds has been carving since he was nine and sells his wooden kitchen tools at art shows from Michigan to Texas. His site ran on Google Sites, which has no product system in it, so prices were typed in by hand, sizes and left- or right-handed versions didn't appear at all, and someone who met him at a show had no easy way to find out when he'd be back.",
+    step2Label: "What we built",
+    step2:
+      "A new site from the ground up. All 22 tools have their own page, generated from one catalog so each price lives in one place, and every size and left- or right-handed variation shows with its own price. There's an email signup for show dates, new pieces, and specials, a section listing his upcoming shows, and links to his Facebook and Instagram. Every old link lands on its new page, and the whole build is architected for SEO and GEO, with product schema on every tool, so he surfaces in Google and in AI tools like ChatGPT and Grok.",
+    domain: "ultimatekitchentools.com",
+    href: "https://www.ultimatekitchentools.com",
+    cta: "Visit the site",
+    tag: "Hand-carved kitchen tools",
+    gradient: "linear-gradient(135deg, #2a1d12 0%, #5a3c22 55%, #c89a5c 125%)",
+    image: "/work/ultimate-kitchen-tools.jpg",
+  },
 ];
 
 /* Properties we own. Not things we sell: they are where the same method runs
