@@ -500,6 +500,22 @@ const clientProjects = [
     image: "/work/rocky-goat.jpg",
   },
   {
+    name: "Concrete Warrior Supply",
+    kind: "Client build · Concrete, aggregate & topsoil · New Town, ND",
+    step1Label: "The starting point",
+    step1:
+      "A client with a portfolio of businesses opened a new yard in New Town, North Dakota, on the Fort Berthold Reservation: pit, crusher, and batch plant on one site. The equipment was on the ground and the operation was real, but online there was nothing. No website, no Google Business Profile, nothing for Google or an AI tool to return when a contractor or an oilfield operator went looking for concrete, aggregate, or topsoil nearby.",
+    step2Label: "What we built",
+    step2:
+      "A site that puts the physical operation online: the materials, ready-mix concrete, and a reclamation topsoil page built on North Dakota's own well-site rules, which is what oilfield operators have to meet. The whole build is architected for SEO and GEO, with an answers section written the way people ask ChatGPT and Grok, and it launched together with a verified Google Business Profile so the yard shows up on the map.",
+    domain: "concretewarriorsupply.com",
+    href: "https://concretewarriorsupply.com",
+    cta: "Visit the site",
+    tag: "Concrete, aggregate & topsoil",
+    gradient: "linear-gradient(135deg, #1c1c1e 0%, #3a2a24 55%, #c2462b 125%)",
+    image: "/work/concrete-warrior.jpg",
+  },
+  {
     name: "Ultimate Kitchen Tools",
     kind: "Client build · Hand-carved kitchen tools · Northern Michigan",
     step1Label: "Where it started",
