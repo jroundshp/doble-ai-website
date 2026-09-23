@@ -549,7 +549,176 @@ const onTheBusinessFaqEN = [
   },
 ];
 
+
+const onTheBusinessFaqES = [
+  {
+    q: "¿Qué significa trabajar en construir tu negocio y no solo dentro de él?",
+    a: "Es la distinción de Michael Gerber en El mito del emprendedor (The E-Myth). Trabajar dentro del negocio es hacer el trabajo diario. Trabajar en construirlo es crear los sistemas, los precios y los planes que permiten que el negocio funcione sin que tú hagas cada tarea.",
+  },
+  {
+    q: "¿Qué es un sistema de IA?",
+    a: "Es una configuración en la que la IA guarda memoria de tu negocio de una sesión a otra, sigue skills escritos para los trabajos que repites y tiene agentes que trabajan con un horario o un disparador. Es la diferencia entre un chat que empieza de cero y un sistema que sigue donde lo dejaste.",
+  },
+  {
+    q: "¿GrokBot es un buen punto de partida para el dueño de un negocio pequeño?",
+    a: "Sí. Es la forma más accesible de tener memoria, rutinas y agentes siempre activos sin escribir código. Claude funciona mejor para el trabajo que toca archivos, sitios web y publicaciones.",
+  },
+  {
+    q: "¿Cuánto tiempo puede ahorrar un sistema de IA?",
+    a: "Depende de cuánto de tu semana sea trabajo repetido. El ahorro sale de no tener que volver a explicar tu negocio, no rehacer los mismos documentos y no atender tú mismo las llamadas y preguntas de rutina.",
+  },
+  {
+    q: "¿Por qué la IA no le ahorra tiempo a algunos negocios?",
+    a: "Porque no tiene información correcta con la cual trabajar. Si tus procesos no están por escrito y tu información en internet no está al día, la IA adivina o necesita que la corrijas.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "mas-tiempo-para-tu-negocio",
+    faq: onTheBusinessFaqES,
+    title: "Construye el sistema y dedica esas horas a tu negocio",
+    excerpt:
+      "Un sistema de IA con memoria y skills hace más rápido el trabajo diario. Lo que importa es a qué dedicas las horas que te ahorra.",
+    date: "23 de septiembre de 2026",
+    dateISO: "2026-09-23",
+    category: "Estrategia de IA",
+    readTime: "4 min de lectura",
+    coverImage: "/work/on-your-business-es.jpg",
+    coverAlt:
+      "Tarjeta oscura que dice Construye el sistema y dedica esas horas, sobre tres tarjetas: memoria, no repites nada; skills, no rehaces nada; y las horas, para tu negocio",
+    keywords:
+      "trabajar en tu negocio y no dentro de él, El mito del emprendedor IA, sistema de IA para negocios pequeños, memoria y skills de IA, GrokBot para negocios, ahorrar tiempo con IA, productividad con IA para dueños de negocio, implementación de IA bilingüe Colorado",
+    content: (
+      <>
+        <p>
+          Michael Gerber lo explicó en <em>El mito del emprendedor</em>: la
+          mayoría de los dueños pasan el día trabajando dentro de su negocio,
+          haciendo el trabajo diario, cuando el negocio necesita a alguien que
+          trabaje en construirlo: los precios, las contrataciones, el próximo
+          servicio. Todos están de acuerdo. El problema es que nadie tiene las
+          horas.
+        </p>
+        <p>
+          Eso sí cambió. La IA no hace tu trabajo por ti, pero un sistema bien
+          armado hace que el trabajo que ya haces te tome menos tiempo. Lo que
+          realmente importa es a qué dedicas ese tiempo.
+        </p>
+
+        <h2>¿En qué se le va la semana al dueño de un negocio?</h2>
+        <p>
+          Anota una semana completa. A casi todos los dueños con los que
+          trabajamos en el Eagle River Valley se les va en tareas pequeñas: el
+          teléfono que suena en medio de un trabajo, las mismas cinco preguntas
+          por mensaje, una publicación que escribes en inglés y luego otra vez
+          en español, una propuesta que rehaces a partir de una vieja y el
+          mismo proyecto que le vuelves a explicar a la IA cada vez que la
+          abres.
+        </p>
+        <p>En esa última se quedan atascados casi todos los que usan IA.</p>
+
+        <h2>¿Por qué la IA se sigue sintiendo lenta?</h2>
+        <p>
+          Porque la usan solo como una ventana de chat. Cada sesión empieza de
+          cero: le explicas el negocio, el cliente, el formato y las reglas, y
+          después corriges lo que hizo mal porque no lo sabía.
+        </p>
+        <p>
+          La solución es dejar de tratarla como una conversación y empezar a
+          construir un sistema. Tiene tres piezas:
+        </p>
+        <ul>
+          <li>
+            La memoria guarda lo que el sistema sabe de tu negocio, tus clientes
+            y tus preferencias de una sesión a otra, así que no tienes que
+            volver a explicárselo.
+          </li>
+          <li>
+            Los skills son instrucciones por escrito para los trabajos que
+            repites, como una propuesta, un reporte semanal o un artículo del
+            blog, y la IA los sigue igual cada vez.
+          </li>
+          <li>
+            Los agentes trabajan solos, con un horario o un disparador,
+            mientras tú haces otra cosa.
+          </li>
+        </ul>
+
+        <img
+          src="/work/on-your-business-flow-es.jpg"
+          alt="Cuatro tarjetas que muestran de dónde salen las horas: la memoria que conoce tu negocio, los skills que dejan por escrito los trabajos repetidos, los agentes que trabajan sin ti y las horas libres dedicadas al negocio"
+        />
+
+        <p>
+          Si nunca has armado uno, GrokBot es el punto de entrada más fácil. Lo
+          comparamos con otras opciones en{" "}
+          <a href="/blog/grokbot-o-claude-arquitectura-de-agentes">
+            ¿GrokBot o Claude?
+          </a>
+          , y la parte de la memoria la explicamos en{" "}
+          <a href="/blog/un-segundo-cerebro-es-una-arquitectura">
+            un segundo cerebro es una arquitectura, no una app
+          </a>
+          .
+        </p>
+
+        <h2>¿Cómo se ve esto en un día normal?</h2>
+        <p>
+          Este mismo artículo es un ejemplo. En Doble AI tenemos un skill para
+          escribir artículos del blog: dónde va el archivo, las reglas de SEO y
+          de preguntas frecuentes, las reglas de estilo y cómo se publica. La
+          memoria guarda lo que ya escribimos, para que el borrador no repita
+          un artículo anterior. Lo que antes era una tarde de preparación y
+          correcciones ahora empieza directamente en la parte de pensar. La
+          versión en español, además, la revisa nuestra traductora antes de
+          publicarse.
+        </p>
+        <p>
+          Con el teléfono pasa lo mismo, pero del otro lado. LUCI, nuestra
+          recepcionista de voz en el (970) 406-4630, contesta en inglés o en
+          español y nos manda el contacto por correo. Nadie aquí tiene que
+          dejar un trabajo a medias para contestar una llamada a las 7 de la
+          noche.
+        </p>
+        <p>
+          Ninguna de las dos cosas impresiona por sí sola. A lo largo de una
+          semana, suman horas.
+        </p>
+
+        <h2>¿Por qué no todos los negocios recuperan esas horas?</h2>
+        <p>
+          Porque el sistema solo puede repetir lo que ya existe. Un skill no
+          puede seguir un proceso que nunca dejaste por escrito. Una
+          recepcionista no puede dar un horario que tu sitio web no publica.
+          Por eso{" "}
+          <a href="/blog/por-que-la-ia-es-el-paso-cuatro-no-el-paso-uno">
+            la IA es el paso cuatro, no el paso uno
+          </a>
+          . Los dueños que se saltan directo a las herramientas terminan
+          pasando las noches alimentándolas, y eso sigue siendo trabajar
+          dentro del negocio.
+        </p>
+
+        <h2>¿A qué deberías dedicar esas horas?</h2>
+        <p>
+          Decídelo antes de tenerlas, o lo va a decidir tu bandeja de entrada.
+          Elige un trabajo de fondo que sigues posponiendo, como subir un
+          precio, escribir la página de servicio que tienes pendiente o llamar
+          a los clientes que más trabajo te mandan, y dale la primera hora que
+          el sistema te libere.
+        </p>
+        <p>
+          Para empezar, anota durante cinco días todo lo que te interrumpe. Lo
+          que más se repite, y que siempre tiene la misma respuesta, es tu
+          primer skill.
+        </p>
+
+        <FAQ items={onTheBusinessFaqES} title="Preguntas frecuentes" />
+
+        <CTAes />
+      </>
+    ),
+  },
   {
     slug: "more-time-on-your-business-not-in-it",
     faq: onTheBusinessFaqEN,
