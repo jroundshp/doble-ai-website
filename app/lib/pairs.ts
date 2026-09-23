@@ -3,6 +3,7 @@
 // and the visible cross-language link. A post absent from this array is
 // invisible on the blog index.
 export const pairs: [string, string?][] = [
+  ["more-time-on-your-business-not-in-it"],
   ["your-ai-still-waits-for-you-to-press-the-button", "tu-ia-sigue-esperando-que-aprietes-el-boton"],
   ["grokbot-or-claude-agent-architecture", "grokbot-o-claude-arquitectura-de-agentes"],
   ["will-ai-take-my-job-build-the-machine", "la-ia-me-va-a-quitar-el-trabajo"],

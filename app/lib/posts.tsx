@@ -526,7 +526,162 @@ const agentStackFaqES = [
   },
 ];
 
+const onTheBusinessFaqEN = [
+  {
+    q: "What does “working on your business, not in it” mean?",
+    a: "It is Michael Gerber’s distinction from The E-Myth. Working in the business is doing the daily jobs. Working on it is building the systems, pricing and plans that let the business run without you doing every job.",
+  },
+  {
+    q: "What is an AI stack?",
+    a: "A setup where AI keeps memory of your business between sessions, follows written skills for jobs you repeat, and runs agents on a schedule or a trigger. It is the difference between a chat window that starts from zero and a system that starts where you left off.",
+  },
+  {
+    q: "Is GrokBot a good place for a small business owner to start?",
+    a: "Yes. It is the most accessible way to get memory, routines and always-on agents without writing code. Claude is stronger for work that touches files, websites and deploys.",
+  },
+  {
+    q: "How much time can an AI stack save?",
+    a: "It depends on how much of your week is repeat work. The savings come from not re-explaining your business, not rebuilding the same documents, and not handling routine calls and questions yourself.",
+  },
+  {
+    q: "Why does AI fail to save time for some businesses?",
+    a: "It has nothing accurate to work from. If your processes are not written down and your information online is not current, the AI guesses or needs you to correct it.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "more-time-on-your-business-not-in-it",
+    faq: onTheBusinessFaqEN,
+    title: "Build the stack, then spend the hours on your business",
+    excerpt:
+      "A personal AI stack with memory and skills makes daily work faster. The point is where the saved hours go: on your business, not in it.",
+    date: "September 23, 2026",
+    dateISO: "2026-09-23",
+    category: "AI Strategy",
+    readTime: "4 min read",
+    coverImage: "/work/on-your-business-en.jpg",
+    coverAlt:
+      "Dark title card reading Build the stack, then spend the hours, above three cards: memory, no re-briefing; skills, no rebuilding; and the hours, spent on the business",
+    keywords:
+      "work on your business not in it, E-Myth AI, AI stack for small business, AI memory and skills, GrokBot for small business, save time with AI, AI productivity for business owners, bilingual AI implementation Colorado",
+    content: (
+      <>
+        <p>
+          Michael Gerber put it plainly in <em>The E-Myth</em>: most owners
+          work <em>in</em> their business, doing the jobs, when the business
+          needs someone working <em>on</em> it. Pricing, hiring, the next
+          service line. Everyone agrees. Nobody has the hours.
+        </p>
+        <p>
+          That part has changed. Not because AI does your job, but because a
+          well-built AI setup makes the jobs you already do take less time.
+          What you do with that time is the whole point.
+        </p>
+
+        <h2>Where does an owner&apos;s week actually go?</h2>
+        <p>
+          Write down one week. For most owners we work with in the Eagle River
+          Valley, the small jobs eat it: the phone during a job, the same five
+          questions by text, a post written in English and then again in
+          Spanish, a proposal rebuilt from an old one, and the same project
+          explained to an AI tool every time you open it.
+        </p>
+        <p>That last one is where most people using AI are stuck.</p>
+
+        <h2>Why does AI still feel slow for most people?</h2>
+        <p>
+          Because they use it as a chat window. Every session starts from
+          zero. You explain the business, the client, the format and the
+          rules, then fix what it got wrong because it didn&apos;t know.
+        </p>
+        <p>
+          The fix is to stop treating AI as a conversation and start building
+          a stack. Three pieces matter:
+        </p>
+        <ul>
+          <li>
+            Memory keeps what the system knows about your business, clients
+            and preferences between sessions, so you never re-brief it.
+          </li>
+          <li>
+            Skills are written procedures for jobs you repeat, like a
+            proposal, a weekly report or a blog post, followed the same way
+            every time.
+          </li>
+          <li>
+            Agents run on their own, on a schedule or a trigger, while you do
+            something else.
+          </li>
+        </ul>
+
+        <img
+          src="/work/on-your-business-flow-en.jpg"
+          alt="Four cards showing where saved hours come from: memory that knows the business, skills that write down repeat jobs, agents that run without you, and the freed hours spent on the business"
+        />
+
+        <p>
+          GrokBot is the easiest place to start if you&apos;ve never built one.
+          We compared it with other setups in{" "}
+          <a href="/blog/grokbot-or-claude-agent-architecture">
+            GrokBot or Claude?
+          </a>
+          , and the memory side is covered in{" "}
+          <a href="/blog/second-brain-architecture">
+            a second brain is an architecture, not an app
+          </a>
+          .
+        </p>
+
+        <h2>What does that look like on a normal day?</h2>
+        <p>
+          This post is an example. We have a skill for writing a blog post:
+          where the file lives, the SEO and FAQ rules, the style rules, how it
+          gets published. Memory holds what&apos;s already been written, so
+          the draft doesn&apos;t repeat an older post. Work that used to take
+          an afternoon of setup and cleanup now starts at the thinking.
+        </p>
+        <p>
+          Our phone works the same way from the other side. LUCI, our voice
+          receptionist at (970) 406-4630, answers in English or Spanish and
+          emails us the lead. Nobody here stops a job to pick up a 7pm call.
+        </p>
+        <p>
+          Neither of these is impressive on its own. Across a week, they add up
+          to hours.
+        </p>
+
+        <h2>Why doesn&apos;t every business get those hours back?</h2>
+        <p>
+          Because the stack can only repeat what exists. A skill can&apos;t
+          follow a process you never wrote down. A receptionist can&apos;t
+          quote hours your website doesn&apos;t list. That&apos;s why{" "}
+          <a href="/blog/why-ai-is-step-four-not-step-one">
+            AI is step four, not step one
+          </a>
+          . Owners who skip to the tools spend their evenings feeding them,
+          which is still working in the business.
+        </p>
+
+        <h2>What should you do with the hours?</h2>
+        <p>
+          Decide before you get them, or the inbox will. Pick one job on the
+          business you keep postponing, like raising a price, writing the
+          service page you keep meaning to, or calling the customers who send
+          you the most work. Give it the first hour the stack frees up.
+        </p>
+        <p>
+          To start, keep a list of your interruptions for five days. The one
+          that repeats most, with an answer that never changes, is your first
+          skill.
+        </p>
+
+        <FAQ items={onTheBusinessFaqEN} />
+
+        <CTA />
+      </>
+    ),
+  },
   {
     slug: "your-ai-still-waits-for-you-to-press-the-button",
     faq: pressButtonFaqEN,
