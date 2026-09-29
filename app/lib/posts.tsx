@@ -772,7 +772,12 @@ export const posts: Post[] = [
           <li>
             Una pregunta en tu sección de preguntas frecuentes sobre si
             trabajas con SI, con una respuesta clara. Los buscadores de IA
-            toman mucho de ese tipo de contenido.
+            toman mucho de ese tipo de contenido, por las razones que
+            explicamos en{" "}
+            <a href="/blog/no-te-posicionas-te-seleccionan">
+              no te posicionas, te seleccionan
+            </a>
+            .
           </li>
           <li>
             Las dos palabras en las páginas que describen tus servicios de IA,
@@ -799,7 +804,11 @@ export const posts: Post[] = [
           haces. Si un negocio no aparece cuando buscan &ldquo;IA&rdquo;,
           tampoco va a aparecer cuando busquen &ldquo;SI&rdquo;. Primero tienen
           que encontrarte, después tienes que contar tu historia por escrito y,
-          al final, sumar las herramientas. Ese orden no depende de cómo las
+          al final, sumar las herramientas (lo explicamos en{" "}
+          <a href="/blog/por-que-la-ia-es-el-paso-cuatro-no-el-paso-uno">
+            por qué la IA es el paso cuatro, no el paso uno
+          </a>
+          ). Ese orden no depende de cómo las
           llame Washington.
         </p>
         <p>
@@ -942,7 +951,12 @@ export const posts: Post[] = [
         <ul>
           <li>
             A question on your FAQ page asking whether you work with SI, with a
-            plain answer. AI search engines pull heavily from FAQ content.
+            plain answer. AI search engines pull heavily from FAQ content, for
+            reasons we cover in{" "}
+            <a href="/blog/you-dont-rank-into-an-ai-overview">
+              you don&apos;t rank into an AI Overview
+            </a>
+            .
           </li>
           <li>
             Both terms on the pages that describe your AI services, the first
@@ -967,7 +981,11 @@ export const posts: Post[] = [
           pages that explain what you do. A business that isn&apos;t findable
           under &ldquo;AI&rdquo; won&apos;t become findable under
           &ldquo;SI.&rdquo; Get found first, tell your story in writing, then
-          add the tools. That order holds whatever Washington calls them.
+          add the tools (the reasoning is in{" "}
+          <a href="/blog/why-ai-is-step-four-not-step-one">
+            why AI is step four, not step one
+          </a>
+          ). That order holds whatever Washington calls them.
         </p>
         <p>
           We made the change on our own site the same day we wrote this. The
@@ -3063,6 +3081,16 @@ export const posts: Post[] = [
           somebody besides themselves.
         </p>
         <p>
+          Legible also means using the words your customers use, including
+          new ones. When the U.S. government renamed AI &ldquo;SI&rdquo; in
+          September 2026, the businesses that wrote the new word next to the
+          old one gave the engines a way to connect it to them. We walk
+          through that case in{" "}
+          <a href="/blog/trump-says-si-musk-says-superintelligence">
+            Trump says SI. Musk says superintelligence.
+          </a>
+        </p>
+        <p>
           That has always been decent advice. What changed is the penalty for
           ignoring it. Under ranking, a business that skipped all of it landed
           on page three. Under retrieval, it does not land anywhere, and the
@@ -3300,6 +3328,17 @@ export const posts: Post[] = [
           reales en texto que una máquina pueda leer, descritos de forma
           consistente en todos lados y respaldados por alguien más que ellos
           mismos.
+        </p>
+        <p>
+          Ser legible también es usar las palabras que usan tus clientes,
+          incluidas las nuevas. Cuando el gobierno de Estados Unidos empezó a
+          llamar a la IA &ldquo;superinteligencia&rdquo; (SI) en septiembre de
+          2026, los negocios que escribieron la palabra nueva junto a la de
+          siempre les dieron a los buscadores una forma de asociarla con
+          ellos. Lo explicamos en{" "}
+          <a href="/blog/trump-dice-si-musk-dice-superinteligencia">
+            Trump dice SI. Musk dice superinteligencia.
+          </a>
         </p>
         <p>
           Eso siempre fue un buen consejo. Lo que cambió es el castigo por
@@ -3851,6 +3890,15 @@ export const posts: Post[] = [
           Nothing is wrong with the tools. They&apos;re being sold out of
           order.
         </p>
+        <p>
+          The tools have a new name, too. Since September 2026 the U.S.
+          government calls AI &ldquo;SI,&rdquo; for super intelligence. We
+          explain what that means for a small business in{" "}
+          <a href="/blog/trump-says-si-musk-says-superintelligence">
+            Trump says SI. Musk says superintelligence.
+          </a>{" "}
+          The order in this post stays the same whatever the tools are called.
+        </p>
 
         <h2>Product one: find out where you actually stand</h2>
         <p>
@@ -3998,6 +4046,16 @@ export const posts: Post[] = [
           IA cada semana. Casi ninguno tiene la base que esas herramientas
           necesitan para rendir. Las herramientas no están mal—las están
           vendiendo en el orden equivocado.
+        </p>
+        <p>
+          Además, las herramientas tienen un nombre nuevo. Desde septiembre de
+          2026, el gobierno de Estados Unidos llama a la IA
+          &ldquo;superinteligencia&rdquo; (SI). Explicamos qué significa eso
+          para un negocio pequeño en{" "}
+          <a href="/blog/trump-dice-si-musk-dice-superinteligencia">
+            Trump dice SI. Musk dice superinteligencia.
+          </a>
+          . El orden de este artículo no cambia, se llamen como se llamen.
         </p>
 
         <h2>Producto uno: saber dónde estás parado de verdad</h2>
@@ -4203,6 +4261,15 @@ export const posts: Post[] = [
             Your AI Should Know Your Business by Now
           </a>
           . Usually that&apos;s the real gap. Not the brain. What you feed it.
+        </p>
+        <p>
+          The same goes for the name. Since September 2026 the U.S. government
+          calls AI &ldquo;SI,&rdquo; for super intelligence (we covered the
+          rename in{" "}
+          <a href="/blog/trump-says-si-musk-says-superintelligence">
+            Trump says SI. Musk says superintelligence.
+          </a>
+          ). A new name doesn&apos;t fix scattered information either.
         </p>
 
         <h2>The first wins are boring</h2>
@@ -4439,6 +4506,15 @@ export const posts: Post[] = [
           </a>
           . Casi siempre ahí está la verdadera brecha. No en el cerebro. En lo
           que le das de comer.
+        </p>
+        <p>
+          Con el nombre pasa lo mismo. Desde septiembre de 2026, el gobierno de
+          Estados Unidos llama a la IA &ldquo;superinteligencia&rdquo; (SI), y
+          lo explicamos en{" "}
+          <a href="/blog/trump-dice-si-musk-dice-superinteligencia">
+            Trump dice SI. Musk dice superinteligencia.
+          </a>
+          . Un nombre nuevo tampoco ordena la información dispersa.
         </p>
 
         <h2>Las primeras victorias son aburridas</h2>
