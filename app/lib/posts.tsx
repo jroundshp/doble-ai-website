@@ -573,7 +573,200 @@ const onTheBusinessFaqES = [
   },
 ];
 
+const aiToSiFaqEN = [
+  {
+    q: "What is SI, or Super Intelligence?",
+    a: "SI stands for Super Intelligence, the name the U.S. government adopted for artificial intelligence in September 2026. President Trump directed that official documents use it, and the State Department told diplomats to use “SI” in remarks and press materials. It refers to the same AI tools people already use.",
+  },
+  {
+    q: "Is SI different from AI?",
+    a: "Not in the government’s usage. SI is a new name for the same technology. In the tech industry, “superintelligence” also has an older meaning: a future AI that outperforms people at nearly everything, which does not exist yet.",
+  },
+  {
+    q: "Why did the U.S. change the name from AI to SI?",
+    a: "President Trump said at the United Nations on September 22, 2026 that “the use of the word artificial makes intelligence fake; it makes it sound fake, and it is not fake.”",
+  },
+  {
+    q: "Is China using the term SI?",
+    a: "Not officially. China’s foreign ministry said it “respects the US side’s wording,” but Chinese officials, including Xi Jinping, have kept saying AI in public.",
+  },
+  {
+    q: "What do Elon Musk and Sam Altman mean by superintelligence?",
+    a: "AI that is better than people at nearly all work. Altman has said OpenAI may be a couple of years from early versions of it, Meta has a division called Meta Superintelligence Labs, and Musk ties it to a future of robots and “effectively universal high income.” None of them are describing a product you can buy today.",
+  },
+  {
+    q: "Should my business say AI or SI?",
+    a: "Both. Most customers still search for AI, and more of them will hear SI as the government and the news use it. Put both terms on your FAQ page and on the pages that describe your AI services, and keep your product and company names as they are.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "trump-says-si-musk-says-superintelligence",
+    faq: aiToSiFaqEN,
+    title: "Trump says SI. Musk says superintelligence. What should your business call it?",
+    excerpt:
+      "The U.S. government now calls AI “Super Intelligence.” Tech leaders use the word for something else. Here’s what a small business should say.",
+    date: "September 29, 2026",
+    dateISO: "2026-09-29",
+    category: "AI Strategy",
+    readTime: "5 min read",
+    coverImage: "/work/ai-to-si-en.jpg",
+    coverAlt:
+      "Trump says SI. Musk says superintelligence. Below it: Washington uses SI for today’s AI, the AI labs use superintelligence for AI beyond human level, and your website should use both words.",
+    keywords:
+      "AI vs SI, what is SI super intelligence, Trump super intelligence AI rename, State Department SI, superintelligence meaning for small business, Elon Musk superintelligence, AI to SI terminology, SEO and GEO for new AI terms, bilingual AI implementation Colorado",
+    content: (
+      <>
+        <p>
+          On September 22, President Trump told the United Nations General
+          Assembly that the U.S. government will stop saying &ldquo;artificial
+          intelligence.&rdquo; From now on, he said, &ldquo;all United States
+          documents&rdquo; will call it &ldquo;super intelligence.&rdquo; His
+          reason: &ldquo;The use of the word artificial makes intelligence
+          fake; it makes it sound fake, and it is not fake.&rdquo;
+        </p>
+        <p>
+          The State Department put it into practice within a day. An email to
+          staff in its Bureau of International Organization Affairs, subject
+          line &ldquo;Change in Nomenclature AI to SI,&rdquo; told diplomats:
+          &ldquo;We will be using &apos;SI&apos; in all remarks, positions and
+          press elements moving forward.&rdquo;
+        </p>
+        <p>
+          Elon Musk, Sam Altman and Mark Zuckerberg have been saying
+          &ldquo;superintelligence&rdquo; for months, and they mean something
+          different by it. If your business uses AI or sells anything built on
+          it, you&apos;re going to hear both versions of the word. So are your
+          customers.
+        </p>
+
+        <h2>Who is actually calling it SI?</h2>
+        <p>
+          So far, the U.S. government. The president&apos;s directive covers
+          official documents, and the State Department email extends it to
+          remarks and press materials. Expect to see SI in agency
+          announcements, grant language and the news coverage that quotes
+          them.
+        </p>
+        <p>
+          China&apos;s response is worth reading closely. After a state dinner
+          on September 25, Trump wrote that Xi Jinping &ldquo;seemed to
+          like&rdquo; the new name. The next day China&apos;s foreign ministry
+          said it &ldquo;attaches importance to the US side&apos;s position and
+          respects the US side&apos;s wording.&rdquo; That&apos;s polite, and
+          it isn&apos;t adoption. When Xi spoke at the White House that week,
+          he said AI, and talked about keeping it &ldquo;always under human
+          control.&rdquo;
+        </p>
+
+        <h2>What do Musk, Altman and Zuckerberg mean by superintelligence?</h2>
+        <p>
+          Something that doesn&apos;t exist yet. In the tech industry,
+          superintelligence means AI that does nearly all work better than
+          people do, and the largest companies say openly that they are
+          building toward it.
+        </p>
+        <ul>
+          <li>
+            Musk said in an interview released September 26 that robots and AI
+            will lead to &ldquo;effectively universal high income,&rdquo; and
+            that it isn&apos;t clear money will even matter.
+          </li>
+          <li>
+            Altman told the India AI Impact Summit in February that OpenAI may
+            be &ldquo;only a couple of years away from early versions of true
+            superintelligence.&rdquo;
+          </li>
+          <li>
+            Zuckerberg reorganized Meta&apos;s AI work into Meta
+            Superintelligence Labs, with the goal of &ldquo;personal
+            superintelligence&rdquo; for everyone.
+          </li>
+          <li>
+            Ilya Sutskever, an OpenAI co-founder, named his company after the
+            goal. Safe Superintelligence Inc. signed a multibillion-dollar
+            partnership with NVIDIA in July.
+          </li>
+        </ul>
+        <p>
+          Some researchers object to the rename for exactly this reason. Simon
+          Coghlan, a digital ethics lecturer, called it &ldquo;misleading,&rdquo;
+          because the word already had a meaning in the field.
+        </p>
+
+        <img
+          src="/work/ai-to-si-flow-en.jpg"
+          alt="Who says what in September 2026: Trump and the State Department adopted SI, China respects the wording but still says AI, and Musk, Altman and Zuckerberg use superintelligence for the next milestone. For your business, put both words on your site now."
+        />
+
+        <h2>So is it AI or SI?</h2>
+        <p>
+          When the government says SI, it means the tools you can use today: ChatGPT, Claude, Gemini, an AI
+          receptionist that answers your phone at night. When a tech CEO says
+          superintelligence, they mean a future system smarter than any
+          person. Same word, two different claims.
+        </p>
+        <p>
+          For a small business, the first meaning is the one that matters.
+          Nothing about the tools changed on September 22. The name changed,
+          and names spread fast once the government and the news start using
+          them. Plenty of people never liked &ldquo;artificial&rdquo; anyway.
+        </p>
+
+        <h2>What should my business call it?</h2>
+        <p>
+          Call it what your customers call it, and put both words where search
+          engines can read them. Today most people still type &ldquo;AI&rdquo;
+          into Google. Over the next year more of them will hear
+          &ldquo;SI&rdquo; on the news, and some will start searching for it.
+          The businesses that show up for both will be the ones that wrote
+          both down.
+        </p>
+        <p>In practice, that means:</p>
+        <ul>
+          <li>
+            A question on your FAQ page asking whether you work with SI, with a
+            plain answer. AI search engines pull heavily from FAQ content.
+          </li>
+          <li>
+            Both terms on the pages that describe your AI services, the first
+            time you mention them. &ldquo;AI (now officially called SI by the
+            U.S. government)&rdquo; is enough.
+          </li>
+          <li>
+            The same on your Spanish pages if you have them, written by
+            someone who speaks Spanish rather than run through a translator.
+          </li>
+        </ul>
+        <p>
+          Leave your product names and your company name alone. If SI sticks,
+          you can lean further in later. If it fades, you haven&apos;t rebuilt
+          anything.
+        </p>
+
+        <h2>Does the new name change how customers find you?</h2>
+        <p>
+          No. Google and AI search still answer questions from content they
+          can find and trust: your Google Business Profile, your website, the
+          pages that explain what you do. A business that isn&apos;t findable
+          under &ldquo;AI&rdquo; won&apos;t become findable under
+          &ldquo;SI.&rdquo; Get found first, tell your story in writing, then
+          add the tools. That order holds whatever Washington calls them.
+        </p>
+        <p>
+          We made the change on our own site the same day we wrote this. The
+          FAQ on our homepage now answers the SI question, and the file we
+          publish for AI engines says plainly that SI and AI mean the same
+          thing when we use them.
+        </p>
+
+        <FAQ items={aiToSiFaqEN} />
+
+        <CTA />
+      </>
+    ),
+  },
   {
     slug: "mas-tiempo-para-tu-negocio",
     faq: onTheBusinessFaqES,

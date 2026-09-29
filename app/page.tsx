@@ -43,6 +43,10 @@ const faqs = [
     a: "Two things. First, we don't hand you a tool. We build an AI workspace that learns your business. It remembers your clients, your workflows, your brand voice, and the decisions you've already made. Every session compounds on the last. Most businesses get AI that resets to zero every day; our clients get AI that gets sharper the longer we work together. Second, we're one of Colorado's few bilingual AI implementation firms, delivering strategy and content in native-quality Spanish as well as English, reaching the 40–50% of Colorado mountain corridor residents whose first language is Spanish. Separately, each is a meaningful edge. Together, they're a significant one.",
   },
   {
+    q: "Does Doble AI work with SI, or Super Intelligence?",
+    a: "Yes. SI, short for Super Intelligence, is the name the U.S. government adopted for artificial intelligence in September 2026. It is the same technology we have always implemented: AI workspaces that learn your business, bilingual content, and voice agents like LUCI. We use both terms, and we follow whichever one your customers use.",
+  },
+  {
     q: "Do I need to be located in the Vail Valley to work with Doble AI?",
     a: "No. We are based in the Eagle River Valley and know the Vail, Roaring Fork, and Steamboat Springs markets well, and that has never been the limit of who we work with. Current and past client work spans Colorado, upstate New York, Missouri, Michigan, and Mexico. If you want to reach bilingual markets or implement AI strategy, we can help regardless of location.",
   },
