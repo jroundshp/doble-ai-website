@@ -600,7 +600,222 @@ const aiToSiFaqEN = [
   },
 ];
 
+const aiToSiFaqES = [
+  {
+    q: "¿Qué es SI o superinteligencia?",
+    a: "SI es la sigla en inglés de Super Intelligence (superinteligencia), el nombre que el gobierno de Estados Unidos adoptó para la inteligencia artificial en septiembre de 2026. El presidente Trump ordenó usarlo en los documentos oficiales, y el Departamento de Estado les pidió a sus diplomáticos usar “SI” en sus declaraciones y materiales de prensa. Se refiere a las mismas herramientas de IA que la gente ya usa.",
+  },
+  {
+    q: "¿La SI es distinta de la IA?",
+    a: "No, en el uso del gobierno. SI es un nombre nuevo para la misma tecnología. En la industria tecnológica, “superinteligencia” también tiene un significado anterior: una IA futura que supera a las personas en casi todo, y que todavía no existe.",
+  },
+  {
+    q: "¿Por qué Estados Unidos cambió el nombre de IA a SI?",
+    a: "El presidente Trump dijo ante las Naciones Unidas, el 22 de septiembre de 2026, que la palabra “artificial” hace que la inteligencia suene falsa, y que no lo es.",
+  },
+  {
+    q: "¿China usa el término SI?",
+    a: "No de forma oficial. La cancillería china dijo que respeta la terminología de Estados Unidos, pero los funcionarios chinos, incluido Xi Jinping, siguen diciendo IA en público.",
+  },
+  {
+    q: "¿Qué quieren decir Elon Musk y Sam Altman con superinteligencia?",
+    a: "Una IA que hace casi cualquier trabajo mejor que una persona. Altman ha dicho que OpenAI podría estar a un par de años de las primeras versiones, Meta tiene una división llamada Meta Superintelligence Labs y Musk la asocia con un futuro de robots y un “ingreso universal alto”. Ninguno de ellos habla de un producto que puedas comprar hoy.",
+  },
+  {
+    q: "¿Mi negocio debería decir IA o SI?",
+    a: "Las dos. La mayoría de tus clientes todavía busca IA, y cada vez más van a escuchar SI a medida que el gobierno y las noticias la usen. Escribe los dos términos en tus preguntas frecuentes y en las páginas que describen tus servicios de IA, y no les cambies el nombre a tus productos ni a tu empresa. En español, escribe la palabra completa la primera vez, porque “SI” sola se confunde con “si” y “sí”.",
+  },
+];
+
 export const posts: Post[] = [
+  {
+    slug: "trump-dice-si-musk-dice-superinteligencia",
+    faq: aiToSiFaqES,
+    title: "Trump dice SI. Musk dice superinteligencia. ¿Cómo debería llamarla tu negocio?",
+    excerpt:
+      "El gobierno de EE. UU. ahora llama a la IA “superinteligencia”. Los líderes tecnológicos usan esa palabra para otra cosa. Esto es lo que te conviene decir.",
+    date: "29 de septiembre de 2026",
+    dateISO: "2026-09-29",
+    category: "Estrategia de IA",
+    readTime: "5 min de lectura",
+    coverImage: "/work/ai-to-si-es.jpg",
+    coverAlt:
+      "Trump dice SI. Musk dice superinteligencia. Debajo: Washington usa SI para la IA de hoy, los laboratorios de IA usan superinteligencia para una IA por encima del nivel humano y tu sitio web debería usar las dos palabras.",
+    keywords:
+      "IA o SI, qué es SI superinteligencia, Trump superinteligencia inteligencia artificial, Departamento de Estado SI, superinteligencia para negocios pequeños, Elon Musk superinteligencia, de IA a SI, SEO y GEO para términos nuevos de IA, implementación de IA bilingüe Colorado",
+    content: (
+      <>
+        <p>
+          El 22 de septiembre, ante la Asamblea General de las Naciones Unidas,
+          el presidente Trump anunció que el gobierno de Estados Unidos va a
+          dejar de decir &ldquo;inteligencia artificial&rdquo;. A partir de
+          ahora, dijo, &ldquo;todos los documentos de Estados Unidos&rdquo; la
+          van a llamar &ldquo;superinteligencia&rdquo;. Su razón es que la
+          palabra &ldquo;artificial&rdquo; hace que suene falsa, &ldquo;y no es
+          falsa&rdquo;.
+        </p>
+        <p>
+          Al día siguiente, el Departamento de Estado ya lo estaba aplicando.
+          Un correo al personal de su Oficina de Asuntos de Organizaciones
+          Internacionales, con el asunto &ldquo;Change in Nomenclature AI to
+          SI&rdquo;, les pidió a los diplomáticos usar &ldquo;SI&rdquo; en
+          todas sus declaraciones, posturas y materiales de prensa.
+        </p>
+        <p>
+          Mientras tanto, Elon Musk, Sam Altman y Mark Zuckerberg llevan meses
+          hablando de superinteligencia, pero con otro significado. Si tu
+          negocio usa IA o vende algo que funciona con ella, vas a escuchar las
+          dos versiones de la palabra, y tus clientes también.
+        </p>
+
+        <h2>¿Quién la está llamando SI?</h2>
+        <p>
+          Por ahora, el gobierno de Estados Unidos. La orden del presidente
+          cubre los documentos oficiales, y el correo del Departamento de
+          Estado la extiende a las declaraciones y a los materiales de prensa.
+          Lo más probable es que empieces a ver SI en anuncios de agencias
+          federales, en convocatorias de fondos y en las noticias que los
+          citan.
+        </p>
+        <p>
+          La respuesta de China vale la pena leerla con cuidado. Después de una
+          cena de Estado el 25 de septiembre, Trump escribió que a Xi Jinping
+          &ldquo;pareció gustarle&rdquo; el nuevo nombre. Al día siguiente, la
+          cancillería china dijo que le da importancia a la posición de
+          Estados Unidos y que &ldquo;respeta&rdquo; su terminología. Es una
+          respuesta cortés, pero no significa que la vayan a adoptar. Cuando Xi
+          habló en la Casa Blanca esa misma semana, dijo IA, y habló de
+          mantenerla &ldquo;siempre bajo control humano&rdquo;.
+        </p>
+
+        <h2>¿Qué quieren decir Musk, Altman y Zuckerberg con superinteligencia?</h2>
+        <p>
+          Algo que todavía no existe. En la industria tecnológica, la
+          superinteligencia es una IA que hace casi cualquier trabajo mejor que
+          una persona, y las empresas más grandes dicen abiertamente que la
+          están construyendo.
+        </p>
+        <ul>
+          <li>
+            Musk dijo en una entrevista publicada el 26 de septiembre que los
+            robots y la IA van a llevarnos a un &ldquo;ingreso universal
+            alto&rdquo; y que ni siquiera está claro que el dinero vaya a
+            importar.
+          </li>
+          <li>
+            Altman dijo en febrero, en la cumbre India AI Impact Summit, que
+            OpenAI podría estar a solo un par de años de las primeras versiones
+            de una superinteligencia real.
+          </li>
+          <li>
+            Zuckerberg reorganizó el trabajo de IA de Meta en Meta
+            Superintelligence Labs, con la meta de lograr una
+            &ldquo;superinteligencia personal&rdquo; para todos.
+          </li>
+          <li>
+            Ilya Sutskever, cofundador de OpenAI, le puso a su empresa el nombre
+            de su meta: Safe Superintelligence Inc. En julio firmó una alianza
+            de miles de millones de dólares con NVIDIA.
+          </li>
+        </ul>
+        <p>
+          Justamente por eso, algunos investigadores critican el cambio de
+          nombre. Simon Coghlan, profesor de ética digital, lo llamó
+          &ldquo;engañoso&rdquo;, porque la palabra ya tenía un significado
+          propio en el campo.
+        </p>
+
+        <img
+          src="/work/ai-to-si-flow-es.jpg"
+          alt="Quién dice qué en septiembre de 2026: Trump y el Departamento de Estado adoptaron SI, China respeta el término pero sigue diciendo IA, y Musk, Altman y Zuckerberg usan superinteligencia para la próxima meta. Para tu negocio: escribe las dos palabras en tu sitio ahora."
+        />
+
+        <h2>Entonces, ¿es IA o SI?</h2>
+        <p>
+          Cuando el gobierno dice SI, se refiere a las herramientas que ya
+          puedes usar hoy: ChatGPT, Claude, Gemini o una recepcionista de IA
+          que contesta tu teléfono en la noche. Cuando el director de una
+          empresa tecnológica dice superinteligencia, se refiere a un sistema
+          futuro más inteligente que cualquier persona. Es la misma palabra,
+          pero no dicen lo mismo.
+        </p>
+        <p>
+          Para un negocio pequeño, lo que importa es el primer significado. Las
+          herramientas no cambiaron el 22 de septiembre: cambió el nombre, y
+          los nombres se extienden rápido cuando el gobierno y las noticias
+          empiezan a usarlos. A mucha gente, además, nunca le gustó eso de
+          &ldquo;artificial&rdquo;.
+        </p>
+
+        <h2>¿Y cómo se dice en español?</h2>
+        <p>
+          En español hay un detalle que en inglés no existe. &ldquo;SI&rdquo;
+          se escribe igual que &ldquo;si&rdquo; y casi igual que
+          &ldquo;sí&rdquo;, así que la sigla sola se presta a confusión en un
+          anuncio o en un mensaje. Mientras la gente se acostumbra, conviene
+          escribir la palabra completa la primera vez: superinteligencia (SI).
+          La sigla que todo el mundo conoce en español, por otro lado, sigue
+          siendo IA, no AI.
+        </p>
+
+        <h2>¿Cómo debería llamarla mi negocio?</h2>
+        <p>
+          Como la llaman tus clientes, y con las dos palabras escritas donde
+          los buscadores puedan leerlas. Hoy casi todos siguen buscando
+          &ldquo;IA&rdquo; en Google. En el próximo año, más gente va a
+          escuchar &ldquo;SI&rdquo; o &ldquo;superinteligencia&rdquo; en las
+          noticias, y algunos van a empezar a buscarla. Los negocios que
+          aparezcan con las dos van a ser los que las hayan puesto por escrito.
+        </p>
+        <p>En la práctica, eso significa:</p>
+        <ul>
+          <li>
+            Una pregunta en tu sección de preguntas frecuentes sobre si
+            trabajas con SI, con una respuesta clara. Los buscadores de IA
+            toman mucho de ese tipo de contenido.
+          </li>
+          <li>
+            Las dos palabras en las páginas que describen tus servicios de IA,
+            la primera vez que las mencionas. Con &ldquo;IA (lo que el gobierno
+            de Estados Unidos ahora llama superinteligencia)&rdquo; es
+            suficiente.
+          </li>
+          <li>
+            Lo mismo en tus páginas en inglés, si las tienes, escritas por
+            alguien que hable inglés y no pasadas por un traductor automático.
+          </li>
+        </ul>
+        <p>
+          No les cambies el nombre a tus productos ni a tu empresa. Si la SI se
+          queda, puedes usarla más adelante. Si no, no tuviste que rehacer
+          nada.
+        </p>
+
+        <h2>¿El nuevo nombre cambia la forma en que te encuentran tus clientes?</h2>
+        <p>
+          No. Google y los buscadores de IA siguen respondiendo con el
+          contenido que pueden encontrar y en el que confían: tu perfil de
+          Google Business, tu sitio web y las páginas que explican lo que
+          haces. Si un negocio no aparece cuando buscan &ldquo;IA&rdquo;,
+          tampoco va a aparecer cuando busquen &ldquo;SI&rdquo;. Primero tienen
+          que encontrarte, después tienes que contar tu historia por escrito y,
+          al final, sumar las herramientas. Ese orden no depende de cómo las
+          llame Washington.
+        </p>
+        <p>
+          En Doble AI hicimos el cambio en nuestro propio sitio el mismo día en
+          que escribimos este artículo. Las preguntas frecuentes de nuestra
+          página principal ya responden la pregunta sobre la SI, y el archivo
+          que publicamos para los motores de IA dice claramente que, cuando
+          hablamos de IA, es lo mismo que el gobierno ahora llama SI.
+        </p>
+
+        <FAQ items={aiToSiFaqES} title="Preguntas frecuentes" />
+
+        <CTAes />
+      </>
+    ),
+  },
   {
     slug: "trump-says-si-musk-says-superintelligence",
     faq: aiToSiFaqEN,

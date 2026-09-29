@@ -60,6 +60,10 @@ const faqs = [
     a: "Dos cosas. Primero, no te entregamos una herramienta: construimos un espacio de trabajo con IA que aprende tu negocio. Recuerda a tus clientes, tus procesos, la voz de tu marca y las decisiones que ya tomaste, y cada sesión se acumula sobre la anterior. La mayoría de los negocios recibe una IA que se reinicia a cero cada día; nuestros clientes reciben una que se afila mientras más tiempo trabajamos juntos. Segundo, somos una de las pocas firmas bilingües de implementación de IA en Colorado, con estrategia y contenido en español de calidad nativa, llegando al 40–50% de los residentes del corredor de montaña de Colorado cuyo primer idioma es el español. Por separado, cada una es una ventaja real. Juntas, son una ventaja considerable.",
   },
   {
+    q: "¿Doble AI trabaja con SI o superinteligencia?",
+    a: "Sí. SI, por superinteligencia, es el nombre que el gobierno de Estados Unidos adoptó para la inteligencia artificial en septiembre de 2026. Es la misma tecnología con la que siempre hemos trabajado: espacios de trabajo con IA que aprenden tu negocio, contenido bilingüe y agentes de voz como LUCI. Usamos los dos términos y seguimos el que usen tus clientes.",
+  },
+  {
     q: "¿Necesito estar en el valle de Vail para trabajar con Doble AI?",
     a: "No. Aunque tenemos base en el valle del río Eagle y conocemos bien los mercados de Vail, Roaring Fork y Steamboat Springs, trabajamos con negocios en todo Colorado, a nivel nacional y en México. Si quieres llegar a mercados bilingües o implementar estrategia de IA, podemos ayudarte sin importar dónde estés.",
   },
