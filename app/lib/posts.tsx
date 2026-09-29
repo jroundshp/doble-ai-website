@@ -638,9 +638,9 @@ export const posts: Post[] = [
     dateISO: "2026-09-29",
     category: "Estrategia de IA",
     readTime: "5 min de lectura",
-    coverImage: "/work/ai-to-si-es.jpg",
+    coverImage: "/work/ai-to-si-mark-es.jpg",
     coverAlt:
-      "Trump dice SI. Musk dice superinteligencia. Debajo: Washington usa SI para la IA de hoy, los laboratorios de IA usan superinteligencia para una IA por encima del nivel humano y tu sitio web debería usar las dos palabras.",
+      "IA en gris sobre una mitad negra y una flecha que cruza hacia SI en negro sobre una mitad naranja: el cambio de IA a SI del gobierno de Estados Unidos",
     keywords:
       "IA o SI, qué es SI superinteligencia, Trump superinteligencia inteligencia artificial, Departamento de Estado SI, superinteligencia para negocios pequeños, Elon Musk superinteligencia, de IA a SI, SEO y GEO para términos nuevos de IA, implementación de IA bilingüe Colorado",
     content: (
@@ -667,6 +667,11 @@ export const posts: Post[] = [
           negocio usa IA o vende algo que funciona con ella, vas a escuchar las
           dos versiones de la palabra, y tus clientes también.
         </p>
+
+        <img
+          src="/work/ai-to-si-es.jpg"
+          alt="Trump dice SI. Musk dice superinteligencia. Debajo: Washington usa SI para la IA de hoy, los laboratorios de IA usan superinteligencia para una IA por encima del nivel humano y tu sitio web debería usar las dos palabras."
+        />
 
         <h2>¿Quién la está llamando SI?</h2>
         <p>
@@ -835,9 +840,9 @@ export const posts: Post[] = [
     dateISO: "2026-09-29",
     category: "AI Strategy",
     readTime: "5 min read",
-    coverImage: "/work/ai-to-si-en.jpg",
+    coverImage: "/work/ai-to-si-mark-en.jpg",
     coverAlt:
-      "Trump says SI. Musk says superintelligence. Below it: Washington uses SI for today’s AI, the AI labs use superintelligence for AI beyond human level, and your website should use both words.",
+      "AI in gray on a black half, an arrow crossing to SI in black on an orange half: the U.S. government’s switch from AI to SI",
     keywords:
       "AI vs SI, what is SI super intelligence, Trump super intelligence AI rename, State Department SI, superintelligence meaning for small business, Elon Musk superintelligence, AI to SI terminology, SEO and GEO for new AI terms, bilingual AI implementation Colorado",
     content: (
@@ -864,6 +869,11 @@ export const posts: Post[] = [
           it, you&apos;re going to hear both versions of the word. So are your
           customers.
         </p>
+
+        <img
+          src="/work/ai-to-si-en.jpg"
+          alt="Trump says SI. Musk says superintelligence. Below it: Washington uses SI for today’s AI, the AI labs use superintelligence for AI beyond human level, and your website should use both words."
+        />
 
         <h2>Who is actually calling it SI?</h2>
         <p>
