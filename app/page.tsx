@@ -456,6 +456,22 @@ const clientProjects = [
     image: "/work/john-tyler.jpg",
   },
   {
+    name: "Gypsum Outside",
+    kind: "Our own build · Bilingual outdoor guide · Gypsum, CO",
+    step1Label: "Why we built it",
+    step1:
+      "Gypsum is the west end of the Eagle River Valley, right next to the county airport where about 329,000 travelers land each year, and it had no visitor guide at all. The town's website covers utilities and permits. Hardscrabble's moto trails, the lower Eagle River, Dotsero Crater and the town's restaurants weren't written up together anywhere, so when someone asked Google or ChatGPT what to do in Gypsum there was nothing useful to return. More than half the town is Hispanic, and nothing local was in Spanish.",
+    step2Label: "What we built",
+    step2:
+      "A bilingual guide to the whole town, paid for out of our own pocket. Hardscrabble's 24,000 acres of moto and OHV country, the Dry Lake Motocross Park (written with the nonprofit that runs it), live river flows and weather, a direct I-70 camera, a fly-in guide for airport arrivals, hunting seasons, events, and a local dining directory. The whole site is architected for SEO and GEO, with answers written the way people ask ChatGPT and Grok, and the core pages are in both English and Spanish.",
+    domain: "gypsumoutside.com",
+    href: "https://gypsumoutside.com",
+    cta: "Visit the site",
+    tag: "Bilingual outdoor guide",
+    gradient: "linear-gradient(135deg, #1f2a1e 0%, #4a3a24 55%, #e0a43c 125%)",
+    image: "/work/gypsum-outside.jpg",
+  },
+  {
     name: "Alexander Estrada",
     kind: "Client build · Adventure film & photography · Denver–Boulder, CO",
     step1Label: "The audit revealed",
