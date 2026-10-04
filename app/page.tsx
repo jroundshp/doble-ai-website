@@ -551,17 +551,27 @@ const clientProjects = [
     gradient: "linear-gradient(135deg, #2a1d12 0%, #5a3c22 55%, #c89a5c 125%)",
     image: "/work/ultimate-kitchen-tools.jpg",
   },
+  {
+    name: "Ellicottville Outside",
+    kind: "Our own build · Outdoor guide · Ellicottville, NY",
+    step1Label: "Why we built it",
+    step1:
+      "Ellicottville is a four-season ski village about an hour south of Buffalo, with two resorts, Holiday Valley and HoliMont, more than 50 miles of mountain bike trail, and Allegany State Park just south of town. Each resort covers its own mountain and the village keeps its own calendar, so a visitor planning a weekend had to piece it together from a handful of sites. Nothing compared the two mountains or put every event in one place, and that left Google and ChatGPT without a single good answer to give.",
+    step2Label: "What we built",
+    step2:
+      "A guide to the whole town, built and paid for by us. A single events calendar covering both resorts and the village, a directory of 26 places to eat and drink and 20 independent shops, live weather and river gauges, a real estate page that explains the town and village short-term rental rules, and more than a dozen long-form guides, from a Holiday Valley vs HoliMont ski-day playbook to fall foliage hikes and fly fishing. The whole site is architected for SEO and GEO, with answers written the way people ask ChatGPT and Grok.",
+    domain: "ellicottvilleoutside.com",
+    href: "https://ellicottvilleoutside.com",
+    cta: "Visit the site",
+    tag: "Four-season outdoor guide",
+    gradient: "linear-gradient(135deg, #12261d 0%, #1f3d2c 55%, #d9a441 125%)",
+    image: "/work/ellicottville-outside.jpg",
+  },
 ];
 
 /* Properties we own. Not things we sell: they are where the same method runs
    on our own dime, which is the only reason they belong on this page. */
 const ownedProperties = [
-  {
-    name: "Ellicottville Outside",
-    what: "The whole of a two-resort ski town in one place: four seasons of things to do, 20 shops, 26 places to eat and drink, a live events calendar, and 50-plus miles of trail within minutes of the village, with Art Roscoe in Allegany State Park a short drive south.",
-    domain: "ellicottvilleoutside.com",
-    href: "https://ellicottvilleoutside.com",
-  },
   {
     name: "CO Headwaters Report",
     what: "Live flow, water temperature, and turbidity for the Vail, Eagle River, and Roaring Fork stretches that guides and outfitters actually check.",
@@ -693,13 +703,12 @@ function Projects() {
         <div className="mt-24 pt-16 border-t border-white/[0.06]">
           <p className="text-[#a3a3a3] text-lg leading-relaxed max-w-2xl mb-10">
             We run the same method on properties we own, at our own expense:{" "}
-            <strong className="text-white font-semibold">Ellicottville Outside</strong>,{" "}
-            <strong className="text-white font-semibold">CO Headwaters Report</strong>, and{" "}
+            <strong className="text-white font-semibold">CO Headwaters Report</strong> and{" "}
             <strong className="text-white font-semibold">Vail Valley Report</strong>.
             They are not for sale. They are where we prove the method on our own
             dime before we bill anyone for it.
           </p>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-2 gap-4">
             {ownedProperties.map((o) => (
               <a
                 key={o.name}
