@@ -556,10 +556,10 @@ const clientProjects = [
     kind: "Our own build · Outdoor guide · Ellicottville, NY",
     step1Label: "Why we built it",
     step1:
-      "Ellicottville is a four-season ski village about an hour south of Buffalo, with two resorts, Holiday Valley and HoliMont, more than 50 miles of mountain bike trail, and Allegany State Park just south of town. Each resort covers its own mountain and the village keeps its own calendar, so a visitor planning a weekend had to piece it together from a handful of sites. Nothing compared the two mountains or put every event in one place, and that left Google and ChatGPT without a single good answer to give.",
+      "Ellicottville is a four-season ski village about an hour south of Buffalo, with two resorts, more than 50 miles of mountain bike trail, and Allegany State Park just south of town. There was no site where you could find all of it in one place. Holiday Valley has a great site, but it is about Holiday Valley, and HoliMont's is about HoliMont. The chamber's site lists the chamber's own events. A visitor planning a weekend had to piece the town together from all three, and Google and ChatGPT had no single good answer to give.",
     step2Label: "What we built",
     step2:
-      "A guide to the whole town, built and paid for by us. A single events calendar covering both resorts and the village, a directory of 26 places to eat and drink and 20 independent shops, live weather and river gauges, a real estate page that explains the town and village short-term rental rules, and more than a dozen long-form guides, from a Holiday Valley vs HoliMont ski-day playbook to fall foliage hikes and fly fishing. The whole site is architected for SEO and GEO, with answers written the way people ask ChatGPT and Grok.",
+      "One stop for the whole town, built and paid for by us. A single events calendar covering both resorts and the village, a directory of 26 places to eat and drink and 20 independent shops, live weather and river gauges, a real estate page that explains the town and village short-term rental rules, and more than a dozen long-form guides, from a Holiday Valley vs HoliMont ski-day playbook to fall foliage hikes and fly fishing. The whole site is architected for SEO and GEO, with answers written the way people ask ChatGPT and Grok.",
     domain: "ellicottvilleoutside.com",
     href: "https://ellicottvilleoutside.com",
     cta: "Visit the site",
