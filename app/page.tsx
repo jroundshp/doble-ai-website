@@ -520,6 +520,22 @@ const clientProjects = [
     image: "/work/rocky-goat.jpg",
   },
   {
+    name: "Cooperstown Experience",
+    kind: "Client build · Youth baseball & softball destination · Cooperstown, NY",
+    step1Label: "The starting point",
+    step1:
+      "A youth baseball and softball destination going up in phases on about 140 acres, 3.5 miles from the National Baseball Hall of Fame. Two restaurants and an arcade are already open, the first three tournament fields are approved and under construction, and a 125-room family lodge and five more fields are planned. The old website was a tournament booking site. It had no place to show the whole project, and the owners needed one before they went looking for lenders, investors and partners to fund the next phase.",
+    step2Label: "What we built",
+    step2:
+      "A new site with one job: put the entire project in front of the people who could finance it. It walks through every phase, from what's open today to the full build-out, with the master plan, concept renderings, construction progress photos and the approvals already in hand. A Partner With Us section speaks to lenders, investors and joint-venture partners separately, backs the case with market numbers and their sources, and leads to the private project packet. Tournament registration still has its own link in the menu, and the whole build is architected for SEO and GEO, so the project surfaces in Google and in AI tools like ChatGPT and Grok.",
+    domain: "cooperstownexperience.com",
+    href: "https://www.cooperstownexperience.com",
+    cta: "Visit the site",
+    tag: "Youth baseball & softball destination",
+    gradient: "linear-gradient(135deg, #14244a 0%, #1f3a6b 55%, #b8232f 125%)",
+    image: "/work/cooperstown-experience.jpg",
+  },
+  {
     name: "Concrete Warrior Supply",
     kind: "Client build · Concrete, aggregate & topsoil · New Town, ND",
     step1Label: "The starting point",
