@@ -474,9 +474,9 @@ const clientProjects = [
   {
     name: "Alexander Estrada",
     kind: "Client build · Adventure film & photography · Denver–Boulder, CO",
-    step1Label: "Where he started",
+    step1Label: "What he had",
     step1:
-      "Ten-plus years as a filmmaker, photographer and drone pilot, with real credits: Simon Reeve's BBC series, Channel 4 News, ABC News, Natural Habitat Adventures. What he didn't have was a site that showed any of it. His old WordPress template squeezed work that should fill the screen into small boxes, and years of climbing, expedition and commercial shoots were scattered and hard to browse.",
+      "Ten-plus years as a filmmaker, photographer and drone pilot, with real credits: Simon Reeve's BBC series, Channel 4 News, ABC News, Natural Habitat Adventures. Years of climbing, expedition and commercial shoots, and a story that runs from Cusco to Colorado.",
     step2Label: "What we built",
     step2:
       "An image-first bilingual portfolio modeled on Jimmy Chin's: near-black, full-bleed, one red accent. The homepage opens on a single frame, with Films, Photos and About as the way in. His showreel and films sit together, more than 200 photos are sorted into galleries, and a blog tells his Cusco-to-Colorado story in English and Spanish. It's built for SEO and GEO, so he shows up in Google and in AI answers.",
