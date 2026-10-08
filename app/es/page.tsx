@@ -435,12 +435,12 @@ const clientProjects = [
   {
     name: "John Tyler Real Estate",
     kind: "Proyecto de cliente · Bienes raíces de lujo · Vail y el valle del río Eagle, CO",
-    step1Label: "Lo que reveló la auditoría",
+    step1Label: "Dónde empezó",
     step1:
-      "Un gerente de sucursal y agente de Slifer Smith & Frampton con más de $900M en ventas de carrera, y casi nada en línea que fuera realmente suyo. Su única presencia era una página de agente dentro del sitio corporativo, con sus propiedades y su historia enterradas en la MLS. No aparecía en Google con su propio nombre, herramientas de IA como ChatGPT y Grok no lo conocían, y no había nada en español en un valle donde buena parte de los compradores y residentes lo hablan.",
+      "Más de veinte años en el oficio, ventas de carrera por encima de $900M y el puesto de gerente de sucursal de Slifer Smith & Frampton en Vail Village. Pocos agentes conocen este valle como John Tyler. Lo que no tenía era un sitio web propio: en internet solo existía una página de agente dentro de un sitio corporativo. Al buscar su nombre en Google no aparecía, y ChatGPT y Grok no sabían quién era. Tampoco había nada en español, en un valle donde buena parte de los compradores y residentes lo hablan.",
     step2Label: "Lo que construimos",
     step2:
-      "Un sitio bilingüe completo construido alrededor del hombre, no de la corredora: su historia real (criado en Vail, una carrera internacional de negocios y el regreso a casa a los bienes raíces), 9 guías de vecindarios y comunidades de Vail a Gypsum, un blog creciente en inglés y español con análisis del mercado y guías para compradores, sus propiedades activas, reseñas reales de clientes y una forma clara de contactarlo en cada página. Todo el sitio está diseñado para SEO y GEO, así que aparece en las búsquedas de Google y en herramientas de IA como ChatGPT y Grok, y cada página tiene su gemela en español con calidad nativa.",
+      "Un sitio bilingüe a la altura del agente. Cuenta su historia real: creció en Vail, hizo una carrera internacional en los negocios y volvió a casa para dedicarse a los bienes raíces. Incluye 9 guías de comunidades de Vail a Gypsum, un blog en inglés y español con análisis del mercado y guías para compradores, sus propiedades activas y reseñas reales de clientes. Está diseñado para SEO y GEO, así que aparece en Google y en las respuestas de la IA, y cada página tiene su gemela en español con calidad nativa.",
     domain: "johntylerrealestate.com",
     href: "https://johntylerrealestate.com",
     cta: "Visitar el sitio",
@@ -451,12 +451,12 @@ const clientProjects = [
   {
     name: "Alexander Estrada",
     kind: "Proyecto de cliente · Cine y fotografía de aventura · Denver–Boulder, CO",
-    step1Label: "Lo que reveló la auditoría",
+    step1Label: "Lo que tenía",
     step1:
-      "Un cineasta, fotógrafo y piloto de dron con más de 10 años de trabajo y créditos reales: la serie de la BBC de Simon Reeve, Channel 4 News, ABC News, Natural Habitat Adventures. Su viejo sitio en WordPress no mostraba casi nada de eso. Un trabajo visual que debería llenar la pantalla vivía apretado en una plantilla anticuada, y años de escalada, expediciones y proyectos comerciales estaban dispersos y difíciles de recorrer.",
+      "Más de 10 años como cineasta, fotógrafo y piloto de dron, con créditos reales: la serie de la BBC de Simon Reeve, Channel 4 News, ABC News, Natural Habitat Adventures. A eso se suman años de rodajes de escalada, expediciones y proyectos comerciales.",
     step2Label: "Lo que construimos",
     step2:
-      "Un portafolio bilingüe donde la imagen manda, inspirado en el de Jimmy Chin: casi negro, a pantalla completa, un solo acento rojo. La página de inicio abre con un solo cuadro y Films, Photos y About como puertas de entrada. Su reel y sus películas viven juntos, más de 200 fotos están organizadas en galerías fáciles de recorrer y un blog cuenta su historia de Cusco a Colorado en inglés y español. Todo el sitio está diseñado para SEO y GEO, y está construido para la forma en que la gente realmente mira el trabajo visual.",
+      "Un portafolio bilingüe donde la imagen manda, inspirado en el de Jimmy Chin: casi negro, a pantalla completa, un solo acento rojo. La página de inicio abre con un solo cuadro, y Films, Photos y About son la puerta de entrada. Su reel y sus películas están juntos, más de 200 fotos se organizan en galerías y un blog cuenta su historia de Cusco a Colorado en inglés y español. Está diseñado para SEO y GEO, así que aparece en Google y en las respuestas de la IA.",
     domain: "alexanderestral.com",
     href: "https://alexanderestral.com",
     cta: "Visitar el sitio",
