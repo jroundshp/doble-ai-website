@@ -442,12 +442,12 @@ const clientProjects = [
   {
     name: "John Tyler Real Estate",
     kind: "Client build · Luxury real estate · Vail & the Eagle River Valley, CO",
-    step1Label: "The audit revealed",
+    step1Label: "Where he started",
     step1:
-      "A Slifer Smith & Frampton branch manager and broker with more than $900M in career sales, and almost nothing online he actually owned. His only real presence was a brokerage agent page inside a corporate site, with his listings and his story buried in the MLS. He wasn't surfacing on his own name in Google, AI tools like ChatGPT and Grok didn't know him, and there was nothing in Spanish in a valley where a large share of buyers and residents speak it.",
+      "Over two decades in the business, more than $900M in career sales, and the branch manager's seat at Slifer Smith & Frampton in Vail Village. Few brokers know this valley the way John Tyler does. What he didn't have was a website of his own. All he had online was an agent page on a corporate site. Searching his name in Google didn't bring him up, and ChatGPT and Grok had never heard of him. He had nothing in Spanish either, in a valley where a large share of buyers and residents speak it.",
     step2Label: "What we built",
     step2:
-      "A full bilingual site built around the man, not the brokerage: his real story (raised in Vail, an international business career, then home to real estate), nine neighborhood and community guides from Vail to Gypsum, a growing English and Spanish blog of market updates and buyer guides, his active listings, real client reviews, and a clear way to reach him on every page. The whole site is architected for SEO and GEO, so he surfaces in regular Google searches and in AI tools like ChatGPT and Grok, and every page has a native-quality Spanish twin.",
+      "A bilingual site that finally matches the broker. It tells his real story: he grew up in Vail, built an international business career, and came home to sell real estate. It has nine community guides from Vail to Gypsum, a growing blog of market updates and buyer guides in English and Spanish, his active listings, and real client reviews. It's built for SEO and GEO, so he shows up in Google and in AI answers, and every page has a native-quality Spanish twin.",
     domain: "johntylerrealestate.com",
     href: "https://johntylerrealestate.com",
     cta: "Visit the site",
