@@ -370,19 +370,19 @@ function VoiceDemo() {
 function SampleWork() {
   const samples = [
     {
-      href: "https://jroundshp.github.io/doble-ai-deliverables/rocky-mountain-finishes/",
+      href: "https://deliverables.dobleai.com/rocky-mountain-finishes/",
       kind: "Auditoría de negocio · Abril 2026",
       name: "Negocio de oficios en Colorado",
       desc: "Noroeste de Colorado. Contratista especializado que atiende el corredor de lujo de montaña. Análisis competitivo completo, auditoría de presencia digital y recomendaciones de crecimiento.",
     },
     {
-      href: "https://jroundshp.github.io/doble-ai-deliverables/vail-valley-real-estate/",
+      href: "https://deliverables.dobleai.com/vail-valley-real-estate/",
       kind: "Auditoría de negocio · Abril 2026",
       name: "Grupo inmobiliario del valle de Vail",
       desc: "Valle de Vail, Colorado. Equipo de bienes raíces de lujo con más de $850M en ventas de carrera. Auditoría de presencia digital, panorama competitivo y plan de crecimiento de 90 días.",
     },
     {
-      href: "https://jroundshp.github.io/doble-ai-deliverables/sol-ramirez/",
+      href: "https://deliverables.dobleai.com/sol-ramirez/",
       kind: "Auditoría de negocio · Abril 2026",
       name: "Agente inmobiliaria de la ribera de Chapala",
       desc: "Lago de Chapala, México. Agente bilingüe en un mercado con muchos compradores extranjeros. Auditoría de presencia digital, revisión de visibilidad en buscadores e IA, panorama competitivo y plan de crecimiento priorizado.",

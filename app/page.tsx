@@ -362,7 +362,7 @@ function SampleWork() {
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a
-            href="https://jroundshp.github.io/doble-ai-deliverables/rocky-mountain-finishes/"
+            href="https://deliverables.dobleai.com/rocky-mountain-finishes/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors"
@@ -383,7 +383,7 @@ function SampleWork() {
             </div>
           </a>
           <a
-            href="https://jroundshp.github.io/doble-ai-deliverables/vail-valley-real-estate/"
+            href="https://deliverables.dobleai.com/vail-valley-real-estate/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors"
@@ -404,7 +404,7 @@ function SampleWork() {
             </div>
           </a>
           <a
-            href="https://jroundshp.github.io/doble-ai-deliverables/sol-ramirez/"
+            href="https://deliverables.dobleai.com/sol-ramirez/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col bg-white/[0.04] hover:bg-white/[0.07] border border-white/[0.1] rounded-2xl overflow-hidden transition-colors"
