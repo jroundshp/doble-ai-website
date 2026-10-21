@@ -6,6 +6,12 @@ const JOHN_EMAIL = 'jroundshp@gmail.com';
 const FROM_ADDRESS = 'Lucy <onboarding@resend.dev>';
 
 export async function POST(request: Request) {
+  // Vapi sends this header (set on the phone number's server config); reject anyone else
+  const secret = process.env.VAPI_WEBHOOK_SECRET;
+  if (!secret || request.headers.get('x-vapi-secret') !== secret) {
+    return Response.json({ error: 'unauthorized' }, { status: 401 });
+  }
+
   const body = await request.json();
   const message = body?.message;
 
