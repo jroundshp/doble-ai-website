@@ -461,6 +461,22 @@ const clientProjects = [
     image: "/work/john-tyler.jpg",
   },
   {
+    name: "Sweetpea Marketing Co.",
+    kind: "Client build · Marketing studio · Laramie, WY",
+    step1Label: "Where she started",
+    step1:
+      "Gracie Rounds had six years of marketing behind her when she opened her own studio in Laramie, Wyoming. That work covered a coffee roaster in Victor, Montana, Bravo! Vail's summer music festival, and luxury hotels. Sweetpea had an Instagram account and nothing else: no website and no domain. A business owner who searched Google or asked ChatGPT for marketing help in Laramie had no way to find her, and her best work was spread across her clients' feeds.",
+    step2Label: "What we built",
+    step2:
+      "We registered the domain and built a one-page site in her brand's colors, with her own photos. It covers what Sweetpea does, tells Gracie's story, and books a free check-in through Instagram. A Work section pulls her photography together with 23 Reels she made for Big Creek Coffee Roasters and Bravo! Vail. The copy puts Laramie first, then Wyoming, Colorado, Montana and the Rocky Mountain West, and a questions section answers the way people ask ChatGPT and Grok. It's built for SEO and GEO, it's verified in Google and Bing, and analytics were live from launch day.",
+    domain: "sweetpeamarketingco.com",
+    href: "https://sweetpeamarketingco.com",
+    cta: "Visit the site",
+    tag: "Mountain-town marketing studio",
+    gradient: "linear-gradient(135deg, #2f4b3b 0%, #a7b39d 60%, #b65b3c 125%)",
+    image: "/work/sweetpea.jpg",
+  },
+  {
     name: "Gypsum Outside",
     kind: "Our own build · Bilingual outdoor guide · Gypsum, CO",
     step1Label: "Why we built it",
