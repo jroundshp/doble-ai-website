@@ -43,6 +43,10 @@ const faqs = [
     a: "Two things. First, we don't hand you a tool. We build an AI workspace that learns your business. It remembers your clients, your workflows, your brand voice, and the decisions you've already made. Every session compounds on the last. Most businesses get AI that resets to zero every day; our clients get AI that gets sharper the longer we work together. Second, we're one of Colorado's few bilingual AI implementation firms, delivering strategy and content in native-quality Spanish as well as English, reaching the 40–50% of Colorado mountain corridor residents whose first language is Spanish. Separately, each is a meaningful edge. Together, they're a significant one.",
   },
   {
+    q: "Are the websites you build AI-generated?",
+    a: "Not in the way most people mean it. An AI-generated site is a template that a site builder fills in, with nobody checking the result. Ours are custom-coded in Next.js or Astro and hosted on Vercel. We do use AI agents to write code to current best practices, the way a good builder uses power tools, and John directs the work and reviews every page before it goes live.",
+  },
+  {
     q: "Does Doble AI work with SI, or Super Intelligence?",
     a: "Yes. SI, short for Super Intelligence, is the name the U.S. government adopted for artificial intelligence in September 2026. It is the same technology we have always implemented: AI workspaces that learn your business, bilingual content, and voice agents like LUCI. We use both terms, and we follow whichever one your customers use.",
   },
@@ -85,6 +89,7 @@ export default function Home() {
       <VoiceDemo />
       <SampleWork />
       <Projects />
+      <HowWeBuild />
       <Testimonials />
       <FAQ />
       <About />
@@ -743,6 +748,67 @@ function Projects() {
               </a>
             ))}
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── How We Build ── */
+function HowWeBuild() {
+  const cards = [
+    {
+      title: "Custom code, no templates",
+      desc: "Each site is written for the business it serves, in Next.js or Astro, the frameworks professional development teams use today. There is no drag-and-drop builder underneath for you to outgrow.",
+    },
+    {
+      title: "Agents that know current best practices",
+      desc: "Our coding agents build to today's standards for page speed, accessibility, mobile layout and the structured data search and AI engines read. Every page is then checked in a real browser before it ships.",
+    },
+    {
+      title: "Hosting serious companies use",
+      desc: "Every client site above runs on Vercel's global network: HTTPS by default, every version kept so any change can be rolled back, and updates live in minutes.",
+    },
+    {
+      title: "A person who answers for it",
+      desc: "John directs the work and reviews every page. You talk to him, not a ticket queue.",
+    },
+  ];
+
+  return (
+    <section id="how-we-build" className="py-24 px-6 border-t border-white/[0.06]">
+      <div className="max-w-6xl mx-auto">
+        <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
+          <span className="w-6 h-px bg-orange-500" />
+          How we build
+        </div>
+        <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
+          <h2 className="text-4xl font-bold leading-tight">
+            Professionally built.{" "}<br />Not an AI site.
+          </h2>
+          <div>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed mb-4">
+              Site builders now promise a website in sixty seconds. That is an AI
+              site: a template filled in by software, with nobody checking the
+              result. None of the sites above were made that way.
+            </p>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed">
+              We do use AI, the way a good builder uses power tools. The work goes
+              faster and comes out cleaner, and a person still designs it, checks
+              it and stands behind it.
+            </p>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-4">
+          {cards.map((c) => (
+            <div
+              key={c.title}
+              className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8"
+            >
+              <h3 className="text-lg font-semibold mb-3">{c.title}</h3>
+              <p className="text-[#a3a3a3] leading-relaxed">{c.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

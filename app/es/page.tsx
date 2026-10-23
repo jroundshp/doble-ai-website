@@ -60,6 +60,10 @@ const faqs = [
     a: "Dos cosas. Primero, no te entregamos una herramienta: construimos un espacio de trabajo con IA que aprende tu negocio. Recuerda a tus clientes, tus procesos, la voz de tu marca y las decisiones que ya tomaste, y cada sesión se acumula sobre la anterior. La mayoría de los negocios recibe una IA que se reinicia a cero cada día; nuestros clientes reciben una que se afila mientras más tiempo trabajamos juntos. Segundo, somos una de las pocas firmas bilingües de implementación de IA en Colorado, con estrategia y contenido en español de calidad nativa, llegando al 40–50% de los residentes del corredor de montaña de Colorado cuyo primer idioma es el español. Por separado, cada una es una ventaja real. Juntas, son una ventaja considerable.",
   },
   {
+    q: "¿Los sitios web que construyen son generados por IA?",
+    a: "No en el sentido en que la mayoría lo entiende. Un sitio generado por IA es una plantilla que llena una plataforma, sin que nadie revise el resultado. Los nuestros se programan a la medida en Next.js o Astro y se alojan en Vercel. Sí usamos agentes de IA para escribir código con las mejores prácticas actuales, como un buen constructor usa herramientas eléctricas, y John dirige el trabajo y revisa cada página antes de publicarla.",
+  },
+  {
     q: "¿Doble AI trabaja con SI o superinteligencia?",
     a: "Sí. SI, por superinteligencia, es el nombre que el gobierno de Estados Unidos adoptó para la inteligencia artificial en septiembre de 2026. Es la misma tecnología con la que siempre hemos trabajado: espacios de trabajo con IA que aprenden tu negocio, contenido bilingüe y agentes de voz como LUCI. Usamos los dos términos y seguimos el que usen tus clientes.",
   },
@@ -103,6 +107,7 @@ export default function HomeEs() {
       <VoiceDemo />
       <SampleWork />
       <Projects />
+      <HowWeBuild />
       <Testimonials />
       <FAQ />
       <About />
@@ -659,6 +664,68 @@ function Projects() {
               </a>
             ))}
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── How We Build ── */
+function HowWeBuild() {
+  const cards = [
+    {
+      title: "Código a la medida, sin plantillas",
+      desc: "Cada sitio se programa para el negocio al que sirve, en Next.js, el framework que hoy usan los equipos profesionales de desarrollo. No hay debajo un editor de arrastrar y soltar que tu negocio vaya a superar con el tiempo.",
+    },
+    {
+      title: "Agentes que dominan las mejores prácticas actuales",
+      desc: "Nuestros agentes de programación trabajan con los estándares de hoy en velocidad de carga, accesibilidad, diseño para celular y los datos estructurados que leen los buscadores y los motores de IA. Antes de publicarse, cada página se revisa en un navegador real.",
+    },
+    {
+      title: "El hosting que usan las empresas serias",
+      desc: "Todos los sitios de clientes de arriba funcionan en la red global de Vercel: HTTPS desde el primer día, cada versión guardada para poder revertir cualquier cambio y actualizaciones en línea en minutos.",
+    },
+    {
+      title: "Una persona que responde por el trabajo",
+      desc: "John dirige el trabajo y revisa cada página. Hablas directamente con él, no con una fila de tickets.",
+    },
+  ];
+
+  return (
+    <section id="como-construimos" className="py-24 px-6 border-t border-white/[0.06]">
+      <div className="max-w-6xl mx-auto">
+        <div className="inline-flex items-center gap-2 text-orange-500 text-xs font-semibold tracking-widest uppercase mb-6">
+          <span className="w-6 h-px bg-orange-500" />
+          Cómo construimos
+        </div>
+        <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
+          <h2 className="text-4xl font-bold leading-tight">
+            Construido por un profesional.{" "}<br />No es un sitio hecho por IA.
+          </h2>
+          <div>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed mb-4">
+              Hoy las plataformas para crear sitios web prometen tener tu página
+              lista en 60 segundos. Eso es un sitio hecho por IA: una plantilla que
+              llena un programa, sin que nadie revise el resultado. Ninguno de los
+              sitios de arriba se hizo así.
+            </p>
+            <p className="text-[#a3a3a3] text-lg leading-relaxed">
+              En Doble AI sí usamos IA, como un buen constructor usa herramientas
+              eléctricas: el trabajo avanza más rápido y queda más limpio, pero
+              siempre hay una persona que lo diseña, lo revisa y responde por él.
+            </p>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-4">
+          {cards.map((c) => (
+            <div
+              key={c.title}
+              className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8"
+            >
+              <h3 className="text-lg font-semibold mb-3">{c.title}</h3>
+              <p className="text-[#a3a3a3] leading-relaxed">{c.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
