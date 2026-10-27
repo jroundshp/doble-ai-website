@@ -477,6 +477,22 @@ const clientProjects = [
     image: "/work/sweetpea.jpg",
   },
   {
+    name: "Alpine Bistro",
+    kind: "Client build · Café, bourbon bar & catering · Ellicottville, NY",
+    step1Label: "Where they started",
+    step1:
+      "Alpine Bistro is several businesses under one roof on Washington Street in Ellicottville, New York. There's a café and dining room that turns into a wine bar at night, Alpine Roots (a bourbon lounge downstairs), a new side bar built around a real chairlift called The Last Chair, Ellicottville Coffee, a catering and group-events business, and rooms to rent upstairs. The bread comes from the Ellicottville Bake Shop, its sister business down the street. Most of that was on the old site somewhere, but it was scattered across pages, and Google and AI tools like ChatGPT couldn't read it as one place.",
+    step2Label: "What we built",
+    step2:
+      "A new site that leads with the photos: the storefront, the chairlift, the bourbon lounge and the coffee counter. Each part of the business gets its own panel (the dining room, The Last Chair, Alpine Roots, Ellicottville Coffee, catering and groups, and the rooms upstairs), and a Bake Shop band ties the two shops together with the sourdough, the Bake Shop's catering and a link down the street. It has food, bar and coffee menus, priced drop-off catering, and a group inquiry form that goes straight to the manager. Every dish, price, room and common question is marked up for SEO and GEO, so Google and AI answers can get them right. The old URLs and the QR codes on their printed menus still work, email stayed up through the switch, analytics carried over, and Lighthouse scores the site 100 for SEO, accessibility and best practices.",
+    domain: "alpinebistrony.com",
+    href: "https://alpinebistrony.com",
+    cta: "Visit the site",
+    tag: "Village café & bourbon bar",
+    gradient: "linear-gradient(135deg, #14100c 0%, #3a2a1f 55%, #c4531c 125%)",
+    image: "/work/alpine-bistro.jpg",
+  },
+  {
     name: "Gypsum Outside",
     kind: "Our own build · Bilingual outdoor guide · Gypsum, CO",
     step1Label: "Why we built it",
